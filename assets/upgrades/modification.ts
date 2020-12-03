@@ -810,6 +810,15 @@ const t: UpgradeBase[] = [
         ffg: 866,
       },
     ],
+    restrictions: [
+      {
+        chassis: [
+          "vultureclassdroidfighter",
+          "hyenaclassdroidbomber",
+          "droidtrifighter",
+        ],
+      },
+    ],
     cost: { value: 4 },
   },
   {

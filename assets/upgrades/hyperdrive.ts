@@ -18,8 +18,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: false,
-    epic: false,
-    restrictions: [{}],
+    epic: true,
   },
 ];
 

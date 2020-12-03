@@ -113,7 +113,7 @@ const t: ShipType = {
       ffg: 803,
     },
     {
-      xws: "bobafett-separatist",
+      xws: "bobafett-separatistalliance",
       ffg: 802,
       name: { en: "Boba Fett" },
       cost: 70,

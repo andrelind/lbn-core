@@ -264,6 +264,7 @@ const shipMap: { [s: string]: string } = {
   eta2actis: "-",
   nimbusclassvwing: ",",
   droidtrifighter: "+",
+  syliureclasshyperspacering: "*",
 };
 
 export const shipIcons = (name: string) => {

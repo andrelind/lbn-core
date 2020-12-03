@@ -136,7 +136,7 @@ const t: ShipType = {
       },
     },
     {
-      xws: "aaylasecura-eta2actis",
+      xws: "aaylasecura",
       ffg: 783,
       name: { en: "Aayla Secura" },
       cost: 51,
