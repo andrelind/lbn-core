@@ -2,10 +2,11 @@
   "name": "lbn-core",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "types": "dist",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && yarn tsc"
+    "build": "rm -rf dist && yarn tsc",
+    "prepublish": "rm -rf dist && yarn tsc"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
