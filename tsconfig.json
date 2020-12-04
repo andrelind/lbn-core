@@ -20,7 +20,7 @@
       "strict": true,
       "target": "es5",
     },
-    "exclude": [],
-    "include": ["**/*.ts"]
+    "exclude": ["dist"],
+    "include": ["src/**/*.ts"]
   }
   
