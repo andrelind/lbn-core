@@ -116,6 +116,7 @@ const icons: { [s: string]: string } = {
   rebel: "!",
   recover: "v",
   recurring: "`",
+  doublerecurring: "_",
   reinforce: "i",
   reload: "=",
   reversebankleft: "J",
