@@ -7,6 +7,7 @@ import { countForShip } from "./helpers/collection";
 import { State as CollectionState } from "./reducers/collection";
 
 import {
+  Faction,
   Pilot,
   Ship,
   ShipType,
@@ -44,7 +45,7 @@ export type UpgradeValue = {
 type TypeT = (translation?: Translation | undefined) => string;
 type TypeC = (s: string) => string;
 
-export const loadShips = (
+export const shipTypeOptions = (
   squadron: Squadron,
   t: TypeT,
   collection: CollectionState,
@@ -91,37 +92,13 @@ export const loadShips = (
       }),
     }));
 
-export const shipForXws = (
-  squadron: Squadron,
+export const shipTypeForXws = (
+  faction: Faction,
   shipXws: string
 ): ShipType | undefined => {
-  return Object.keys(pilotData[squadron.faction])
-    .map((key) => pilotData[squadron.faction][key])
+  return Object.keys(pilotData[faction])
+    .map((key) => pilotData[faction][key])
     .find((s) => s.xws === shipXws);
-};
-
-export const pilotForXws = (
-  squadron: Squadron,
-  shipXws: string,
-  pilotWxs: string
-) => {
-  const ship = Object.keys(pilotData[squadron.faction])
-    .map((key) => pilotData[squadron.faction][key])
-    .find((s) => s.xws === shipXws);
-  if (!ship) {
-    return;
-  }
-
-  const pilot = ship.pilots.find((p) => p.xws === pilotWxs);
-
-  if (!pilot) {
-    return;
-  }
-  return {
-    value: pilot.xws,
-    label: pilot.name.en,
-    pilot,
-  };
 };
 
 export const pilotOptions = (
