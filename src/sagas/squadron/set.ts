@@ -24,6 +24,7 @@ import {
 } from "../../actions/squadrons";
 import { setSquadron } from "../../requests/squadron";
 import { UserState } from "../../reducers/user";
+import { IMPORT_ALL } from "../../actions/sync";
 
 const getUser = (state: AppState) => state.app.user || {};
 const getSquadronXws = (state: AppState) => state.app.xws;
@@ -33,8 +34,12 @@ function* updateOnLoad(): any {
   console.log("SET SQUADRON: ON LOAD");
 
   const squadrons: SquadronXWS[] = yield select(getSquadronXws);
+
   yield put({ type: RESET_LOADED_SQUADRONS });
-  yield put({ type: UPDATE_LOADED_SQUADRON, squadronXws: squadrons });
+  yield put({
+    type: UPDATE_LOADED_SQUADRON,
+    squadronXws: squadrons.filter((s) => s.pilots.length > 0),
+  });
 
   // Purge all XWS-squadrons that we could not load...!
   const loadedSquadrons = yield select(getSquadrons);
@@ -66,7 +71,7 @@ function* setSquad(action: any): any {
       return;
     }
 
-    console.log("SET SQUADRON: SQUADRONS", squadrons);
+    // console.log("SET SQUADRON: SQUADRONS", squadrons);
     const squadron: SquadronXWS | void = squadrons.find((s) => s.uid === uid);
     if (!squadron) {
       console.log("SET SQUADRON: NOT FOUND", uid);
@@ -120,7 +125,7 @@ function* saga(): any {
     ],
     setSquad
   );
-  yield takeEvery(["REDUX_STORAGE_LOAD"], updateOnLoad);
+  yield takeEvery(["REDUX_STORAGE_LOAD", IMPORT_ALL], updateOnLoad);
 }
 
 export default saga;
