@@ -7,6 +7,7 @@ import {
   Upgrade,
   UpgradeXWS,
 } from "../types";
+import { ImportAllAction } from "./sync";
 
 export const RESET_LOADED_SQUADRONS: "RESET_LOADED_SQUADRONS" =
   "RESET_LOADED_SQUADRONS";
@@ -198,7 +199,8 @@ export type Action =
   | CopyShipAction
   | RemoveShipAction
   | ChangePilotAction
-  | SetUpgradeAction;
+  | SetUpgradeAction
+  | ImportAllAction;
 
 export const addSquadron = (
   faction: Faction,

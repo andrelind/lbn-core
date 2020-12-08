@@ -18,6 +18,7 @@ import {
   SET_UPGRADE,
   TOGGLE_FORMAT_SQUADRON,
 } from "../actions/squadrons";
+import { IMPORT_ALL } from "../actions/sync";
 import { keyFromSlot } from "../helpers/convert";
 import {
   cleanupUpgrades,
@@ -56,6 +57,11 @@ export default function onAction(
       };
 
       return [...state, s];
+    }
+
+    case IMPORT_ALL: {
+      const { squadrons } = action.payload;
+      return [...state, ...squadrons];
     }
 
     case IMPORT_SQUADRON: {
