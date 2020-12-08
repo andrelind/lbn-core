@@ -252,6 +252,11 @@ function* syncTournaments(
 }
 
 function* doSync(): any {
+  // @ts-ignore
+  if (process.browser) {
+    return;
+  }
+
   let user: UserState | undefined;
   try {
     user = yield select(getUser);

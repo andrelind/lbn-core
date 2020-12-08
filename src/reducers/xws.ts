@@ -56,7 +56,7 @@ export default function onAction(
         version: "2.0.0",
       };
 
-      return [...state, s];
+      return [...state.filter((s) => s.pilots.length > 0), s];
     }
 
     case IMPORT_ALL: {
