@@ -1,6 +1,6 @@
-import { v4 as uuid } from "uuid";
-import xwsMap from "../assets/ffg-xws";
-import upgradeData from "../assets/upgrades";
+import { v4 as uuid } from 'uuid';
+import xwsMap from '../assets/ffg-xws';
+import upgradeData from '../assets/upgrades';
 import {
   Faction,
   FactionKey,
@@ -8,13 +8,13 @@ import {
   Squadron,
   SquadronXWS,
   Translation,
-} from "../types";
-import { xwsFromSquadron } from "./convert";
-import { slotKeys } from "./enums";
-import { getFactionKey, serialize } from "./serializer";
+} from '../types';
+import { xwsFromSquadron } from './convert';
+import { slotKeys } from './enums';
+import { getFactionKey, serialize } from './serializer';
 
 const cleanText = (text?: string) => {
-  return text?.replace(/ *\([^)]*\) */g, "");
+  return text?.replace(/ *\([^)]*\) */g, '');
 };
 
 const validatePilot = (pilot: any): Object | void => {
@@ -28,7 +28,7 @@ const validatePilot = (pilot: any): Object | void => {
 
   const { name, ship, upgrades } = pilot;
   if (!name || !ship) {
-    console.log("No XWS");
+    console.log('No XWS');
     return undefined;
   }
 
@@ -47,9 +47,9 @@ const validatePilot = (pilot: any): Object | void => {
   if (upgrades.hardpoint) {
     delete upgrades.hardpoint;
   }
-  if (upgrades["force-power"]) {
-    upgrades.forcepower = upgrades["force-power"];
-    delete upgrades["force-power"];
+  if (upgrades['force-power']) {
+    upgrades.forcepower = upgrades['force-power'];
+    delete upgrades['force-power'];
   }
 
   slotKeys.forEach((key) => {
@@ -94,8 +94,8 @@ const validatePilots = (list: Array<any>): Array<any> | void => {
 
   for (let i = 0; i < list.length; i++) {
     let o = list[i];
-    if (typeof o !== "object") {
-      console.log("Invalid unit");
+    if (typeof o !== 'object') {
+      console.log('Invalid unit');
       return undefined;
     }
     o = validatePilot(o);
@@ -118,7 +118,7 @@ const validateJSON = (data: any): any | void => {
 
   const pilots = validatePilots(data.pilots);
   if (!pilots) {
-    console.log("Invalid list of pilots");
+    console.log('Invalid list of pilots');
     return undefined;
   }
 
@@ -153,42 +153,42 @@ export const canImportXws = (
     delete validatedJson.points;
     validatedJson.faction = getFaction(json.faction);
     validatedJson.ships = validatedJson.ships || [];
-    validatedJson.format = validatedJson.format || "Extended";
+    validatedJson.format = validatedJson.format || 'Extended';
 
     cb(json);
   } else {
-    cb(undefined, new Error("The XWS data in clipboard is invalid"));
+    cb(undefined, new Error('The XWS data in clipboard is invalid'));
   }
 };
 
 export const getFaction = (faction: string): Faction => {
   switch (faction) {
-    case "rebel":
-    case "rebelalliance":
-      return "Rebel Alliance";
+    case 'rebel':
+    case 'rebelalliance':
+      return 'Rebel Alliance';
 
-    case "scumandvillainy":
-    case "scum":
-      return "Scum and Villainy";
+    case 'scumandvillainy':
+    case 'scum':
+      return 'Scum and Villainy';
 
-    case "galacticempire":
-    case "imperial":
-      return "Galactic Empire";
+    case 'galacticempire':
+    case 'imperial':
+      return 'Galactic Empire';
 
-    case "resistance":
-      return "Resistance";
+    case 'resistance':
+      return 'Resistance';
 
-    case "firstorder":
-      return "First Order";
+    case 'firstorder':
+      return 'First Order';
 
-    case "galacticrepublic":
-      return "Galactic Republic";
+    case 'galacticrepublic':
+      return 'Galactic Republic';
 
-    case "separatistalliance":
-      return "Separatist Alliance";
+    case 'separatistalliance':
+      return 'Separatist Alliance';
 
     default:
-      return "Rebel Alliance";
+      return 'Rebel Alliance';
   }
 };
 
@@ -219,20 +219,31 @@ export const exportAsXws = (squadron: Squadron) => {
 
   const e: ExportXWS = {
     name: xws.name,
-    description: xws.description || "",
+    description: xws.description || '',
     faction: getFactionKey(xws.faction),
     points: xws.cost,
-    version: xws.version || "2.0.0",
-    pilots: xws.pilots.map((p) => ({
-      id: p.name,
-      ship: p.ship,
-      points: p.cost || 0,
-      upgrades: p.upgrades || {},
-    })),
+    version: xws.version || '2.0.0',
+    pilots: xws.pilots.map((p) => {
+      const upgrades: { [s: string]: string[] } = {};
+      Object.keys(p.upgrades || {}).map((key) => {
+        const real = key === 'forcepower' ? 'force-power' : key;
+        if (p.upgrades) {
+          // @ts-ignore
+          upgrades[real] = p.upgrades[key as SlotKey];
+        }
+      });
+
+      return {
+        id: p.name,
+        ship: p.ship,
+        points: p.cost || 0,
+        upgrades,
+      };
+    }),
     vendor: {
       lbn: {
-        builder: "Launch Bay Next",
-        builder_url: "https://launch-bay-next.herokuapp.com",
+        builder: 'Launch Bay Next',
+        builder_url: 'https://launch-bay-next.herokuapp.com',
         link: `https://launch-bay-next.herokuapp.com/print?lbx=${link}`,
       },
     },
@@ -269,7 +280,7 @@ export const exportAsTTS = (
   squadron: Squadron,
   t: (translation?: Translation) => string
 ) => {
-  let text = "";
+  let text = '';
 
   squadron.ships.map((ship) => {
     text += t(ship.pilot.name);
@@ -282,7 +293,7 @@ export const exportAsTTS = (
         });
       }
     });
-    text += " / ";
+    text += ' / ';
   });
 
   return text;
@@ -298,19 +309,19 @@ export const importFromQR = (data: any, skipParse: boolean = false) => {
     const json = skipParse ? data : JSON.parse(data);
     const validatedJson = validateJSON(json);
     if (!validatedJson) {
-      console.log("Could not validate json");
+      console.log('Could not validate json');
       return undefined;
     }
     if (!validatedJson.uid) {
       validatedJson.uid = uuid();
     }
-    validatedJson.name = validatedJson.name || "New Squadron";
+    validatedJson.name = validatedJson.name || 'New Squadron';
     validatedJson.cost = validatedJson.points;
     delete validatedJson.points;
     validatedJson.faction = getFaction(json.faction);
     validatedJson.ships = validatedJson.ships || [];
-    validatedJson.format = validatedJson.format || "Hyperspace";
-    console.log("validatedJson", validatedJson);
+    validatedJson.format = validatedJson.format || 'Hyperspace';
+    console.log('validatedJson', validatedJson);
     return validatedJson;
   } catch (error) {
     console.log(error);
@@ -323,8 +334,8 @@ export const convertFromFFG = (ffgSquad: any) => {
   const {
     faction,
     // id = '',
-    description = "",
-    name = "",
+    description = '',
+    name = '',
     deck = [],
     cost = 0,
     game_format,
@@ -339,7 +350,7 @@ export const convertFromFFG = (ffgSquad: any) => {
       }: { pilot_card: any; slots: any[]; cost: any },
       index: number
     ) => {
-      const { id: pilotId, name: pilotName = "", ship_type } = pilot_card;
+      const { id: pilotId, name: pilotName = '', ship_type } = pilot_card;
       const xwsId = xwsMap.pilots[pilotId];
       if (!xwsId) {
         throw new Error(
@@ -351,7 +362,7 @@ export const convertFromFFG = (ffgSquad: any) => {
       const ship = xwsMap.ships[ship_type];
       const upgrades: { [key in SlotKey]?: string[] } = {};
       slots.forEach(
-        ({ upgrade_types, id: upgradeId, name: upgradeName = "" }) => {
+        ({ upgrade_types, id: upgradeId, name: upgradeName = '' }) => {
           const slotId = upgrade_types[0];
           let slot = xwsMap.slots[`${slotId}`];
           console.log({ slot });
@@ -370,10 +381,10 @@ export const convertFromFFG = (ffgSquad: any) => {
 
           // Fix for FFG mismatch
           if (
-            upgradeXwsID === "calibratedlasertargeting" &&
-            slot === "modification"
+            upgradeXwsID === 'calibratedlasertargeting' &&
+            slot === 'modification'
           ) {
-            slot = "configuration";
+            slot = 'configuration';
           }
 
           if (!Array.isArray(upgrades[slot])) {
@@ -407,7 +418,7 @@ export const convertFromFFG = (ffgSquad: any) => {
     favourite: false,
     format: game_format.name,
     faction: parsedFaction,
-    version: "2.0.0",
+    version: '2.0.0',
   };
 
   console.log(xws);

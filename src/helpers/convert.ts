@@ -1,12 +1,12 @@
-import { Slot, SlotKey, Squadron, SquadronXWS } from "../types";
-import { allSlots, slotKeys } from "./enums";
+import { Slot, SlotKey, Squadron, SquadronXWS } from '../types';
+import { allSlots, slotKeys } from './enums';
 
 export const slotFromKey = (key: SlotKey): Slot => {
   const index = slotKeys.indexOf(key);
   if (index >= 0) {
     return allSlots[index];
   }
-  return "Force Power";
+  return 'Force Power';
 };
 
 export const keyFromSlot = (slot: Slot): SlotKey => {
@@ -14,7 +14,7 @@ export const keyFromSlot = (slot: Slot): SlotKey => {
   if (index >= 0) {
     return slotKeys[index];
   }
-  return "forcepower";
+  return 'forcepower';
 };
 
 export const xwsFromSquadron = (squadron: Squadron): SquadronXWS => {
@@ -23,7 +23,7 @@ export const xwsFromSquadron = (squadron: Squadron): SquadronXWS => {
   return {
     uid: s.uid,
     name: s.name,
-    description: "",
+    description: '',
     cost: s.cost,
     faction: s.faction,
     favourite: s.favourite,
@@ -34,9 +34,7 @@ export const xwsFromSquadron = (squadron: Squadron): SquadronXWS => {
       slotKeys.forEach((key) => {
         const u = ship.upgrades && ship.upgrades[key];
         if (u) {
-          // YASB uses 'force-power' and crashes otherwise
-          const real = key === "forcepower" ? "force-power" : key;
-          upgrades[real] = u.map((p) => p.xws);
+          upgrades[key] = u.map((p) => p.xws);
         }
       });
 
