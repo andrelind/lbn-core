@@ -393,6 +393,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
+    restrictions: [{ baseSizes: ['Small'] }, { action: { type: 'Boost' } }],
   },
 ];
 

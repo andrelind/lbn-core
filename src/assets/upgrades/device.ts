@@ -358,7 +358,8 @@ const t: UpgradeBase[] = [
           es: 'Bombas de impacto',
         },
         type: 'Device',
-        slots: [],
+        slots: ['Device'],
+        charges: { value: 3, recovers: 0 },
         ability: {
           en:
             "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb using the (1 [Straight]) template, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
