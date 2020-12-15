@@ -30,7 +30,7 @@ export default function onAction(
       const { squadronXws } = action;
 
       const newState = { ...state };
-      squadronXws.forEach((s) => {
+      squadronXws?.forEach((s) => {
         try {
           const p = loadSquadron(s);
           if (p) {

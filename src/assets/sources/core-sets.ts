@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 1,
-    xws: "xwingsecondeditioncoreset",
-    name: "X-Wing Second Edition Core Set",
+    xws: 'xwingsecondeditioncoreset',
+    name: 'X-Wing Second Edition Core Set',
     wave: 0,
     released: true,
     contents: {
@@ -41,12 +41,12 @@ export const t: Source[] = [
         shieldupgrade: 1,
       },
     },
-    sku: "SWZ01",
+    sku: 'SWZ01',
   },
   {
     ffg: 48,
-    xws: "nevertellmetheoddsobstaclepack",
-    name: "Never Tell Me the Odds Obstacle Pack",
+    xws: 'nevertellmetheoddsobstaclepack',
+    name: 'Never Tell Me the Odds Obstacle Pack',
     wave: 6,
     released: true,
     contents: {
@@ -57,8 +57,8 @@ export const t: Source[] = [
   },
   {
     ffg: 49,
-    xws: "fullyloadeddevicespack",
-    name: "Fully Loaded Devices Pack",
+    xws: 'fullyloadeddevicespack',
+    name: 'Fully Loaded Devices Pack',
     wave: 6,
     released: true,
     contents: {
@@ -79,8 +79,8 @@ export const t: Source[] = [
   },
   {
     ffg: 50,
-    xws: "hotshotsandacesreinforcementpack",
-    name: "Hotshots and Aces Reinforcement Pack",
+    xws: 'hotshotsandacesreinforcementpack',
+    name: 'Hotshots and Aces Reinforcement Pack',
     wave: 6,
     released: true,
     contents: {
@@ -102,10 +102,10 @@ export const t: Source[] = [
         leiaorgana: 1,
         nomlumb: 1,
         ronithblario: 1,
-        "bossk-z95af4headhunter": 1,
+        'bossk-z95af4headhunter': 1,
       },
       upgrades: {
-        "000": 1,
+        '000': 1,
         maul: 1,
         bt1: 1,
         composure: 2,

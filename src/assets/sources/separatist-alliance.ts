@@ -1,15 +1,15 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 22,
-    xws: "sithinfiltrator",
-    name: "Sith Infiltrator",
+    xws: 'sithinfiltrator',
+    name: 'Sith Infiltrator',
     wave: 3,
     released: true,
     contents: {
       ships: { sithinfiltrator: 1 },
-      pilots: { darthmaul: 1, countdooku: 1, "066": 1, darkcourier: 1 },
+      pilots: { darthmaul: 1, countdooku: 1, '066': 1, darkcourier: 1 },
       upgrades: {
         heavylasercannon: 1,
         ioncannon: 1,
@@ -33,8 +33,8 @@ export const t: Source[] = [
   },
   {
     ffg: 23,
-    xws: "vultureclassdroidfighter",
-    name: "Vulture-class Droid Fighter",
+    xws: 'vultureclassdroidfighter',
+    name: 'Vulture-class Droid Fighter',
     wave: 3,
     released: true,
     contents: {
@@ -57,8 +57,8 @@ export const t: Source[] = [
   },
   {
     ffg: 20,
-    xws: "servantsofstrife",
-    name: "Servants of Strife",
+    xws: 'servantsofstrife',
+    name: 'Servants of Strife',
     wave: 3,
     released: true,
     contents: {
@@ -106,8 +106,8 @@ export const t: Source[] = [
   },
   {
     ffg: 29,
-    xws: "hyenaclassdroidbomber",
-    name: "Hyena-class Droid Bomber",
+    xws: 'hyenaclassdroidbomber',
+    name: 'Hyena-class Droid Bomber',
     wave: 4,
     released: true,
     contents: {
@@ -131,15 +131,15 @@ export const t: Source[] = [
         electroprotonbomb: 1,
         delayedfuses: 1,
         landingstruts: 1,
-        "landingstruts(closed)": 1,
-        "landingstruts(open)": 1,
+        'landingstruts(closed)': 1,
+        'landingstruts(open)': 1,
       },
     },
   },
   {
     ffg: 36,
-    xws: "nantexclassstarfighter",
-    name: "Nantex-class",
+    xws: 'nantexclassstarfighter',
+    name: 'Nantex-class',
     wave: 5,
     released: true,
     contents: {
@@ -164,8 +164,8 @@ export const t: Source[] = [
   },
   {
     ffg: 58,
-    xws: "hmpdroidgunship",
-    name: "HMP Droid Gunship",
+    xws: 'hmpdroidgunship',
+    name: 'HMP Droid Gunship',
     wave: 7,
     released: true,
     contents: {
@@ -191,8 +191,8 @@ export const t: Source[] = [
   },
   {
     ffg: 63,
-    xws: "droidtrifighter",
-    name: "Droid Tri-Fighter",
+    xws: 'droidtrifighter',
+    name: 'Droid Tri-Fighter',
     wave: 8,
     released: true,
     contents: {
@@ -218,7 +218,7 @@ export const t: Source[] = [
   },
   {
     ffg: 64,
-    xws: "jangofettsslavei",
+    xws: 'jangofettsslavei',
     name: "Jango Fett's Slave I",
     wave: 8,
     released: true,
@@ -227,8 +227,8 @@ export const t: Source[] = [
       pilots: {
         jangofett: 1,
         zamwesell: 1,
-        "bobafett-separatist": 1,
         separatistracketeer: 1,
+        'bobafett-separatistalliance': 1,
       },
       upgrades: {
         debrisgambit: 1,
@@ -239,11 +239,11 @@ export const t: Source[] = [
         hondoohnaka: 1,
         jangofett: 1,
         zamwesell: 1,
-        "bobafett-gunner": 1,
+        'bobafett-gunner': 1,
         weaponssystemsofficer: 1,
         falsetranspondercodes: 1,
         thermaldetonators: 1,
-        "slavei-swz82": 1,
+        'slavei-swz82': 1,
       },
     },
   },

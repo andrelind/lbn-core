@@ -1,21 +1,21 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 25,
-    xws: "arc170starfighter",
-    name: "ARC-170 Starfighter",
+    xws: 'arc170starfighter',
+    name: 'ARC-170 Starfighter',
     wave: 3,
     released: true,
     contents: {
       ships: { arc170starfighter: 1 },
       pilots: {
-        "oddball-arc170starfighter": 1,
+        'oddball-arc170starfighter': 1,
         wolffe: 1,
         jag: 1,
         sinker: 1,
         squadsevenveteran: 1,
-        "104thbattalionpilot": 1,
+        '104thbattalionpilot': 1,
       },
       upgrades: {
         experthandling: 1,
@@ -37,8 +37,8 @@ export const t: Source[] = [
   },
   {
     ffg: 24,
-    xws: "delta7aethersprite",
-    name: "Delta-7 Aethersprite",
+    xws: 'delta7aethersprite',
+    name: 'Delta-7 Aethersprite',
     wave: 3,
     released: true,
     contents: {
@@ -62,8 +62,8 @@ export const t: Source[] = [
   },
   {
     ffg: 21,
-    xws: "guardiansoftherepublic",
-    name: "Guardians of the Republic",
+    xws: 'guardiansoftherepublic',
+    name: 'Guardians of the Republic',
     wave: 3,
     released: true,
     contents: {
@@ -125,14 +125,14 @@ export const t: Source[] = [
   },
   {
     ffg: 28,
-    xws: "nabooroyaln1starfighter",
-    name: "Naboo Royal N-1 Starfighter",
+    xws: 'nabooroyaln1starfighter',
+    name: 'Naboo Royal N-1 Starfighter',
     wave: 4,
     released: true,
     contents: {
       ships: { nabooroyaln1starfighter: 1 },
       pilots: {
-        "anakinskywalker-nabooroyaln1starfighter": 1,
+        'anakinskywalker-nabooroyaln1starfighter': 1,
         ricolie: 1,
         padmeamidala: 1,
         dineeellberger: 1,
@@ -153,8 +153,8 @@ export const t: Source[] = [
   },
   {
     ffg: 37,
-    xws: "btlbywing",
-    name: "BTL-B Y-wing",
+    xws: 'btlbywing',
+    name: 'BTL-B Y-wing',
     wave: 5,
     released: true,
     contents: {
@@ -166,8 +166,8 @@ export const t: Source[] = [
         r2d2: 1,
         shadowsquadronveteran: 1,
         redsquadronbomber: 1,
-        "anakinskywalker-btlbywing": 1,
-        "oddball-btlbywing": 1,
+        'anakinskywalker-btlbywing': 1,
+        'oddball-btlbywing': 1,
       },
       upgrades: {
         ioncannonturret: 1,
@@ -179,19 +179,19 @@ export const t: Source[] = [
         precognitivereflexes: 1,
         c110p: 1,
         ahsokatano: 1,
-        "c3po-republic": 1,
+        'c3po-republic': 1,
       },
     },
   },
   {
     ffg: 57,
-    xws: "laatigunship",
-    name: "Laat/i Gunship",
+    xws: 'laatigunship',
+    name: 'Laat/i Gunship',
     wave: 7,
     released: true,
     contents: {
       ships: { laatigunship: 1 },
-      pilots: { warthog: 1, hound: 1, "212thbattalionpilot": 1, hawk: 1 },
+      pilots: { warthog: 1, hound: 1, '212thbattalionpilot': 1, hawk: 1 },
       upgrades: {
         deadeyeshot: 1,
         multimissilepods: 1,
@@ -212,25 +212,26 @@ export const t: Source[] = [
   },
   {
     ffg: 61,
-    xws: "eta2actis",
-    name: "Eta-2 Actis",
+    xws: 'eta2actis',
+    name: 'Eta-2 Actis',
     wave: 8,
     released: true,
     contents: {
       ships: { eta2actis: 1 },
       pilots: {
-        "anakinskywalker-eta2actis": 1,
-        "obiwankenobi-eta2actis": 1,
-        "aaylasecura-eta2actis": 1,
+        'anakinskywalker-eta2actis': 1,
+        'obiwankenobi-eta2actis': 1,
         shaakti: 1,
         yoda: 1,
         jedigeneral: 1,
+        aaylasecura: 1,
+        transgalmegcontrollink: 1,
       },
       upgrades: {
         margsablclosure: 1,
         extrememaneuvers: 1,
         syliure31hyperdrive: 1,
-        "r2d2-republic": 1,
+        'r2d2-republic': 1,
         patience: 1,
         jedicommander: 1,
       },
@@ -238,8 +239,8 @@ export const t: Source[] = [
   },
   {
     ffg: 62,
-    xws: "nimbusclassvwing",
-    name: "Nimbus-class V-wing",
+    xws: 'nimbusclassvwing',
+    name: 'Nimbus-class V-wing',
     wave: 8,
     released: true,
     contents: {
@@ -250,7 +251,7 @@ export const t: Source[] = [
         wilhufftarkin: 1,
         shadowsquadronescort: 1,
         loyalistvolunteer: 1,
-        "oddball-nimbusclassvwing": 1,
+        'oddball-nimbusclassvwing': 1,
       },
       upgrades: {
         ionlimiteroverride: 1,

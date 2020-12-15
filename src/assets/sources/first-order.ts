@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 14,
-    xws: "firstorderconversionkit",
-    name: "First Order Conversion Kit",
+    xws: 'firstorderconversionkit',
+    name: 'First Order Conversion Kit',
     wave: 0,
     released: true,
     contents: {
@@ -106,8 +106,8 @@ export const t: Source[] = [
   },
   {
     ffg: 19,
-    xws: "tiefofigther",
-    name: "TIE/fo Fighter",
+    xws: 'tiefofigther',
+    name: 'TIE/fo Fighter',
     wave: 2,
     released: true,
     contents: {
@@ -140,8 +140,8 @@ export const t: Source[] = [
   },
   {
     ffg: 33,
-    xws: "tiesffighter",
-    name: "TIE/sf Fighter",
+    xws: 'tiesffighter',
+    name: 'TIE/sf Fighter',
     wave: 4,
     released: true,
     contents: {
@@ -165,8 +165,8 @@ export const t: Source[] = [
   },
   {
     ffg: 34,
-    xws: "tievnsilencer",
-    name: "TIE/vn Silencer",
+    xws: 'tievnsilencer',
+    name: 'TIE/vn Silencer',
     wave: 4,
     released: true,
     contents: {
@@ -190,7 +190,7 @@ export const t: Source[] = [
   },
   {
     ffg: 46,
-    xws: "tiebainterceptor",
+    xws: 'tiebainterceptor',
     name: "Major Vonreg's TIE",
     wave: 6,
     released: true,
@@ -208,15 +208,15 @@ export const t: Source[] = [
   },
   {
     ffg: 56,
-    xws: "xiclassshuttle",
-    name: "Xi-class Shuttle",
+    xws: 'xiclassshuttle',
+    name: 'Xi-class Shuttle',
     wave: 7,
     released: true,
     contents: {
       ships: { xiclasslightshuttle: 1 },
       pilots: {
-        "commandermalarus-xiclasslightshuttle": 1,
-        "gideonhask-xiclasslightshuttle": 1,
+        'commandermalarus-xiclasslightshuttle': 1,
+        'gideonhask-xiclasslightshuttle': 1,
         agentterex: 1,
         firstordercourier: 1,
         firstordercollaborators: 1,

@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 15,
-    xws: "resistanceconversionkit",
-    name: "Resistance Conversion Kit",
+    xws: 'resistanceconversionkit',
+    name: 'Resistance Conversion Kit',
     wave: 0,
     released: true,
     contents: {
@@ -18,7 +18,7 @@ export const t: Source[] = [
         karekun: 1,
         jessikapava: 1,
         jaycristubbs: 1,
-        "blacksquadronace-t70xwing": 1,
+        'blacksquadronace-t70xwing': 1,
         lieutenantbastian: 1,
         redsquadronexpert: 4,
         bluesquadronrookie: 4,
@@ -28,9 +28,9 @@ export const t: Source[] = [
         benteene: 1,
         cat: 1,
         cobaltsquadronbomber: 3,
-        "hansolo-scavengedyt1300": 1,
+        'hansolo-scavengedyt1300': 1,
         rey: 1,
-        "chewbacca-scavengedyt1300": 1,
+        'chewbacca-scavengedyt1300': 1,
         resistancesympathizer: 3,
       },
       upgrades: {
@@ -52,11 +52,11 @@ export const t: Source[] = [
         collisiondetector: 2,
         firecontrolsystem: 2,
         trajectorysimulator: 2,
-        "c3po-crew": 1,
-        "chewbacca-crew-swz19": 1,
+        'c3po-crew': 1,
+        'chewbacca-crew-swz19': 1,
         freelanceslicer: 2,
         gnkgonkdroid: 2,
-        "hansolo-crew": 1,
+        'hansolo-crew': 1,
         informant: 1,
         novicetechnician: 2,
         perceptivecopilot: 2,
@@ -66,7 +66,7 @@ export const t: Source[] = [
         finn: 1,
         hotshotgunner: 2,
         paigetico: 1,
-        "rey-gunner": 1,
+        'rey-gunner': 1,
         skilledbombardier: 2,
         veteranturretgunner: 2,
         bb8: 1,
@@ -125,8 +125,8 @@ export const t: Source[] = [
   },
   {
     ffg: 16,
-    xws: "rz2awing",
-    name: "RZ-2 A-Wing",
+    xws: 'rz2awing',
+    name: 'RZ-2 A-Wing',
     wave: 2,
     released: true,
     contents: {
@@ -150,8 +150,8 @@ export const t: Source[] = [
   },
   {
     ffg: 18,
-    xws: "t70xwing",
-    name: "T-70 X-Wing",
+    xws: 't70xwing',
+    name: 'T-70 X-Wing',
     wave: 2,
     released: true,
     contents: {
@@ -166,7 +166,7 @@ export const t: Source[] = [
         jessikapava: 1,
         jaycristubbs: 1,
         lieutenantbastian: 1,
-        "blacksquadronace-t70xwing": 1,
+        'blacksquadronace-t70xwing': 1,
         bluesquadronrookie: 1,
         redsquadronexpert: 1,
       },
@@ -182,8 +182,8 @@ export const t: Source[] = [
   },
   {
     ffg: 30,
-    xws: "resistancetransport",
-    name: "Resistance Transport",
+    xws: 'resistancetransport',
+    name: 'Resistance Transport',
     wave: 4,
     released: true,
     contents: {
@@ -212,7 +212,7 @@ export const t: Source[] = [
         larmadacy: 1,
         pz4co: 1,
         amilynholdo: 1,
-        "leiaorgana-resistance": 1,
+        'leiaorgana-resistance': 1,
         kaydelconnix: 1,
         angleddeflectors: 1,
         leiaorgana: 1,
@@ -221,8 +221,8 @@ export const t: Source[] = [
   },
   {
     ffg: 47,
-    xws: "fireball",
-    name: "Fireball",
+    xws: 'fireball',
+    name: 'Fireball',
     wave: 6,
     released: true,
     contents: {
@@ -244,15 +244,15 @@ export const t: Source[] = [
   },
   {
     ffg: 60,
-    xws: "heraldsofhope",
-    name: "Heralds of Hope Squadron Pack",
+    xws: 'heraldsofhope',
+    name: 'Heralds of Hope Squadron Pack',
     wave: 7,
     released: true,
     contents: {
       ships: { t70xwing: 2, rz2awing: 1 },
       pilots: {
-        "poedameron-swz68": 1,
-        "temminwexley-swz68": 1,
+        'poedameron-swz68': 1,
+        'temminwexley-swz68': 1,
         caithrenalli: 1,
         nimichereen: 1,
         merlcobben: 1,
@@ -262,12 +262,12 @@ export const t: Source[] = [
         bluesquadronrookie: 1,
         greensquadronexpert: 1,
         bluesquadronrecruit: 1,
-        "blacksquadronace-t70xwing": 1,
+        'blacksquadronace-t70xwing': 1,
         nimichireen: 1,
         seftinvanik: 1,
       },
       upgrades: {
-        "r2d2-resistance": 1,
+        'r2d2-resistance': 1,
         r6d8: 1,
         r4astromech: 1,
         integratedsfoils: 1,

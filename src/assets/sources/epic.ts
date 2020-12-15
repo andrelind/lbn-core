@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 51,
-    xws: "hugeshipconversionkit",
-    name: "Huge Ship Conversion Kit",
+    xws: 'hugeshipconversionkit',
+    name: 'Huge Ship Conversion Kit',
     wave: 6,
     released: true,
     contents: {
@@ -89,8 +89,8 @@ export const t: Source[] = [
   },
   {
     ffg: 54,
-    xws: "tantiveivexpansionpack",
-    name: "Tantive IV Expansion Pack",
+    xws: 'tantiveivexpansionpack',
+    name: 'Tantive IV Expansion Pack',
     wave: 6,
     released: true,
     contents: {
@@ -130,8 +130,8 @@ export const t: Source[] = [
   },
   {
     ffg: 55,
-    xws: "croccruiserexpansionpack",
-    name: "C-ROC Cruiser Expansion Pack",
+    xws: 'croccruiserexpansionpack',
+    name: 'C-ROC Cruiser Expansion Pack',
     wave: 6,
     released: true,
     contents: {
@@ -181,8 +181,8 @@ export const t: Source[] = [
   },
   {
     ffg: 53,
-    xws: "imperialraiderexpansionpack",
-    name: "Imperial Raider Expansion Pack",
+    xws: 'imperialraiderexpansionpack',
+    name: 'Imperial Raider Expansion Pack',
     wave: 6,
     released: true,
     contents: {
@@ -224,6 +224,23 @@ export const t: Source[] = [
         impetuous: 1,
         instigator: 1,
         advprotontorpedoes: 1,
+      },
+    },
+  },
+  {
+    ffg: 52,
+    xws: 'epicbattles',
+    name: 'Epic Battles Expansion',
+    wave: 6,
+    released: true,
+    contents: {
+      ships: {},
+      pilots: {},
+      upgrades: {
+        agentoftheempire: 1,
+        firstorderelite: 1,
+        veteranwingleader: 1,
+        dreadnoughthunter: 1,
       },
     },
   },

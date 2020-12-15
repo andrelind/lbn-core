@@ -1,6 +1,6 @@
 import { UserState } from "../reducers/user";
 
-const BASE_URL = process.env.BASE_URL || "";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "";
 
 const graphql = (query: string, user: UserState, variables?: Object) => {
   return fetch(BASE_URL, {

@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 6,
-    xws: "scumandvillainyconversionkit",
-    name: "Scum and Villainy Conversion Kit",
+    xws: 'scumandvillainyconversionkit',
+    name: 'Scum and Villainy Conversion Kit',
     wave: 0,
     released: true,
     contents: {
@@ -34,7 +34,7 @@ export const t: Source[] = [
         palobgodalhi: 1,
         torkilmux: 1,
         spicerunner: 2,
-        "dalanoberos-starviperclassattackplatform": 1,
+        'dalanoberos-starviperclassattackplatform': 1,
         guri: 1,
         princexizor: 1,
         blacksunassassin: 2,
@@ -62,7 +62,7 @@ export const t: Source[] = [
         ig88b: 1,
         ig88c: 1,
         ig88d: 1,
-        "4lom": 1,
+        '4lom': 1,
         zuckuss: 1,
         gandfindsman: 2,
         captainnym: 1,
@@ -81,7 +81,7 @@ export const t: Source[] = [
         contractedscout: 1,
         asajjventress: 1,
         ketsuonyo: 1,
-        "sabinewren-lancerclasspursuitcraft": 1,
+        'sabinewren-lancerclasspursuitcraft': 1,
         shadowporthunter: 1,
       },
       upgrades: {
@@ -106,8 +106,8 @@ export const t: Source[] = [
         collisiondetector: 2,
         firecontrolsystem: 2,
         trajectorysimulator: 2,
-        "000": 1,
-        "4lom": 1,
+        '000': 1,
+        '4lom': 1,
         bobafett: 1,
         cadbane: 1,
         cikatrovizago: 1,
@@ -190,8 +190,8 @@ export const t: Source[] = [
   },
   {
     ffg: 11,
-    xws: "slavei",
-    name: "Slave I",
+    xws: 'slavei',
+    name: 'Slave I',
     wave: 1,
     released: true,
     contents: {
@@ -222,8 +222,8 @@ export const t: Source[] = [
   },
   {
     ffg: 12,
-    xws: "fangfighter",
-    name: "Fang Fighter",
+    xws: 'fangfighter',
+    name: 'Fang Fighter',
     wave: 1,
     released: true,
     contents: {
@@ -241,7 +241,7 @@ export const t: Source[] = [
   },
   {
     ffg: 13,
-    xws: "landosmillenniumfalcon",
+    xws: 'landosmillenniumfalcon',
     name: "Lando's Millennium Falcon",
     wave: 1,
     released: true,
@@ -252,19 +252,19 @@ export const t: Source[] = [
         landocalrissian: 1,
         l337: 1,
         freightercaptain: 1,
-        "landocalrissian-escapecraft": 1,
+        'landocalrissian-escapecraft': 1,
         outerrimpioneer: 1,
-        "l337-escapecraft": 1,
+        'l337-escapecraft': 1,
         autopilotdrone: 1,
       },
       upgrades: {
         l337: 1,
-        "chewbacca-crew": 1,
-        "landocalrissian-crew": 1,
+        'chewbacca-crew': 1,
+        'landocalrissian-crew': 1,
         qira: 1,
         tobiasbeckett: 1,
         seasonednavigator: 1,
-        "hansolo-gunner": 1,
+        'hansolo-gunner': 1,
         agilegunner: 1,
         composure: 1,
         intimidation: 1,
@@ -276,8 +276,8 @@ export const t: Source[] = [
   },
   {
     ffg: 17,
-    xws: "miningguildtie",
-    name: "Mining Guild TIE",
+    xws: 'miningguildtie',
+    name: 'Mining Guild TIE',
     wave: 2,
     released: true,
     contents: {
@@ -301,8 +301,8 @@ export const t: Source[] = [
   },
   {
     ffg: 27,
-    xws: "z95af4headhunter",
-    name: "Z-95-AF4 Headhunter",
+    xws: 'z95af4headhunter',
+    name: 'Z-95-AF4 Headhunter',
     wave: 3,
     released: true,
     contents: {
@@ -325,8 +325,8 @@ export const t: Source[] = [
   },
   {
     ffg: 40,
-    xws: "punishingone",
-    name: "Punishing One",
+    xws: 'punishingone',
+    name: 'Punishing One',
     wave: 5,
     released: true,
     contents: {
@@ -340,7 +340,7 @@ export const t: Source[] = [
         perceptivecopilot: 1,
         r2astromech: 1,
         contrabandcybernetics: 1,
-        "000": 1,
+        '000': 1,
         lattsrazzi: 1,
         dengar: 1,
         r5p8: 1,
@@ -350,8 +350,8 @@ export const t: Source[] = [
   },
   {
     ffg: 41,
-    xws: "m3ainterceptor",
-    name: "M3-A Interceptor",
+    xws: 'm3ainterceptor',
+    name: 'M3-A Interceptor',
     wave: 5,
     released: true,
     contents: {
@@ -377,7 +377,7 @@ export const t: Source[] = [
   },
   {
     ffg: 42,
-    xws: "houndstooth",
+    xws: 'houndstooth',
     name: "Hound's Tooth",
     wave: 6,
     released: true,

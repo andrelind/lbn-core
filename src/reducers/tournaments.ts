@@ -21,7 +21,7 @@ import {
 
 export type State = { list: Tournament[]; selected?: Squadron };
 
-const initialState = { list: [], selected: undefined };
+const initialState = { list: [] };
 
 export default function onAction(
   state: State = initialState,

@@ -17,11 +17,6 @@ export type UserState = {
 };
 
 const initialState = {
-  id: undefined,
-  name: undefined,
-  provider: undefined,
-  email: undefined,
-  jwt: undefined,
   language: "en" as Language,
 };
 

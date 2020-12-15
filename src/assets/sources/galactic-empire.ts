@@ -1,10 +1,10 @@
-import { Source } from "../../types";
+import { Source } from '../../types';
 
 export const t: Source[] = [
   {
     ffg: 5,
-    xws: "galacticempireconversionkit",
-    name: "Galactic Empire Conversion Kit",
+    xws: 'galacticempireconversionkit',
+    name: 'Galactic Empire Conversion Kit',
     wave: 0,
     released: true,
     contents: {
@@ -151,8 +151,8 @@ export const t: Source[] = [
   },
   {
     ffg: 3,
-    xws: "tiereaper",
-    name: "TIE Reaper",
+    xws: 'tiereaper',
+    name: 'TIE Reaper',
     wave: 1,
     released: true,
     contents: {
@@ -176,8 +176,8 @@ export const t: Source[] = [
   },
   {
     ffg: 9,
-    xws: "tielnfighter",
-    name: "TIE/ln Fighter",
+    xws: 'tielnfighter',
+    name: 'TIE/ln Fighter',
     wave: 1,
     released: true,
     contents: {
@@ -199,8 +199,8 @@ export const t: Source[] = [
   },
   {
     ffg: 10,
-    xws: "tieadvancedx1",
-    name: "TIE Advanced",
+    xws: 'tieadvancedx1',
+    name: 'TIE Advanced',
     wave: 1,
     released: true,
     contents: {
@@ -225,8 +225,8 @@ export const t: Source[] = [
   },
   {
     ffg: 26,
-    xws: "tieskstriker",
-    name: "TIE/sk Striker",
+    xws: 'tieskstriker',
+    name: 'TIE/sk Striker',
     wave: 3,
     released: true,
     contents: {
@@ -249,8 +249,8 @@ export const t: Source[] = [
   },
   {
     ffg: 32,
-    xws: "vt49decimator",
-    name: "VT-49 Decimator",
+    xws: 'vt49decimator',
+    name: 'VT-49 Decimator',
     wave: 4,
     released: true,
     contents: {
@@ -266,7 +266,7 @@ export const t: Source[] = [
         seventhsister: 1,
         fifthbrother: 1,
         dauntless: 1,
-        "000": 1,
+        '000': 1,
         bt1: 1,
         agentkallus: 1,
         darthvader: 1,
@@ -275,7 +275,7 @@ export const t: Source[] = [
   },
   {
     ffg: 39,
-    xws: "inquisitorstie",
+    xws: 'inquisitorstie',
     name: "Inquisitor's TIE",
     wave: 5,
     released: true,
@@ -298,8 +298,8 @@ export const t: Source[] = [
   },
   {
     ffg: 43,
-    xws: "tielninterceptor",
-    name: "TIE/ln Interceptor",
+    xws: 'tielninterceptor',
+    name: 'TIE/ln Interceptor',
     wave: 6,
     released: true,
     contents: {
@@ -321,8 +321,8 @@ export const t: Source[] = [
   },
   {
     ffg: 44,
-    xws: "tieddefender",
-    name: "TIE/D Defender",
+    xws: 'tieddefender',
+    name: 'TIE/D Defender',
     wave: 6,
     released: true,
     contents: {
@@ -344,8 +344,8 @@ export const t: Source[] = [
   },
   {
     ffg: 59,
-    xws: "tierbheavy",
-    name: "TIE/rb Heavy",
+    xws: 'tierbheavy',
+    name: 'TIE/rb Heavy',
     wave: 7,
     released: true,
     contents: {
