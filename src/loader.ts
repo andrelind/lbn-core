@@ -1,13 +1,14 @@
-import pilotData from "./assets/pilots";
-import upgradeData from "./assets/upgrades";
-import { keyFromSlot } from "./helpers/convert";
-import { allSlots, slotKeys } from "./helpers/enums";
-import { freeSlotsForShip, pointsForUpgrade } from "./helpers/unit";
-import { countForShip } from "./helpers/collection";
-import { State as CollectionState } from "./reducers/collection";
+import pilotData from './assets/pilots';
+import upgradeData from './assets/upgrades';
+import { keyFromSlot } from './helpers/convert';
+import { allSlots, slotKeys } from './helpers/enums';
+import { freeSlotsForShip, pointsForUpgrade } from './helpers/unit';
+import { countForShip } from './helpers/collection';
+import { State as CollectionState } from './reducers/collection';
 
 import {
   Faction,
+  Format,
   Pilot,
   Ship,
   ShipType,
@@ -16,8 +17,8 @@ import {
   Squadron,
   Translation,
   Upgrade,
-} from "./types";
-import { getShipXWS } from "./helpers/unique";
+} from './types';
+import { getShipXWS } from './helpers/unique';
 
 export type ShipValue = {
   shipType: ShipType;
@@ -56,11 +57,11 @@ export const shipTypeOptions = (
     .map((key) => pilotData[squadron.faction][key])
     .filter((s: ShipType) => {
       switch (squadron.format) {
-        case "Extended":
-          return s.size !== "Huge";
-        case "Hyperspace":
+        case 'Extended':
+          return s.size !== 'Huge';
+        case 'Hyperspace':
           return s.pilots.filter((p) => p.hyperspace).length > 0;
-        case "Epic":
+        case 'Epic':
           return s.pilots.filter((p) => p.epic).length > 0;
       }
     })
@@ -82,11 +83,11 @@ export const shipTypeOptions = (
       ...s,
       pilots: s.pilots.filter((p: Pilot) => {
         switch (squadron.format) {
-          case "Extended":
+          case 'Extended':
             return true;
-          case "Hyperspace":
+          case 'Hyperspace':
             return p.hyperspace;
-          case "Epic":
+          case 'Epic':
             return p.epic;
         }
       }),
@@ -94,11 +95,26 @@ export const shipTypeOptions = (
 
 export const shipTypeForXws = (
   faction: Faction,
+  format: Format,
   shipXws: string
 ): ShipType | undefined => {
-  return Object.keys(pilotData[faction])
+  const ship = Object.keys(pilotData[faction])
     .map((key) => pilotData[faction][key])
     .find((s) => s.xws === shipXws);
+
+  if (ship) {
+    ship.pilots = ship?.pilots.filter((p: Pilot) => {
+      switch (format) {
+        case 'Extended':
+          return true;
+        case 'Hyperspace':
+          return p.hyperspace;
+        case 'Epic':
+          return p.epic;
+      }
+    });
+  }
+  return ship;
 };
 
 export const pilotOptions = (
@@ -134,34 +150,20 @@ export const pilotOptions = (
     });
 };
 
-export const getUpgrades = (
-  squadron: Squadron,
-  ship: Ship,
-  extraSlots: Slot[]
-): SlotValue[] => {
+export const getUpgrades = (format: Format, ship: Ship): SlotValue[] => {
   const checked: { [s: string]: number } = {};
 
-  if (
-    squadron.format === "Epic" &&
-    !ship.pilot.slots.find((s) => s === "Command")
-  ) {
-    ship.pilot.slots = [...ship.pilot.slots, "Command"];
+  if (format === 'Epic' && !ship.pilot.slots.find((s) => s === 'Command')) {
+    ship.pilot.slots = [...ship.pilot.slots, 'Command'];
   }
-  ship.pilot.slots = [...ship.pilot.slots, ...extraSlots];
 
-  // if (
-  //   ship.pilot.shipAbility &&
-  //   ship.upgrades &&
-  //   ship.pilot.shipAbility.slotOptions &&
-  //   ship.pilot.shipAbility.slotOptions.find(
-  //     (sl) => ship.upgrades && ship.upgrades[keyFromSlot(sl)]
-  //   )
-  // ) {
-  //   const slot = ship.pilot.shipAbility.slotOptions.find(
-  //     (sl) => ship.upgrades && ship.upgrades[keyFromSlot(sl)]
-  //   );
-  //   ship.pilot.slots = [...ship.pilot.slots, slot];
-  // }
+  // For ship with Hardpoint
+  const extraSlots = ship?.ability?.slotOptions?.find(
+    (sl) => ship.upgrades?.[keyFromSlot(sl)]
+  );
+  if (extraSlots) {
+    ship.pilot.slots = [...ship.pilot.slots, extraSlots];
+  }
 
   return ship.pilot.slots.map((slot) => {
     const key = keyFromSlot(slot);
@@ -201,18 +203,18 @@ export const upgradesForSlot = (
       ...u,
       finalCost: pointsForUpgrade(
         u.cost,
-        { uid: "", ship: ship.xws, name: ship.pilot.xws },
+        { uid: '', ship: ship.xws, name: ship.pilot.xws },
         ship.faction
       ),
       available: 0,
     }))
     .filter((u: Upgrade) => {
       switch (squadron.format) {
-        case "Extended":
+        case 'Extended':
           return true;
-        case "Hyperspace":
+        case 'Hyperspace':
           return u.hyperspace;
-        case "Epic":
+        case 'Epic':
           return u.epic;
       }
     })
@@ -320,7 +322,7 @@ export const upgradesForSlot = (
           ).length === res.equipped.length
         ) {
           found = true;
-        } else if (res["non-limited"] && ship.pilot.limited === 0) {
+        } else if (res['non-limited'] && ship.pilot.limited === 0) {
           found = true;
         } else if (
           ship.stats.find(
