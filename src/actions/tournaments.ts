@@ -1,30 +1,31 @@
-import { v4 as uuid } from "uuid";
-import { Format, Game, Squadron, Tournament } from "../types";
+import { v4 as uuid } from 'uuid';
+import { Format, Game, Squadron, Tournament } from '../types';
+import { ImportAllAction } from './sync';
 
-export const ADD_TOURNAMENT: "ADD_TOURNAMENT" = "ADD_TOURNAMENT";
-export const REMOVE_TOURNAMENT: "REMOVE_TOURNAMENT" = "REMOVE_TOURNAMENT";
-export const ADD_SYNCED_TOURNAMENT: "ADD_SYNCED_TOURNAMENT" =
-  "ADD_SYNCED_TOURNAMENT";
-export const REMOVE_SYNCED_TOURNAMENT: "REMOVE_SYNCED_TOURNAMENT" =
-  "REMOVE_SYNCED_TOURNAMENT";
+export const ADD_TOURNAMENT: 'ADD_TOURNAMENT' = 'ADD_TOURNAMENT';
+export const REMOVE_TOURNAMENT: 'REMOVE_TOURNAMENT' = 'REMOVE_TOURNAMENT';
+export const ADD_SYNCED_TOURNAMENT: 'ADD_SYNCED_TOURNAMENT' =
+  'ADD_SYNCED_TOURNAMENT';
+export const REMOVE_SYNCED_TOURNAMENT: 'REMOVE_SYNCED_TOURNAMENT' =
+  'REMOVE_SYNCED_TOURNAMENT';
 
-export const SELECT_SQUADRON: "SELECT_SQUADRON" = "SELECT_SQUADRON";
-export const CLEAR_SQUADRON: "CLEAR_SQUADRON" = "CLEAR_SQUADRON";
+export const SELECT_SQUADRON: 'SELECT_SQUADRON' = 'SELECT_SQUADRON';
+export const CLEAR_SQUADRON: 'CLEAR_SQUADRON' = 'CLEAR_SQUADRON';
 
-export const SET_PLACEMENT: "SET_PLACEMENT" = "SET_PLACEMENT";
-export const SET_NUMBER_OF_PLAYERS: "SET_NUMBER_OF_PLAYERS" =
-  "SET_NUMBER_OF_PLAYERS";
+export const SET_PLACEMENT: 'SET_PLACEMENT' = 'SET_PLACEMENT';
+export const SET_NUMBER_OF_PLAYERS: 'SET_NUMBER_OF_PLAYERS' =
+  'SET_NUMBER_OF_PLAYERS';
 
-export const ADD_GAME: "ADD_GAME" = "ADD_GAME";
-export const EDIT_GAME: "EDIT_GAME" = "EDIT_GAME";
-export const REMOVE_GAME: "REMOVE_GAME" = "REMOVE_GAME";
+export const ADD_GAME: 'ADD_GAME' = 'ADD_GAME';
+export const EDIT_GAME: 'EDIT_GAME' = 'EDIT_GAME';
+export const REMOVE_GAME: 'REMOVE_GAME' = 'REMOVE_GAME';
 
-export const TOURNAMENT_CHANGE_NAME: "TOURNAMENT_CHANGE_NAME" =
-  "TOURNAMENT_CHANGE_NAME";
-export const TOURNAMENT_CHANGE_DATE: "TOURNAMENT_CHANGE_DATE" =
-  "TOURNAMENT_CHANGE_DATE";
-export const TOURNAMENT_CHANGE_FORMAT: "TOURNAMENT_CHANGE_FORMAT" =
-  "TOURNAMENT_CHANGE_FORMAT";
+export const TOURNAMENT_CHANGE_NAME: 'TOURNAMENT_CHANGE_NAME' =
+  'TOURNAMENT_CHANGE_NAME';
+export const TOURNAMENT_CHANGE_DATE: 'TOURNAMENT_CHANGE_DATE' =
+  'TOURNAMENT_CHANGE_DATE';
+export const TOURNAMENT_CHANGE_FORMAT: 'TOURNAMENT_CHANGE_FORMAT' =
+  'TOURNAMENT_CHANGE_FORMAT';
 
 export type AddTournamentAction = {
   type: typeof ADD_TOURNAMENT;
@@ -119,7 +120,8 @@ export type Action =
   | RemoveGameAction
   | TournamentChangeNameAction
   | TournamentChangeDateAction
-  | TournamentChangeFormatAction;
+  | TournamentChangeFormatAction
+  | ImportAllAction;
 
 export const addTournament = (
   name: string,

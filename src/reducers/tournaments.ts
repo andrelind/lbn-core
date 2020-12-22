@@ -1,6 +1,6 @@
-import { v4 as uuid } from "uuid";
-import { bumpPatch } from "../helpers/versioning";
-import { Game, Squadron, Tournament } from "../types";
+import { v4 as uuid } from 'uuid';
+import { bumpPatch } from '../helpers/versioning';
+import { Game, Squadron, Tournament } from '../types';
 import {
   Action,
   ADD_GAME,
@@ -17,16 +17,17 @@ import {
   TOURNAMENT_CHANGE_DATE,
   TOURNAMENT_CHANGE_FORMAT,
   TOURNAMENT_CHANGE_NAME,
-} from "../actions/tournaments";
+} from '../actions/tournaments';
+import { IMPORT_ALL } from '../actions/sync';
 
-export type State = { list: Tournament[]; selected?: Squadron };
+export type TournamentState = { list: Tournament[]; selected?: Squadron };
 
 const initialState = { list: [] };
 
 export default function onAction(
-  state: State = initialState,
+  state: TournamentState = initialState,
   action: Action
-): State {
+): TournamentState {
   if (!action.type) {
     return state;
   }
@@ -42,7 +43,7 @@ export default function onAction(
         squadron,
         date,
         games: [],
-        version: "1.0.0",
+        version: '1.0.0',
       };
 
       return { ...state, list: [...state.list, tournament] };
@@ -102,7 +103,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.placement = placement;
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -120,7 +121,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.numberOfPlayers = numberOfPlayers;
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -138,11 +139,11 @@ export default function onAction(
 
           const game: Game = {
             uid,
-            gameType: "Swiss",
+            gameType: 'Swiss',
             score: undefined,
             bye: false,
             win: undefined,
-            round: l.games.filter((g) => g.gameType === "Swiss").length + 1,
+            round: l.games.filter((g) => g.gameType === 'Swiss').length + 1,
             notes: undefined,
             opponent: {
               name: undefined,
@@ -153,7 +154,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.games = [...edit.games, game];
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -189,7 +190,7 @@ export default function onAction(
             editGame.opponent.squadron = opponent.squadron;
             return editGame;
           });
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -207,7 +208,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.games = edit.games.filter((g) => g.uid !== gameUid);
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -224,7 +225,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.name = name;
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -241,7 +242,7 @@ export default function onAction(
 
           const edit = { ...l };
           edit.date = date;
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
@@ -258,10 +259,15 @@ export default function onAction(
 
           const edit = { ...l };
           edit.format = format;
-          edit.version = bumpPatch(edit.version || "1.0.0");
+          edit.version = bumpPatch(edit.version || '1.0.0');
           return edit;
         }),
       };
+    }
+
+    case IMPORT_ALL: {
+      const { tournaments } = action.payload;
+      return { ...state, list: [...tournaments] };
     }
 
     default:

@@ -1,9 +1,10 @@
-import { BluePrint, Faction, Ship } from "../types";
+import { BluePrint, Faction, Ship } from '../types';
+import { ImportAllAction } from './sync';
 
-export const SAVE_BLUEPRINT = "SAVE_BLUEPRINT";
-export const REMOVE_BLUEPRINT = "REMOVE_BLUEPRINT";
-export const ADD_SYNCED_BLUEPRINT = "ADD_SYNCED_BLUEPRINT";
-export const REMOVE_SYNCED_BLUEPRINT = "REMOVE_SYNCED_BLUEPRINT";
+export const SAVE_BLUEPRINT = 'SAVE_BLUEPRINT';
+export const REMOVE_BLUEPRINT = 'REMOVE_BLUEPRINT';
+export const ADD_SYNCED_BLUEPRINT = 'ADD_SYNCED_BLUEPRINT';
+export const REMOVE_SYNCED_BLUEPRINT = 'REMOVE_SYNCED_BLUEPRINT';
 
 export type AddBlueprintAction = {
   type: typeof SAVE_BLUEPRINT;
@@ -31,7 +32,8 @@ export type Action =
   | AddBlueprintAction
   | RemoveBlueprintAction
   | AddSyncedBlueprintAction
-  | RemoveSyncedBlueprintAction;
+  | RemoveSyncedBlueprintAction
+  | ImportAllAction;
 
 export const addBlueprint = (
   ship: Ship,

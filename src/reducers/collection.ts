@@ -11,8 +11,9 @@ import {
   INCREASE_SOURCE_EXPANSION,
   SET_COLLECTION,
 } from '../actions/collection';
+import { IMPORT_ALL } from '../actions/sync';
 
-export type State = {
+export type CollectionState = {
   timestamp: number;
   expansions: { [s: string]: number };
   pilots: { [s: string]: number };
@@ -28,7 +29,10 @@ const initialState = {
   upgrades: {},
 };
 
-export default function onAction(state: State = initialState, action: Action) {
+export default function onAction(
+  state: CollectionState = initialState,
+  action: Action
+) {
   switch (action.type) {
     case SET_COLLECTION: {
       return {
@@ -146,6 +150,11 @@ export default function onAction(state: State = initialState, action: Action) {
         ...state,
         upgrades,
       };
+    }
+
+    case IMPORT_ALL: {
+      const { collection } = action.payload;
+      return { ...collection };
     }
 
     default:

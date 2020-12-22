@@ -1,5 +1,5 @@
 import request from './request';
-import { State as Collection } from '../reducers/collection';
+import { CollectionState as Collection } from '../reducers/collection';
 
 export const setCollection = async (collection: Collection, user: Object) => {
   const query = `mutation ($expansions: [CollectionItemInput], $ships: [CollectionItemInput], $pilots: [CollectionItemInput], $upgrades: [CollectionItemInput]) {
@@ -33,6 +33,6 @@ export const setCollection = async (collection: Collection, user: Object) => {
       ships,
       pilots,
       upgrades,
-    },
+    }
   );
 };

@@ -3,19 +3,19 @@ import {
   RESET_LOADED_SQUADRONS,
   UPDATE_LOADED_SQUADRON,
   REMOVE_LOADED_SQUADRON,
-} from "../actions/squadrons";
+} from '../actions/squadrons';
 
-import { loadSquadron, pointsForSquadron } from "../helpers/unit";
-import { Squadron } from "../types";
+import { loadSquadron, pointsForSquadron } from '../helpers/unit';
+import { Squadron } from '../types';
 
-export type State = { [s: string]: Squadron };
+export type SquadronsState = { [s: string]: Squadron };
 
 const initialState = {};
 
 export default function onAction(
-  state: State = initialState,
+  state: SquadronsState = initialState,
   action: Action
-): State {
+): SquadronsState {
   if (!action.type) {
     return state;
   }

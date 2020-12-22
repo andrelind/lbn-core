@@ -14,7 +14,7 @@ import {
   TOGGLE_FILTER,
 } from '../actions/filter';
 
-export type State = {
+export type FilterState = {
   showFilter: boolean;
   showSorting: boolean;
   filters: { [key in FilterType]?: boolean };
@@ -35,9 +35,9 @@ const initialState = {
 };
 
 export default function onAction(
-  state: State = initialState,
-  action: Action,
-): State {
+  state: FilterState = initialState,
+  action: Action
+): FilterState {
   switch (action.type) {
     case SHOW_FILTER: {
       return { ...state, showFilter: action.show };

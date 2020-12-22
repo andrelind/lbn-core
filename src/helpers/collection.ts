@@ -1,7 +1,7 @@
-import sources from "../assets/sources";
-import { State as CollectionState } from "../reducers/collection";
-import { Ship, SlotKey, Source, Squadron, Upgrade } from "../types";
-import { slotKeys, sourceKeys } from "./enums";
+import sources from '../assets/sources';
+import { CollectionState } from '../reducers/collection';
+import { Ship, SlotKey, Source, Squadron, Upgrade } from '../types';
+import { slotKeys, sourceKeys } from './enums';
 
 const validCollection = (collection?: CollectionState): boolean => {
   if (!collection) {

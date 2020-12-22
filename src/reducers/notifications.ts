@@ -1,4 +1,4 @@
-import { Action, MARK_ALL_READ } from "../actions/notifications";
+import { Action, MARK_ALL_READ } from '../actions/notifications';
 // import notes from "../notes";
 
 export type Notification = {
@@ -9,7 +9,7 @@ export type Notification = {
 
 const notes: Notification[] = [];
 
-export type State = {
+export type NotificationState = {
   lastRead: number;
   numberOfUnread: number;
 };
@@ -19,7 +19,10 @@ const initialState = {
   numberOfUnread: 0,
 };
 
-export default function onAction(state: State = initialState, action: Action) {
+export default function onAction(
+  state: NotificationState = initialState,
+  action: Action
+) {
   // console.log(action);
   switch (action.type) {
     case MARK_ALL_READ: {
@@ -40,7 +43,7 @@ export default function onAction(state: State = initialState, action: Action) {
     }
 
     //@ts-ignore
-    case "REDUX_STORAGE_LOAD": {
+    case 'REDUX_STORAGE_LOAD': {
       let numberOfUnread = 0;
       notes.forEach((note) => {
         if (note.id > state.lastRead) {

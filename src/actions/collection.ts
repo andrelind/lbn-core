@@ -1,3 +1,5 @@
+import { ImportAllAction } from './sync';
+
 export const SET_COLLECTION: 'SET_COLLECTION' = 'SET_COLLECTION';
 export const INCREASE_SOURCE_EXPANSION: 'INCREASE_SOURCE_EXPANSION' =
   'INCREASE_SOURCE_EXPANSION';
@@ -70,7 +72,8 @@ export type Action =
   | IncreaseAdditionalShip
   | DecreaseAdditionalShip
   | IncreaseAdditionalUpgrade
-  | DecreaseAdditionalUpgrade;
+  | DecreaseAdditionalUpgrade
+  | ImportAllAction;
 
 export const setCollection = (collection: any, timestamp: string) => ({
   type: SET_COLLECTION,
@@ -79,56 +82,56 @@ export const setCollection = (collection: any, timestamp: string) => ({
 });
 
 export const increaseSourceExpansion = (
-  xws: string,
+  xws: string
 ): IncreaseSourceExpansion => ({
   type: INCREASE_SOURCE_EXPANSION,
   xws,
 });
 
 export const decreaseSourceExpansion = (
-  xws: string,
+  xws: string
 ): DecreaseSourceExpansion => ({
   type: DECREASE_SOURCE_EXPANSION,
   xws,
 });
 
 export const increaseAdditionalShip = (
-  xws: string,
+  xws: string
 ): IncreaseAdditionalShip => ({
   type: INCREASE_ADDITIONAL_SHIP,
   xws,
 });
 
 export const decreaseAdditionalShip = (
-  xws: string,
+  xws: string
 ): DecreaseAdditionalShip => ({
   type: DECREASE_ADDITIONAL_SHIP,
   xws,
 });
 
 export const increaseAdditionalPilot = (
-  xws: string,
+  xws: string
 ): IncreaseAdditionalPilot => ({
   type: INCREASE_ADDITIONAL_PILOT,
   xws,
 });
 
 export const decreaseAdditionalPilot = (
-  xws: string,
+  xws: string
 ): DecreaseAdditionalPilot => ({
   type: DECREASE_ADDITIONAL_PILOT,
   xws,
 });
 
 export const increaseAdditionalUpgrade = (
-  xws: string,
+  xws: string
 ): IncreaseAdditionalUpgrade => ({
   type: INCREASE_ADDITIONAL_UPGRADE,
   xws,
 });
 
 export const decreaseAdditionalUpgrade = (
-  xws: string,
+  xws: string
 ): DecreaseAdditionalUpgrade => ({
   type: DECREASE_ADDITIONAL_UPGRADE,
   xws,

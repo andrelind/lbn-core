@@ -1,4 +1,6 @@
-import request from "./request";
+import { BluePrint, SquadronXWS, Tournament } from '../types';
+import request from './request';
+import { CollectionState } from '../reducers/collection';
 
 export const syncRequest = async (user: Object) => {
   const query = `query {
@@ -121,7 +123,7 @@ export const syncRequest = async (user: Object) => {
       removedTournaments
     }`;
 
-  const result = await request(query, { ...user, language: "en" });
+  const result = await request(query, { ...user, language: 'en' });
   if (result && result.data) {
     if (result.data.squadrons) {
       result.data.squadrons.map((ss: any) =>
@@ -157,5 +159,10 @@ export const syncRequest = async (user: Object) => {
     }
   }
 
-  return result;
+  return result as {
+    squadrons: SquadronXWS[];
+    blueprints: BluePrint[];
+    collection: CollectionState;
+    tournaments: Tournament[];
+  };
 };

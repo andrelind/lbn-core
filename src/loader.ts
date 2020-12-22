@@ -4,7 +4,7 @@ import { keyFromSlot } from './helpers/convert';
 import { allSlots, slotKeys } from './helpers/enums';
 import { freeSlotsForShip, pointsForUpgrade } from './helpers/unit';
 import { countForShip } from './helpers/collection';
-import { State as CollectionState } from './reducers/collection';
+import { CollectionState } from './reducers/collection';
 
 import {
   Faction,

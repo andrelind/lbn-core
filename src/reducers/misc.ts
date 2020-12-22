@@ -1,14 +1,14 @@
 // @flow
-import { Format } from "../types";
+import { Format } from '../types';
 import {
   Action,
   SET_VERSION,
   TOGGLE_DEFAULT_FORMAT,
   TOGGLE_MINIMIZE,
   TOGGLE_SHOW_UNAVAILABLE,
-} from "../actions/misc";
+} from '../actions/misc';
 
-export type State = {
+export type MiscState = {
   showUnavailable: boolean;
   version?: string;
   defaultFormat: Format;
@@ -17,14 +17,14 @@ export type State = {
 
 const initialState = {
   showUnavailable: true,
-  defaultFormat: "Extended" as Format,
+  defaultFormat: 'Extended' as Format,
   minimized: {},
 };
 
 export default function onAction(
-  state: State = initialState,
+  state: MiscState = initialState,
   action: Action
-): State {
+): MiscState {
   switch (action.type) {
     case TOGGLE_SHOW_UNAVAILABLE:
       return { ...state, showUnavailable: !state.showUnavailable };
@@ -32,7 +32,7 @@ export default function onAction(
       return {
         ...state,
         defaultFormat:
-          state.defaultFormat === "Hyperspace" ? "Extended" : "Hyperspace",
+          state.defaultFormat === 'Hyperspace' ? 'Extended' : 'Hyperspace',
       };
     }
     case SET_VERSION:

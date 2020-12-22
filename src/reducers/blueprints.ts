@@ -1,19 +1,23 @@
-import { v4 as uuid } from "uuid";
-import { slotKeys } from "../helpers/enums";
-import { BluePrint, SlotKey } from "../types";
+import { v4 as uuid } from 'uuid';
+import { slotKeys } from '../helpers/enums';
+import { BluePrint, SlotKey } from '../types';
 import {
   Action,
   ADD_SYNCED_BLUEPRINT,
   REMOVE_BLUEPRINT,
   REMOVE_SYNCED_BLUEPRINT,
   SAVE_BLUEPRINT,
-} from "../actions/blueprints";
+} from '../actions/blueprints';
+import { IMPORT_ALL } from '../actions/sync';
 
-export type State = BluePrint[];
+export type BlueprintState = BluePrint[];
 
 const initialState: BluePrint[] = [];
 
-export default function onAction(state: State = initialState, action: Action) {
+export default function onAction(
+  state: BlueprintState = initialState,
+  action: Action
+) {
   // console.log(action);
   switch (action.type) {
     case SAVE_BLUEPRINT: {
@@ -37,7 +41,7 @@ export default function onAction(state: State = initialState, action: Action) {
         {},
         {
           uid: uuid(),
-          nick: action.name || "No name",
+          nick: action.name || 'No name',
           faction: action.faction,
           name: action.ship.pilot.xws,
           ship: action.ship.xws,
@@ -67,6 +71,11 @@ export default function onAction(state: State = initialState, action: Action) {
         return;
       }
       return [...state.filter((u) => u.uid !== uid)];
+    }
+
+    case IMPORT_ALL: {
+      const { blueprints } = action.payload;
+      return [...blueprints];
     }
 
     default:
