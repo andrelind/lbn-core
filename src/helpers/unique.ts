@@ -1,6 +1,14 @@
 // @flow
-import { Format, Ship, SlotKey, Squadron, Upgrade } from "../types";
-import { slotKeys } from "./enums";
+import {
+  Format,
+  Pilot,
+  Ship,
+  Size,
+  SlotKey,
+  Squadron,
+  Upgrade,
+} from '../types';
+import { slotKeys } from './enums';
 
 export const limitedWarning = (
   xws: string,
@@ -11,24 +19,24 @@ export const limitedWarning = (
   if (!limited) {
     return false;
   }
-  const count = squadronXWS.filter((x) => x === xws.split("-")[0]).length;
+  const count = squadronXWS.filter((x) => x === xws.split('-')[0]).length;
   // console.log({ count, squadronXWS, xws });
   return willSelectNew ? count >= limited : count > limited;
 };
 
 export const upgradeFormatWarning = (upgrade: Upgrade, format: Format) => {
   switch (format) {
-    case "Hyperspace":
+    case 'Hyperspace':
       return !upgrade.hyperspace;
-    case "Epic":
+    case 'Epic':
       return !upgrade.epic;
-    case "Extended": {
+    case 'Extended': {
       const s = upgrade.sides[0].slots;
       return (
-        s.includes("Cargo") ||
-        s.includes("Command") ||
-        s.includes("Hardpoint") ||
-        s.includes("Team")
+        s.includes('Cargo') ||
+        s.includes('Command') ||
+        s.includes('Hardpoint') ||
+        s.includes('Team')
       );
     }
   }
@@ -58,28 +66,57 @@ export const shipFormatWarning = (
   };
 
   switch (format) {
-    case "Hyperspace": {
+    case 'Hyperspace': {
       if (!ship.pilot.hyperspace) {
         return true;
       }
       return checkUpgrades();
     }
 
-    case "Epic": {
+    case 'Epic': {
       if (!ship.pilot.epic) {
         return true;
       }
       return checkUpgrades();
     }
 
-    case "Extended": {
-      if (ship.size === "Huge") {
+    case 'Extended': {
+      if (ship.size === 'Huge') {
         return true;
       }
 
       return checkUpgrades();
     }
   }
+};
+
+export const pilotFormatWarning = (
+  pilot?: Pilot,
+  size?: Size,
+  format?: Format
+) => {
+  switch (format) {
+    case 'Hyperspace': {
+      if (!pilot?.hyperspace) {
+        return true;
+      }
+      break;
+    }
+
+    case 'Epic': {
+      if (!pilot?.epic) {
+        return true;
+      }
+      break;
+    }
+
+    case 'Extended': {
+      if (size === 'Huge') {
+        return true;
+      }
+    }
+  }
+  return false;
 };
 
 export const squadronFormatWarning = (squadron: Squadron) => {
@@ -92,26 +129,25 @@ export const squadronFormatWarning = (squadron: Squadron) => {
   return warning;
 };
 
-export const getSquadronXWS = (squadron?: Squadron) => {
+export const usedSquadronXWS = (squadron?: Squadron) => {
   let list: string[] = [];
-  squadron &&
-    squadron.ships.forEach((p) => {
-      list = [...list, ...getShipXWS(p)];
-    });
+  squadron?.ships?.forEach((p) => {
+    list = [...list, ...usedShipXWS(p)];
+  });
   return list;
 };
 
-export const getShipXWS = (ship?: Ship): string[] => {
+export const usedShipXWS = (ship?: Ship): string[] => {
   const list = [];
   if (ship) {
-    list.push(ship.pilot.xws.split("-")[0]);
+    list.push(ship.pilot.xws.split('-')[0]);
 
     slotKeys.forEach((key) => {
       const upgrades = ship.upgrades && ship.upgrades[key];
       if (upgrades) {
         upgrades
           .filter((u) => u)
-          .forEach((u) => list.push(u.xws.split("-")[0]));
+          .forEach((u) => list.push(u.xws.split('-')[0]));
       }
     });
   }

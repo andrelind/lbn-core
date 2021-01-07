@@ -18,7 +18,7 @@ import {
   Translation,
   Upgrade,
 } from './types';
-import { getShipXWS } from './helpers/unique';
+import { usedShipXWS } from './helpers/unique';
 
 export type ShipValue = {
   shipType: ShipType;
@@ -93,17 +93,20 @@ export const shipTypeOptions = (
       }),
     }));
 
-export const shipTypeForXws = (
+export const pilotOptions = (
   faction: Faction,
   format: Format,
-  shipXws: string
-): ShipType | undefined => {
+  shipXws: string,
+  t: TypeT,
+  needle?: string
+): Pilot[] => {
   const ship = Object.keys(pilotData[faction])
     .map((key) => pilotData[faction][key])
     .find((s) => s.xws === shipXws);
 
   if (ship) {
-    ship.pilots = ship?.pilots.filter((p: Pilot) => {
+    const shipType = Object.assign({}, ship);
+    shipType.pilots = shipType.pilots.filter((p: Pilot) => {
       switch (format) {
         case 'Extended':
           return true;
@@ -113,41 +116,31 @@ export const shipTypeForXws = (
           return p.epic;
       }
     });
+    return shipType.pilots
+      .filter((p) => {
+        if (!needle) {
+          return true;
+        }
+        return (
+          t(p.name).toLowerCase().indexOf(needle.toLowerCase()) >= 0 ||
+          (p.ability &&
+            t(p.ability).toLowerCase().indexOf(needle.toLowerCase()) >= 0)
+        );
+      })
+      .sort((a, b) => {
+        if (a.initiative < b.initiative) {
+          return 1;
+        } else if (a.initiative > b.initiative) {
+          return -1;
+        } else if (a.cost < b.cost) {
+          return 1;
+        } else if (a.cost > b.cost) {
+          return -1;
+        }
+        return a.name.en.toLowerCase().localeCompare(b.name.en.toLowerCase());
+      });
   }
-  return ship;
-};
-
-export const pilotOptions = (
-  shipType: ShipType | undefined,
-  t: TypeT,
-  needle?: string
-): Pilot[] => {
-  if (!shipType) {
-    return [];
-  }
-  return shipType.pilots
-    .filter((p) => {
-      if (!needle) {
-        return true;
-      }
-      return (
-        t(p.name).toLowerCase().indexOf(needle.toLowerCase()) >= 0 ||
-        (p.ability &&
-          t(p.ability).toLowerCase().indexOf(needle.toLowerCase()) >= 0)
-      );
-    })
-    .sort((a, b) => {
-      if (a.initiative < b.initiative) {
-        return 1;
-      } else if (a.initiative > b.initiative) {
-        return -1;
-      } else if (a.cost < b.cost) {
-        return 1;
-      } else if (a.cost > b.cost) {
-        return -1;
-      }
-      return a.name.en.toLowerCase().localeCompare(b.name.en.toLowerCase());
-    });
+  return [];
 };
 
 export const getUpgrades = (format: Format, ship: Ship): SlotValue[] => {
@@ -182,12 +175,11 @@ export const upgradesForSlot = (
   squadron: Squadron,
   ship: Ship,
   slot: Slot,
-  t: TypeT,
-  c: TypeC,
+  { t, c }: { t: TypeT; c: TypeC },
   showUnavailable: boolean,
   needle?: string
 ): Upgrade[] => {
-  const shipXws = getShipXWS(ship);
+  const shipXws = usedShipXWS(ship);
   const freeSlots = freeSlotsForShip(ship);
 
   const upgrades: { [key in SlotKey]?: string[] } = {};
@@ -289,7 +281,7 @@ export const upgradesForSlot = (
         } else if (
           res.action &&
           ship.actions &&
-          !ship.pilot.shipActions &&
+          !ship.pilot?.shipActions &&
           ship.actions.find((a) => {
             if (!res.action) {
               return false;
@@ -308,8 +300,8 @@ export const upgradesForSlot = (
           res.sides &&
           res.sides.find(
             (s) =>
-              ship.pilot.force?.side.includes(s) ||
-              ship.pilot.sides?.includes(s)
+              ship.pilot?.force?.side.includes(s) ||
+              ship.pilot?.sides?.includes(s)
           )
         ) {
           // A pilot can have force sides but also upgrades...!
@@ -322,7 +314,7 @@ export const upgradesForSlot = (
           ).length === res.equipped.length
         ) {
           found = true;
-        } else if (res['non-limited'] && ship.pilot.limited === 0) {
+        } else if (res['non-limited'] && ship.pilot?.limited === 0) {
           found = true;
         } else if (
           ship.stats.find(
@@ -334,12 +326,12 @@ export const upgradesForSlot = (
         } else if (res.initiative) {
           if (
             res.initiative.max &&
-            ship.pilot.initiative <= res.initiative.max
+            ship.pilot?.initiative <= res.initiative.max
           ) {
             found = true;
           } else if (
             res.initiative.min &&
-            ship.pilot.initiative >= res.initiative.min
+            ship.pilot?.initiative >= res.initiative.min
           ) {
             found = true;
           }
@@ -347,7 +339,7 @@ export const upgradesForSlot = (
 
         if (res.character) {
           squadron.ships.forEach((ship) => {
-            if (res.character && res.character.indexOf(ship.pilot.xws) >= 0) {
+            if (res.character && res.character.indexOf(ship.pilot?.xws) >= 0) {
               found = true;
             } else if (res.character) {
               res.character.forEach((c) => {

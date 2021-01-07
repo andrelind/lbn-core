@@ -157,12 +157,32 @@ export const syncRequest = async (user: Object) => {
         return b;
       });
     }
+
+    // Change format from arrays to objects
+    if (result.data.collection) {
+      type TCol = { id: string; count: number };
+      const { collection } = result.data;
+      const col: CollectionState = {
+        timestamp: collection.timestamp,
+        expansions: {},
+        pilots: {},
+        ships: {},
+        upgrades: {},
+      };
+      collection.expansions?.map((c: TCol) => (col.expansions[c.id] = c.count));
+      collection.pilots?.map((c: TCol) => (col.pilots[c.id] = c.count));
+      collection.ships?.map((c: TCol) => (col.ships[c.id] = c.count));
+      collection.upgrades?.map((c: TCol) => (col.upgrades[c.id] = c.count));
+      result.data.collection = col;
+    }
   }
 
   return result as {
-    squadrons: SquadronXWS[];
-    blueprints: BluePrint[];
-    collection: CollectionState;
-    tournaments: Tournament[];
+    data: {
+      squadrons: SquadronXWS[];
+      blueprints: BluePrint[];
+      collection: CollectionState;
+      tournaments: Tournament[];
+    };
   };
 };

@@ -1,6 +1,6 @@
-import { v4 as uuid } from "uuid";
-import pilotData from "../assets/pilots";
-import upgradeData from "../assets/upgrades";
+import { v4 as uuid } from 'uuid';
+import pilotData from '../assets/pilots';
+import upgradeData from '../assets/upgrades';
 import {
   Faction,
   PilotXWS,
@@ -16,9 +16,9 @@ import {
   UpgradeCostValue,
   Slot,
   Format,
-} from "../types";
-import { slotKeys, allSlots } from "./enums";
-import { keyFromSlot } from "./convert";
+} from '../types';
+import { slotKeys, allSlots } from './enums';
+import { keyFromSlot } from './convert';
 
 export const pilotExists = (faction: Faction, pilotXws: PilotXWS) => {
   const ship = pilotData[faction][pilotXws.ship];
@@ -70,10 +70,10 @@ export const loadSquadron = (xws?: SquadronXWS): Squadron | undefined => {
 
   const squadron: Squadron = {
     uid: xws.uid || uuid(),
-    name: xws.name || "",
+    name: xws.name || '',
     cost: xws.cost || 0,
     faction: xws.faction,
-    format: xws.format || "Hyperspace",
+    format: xws.format || 'Hyperspace',
     favourite: xws.favourite || false,
     wins: xws.wins || 0,
     losses: xws.losses || 0,
@@ -114,13 +114,13 @@ export const loadUpgrade = (
       const { slot, stat, action, side } = g;
       if (slot) {
         if (g.value > 0) {
-          if (ship.pilot.slots.indexOf(slot) > 0) {
-            ship.pilot.slots.splice(ship.pilot.slots.indexOf(slot), 0, slot);
+          if (ship.pilot?.slots.indexOf(slot) > 0) {
+            ship.pilot?.slots.splice(ship.pilot?.slots.indexOf(slot), 0, slot);
           } else {
-            ship.pilot.slots.push(slot);
+            ship.pilot?.slots.push(slot);
           }
         } else {
-          ship.pilot.slots.splice(ship.pilot.slots.indexOf(slot), 1);
+          ship.pilot?.slots.splice(ship.pilot?.slots.indexOf(slot), 1);
         }
       } else if (stat) {
         const stats = ship.stats.filter((s) => s.type === stat);
@@ -131,33 +131,33 @@ export const loadUpgrade = (
         }
       } else if (action) {
         if (g.value > 0) {
-          if (ship.pilot && ship.pilot.shipActions) {
-            ship.pilot.shipActions.push(action);
+          if (ship.pilot && ship.pilot?.shipActions) {
+            ship.pilot?.shipActions.push(action);
           } else {
             ship.actions.push(action);
           }
-        } else if (ship.pilot && ship.pilot.shipActions) {
-          const a = ship.pilot.shipActions.filter(
+        } else if (ship.pilot && ship.pilot?.shipActions) {
+          const a = ship.pilot?.shipActions.filter(
             (b) => b.type === action.type
           )[0];
-          ship.pilot.shipActions.splice(ship.pilot.shipActions.indexOf(a), 1);
+          ship.pilot?.shipActions.splice(ship.pilot?.shipActions.indexOf(a), 1);
         } else {
           const a = ship.actions.filter((b) => b.type === action.type)[0];
           ship.actions.splice(ship.actions.indexOf(a), 1);
         }
       } else if (side && ship.pilot) {
-        if (!ship.pilot.sides) {
+        if (!ship.pilot?.sides) {
           ship.pilot.sides = [];
         }
-        ship.pilot.sides.push(side);
+        ship.pilot?.sides.push(side);
       }
     });
   }
 
   if (upgrade.sides[0].force) {
-    if (ship.pilot.force) {
+    if (ship.pilot?.force) {
       ship.pilot.force.value += upgrade.sides[0].force.value;
-    } else {
+    } else if (ship.pilot) {
       ship.pilot.force = { ...upgrade.sides[0].force };
     }
   }
@@ -169,7 +169,7 @@ export const loadUpgrade = (
       if (i === 0) {
         return;
       }
-      ship.pilot.slots.splice(ship.pilot.slots.indexOf(s), 1);
+      ship.pilot?.slots.splice(ship.pilot?.slots.indexOf(s), 1);
     });
   }
 
@@ -202,7 +202,7 @@ export const pointsForPilot = (
         }
         return 0;
       })
-      .reduce((s, p) => s + p, 0) + ship.pilot.cost
+      .reduce((s, p) => s + p, 0) + ship.pilot?.cost
   );
 };
 
@@ -216,16 +216,16 @@ export const pointsForUpgrade = (
   if (cost.value) {
     return (cost as UpgradeCostValue).value;
   }
-  if (cost.variable && cost.variable === "agility") {
+  if (cost.variable && cost.variable === 'agility') {
     const typedCost = cost as UpgradeCostAgility;
-    const agility = ship.stats.find((s) => s.type === "agility");
+    const agility = ship.stats.find((s) => s.type === 'agility');
     if (agility) {
       return typedCost.values[agility.value];
     }
-  } else if (cost.variable && cost.variable === "initiative") {
+  } else if (cost.variable && cost.variable === 'initiative') {
     const typedCost = cost as UpgradeCostInitiative;
-    return typedCost.values[ship.pilot.initiative];
-  } else if (cost.variable && cost.variable === "size") {
+    return typedCost.values[ship.pilot?.initiative];
+  } else if (cost.variable && cost.variable === 'size') {
     const typedCost = cost as UpgradeCostSize;
     return typedCost.values[ship.size];
   }
@@ -244,7 +244,7 @@ export const freeSlotsForShip = (ship: Ship) => {
   const shipType: ShipType = JSON.parse(
     JSON.stringify(pilotData[ship.faction][ship.xws])
   );
-  const pilot = shipType.pilots.find((p) => p.xws === ship.pilot.xws);
+  const pilot = shipType.pilots.find((p) => p.xws === ship.pilot?.xws);
 
   // Get all available slots from ship
   const freeSlots: { [key in Slot]?: number } = {};
@@ -290,12 +290,12 @@ export const cleanupUpgrades = (
     const slot = s as Slot;
     let count = usedSlots[slot]!;
 
-    if (format === "Epic" && slot === "Command") {
+    if (format === 'Epic' && slot === 'Command') {
       // Command slots for Epic is ok
       count = 0;
     } else if (
-      (slot === "Torpedo" || slot === "Cannon" || slot === "Missile") &&
-      (ship.xws === "t70xwing" || ship.xws === "m3ainterceptor")
+      (slot === 'Torpedo' || slot === 'Cannon' || slot === 'Missile') &&
+      (ship.xws === 't70xwing' || ship.xws === 'm3ainterceptor')
     ) {
       // Weapon hardpoint, this is ok...
       count = 0;
