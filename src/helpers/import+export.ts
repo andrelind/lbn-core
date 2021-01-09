@@ -243,8 +243,8 @@ export const exportAsXws = (squadron: Squadron) => {
     vendor: {
       lbn: {
         builder: 'Launch Bay Next',
-        builder_url: 'https://launch-bay-next.herokuapp.com',
-        link: `https://launch-bay-next.herokuapp.com/print?lbx=${link}`,
+        builder_url: 'https://launchbaynext.app',
+        link: `https://launchbaynext.app/print?lbx=${link}`,
       },
     },
   };

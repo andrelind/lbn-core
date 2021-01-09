@@ -76,7 +76,7 @@ export default function onAction(
         }
       });
 
-      console.log('IMPORTING', squadron);
+      console.log('IMPORTING', JSON.stringify(squadron));
 
       // Replace current object?
       if (state.filter((s) => s.uid === squadron.uid).length > 0) {
