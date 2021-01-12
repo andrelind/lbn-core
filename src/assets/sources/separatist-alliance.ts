@@ -211,7 +211,6 @@ export const t: Source[] = [
         margsablclosure: 1,
         xx23sthreadtracers: 1,
         independentcalculations: 1,
-        precisionionengines: 1,
         interceptbooster: 1,
       },
     },

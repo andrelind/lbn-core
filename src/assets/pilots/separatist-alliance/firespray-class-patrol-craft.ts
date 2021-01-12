@@ -112,6 +112,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
+      conditions: ['youdbettermeanbusiness', 'youshouldthankme'],
       hyperspace: true,
       epic: false,
       ffg: 801,

@@ -70,7 +70,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
       cost: 44,
-      epic: false,
+      epic: true,
       ffg: 784,
     },
     {
@@ -97,7 +97,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       slots: ['Cannon', 'Astromech', 'Modification', 'Force Power'],
       cost: 41,
-      epic: false,
+      epic: true,
       ffg: 786,
     },
     {
@@ -131,7 +131,7 @@ const t: ShipType = {
         'Force Power',
       ],
       cost: 48,
-      epic: false,
+      epic: true,
       ffg: 785,
     },
     {

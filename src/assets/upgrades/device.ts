@@ -370,6 +370,12 @@ const t: UpgradeBase[] = [
           es:
             'Durante la fase de Sistemas, si alguna de las [Charge] de esta carta está inactiva, debes gastar 1 [Charge] para soltar 1 bomba de impacto, si es posible. De lo contrario, puedes gastar 1 [Charge] para soltar 1 bomba de impacto.',
         },
+        device: {
+          name: '',
+          type: 'Bomb',
+          effect:
+            'At the end of the Activation Phase, this device detonates.\n\nWhen this device detonates, each ship and remote at range 0–1 is dealt 1 facedown damage card. Then, each ship at range 0–1 must expose 1 damage card unless it chooses to gain 1 strain token.',
+        },
       },
     ],
     cost: { value: 4 },
@@ -381,7 +387,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'thermaldetonators',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {
@@ -400,6 +406,13 @@ const t: UpgradeBase[] = [
           es: 'Detonadores térmicos',
           fr: 'Détonateurs Thermiques',
         },
+        device: {
+          name: 'Thermal Detonators',
+          type: 'Bomb',
+          effect:
+            'At the end of the Activation Phase, this device detonates.\n\nWhen this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 Hit/Critical Hit damage for each matching result.',
+        },
+        charges: { value: 4, recovers: 0 },
         type: 'Device',
         slots: ['Device'],
         ffg: 864,

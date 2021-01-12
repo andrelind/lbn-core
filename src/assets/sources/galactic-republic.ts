@@ -217,7 +217,7 @@ export const t: Source[] = [
     wave: 8,
     released: true,
     contents: {
-      ships: { eta2actis: 1 },
+      ships: { eta2actis: 1, syliureclasshyperspacering: 1 },
       pilots: {
         'anakinskywalker-eta2actis': 1,
         'obiwankenobi-eta2actis': 1,
@@ -260,6 +260,7 @@ export const t: Source[] = [
         thermaldetonators: 1,
         alpha3bbesh: 1,
         alpha3eesk: 1,
+        precisionionengines: 1,
       },
     },
   },

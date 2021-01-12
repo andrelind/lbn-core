@@ -64,7 +64,7 @@ const t: ShipType = {
       limited: 1,
       xws: 'dist81',
       hyperspace: false,
-      epic: false,
+      epic: true,
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       cost: 40,
       caption: {
@@ -114,7 +114,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       cost: 41,
-      epic: false,
+      epic: true,
       ffg: 796,
     },
     {
@@ -145,8 +145,9 @@ const t: ShipType = {
           "Mise en Place : après avoir placé les forces, assignez l'état Proie effrayée à 1 vaisseau ennemi.",
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
+      conditions: ['fearfulprey'],
       cost: 38,
-      epic: false,
+      epic: true,
       ffg: 797,
     },
     {
@@ -173,7 +174,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       cost: 38,
-      epic: false,
+      epic: true,
       ffg: 795,
     },
     {
@@ -199,7 +200,7 @@ const t: ShipType = {
       hyperspace: true,
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       cost: 37,
-      epic: false,
+      epic: true,
       ffg: 798,
     },
     {
@@ -225,7 +226,7 @@ const t: ShipType = {
       hyperspace: true,
       slots: ['Sensor', 'Missile', 'Modification', 'Configuration'],
       cost: 35,
-      epic: false,
+      epic: true,
       ffg: 799,
     },
   ],

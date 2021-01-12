@@ -79,11 +79,18 @@ export const serialize = (o: SquadronXWS) => {
 };
 
 export const deserialize = (o: string, uid?: string): SquadronXWS => {
+  // New format, replace "l with (" and "r with )"
+  o = o
+    .split('.')
+    .map((s, i) => {
+      if (i > 2) {
+        return rep('l', '(', rep('r', ')', s));
+      }
+      return s;
+    })
+    .join('.');
   o = rep('.', ',', o);
-  o = rep('.ll', '.((', o);
-  o = rep('.l', '.(', o);
-  o = rep('.rr', '.))', o);
-  o = rep('.r', '.)', o);
+
   o = rep('(', '[', o);
   o = rep(')', ']', o);
   o = rep("'", '"', o);
