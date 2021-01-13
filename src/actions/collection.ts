@@ -1,3 +1,4 @@
+import { CollectionState } from '../reducers/collection';
 import { ImportAllAction } from './sync';
 
 export const SET_COLLECTION: 'SET_COLLECTION' = 'SET_COLLECTION';
@@ -20,7 +21,7 @@ export const DECREASE_ADDITIONAL_UPGRADE: 'DECREASE_ADDITIONAL_UPGRADE' =
 
 export type SetCollection = {
   type: typeof SET_COLLECTION;
-  collection: any;
+  collection: CollectionState;
   timestamp: string;
 };
 

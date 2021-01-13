@@ -73,7 +73,7 @@ const t: ShipType = {
           'Pendant la phase de système, vous pouvez choisir un objet que vous avez verrouillé, situé à portée 1-3. Un autre vaisseau allié à portée 1-3 peut verrouiller cet objet.',
       },
       hyperspace: false,
-      epic: false,
+      epic: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 34,
       ffg: 791,
@@ -97,7 +97,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 33,
-      epic: false,
+      epic: true,
       ffg: 789,
     },
     {
@@ -119,7 +119,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 32,
-      epic: false,
+      epic: true,
       ffg: 790,
     },
     {
@@ -145,7 +145,7 @@ const t: ShipType = {
       hyperspace: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 29,
-      epic: false,
+      epic: true,
       ffg: 792,
     },
     {
@@ -171,7 +171,7 @@ const t: ShipType = {
       hyperspace: true,
       slots: ['Astromech', 'Modification', 'Configuration'],
       cost: 27,
-      epic: false,
+      epic: true,
       ffg: 793,
     },
     {

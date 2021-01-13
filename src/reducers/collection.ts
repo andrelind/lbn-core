@@ -14,7 +14,7 @@ import {
 import { IMPORT_ALL } from '../actions/sync';
 
 export type CollectionState = {
-  timestamp: number;
+  timestamp: string;
   expansions: { [s: string]: number };
   pilots: { [s: string]: number };
   ships: { [s: string]: number };
@@ -22,7 +22,7 @@ export type CollectionState = {
 };
 
 const initialState = {
-  timestamp: 0,
+  timestamp: '0',
   expansions: {},
   pilots: {},
   ships: {},
@@ -38,7 +38,7 @@ export default function onAction(
       return {
         ...action.collection,
         timestamp: action.timestamp,
-      };
+      } as CollectionState;
     }
 
     case INCREASE_SOURCE_EXPANSION: {

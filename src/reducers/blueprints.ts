@@ -23,7 +23,7 @@ export default function onAction(
     case SAVE_BLUEPRINT: {
       const { ship } = action;
       if (!ship || !ship.pilot) {
-        return;
+        return state;
       }
       const upgrades: { [key in SlotKey]?: string[] } = {};
       if (ship.upgrades) {
@@ -37,7 +37,7 @@ export default function onAction(
         });
       }
 
-      const unitCopy = Object.assign(
+      const unitCopy: BluePrint = Object.assign(
         {},
         {
           uid: uuid(),
@@ -55,7 +55,7 @@ export default function onAction(
     case REMOVE_BLUEPRINT: {
       const { uid } = action;
       if (!uid) {
-        return;
+        return state;
       }
 
       return [...state.filter((u) => u.uid !== uid)];
@@ -68,7 +68,7 @@ export default function onAction(
     case REMOVE_SYNCED_BLUEPRINT: {
       const { uid } = action;
       if (!uid) {
-        return;
+        return state;
       }
       return [...state.filter((u) => u.uid !== uid)];
     }
