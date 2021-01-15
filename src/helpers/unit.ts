@@ -318,7 +318,7 @@ export const cleanupUpgrades = (
             return;
           }
           ups.forEach((upgrade, index) => {
-            if (upgrade.sides[0].slots.includes(slot) && count < 0) {
+            if (upgrade.sides[0]?.slots.includes(slot) && count < 0) {
               // Remove this one...
               upgrades[key as SlotKey]!.splice(index, 1);
               count += 1;

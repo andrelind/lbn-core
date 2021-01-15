@@ -3,7 +3,7 @@ import upgradeData from './assets/upgrades';
 import { keyFromSlot } from './helpers/convert';
 import { allSlots, slotKeys } from './helpers/enums';
 import { freeSlotsForShip, pointsForUpgrade } from './helpers/unit';
-import { countForShip } from './helpers/collection';
+import { countForShip, countForUpgrade } from './helpers/collection';
 import { CollectionState } from './reducers/collection';
 
 import {
@@ -175,6 +175,7 @@ export const upgradesForSlot = (
   squadron: Squadron,
   ship: Ship,
   slot: Slot,
+  collection: CollectionState,
   { t, c }: { t: TypeT; c: TypeC },
   showUnavailable: boolean,
   needle?: string
@@ -198,7 +199,7 @@ export const upgradesForSlot = (
         { uid: '', ship: ship.xws, name: ship.pilot.xws },
         ship.faction
       ),
-      available: 0,
+      available: countForUpgrade(u.xws, collection, squadron),
     }))
     .filter((u: Upgrade) => {
       switch (squadron.format) {
