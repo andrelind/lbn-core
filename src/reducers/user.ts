@@ -1,11 +1,11 @@
-import { Language } from "../types";
+import { Language } from '../types';
 import {
   Action,
   Provider,
   USER_DID_LOGIN,
   USER_LOGOUT,
   USER_SET_LANGUAGE,
-} from "../actions/user";
+} from '../actions/user';
 
 export type UserState = {
   id?: string;
@@ -17,7 +17,12 @@ export type UserState = {
 };
 
 const initialState = {
-  language: "en" as Language,
+  id: undefined,
+  name: undefined,
+  provider: undefined,
+  email: undefined,
+  jwt: undefined,
+  language: 'en' as Language,
 };
 
 export default function onAction(
