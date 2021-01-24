@@ -1,14 +1,15 @@
-import { UserState } from "../reducers/user";
+import { UserState } from '../reducers/user';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "";
+// Hardcoded for now, so that app and web can both get along...
+const BASE_URL = 'https://launchbaynext.app/api/graphql';
 
 const graphql = (query: string, user: UserState, variables?: Object) => {
   return fetch(BASE_URL, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-      "x-jwt": user.jwt || "",
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+      'x-jwt': user.jwt || '',
     },
     body: JSON.stringify({
       query,
@@ -18,8 +19,8 @@ const graphql = (query: string, user: UserState, variables?: Object) => {
     .then((x) => x.json())
     .catch((err) => {
       if (
-        err === "Network request failed" ||
-        err.message === "Network request failed"
+        err === 'Network request failed' ||
+        err.message === 'Network request failed'
       ) {
         console.log(err);
       } else {
