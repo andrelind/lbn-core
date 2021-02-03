@@ -435,7 +435,7 @@ const t: UpgradeBase[] = [
     limited: 2,
     xws: 'xx23sthreadtracers',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

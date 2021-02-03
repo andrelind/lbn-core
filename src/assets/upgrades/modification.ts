@@ -671,6 +671,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [
+      { stat: { type: 'agility', value: 3 } },
       {
         chassis: [
           'tielnfighter',
