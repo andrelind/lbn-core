@@ -559,7 +559,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
@@ -622,7 +622,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ chassis: ['droidtrifighter'] }],
   },
   {
@@ -763,7 +763,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'alpha3eesk',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

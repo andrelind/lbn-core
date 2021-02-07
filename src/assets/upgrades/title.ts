@@ -1374,7 +1374,7 @@ const t: UpgradeBase[] = [
     limited: 1,
     xws: 'slavei-swz82',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

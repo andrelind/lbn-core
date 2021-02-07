@@ -66,7 +66,7 @@ const t: ShipType = {
           'Tant que vous défendez ou effectuez une attaque principale, si la difficulté de votre manœuvre révélée est inférieure à celle du vaisseau ennemi, vous pouvez changer 1 des résultats [Focus] du vaisseau ennemi en un résultat vierge.',
       },
       hyperspace: true,
-      epic: false,
+      epic: true,
       slots: [
         'Talent',
         'Cannon',
@@ -114,7 +114,7 @@ const t: ShipType = {
       ],
       conditions: ['youdbettermeanbusiness', 'youshouldthankme'],
       hyperspace: true,
-      epic: false,
+      epic: true,
       ffg: 801,
     },
     {
@@ -148,7 +148,7 @@ const t: ShipType = {
         'Title',
       ],
       cost: 64,
-      epic: false,
+      epic: true,
       ffg: 803,
     },
     {

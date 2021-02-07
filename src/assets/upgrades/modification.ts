@@ -605,7 +605,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'independentcalculations',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {
@@ -644,7 +644,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'precisionionengines',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

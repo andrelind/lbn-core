@@ -402,7 +402,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
       hyperspace: true,
-      epic: false,
+      epic: true,
       ffg: 701,
     },
   ],

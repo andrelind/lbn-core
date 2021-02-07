@@ -1026,7 +1026,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
   },
   {

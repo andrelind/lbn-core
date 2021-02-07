@@ -700,7 +700,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
   {
@@ -771,7 +771,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'weaponssystemsofficer',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

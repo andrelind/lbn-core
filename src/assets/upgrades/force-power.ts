@@ -361,14 +361,14 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ sides: ['light'] }],
   },
   {
     limited: 0,
     xws: 'extrememaneuvers',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

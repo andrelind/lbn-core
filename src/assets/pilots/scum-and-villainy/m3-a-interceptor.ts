@@ -332,7 +332,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Lock' },
         { difficulty: 'White', type: 'Barrel Roll' },
       ],
-      epic: false,
+      epic: true,
     },
   ],
 };

@@ -2589,7 +2589,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
   },
   {
     xws: 'kitfisto',
@@ -2679,7 +2679,7 @@ const t: UpgradeBase[] = [
     limited: 1,
     xws: 'jangofett',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {
@@ -2705,7 +2705,7 @@ const t: UpgradeBase[] = [
     limited: 1,
     xws: 'zamwesell',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {

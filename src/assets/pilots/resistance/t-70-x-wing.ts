@@ -589,7 +589,7 @@ const t: ShipType = {
         fr:
           "Tant que vous effectuez une attaque, si l'initiative du défenseur est plus élevée que la vôtre, vous pouvez changer 1 résultat vierge en un résultat [Focus].",
       },
-      epic: false,
+      epic: true,
       ffg: 700,
     },
   ],

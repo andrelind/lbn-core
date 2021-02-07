@@ -686,7 +686,7 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: true,
-    epic: false,
+    epic: true,
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
@@ -746,7 +746,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     xws: 'q7astromech',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {
@@ -777,7 +777,7 @@ const t: UpgradeBase[] = [
     limited: 1,
     xws: 'r7a7',
     hyperspace: true,
-    epic: false,
+    epic: true,
     sides: [
       {
         ability: {
