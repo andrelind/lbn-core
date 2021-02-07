@@ -39,7 +39,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reinforce' },
     { difficulty: 'White', type: 'Lock' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_YV-666.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_YV-666.png',
   pilots: [
     {
       name: { en: 'Bossk' },

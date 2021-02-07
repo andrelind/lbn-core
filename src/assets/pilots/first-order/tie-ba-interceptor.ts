@@ -8,7 +8,7 @@ const t: ShipType = {
     es: 'TIE del mayor Vonreg',
   },
   xws: 'tiebainterceptor',
-  ffg: 69,
+  ffg: 70,
   size: 'Small',
   dial: [
     '1TB',
@@ -76,7 +76,7 @@ const t: ShipType = {
     },
   },
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png',
   pilots: [
     {
       name: { en: 'Major Vonreg' },

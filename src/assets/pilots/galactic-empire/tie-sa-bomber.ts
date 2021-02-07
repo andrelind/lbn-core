@@ -74,7 +74,8 @@ const t: ShipType = {
         'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEBomber.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png',
   pilots: [
     {
       name: { en: '"Deathfire"', de: '„Todesfeuer"', es: '"Muerte Ígnea"' },

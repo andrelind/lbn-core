@@ -79,7 +79,7 @@ const t: ShipType = {
         'You can acquire locks beyond range 3. You cannot acquire locks at range 1.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_E-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_E-wing.png',
   pilots: [
     {
       name: { en: 'Corran Horn' },

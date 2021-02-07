@@ -241,9 +241,9 @@ const t: ShipType = {
       },
     },
   ],
-  ffg: 63,
+  ffg: 66,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png',
 };
 
 export default t;

@@ -3,7 +3,7 @@ import { ShipType } from '../../../types';
 const t: ShipType = {
   name: { en: 'Fireball', es: 'Bola de Fuego' },
   xws: 'fireball',
-  ffg: 70,
+  ffg: 69,
   size: 'Small',
   dial: [
     '1TW',
@@ -68,7 +68,7 @@ const t: ShipType = {
         'Setup: You are dealt 1 facedown damage card. After you perform a [Slam] action, you may expose 1 damage card to remove 1 disarm token.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Fireball.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Fireball.png',
   pilots: [
     {
       name: {

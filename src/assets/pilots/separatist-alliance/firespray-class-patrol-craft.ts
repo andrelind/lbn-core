@@ -42,7 +42,8 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Reinforce' },
     { difficulty: 'White', type: 'Boost' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_FIrespray.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FIrespray.png',
   pilots: [
     {
       name: { en: 'Jango Fett' },
@@ -118,40 +119,6 @@ const t: ShipType = {
       ffg: 801,
     },
     {
-      name: {
-        en: 'Separatist Racketeer',
-        de: 'Erpresser der Separatisten',
-        es: 'Extorsionador separatista',
-        fr: 'Maître-Chanteur Séparatiste',
-      },
-      xws: 'separatistracketeer',
-      initiative: 2,
-      limited: 0,
-      text: {
-        en:
-          'Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.',
-        de:
-          'Söldnergruppen sind die Einzigen, die als Profiteure aus dem zermürbenden Stillstand der Belagerungen im Outer Rim hervorgehen. In der gesamten Galaxis machen sie Geschäfte mit dem andauernden Krieg.',
-        es:
-          'Envalentonados por el porfiado estancamiento de los Asedios del Borde Exterior, por toda la galaxia han surgido grupos de mercenarios deseosos de lucrarse con la guerra en curso.',
-        fr:
-          "Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l'opportunité de faire des bénéfices grâce à la guerre en cours.",
-      },
-      hyperspace: false,
-      slots: [
-        'Cannon',
-        'Missile',
-        'Crew',
-        'Device',
-        'Illicit',
-        'Modification',
-        'Title',
-      ],
-      cost: 64,
-      epic: true,
-      ffg: 803,
-    },
-    {
       xws: 'bobafett-separatistalliance',
       ffg: 802,
       name: { en: 'Boba Fett' },
@@ -186,7 +153,42 @@ const t: ShipType = {
           "Tant que vous défendez, s'il n'y a aucun autre vaisseau allié à portée 0-2, vous pouvez changer 1 de vos résultats vierges en un résultat [Focus].",
       },
     },
+    {
+      name: {
+        en: 'Separatist Racketeer',
+        de: 'Erpresser der Separatisten',
+        es: 'Extorsionador separatista',
+        fr: 'Maître-Chanteur Séparatiste',
+      },
+      xws: 'separatistracketeer',
+      initiative: 2,
+      limited: 0,
+      text: {
+        en:
+          'Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.',
+        de:
+          'Söldnergruppen sind die Einzigen, die als Profiteure aus dem zermürbenden Stillstand der Belagerungen im Outer Rim hervorgehen. In der gesamten Galaxis machen sie Geschäfte mit dem andauernden Krieg.',
+        es:
+          'Envalentonados por el porfiado estancamiento de los Asedios del Borde Exterior, por toda la galaxia han surgido grupos de mercenarios deseosos de lucrarse con la guerra en curso.',
+        fr:
+          "Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l'opportunité de faire des bénéfices grâce à la guerre en cours.",
+      },
+      hyperspace: false,
+      slots: [
+        'Cannon',
+        'Missile',
+        'Crew',
+        'Device',
+        'Illicit',
+        'Modification',
+        'Title',
+      ],
+      cost: 64,
+      epic: true,
+      ffg: 803,
+    },
   ],
+  ffg: 10,
 };
 
 export default t;

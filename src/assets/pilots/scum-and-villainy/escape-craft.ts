@@ -3,7 +3,7 @@ import { ShipType } from '../../../types';
 const t: ShipType = {
   name: { en: 'Escape Craft' },
   xws: 'escapecraft',
-  ffg: 48,
+  ffg: 85,
   size: 'Small',
   dial: [
     '0OR',
@@ -41,7 +41,8 @@ const t: ShipType = {
         'Tant que vous êtes arrimé, votre vaisseau porteur bénéficie de votre capacité de pilote en plus de la sienne.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_EscapeShuttle.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_EscapeShuttle.png',
   pilots: [
     {
       name: {

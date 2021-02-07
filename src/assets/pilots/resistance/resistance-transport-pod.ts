@@ -153,7 +153,7 @@ const t: ShipType = {
   ],
   ffg: 65,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png',
 };
 
 export default t;

@@ -39,7 +39,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reinforce' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Auzituck.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Auzituck.png',
   pilots: [
     {
       name: {

@@ -91,7 +91,7 @@ const t: ShipType = {
         'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc].',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEsf.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEsf.png',
   pilots: [
     {
       name: { en: '"Quickdraw"', de: '„Quickdraw"', es: '"Centella"' },

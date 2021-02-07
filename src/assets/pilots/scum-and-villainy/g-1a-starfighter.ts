@@ -41,7 +41,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Jam' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_MistHunter.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_MistHunter.png',
   pilots: [
     {
       name: { en: '4-LOM' },

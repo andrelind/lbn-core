@@ -74,7 +74,8 @@ const t: ShipType = {
         'After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEDefender.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png',
   pilots: [
     {
       name: { en: 'Colonel Vessery', es: 'Coronel Vessery' },

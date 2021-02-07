@@ -230,6 +230,9 @@ const t: ShipType = {
       ffg: 799,
     },
   ],
+  ffg: 77,
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Droid_Tri-Fighter.png',
 };
 
 export default t;

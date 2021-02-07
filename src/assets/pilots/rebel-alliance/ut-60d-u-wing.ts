@@ -37,7 +37,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Coordinate' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_U-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_U-wing.png',
   pilots: [
     {
       name: {

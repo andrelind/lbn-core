@@ -79,6 +79,28 @@ const t: ShipType = {
       ffg: 791,
     },
     {
+      xws: 'oddball-nimbusclassvwing',
+      ffg: 788,
+      name: { en: '"Odd Ball"', de: '„Odd Ball"' },
+      cost: 32,
+      limited: 1,
+      initiative: 5,
+      caption: { en: 'CC-2237' },
+      slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
+      hyperspace: false,
+      epic: true,
+      ability: {
+        en:
+          'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
+        de:
+          'Nachdem du ein rotes Manöver vollständig ausgeführt oder eine rote Aktion durchgeführt hast, falls ein feindliches Schiff in deinem [Bullseye Arc] ist, darfst du es als Ziel erfassen.',
+        es:
+          'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si hay una nave enemiga en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
+        fr:
+          "Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], vous pouvez verrouiller ce vaisseau.",
+      },
+    },
+    {
       name: { en: '"Contrail"', de: '„Contrail"' },
       xws: 'contrail',
       initiative: 5,
@@ -174,29 +196,10 @@ const t: ShipType = {
       epic: true,
       ffg: 793,
     },
-    {
-      xws: 'oddball-nimbusclassvwing',
-      ffg: 788,
-      name: { en: '"Odd Ball"', de: '„Odd Ball"' },
-      cost: 32,
-      limited: 1,
-      initiative: 5,
-      caption: { en: 'CC-2237' },
-      slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      hyperspace: false,
-      epic: true,
-      ability: {
-        en:
-          'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
-        de:
-          'Nachdem du ein rotes Manöver vollständig ausgeführt oder eine rote Aktion durchgeführt hast, falls ein feindliches Schiff in deinem [Bullseye Arc] ist, darfst du es als Ziel erfassen.',
-        es:
-          'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si hay una nave enemiga en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
-        fr:
-          "Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], vous pouvez verrouiller ce vaisseau.",
-      },
-    },
   ],
+  ffg: 71,
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Nimbus-class_V-wing.png',
 };
 
 export default t;

@@ -183,9 +183,9 @@ const t: ShipType = {
       ffg: 572,
     },
   ],
-  ffg: 64,
+  ffg: 63,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport.png',
 };
 
 export default t;

@@ -71,7 +71,8 @@ const t: ShipType = {
         'After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEInterceptor.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png',
   pilots: [
     {
       name: {

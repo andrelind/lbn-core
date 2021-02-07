@@ -41,64 +41,6 @@ const t: ShipType = {
   ],
   pilots: [
     {
-      xws: 'commandermalarus-xiclasslightshuttle',
-      ffg: 656,
-      name: {
-        en: 'Commander Malarus',
-        fr: 'Commandant Malarus',
-        es: 'Comandante Malarus',
-      },
-      cost: 45,
-      limited: 1,
-      initiative: 5,
-      caption: {
-        en: 'Vindictive Taskmaster',
-        de: 'Rachsüchtige Vorgesetzte',
-        fr: "Maître d'Œuvre Vindicatif",
-        es: 'Supervisora vengativa',
-      },
-      slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
-      hyperspace: true,
-      epic: true,
-      ability: {
-        en:
-          'While a friendly ship at range 0-2 performs a primary attack, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
-        de:
-          'Solange ein befreundetes Schiff in Reichweite 0-2 einen Primärangriff durchführt, falls es 1 oder mehr Leerseiten-Ergebnisse hat, muss jenes Schiff 1 Anstrengungsmarker erhalten, um 1 Leerseiten-Ergebnis neu zu werfen, falls möglich.',
-        fr:
-          "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque principale, s'il a au moins 1 résultat vierge, il doit gagner 1 marqueur de contrainte pour relancer 1 résultat vierge, si possible.",
-        es:
-          'Mientras una nave aliada que tienes a alcance 0-2 efectúa un ataque principal, si obtiene 1 o más resultados de cara vacía, esa nave debe recibir 1 ficha de Sobresfuerzo para volver a tirar 1 resultado de cara vacía si le es posible.',
-      },
-    },
-    {
-      xws: 'gideonhask-xiclasslightshuttle',
-      ffg: 657,
-      name: { en: 'Gideon Hask' },
-      cost: 40,
-      limited: 1,
-      initiative: 4,
-      caption: {
-        en: 'Merciless Hard-Liner',
-        de: 'Gnadenloser Elitesoldat',
-        fr: 'Intransigeant et Impitoyable',
-        es: 'Extremista despiadado',
-      },
-      slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
-      hyperspace: true,
-      epic: true,
-      ability: {
-        en:
-          'While you or a friendly small ship at range 0-2 performs a primary attack against a damaged defender, if the attacker rolled 2 or fewer attack dice, it may gain 1 strain token to roll 1 additional attack die.',
-        de:
-          'Solange du oder ein befreundetes kleines Schiff in Reichweite 0-2 einen Primärangriff gegen einen beschädigten Verteidiger durchführt, falls der Angreifer 2 oder weniger Angriffswürfel geworfen hat, darf er 1 Anstrengungsmarker erhalten, um 1 zusätzlichen Angriffswürfel zu werfen.',
-        fr:
-          "Tant que vous ou un petit vaisseau allié à portée 0-2 effectuez une attaque principale contre un défenseur endommagé, si l'attaquant a lancé 2 dés d'attaque ou moins, il peut gagner 1 marqueur de contrainte pour lancer 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras tu nave o una nave pequeña aliada que tienes a alcance 0-2 efectúa un ataque principal contra un defensor dañado, si el atacante ha tirado 2 o menos dados de ataque, puede recibir 1 ficha de Sobresfuerzo para tirar 1 dado de ataque adicional.',
-      },
-    },
-    {
       xws: 'agentterex',
       ffg: 658,
       name: { en: 'Agent Terex', es: 'Agente Terex' },
@@ -136,6 +78,37 @@ const t: ShipType = {
       },
     },
     {
+      xws: 'commandermalarus-xiclasslightshuttle',
+      ffg: 656,
+      name: {
+        en: 'Commander Malarus',
+        fr: 'Commandant Malarus',
+        es: 'Comandante Malarus',
+      },
+      cost: 45,
+      limited: 1,
+      initiative: 5,
+      caption: {
+        en: 'Vindictive Taskmaster',
+        de: 'Rachsüchtige Vorgesetzte',
+        fr: "Maître d'Œuvre Vindicatif",
+        es: 'Supervisora vengativa',
+      },
+      slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
+      hyperspace: true,
+      epic: true,
+      ability: {
+        en:
+          'While a friendly ship at range 0-2 performs a primary attack, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
+        de:
+          'Solange ein befreundetes Schiff in Reichweite 0-2 einen Primärangriff durchführt, falls es 1 oder mehr Leerseiten-Ergebnisse hat, muss jenes Schiff 1 Anstrengungsmarker erhalten, um 1 Leerseiten-Ergebnis neu zu werfen, falls möglich.',
+        fr:
+          "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque principale, s'il a au moins 1 résultat vierge, il doit gagner 1 marqueur de contrainte pour relancer 1 résultat vierge, si possible.",
+        es:
+          'Mientras una nave aliada que tienes a alcance 0-2 efectúa un ataque principal, si obtiene 1 o más resultados de cara vacía, esa nave debe recibir 1 ficha de Sobresfuerzo para volver a tirar 1 resultado de cara vacía si le es posible.',
+      },
+    },
+    {
       xws: 'firstordercourier',
       ffg: 659,
       name: {
@@ -161,7 +134,37 @@ const t: ShipType = {
           'La Primera Orden se oculta en muchas bases secretas en lugares recónditos de la galaxia, extendiendo lentamente su insidiosa influencia.',
       },
     },
+    {
+      xws: 'gideonhask-xiclasslightshuttle',
+      ffg: 657,
+      name: { en: 'Gideon Hask' },
+      cost: 40,
+      limited: 1,
+      initiative: 4,
+      caption: {
+        en: 'Merciless Hard-Liner',
+        de: 'Gnadenloser Elitesoldat',
+        fr: 'Intransigeant et Impitoyable',
+        es: 'Extremista despiadado',
+      },
+      slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
+      hyperspace: true,
+      epic: true,
+      ability: {
+        en:
+          'While you or a friendly small ship at range 0-2 performs a primary attack against a damaged defender, if the attacker rolled 2 or fewer attack dice, it may gain 1 strain token to roll 1 additional attack die.',
+        de:
+          'Solange du oder ein befreundetes kleines Schiff in Reichweite 0-2 einen Primärangriff gegen einen beschädigten Verteidiger durchführt, falls der Angreifer 2 oder weniger Angriffswürfel geworfen hat, darf er 1 Anstrengungsmarker erhalten, um 1 zusätzlichen Angriffswürfel zu werfen.',
+        fr:
+          "Tant que vous ou un petit vaisseau allié à portée 0-2 effectuez une attaque principale contre un défenseur endommagé, si l'attaquant a lancé 2 dés d'attaque ou moins, il peut gagner 1 marqueur de contrainte pour lancer 1 dé d'attaque supplémentaire.",
+        es:
+          'Mientras tu nave o una nave pequeña aliada que tienes a alcance 0-2 efectúa un ataque principal contra un defensor dañado, si el atacante ha tirado 2 o menos dados de ataque, puede recibir 1 ficha de Sobresfuerzo para tirar 1 dado de ataque adicional.',
+      },
+    },
   ],
+  ffg: 73,
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png',
 };
 
 export default t;

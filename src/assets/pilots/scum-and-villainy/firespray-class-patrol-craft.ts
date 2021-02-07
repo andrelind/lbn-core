@@ -43,7 +43,8 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Reinforce' },
     { difficulty: 'White', type: 'Boost' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_FIrespray.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FIrespray.png',
   pilots: [
     {
       name: { en: 'Boba Fett' },

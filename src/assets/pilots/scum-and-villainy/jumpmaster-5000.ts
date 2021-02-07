@@ -43,7 +43,8 @@ const t: ShipType = {
     },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Jumpmaster.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Jumpmaster.png',
   pilots: [
     {
       name: {

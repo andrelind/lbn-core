@@ -72,7 +72,7 @@ const t: ShipType = {
         'While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_YT-2400.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png',
   pilots: [
     {
       name: { en: '"Leebo"', de: '„Leebo"' },

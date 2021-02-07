@@ -42,7 +42,8 @@ const t: ShipType = {
       type: 'Barrel Roll',
     },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAggressor.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png',
   pilots: [
     {
       name: { en: '"Double Edge"', de: '„Doppelklinge"', es: '"Doble Filo"' },

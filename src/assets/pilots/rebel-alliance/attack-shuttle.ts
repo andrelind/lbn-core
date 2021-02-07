@@ -66,7 +66,8 @@ const t: ShipType = {
         'While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_AttackShuttle.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_AttackShuttle.png',
   pilots: [
     {
       name: { en: '"Zeb" Orrelios', de: '„Zeb" Orrelios' },

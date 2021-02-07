@@ -202,7 +202,7 @@ const t: ShipType = {
   ],
   ffg: 60,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_SithInfiltrator.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_SithInfiltrator.png',
 };
 
 export default t;

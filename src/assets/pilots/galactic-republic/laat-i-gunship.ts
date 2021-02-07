@@ -188,9 +188,9 @@ const t: ShipType = {
       ffg: 663,
     },
   ],
-  ffg: 73,
+  ffg: 74,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png',
 };
 
 export default t;

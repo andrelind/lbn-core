@@ -210,7 +210,8 @@ const t: ShipType = {
     },
   ],
   ffg: 58,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Belbullab-22.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Belbullab-22.png',
 };
 
 export default t;

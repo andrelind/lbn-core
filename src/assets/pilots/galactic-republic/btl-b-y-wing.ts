@@ -355,7 +355,8 @@ const t: ShipType = {
     },
   ],
   ffg: 68,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png',
 };
 
 export default t;

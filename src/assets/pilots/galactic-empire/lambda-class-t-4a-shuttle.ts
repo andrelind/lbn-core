@@ -38,7 +38,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Coordinate' },
     { difficulty: 'Red', type: 'Jam' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Lambda.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Lambda.png',
   pilots: [
     {
       name: { en: 'Captain Kagi', fr: 'Capitaine Kagi', es: 'Capitán Kagi' },

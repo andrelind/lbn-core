@@ -71,7 +71,8 @@ const t: ShipType = {
         'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Quadjumper.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Quadjumper.png',
   pilots: [
     {
       name: {

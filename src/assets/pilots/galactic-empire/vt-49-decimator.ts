@@ -42,7 +42,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
     { difficulty: 'Red', type: 'Coordinate' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Decimator.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png',
   pilots: [
     {
       name: {

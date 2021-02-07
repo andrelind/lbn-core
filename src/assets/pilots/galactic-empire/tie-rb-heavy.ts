@@ -182,6 +182,9 @@ const t: ShipType = {
       ffg: 694,
     },
   ],
+  ffg: 72,
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIE_Brute.png',
 };
 
 export default t;

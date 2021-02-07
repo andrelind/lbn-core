@@ -68,7 +68,7 @@ const t: ShipType = {
       zh: 'After you perform a [Calculate] action, gain 1 calculate token.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_IG-2000.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_IG-2000.png',
   pilots: [
     {
       name: { en: 'IG-88A' },

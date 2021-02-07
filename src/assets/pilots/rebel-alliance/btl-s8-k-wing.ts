@@ -37,7 +37,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
     { difficulty: 'White', type: 'Reload' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_K-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_K-wing.png',
   pilots: [
     {
       name: { en: 'Esege Tuketu' },

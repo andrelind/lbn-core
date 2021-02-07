@@ -44,7 +44,8 @@ const t: ShipType = {
     },
     { difficulty: 'White', type: 'Reload' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEPunisher.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png',
   pilots: [
     {
       name: { en: '"Deathrain"', de: '„Todesregen"', es: '"Lluvia de Muerte"' },

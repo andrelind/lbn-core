@@ -75,7 +75,8 @@ const t: ShipType = {
         '当你进行基础攻击且防御方已被你锁定时，多投1个攻击骰并将1[Hit]变为1[Critical Hit]。',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvanced.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png',
   pilots: [
     {
       name: { en: 'Darth Vader' },

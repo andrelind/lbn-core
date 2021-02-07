@@ -343,7 +343,7 @@ const t: ShipType = {
     },
   ],
   ffg: 61,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Delta-7.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png',
 };
 
 export default t;

@@ -41,7 +41,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_X-wing-T65.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_X-wing-T65.png',
   pilots: [
     {
       name: { en: 'Biggs Darklighter' },

@@ -72,7 +72,8 @@ const t: ShipType = {
         'After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEPhantom.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPhantom.png',
   pilots: [
     {
       name: { en: '"Echo"', de: '„Echo"', es: '"Eco"' },

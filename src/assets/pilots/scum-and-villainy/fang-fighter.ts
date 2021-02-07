@@ -78,7 +78,8 @@ const t: ShipType = {
         '你进行防御时，如果本次攻击距离为1，且你位于攻击方的[Front Arc]内，将任意1个掷骰结果变为1[Evade]。',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_FangFighter.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FangFighter.png',
   pilots: [
     {
       name: { en: 'Fenn Rau' },

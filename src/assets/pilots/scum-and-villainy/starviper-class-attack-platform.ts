@@ -79,7 +79,8 @@ const t: ShipType = {
         'While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_StarViper.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_StarViper.png',
   pilots: [
     {
       name: {

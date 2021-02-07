@@ -42,7 +42,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_ShadowCaster.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_ShadowCaster.png',
   pilots: [
     {
       name: { en: 'Asajj Ventress' },

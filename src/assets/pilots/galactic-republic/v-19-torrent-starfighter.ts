@@ -238,7 +238,8 @@ const t: ShipType = {
     },
   ],
   ffg: 62,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_V-19Torrent.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_V-19Torrent.png',
 };
 
 export default t;

@@ -73,7 +73,8 @@ const t: ShipType = {
         'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png',
   pilots: [
     {
       name: { en: "L'ulo L'ampar" },

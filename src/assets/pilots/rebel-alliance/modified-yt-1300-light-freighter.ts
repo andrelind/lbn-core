@@ -42,7 +42,7 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Boost' },
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Falcon.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon.png',
   pilots: [
     {
       name: { en: 'Chewbacca' },

@@ -257,8 +257,8 @@ const t: ShipType = {
       ffg: 564,
     },
   ],
-  ffg: 66,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Hyena.png',
+  ffg: 64,
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Hyena.png',
 };
 
 export default t;

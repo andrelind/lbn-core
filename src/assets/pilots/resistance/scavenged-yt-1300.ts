@@ -46,7 +46,7 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Rotate Arc' },
   ],
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png',
   pilots: [
     {
       name: {

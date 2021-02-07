@@ -61,7 +61,7 @@ const t: ShipType = {
     },
   },
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png',
   pilots: [
     {
       name: { en: 'Ahhav' },

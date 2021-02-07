@@ -43,7 +43,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png',
   pilots: [
     {
       name: {

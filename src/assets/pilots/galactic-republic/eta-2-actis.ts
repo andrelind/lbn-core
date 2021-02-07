@@ -46,6 +46,90 @@ const t: ShipType = {
   },
   pilots: [
     {
+      xws: 'anakinskywalker-eta2actis',
+      ffg: 781,
+      name: { en: 'Anakin Skywalker' },
+      cost: 56,
+      limited: 1,
+      initiative: 6,
+      caption: {
+        en: 'Hero of Coruscant',
+        de: 'Held von Coruscant',
+        es: 'Héroe de Coruscant',
+        fr: 'Héros de Coruscant',
+      },
+      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
+      hyperspace: true,
+      force: { value: 3, recovers: 1, side: ['light', 'dark'] },
+      epic: true,
+      ability: {
+        en:
+          'After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.',
+        de:
+          'Nachdem du oder ein befreundetes Obi-Wan Kenobi-Schiff in Reichweite 0-3 ein\nManöver ausgeführt hat, falls in Reichweite 0-1 jenes Schiffes mehr feindliche Schiffe als andere befreundete Schiffe sind, darfst du 1 [Force] ausgeben. Falls du das tust, entfernt jenes Schiff 1 roten Marker deiner Wahl.',
+        es:
+          'Después de que tú o una nave Obi-Wan Kenobi que tengas a alcance 0-3 ejecutéis una maniobra, si hay más naves enemigas que otras naves aliadas a alcance 0-1 de esa nave, puedes gastar 1 [Force]. Si lo haces, esa nave retira 1 ficha roja de tu elección.',
+        fr:
+          "Après que vous, ou un vaisseau Obi-Wan Kenobi allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre retire 1 marqueur rouge de votre choix.",
+      },
+    },
+    {
+      xws: 'obiwankenobi-eta2actis',
+      ffg: 782,
+      name: { en: 'Obi-Wan Kenobi' },
+      cost: 49,
+      limited: 1,
+      initiative: 5,
+      caption: {
+        en: 'Guardian of Democracy',
+        de: 'Wächter der Demokratie',
+        es: 'Guardián de la democracia',
+        fr: 'Gardien de la Démocratie',
+      },
+      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
+      force: { value: 3, recovers: 1, side: ['light'] },
+      hyperspace: true,
+      epic: true,
+      ability: {
+        en:
+          'After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+        de:
+          'Nachdem du oder ein befreundetes Anakin Skywalker-Schiff in Reichweite 0-3\nein Manöver ausgeführt hat, falls in Reichweite 0-1 jenes Schiffes mehr feindliche Schiffe als andere befreundete Schiffe sind, darfst du 1 [Force] ausgeben. Falls du das tust, erhält jenes Schiff 1 Fokusmarker.',
+        es:
+          'Después de que tú o una nave Anakin Skywalker aliada que tengas a alcance 0-3 ejecutéis una maniobra, si hay más naves enemigas que otras naves aliadas a alcance 0-1 de esa nave, puedes gastar 1 [Force]. Si lo haces, esa nave recibe 1 ficha de Concentración.',
+        fr:
+          "Après que vous, ou un vaisseau Anakin Skywalker allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre gagne 1 marqueur de concentration.",
+      },
+    },
+    {
+      xws: 'aaylasecura',
+      ffg: 783,
+      name: { en: 'Aayla Secura' },
+      cost: 51,
+      limited: 1,
+      initiative: 5,
+      caption: {
+        en: 'Confident Warrior',
+        de: 'Selbstbewusste Kämpferin',
+        es: 'Guerrera segura de sí misma',
+        fr: 'Guerrière Confiante',
+      },
+      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
+      force: { value: 2, recovers: 1, side: ['light'] },
+      hyperspace: true,
+      epic: true,
+      ability: {
+        en:
+          'While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.',
+        de:
+          'Solange ein feindliches Schiff, das in Reichweite 0-1 in deinem [Front Arc] ist, einen Angriff durchführt, darf der Verteidiger 1 Leerseiten-Ergebnis in ein [Focus] -Ergebnis ändern.',
+        es:
+          'Mientras una nave enemiga que tienes en tu [Front Arc] a alcance 0-1 efectúa un ataque, el defensor puede cambiar 1 resultado de cara vacía por un resultado [Focus].',
+        fr:
+          "Tant qu'un vaisseau ennemi dans votre [Front Arc] à portée 0-1 effectue une attaque, le défenseur peut changer 1 résultat vierge en un résultat [Focus].",
+      },
+    },
+    {
       name: { en: 'Shaak Ti' },
       xws: 'shaakti',
       initiative: 4,
@@ -134,91 +218,10 @@ const t: ShipType = {
       epic: true,
       ffg: 785,
     },
-    {
-      xws: 'anakinskywalker-eta2actis',
-      ffg: 781,
-      name: { en: 'Anakin Skywalker' },
-      cost: 56,
-      limited: 1,
-      initiative: 6,
-      caption: {
-        en: 'Hero of Coruscant',
-        de: 'Held von Coruscant',
-        es: 'Héroe de Coruscant',
-        fr: 'Héros de Coruscant',
-      },
-      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
-      hyperspace: true,
-      force: { value: 3, recovers: 1, side: ['light', 'dark'] },
-      epic: true,
-      ability: {
-        en:
-          'After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.',
-        de:
-          'Nachdem du oder ein befreundetes Obi-Wan Kenobi-Schiff in Reichweite 0-3 ein\nManöver ausgeführt hat, falls in Reichweite 0-1 jenes Schiffes mehr feindliche Schiffe als andere befreundete Schiffe sind, darfst du 1 [Force] ausgeben. Falls du das tust, entfernt jenes Schiff 1 roten Marker deiner Wahl.',
-        es:
-          'Después de que tú o una nave Obi-Wan Kenobi que tengas a alcance 0-3 ejecutéis una maniobra, si hay más naves enemigas que otras naves aliadas a alcance 0-1 de esa nave, puedes gastar 1 [Force]. Si lo haces, esa nave retira 1 ficha roja de tu elección.',
-        fr:
-          "Après que vous, ou un vaisseau Obi-Wan Kenobi allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre retire 1 marqueur rouge de votre choix.",
-      },
-    },
-    {
-      xws: 'obiwankenobi-eta2actis',
-      ffg: 782,
-      name: { en: 'Obi-Wan Kenobi' },
-      cost: 49,
-      limited: 1,
-      initiative: 5,
-      caption: {
-        en: 'Guardian of Democracy',
-        de: 'Wächter der Demokratie',
-        es: 'Guardián de la democracia',
-        fr: 'Gardien de la Démocratie',
-      },
-      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
-      force: { value: 3, recovers: 1, side: ['light'] },
-      hyperspace: true,
-      epic: true,
-      ability: {
-        en:
-          'After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
-        de:
-          'Nachdem du oder ein befreundetes Anakin Skywalker-Schiff in Reichweite 0-3\nein Manöver ausgeführt hat, falls in Reichweite 0-1 jenes Schiffes mehr feindliche Schiffe als andere befreundete Schiffe sind, darfst du 1 [Force] ausgeben. Falls du das tust, erhält jenes Schiff 1 Fokusmarker.',
-        es:
-          'Después de que tú o una nave Anakin Skywalker aliada que tengas a alcance 0-3 ejecutéis una maniobra, si hay más naves enemigas que otras naves aliadas a alcance 0-1 de esa nave, puedes gastar 1 [Force]. Si lo haces, esa nave recibe 1 ficha de Concentración.',
-        fr:
-          "Après que vous, ou un vaisseau Anakin Skywalker allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre gagne 1 marqueur de concentration.",
-      },
-    },
-    {
-      xws: 'aaylasecura',
-      ffg: 783,
-      name: { en: 'Aayla Secura' },
-      cost: 51,
-      limited: 1,
-      initiative: 5,
-      caption: {
-        en: 'Confident Warrior',
-        de: 'Selbstbewusste Kämpferin',
-        es: 'Guerrera segura de sí misma',
-        fr: 'Guerrière Confiante',
-      },
-      slots: ['Talent', 'Cannon', 'Astromech', 'Modification', 'Force Power'],
-      force: { value: 2, recovers: 1, side: ['light'] },
-      hyperspace: true,
-      epic: true,
-      ability: {
-        en:
-          'While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.',
-        de:
-          'Solange ein feindliches Schiff, das in Reichweite 0-1 in deinem [Front Arc] ist, einen Angriff durchführt, darf der Verteidiger 1 Leerseiten-Ergebnis in ein [Focus] -Ergebnis ändern.',
-        es:
-          'Mientras una nave enemiga que tienes en tu [Front Arc] a alcance 0-1 efectúa un ataque, el defensor puede cambiar 1 resultado de cara vacía por un resultado [Focus].',
-        fr:
-          "Tant qu'un vaisseau ennemi dans votre [Front Arc] à portée 0-1 effectue une attaque, le défenseur peut changer 1 résultat vierge en un résultat [Focus].",
-      },
-    },
   ],
+  ffg: 76,
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png',
 };
 
 export default t;

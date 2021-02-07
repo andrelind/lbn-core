@@ -45,7 +45,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_B-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_B-wing.png',
   pilots: [
     {
       name: {

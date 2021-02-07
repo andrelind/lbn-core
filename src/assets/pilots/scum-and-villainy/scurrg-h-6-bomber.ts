@@ -40,7 +40,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Scurrg.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Scurrg.png',
   pilots: [
     {
       name: { en: 'Captain Nym', fr: 'Capitaine Nym', es: 'Capitán Nym' },

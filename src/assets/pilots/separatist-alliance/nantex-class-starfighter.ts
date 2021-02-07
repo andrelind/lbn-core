@@ -237,7 +237,7 @@ const t: ShipType = {
   ],
   ffg: 67,
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png',
 };
 
 export default t;

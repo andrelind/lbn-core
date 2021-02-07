@@ -71,7 +71,7 @@ const t: ShipType = {
         "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value.",
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Ghost.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Ghost.png',
   pilots: [
     {
       name: { en: '"Chopper"', de: '„Chopper"' },

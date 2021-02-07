@@ -67,7 +67,7 @@ const t: ShipType = {
     },
     slotOptions: ['Cannon', 'Torpedo', 'Missile'],
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Scyk.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Scyk.png',
   pilots: [
     {
       name: {

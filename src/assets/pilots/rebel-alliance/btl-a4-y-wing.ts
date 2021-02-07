@@ -40,7 +40,7 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Barrel Roll' },
     { difficulty: 'Red', type: 'Reload' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Y-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Y-wing.png',
   pilots: [
     {
       name: { en: '"Dutch" Vander', de: '„Dutch" Vander' },

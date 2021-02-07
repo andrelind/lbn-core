@@ -66,7 +66,8 @@ const t: ShipType = {
         'Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEReaper.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png',
   pilots: [
     {
       name: { en: '"Vizier"', de: '„Wesir"', es: '"Visir"' },

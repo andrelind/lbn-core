@@ -258,7 +258,8 @@ const t: ShipType = {
     },
   ],
   ffg: 59,
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_VultureDroid.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_VultureDroid.png',
 };
 
 export default t;

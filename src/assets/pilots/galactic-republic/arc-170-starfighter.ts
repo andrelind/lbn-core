@@ -221,7 +221,7 @@ const t: ShipType = {
       epic: true,
     },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Arc-170.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',
 };
 
 export default t;

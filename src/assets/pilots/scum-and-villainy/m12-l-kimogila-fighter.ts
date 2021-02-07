@@ -71,7 +71,7 @@ const t: ShipType = {
         'While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Kimogila.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Kimogila.png',
   pilots: [
     {
       name: {

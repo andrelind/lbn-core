@@ -39,7 +39,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Evade' },
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEFighter.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png',
   pilots: [
     {
       name: { en: '"Zeb" Orrelios', de: '„Zeb" Orrelios' },

@@ -53,7 +53,7 @@ const t: ShipType = {
     },
   ],
   icon:
-    'https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png',
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png',
   pilots: [
     {
       name: {

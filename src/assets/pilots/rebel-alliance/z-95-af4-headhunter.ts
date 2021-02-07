@@ -40,7 +40,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Z-95.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Z-95.png',
   pilots: [
     {
       name: { en: 'Airen Cracken' },

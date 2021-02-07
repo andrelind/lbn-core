@@ -70,7 +70,7 @@ const t: ShipType = {
       zh: 'After you perform an action, you may perform a red [Boost] action.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_A-wing.png',
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_A-wing.png',
   pilots: [
     {
       name: { en: 'Arvel Crynyd' },

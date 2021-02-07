@@ -61,7 +61,8 @@ const t: ShipType = {
         'While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action.',
     },
   },
-  icon: 'https://sb-cdn.fantasyflightgames.com/ship_types/I_Sheathipede.png',
+  icon:
+    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Sheathipede.png',
   pilots: [
     {
       name: { en: '"Zeb" Orrelios', de: '„Zeb" Orrelios' },
