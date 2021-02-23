@@ -225,6 +225,66 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
     },
+    {
+      xws: 'vultskerris',
+      name: { en: 'Vult Skerris' },
+      caption: { en: 'Arrogant Ace' },
+      cost: 200,
+      initiative: 5,
+      limited: 1,
+      ability: {
+        en:
+          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'darthvader-tieddefender',
+      name: { en: 'Darth Vader' },
+      caption: { en: 'Dark Lord of the Sith' },
+      cost: 200,
+      initiative: 6,
+      limited: 1,
+      ability: {
+        en:
+          'You cannot spend [Force] except while attacking.  While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'vultskerris-tieddefender',
+      name: { en: 'Vult Skerris' },
+      caption: { en: 'Arrogant Ace' },
+      cost: 200,
+      initiative: 5,
+      limited: 1,
+      ability: {
+        en:
+          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'captaindobbs',
+      name: { en: 'Captain Dobbs' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      ability: {
+        en:
+          'While another frien... defends, before th... step, if you are in... not ionized, you m... cancel...',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 

@@ -234,6 +234,21 @@ const t: ShipType = {
       epic: true,
       ffg: 628,
     },
+    {
+      xws: 'herasyndulla-asf01bwing',
+      name: { en: 'Hera Syndulla' },
+      caption: { en: 'Phoenix Leader' },
+      cost: 200,
+      initiative: 6,
+      limited: 1,
+      ability: {
+        en:
+          'While another friendly ship at range 1-2 defends or performs an attack, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 

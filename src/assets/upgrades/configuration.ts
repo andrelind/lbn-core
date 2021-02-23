@@ -790,6 +790,65 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
+  {
+    xws: 'sensitivecontrols',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Sensitive Controls' },
+        type: 'Configuration',
+        ability: {
+          en: 'Replace your Autothrusters ship ability with the following:',
+        },
+        slots: ['Configuration'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
+  {
+    xws: 'tiedefenderelite',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'TIE Defender Elite' },
+        type: 'Configuration',
+        ability: {
+          en:
+            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers.  Increase the difficulty of your Koiogran Turn ([KTurn]) maneuvers.  Replace your Full Throttle ship ability with the following:',
+        },
+        slots: ['Configuration'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}, {}],
+  },
+  {
+    xws: 'vectoredcannonsrz1',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Vectored Cannons (RZ-1)' },
+        type: 'Configuration',
+        ability: {
+          en:
+            'Gain a [Single Turret Arc] indicator.  Treat the arc requirement if your [Front Arc] primary attack as [Single Turret Arc].  Replace your Vectored Thrusters ship ability with the following:',
+        },
+        slots: ['Configuration'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
 ];
 
 export default t;

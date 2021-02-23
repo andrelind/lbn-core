@@ -39,6 +39,7 @@ const cleanupString = (s: string | void) => {
     .replaceAll('{LOCK}', '[Lock]')
     .replaceAll('{BOOST}', '[Boost]')
     .replaceAll('{SLAM}', '[Slam]')
+    .replaceAll('{KTURN}', '[KTurn]')
     .replaceAll('{BARRELROLL}', '[Barrel Roll]')
     .replaceAll('{ROTATEARC}', '[Rotate Arc]')
     .replaceAll('{FORCE}', '[Force]')
@@ -51,6 +52,7 @@ const cleanupString = (s: string | void) => {
     .replaceAll('{MISSILE}', '[Missile]')
     .replaceAll('{PAYLOAD}', '[Device]')
     .replaceAll('{STRAIGHT}', '[Straight]')
+    .replaceAll('{GUNNER}', '[Gunner]')
     .replaceAll('{LBANK}', '[Bank Left]')
     .replaceAll('{LTURN}', '[Turn Left]')
     .replaceAll('{RBANK}', '[Bank Right]')
@@ -73,7 +75,7 @@ const fetchAndProcess = async () => {
       return;
     }
 
-    const shipAbility = cleanupString(pilot.shipAbility);
+    // const shipAbility = cleanupString(pilot.shipAbility);
     const newPilot: Pilot = {
       xws: pilot.xws,
       name: { en: pilot.name },
@@ -105,7 +107,7 @@ const fetchAndProcess = async () => {
     console.log(`${ship.name.en} - ${pilot.name}`);
 
     const header =
-      'import  {ShipType} from "../../../../types";\n\nconst t: ShipType = ';
+      'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
     const formatted = prettier.format(
       `${header}${JSON.stringify(ship)};\n\nexport default t;`,
       {
@@ -115,7 +117,7 @@ const fetchAndProcess = async () => {
       }
     );
     fs.writeFileSync(
-      `./assets/data/pilots/${getName(pilot.faction)}/${getName(
+      `./src/assets/pilots/${getName(pilot.faction)}/${getName(
         ship.name.en
       )}.ts`,
       formatted,
@@ -240,7 +242,7 @@ const fetchAndProcess = async () => {
     const file = assets.upgrades[key];
 
     const header =
-      'import {UpgradeBase} from "../../../types";\n\nconst t: UpgradeBase[] = ';
+      'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
     const formatted = prettier.format(
       `${header}${JSON.stringify(file)};\n\nexport default t;`,
       {
@@ -250,7 +252,7 @@ const fetchAndProcess = async () => {
       }
     );
     fs.writeFileSync(
-      `./assets/data/upgrades/${getName(slotFromKey(key))}.ts`,
+      `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
       formatted,
       'utf8'
     );

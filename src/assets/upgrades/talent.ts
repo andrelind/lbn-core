@@ -1091,6 +1091,46 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ chassis: ['t65xwing', 't70xwing'] }],
   },
+  {
+    xws: 'cutthroat',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Cutthroat' },
+        type: 'Talent',
+        ability: {
+          en:
+            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring [Charge] on your ship card or one of your equipped upgrade cards.',
+        },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
+  {
+    xws: 'tierfonbellyrun',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Tierfon Belly Run' },
+        type: 'Talent',
+        ability: {
+          en:
+            'You can perform special attacks even while at range 0 of asteroids.  While you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.',
+        },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
 ];
 
 export default t;

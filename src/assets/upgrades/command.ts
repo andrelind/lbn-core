@@ -396,6 +396,53 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
   },
+  {
+    xws: 'b6blasewingprototype',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'B6 Blade Wing Prototype' },
+        type: 'Command',
+        ability: {
+          en:
+            'Add [Gunner] slot.  Attack ([Lock]): Gain 1 ion token to perform this attack.  If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
+        },
+        slots: ['Command', 'Title'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
+  {
+    xws: 'shadowwing',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Shadow Wing' },
+        type: 'Command',
+        ability: {
+          en:
+            'Setup: Equip this side faceup.  You are a wing leader.  Your wingmates must be 2-5 other ships of your type.  After you are placed, flip this card.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+      {
+        title: { en: '???' },
+        type: 'Command',
+        ability: { en: '???' },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
 ];
 
 export default t;

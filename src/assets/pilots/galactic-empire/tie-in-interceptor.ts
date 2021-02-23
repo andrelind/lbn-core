@@ -188,6 +188,96 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
     },
+    {
+      xws: 'cienaree',
+      name: { en: 'Ciena Ree' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 6,
+      limited: 1,
+      ability: {
+        en:
+          'After you perfo... the defender wa... 1 stre... After a friendly... destroyed, rem...',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'gideonhask-tieininterceptor',
+      name: { en: 'Gideon Hask' },
+      caption: { en: 'Inferno Two' },
+      cost: 200,
+      initiative: 4,
+      limited: 1,
+      ability: {
+        en:
+          'While you perform an attack against a damaged defender, roll 1 additional attack die.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'vultskerris-tieininterceptor',
+      name: { en: 'Vult Skerris' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 5,
+      limited: 1,
+      ability: {
+        en:
+          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'commandantgoran',
+      name: { en: 'Commandant Goran' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 4,
+      limited: 1,
+      ability: {
+        en:
+          'After a friendly ship... a lower initiative th... executes a maneuver... red [Focus]...',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'lieutenantlorrir',
+      name: { en: 'Lieutenant Lorrir' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      ability: {
+        en:
+          'While you bar... the ([Bank Left] or [Bank Right])... ([Straight]...',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'nashwindrider',
+      name: { en: 'Nash Windrider' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 2,
+      limited: 1,
+      ability: {
+        en:
+          'During the Engage... a friendly small sh... destryed, if that s... this phase, you may... that ship engages at...',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 

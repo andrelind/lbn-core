@@ -197,6 +197,32 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
     },
+    {
+      xws: 'gamutkey',
+      name: { en: 'Gamut Key' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'kananjarrus-hwk290lightfreighter',
+      name: { en: 'Kanan Jarrus' },
+      caption: { en: 'Lost Padawan' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      ability: {
+        en:
+          'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force].  If you do, the attacker rolls 1 fewer attack die.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 
