@@ -107,7 +107,7 @@ const validatePilots = (list: Array<any>): Array<any> | void => {
   return list;
 };
 
-const validateJSON = (data: any): any | void => {
+const validateJSON = (data: any): any | undefined => {
   if (!data) {
     return undefined;
   }
@@ -125,23 +125,16 @@ const validateJSON = (data: any): any | void => {
   return data;
 };
 
-export const canImportXws = (
-  data: string,
-  cb: (data?: SquadronXWS, error?: Error) => void
-) => {
+export const canImportXws = (data: string): SquadronXWS => {
   let json;
   try {
     json = JSON.parse(data);
   } catch (err) {
     console.log(err);
-    cb(
-      undefined,
-      new Error('Copy the XWS data into the clipboard before pressing "import"')
-    );
-    return;
+    throw new Error('Invalid JSON');
   }
   if (!json) {
-    return;
+    throw new Error('No JSON provided');
   }
 
   const validatedJson = validateJSON(json);
@@ -155,9 +148,9 @@ export const canImportXws = (
     validatedJson.ships = validatedJson.ships || [];
     validatedJson.format = validatedJson.format || 'Extended';
 
-    cb(json);
+    return json;
   } else {
-    cb(undefined, new Error('The XWS data in clipboard is invalid'));
+    throw new Error('Invalid XWS data');
   }
 };
 
