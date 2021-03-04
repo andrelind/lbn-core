@@ -17,11 +17,6 @@ export type UserState = {
 };
 
 const initialState = {
-  id: undefined,
-  name: undefined,
-  provider: undefined,
-  email: undefined,
-  jwt: undefined,
   language: 'en' as Language,
 };
 
@@ -50,8 +45,15 @@ export default function onAction(
     }
 
     case USER_LOGOUT: {
-      const { language } = state;
-      return { ...state, ...initialState, language };
+      const s = { ...state };
+
+      delete s['id'];
+      delete s['name'];
+      delete s['provider'];
+      delete s['email'];
+      delete s['jwt'];
+
+      return s;
     }
 
     default:
