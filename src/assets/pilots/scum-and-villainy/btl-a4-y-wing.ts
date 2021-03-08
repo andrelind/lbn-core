@@ -194,11 +194,14 @@ const t: ShipType = {
     {
       xws: 'leemakai',
       name: { en: 'Leema Kai' },
-      caption: { en: '???' },
+      caption: { en: 'Opportunity Knocks' },
       cost: 200,
       initiative: 5,
       limited: 1,
-      ability: { en: '???' },
+      ability: {
+        en:
+          "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your {FULLFRONTARC}.",
+      },
       slots: [],
       hyperspace: false,
       epic: true,
@@ -206,11 +209,14 @@ const t: ShipType = {
     {
       xws: 'arlizhadrassian',
       name: { en: 'Arliz Hadrassian' },
-      caption: { en: '???' },
+      caption: { en: 'Crimson Blade' },
       cost: 200,
       initiative: 4,
       limited: 1,
-      ability: { en: '???' },
+      ability: {
+        en:
+          'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result.  While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result.',
+      },
       slots: [],
       hyperspace: false,
       epic: true,
@@ -226,6 +232,26 @@ const t: ShipType = {
         en:
           'After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.',
       },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'amaxinewarrior',
+      name: { en: 'Amaxine Warrior' },
+      cost: 200,
+      initiative: 3,
+      limited: 0,
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'jinatasecurityofficer',
+      name: { en: 'Jinata Security Officer' },
+      cost: 200,
+      initiative: 2,
+      limited: 0,
       slots: [],
       hyperspace: false,
       epic: true,

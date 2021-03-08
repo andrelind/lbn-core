@@ -249,6 +249,21 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
     },
+    {
+      xws: 'netrempollard',
+      name: { en: 'Netrem Pollard' },
+      caption: { en: '???' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      ability: {
+        en:
+          'After you barrel... choose 1 friendly... stressed at range... gains 1 stress... ',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 

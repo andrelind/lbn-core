@@ -199,11 +199,14 @@ const t: ShipType = {
     {
       xws: 'wedgeantilles-rz1awing',
       name: { en: 'Wedge Antilles' },
-      caption: { en: '???' },
+      caption: { en: 'Promising Pilot' },
       cost: 200,
       initiative: 4,
       limited: 1,
-      ability: { en: '???' },
+      ability: {
+        en:
+          'While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.',
+      },
       slots: [],
       hyperspace: false,
       epic: true,
@@ -215,7 +218,55 @@ const t: ShipType = {
       cost: 200,
       initiative: 3,
       limited: 1,
-      ability: { en: '???' },
+      ability: {
+        en:
+          "While you defend or... the attack range... enemy ship's [Front Arc]... your result...",
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'ahsokatano-rz1awing',
+      name: { en: 'Ahsoka Tano' },
+      caption: { en: 'Fulcrum' },
+      cost: 200,
+      initiative: 5,
+      limited: 1,
+      ability: {
+        en:
+          'After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force].  That ship may perform an action, even while stressed.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'sharabey-rz1awing',
+      name: { en: 'Shara Bey' },
+      caption: { en: 'Green Four' },
+      cost: 200,
+      initiative: 4,
+      limited: 1,
+      ability: {
+        en:
+          'While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'derekklivian',
+      name: { en: 'Derek Klivian' },
+      caption: { en: 'Hobbie' },
+      cost: 200,
+      initiative: 3,
+      limited: 1,
+      ability: {
+        en:
+          'After you acquire or spend a lock, you may remove 1 red token from yourself.',
+      },
       slots: [],
       hyperspace: false,
       epic: true,

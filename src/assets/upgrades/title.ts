@@ -1400,6 +1400,23 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
   },
+  {
+    xws: 'b6bladewingprototype',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'B6 Blade Wing Prototype' },
+        type: 'Title',
+        ability: { en: 'Add [Gunner] slot.' },
+        slots: ['Title'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
 ];
 
 export default t;

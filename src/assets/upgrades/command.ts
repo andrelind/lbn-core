@@ -432,9 +432,12 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
       {
-        title: { en: '???' },
+        title: { en: 'Shadow Wing' },
         type: 'Command',
-        ability: { en: '???' },
+        ability: {
+          en:
+            'Your wingmates can perform [Barrel Roll] or [Boost] actions.  If they do, they voluntarily split from the wing.  While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cance 1 matching result.',
+        },
         slots: ['Command'],
         ffg: -1,
       },
@@ -442,6 +445,121 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     restrictions: [{}, {}],
+  },
+  {
+    xws: 'b6bladewingprototype-cmd',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'B6 Blade Wing Prototype' },
+        type: 'Command',
+        ability: {
+          en:
+            'Add [Gunner] slot.  Attack ([Lock]): Gain 1 ion token to perform this attack.  If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
+        },
+        slots: ['Command', 'Title'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
+  {
+    xws: 'bounty',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Bounty (Hired)' },
+        type: 'Command',
+        ability: {
+          en:
+            'Setup: Equip this side faceup.  You can be included in Separatist, Imperial, and First Order squads.  After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 {CHARG} on your ship card and each of your upgrade cards.  Then flip this card',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+      {
+        title: { en: 'Bounty (Paid)' },
+        type: 'Command',
+        ability: { en: '' },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}, {}],
+  },
+  {
+    xws: 'initforthemoney',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'In It For The Money' },
+        type: 'Command',
+        ability: {
+          en:
+            'Setup: Equip this side faceup.  You can be included in Republic, Rebel, and Resistance squads.  After an allied ship in your squad is destroyed, gain 1 focus token and flip this card.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+      {
+        title: { en: 'In It For Your Rebellion' },
+        type: 'Command',
+        ability: {
+          en:
+            'Non-Scum ships in your squad are treated as friendly instead of allied.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}, {}],
+  },
+  {
+    xws: 'phoenixsquadron',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Phoenix Squadron' },
+        type: 'Command',
+        ability: {
+          en:
+            'At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token.  While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'skystrikeacademyclass',
+    limited: 2,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Skystrike Academy Class' },
+        type: 'Command',
+        ability: {
+          en:
+            'After you barrel roll or boost, each of your wingmates is forced to split from the wing.  While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] to cancel 1 matching result.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
   },
 ];
 

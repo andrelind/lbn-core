@@ -2728,6 +2728,26 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
+  {
+    xws: 'gamutkey-crew',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Gamut Key' },
+        type: 'Crew',
+        ability: {
+          en:
+            'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens.  During the End Phase, circular tokens are not removed from that ship.',
+        },
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
 ];
 
 export default t;

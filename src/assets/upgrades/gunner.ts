@@ -797,6 +797,26 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 7 },
   },
+  {
+    xws: 'sabinewren-gunner',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Sabine Wren' },
+        type: 'Gunner',
+        ability: {
+          en:
+            'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1 strain or stress token.',
+        },
+        slots: ['Gunner'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
 ];
 
 export default t;

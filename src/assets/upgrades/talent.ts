@@ -1131,6 +1131,46 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{}],
   },
+  {
+    xws: 'disciplined',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Disciplined' },
+        type: 'Talent',
+        ability: {
+          en:
+            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
+        },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
+  {
+    xws: 'hopeful',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Hopeful' },
+        type: 'Talent',
+        ability: {
+          en:
+            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.',
+        },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
 ];
 
 export default t;

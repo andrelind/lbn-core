@@ -200,13 +200,17 @@ const t: ShipType = {
     {
       xws: 'gamutkey',
       name: { en: 'Gamut Key' },
-      caption: { en: '???' },
+      caption: { en: 'Collaborationist Governor' },
       cost: 200,
       initiative: 3,
       limited: 1,
       slots: [],
       hyperspace: false,
       epic: true,
+      ability: {
+        en:
+          'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at in your [Single Turret Arc] with 1 or more circular tokens.  During the End Phase, circular tokens are not removed from that ship.',
+      },
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',

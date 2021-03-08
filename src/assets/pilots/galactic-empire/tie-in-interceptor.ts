@@ -191,13 +191,13 @@ const t: ShipType = {
     {
       xws: 'cienaree',
       name: { en: 'Ciena Ree' },
-      caption: { en: '???' },
+      caption: { en: 'Look Through My Eyes' },
       cost: 200,
       initiative: 6,
       limited: 1,
       ability: {
         en:
-          'After you perfo... the defender wa... 1 stre... After a friendly... destroyed, rem...',
+          'After you perform an attack, if the defender was destroyed, gain 1 stress token.  After a friendly ship at range 0-3 is destroyed, remove 1 stress token.',
       },
       slots: [],
       hyperspace: false,
@@ -221,7 +221,7 @@ const t: ShipType = {
     {
       xws: 'vultskerris-tieininterceptor',
       name: { en: 'Vult Skerris' },
-      caption: { en: '???' },
+      caption: { en: 'Arrogant Ace' },
       cost: 200,
       initiative: 5,
       limited: 1,
@@ -236,13 +236,13 @@ const t: ShipType = {
     {
       xws: 'commandantgoran',
       name: { en: 'Commandant Goran' },
-      caption: { en: '???' },
+      caption: { en: 'Skystrike Superintendent' },
       cost: 200,
       initiative: 4,
       limited: 1,
       ability: {
         en:
-          'After a friendly ship... a lower initiative th... executes a maneuver... red [Focus]...',
+          'After a friendly ship at range 0-3 with a lower initiative than your partially executes a maneuver, it may perform a red [Focus] action.',
       },
       slots: [],
       hyperspace: false,
@@ -266,13 +266,13 @@ const t: ShipType = {
     {
       xws: 'nashwindrider',
       name: { en: 'Nash Windrider' },
-      caption: { en: '???' },
+      caption: { en: 'Alderaanian Zealot' },
       cost: 200,
       initiative: 2,
       limited: 1,
       ability: {
         en:
-          'During the Engage... a friendly small sh... destryed, if that s... this phase, you may... that ship engages at...',
+          'During the Engagement Phase, after a friendly small ship at range 0-3 is destryed, if that sship has not engaged this phase, you may spent 1 [Charge].  If you do, that ship engages at the current initiative.',
       },
       slots: [],
       hyperspace: false,
