@@ -1134,7 +1134,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'disciplined',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 1 },
     sides: [
       {
         title: { en: 'Disciplined' },
@@ -1154,7 +1154,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'hopeful',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 1 },
     sides: [
       {
         title: { en: 'Hopeful' },
@@ -1162,6 +1162,26 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.',
+        },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}],
+  },
+  {
+    xws: 'interloperturn',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Interloper Turn' },
+        type: 'Talent',
+        ability: {
+          en:
+            'Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([KTurn]) maneuver, if you are at range 0-1 or an asteroid, structure, or huge ship, you may gain 1 tractor token.',
         },
         slots: ['Talent'],
         ffg: -1,

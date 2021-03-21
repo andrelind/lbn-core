@@ -185,7 +185,7 @@ const t: ShipType = {
       xws: 'herasyndulla-rz1awing',
       name: { en: 'Hera Syndulla' },
       caption: { en: 'Phoenix Leader' },
-      cost: 200,
+      cost: 42,
       initiative: 6,
       limited: 1,
       ability: {
@@ -200,7 +200,7 @@ const t: ShipType = {
       xws: 'wedgeantilles-rz1awing',
       name: { en: 'Wedge Antilles' },
       caption: { en: 'Promising Pilot' },
-      cost: 200,
+      cost: 35,
       initiative: 4,
       limited: 1,
       ability: {
@@ -214,13 +214,13 @@ const t: ShipType = {
     {
       xws: 'sabinewren-rz1awing',
       name: { en: 'Sabine Wren' },
-      caption: { en: '???' },
-      cost: 200,
+      caption: { en: 'Daughter of Mandalore' },
+      cost: 37,
       initiative: 3,
       limited: 1,
       ability: {
         en:
-          "While you defend or... the attack range... enemy ship's [Front Arc]... your result...",
+          "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       },
       slots: [],
       hyperspace: false,
@@ -230,7 +230,7 @@ const t: ShipType = {
       xws: 'ahsokatano-rz1awing',
       name: { en: 'Ahsoka Tano' },
       caption: { en: 'Fulcrum' },
-      cost: 200,
+      cost: 49,
       initiative: 5,
       limited: 1,
       ability: {

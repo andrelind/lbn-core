@@ -436,7 +436,7 @@ const t: UpgradeBase[] = [
         type: 'Command',
         ability: {
           en:
-            'Your wingmates can perform [Barrel Roll] or [Boost] actions.  If they do, they voluntarily split from the wing.  While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cance 1 matching result.',
+            'Your wingmates can perform [Barrel Roll] or [Boost] actions.  If they do, they voluntarily split from the wing.  While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
         },
         slots: ['Command'],
         ffg: -1,
@@ -476,7 +476,7 @@ const t: UpgradeBase[] = [
         type: 'Command',
         ability: {
           en:
-            'Setup: Equip this side faceup.  You can be included in Separatist, Imperial, and First Order squads.  After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 {CHARG} on your ship card and each of your upgrade cards.  Then flip this card',
+            'Setup: Equip this side faceup.  You can be included in Separatist, Imperial, and First Order squads.  After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards.  Then flip this card',
         },
         slots: ['Command'],
         ffg: -1,
@@ -553,6 +553,45 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'After you barrel roll or boost, each of your wingmates is forced to split from the wing.  While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] to cancel 1 matching result.',
+        },
+        slots: ['Command'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'b6blasewingprototype-cmd',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'B6 Blade Wing Prototype' },
+        type: 'Command',
+        ability: {
+          en:
+            'Add [Gunner] slot.  Attack ([Lock]): Gain 1 ion token to perform this attack.  If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
+        },
+        slots: ['Command', 'Title'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{}, {}],
+  },
+  {
+    xws: 'hoenixsquadron',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Phoenix Squadron' },
+        type: 'Command',
+        ability: {
+          en:
+            'At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token.  While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
         },
         slots: ['Command'],
         ffg: -1,

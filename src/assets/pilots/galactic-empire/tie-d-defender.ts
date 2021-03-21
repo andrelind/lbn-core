@@ -244,7 +244,7 @@ const t: ShipType = {
       xws: 'darthvader-tieddefender',
       name: { en: 'Darth Vader' },
       caption: { en: 'Dark Lord of the Sith' },
-      cost: 200,
+      cost: 115,
       initiative: 6,
       limited: 1,
       ability: {
@@ -273,13 +273,13 @@ const t: ShipType = {
     {
       xws: 'captaindobbs',
       name: { en: 'Captain Dobbs' },
-      caption: { en: '???' },
-      cost: 200,
+      caption: { en: 'Reliable Replacement' },
+      cost: 75,
       initiative: 3,
       limited: 1,
       ability: {
         en:
-          'While another frien... defends, before th... step, if you are in... not ionized, you m... cancel...',
+          'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.',
       },
       slots: [],
       hyperspace: false,

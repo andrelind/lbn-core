@@ -216,12 +216,27 @@ const t: ShipType = {
       xws: 'kananjarrus-hwk290lightfreighter',
       name: { en: 'Kanan Jarrus' },
       caption: { en: 'Lost Padawan' },
-      cost: 200,
+      cost: 40,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force].  If you do, the attacker rolls 1 fewer attack die.',
+      },
+      slots: [],
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      xws: 'tapusk',
+      name: { en: 'Tápusk' },
+      caption: { en: 'Order 66 Informant' },
+      cost: 36,
+      initiative: 5,
+      limited: 1,
+      ability: {
+        en:
+          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge].  If you do, that ship does not recover that [Charge] or [Force].',
       },
       slots: [],
       hyperspace: false,

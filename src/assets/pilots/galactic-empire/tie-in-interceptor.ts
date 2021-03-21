@@ -192,7 +192,7 @@ const t: ShipType = {
       xws: 'cienaree',
       name: { en: 'Ciena Ree' },
       caption: { en: 'Look Through My Eyes' },
-      cost: 200,
+      cost: 48,
       initiative: 6,
       limited: 1,
       ability: {
@@ -207,7 +207,7 @@ const t: ShipType = {
       xws: 'gideonhask-tieininterceptor',
       name: { en: 'Gideon Hask' },
       caption: { en: 'Inferno Two' },
-      cost: 200,
+      cost: 48,
       initiative: 4,
       limited: 1,
       ability: {
@@ -242,7 +242,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After a friendly ship at range 0-3 with a lower initiative than your partially executes a maneuver, it may perform a red [Focus] action.',
+          'After a friendly ship at range 0-3 with a lower initiative than you partially executes a maneuver, it may perform a red [Focus] action.',
       },
       slots: [],
       hyperspace: false,
@@ -251,13 +251,13 @@ const t: ShipType = {
     {
       xws: 'lieutenantlorrir',
       name: { en: 'Lieutenant Lorrir' },
-      caption: { en: '???' },
+      caption: { en: 'Requiem for Brentaal' },
       cost: 200,
       initiative: 3,
       limited: 1,
       ability: {
         en:
-          'While you bar... the ([Bank Left] or [Bank Right])... ([Straight]...',
+          'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) templates instead of the ([Straight] template.',
       },
       slots: [],
       hyperspace: false,
@@ -272,7 +272,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the Engagement Phase, after a friendly small ship at range 0-3 is destryed, if that sship has not engaged this phase, you may spent 1 [Charge].  If you do, that ship engages at the current initiative.',
+          'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge].  If you do, that ship engages at the current initiative.',
       },
       slots: [],
       hyperspace: false,

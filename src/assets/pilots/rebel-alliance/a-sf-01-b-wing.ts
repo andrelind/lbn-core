@@ -238,7 +238,7 @@ const t: ShipType = {
       xws: 'herasyndulla-asf01bwing',
       name: { en: 'Hera Syndulla' },
       caption: { en: 'Phoenix Leader' },
-      cost: 200,
+      cost: 55,
       initiative: 6,
       limited: 1,
       ability: {
@@ -252,13 +252,13 @@ const t: ShipType = {
     {
       xws: 'netrempollard',
       name: { en: 'Netrem Pollard' },
-      caption: { en: '???' },
+      caption: { en: 'Dagger Leader' },
       cost: 200,
       initiative: 3,
       limited: 1,
       ability: {
         en:
-          'After you barrel... choose 1 friendly... stressed at range... gains 1 stress... ',
+          'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1.  That ship gains 1 stress token, then you rotate 180°.',
       },
       slots: [],
       hyperspace: false,

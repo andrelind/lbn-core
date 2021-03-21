@@ -807,12 +807,12 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [{ chassis: ['tieininterceptor'] }],
   },
   {
     xws: 'tiedefenderelite',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'TIE Defender Elite' },
@@ -827,7 +827,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{}, {}, {}],
+    restrictions: [{ chassis: ['tieddefender'] }],
   },
   {
     xws: 'vectoredcannonsrz1',
