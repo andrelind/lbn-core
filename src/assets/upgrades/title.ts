@@ -385,7 +385,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance', 'Scum and Villainy'] },
       { chassis: ['hwk290lightfreighter'] },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
   },
   {
@@ -1403,7 +1403,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'b6bladewingprototype',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'B6 Blade Wing Prototype' },
@@ -1415,7 +1415,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [{ chassis: ['asf01bwing'] }],
   },
 ];
 

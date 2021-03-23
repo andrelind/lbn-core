@@ -123,7 +123,7 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification'],
       ffg: 443,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -157,7 +157,7 @@ const t: ShipType = {
         'https://sb-cdn.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 441,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -185,7 +185,7 @@ const t: ShipType = {
         'https://sb-cdn.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 445,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
     {
@@ -247,7 +247,7 @@ const t: ShipType = {
         'https://sb-cdn.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
       slots: ['Modification'],
       ffg: 446,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
   ],

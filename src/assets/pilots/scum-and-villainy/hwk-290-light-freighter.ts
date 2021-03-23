@@ -86,7 +86,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
       ffg: 174,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -123,7 +123,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
       ffg: 175,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -194,18 +194,26 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
       ffg: 176,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'gamutkey',
       name: { en: 'Gamut Key' },
       caption: { en: 'Collaborationist Governor' },
-      cost: 200,
+      cost: 34,
       initiative: 3,
       limited: 1,
-      slots: [],
-      hyperspace: false,
+      slots: [
+        'Talent',
+        'Crew',
+        'Device',
+        'Illicit',
+        'Modification',
+        'Modification',
+        'Title',
+      ],
+      hyperspace: true,
       epic: true,
       ability: {
         en:
@@ -216,15 +224,23 @@ const t: ShipType = {
       xws: 'kananjarrus-hwk290lightfreighter',
       name: { en: 'Kanan Jarrus' },
       caption: { en: 'Lost Padawan' },
-      cost: 40,
+      cost: 42,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force].  If you do, the attacker rolls 1 fewer attack die.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: [
+        'Force Power',
+        'Crew',
+        'Device',
+        'Illicit',
+        'Modification',
+        'Modification',
+        'Title',
+      ],
+      hyperspace: true,
       epic: true,
     },
     {
@@ -238,8 +254,16 @@ const t: ShipType = {
         en:
           'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge].  If you do, that ship does not recover that [Charge] or [Force].',
       },
-      slots: [],
-      hyperspace: false,
+      slots: [
+        'Talent',
+        'Crew',
+        'Device',
+        'Illicit',
+        'Modification',
+        'Modification',
+        'Title',
+      ],
+      hyperspace: true,
       epic: true,
     },
   ],

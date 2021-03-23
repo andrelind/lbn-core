@@ -99,7 +99,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque contra una nave fijada como blanco, después de que tires los dados de ataque, puedes obtener un Blanco fijado sobre el defensor.',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile'],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
       ffg: 123,
@@ -133,7 +133,7 @@ const t: ShipType = {
         es:
           'Mientras vas a ejecutar una maniobra [Straight], puedes incrementar la dificultad de la maniobra. Si lo haces, ejecútala como si fuera una maniobra [Koiogran Turn].',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile'],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
       ffg: 124,
@@ -161,7 +161,7 @@ const t: ShipType = {
         es:
           'Además de sus lanzamisiles y seis cañones láser montados en las alas, el formidable Defensor TIE está equipado con escudos deflectores y un hiperimpulsor.',
       },
-      slots: ['Sensor', 'Cannon', 'Missile'],
+      slots: ['Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
       ffg: 126,
@@ -189,7 +189,7 @@ const t: ShipType = {
         es:
           'El diseño experimental del Defensor TIE aventaja a todos los demás cazas estelares contemporáneos, aunque su tamaño, velocidad y sistemas de armamento suponen un coste tremendo en créditos.',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile'],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
       ffg: 125,
@@ -218,25 +218,10 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque que impacte, si estás evadiéndote, expón 1 de las cartas de Daño del defensor.',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile'],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
       ffg: 122,
-      hyperspace: false,
-      epic: true,
-    },
-    {
-      xws: 'vultskerris',
-      name: { en: 'Vult Skerris' },
-      caption: { en: 'Arrogant Ace' },
-      cost: 200,
-      initiative: 5,
-      limited: 1,
-      ability: {
-        en:
-          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
-      },
-      slots: [],
       hyperspace: false,
       epic: true,
     },
@@ -251,7 +236,7 @@ const t: ShipType = {
         en:
           'You cannot spend [Force] except while attacking.  While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
       },
-      slots: [],
+      slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
     },
@@ -259,14 +244,14 @@ const t: ShipType = {
       xws: 'vultskerris-tieddefender',
       name: { en: 'Vult Skerris' },
       caption: { en: 'Arrogant Ace' },
-      cost: 200,
+      cost: 82,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
       },
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
     },
@@ -281,7 +266,7 @@ const t: ShipType = {
         en:
           'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.',
       },
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
     },

@@ -99,7 +99,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
     {
@@ -127,7 +127,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
     {
@@ -156,7 +156,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
       ffg: 103,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -185,7 +185,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
       ffg: 104,
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -199,8 +199,8 @@ const t: ShipType = {
         en:
           'After you perform an attack, if the defender was destroyed, gain 1 stress token.  After a friendly ship at range 0-3 is destroyed, remove 1 stress token.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
@@ -214,68 +214,68 @@ const t: ShipType = {
         en:
           'While you perform an attack against a damaged defender, roll 1 additional attack die.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'vultskerris-tieininterceptor',
       name: { en: 'Vult Skerris' },
       caption: { en: 'Arrogant Ace' },
-      cost: 200,
+      cost: 46,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'commandantgoran',
       name: { en: 'Commandant Goran' },
       caption: { en: 'Skystrike Superintendent' },
-      cost: 200,
+      cost: 43,
       initiative: 4,
       limited: 1,
       ability: {
         en:
           'After a friendly ship at range 0-3 with a lower initiative than you partially executes a maneuver, it may perform a red [Focus] action.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'lieutenantlorrir',
       name: { en: 'Lieutenant Lorrir' },
       caption: { en: 'Requiem for Brentaal' },
-      cost: 200,
+      cost: 41,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) templates instead of the ([Straight] template.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'nashwindrider',
       name: { en: 'Nash Windrider' },
       caption: { en: 'Alderaanian Zealot' },
-      cost: 200,
+      cost: 40,
       initiative: 2,
       limited: 1,
       ability: {
         en:
           'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge].  If you do, that ship engages at the current initiative.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
   ],

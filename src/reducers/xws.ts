@@ -26,8 +26,10 @@ import {
   loadPilot,
   pointsForSquadron,
 } from '../helpers/unit';
+import upgradeData from '../assets/upgrades';
+
 import { bumpMinor, bumpPatch } from '../helpers/versioning';
-import { PilotXWS, Ship, SquadronXWS } from '../types';
+import { PilotXWS, Ship, SlotKey, SquadronXWS, Upgrade } from '../types';
 
 export type XwsState = SquadronXWS[];
 
@@ -186,6 +188,38 @@ export default function onAction(
           upgrades: upgrades || {},
         };
 
+        // Check for "standarized" upgrades equipped to other
+        // ships with the same shipXws
+        edit.pilots.forEach((p) => {
+          if (p.ship === shipXws) {
+            // Loop upgrades
+            p.upgrades &&
+              Object.keys(p.upgrades).forEach((k) => {
+                const key = k as SlotKey;
+                const upgrades = p.upgrades![key];
+                if (upgrades) {
+                  upgrades.forEach((uXws) => {
+                    const upgrade: Upgrade = JSON.parse(
+                      JSON.stringify(
+                        upgradeData[key].find((u) => u.xws === uXws)
+                      )
+                    );
+                    if (
+                      upgrade?.standarized &&
+                      !pilot.upgrades?.[key]?.find((x) => x === uXws)
+                    ) {
+                      if (!pilot.upgrades![key]) {
+                        pilot.upgrades![key] = [];
+                      }
+                      pilot.upgrades![key]?.push(uXws);
+                    }
+                  });
+                }
+              });
+          }
+          return p;
+        });
+
         edit.pilots = [...edit.pilots, pilot];
         edit.cost = pointsForSquadron(edit);
         edit.version = bumpMinor(edit.version || '2.0.0');
@@ -292,7 +326,7 @@ export default function onAction(
           return squadron;
         }
 
-        const edit = JSON.parse(JSON.stringify(squadron));
+        const edit: SquadronXWS = JSON.parse(JSON.stringify(squadron));
         const slotKey = keyFromSlot(slot);
 
         const unit = edit.pilots.find((p: PilotXWS) => p.uid === unitUid);
@@ -303,22 +337,70 @@ export default function onAction(
           unit.upgrades = {};
         }
 
-        if (!upgrade) {
-          if (unit.upgrades[keyFromSlot(slot)]) {
-            unit.upgrades[keyFromSlot(slot)].splice(slotIndex, 1);
+        const key = keyFromSlot(slot);
 
-            if (unit.upgrades[keyFromSlot(slot)].length === 0) {
-              delete unit.upgrades[keyFromSlot(slot)];
+        if (!upgrade) {
+          if (unit.upgrades[key]) {
+            const removed = unit.upgrades[key]?.splice(slotIndex, 1);
+
+            // Load upgrade, check for "standarized"
+            try {
+              const upgrade: Upgrade = JSON.parse(
+                JSON.stringify(
+                  upgradeData[key].find((u) => u.xws === removed?.[0])
+                )
+              );
+              if (upgrade?.standarized) {
+                edit.pilots = edit.pilots.map((p) => {
+                  if (
+                    p.ship === unit.ship &&
+                    p.upgrades?.[key]?.find((x) => x === upgrade.xws)
+                  ) {
+                    // Found it, remove it
+                    p.upgrades[key] = p.upgrades[key]?.filter(
+                      (x) => x !== upgrade.xws
+                    );
+                  }
+                  return p;
+                });
+              }
+            } catch (error) {
+              console.error(error);
+            }
+
+            if (unit.upgrades[key]?.length === 0) {
+              delete unit.upgrades[key];
             }
           }
         } else {
-          if (!unit.upgrades[keyFromSlot(slot)]) {
-            unit.upgrades[keyFromSlot(slot)] = [];
+          if (!unit.upgrades[key]) {
+            unit.upgrades[key] = [];
           }
-          if (slotIndex > unit.upgrades[keyFromSlot(slot)].length) {
-            unit.upgrades[keyFromSlot(slot)].push(upgrade.xws);
+          if (slotIndex > unit.upgrades[key]!.length) {
+            unit.upgrades[key]?.push(upgrade.xws);
           } else {
-            unit.upgrades[keyFromSlot(slot)][slotIndex] = upgrade.xws;
+            unit.upgrades[key]![slotIndex] = upgrade.xws;
+          }
+
+          // Handle standarized
+          if (upgrade.standarized) {
+            // Look up all other and add it to them too
+            edit.pilots = edit.pilots.map((p) => {
+              if (p.ship === unit.ship) {
+                if (p.upgrades?.[key]) {
+                  if (p.upgrades?.[key]?.find((x) => x === upgrade.xws)) {
+                    // Found it, no need to add
+                  } else {
+                    p.upgrades[key]?.push(upgrade.xws);
+                  }
+                } else {
+                  // No upgrade, just add it
+                  p.upgrades = { ...p.upgrades };
+                  p.upgrades[key] = [upgrade.xws];
+                }
+              }
+              return p;
+            });
           }
         }
 

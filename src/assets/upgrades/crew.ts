@@ -84,7 +84,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       { factions: ['Scum and Villainy'], character: ['darthvader'] },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
   },
   {
@@ -493,7 +493,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 14 },
     restrictions: [{ factions: ['Galactic Empire'] }],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
   },
   {
@@ -2731,7 +2731,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'gamutkey-crew',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 6 },
     sides: [
       {
         title: { en: 'Gamut Key' },
@@ -2744,9 +2744,9 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
   },
 ];
 

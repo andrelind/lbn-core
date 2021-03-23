@@ -1094,7 +1094,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'cutthroat',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 1 },
     sides: [
       {
         title: { en: 'Cutthroat' },
@@ -1107,14 +1107,14 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
   },
   {
     xws: 'tierfonbellyrun',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'Tierfon Belly Run' },
@@ -1127,9 +1127,9 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ chassis: ['btla4ywing'] }],
   },
   {
     xws: 'disciplined',
@@ -1149,7 +1149,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ factions: ['Galactic Empire'] }],
   },
   {
     xws: 'hopeful',
@@ -1167,14 +1167,14 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     xws: 'interloperturn',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 1 },
     sides: [
       {
         title: { en: 'Interloper Turn' },
@@ -1187,9 +1187,10 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    standarized: true,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ chassis: ['tieddefender'] }],
   },
 ];
 

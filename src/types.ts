@@ -280,6 +280,7 @@ export type UpgradeBase = {
   restrictions?: Restrictions[];
   hyperspace: boolean;
   epic: boolean;
+  standarized?: boolean;
 };
 
 export type Upgrade = UpgradeBase & {

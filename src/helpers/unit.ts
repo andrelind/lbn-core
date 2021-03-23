@@ -104,7 +104,7 @@ export const loadUpgrade = (
   faction: Faction
 ): Upgrade => {
   const upgrade: Upgrade = JSON.parse(
-    JSON.stringify(upgradeData[slot].filter((u) => u.xws === xws)[0])
+    JSON.stringify(upgradeData[slot].find((u) => u.xws === xws))
   );
 
   upgrade.finalCost = pointsForUpgrade(upgrade.cost, pilotXws, faction);

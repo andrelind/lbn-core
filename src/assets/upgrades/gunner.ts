@@ -800,7 +800,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'sabinewren-gunner',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'Sabine Wren' },
@@ -813,9 +813,9 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
 ];
 

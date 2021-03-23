@@ -121,7 +121,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
     {
@@ -178,7 +178,7 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
     },
     {
@@ -192,8 +192,8 @@ const t: ShipType = {
         en:
           'While another friendly ship at range 1-2 defends or performs an attack, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
@@ -207,7 +207,7 @@ const t: ShipType = {
         en:
           'While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.',
       },
-      slots: [],
+      slots: ['Talent', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
     },
@@ -222,8 +222,8 @@ const t: ShipType = {
         en:
           "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
@@ -237,38 +237,39 @@ const t: ShipType = {
         en:
           'After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force].  That ship may perform an action, even while stressed.',
       },
-      slots: [],
-      hyperspace: false,
+      force: { value: 3, side: ['light'], recovers: 1 },
+      slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'sharabey-rz1awing',
       name: { en: 'Shara Bey' },
       caption: { en: 'Green Four' },
-      cost: 200,
+      cost: 32,
       initiative: 4,
       limited: 1,
       ability: {
         en:
           'While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
     {
       xws: 'derekklivian',
       name: { en: 'Derek Klivian' },
       caption: { en: 'Hobbie' },
-      cost: 200,
+      cost: 30,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'After you acquire or spend a lock, you may remove 1 red token from yourself.',
       },
-      slots: [],
-      hyperspace: false,
+      slots: ['Talent', 'Missile', 'Configuration'],
+      hyperspace: true,
       epic: true,
     },
   ],

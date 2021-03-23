@@ -629,6 +629,7 @@ const t: UpgradeBase[] = [
         ffg: 866,
       },
     ],
+    standarized: true,
     restrictions: [
       {
         chassis: [

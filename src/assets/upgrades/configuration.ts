@@ -793,7 +793,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'sensitivecontrols',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'Sensitive Controls' },
@@ -805,9 +805,10 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    standarized: true,
     hyperspace: false,
     epic: true,
-    restrictions: [{ chassis: ['tieininterceptor'] }],
+    restrictions: [{ chassis: ['tieininterceptor', 'tievnsilencer'] }],
   },
   {
     xws: 'tiedefenderelite',
@@ -825,14 +826,15 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    standarized: true,
+    hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['tieddefender'] }],
   },
   {
     xws: 'vectoredcannonsrz1',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 1 },
     sides: [
       {
         title: { en: 'Vectored Cannons (RZ-1)' },
@@ -845,9 +847,10 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    standarized: true,
     hyperspace: false,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [{ chassis: ['rz1awing'] }],
   },
 ];
 
