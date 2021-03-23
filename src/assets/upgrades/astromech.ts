@@ -819,6 +819,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Scum and Villainy'] }],
   },
 ];
 

@@ -272,8 +272,9 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge].  If you do, that ship engages at the current initiative.',
+          'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge]. If you do, that ship engages at the current initiative.',
       },
+      charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
