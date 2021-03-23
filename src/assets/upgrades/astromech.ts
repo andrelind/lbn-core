@@ -800,6 +800,26 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
+  {
+    xws: 'r4b11',
+    limited: 1,
+    cost: { value: 3 },
+    sides: [
+      {
+        title: { en: 'R4-B11' },
+        type: 'Astromech',
+        ability: {
+          en:
+            'While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice',
+        },
+
+        slots: ['Astromech'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: true,
+    epic: true,
+  },
 ];
 
 export default t;

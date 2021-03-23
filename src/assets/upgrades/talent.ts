@@ -1129,7 +1129,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['btla4ywing'] }],
+    restrictions: [{ chassis: ['btla4ywing', 'btlbywing'] }],
   },
   {
     xws: 'disciplined',
@@ -1147,7 +1147,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Empire'] }],
   },

@@ -2748,6 +2748,28 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
   },
+  {
+    xws: 'protectorategleb',
+    limited: 1,
+    cost: { value: 2 },
+    sides: [
+      {
+        title: { en: 'Protectorate Gleb' },
+        type: 'Crew',
+        ability: {
+          en:
+            'After you coordinate, you may transfer 1 orange or red token to the ship you coordinated.',
+        },
+        grants: [
+          { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },
+        ],
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: true,
+    epic: true,
+  },
 ];
 
 export default t;

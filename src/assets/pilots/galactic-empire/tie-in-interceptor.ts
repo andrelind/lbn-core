@@ -95,7 +95,7 @@ const t: ShipType = {
         es:
           'El diseño de Sistemas de Flota Sienar para el interceptor TIE incluye cuatro cañones láser montados en las alas, con lo que supera ampliamente en potencia de fuego a sus predecesores.',
       },
-      slots: ['Modification', 'Modification'],
+      slots: ['Modification', 'Modification', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
@@ -123,7 +123,7 @@ const t: ShipType = {
         es:
           'Los pilotos del Escuadrón Sable liderado por el barón Soontir Fel se cuentan entre los mejores del Imperio. Sus interceptores TIE están decorados con las franjas rojas que señalan a los pilotos con al menos diez bajas confirmadas en combate.',
       },
-      slots: ['Talent', 'Modification', 'Modification'],
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
@@ -152,7 +152,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, si hay alguna nave enemiga situada en tu [Bullseye Arc], recibes 1 ficha de Concentración.',
       },
-      slots: ['Talent', 'Modification', 'Modification'],
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
       ffg: 103,
@@ -181,7 +181,7 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque, puedes realizar una acción [Barrel Roll] o [Boost], incluso aunque estés bajo tensión.',
       },
-      slots: ['Talent', 'Modification', 'Modification'],
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
       ffg: 104,

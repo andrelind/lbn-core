@@ -200,7 +200,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your {FULLFRONTARC}.",
+          "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your [Full Front Arc].",
       },
       slots: [
         'Talent',

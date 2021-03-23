@@ -231,6 +231,7 @@ const t: ShipType = {
         en:
           'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force].  If you do, the attacker rolls 1 fewer attack die.',
       },
+      force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
         'Force Power',
         'Crew',

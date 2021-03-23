@@ -208,7 +208,7 @@ const t: ShipType = {
           'While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.',
       },
       slots: ['Talent', 'Missile', 'Configuration'],
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
     },
     {
@@ -222,7 +222,7 @@ const t: ShipType = {
         en:
           "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
     },
