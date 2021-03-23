@@ -76,6 +76,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
@@ -111,6 +112,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       alt: [
         {
@@ -155,6 +157,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
@@ -192,6 +195,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
@@ -229,6 +233,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       hyperspace: true,
       epic: true,
@@ -253,6 +258,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       hyperspace: false,
       epic: true,
@@ -276,6 +282,7 @@ const t: ShipType = {
         'Torpedo',
         'Modification',
         'Configuration',
+        'Title',
       ],
       hyperspace: false,
       epic: true,

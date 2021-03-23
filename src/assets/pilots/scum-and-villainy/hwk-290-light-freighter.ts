@@ -229,7 +229,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force].  If you do, the attacker rolls 1 fewer attack die.',
+          'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.',
       },
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
@@ -253,7 +253,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge].  If you do, that ship does not recover that [Charge] or [Force].',
+          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].',
       },
       slots: [
         'Talent',
