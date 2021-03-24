@@ -61,7 +61,10 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [
-      { factions: ['Scum and Villainy'], character: ['darthvader'] },
+      {
+        factions: ['Scum and Villainy'],
+        character: ['darthvader', 'darthvader-tieddefender'],
+      },
     ],
     hyperspace: true,
     epic: true,

@@ -241,7 +241,7 @@ const t: ShipType = {
       epic: true,
     },
     {
-      xws: 'vultskerris-tieddefender',
+      xws: 'vultskerris',
       name: { en: 'Vult Skerris' },
       caption: { en: 'Arrogant Ace' },
       cost: 82,

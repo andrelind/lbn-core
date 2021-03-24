@@ -1409,6 +1409,7 @@ const t: UpgradeBase[] = [
         title: { en: 'B6 Blade Wing Prototype' },
         type: 'Title',
         ability: { en: 'Add [Gunner] slot.' },
+        grants: [{ slot: 'Gunner', value: 1 }],
         slots: ['Title'],
         ffg: -1,
       },

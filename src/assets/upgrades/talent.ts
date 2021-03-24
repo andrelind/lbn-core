@@ -1187,7 +1187,6 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    standarized: true,
     hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['tieddefender'] }],

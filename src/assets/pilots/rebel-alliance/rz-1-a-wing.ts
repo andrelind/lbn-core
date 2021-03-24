@@ -89,7 +89,7 @@ const t: ShipType = {
         es:
           'Eres capaz de efectuar ataques principales a alcance 0. Si una acción [Boost] tuya va a fracasar debido a que te solapas con otra nave, en vez de eso resuélvela como si estuvieras ejecutando parcialmente una maniobra.',
       },
-      slots: ['Talent', 'Talent', 'Missile'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
       ffg: 20,
@@ -117,7 +117,7 @@ const t: ShipType = {
         es:
           'Debido a la sensibilidad de sus mandos y su elevada capacidad de maniobra, sólo los mejores pilotos se sientan en la carlinga de un Ala-A.',
       },
-      slots: ['Talent', 'Talent', 'Missile'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
@@ -146,7 +146,7 @@ const t: ShipType = {
         es:
           'Después de que realices una acción [Barrel Roll] o [Boost], puedes elegir una nave aliada que tengas a alcance 0-1. Esa nave puede realizar una acción [Focus].',
       },
-      slots: ['Talent', 'Talent', 'Missile'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
       ffg: 19,
@@ -174,7 +174,7 @@ const t: ShipType = {
         es:
           'Bajo el mando del comandante Jun Sato, los valerosos pero inexpertos pilotos del Escuadrón Fénix se enfrentan al Imperio Galáctico teniéndolo todo en su contra.',
       },
-      slots: ['Talent', 'Missile'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
@@ -207,7 +207,7 @@ const t: ShipType = {
         en:
           'While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.',
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
     },
@@ -222,7 +222,7 @@ const t: ShipType = {
         en:
           "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
     },
@@ -268,7 +268,7 @@ const t: ShipType = {
         en:
           'After you acquire or spend a lock, you may remove 1 red token from yourself.',
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
     },

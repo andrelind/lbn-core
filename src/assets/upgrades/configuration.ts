@@ -821,7 +821,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers.  Increase the difficulty of your Koiogran Turn ([KTurn]) maneuvers.  Replace your Full Throttle ship ability with the following:',
+            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([KTurn]) maneuvers. Replace your Full Throttle ship ability with the following:',
         },
         slots: ['Configuration'],
         ffg: -1,

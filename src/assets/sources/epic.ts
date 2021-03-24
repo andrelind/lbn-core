@@ -239,8 +239,8 @@ export const t: Source[] = [
       upgrades: {
         agentoftheempire: 1,
         firstorderelite: 1,
-        veteranwingleader: 1,
-        dreadnoughthunter: 1,
+        veteranwingleader: 4,
+        dreadnoughthunter: 2,
       },
     },
   },
