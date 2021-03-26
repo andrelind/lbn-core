@@ -82,6 +82,7 @@ const t: ShipType = {
       ffg: 101,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -117,6 +118,7 @@ const t: ShipType = {
       ffg: 99,
       hyperspace: false,
       epic: true,
+      keywords: ['Dark Side', 'TIE'],
     },
     {
       name: { en: 'Inquisitor', fr: 'Inquisiteur', es: 'Inquisidor' },
@@ -141,6 +143,7 @@ const t: ShipType = {
       ffg: 102,
       hyperspace: true,
       epic: true,
+      keywords: ['Dark Side', 'TIE'],
     },
     {
       name: {
@@ -176,6 +179,7 @@ const t: ShipType = {
       ffg: 100,
       hyperspace: false,
       epic: true,
+      keywords: ['Dark Side', 'TIE'],
     },
     {
       name: {
@@ -209,6 +213,7 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 632,
+      keywords: ['Dark Side', 'TIE'],
     },
   ],
 };

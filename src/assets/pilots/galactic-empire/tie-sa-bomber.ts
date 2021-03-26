@@ -113,6 +113,7 @@ const t: ShipType = {
       ffg: 110,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Captain Jonus', es: 'Capitán Jonus' },
@@ -151,6 +152,7 @@ const t: ShipType = {
       ffg: 108,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -188,6 +190,7 @@ const t: ShipType = {
       ffg: 111,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Major Rhymer', es: 'Mayor Rhymer' },
@@ -226,6 +229,7 @@ const t: ShipType = {
       ffg: 109,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -261,6 +265,7 @@ const t: ShipType = {
       ffg: 112,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Tomax Bren' },
@@ -299,6 +304,7 @@ const t: ShipType = {
       ffg: 107,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

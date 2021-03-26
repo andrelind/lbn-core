@@ -86,6 +86,7 @@ const t: ShipType = {
       ffg: 210,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter', 'Freighter'],
     },
     {
       name: { en: 'Latts Razzi' },
@@ -125,6 +126,7 @@ const t: ShipType = {
       ffg: 212,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter', 'Freighter'],
     },
     {
       name: { en: 'Moralo Eval' },
@@ -165,6 +167,7 @@ const t: ShipType = {
       ffg: 211,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: {
@@ -202,6 +205,7 @@ const t: ShipType = {
       ffg: 213,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
   ],
 };

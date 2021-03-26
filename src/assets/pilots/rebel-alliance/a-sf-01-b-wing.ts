@@ -83,6 +83,7 @@ const t: ShipType = {
       ffg: 25,
       hyperspace: true,
       epic: true,
+      keywords: ['B-wing'],
     },
     {
       name: {
@@ -126,6 +127,7 @@ const t: ShipType = {
       ffg: 26,
       hyperspace: true,
       epic: true,
+      keywords: ['B-wing'],
     },
     {
       name: { en: 'Braylen Stramm' },
@@ -164,6 +166,7 @@ const t: ShipType = {
       ffg: 23,
       hyperspace: true,
       epic: true,
+      keywords: ['B-wing'],
     },
     {
       name: { en: 'Ten Numb' },
@@ -202,6 +205,7 @@ const t: ShipType = {
       ffg: 24,
       hyperspace: true,
       epic: true,
+      keywords: ['B-wing'],
     },
     {
       name: { en: 'Gina Moonsong' },
@@ -238,6 +242,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 628,
+      keywords: ['B-wing'],
     },
     {
       xws: 'herasyndulla-asf01bwing',
@@ -262,6 +267,7 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      keywords: ['B-wing', 'Spectre'],
     },
     {
       xws: 'netrempollard',
@@ -286,6 +292,7 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      keywords: ['B-wing'],
     },
   ],
 };

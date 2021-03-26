@@ -212,6 +212,7 @@ const t: ShipType = {
       ffg: 186,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Serissu' },
@@ -333,6 +334,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Barrel Roll' },
       ],
       epic: true,
+      keywords: ['Droid'],
     },
   ],
 };

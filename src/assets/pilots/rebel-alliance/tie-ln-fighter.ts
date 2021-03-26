@@ -65,6 +65,7 @@ const t: ShipType = {
       ffg: 49,
       hyperspace: false,
       epic: true,
+      keywords: ['Spectre', 'TIE'],
     },
     {
       name: { en: 'Captain Rex', fr: 'Capitaine Rex', es: 'Capitán Rex' },
@@ -95,6 +96,7 @@ const t: ShipType = {
       ffg: 48,
       hyperspace: false,
       epic: true,
+      keywords: ['Clone', 'TIE'],
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -120,6 +122,7 @@ const t: ShipType = {
       ffg: 46,
       hyperspace: false,
       epic: true,
+      keywords: ['Light Side', 'Spectre', 'TIE'],
     },
     {
       name: { en: 'Sabine Wren' },
@@ -144,6 +147,7 @@ const t: ShipType = {
       ffg: 47,
       hyperspace: false,
       epic: true,
+      keywords: ['Spectre', 'TIE'],
     },
   ],
 };

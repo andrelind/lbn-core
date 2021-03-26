@@ -92,6 +92,7 @@ const t: ShipType = {
       ffg: 37,
       hyperspace: false,
       epic: true,
+      keywords: ['Spectre'],
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -117,6 +118,7 @@ const t: ShipType = {
       ffg: 36,
       hyperspace: false,
       epic: true,
+      keywords: ['Light Side', 'Spectre'],
     },
     {
       name: { en: 'Hera Syndulla' },
@@ -141,6 +143,7 @@ const t: ShipType = {
       ffg: 34,
       hyperspace: false,
       epic: true,
+      keywords: ['Spectre'],
     },
     {
       name: { en: 'Sabine Wren' },
@@ -165,6 +168,7 @@ const t: ShipType = {
       ffg: 35,
       hyperspace: false,
       epic: true,
+      keywords: ['Mandalorian', 'Spectre'],
     },
   ],
 };

@@ -73,6 +73,7 @@ const t: ShipType = {
       ffg: 14,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: { en: 'Evaan Verlaine' },
@@ -110,6 +111,7 @@ const t: ShipType = {
       ffg: 16,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: {
@@ -153,6 +155,7 @@ const t: ShipType = {
       ffg: 17,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: {
@@ -188,6 +191,7 @@ const t: ShipType = {
       ffg: 18,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: { en: 'Horton Salm' },
@@ -220,6 +224,7 @@ const t: ShipType = {
       ffg: 15,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: { en: 'Norra Wexley' },
@@ -257,6 +262,7 @@ const t: ShipType = {
       ffg: 13,
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
   ],
 };

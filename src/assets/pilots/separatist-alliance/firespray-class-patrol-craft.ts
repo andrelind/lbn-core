@@ -80,6 +80,7 @@ const t: ShipType = {
       ],
       cost: 79,
       ffg: 800,
+      keywords: ['Bounty Hunter'],
     },
     {
       xws: 'zamwesell',
@@ -117,6 +118,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 801,
+      keywords: ['Bounty Hunter'],
     },
     {
       xws: 'bobafett-separatistalliance',
@@ -152,6 +154,7 @@ const t: ShipType = {
         fr:
           "Tant que vous défendez, s'il n'y a aucun autre vaisseau allié à portée 0-2, vous pouvez changer 1 de vos résultats vierges en un résultat [Focus].",
       },
+      keywords: ['Bounty Hunter'],
     },
     {
       name: {

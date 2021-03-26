@@ -166,6 +166,7 @@ const t: ShipType = {
       ffg: 179,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Guri' },
@@ -209,6 +210,7 @@ const t: ShipType = {
       ffg: 178,
       hyperspace: false,
       epic: true,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'Prince Xizor', de: 'Prinz Xizor', es: 'Príncipe Xizor' },

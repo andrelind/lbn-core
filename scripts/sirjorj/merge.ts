@@ -28,6 +28,7 @@ const cleanupString = (s: string | void) => {
   }
   return s
     .replaceAll('{SINGLETURRETARC}', '[Single Turret Arc]')
+    .replaceAll('{FULLFRONTARC}', '[Full Front Arc]')
     .replaceAll('{BULLSEYEARC}', '[Bullseye Arc]')
     .replaceAll('{FRONTARC}', '[Front Arc]')
     .replaceAll('{REARARC}', '[Rear Arc]')
@@ -72,36 +73,40 @@ const fetchAndProcess = async () => {
     const ship = assets.pilots[pilot.faction][t];
 
     if (!pilot.unreleased) {
-      return;
-    }
-
-    // const shipAbility = cleanupString(pilot.shipAbility);
-    const newPilot: Pilot = {
-      xws: pilot.xws,
-      name: { en: pilot.name },
-      ...(pilot.subtitle ? { caption: { en: pilot.subtitle } } : {}),
-      cost: 200,
-      initiative: pilot.initiative,
-      limited: pilot.limited,
-      ...(cleanupString(pilot.ability)
-        ? { ability: { en: cleanupString(pilot.ability) || '' } }
-        : {}),
-      // shipAbility: shipAbility
-      //   ? {
-      //       name: { en: shipAbility.split(':')[0].trim() },
-      //       text: { en: shipAbility.split(':')[1].trim() },
-      //     }
-      //   : undefined,
-      slots: pilot.upgrades || [],
-      hyperspace: false,
-      epic: true,
-    };
-
-    const current = ship.pilots.find((p) => p.xws === pilot.xws);
-    if (current) {
-      ship.pilots[ship.pilots.indexOf(current)] = { ...current, ...newPilot };
+      const current = ship.pilots.find((p) => p.xws === pilot.xws);
+      if (current) {
+        current.keywords = pilot.keywords?.split(',').map((x) => x.trim());
+      }
     } else {
-      ship.pilots.push(newPilot);
+      const current = ship.pilots.find((p) => p.xws === pilot.xws);
+      // const shipAbility = cleanupString(pilot.shipAbility);
+      const newPilot: Pilot = {
+        xws: pilot.xws,
+        name: { en: pilot.name },
+        ...(pilot.subtitle ? { caption: { en: pilot.subtitle } } : {}),
+        cost: current?.cost || 200,
+        initiative: pilot.initiative,
+        limited: pilot.limited,
+        ...(cleanupString(pilot.ability)
+          ? { ability: { en: cleanupString(pilot.ability) || '' } }
+          : {}),
+        // shipAbility: shipAbility
+        //   ? {
+        //       name: { en: shipAbility.split(':')[0].trim() },
+        //       text: { en: shipAbility.split(':')[1].trim() },
+        //     }
+        //   : undefined,
+        keywords: pilot.keywords.split(',').map((x) => x.trim()),
+        slots: pilot.upgrades || [],
+        hyperspace: false,
+        epic: true,
+      };
+
+      if (current) {
+        ship.pilots[ship.pilots.indexOf(current)] = { ...current, ...newPilot };
+      } else {
+        ship.pilots.push(newPilot);
+      }
     }
 
     console.log(`${ship.name.en} - ${pilot.name}`);
@@ -128,6 +133,12 @@ const fetchAndProcess = async () => {
   const upgrades: SUpgrade[] = await get('/upgrades2?format=json');
   upgrades.forEach((upgrade) => {
     const slot = upgrade.side[0].slot[0];
+    // @ts-ignore
+    const s = slot === 'Payload' ? 'Device' : slot;
+    const u = assets.upgrades[keyFromSlot(s)].find(
+      (s: UpgradeBase) => s.xws === upgrade.xws
+    );
+
     if (!upgrade.unreleased) {
       return;
     }
@@ -197,13 +208,6 @@ const fetchAndProcess = async () => {
         }
       });
     }
-
-    // @ts-ignore
-    const s = slot === 'Payload' ? 'Device' : slot;
-
-    const u = assets.upgrades[keyFromSlot(s)].find(
-      (s: UpgradeBase) => s.xws === upgrade.xws
-    );
 
     const newUpgrade: UpgradeBase = {
       xws: upgrade.xws,

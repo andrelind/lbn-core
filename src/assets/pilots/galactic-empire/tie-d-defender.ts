@@ -105,6 +105,7 @@ const t: ShipType = {
       ffg: 123,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -139,6 +140,7 @@ const t: ShipType = {
       ffg: 124,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -167,6 +169,7 @@ const t: ShipType = {
       ffg: 126,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -195,6 +198,7 @@ const t: ShipType = {
       ffg: 125,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Rexler Brath' },
@@ -224,6 +228,7 @@ const t: ShipType = {
       ffg: 122,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'darthvader-tieddefender',
@@ -239,6 +244,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
     },
     {
       xws: 'vultskerris',
@@ -254,6 +260,7 @@ const t: ShipType = {
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'captaindobbs',
@@ -269,6 +276,7 @@ const t: ShipType = {
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

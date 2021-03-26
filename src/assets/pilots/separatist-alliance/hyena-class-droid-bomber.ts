@@ -101,6 +101,7 @@ const t: ShipType = {
       cost: 25,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 568,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -133,6 +134,7 @@ const t: ShipType = {
       cost: 29,
       slots: ['Sensor', 'Device', 'Device', 'Modification', 'Configuration'],
       ffg: 565,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'DBS-404' },
@@ -160,6 +162,7 @@ const t: ShipType = {
         fr: 'Protocole de Survie Introuvable',
         es: 'Protocolo de preservación ausente',
       },
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -192,6 +195,7 @@ const t: ShipType = {
       cost: 28,
       slots: ['Sensor', 'Missile', 'Missile', 'Modification', 'Configuration'],
       ffg: 566,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -218,6 +222,7 @@ const t: ShipType = {
       cost: 28,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 567,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'DBS-32C' },
@@ -255,6 +260,7 @@ const t: ShipType = {
       cost: 40,
       slots: ['Sensor', 'Modification', 'Configuration', 'Tactical Relay'],
       ffg: 564,
+      keywords: ['Droid'],
     },
   ],
   ffg: 64,

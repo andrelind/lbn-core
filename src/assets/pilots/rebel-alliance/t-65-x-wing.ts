@@ -72,6 +72,7 @@ const t: ShipType = {
       ffg: 7,
       hyperspace: false,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: {
@@ -107,6 +108,7 @@ const t: ShipType = {
       ffg: 11,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: {
@@ -141,6 +143,7 @@ const t: ShipType = {
       ffg: 12,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan', 'X-wing'],
     },
     {
       name: {
@@ -180,6 +183,7 @@ const t: ShipType = {
       ffg: 9,
       hyperspace: true,
       epic: true,
+      keywords: ['Partisan', 'X-wing'],
     },
     {
       name: { en: 'Garven Dreis' },
@@ -210,6 +214,7 @@ const t: ShipType = {
       ffg: 4,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Jek Porkins' },
@@ -240,6 +245,7 @@ const t: ShipType = {
       ffg: 5,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Kullbee Sperado' },
@@ -276,6 +282,7 @@ const t: ShipType = {
       ffg: 6,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan', 'X-wing'],
     },
     {
       name: { en: 'Leevan Tenza' },
@@ -312,6 +319,7 @@ const t: ShipType = {
       ffg: 8,
       hyperspace: true,
       epic: true,
+      keywords: ['Partisan', 'X-wing'],
     },
     {
       name: { en: 'Luke Skywalker' },
@@ -360,6 +368,7 @@ const t: ShipType = {
       ffg: 2,
       hyperspace: true,
       epic: true,
+      keywords: ['Light Side', 'X-wing'],
     },
     {
       name: {
@@ -394,6 +403,7 @@ const t: ShipType = {
       ffg: 10,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Thane Kyrell' },
@@ -429,6 +439,7 @@ const t: ShipType = {
       ffg: 3,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Wedge Antilles' },
@@ -464,6 +475,7 @@ const t: ShipType = {
       ffg: 1,
       hyperspace: false,
       epic: true,
+      keywords: ['X-wing'],
     },
   ],
 };

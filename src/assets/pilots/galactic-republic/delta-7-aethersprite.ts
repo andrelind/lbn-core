@@ -101,6 +101,7 @@ const t: ShipType = {
       ffg: 515,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Obi-Wan Kenobi' },
@@ -131,6 +132,7 @@ const t: ShipType = {
       ffg: 511,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Plo Koon' },
@@ -161,6 +163,7 @@ const t: ShipType = {
       ffg: 513,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Saesee Tiin' },
@@ -191,6 +194,7 @@ const t: ShipType = {
       ffg: 514,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Mace Windu' },
@@ -220,6 +224,7 @@ const t: ShipType = {
       ffg: 512,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Anakin Skywalker' },
@@ -250,6 +255,7 @@ const t: ShipType = {
       ffg: 507,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Ahsoka Tano' },
@@ -280,6 +286,7 @@ const t: ShipType = {
       ffg: 510,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Barriss Offee' },
@@ -310,6 +317,7 @@ const t: ShipType = {
       ffg: 509,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Luminara Unduli' },
@@ -340,6 +348,7 @@ const t: ShipType = {
       ffg: 508,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
+      keywords: ['Jedi', 'Light Side'],
     },
   ],
   ffg: 61,

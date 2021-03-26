@@ -78,6 +78,7 @@ const t: ShipType = {
       ffg: 58,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan'],
     },
     {
       name: {
@@ -251,6 +252,7 @@ const t: ShipType = {
       ffg: 57,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan'],
     },
     {
       name: {
@@ -286,6 +288,7 @@ const t: ShipType = {
       ffg: 61,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan'],
     },
     {
       name: { en: 'Saw Gerrera' },
@@ -330,6 +333,7 @@ const t: ShipType = {
       ffg: 55,
       hyperspace: false,
       epic: true,
+      keywords: ['Partisan'],
     },
     {
       name: { en: 'K-2SO' },
@@ -368,6 +372,7 @@ const t: ShipType = {
       ffg: 629,
       hyperspace: false,
       epic: true,
+      keywords: ['Droid'],
     },
   ],
 };

@@ -122,6 +122,7 @@ const t: ShipType = {
       ffg: 406,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Backdraft"', de: '„Backdraft"', es: '"Llamarada"' },
@@ -151,6 +152,7 @@ const t: ShipType = {
       ffg: 407,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -179,6 +181,7 @@ const t: ShipType = {
       ffg: 408,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -207,6 +210,7 @@ const t: ShipType = {
       ffg: 409,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Lieutenant LeHuse', es: 'Teniente LeHuse' },
@@ -236,6 +240,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, puedes gastar el Blanco fijado que otra nave aliada tenga sobre el defensor para volver a tirar cualquier cantidad de tus resultados.',
       },
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -269,6 +274,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, después del paso de "Neutralizar resultados", otra nave aliada que tengas a alcance 0-1 debe sufrirr 1 de daño [Hit]/[Critical Hit] para anular 1 resultado equivalente.',
       },
+      keywords: ['TIE'],
     },
   ],
 };

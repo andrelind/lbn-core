@@ -87,6 +87,7 @@ const t: ShipType = {
       ffg: 40,
       hyperspace: true,
       epic: true,
+      keywords: ['Spectre'],
     },
     {
       name: { en: 'AP-5' },
@@ -120,6 +121,7 @@ const t: ShipType = {
       ffg: 41,
       hyperspace: false,
       epic: true,
+      keywords: ['Droid', 'Spectre'],
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -145,6 +147,7 @@ const t: ShipType = {
       ffg: 39,
       hyperspace: true,
       epic: true,
+      keywords: ['Light Side', 'Spectre'],
     },
     {
       name: { en: 'Fenn Rau' },
@@ -174,6 +177,7 @@ const t: ShipType = {
       ffg: 38,
       hyperspace: false,
       epic: true,
+      keywords: ['Mandalorian', 'Spectre'],
     },
   ],
 };

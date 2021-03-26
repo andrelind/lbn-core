@@ -109,6 +109,7 @@ const t: ShipType = {
       ffg: 93,
       hyperspace: false,
       epic: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
     },
     {
       name: { en: 'Maarek Stele' },
@@ -138,6 +139,7 @@ const t: ShipType = {
       ffg: 94,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -166,6 +168,7 @@ const t: ShipType = {
       ffg: 97,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -201,6 +204,7 @@ const t: ShipType = {
       ffg: 98,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Ved Foslo' },
@@ -230,6 +234,7 @@ const t: ShipType = {
       ffg: 95,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Zertik Strom' },
@@ -259,6 +264,7 @@ const t: ShipType = {
       ffg: 96,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

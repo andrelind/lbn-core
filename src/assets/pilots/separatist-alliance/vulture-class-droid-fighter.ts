@@ -101,6 +101,7 @@ const t: ShipType = {
       ffg: 498,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/df075613c4c3dbe7803df6bfa5082262.jpg',
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -135,6 +136,7 @@ const t: ShipType = {
       ffg: 500,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/fab82de87d230b77a5e4b2360ea9af93.jpg',
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -169,6 +171,7 @@ const t: ShipType = {
       ffg: 502,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/18cdc19a9627a38d0ec2783ccd5cb183.jpg',
+      keywords: ['Droid'],
     },
     {
       name: { en: 'DFS-081' },
@@ -198,6 +201,7 @@ const t: ShipType = {
       ffg: 499,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -226,6 +230,7 @@ const t: ShipType = {
       ffg: 497,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/df638358903b64e7b246b3a56fa68af7.jpg',
+      keywords: ['Droid'],
     },
     {
       name: { en: 'DFS-311' },
@@ -255,6 +260,7 @@ const t: ShipType = {
       ffg: 501,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/5fb72145f183eeddd8d37ce1a4d114f7.jpg',
+      keywords: ['Droid'],
     },
   ],
   ffg: 59,

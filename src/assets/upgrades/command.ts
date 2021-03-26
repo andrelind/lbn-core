@@ -582,7 +582,7 @@ const t: UpgradeBase[] = [
     restrictions: [{}, {}],
   },
   {
-    xws: 'hoenixsquadron',
+    xws: 'phoenixsquadron',
     limited: 1,
     cost: { value: 200 },
     sides: [

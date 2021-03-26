@@ -109,6 +109,7 @@ const t: ShipType = {
       ffg: 155,
       hyperspace: true,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: { en: 'Joy Rekkoff' },
@@ -138,6 +139,7 @@ const t: ShipType = {
       ffg: 157,
       hyperspace: true,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: { en: 'Kad Solus' },
@@ -166,6 +168,7 @@ const t: ShipType = {
       ffg: 158,
       hyperspace: true,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: {
@@ -200,6 +203,7 @@ const t: ShipType = {
       ffg: 156,
       hyperspace: true,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: {
@@ -228,6 +232,7 @@ const t: ShipType = {
       ffg: 159,
       hyperspace: false,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: {
@@ -256,6 +261,7 @@ const t: ShipType = {
       ffg: 160,
       hyperspace: false,
       epic: true,
+      keywords: ['Mandalorian'],
     },
   ],
 };

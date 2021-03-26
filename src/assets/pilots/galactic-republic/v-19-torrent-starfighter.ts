@@ -73,6 +73,7 @@ const t: ShipType = {
       ffg: 517,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg',
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
@@ -97,6 +98,7 @@ const t: ShipType = {
       ffg: 516,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/2a20c8f88cf55b75df4909f74b0221a2.jpg',
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Swoop"', de: '„Swoop"' },
@@ -121,6 +123,7 @@ const t: ShipType = {
       ffg: 519,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/c8c96604a64fce6b953a8b4dc4ff86e6.jpg',
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Axe"', de: '„Axe"' },
@@ -150,6 +153,7 @@ const t: ShipType = {
       ffg: 518,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg',
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Tucker"', de: '„Tucker"' },
@@ -179,6 +183,7 @@ const t: ShipType = {
       ffg: 520,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/0b24c3261656d83b685ac59e6dfb1817.jpg',
+      keywords: ['Clone'],
     },
     {
       name: {
@@ -207,6 +212,7 @@ const t: ShipType = {
       ffg: 521,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/74667d2878cb823d14035e91c8773816.jpg',
+      keywords: ['Clone'],
     },
     {
       name: {
@@ -235,6 +241,7 @@ const t: ShipType = {
       ffg: 522,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg',
+      keywords: ['Clone'],
     },
   ],
   ffg: 62,

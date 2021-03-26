@@ -81,6 +81,7 @@ const t: ShipType = {
       ffg: 219,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Dark Side'],
     },
     {
       name: { en: 'Ketsu Onyo' },
@@ -110,6 +111,7 @@ const t: ShipType = {
       ffg: 218,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Sabine Wren' },
@@ -139,6 +141,7 @@ const t: ShipType = {
       ffg: 220,
       hyperspace: false,
       epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: {
@@ -167,6 +170,7 @@ const t: ShipType = {
       ffg: 221,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

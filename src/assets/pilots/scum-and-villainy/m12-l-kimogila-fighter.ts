@@ -143,6 +143,7 @@ const t: ShipType = {
       ffg: 208,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Torani Kulda' },
@@ -179,6 +180,7 @@ const t: ShipType = {
       ffg: 207,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

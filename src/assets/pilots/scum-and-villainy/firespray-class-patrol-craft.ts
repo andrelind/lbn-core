@@ -90,6 +90,7 @@ const t: ShipType = {
       ffg: 149,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: {
@@ -126,6 +127,7 @@ const t: ShipType = {
       ffg: 154,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Emon Azzameen' },
@@ -240,6 +242,7 @@ const t: ShipType = {
       ffg: 152,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Krassis Trelix' },

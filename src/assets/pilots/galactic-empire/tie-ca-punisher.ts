@@ -83,6 +83,7 @@ const t: ShipType = {
       ffg: 140,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Redline"', de: '„Rote Linie"', es: '"Velocidad Terminal"' },
@@ -121,6 +122,7 @@ const t: ShipType = {
       ffg: 139,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -158,6 +160,7 @@ const t: ShipType = {
       ffg: 141,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

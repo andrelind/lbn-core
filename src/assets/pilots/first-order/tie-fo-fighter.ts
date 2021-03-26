@@ -72,6 +72,7 @@ const t: ShipType = {
       ffg: 397,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Commander Malarus', es: 'Comandante Malarus' },
@@ -102,6 +103,7 @@ const t: ShipType = {
       ffg: 452,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Scorch"', de: '„Scorch"', es: '"Quemadura"' },
@@ -131,6 +133,7 @@ const t: ShipType = {
       ffg: 398,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Static"', de: '„Static"', es: '"Estática"' },
@@ -160,6 +163,7 @@ const t: ShipType = {
       ffg: 399,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Longshot"', de: '„Longshot"', es: '"Tiro Aventurado"' },
@@ -184,6 +188,7 @@ const t: ShipType = {
       ffg: 400,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -212,6 +217,7 @@ const t: ShipType = {
       ffg: 403,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Muse"', de: '„Muse"', es: '"Musa"' },
@@ -241,6 +247,7 @@ const t: ShipType = {
       ffg: 401,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'TN-3465' },
@@ -270,6 +277,7 @@ const t: ShipType = {
       ffg: 453,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -298,6 +306,7 @@ const t: ShipType = {
       ffg: 404,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -326,6 +335,7 @@ const t: ShipType = {
       ffg: 405,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Lieutenant Rivas', es: 'Teniente Rivas' },
@@ -355,6 +365,7 @@ const t: ShipType = {
       ffg: 454,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Null"', de: '„Null"', es: '"Nulo"' },
@@ -383,6 +394,7 @@ const t: ShipType = {
       ffg: 402,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

@@ -72,6 +72,7 @@ const t: ShipType = {
         fr:
           "Après que vous, ou un vaisseau Obi-Wan Kenobi allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre retire 1 marqueur rouge de votre choix.",
       },
+      keywords: ['Dark Side', 'Jedi', 'Light Side'],
     },
     {
       xws: 'obiwankenobi-eta2actis',
@@ -100,6 +101,7 @@ const t: ShipType = {
         fr:
           "Après que vous, ou un vaisseau Anakin Skywalker allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre gagne 1 marqueur de concentration.",
       },
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       xws: 'aaylasecura',
@@ -128,6 +130,7 @@ const t: ShipType = {
         fr:
           "Tant qu'un vaisseau ennemi dans votre [Front Arc] à portée 0-1 effectue une attaque, le défenseur peut changer 1 résultat vierge en un résultat [Focus].",
       },
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Shaak Ti' },
@@ -156,6 +159,7 @@ const t: ShipType = {
       cost: 44,
       epic: true,
       ffg: 784,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: {
@@ -183,6 +187,7 @@ const t: ShipType = {
       cost: 41,
       epic: true,
       ffg: 786,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: { en: 'Yoda' },
@@ -217,6 +222,7 @@ const t: ShipType = {
       cost: 48,
       epic: true,
       ffg: 785,
+      keywords: ['Jedi', 'Light Side'],
     },
   ],
   ffg: 76,

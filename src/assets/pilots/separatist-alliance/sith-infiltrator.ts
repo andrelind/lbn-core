@@ -82,6 +82,7 @@ const t: ShipType = {
       ffg: 503,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
+      keywords: ['Dark Side', 'Sith'],
     },
     {
       name: { en: 'Count Dooku', fr: 'Comte Dooku' },
@@ -117,6 +118,7 @@ const t: ShipType = {
       ffg: 504,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
+      keywords: ['Dark Side', 'Sith'],
     },
     {
       name: {
@@ -198,6 +200,7 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
+      keywords: ['Droid'],
     },
   ],
   ffg: 60,

@@ -103,6 +103,7 @@ const t: ShipType = {
       ],
       cost: 31,
       ffg: 602,
+      keywords: ['Clone', 'Y-wing'],
     },
     {
       name: { en: 'Anakin Skywalker' },
@@ -139,6 +140,7 @@ const t: ShipType = {
         fr: 'Héros de la République',
         es: 'Héroe de la República',
       },
+      keywords: ['Jedi', 'Light Side', 'Y-wing'],
     },
     {
       name: { en: 'R2-D2' },
@@ -180,6 +182,7 @@ const t: ShipType = {
         fr: 'Tas de Boulons',
         es: 'Montón de chatarra',
       },
+      keywords: ['Droid', 'Y-wing'],
     },
     {
       name: {
@@ -215,6 +218,7 @@ const t: ShipType = {
       ],
       cost: 40,
       ffg: 597,
+      keywords: ['Clone', 'Y-wing'],
     },
     {
       name: { en: '"Matchstick"' },
@@ -250,6 +254,7 @@ const t: ShipType = {
         fr: 'Shadow Deux',
         es: 'Sombra Dos',
       },
+      keywords: ['Clone', 'Y-wing'],
     },
     {
       name: { en: '"Broadside"' },
@@ -285,6 +290,7 @@ const t: ShipType = {
         fr: 'Shadow Trois',
         es: 'Sombra Tres',
       },
+      keywords: ['Clone', 'Y-wing'],
     },
     {
       name: { en: '"Goji"' },
@@ -319,6 +325,7 @@ const t: ShipType = {
         fr: 'Spécialiste du Chargement',
         es: 'Especialista en cabezas explosivas',
       },
+      keywords: ['Clone', 'Y-wing'],
     },
     {
       name: {
@@ -352,6 +359,7 @@ const t: ShipType = {
       ],
       cost: 29,
       ffg: 603,
+      keywords: ['Clone', 'Y-wing'],
     },
   ],
   ffg: 68,

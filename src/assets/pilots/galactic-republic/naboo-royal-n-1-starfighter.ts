@@ -99,6 +99,7 @@ const t: ShipType = {
         fr: 'Héros de Naboo',
         es: 'Héroe de Naboo',
       },
+      keywords: ['Light Side'],
     },
     {
       name: { en: 'Ric Olié' },

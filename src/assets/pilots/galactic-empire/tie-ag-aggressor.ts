@@ -79,6 +79,7 @@ const t: ShipType = {
       ffg: 128,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Lieutenant Kestal', es: 'Teniente Kestal' },
@@ -115,6 +116,7 @@ const t: ShipType = {
       ffg: 127,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -150,6 +152,7 @@ const t: ShipType = {
       ffg: 129,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -178,6 +181,7 @@ const t: ShipType = {
       ffg: 130,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

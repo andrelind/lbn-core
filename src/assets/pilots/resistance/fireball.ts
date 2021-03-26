@@ -207,6 +207,7 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 622,
+      keywords: ['Droid'],
     },
   ],
 };

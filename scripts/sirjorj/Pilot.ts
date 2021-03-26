@@ -31,4 +31,5 @@ export interface SPilot {
   xws: string;
   text: string;
   unreleased?: boolean;
+  keywords: string;
 }

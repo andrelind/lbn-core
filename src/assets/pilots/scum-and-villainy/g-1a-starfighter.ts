@@ -77,6 +77,7 @@ const t: ShipType = {
       ffg: 201,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Droid'],
     },
     {
       name: {
@@ -105,6 +106,7 @@ const t: ShipType = {
       ffg: 203,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Zuckuss' },
@@ -141,6 +143,7 @@ const t: ShipType = {
       ffg: 202,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

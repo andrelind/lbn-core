@@ -169,6 +169,7 @@ const t: ShipType = {
       ffg: 192,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Talonbane Cobra' },
@@ -241,6 +242,7 @@ const t: ShipType = {
       ffg: 193,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

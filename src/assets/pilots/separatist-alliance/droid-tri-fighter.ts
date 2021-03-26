@@ -84,6 +84,7 @@ const t: ShipType = {
           "Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul d'un vaisseau allié situé dans l'arc de tir du vaisseau ennemi pour changer 1 résultat [Focus] en un résultat [Evade] ou [Hit].",
       },
       ffg: 794,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -116,6 +117,7 @@ const t: ShipType = {
       cost: 41,
       epic: true,
       ffg: 796,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -149,6 +151,7 @@ const t: ShipType = {
       cost: 38,
       epic: true,
       ffg: 797,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'DIS-347' },
@@ -176,6 +179,7 @@ const t: ShipType = {
       cost: 38,
       epic: true,
       ffg: 795,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -202,6 +206,7 @@ const t: ShipType = {
       cost: 37,
       epic: true,
       ffg: 798,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -228,6 +233,7 @@ const t: ShipType = {
       cost: 35,
       epic: true,
       ffg: 799,
+      keywords: ['Droid'],
     },
   ],
   ffg: 77,

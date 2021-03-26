@@ -85,6 +85,7 @@ const t: ShipType = {
         fr:
           "À l'académie militaire de Carida, les cadets de la Marine Impériale sont entraînés à être impitoyables et loyaux, privilégiant la victoire à la survie de leurs propres camarades.",
       },
+      keywords: ['TIE'],
     },
     {
       xws: 'onyxsquadronsentry',
@@ -118,6 +119,7 @@ const t: ShipType = {
         fr:
           'Le TIE/rb lourd, parfois surnommé la « brute », est conçu pour la polyvalence opérationnelle. Sa coque renforcée et sa capacité à accueillir un copilote droïde MGK-300 en font un excellent appareil de patrouille.',
       },
+      keywords: ['TIE'],
     },
     {
       xws: 'rampage',
@@ -152,6 +154,7 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 693,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Lyttan Dree' },
@@ -180,6 +183,7 @@ const t: ShipType = {
       ],
       cost: 37,
       ffg: 694,
+      keywords: ['TIE'],
     },
   ],
   ffg: 72,

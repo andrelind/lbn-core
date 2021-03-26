@@ -112,6 +112,7 @@ const t: ShipType = {
       ffg: 229,
       hyperspace: true,
       epic: true,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'L3-37' },
@@ -146,6 +147,7 @@ const t: ShipType = {
       ffg: 228,
       hyperspace: true,
       epic: true,
+      keywords: ['Droid'],
     },
     {
       name: { en: 'Lando Calrissian' },

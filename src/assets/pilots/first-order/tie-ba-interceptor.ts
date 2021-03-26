@@ -104,6 +104,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 624,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Holo"', de: '„Holo"' },
@@ -133,6 +134,7 @@ const t: ShipType = {
       ffg: 625,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg',
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Ember"', de: '„Ember"', es: '"Ascua"' },
@@ -160,6 +162,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 626,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -186,6 +189,7 @@ const t: ShipType = {
         es:
           'Aplicando las ideas del mayor Vonreg, Sistemas de Flota Sienar-Jaemus pudo mejorar diseños de valía ya probada, así como construir esta excepcional nave tan precisa como letal.',
       },
+      keywords: ['TIE'],
     },
   ],
 };

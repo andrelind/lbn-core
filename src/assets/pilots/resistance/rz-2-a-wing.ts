@@ -104,6 +104,7 @@ const t: ShipType = {
       ffg: 435,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Tallissan Lintra' },
@@ -134,6 +135,7 @@ const t: ShipType = {
       ffg: 436,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Zari Bangel' },
@@ -163,6 +165,7 @@ const t: ShipType = {
       ffg: 438,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Greer Sonnel' },
@@ -187,6 +190,7 @@ const t: ShipType = {
       ffg: 437,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: {
@@ -214,6 +218,7 @@ const t: ShipType = {
       ffg: 439,
       hyperspace: false,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: {
@@ -242,6 +247,7 @@ const t: ShipType = {
       ffg: 440,
       hyperspace: false,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Zizi Tlo' },
@@ -270,6 +276,7 @@ const t: ShipType = {
         fr: 'Dévoué à la Cause',
         es: 'Comprometida con la causa',
       },
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Ronith Blario' },
@@ -297,6 +304,7 @@ const t: ShipType = {
         fr: 'Débutant Inconscient',
         es: 'Novato temerario',
       },
+      keywords: ['A-wing'],
     },
     {
       xws: 'merlcobben',
@@ -324,6 +332,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 704,
+      keywords: ['A-wing'],
     },
     {
       xws: 'suralindajavos',
@@ -351,6 +360,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 703,
+      keywords: ['A-wing'],
     },
     {
       xws: 'wrobietyce',
@@ -378,6 +388,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 702,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Seftin Vanik', es: 'Vanik Septin', fr: 'Vanik Septin' },
@@ -405,6 +416,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 701,
+      keywords: ['A-wing'],
     },
   ],
 };

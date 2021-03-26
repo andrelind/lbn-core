@@ -83,6 +83,7 @@ const t: ShipType = {
       ffg: 430,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Chewbacca' },
@@ -121,6 +122,7 @@ const t: ShipType = {
       ffg: 429,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Han Solo' },
@@ -159,6 +161,7 @@ const t: ShipType = {
       ffg: 427,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Rey' },
@@ -198,6 +201,7 @@ const t: ShipType = {
       ffg: 428,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter', 'Light Side', 'YT-1300'],
     },
   ],
 };

@@ -106,6 +106,7 @@ const t: ShipType = {
       ffg: 418,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       xws: 'poedameron-swz68',
@@ -141,6 +142,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 697,
+      keywords: ['X-wing'],
     },
     {
       name: {
@@ -169,6 +171,7 @@ const t: ShipType = {
       ffg: 426,
       hyperspace: false,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: {
@@ -204,6 +207,7 @@ const t: ShipType = {
       ffg: 425,
       hyperspace: false,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: {
@@ -239,6 +243,7 @@ const t: ShipType = {
       ffg: 451,
       hyperspace: false,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Ello Asty' },
@@ -274,6 +279,7 @@ const t: ShipType = {
       ffg: 419,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Joph Seastriker' },
@@ -306,6 +312,7 @@ const t: ShipType = {
       ffg: 424,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Kare Kun' },
@@ -342,6 +349,7 @@ const t: ShipType = {
       ffg: 421,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Lieutenant Bastian', es: 'Teniente Bastian' },
@@ -371,6 +379,7 @@ const t: ShipType = {
       ffg: 449,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Nien Nunb' },
@@ -407,6 +416,7 @@ const t: ShipType = {
       ffg: 420,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Jaycris Tubbs' },
@@ -436,6 +446,7 @@ const t: ShipType = {
       ffg: 450,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Jessika Pava' },
@@ -466,6 +477,7 @@ const t: ShipType = {
       ffg: 423,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Temmin Wexley' },
@@ -497,6 +509,7 @@ const t: ShipType = {
       ffg: 422,
       hyperspace: true,
       epic: true,
+      keywords: ['X-wing'],
     },
     {
       xws: 'temminwexley-swz68',
@@ -531,6 +544,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 698,
+      keywords: ['X-wing'],
     },
     {
       xws: 'caithrenalli',
@@ -565,6 +579,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 699,
+      keywords: ['X-wing'],
     },
     {
       name: { en: 'Nimi Chereen', de: 'Nimi Chireen' },
@@ -592,6 +607,7 @@ const t: ShipType = {
       },
       epic: true,
       ffg: 700,
+      keywords: ['X-wing'],
     },
   ],
 };

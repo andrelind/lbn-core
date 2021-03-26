@@ -49,16 +49,16 @@ const processShip = (faction: Faction, shipData: any) => {
   ship.pilots = pilots.map((pilot: Pilot) => {
     const local = ship.pilots.find((p) => p.xws === pilot.xws);
     if (local) {
-      if (pilot.image) {
-        // @ts-ignore
-        local.image = { en: pilot.image };
-      }
+      // if (pilot.image) {
+      //   // @ts-ignore
+      //   local.image = { en: pilot.image };
+      // }
       local.keywords = pilot.keywords;
       return local;
     }
 
     // @ts-ignore
-    pilot.name = { en: pilot.name };
+    // pilot.name = { en: pilot.name };
     if (pilot.caption) {
       // @ts-ignore
       pilot.caption = { en: pilot.caption };
@@ -73,8 +73,8 @@ const processShip = (faction: Faction, shipData: any) => {
     }
     delete pilot.shipAbility;
 
-    pilot.slots = pilot.slots || [];
-    pilot.cost = pilot.cost || 0;
+    // pilot.slots = pilot.slots || [];
+    // pilot.cost = pilot.cost || 0;
     pilot.epic = true;
     return pilot;
   });

@@ -150,6 +150,7 @@ const t: ShipType = {
       ffg: 496,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
+      keywords: ['Droid'],
     },
     {
       name: { en: 'Captain Sear', fr: 'Capitaine Sear', es: 'Capitán Sear' },

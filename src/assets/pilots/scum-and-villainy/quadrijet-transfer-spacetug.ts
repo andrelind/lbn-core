@@ -163,6 +163,7 @@ const t: ShipType = {
       ffg: 162,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Unkar Plutt' },

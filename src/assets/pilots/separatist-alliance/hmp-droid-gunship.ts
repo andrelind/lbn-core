@@ -86,6 +86,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 666,
+      keywords: ['Droid'],
     },
     {
       xws: 'baktoiddrone',
@@ -120,6 +121,7 @@ const t: ShipType = {
         es:
           'Invención bélica tardía de la Confederación de Sistemas Independientes, la cañonera droide emplea repulsores especializados para efectuar veloces pasadas de bombardeo y desembarcar droides de combate justo en el lugar preciso.',
       },
+      keywords: ['Droid'],
     },
     {
       xws: 'geonosianprototype',
@@ -160,6 +162,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 668,
+      keywords: ['Droid'],
     },
     {
       xws: 'dgs286',
@@ -195,6 +198,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 664,
+      keywords: ['Droid'],
     },
     {
       xws: 'onderonoppressor',
@@ -235,6 +239,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 665,
+      keywords: ['Droid'],
     },
     {
       name: {
@@ -269,6 +274,7 @@ const t: ShipType = {
       ],
       cost: 36,
       ffg: 667,
+      keywords: ['Droid'],
     },
   ],
   ffg: 75,

@@ -88,6 +88,7 @@ const t: ShipType = {
       ffg: 174,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: { en: 'Palob Godalhi' },
@@ -125,6 +126,7 @@ const t: ShipType = {
       ffg: 175,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: {
@@ -160,6 +162,7 @@ const t: ShipType = {
       ffg: 177,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: { en: 'Torkil Mux' },
@@ -196,6 +199,7 @@ const t: ShipType = {
       ffg: 176,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       xws: 'gamutkey',
@@ -219,6 +223,7 @@ const t: ShipType = {
         en:
           'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at in your [Single Turret Arc] with 1 or more circular tokens.  During the End Phase, circular tokens are not removed from that ship.',
       },
+      keywords: ['Freighter'],
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -243,6 +248,7 @@ const t: ShipType = {
       ],
       hyperspace: true,
       epic: true,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       xws: 'tapusk',
@@ -253,19 +259,20 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].',
+          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge].  If you do, that ship does not recover that [Charge] or [Force].',
       },
       slots: [
         'Talent',
         'Crew',
-        'Device',
+        'Payload',
         'Illicit',
         'Modification',
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
   ],
 };

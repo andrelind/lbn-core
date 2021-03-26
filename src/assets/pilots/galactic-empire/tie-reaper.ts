@@ -97,6 +97,7 @@ const t: ShipType = {
       ffg: 115,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -130,6 +131,7 @@ const t: ShipType = {
       ffg: 114,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Major Vermeil' },
@@ -159,6 +161,7 @@ const t: ShipType = {
       ffg: 113,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -194,6 +197,7 @@ const t: ShipType = {
       ffg: 116,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

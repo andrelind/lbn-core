@@ -82,6 +82,7 @@ const t: ShipType = {
       ffg: 71,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Han Solo' },
@@ -120,6 +121,7 @@ const t: ShipType = {
       ffg: 69,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -158,6 +160,7 @@ const t: ShipType = {
       ffg: 70,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: {
@@ -194,6 +197,7 @@ const t: ShipType = {
       ffg: 72,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: { en: 'Leia Organa' },
@@ -233,6 +237,7 @@ const t: ShipType = {
       ffg: 630,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
+      keywords: ['Freighter', 'YT-1300'],
     },
   ],
 };

@@ -103,6 +103,7 @@ const t: ShipType = {
       ffg: 132,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Whisper"', de: '„Geflüster"', es: '"Susurro"' },
@@ -131,6 +132,7 @@ const t: ShipType = {
       ffg: 131,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -159,6 +161,7 @@ const t: ShipType = {
       ffg: 134,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -187,6 +190,7 @@ const t: ShipType = {
       ffg: 133,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

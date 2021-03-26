@@ -77,6 +77,7 @@ const t: ShipType = {
       ffg: 168,
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: { en: 'Drea Renthal' },
@@ -115,6 +116,7 @@ const t: ShipType = {
       ffg: 166,
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: {
@@ -152,6 +154,7 @@ const t: ShipType = {
       ffg: 167,
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       name: { en: 'Kavil' },
@@ -190,6 +193,7 @@ const t: ShipType = {
       ffg: 165,
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       xws: 'leemakai',
@@ -213,6 +217,7 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       xws: 'arlizhadrassian',
@@ -236,6 +241,7 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       xws: 'padric',
@@ -259,6 +265,7 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       xws: 'amaxinewarrior',
@@ -277,6 +284,7 @@ const t: ShipType = {
       ],
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
     {
       xws: 'jinatasecurityofficer',
@@ -287,6 +295,7 @@ const t: ShipType = {
       slots: ['Tech', 'Turret', 'Torpedo', 'Gunner', 'Astromech', 'Device'],
       hyperspace: true,
       epic: true,
+      keywords: ['Y-wing'],
     },
   ],
 };

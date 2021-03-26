@@ -812,7 +812,6 @@ const t: UpgradeBase[] = [
           en:
             'While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice',
         },
-
         slots: ['Astromech'],
         ffg: -1,
       },

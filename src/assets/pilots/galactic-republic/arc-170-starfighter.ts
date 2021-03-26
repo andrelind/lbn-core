@@ -69,6 +69,7 @@ const t: ShipType = {
       ffg: 526,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Jag"', de: '„Jag"' },
@@ -93,6 +94,7 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
@@ -124,6 +126,7 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
+      keywords: ['Clone'],
     },
     {
       name: { en: '"Wolffe"', de: '„Wolffe"' },
@@ -156,6 +159,7 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
+      keywords: ['Clone'],
     },
     {
       name: {
@@ -184,6 +188,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
+      keywords: ['Clone'],
     },
     {
       name: {
@@ -219,6 +224,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
+      keywords: ['Clone'],
     },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',

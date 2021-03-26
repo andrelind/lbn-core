@@ -107,6 +107,7 @@ const t: ShipType = {
       ffg: 197,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Droid'],
     },
     {
       name: { en: 'IG-88B' },
@@ -152,6 +153,7 @@ const t: ShipType = {
       ffg: 198,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Droid'],
     },
     {
       name: { en: 'IG-88C' },
@@ -190,6 +192,7 @@ const t: ShipType = {
       ffg: 199,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Droid'],
     },
     {
       name: { en: 'IG-88D' },
@@ -228,6 +231,7 @@ const t: ShipType = {
       ffg: 200,
       hyperspace: false,
       epic: true,
+      keywords: ['Bounty Hunter', 'Droid'],
     },
   ],
 };

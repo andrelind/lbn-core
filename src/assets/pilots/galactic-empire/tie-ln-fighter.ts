@@ -70,6 +70,7 @@ const t: ShipType = {
       ffg: 81,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -103,6 +104,7 @@ const t: ShipType = {
       ffg: 80,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -136,6 +138,7 @@ const t: ShipType = {
       ffg: 88,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -169,6 +172,7 @@ const t: ShipType = {
       ffg: 82,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Wampa"', de: '„Wampa"' },
@@ -199,6 +203,7 @@ const t: ShipType = {
       ffg: 89,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -234,6 +239,7 @@ const t: ShipType = {
       ffg: 92,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -269,6 +275,7 @@ const t: ShipType = {
       ffg: 90,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Del Meeko' },
@@ -298,6 +305,7 @@ const t: ShipType = {
       ffg: 85,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Gideon Hask' },
@@ -327,6 +335,7 @@ const t: ShipType = {
       ffg: 84,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Iden Versio' },
@@ -357,6 +366,7 @@ const t: ShipType = {
       ffg: 83,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -392,6 +402,7 @@ const t: ShipType = {
       ffg: 91,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Seyn Marana' },
@@ -421,6 +432,7 @@ const t: ShipType = {
       ffg: 86,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Valen Rudor' },
@@ -450,6 +462,7 @@ const t: ShipType = {
       ffg: 87,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

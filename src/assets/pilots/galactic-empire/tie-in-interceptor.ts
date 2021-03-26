@@ -101,6 +101,7 @@ const t: ShipType = {
       ffg: 106,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -129,6 +130,7 @@ const t: ShipType = {
       ffg: 105,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Soontir Fel' },
@@ -158,6 +160,7 @@ const t: ShipType = {
       ffg: 103,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Turr Phennir' },
@@ -187,6 +190,7 @@ const t: ShipType = {
       ffg: 104,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'cienaree',
@@ -202,6 +206,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -217,6 +222,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'vultskerris-tieininterceptor',
@@ -232,6 +238,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'commandantgoran',
@@ -247,6 +254,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'lieutenantlorrir',
@@ -262,6 +270,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       xws: 'nashwindrider',
@@ -278,6 +287,7 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

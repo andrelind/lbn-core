@@ -114,6 +114,7 @@ const t: ShipType = {
       ffg: 78,
       hyperspace: false,
       epic: true,
+      keywords: ['Droid', 'Freighter'],
     },
     {
       name: { en: 'Dash Rendar' },
@@ -148,6 +149,7 @@ const t: ShipType = {
       ffg: 77,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: {
@@ -176,6 +178,7 @@ const t: ShipType = {
       ffg: 79,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
   ],
 };

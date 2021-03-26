@@ -110,6 +110,7 @@ const t: ShipType = {
       ffg: 75,
       hyperspace: false,
       epic: true,
+      keywords: ['Droid', 'Freighter', 'Spectre'],
     },
     {
       name: { en: 'Hera Syndulla' },
@@ -144,6 +145,7 @@ const t: ShipType = {
       ffg: 73,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter', 'Spectre'],
     },
     {
       name: { en: 'Kanan Jarrus' },
@@ -179,6 +181,7 @@ const t: ShipType = {
       ffg: 74,
       hyperspace: true,
       epic: true,
+      keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
     },
     {
       name: {
@@ -216,6 +219,7 @@ const t: ShipType = {
       ffg: 76,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: { en: 'Alexsandr Kallus' },
@@ -250,6 +254,7 @@ const t: ShipType = {
       ffg: 631,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
+      keywords: ['Freighter', 'Spectre'],
     },
   ],
 };

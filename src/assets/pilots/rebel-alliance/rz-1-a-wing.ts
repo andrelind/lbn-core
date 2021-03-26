@@ -95,6 +95,7 @@ const t: ShipType = {
       ffg: 20,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: {
@@ -123,6 +124,7 @@ const t: ShipType = {
       ffg: 21,
       hyperspace: false,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: { en: 'Jake Farrell' },
@@ -152,6 +154,7 @@ const t: ShipType = {
       ffg: 19,
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       name: {
@@ -180,6 +183,7 @@ const t: ShipType = {
       ffg: 22,
       hyperspace: false,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       xws: 'herasyndulla-rz1awing',
@@ -195,6 +199,7 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing', 'Spectre'],
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -210,6 +215,7 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -225,6 +231,7 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing', 'Mandalorian'],
     },
     {
       xws: 'ahsokatano-rz1awing',
@@ -241,6 +248,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing', 'Light Side'],
     },
     {
       xws: 'sharabey-rz1awing',
@@ -256,6 +264,7 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
     {
       xws: 'derekklivian',
@@ -271,6 +280,7 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
+      keywords: ['A-wing'],
     },
   ],
 };

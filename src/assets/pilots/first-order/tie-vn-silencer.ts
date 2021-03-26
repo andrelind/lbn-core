@@ -102,6 +102,7 @@ const t: ShipType = {
       ffg: 415,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: 'Kylo Ren' },
@@ -133,6 +134,7 @@ const t: ShipType = {
       ffg: 414,
       hyperspace: true,
       epic: true,
+      keywords: ['Dark Side', 'TIE'],
     },
     {
       name: {
@@ -161,6 +163,7 @@ const t: ShipType = {
       ffg: 416,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Recoil"', de: '„Recoil"', es: '"Retroceso"' },
@@ -189,6 +192,7 @@ const t: ShipType = {
       ffg: 455,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Avenger"', de: '„Avenger"', es: '"Vengador"' },
@@ -218,6 +222,7 @@ const t: ShipType = {
       ffg: 456,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -246,6 +251,7 @@ const t: ShipType = {
       ffg: 417,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Rush"', de: '„Rush"', es: '"Subidón"' },
@@ -274,6 +280,7 @@ const t: ShipType = {
       ffg: 643,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

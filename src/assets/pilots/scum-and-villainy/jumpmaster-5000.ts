@@ -127,6 +127,7 @@ const t: ShipType = {
       ffg: 214,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Manaroo' },
@@ -165,6 +166,7 @@ const t: ShipType = {
       ffg: 215,
       hyperspace: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: { en: 'Tel Trevura' },
@@ -241,6 +243,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       ffg: 637,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

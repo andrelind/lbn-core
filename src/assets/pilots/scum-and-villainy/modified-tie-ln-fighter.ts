@@ -91,6 +91,7 @@ const t: ShipType = {
       ffg: 442,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -125,6 +126,7 @@ const t: ShipType = {
       ffg: 443,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -159,6 +161,7 @@ const t: ShipType = {
       ffg: 441,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -187,6 +190,7 @@ const t: ShipType = {
       ffg: 445,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -221,6 +225,7 @@ const t: ShipType = {
       ffg: 444,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -249,6 +254,7 @@ const t: ShipType = {
       ffg: 446,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
   ],
 };

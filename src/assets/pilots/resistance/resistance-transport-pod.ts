@@ -72,6 +72,7 @@ const t: ShipType = {
         fr: 'Plein de Surprises',
         es: 'Caja de sorpresas',
       },
+      keywords: ['Droid'],
     },
     {
       name: { en: 'Rose Tico' },

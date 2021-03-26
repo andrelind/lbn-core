@@ -95,6 +95,7 @@ const t: ShipType = {
       ffg: 118,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Duchess"', de: '„Herzogin"', es: '"Duquesa"' },
@@ -124,6 +125,7 @@ const t: ShipType = {
       ffg: 117,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Pure Sabacc"', de: '„Voller Sabacc"', es: '"Sabacc Puro"' },
@@ -153,6 +155,7 @@ const t: ShipType = {
       ffg: 119,
       hyperspace: false,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -181,6 +184,7 @@ const t: ShipType = {
       ffg: 120,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: {
@@ -209,6 +213,7 @@ const t: ShipType = {
       ffg: 121,
       hyperspace: true,
       epic: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Vagabond"', de: '„Vagabond"', es: '"Vagabundo"' },
@@ -236,6 +241,7 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 633,
+      keywords: ['TIE'],
     },
   ],
 };

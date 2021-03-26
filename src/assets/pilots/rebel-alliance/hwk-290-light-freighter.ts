@@ -86,6 +86,7 @@ const t: ShipType = {
       ffg: 42,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: { en: 'Kyle Katarn' },
@@ -122,6 +123,7 @@ const t: ShipType = {
       ffg: 43,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: {
@@ -150,6 +152,7 @@ const t: ShipType = {
       ffg: 45,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
     {
       name: { en: 'Roark Garnet' },
@@ -186,6 +189,7 @@ const t: ShipType = {
       ffg: 44,
       hyperspace: false,
       epic: true,
+      keywords: ['Freighter'],
     },
   ],
 };
