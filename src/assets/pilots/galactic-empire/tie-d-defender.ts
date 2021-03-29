@@ -241,6 +241,7 @@ const t: ShipType = {
         en:
           'You cannot spend [Force] except while attacking.  While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
       },
+      force: { value: 3, recovers: 1, side: ['dark'] },
       slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,

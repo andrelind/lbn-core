@@ -264,7 +264,7 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Crew',
-        'Payload',
+        'Device',
         'Illicit',
         'Modification',
         'Modification',

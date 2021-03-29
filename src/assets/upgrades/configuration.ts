@@ -793,7 +793,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'sensitivecontrols',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 0 },
     sides: [
       {
         title: { en: 'Sensitive Controls' },
@@ -849,7 +849,7 @@ const t: UpgradeBase[] = [
       },
     ],
     standarized: true,
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['rz1awing'] }],
   },
