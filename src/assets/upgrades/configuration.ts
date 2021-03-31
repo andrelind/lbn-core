@@ -793,7 +793,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'sensitivecontrols',
     limited: 0,
-    cost: { value: 0 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'Sensitive Controls' },
