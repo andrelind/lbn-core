@@ -239,13 +239,14 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'You cannot spend [Force] except while attacking.  While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
+          'You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
       },
       force: { value: 3, recovers: 1, side: ['dark'] },
-      slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
+      slots: ['Cannon', 'Missile', 'Force Power', 'Configuration'],
       hyperspace: false,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
+      ffg: 886,
     },
     {
       xws: 'vultskerris',
@@ -256,12 +257,13 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
+          'Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.',
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      ffg: 887,
     },
     {
       xws: 'captaindobbs',
@@ -278,6 +280,7 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      ffg: 888,
     },
   ],
 };

@@ -86,6 +86,7 @@ export const generateXWS = (name: string) => {
     .replaceAll('-', '')
     .replaceAll("'", '')
     .replaceAll('é', 'e')
+    .replaceAll('á', 'a')
     .replaceAll('(open)', '')
     .replaceAll('(closed)', '')
     .replaceAll('(erratic)', '')

@@ -44,7 +44,7 @@ const t: UpgradeBase[] = [
         type: 'Cargo',
         ability: {
           en:
-            'While you lock, coordinate, or jam, you may spend up to 3 [Energy] to increase the range at which you can choose an object by 1 per spent this way, to a maximum of range 5.',
+            'While you lock, coordinate, or jam, you may spend up to 3  [Energy] to increase the range at which you can choose an object by 1 per [Energy] spent this way, to a maximum of range 5.',
           de:
             'Solange du ein Ziel erfasst, koordinierst oder ein Störsignal sendest, darfst du bis zu 3 [Energy] ausgeben, um die Reichweite, in der du ein Objekt wählen darfst, um 1 pro ausgegebener zu erweitern, bis zu einem Maximum von Reichweite 5.',
           es:

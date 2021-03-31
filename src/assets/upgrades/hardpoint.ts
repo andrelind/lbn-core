@@ -15,7 +15,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         ability: {
           en:
-            'Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. If this attack hits, the defender suffers 1 [Critical Hit] damage, and all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
+            'Setup: Equip this side faceup. Bonus Attack: Spend 1  [Energy]. If this attack hits, the defender suffers 1  [Critical Hit] damage, and all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
           de:
             'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Falls dieser Angriff trifft, erleidet der Verteidiger 1 [Critical Hit] -Schaden und alle [Hit]/[Critical Hit] -Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
           es:
@@ -126,7 +126,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         ability: {
           en:
-            'Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy] . Bonus Attack: Spend 1 [Energy] . Bonus Attack: Spend 1 [Energy] . Bonus Attack: Spend 1 [Energy] .',
+            'Setup: Equip this side faceup. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy].',
           de:
             'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus.',
           es:
@@ -158,7 +158,8 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: [],
         ability: {
-          en: 'Offline After you engage, you may spend 2 to flip this card.',
+          en:
+            'Offline After you engage, you may spend 2 [Energy] to flip this card.',
           de:
             'Offline Nachdem du gekämpft hast, darfst du 2 ausgeben, um diese Karte umzudrehen.',
           es:
@@ -186,7 +187,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         ability: {
           en:
-            'Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. After you perform this attack, you may acquire a lock on the defender.',
+            'Setup: Equip this side faceup. Bonus Attack: Spend 1  [Energy]. After you perform this attack, you may acquire a lock on the defender.',
           de:
             'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Nachdem du diesen Angriff durchgeführt hast, darfst du den Verteidiger als Ziel erfassen.',
           es:

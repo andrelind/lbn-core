@@ -204,20 +204,21 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your [Full Front Arc].",
+          "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       },
       slots: [
         'Talent',
-        'Tech',
         'Turret',
         'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
+        'Gunner',
+        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      ffg: 898,
     },
     {
       xws: 'arlizhadrassian',
@@ -228,20 +229,21 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result.  While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result.',
+          'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result.',
       },
       slots: [
         'Talent',
-        'Tech',
         'Turret',
         'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
+        'Gunner',
+        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      ffg: 899,
     },
     {
       xws: 'padric',
@@ -256,16 +258,17 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Tech',
         'Turret',
         'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
+        'Gunner',
+        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      ffg: 900,
     },
     {
       xws: 'amaxinewarrior',
@@ -275,16 +278,21 @@ const t: ShipType = {
       limited: 0,
       slots: [
         'Talent',
-        'Tech',
         'Turret',
         'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
+        'Gunner',
+        'Tech',
       ],
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      ffg: 901,
+      text: {
+        en:
+          'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
+      },
     },
     {
       xws: 'jinatasecurityofficer',
@@ -292,10 +300,15 @@ const t: ShipType = {
       cost: 31,
       initiative: 2,
       limited: 0,
-      slots: ['Tech', 'Turret', 'Torpedo', 'Gunner', 'Astromech', 'Device'],
+      slots: ['Turret', 'Torpedo', 'Astromech', 'Device', 'Gunner', 'Tech'],
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      ffg: 902,
+      text: {
+        en:
+          "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
+      },
     },
   ],
 };

@@ -96,7 +96,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si dicho ataque está obstruido por un obstáculo, el defensor tira 2 dados de defensa menos.',
       },
-      slots: ['Talent', 'Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/20308b5887fb20d6b8ecdb3ede0bede3.jpg',
       ffg: 415,
@@ -128,7 +128,7 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
       conditions: ['illshowyouthedarkside'],
-      slots: ['Torpedo', 'Missile', 'Force Power', 'Tech', 'Configuration'],
+      slots: ['Torpedo', 'Missile', 'Force Power', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg',
       ffg: 414,
@@ -157,7 +157,7 @@ const t: ShipType = {
         es:
           'Diseñado para alcanzar una velocidad y maniobrabilidad asombrosas, el Silenciador TIE resulta devastador en manos de quienes saben aprovechar todo su potencial. Su agilidad es tal que los pilotos mediocres pueden perder el control de la nave al menor descuido.',
       },
-      slots: ['Talent', 'Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/86349c032fc169cb2000d3db7c9fbef4.jpg',
       ffg: 416,
@@ -186,7 +186,7 @@ const t: ShipType = {
         es:
           'Mientras estás bajo tensión, las naves enemigas que tengas a alcance 0-1 y estén en tu [Bullseye Arc] puedes considerarlas como si estuvieran en tu [Bullseye Arc].',
       },
-      slots: ['Talent', 'Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/c4590088696ecc687f5c0f004d1d97ab.jpg',
       ffg: 455,
@@ -216,7 +216,7 @@ const t: ShipType = {
         es:
           'Después de que otra nave aliada sea destruida, puedes realizar una acción, incluso aunque estés bajo tensión.',
       },
-      slots: ['Talent', 'Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
       ffg: 456,
@@ -245,7 +245,7 @@ const t: ShipType = {
         es:
           'Concebido por Sistemas de Flota Sienar-Jaemus como un sucesor del elogiado Defensor TIE, el Silenciador TIE/vn incorpora tecnologías de última generación desarrolladas en instalaciones de investigación ocultas en las Regiones Desconocidas.',
       },
-      slots: ['Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg',
       ffg: 417,
@@ -274,7 +274,7 @@ const t: ShipType = {
         es:
           'Mientras estás dañado, se considera que tu valor de Iniciativa es 6.',
       },
-      slots: ['Torpedo', 'Missile', 'Tech', 'Configuration'],
+      slots: ['Torpedo', 'Missile', 'Configuration', 'Tech'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
       ffg: 643,

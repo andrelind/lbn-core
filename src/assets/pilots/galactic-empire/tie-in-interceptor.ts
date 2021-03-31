@@ -201,12 +201,13 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After you perform an attack, if the defender was destroyed, gain 1 stress token.  After a friendly ship at range 0-3 is destroyed, remove 1 stress token.',
+          'After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 889,
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -223,6 +224,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 892,
     },
     {
       xws: 'vultskerris-tieininterceptor',
@@ -233,12 +235,13 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'Action: Gain 1 strain token to recover 1 [Charge].  Before you engage, you may spend 1 [Charge] to perform an action.',
+          'Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 890,
     },
     {
       xws: 'commandantgoran',
@@ -249,12 +252,13 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After a friendly ship at range 0-3 with a lower initiative than you partially executes a maneuver, it may perform a red [Focus] action.',
+          'After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 891,
     },
     {
       xws: 'lieutenantlorrir',
@@ -265,12 +269,13 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) templates instead of the ([Straight] template.',
+          'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 893,
     },
     {
       xws: 'nashwindrider',
@@ -281,13 +286,14 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge]. If you do, that ship engages at the current initiative.',
+          'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.',
       },
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      ffg: 894,
     },
   ],
 };

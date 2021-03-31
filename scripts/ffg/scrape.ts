@@ -16,7 +16,12 @@ const cardUrl = '/cards';
 const expansionUrl = '/cards/extensions';
 const formatsUrl = '/gameformats';
 
-const languages = ['en-en', 'de-de', 'es-es', 'fr-fr'];
+const languages = [
+  'en-en',
+  // 'de-de',
+  //  'es-es',
+  //   'fr-fr'
+];
 
 const get = async (url: string, language: string) => {
   const result = await fetch(baseUrl + url, {
@@ -33,17 +38,21 @@ const fetchAndProcess = async () => {
   await asyncForEach(languages, async (language: string) => {
     // console.log(`** Fetching data for ${language} **`);
     const spinner = ora(`Fetching ${language}`).start();
-    const l = language === 'zh-hans' ? 'zh' : language.substring(3);
+    const l = language.substring(3);
+
+    if (!fs.existsSync(`./scripts/ffg/${l}`)) {
+      fs.mkdirSync(`./scripts/ffg/${l}`);
+    }
 
     const metadata = await get(metadataUrl, language);
     fs.writeFileSync(
-      `./assets/data/ffg/${l}/metadata.json`,
+      `./scripts/ffg/${l}/metadata.json`,
       JSON.stringify(metadata, null, 2)
     );
 
     const cards = await get(cardUrl, language);
     fs.writeFileSync(
-      `./assets/data/ffg/${l}/cards.json`,
+      `./scripts/ffg/${l}/cards.json`,
       JSON.stringify(cards, null, 2)
     );
 
@@ -58,7 +67,7 @@ const fetchAndProcess = async () => {
       }[];
     } = await get(expansionUrl, language);
     fs.writeFileSync(
-      `./assets/data/ffg/${l}/expansions.json`,
+      `./scripts/ffg/${l}/expansions.json`,
       JSON.stringify(expansions, null, 2)
     );
 
@@ -107,7 +116,7 @@ const fetchAndProcess = async () => {
         }
       );
       fs.writeFileSync(
-        `./assets/data/sources/${getName(key)}.ts`,
+        `./src/assets/sources/${getName(key)}.ts`,
         formatted,
         'utf8'
       );
@@ -117,7 +126,7 @@ const fetchAndProcess = async () => {
     const format = formats.game_formats.find((t: any) => t.game_mode === 2);
     if (format) {
       fs.writeFileSync(
-        `./assets/data/ffg/${l}/hyperspace.json`,
+        `./scripts/ffg/${l}/hyperspace.json`,
         JSON.stringify(format, null, 2)
       );
     }

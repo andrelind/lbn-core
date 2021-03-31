@@ -433,7 +433,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 to perform a [Cannon], [Turret], or [Missile] attack.',
+            'Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.',
           de:
             'Füge [Cannon]-, [Turret]-, und [Missile]-Slots hinzu. Bonusangriff: Gib 1 aus, um einen [Cannon]-, [Turret]-, oder [Missile]-Angriff durchzuführen.',
           es:
@@ -800,14 +800,14 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Replace your Autothrusters ship ability with the following:\n<strong>Sensitive Controls<strong>: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+            'Replace your Autothrusters ship ability with the following:\n\n<strong>Sensitive Controls</strong>: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
         },
         slots: ['Configuration'],
-        ffg: -1,
+        ffg: 924,
       },
     ],
     standarized: true,
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['tieininterceptor', 'tievnsilencer'] }],
   },
@@ -821,10 +821,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([KTurn]) maneuvers. Replace your Full Throttle ship ability with the following:',
+            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: \n\n<strong>Advanced Fire Control</strong>: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
         },
         slots: ['Configuration'],
-        ffg: -1,
+        ffg: 925,
       },
     ],
     standarized: true,
@@ -842,10 +842,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Gain a [Single Turret Arc] indicator.  Treat the arc requirement if your [Front Arc] primary attack as [Single Turret Arc].  Replace your Vectored Thrusters ship ability with the following:',
+            'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following:\n\n<strong>Vectored Cannons</strong>: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].',
         },
         slots: ['Configuration'],
-        ffg: -1,
+        ffg: 926,
       },
     ],
     standarized: true,

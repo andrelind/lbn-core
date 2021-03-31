@@ -961,7 +961,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'Add slot. During the End Phase, you may recover 1 additional shield or 1 additional .',
+            'Add slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].',
           de:
             'Füge den -Slot hinzu. Während der Endphase darfst du 1 zusätzlichen additional schilde oder wiederherstellen.',
           es:
@@ -1126,7 +1126,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'Add and slots. After you fully execute a white maneuver, recover 1 .',
+            'Add and slots. After you fully execute a white maneuver, recover 1 [Energy].',
           de:
             'Füge - und -Slots hinzu. Nachdem du ein weißes Manöver voll - ständig ausgeführt hast, stelle 1 wieder her.',
           es:
@@ -1160,7 +1160,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.',
+            'Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.',
           de:
             'Füge den [Sensor]-Slot hinzu. Nachdem du ein befreundetes Schiff koordiniert hast, darfst du 1 ausgeben, um einem feindlichen Schiff in Reichweite 0-2 jenes Schiffes ein Störsignal zu senden, wobei du Reich weiten-beschränkungen ignorierst.',
           es:
@@ -1190,7 +1190,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 . If you do, the defender rolls 1 additional defense die.',
+            'While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.',
           de:
             'Solange ein befreundetes Schiff in Reichweite 0-2 verteidigt, falls der Angriff durch ein Hindernis versperrt wird, darfst du 1 ausgeben. Falls du das tust, wirft der Verteidiger 1 zusätzlichen Verteidigungswürfel.',
           es:
@@ -1411,10 +1411,10 @@ const t: UpgradeBase[] = [
         ability: { en: 'Add [Gunner] slot.' },
         grants: [{ slot: 'Gunner', value: 1 }],
         slots: ['Title'],
-        ffg: -1,
+        ffg: 923,
       },
     ],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['asf01bwing'] }],
   },

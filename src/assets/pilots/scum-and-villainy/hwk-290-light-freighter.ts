@@ -221,9 +221,10 @@ const t: ShipType = {
       epic: true,
       ability: {
         en:
-          'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at in your [Single Turret Arc] with 1 or more circular tokens.  During the End Phase, circular tokens are not removed from that ship.',
+          'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.',
       },
       keywords: ['Freighter'],
+      ffg: 896,
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -238,17 +239,18 @@ const t: ShipType = {
       },
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
-        'Force Power',
         'Crew',
         'Device',
         'Illicit',
         'Modification',
         'Modification',
         'Title',
+        'Force Power',
       ],
       hyperspace: true,
       epic: true,
       keywords: ['Jedi', 'Light Side'],
+      ffg: 897,
     },
     {
       xws: 'tapusk',
@@ -259,7 +261,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge].  If you do, that ship does not recover that [Charge] or [Force].',
+          'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].',
       },
       slots: [
         'Talent',
@@ -270,9 +272,10 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: false,
+      hyperspace: true,
       epic: true,
       keywords: ['Freighter'],
+      ffg: 895,
     },
   ],
 };

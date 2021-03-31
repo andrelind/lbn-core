@@ -64,6 +64,11 @@ const processPilot = async (
     pilot = ship.pilots.find((p) => p.ffg === card.id);
     if (pilot) {
       pilotXws = pilot.xws;
+    } else {
+      pilot = ship.pilots.find((p) => p.xws.includes(pilotXws));
+      if (pilot) {
+        pilotXws = pilot.xws;
+      }
     }
   }
 
@@ -233,7 +238,7 @@ const processPilot = async (
   });
 
   const header =
-    'import  {ShipType} from "../../../../types";\n\nconst t: ShipType = ';
+    'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
   try {
     const formatted = prettier.format(
       `${header}${JSON.stringify(ship)};\n\nexport default t;`,
@@ -244,7 +249,7 @@ const processPilot = async (
       }
     );
     fs.writeFileSync(
-      `./assets/data/pilots/${getName(faction)}/${getName(ship.name.en)}.ts`,
+      `./src/assets/pilots/${getName(faction)}/${getName(ship.name.en)}.ts`,
       formatted,
       'utf8'
     );
@@ -294,6 +299,11 @@ const processUpgrade = async (
     );
     if (upgrade) {
       xws = upgrade.xws;
+    } else {
+      upgrade = assets.upgrades[slot].find((u) => u.xws.includes(xws));
+      if (upgrade) {
+        xws = upgrade.xws;
+      }
     }
   }
 
@@ -400,12 +410,12 @@ const processUpgrade = async (
       source.contents.upgrades[upgrade.xws] =
         source.contents.upgrades[upgrade.xws] || 1;
     });
-    Object.keys(assets.sources).forEach((key) => {});
+    // Object.keys(assets.sources).forEach((key) => {});
   });
 };
 
 export const run = async (language: string) => {
-  const metadata = jsonFile(`./assets/data/ffg/${language}/metadata.json`);
+  const metadata = jsonFile(`./scripts/ffg/${language}/metadata.json`);
 
   if (language === 'en') {
     metadata.ship_types.forEach((m: any) => {
@@ -435,7 +445,7 @@ export const run = async (language: string) => {
     });
   });
 
-  const scrapedData = jsonFile(`./assets/data/ffg/${language}/cards.json`);
+  const scrapedData = jsonFile(`./scripts/ffg/${language}/cards.json`);
   const hyperspaceData: {
     id: string;
     name: string;
@@ -447,7 +457,7 @@ export const run = async (language: string) => {
     factions: number[];
     allowed_pilots: number[];
     allowed_upgrades: number[];
-  } = jsonFile(`./assets/data/ffg/${language}/hyperspace.json`);
+  } = jsonFile(`./scripts/ffg/${language}/hyperspace.json`);
 
   const increment = scrapedData.cards.length;
   const spinner = ora(`Processing`).start();
@@ -472,7 +482,7 @@ export const run = async (language: string) => {
   });
 
   // Write updated ffgToXws
-  const header = `import { Faction, SlotKey } from '../../types';
+  const header = `import { Faction, SlotKey } from '../types';
 
   const t: {
     pilots: { [s: string]: string },
@@ -492,14 +502,14 @@ export const run = async (language: string) => {
       parser: 'typescript',
     }
   );
-  fs.writeFileSync(`./assets/data/ffg-xws.ts`, formatted, 'utf8');
+  fs.writeFileSync(`./src/assets/ffg-xws.ts`, formatted, 'utf8');
 
   // Save all upgrades
   slotKeys.forEach((key) => {
     const file = assets.upgrades[key];
 
     const header =
-      'import {UpgradeBase} from "../../../types";\n\nconst t: UpgradeBase[] = ';
+      'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
     const formatted = prettier.format(
       `${header}${JSON.stringify(file)};\n\nexport default t;`,
       {
@@ -509,7 +519,7 @@ export const run = async (language: string) => {
       }
     );
     fs.writeFileSync(
-      `./assets/data/upgrades/${getName(slotFromKey(key))}.ts`,
+      `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
       formatted,
       'utf8'
     );
@@ -520,7 +530,7 @@ export const run = async (language: string) => {
     const file = assets.sources[key];
 
     const header =
-      'import  {Source} from "../../../types";\n\nexport const t: Source[] = ';
+      'import  {Source} from "../../types";\n\nexport const t: Source[] = ';
     const formatted = prettier.format(
       `${header}${JSON.stringify(file)};\n\nexport default t;`,
       {
@@ -530,7 +540,7 @@ export const run = async (language: string) => {
       }
     );
     fs.writeFileSync(
-      `./assets/data/sources/${getName(key)}.ts`,
+      `./src/assets/sources/${getName(key)}.ts`,
       formatted,
       'utf8'
     );

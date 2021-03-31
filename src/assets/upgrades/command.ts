@@ -375,7 +375,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            'While your wingmates execute purple maneuvers, they treat those maneuvers as red, instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+            'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card.',
           de:
             'Solange deine Flügelmänner violette Manöver ausführen, behandeln sie jene Manöver stattdessen, als wären sie rot. Solange du verteidigst, dürfen bis zu 2 deiner Flügelmänner im Angriffswinkel je 1 [Hit]/[Critical Hit]-Schaden erleiden, um 1 passendes Ergebnis zu negieren.',
           es:
@@ -391,7 +391,7 @@ const t: UpgradeBase[] = [
         },
         type: 'Command',
         slots: ['Command'],
-        ffg: 834,
+        ffg: 835,
       },
     ],
     cost: { value: 5 },
@@ -449,17 +449,17 @@ const t: UpgradeBase[] = [
   {
     xws: 'b6bladewingprototype-cmd',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 12 },
     sides: [
       {
         title: { en: 'B6 Blade Wing Prototype' },
         type: 'Command',
         ability: {
           en:
-            'Add [Gunner] slot.  Attack ([Lock]): Gain 1 ion token to perform this attack.  If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
+            'Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
         },
         slots: ['Command', 'Title'],
-        ffg: -1,
+        ffg: 903,
       },
     ],
     hyperspace: false,
@@ -526,17 +526,17 @@ const t: UpgradeBase[] = [
   {
     xws: 'phoenixsquadron',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 5 },
     sides: [
       {
         title: { en: 'Phoenix Squadron' },
         type: 'Command',
         ability: {
           en:
-            'At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token.  While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+            'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5 RZ-1 A-wings After you are placed, flip this card.',
         },
         slots: ['Command'],
-        ffg: -1,
+        ffg: 909,
       },
     ],
     hyperspace: false,
@@ -545,17 +545,17 @@ const t: UpgradeBase[] = [
   {
     xws: 'skystrikeacademyclass',
     limited: 2,
-    cost: { value: 200 },
+    cost: { value: 3 },
     sides: [
       {
         title: { en: 'Skystrike Academy Class' },
         type: 'Command',
         ability: {
           en:
-            'After you barrel roll or boost, each of your wingmates is forced to split from the wing.  While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] to cancel 1 matching result.',
+            'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed, flip this card.',
         },
         slots: ['Command'],
-        ffg: -1,
+        ffg: 913,
       },
     ],
     hyperspace: false,
@@ -597,6 +597,63 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'bountyhired',
+    sides: [
+      {
+        ffg: 905,
+        title: { en: 'Bounty (Hired)' },
+        type: 'Command',
+        slots: [],
+        ability: {
+          en:
+            'Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.',
+        },
+      },
+    ],
+    cost: { value: 5 },
+    limited: 0,
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'initforyourrebellion',
+    sides: [
+      {
+        ffg: 906,
+        title: { en: 'In It For Your Rebellion' },
+        type: 'Command',
+        slots: [],
+        ability: {
+          en:
+            'Non-Scum ships in your squad are treated as friendly instead of allied.',
+        },
+      },
+    ],
+    cost: { value: 5 },
+    limited: 0,
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'bountypaid',
+    sides: [
+      {
+        ffg: 904,
+        title: { en: 'Bounty (Paid)' },
+        type: 'Command',
+        slots: [],
+        text: {
+          en:
+            'Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.',
+        },
+      },
+    ],
+    cost: { value: 5 },
+    limited: 0,
     hyperspace: false,
     epic: true,
   },

@@ -810,10 +810,10 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         ability: {
           en:
-            'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1 strain or stress token.',
+            'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1 strain or stress token.',
         },
         slots: ['Gunner'],
-        ffg: -1,
+        ffg: 921,
       },
     ],
     hyperspace: true,

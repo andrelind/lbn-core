@@ -200,6 +200,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['A-wing', 'Spectre'],
+      ffg: 880,
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -216,6 +217,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
+      ffg: 883,
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -232,6 +234,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
+      ffg: 885,
     },
     {
       xws: 'ahsokatano-rz1awing',
@@ -242,13 +245,14 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force].  That ship may perform an action, even while stressed.',
+          'After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.',
       },
       force: { value: 3, side: ['light'], recovers: 1 },
-      slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
+      slots: ['Missile', 'Force Power', 'Force Power', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing', 'Light Side'],
+      ffg: 881,
     },
     {
       xws: 'sharabey-rz1awing',
@@ -265,6 +269,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
+      ffg: 882,
     },
     {
       xws: 'derekklivian',
@@ -281,6 +286,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
+      ffg: 884,
     },
   ],
 };

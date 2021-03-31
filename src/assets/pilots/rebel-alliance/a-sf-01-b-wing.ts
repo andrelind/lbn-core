@@ -75,8 +75,8 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
@@ -112,8 +112,8 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       alt: [
         {
@@ -158,8 +158,8 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
@@ -197,8 +197,8 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
@@ -236,8 +236,8 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       hyperspace: true,
       epic: true,
@@ -262,12 +262,13 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['B-wing', 'Spectre'],
+      ffg: 878,
     },
     {
       xws: 'netrempollard',
@@ -278,7 +279,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1.  That ship gains 1 stress token, then you rotate 180°.',
+          'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180˚.',
       },
       slots: [
         'Talent',
@@ -287,12 +288,13 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Modification',
-        'Configuration',
         'Title',
+        'Configuration',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['B-wing'],
+      ffg: 879,
     },
   ],
 };

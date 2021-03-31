@@ -103,6 +103,7 @@ export const t: Source[] = [
         nomlumb: 1,
         ronithblario: 1,
         'bossk-z95af4headhunter': 1,
+        g4rgorvm: 1,
       },
       upgrades: {
         '000': 1,

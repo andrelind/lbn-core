@@ -55,7 +55,7 @@ const t: UpgradeBase[] = [
         type: 'Team',
         ability: {
           en:
-            'After you perform a [Coordinate] action, you may spend up to 2 to coordinate that many additional ships at range 0-1 of the ship you coordinated.',
+            'After you perform a [Coordinate] action, you may spend up to 2 [Energy] to coordinate that many additional ships at range 0-1 of the ship you coordinated.',
           de:
             'Nachdem du eine[Coordinate] -\nAktion durchgeführt hast, darfst du bis zu 2 ausgeben, um ebenso viele zusätzliche Schiffe in Reichweite 0-1 des Schiffes, das du koordiniert hast, zu koordinieren.',
           es:
@@ -103,7 +103,7 @@ const t: UpgradeBase[] = [
         type: 'Team',
         ability: {
           en:
-            'Before you engage, you may spend 1 or more to flip that many of your Offline upgrade cards. Action: Spend 1 or more to repair that many of your faceup Ship damage cards.',
+            'Before you engage, you may spend 1 or more [Energy] to flip that many of your Offline upgrade cards. Action: Spend 1 or more [Energy] to repair that many of your faceup Ship damage cards.',
           de:
             'Bevor du kämpfst, darfst du 1 oder mehr ausgeben, um ebenso viele deiner Offline -Aufwertungen umzudrehen. Aktion: Gib 1 oder mehr aus, um ebenso viele deiner offenen Schiff-Schadens-karten zu reparieren.',
           es:
@@ -143,7 +143,7 @@ const t: UpgradeBase[] = [
         type: 'Team',
         ability: {
           en:
-            'While you perform a primary or attack, you may spend 1 or more to reroll that many attack dice.',
+            'While you perform a primary or attack, you may spend 1 or more [Energy] to reroll that many attack dice.',
           de:
             'Solange du einen Primär- oder -Angriff durchführst, darfst du 1 oder mehr ausgeben, um ebenso viele Angriffswürfel neu zu werfen.',
           es:
@@ -212,7 +212,7 @@ const t: UpgradeBase[] = [
         type: 'Team',
         ability: {
           en:
-            'While you perform a [Reload] action, you may spend up to 3 to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 to remove 1 disarm token.',
+            'While you perform a [Reload] action, you may spend up to 3 [Energy] to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.',
           de:
             'Solange du eine [Reload]-\nAktion durchführst, darfst du bis zu 3 ausgeben, um ebenso viele zusätzliche [Charge] auf deinen aus-gerüsteten [Missile]/[Torpedo]-Aufwertungen nachzuladen. Nachdem du eine [Reload]-Aktion durchgeführt hast, darfst du 1 ausgeben, um 1 Entwaffnet- Marker zu entfernen.',
           es:
@@ -252,7 +252,7 @@ const t: UpgradeBase[] = [
         type: 'Team',
         ability: {
           en:
-            'You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.',
+            'You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.',
           de:
             'Du kannst bis zu 3 Zielerfassungen auf unterschiedlichen Objekte aufrechterhalten.Nachdem du eine [Lock] Aktion durchgeführt hast, darfst du bis zu 2 ausgeben, um ebenso viele andere Objekte in Reichweite 0-1 des Ziels als Ziel zu erfassen, wobei du Reich weiten beschränkungen ignorierst.',
           es:

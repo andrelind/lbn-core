@@ -2,3 +2,7 @@ dist/
 src/assets/ffg
 **/.DS_Store
 **/node_modules
+scripts/ffg/en
+scripts/ffg/de
+scripts/ffg/es
+scripts/ffg/fr

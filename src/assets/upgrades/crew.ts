@@ -2741,10 +2741,10 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         ability: {
           en:
-            'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens.  During the End Phase, circular tokens are not removed from that ship.',
+            'At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.',
         },
         slots: ['Crew'],
-        ffg: -1,
+        ffg: 919,
       },
     ],
     hyperspace: true,
@@ -2761,13 +2761,13 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         ability: {
           en:
-            'After you coordinate, you may transfer 1 orange or red token to the ship you coordinated.',
+            'After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.',
         },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },
         ],
         slots: ['Crew'],
-        ffg: -1,
+        ffg: 920,
       },
     ],
     hyperspace: true,
