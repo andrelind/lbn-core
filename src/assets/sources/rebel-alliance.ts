@@ -421,7 +421,7 @@ export const t: Source[] = [
         xx23sthreadtracers: 2,
         weaponssystemsofficer: 1,
         syncedlasercannons: 1,
-        vectoredcannonsrz1: 2,
+        vectoredcannonsrz1: 4,
         suppressivegunner: 1,
         'b6bladewingprototype-cmd': 1,
         tierfonbellyrun: 2,
