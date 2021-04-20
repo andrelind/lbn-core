@@ -413,6 +413,7 @@ export const t: Source[] = [
         margsablclosure: 2,
         extrememaneuvers: 1,
         precisionionengines: 3,
+        shadowwing: 1,
       },
     },
   },

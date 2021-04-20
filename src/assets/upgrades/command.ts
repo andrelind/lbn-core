@@ -394,7 +394,7 @@ const t: UpgradeBase[] = [
         ffg: 835,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 3 },
   },
   {
     xws: 'b6blasewingprototype',
@@ -444,7 +444,9 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [
+      { chassis: ['tielnfighter', 'tieininterceptor', 'tiesabomber'] },
+    ],
   },
   {
     xws: 'b6bladewingprototype-cmd',
@@ -559,7 +561,10 @@ const t: UpgradeBase[] = [
         ffg: 913,
       },
     ],
-    restrictions: [{ factions: ['Galactic Empire'] }],
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['tielnfighter', 'tieininterceptor'] },
+    ],
     hyperspace: false,
     epic: true,
   },
@@ -583,25 +588,7 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{}, {}],
   },
-  {
-    xws: 'phoenixsquadron',
-    limited: 1,
-    cost: { value: 200 },
-    sides: [
-      {
-        title: { en: 'Phoenix Squadron' },
-        type: 'Command',
-        ability: {
-          en:
-            'At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token.  While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
-        },
-        slots: ['Command'],
-        ffg: -1,
-      },
-    ],
-    hyperspace: false,
-    epic: true,
-  },
+
   {
     xws: 'bountyhired',
     sides: [

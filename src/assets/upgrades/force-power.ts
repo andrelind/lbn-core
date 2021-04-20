@@ -184,17 +184,7 @@ const t: UpgradeBase[] = [
       variable: 'size',
       values: { Small: 3, Medium: 6, Large: 9, Huge: 12 },
     },
-    restrictions: [
-      {
-        sides: ['dark'],
-        factions: [
-          'Galactic Empire',
-          'First Order',
-          'Scum and Villainy',
-          'Separatist Alliance',
-        ],
-      },
-    ],
+    restrictions: [{ sides: ['dark'] }],
     hyperspace: true,
     epic: true,
   },
