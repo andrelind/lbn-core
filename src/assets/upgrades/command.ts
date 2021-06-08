@@ -646,6 +646,32 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
   },
+  {
+    limited: 1,
+    xws: 'b6bladewingprototype-command',
+    hyperspace: false,
+    sides: [
+      {
+        ability: {
+          en:
+            'Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
+        },
+        title: { en: 'B6 Blade Wing Prototype' },
+        type: 'Command',
+        slots: ['Command', 'Title'],
+        grants: [{ slot: 'Gunner', value: 1 }],
+        ffg: 903,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/71fe49e6d10dc74321a0a96f0b2f64e6.jpg',
+      },
+    ],
+    cost: { value: 12 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { character: ['asf01bwing'] },
+    ],
+    epic: true,
+  },
 ];
 
 export default t;

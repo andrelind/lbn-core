@@ -82,6 +82,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase Final, cada nave aliada que tengas a alcance 0-1 cuya maniobra revelada sea de velocidad 3-5 puede recibir 1 ficha de Sobresfuerzo para realizar una acción [Barrel Roll] o [Boost].',
       },
+      keywords: ['Clone'],
     },
     {
       xws: 'hound',
@@ -117,6 +118,7 @@ const t: ShipType = {
         es:
           'Después de que una nave pequeña aliada en tu [Single Turret Arc] reciba una ficha de Merma o de Sobresfuerzo, si no tienes ninguna ficha de ese tipo, puedes transferir esa ficha a ti mismo.',
       },
+      keywords: ['Clone'],
     },
     {
       xws: 'warthog',
@@ -152,6 +154,7 @@ const t: ShipType = {
         es:
           'Después de que tu nave o una nave aliada que no sea limitada y tengas a alcance 0-2 sea destruida durante la fase de Enfrentamiento, esa nave no se retira hasta el final de esa fase.',
       },
+      keywords: ['Clone'],
     },
     {
       name: {
@@ -186,6 +189,7 @@ const t: ShipType = {
       ],
       cost: 49,
       ffg: 663,
+      keywords: ['Clone'],
     },
   ],
   ffg: 74,

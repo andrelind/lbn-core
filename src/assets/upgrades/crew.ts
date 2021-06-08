@@ -2141,13 +2141,13 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         ability: {
           en:
-            'While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or action, if you are stressed, treat that action as red.',
+            'While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.',
           de:
-            'Solange du 2 oder weniger Stressmarker hast, kannst du [Reinforce]-, [Coordinate]- und -Aktionen durchführen, auch solange du gestresst bist. Solange du eine weiße [Reinforce]-, [Coordinate]- oder -Akton durchführst, falls du gestresst bist, behandle jene Aktion, als wäre sie rot.',
+            'Solange du 2 oder weniger Stressmarker hast, kannst du [Reinforce]-, [Coordinate]- und [Jam]-Aktionen durchführen, auch solange du gestresst bist. Solange du eine weiße [Reinforce]-, [Coordinate]- oder [Jam]-Akton durchführst, falls du gestresst bist, behandle jene Aktion, als wäre sie rot.',
           es:
-            'Mientras tienes 2 o menos fichas de Tensión, puedes realizar acciones [Reinforce], [Coordinate] y , incluso aunque estés bajo tensión. Mientras realizas una acción blanca [Reinforce], [Coordinate] o , si estás bajo tensión, considera esa acción como si fuera roja.',
+            'Mientras tienes 2 o menos fichas de Tensión, puedes realizar acciones [Reinforce], [Coordinate] y [Jam], incluso aunque estés bajo tensión. Mientras realizas una acción blanca [Reinforce], [Coordinate] o [Jam], si estás bajo tensión, considera esa acción como si fuera roja.',
           fr:
-            'Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions [Reinforce], [Coordinate] et , même si vous êtes stressé. Tant que vous effectuez une action blanche [Reinforce], [Coordinate] ou , si vous êtes stressé, considérez cette action comme rouge.',
+            'Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions [Reinforce], [Coordinate] et [Jam], même si vous êtes stressé. Tant que vous effectuez une action blanche [Reinforce], [Coordinate] ou [Jam], si vous êtes stressé, considérez cette action comme rouge.',
         },
         slots: ['Crew'],
         ffg: 585,
