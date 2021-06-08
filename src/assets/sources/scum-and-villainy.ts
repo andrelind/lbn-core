@@ -415,7 +415,7 @@ export const t: Source[] = [
     wave: 9,
     released: true,
     contents: {
-      ships: { btla4ywingbtla4ywing: 2, hwk290lightfreighter: 1 },
+      ships: { btla4ywing: 2, hwk290lightfreighter: 1 },
       pilots: {
         spicerunner: 1,
         tapusk: 1,
