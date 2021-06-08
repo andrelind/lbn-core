@@ -582,7 +582,7 @@ const t: ShipType = {
       keywords: ['X-wing'],
     },
     {
-      name: { en: 'Nimi Chereen', de: 'Nimi Chireen' },
+      name: { en: 'Nimi Chireen', de: 'Nimi Chireen' },
       xws: 'nimichireen',
       initiative: 2,
       limited: 1,

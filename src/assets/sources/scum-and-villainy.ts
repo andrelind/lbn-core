@@ -456,7 +456,7 @@ export const t: Source[] = [
         patience: 1,
         margsablclosure: 2,
         extrememaneuvers: 1,
-        'gamutkey-crew': 1,
+        gamutkey: 1,
         hondoohnaka: 1,
       },
     },

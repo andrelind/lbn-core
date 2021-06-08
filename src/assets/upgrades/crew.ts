@@ -2732,7 +2732,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
   {
-    xws: 'gamutkey-crew',
+    xws: 'gamutkey',
     limited: 1,
     cost: { value: 6 },
     sides: [
