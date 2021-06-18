@@ -1,7 +1,12 @@
-import request from "./request";
-import { BluePrint } from "../types";
+import request from './request';
+import { BluePrint } from '../types';
 
-export const setBlueprint = async (blueprint: BluePrint, user: Object) => {
+export const setBlueprint = async (
+  blueprint: BluePrint,
+  user: Object
+): Promise<{
+  data?: { blueprint?: { success: boolean } };
+}> => {
   const copy = JSON.parse(JSON.stringify(blueprint));
   delete copy.launch_bay;
 
@@ -11,15 +16,20 @@ export const setBlueprint = async (blueprint: BluePrint, user: Object) => {
       }
     }`;
 
-  return request(query, { ...user, language: "en" }, { blueprint: copy });
+  return request(query, { ...user, language: 'en' }, { blueprint: copy });
 };
 
-export const deleteBlueprint = async (uid: string, user: Object) => {
+export const deleteBlueprint = async (
+  uid: string,
+  user: Object
+): Promise<{
+  data?: { removeBlueprint?: { success: boolean } };
+}> => {
   const query = `mutation ($uid: ID!) {
       removeBlueprint(uid: $uid) {
         success
       }
     }`;
 
-  return request(query, { ...user, language: "en" }, { uid });
+  return request(query, { ...user, language: 'en' }, { uid });
 };

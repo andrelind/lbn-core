@@ -1,7 +1,12 @@
 import request from './request';
 import { CollectionState as Collection } from '../reducers/collection';
 
-export const setCollection = async (collection: Collection, user: Object) => {
+export const setCollection = async (
+  collection: Collection,
+  user: Object
+): Promise<{
+  data?: { collection?: { success: boolean } };
+}> => {
   const query = `mutation ($expansions: [CollectionItemInput], $ships: [CollectionItemInput], $pilots: [CollectionItemInput], $upgrades: [CollectionItemInput]) {
       collection(expansions: $expansions, ships: $ships, pilots: $pilots, upgrades: $upgrades) {
         success

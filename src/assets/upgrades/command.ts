@@ -419,7 +419,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'shadowwing',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 6 },
     sides: [
       {
         title: { en: 'Shadow Wing' },

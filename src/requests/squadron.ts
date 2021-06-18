@@ -1,7 +1,12 @@
-import { SquadronXWS } from "../types";
-import request from "./request";
+import { SquadronXWS } from '../types';
+import request from './request';
 
-export const setSquadron = async (squadron: SquadronXWS, user: Object) => {
+export const setSquadron = async (
+  squadron: SquadronXWS,
+  user: Object
+): Promise<{
+  data?: { set?: { success: boolean } };
+}> => {
   const query = `mutation ($squadron: SquadronInput!) {
       set(squadron: $squadron) {
         success
@@ -29,15 +34,20 @@ export const setSquadron = async (squadron: SquadronXWS, user: Object) => {
     })),
   };
 
-  return request(query, { ...user, language: "en" }, { squadron: s });
+  return request(query, { ...user, language: 'en' }, { squadron: s });
 };
 
-export const deleteSquadron = async (uid: string, user: Object) => {
+export const deleteSquadron = async (
+  uid: string,
+  user: Object
+): Promise<{
+  data?: { remove?: { success: boolean } };
+}> => {
   const query = `mutation ($uid: ID!) {
       remove(uid: $uid) {
         success
       }
     }`;
 
-  return request(query, { ...user, language: "en" }, { uid });
+  return request(query, { ...user, language: 'en' }, { uid });
 };
