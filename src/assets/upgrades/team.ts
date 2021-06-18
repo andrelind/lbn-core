@@ -278,6 +278,64 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
   },
+  {
+    xws: 'droidcrew',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Droid Crew' },
+        type: 'Team',
+        ability: {
+          en:
+            'While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.',
+        },
+        slots: ['Team'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance'] }],
+  },
+  {
+    xws: 'tractortechnicians',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Tractor Technicians' },
+        type: 'Team',
+        ability: {
+          en:
+            'During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 [Energy]. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.',
+        },
+        slots: ['Team'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'corsaircrew',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Corsair Crew' },
+        type: 'Team',
+        ability: {
+          en:
+            'While you perform an attack against a standard ship, you may spend 1 [Hit] result. If you do, the defender gains 1 deplete token.',
+        },
+        slots: ['Team', 'Gunner'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
 ];
 
 export default t;

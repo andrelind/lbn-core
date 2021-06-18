@@ -588,7 +588,6 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{}, {}],
   },
-
   {
     xws: 'bountyhired',
     sides: [
@@ -670,6 +669,124 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance'] },
       { character: ['asf01bwing'] },
     ],
+    epic: true,
+  },
+  {
+    xws: 'asajjventress',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Asajj Ventress' },
+        type: 'Command',
+        ability: {
+          en:
+            'During the System Phase, you may spend 1 [Force]. If you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
+  },
+  {
+    xws: 'generalgrievous-command',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'General Grievous' },
+        type: 'Command',
+        ability: {
+          en:
+            'During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. You can perform attacks against friendly ships. After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a [Calculate] action.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance'] }],
+  },
+  {
+    xws: 'hondoohnaka-command',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Hondo Ohnaka' },
+        type: 'Command',
+        ability: {
+          en:
+            'During the System Phase, you may spend 1 [Charge] and choose 1 friendly ship at range 0-1. Move 1 [Objective] or [Counter] from its ship card to your ship card, or from your ship card to its ship card.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'martuuk',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Mar Tuuk' },
+        type: 'Command',
+        ability: {
+          en:
+            'Setup: After placing forces, choose 1 friendly wing of ships with [Calculate] on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy ship. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance'] }],
+  },
+  {
+    xws: 'rifftamson',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Riff Tamson' },
+        type: 'Command',
+        ability: {
+          en:
+            'During the Engagement Phase, at initiative 5, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it cains 2 strain tokens.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance'] }],
+  },
+  {
+    xws: 'zealouscaptain',
+    limited: 1,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Zealous Captain' },
+        type: 'Command',
+        ability: {
+          en:
+            'During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack.',
+        },
+        slots: ['Command', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
     epic: true,
   },
 ];

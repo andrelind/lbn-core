@@ -57,7 +57,12 @@ const cleanupString = (s: string | void) => {
     .replaceAll('{LBANK}', '[Bank Left]')
     .replaceAll('{LTURN}', '[Turn Left]')
     .replaceAll('{RBANK}', '[Bank Right]')
-    .replaceAll('{RTURN}', '[Turn Right]');
+    .replaceAll('{RTURN}', '[Turn Right]')
+    .replaceAll('{ENERGY}', '[Energy]')
+    .replaceAll('{HARDPOINT}', '[Hardpoint]')
+    .replaceAll('{OBJECTIVE}', '[Objective]')
+    .replaceAll('{COUNTER}', '[Counter]')
+    .replaceAll('  ', ' ');
 };
 
 const fetchAndProcess = async () => {
@@ -96,7 +101,7 @@ const fetchAndProcess = async () => {
         //       text: { en: shipAbility.split(':')[1].trim() },
         //     }
         //   : undefined,
-        keywords: pilot.keywords.split(',').map((x) => x.trim()),
+        keywords: pilot.keywords?.split(',').map((x) => x.trim()),
         slots: pilot.upgrades || [],
         hyperspace: false,
         epic: true,
@@ -207,6 +212,7 @@ const fetchAndProcess = async () => {
             return {};
         }
       });
+      restrictions = restrictions.filter((x) => Object.keys(x).length > 0);
     }
 
     const newUpgrade: UpgradeBase = {

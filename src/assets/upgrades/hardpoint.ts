@@ -314,6 +314,112 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
   },
+  {
+    xws: 'tractortentacles',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Tractor Tentacles' },
+        type: 'Hardpoint',
+        ability: {
+          en:
+            'Setup: Equip this side faceup. Bonus Attack Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].',
+        },
+        slots: ['Hardpoint'],
+        ffg: -1,
+      },
+      {
+        title: { en: '???' },
+        type: 'Hardpoint',
+        ability: { en: '???' },
+        slots: ['Hardpoint'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ chassis: ['tridentclassassaultship'] }],
+  },
+  {
+    xws: 'drillbeak',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Drill Beak' },
+        type: 'Hardpoint',
+        ability: {
+          en:
+            'Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.',
+        },
+        slots: ['Hardpoint', 'Cargo'],
+        ffg: -1,
+      },
+      {
+        title: { en: '???' },
+        type: 'Hardpoint',
+        ability: { en: '???' },
+        slots: ['Hardpoint'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    restrictions: [{ chassis: ['tridentclassassaultship'] }],
+  },
+  {
+    xws: 'enhancedpropulsion',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Enhanced Propulsion' },
+        type: 'Hardpoint',
+        ability: {
+          en:
+            'Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white [2 [Straight]], [1 [Bank Left]], or [1 [Bank Right]] maneuver.',
+        },
+        slots: ['Hardpoint', 'Cargo'],
+        ffg: -1,
+      },
+      {
+        title: { en: '???' },
+        type: 'Hardpoint',
+        ability: { en: '???' },
+        slots: ['Hardpoint'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    xws: 'protoncannonbattery',
+    limited: 0,
+    cost: { value: 200 },
+    sides: [
+      {
+        title: { en: 'Proton Cannon Battery' },
+        type: 'Hardpoint',
+        ability: {
+          en:
+            'Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Critical Hit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Critical Hit] result.',
+        },
+        slots: ['Hardpoint', 'Cargo'],
+        ffg: -1,
+      },
+      {
+        title: { en: '???' },
+        type: 'Hardpoint',
+        ability: { en: '???' },
+        slots: ['Hardpoint'],
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+  },
 ];
 
 export default t;

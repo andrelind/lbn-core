@@ -249,7 +249,7 @@ const t: ShipType = {
       ],
       hyperspace: true,
       epic: true,
-      keywords: ['Jedi', 'Light Side'],
+      keywords: ['Freighter', 'Jedi', 'Light Side'],
       ffg: 897,
     },
     {

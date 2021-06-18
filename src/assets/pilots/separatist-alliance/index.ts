@@ -8,6 +8,7 @@ import vultureclassdroidfighter from './vulture-class-droid-fighter';
 import droidtrifighter from './droid-tri-fighter';
 import firesprayclasspatrolcraft from './firespray-class-patrol-craft';
 import hmpdroidgunship from './hmp-droid-gunship';
+import tridentclassassaultship from './trident-class-assault-ship';
 
 const ships: { [s: string]: ShipType } = {
   belbullab22starfighter,
@@ -19,6 +20,7 @@ const ships: { [s: string]: ShipType } = {
   droidtrifighter,
   firesprayclasspatrolcraft,
   hmpdroidgunship,
+  tridentclassassaultship,
 };
 
 export default ships;
