@@ -16,7 +16,7 @@ const t: ShipType = {
     { type: 'Focus', difficulty: 'White' },
     { type: 'Evade', difficulty: 'Red' },
     { type: 'Reinforce', difficulty: 'Red' },
-    { type: 'Lock', difficulty: 'Red' },
+    { type: 'Lock', difficulty: 'White' },
     { type: 'Coordinate', difficulty: 'Red' },
   ],
   pilots: [
@@ -32,13 +32,19 @@ const t: ShipType = {
         'Hardpoint',
         'Crew',
         'Crew',
-        'Gunner',
         'Team',
         'Cargo',
         'Title',
+        'Gunner',
+        'Command',
       ],
       hyperspace: false,
       epic: true,
+      ffg: 949,
+      text: {
+        en:
+          'Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear though the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.',
+      },
     },
   ],
 };

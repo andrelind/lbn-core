@@ -1421,17 +1421,17 @@ const t: UpgradeBase[] = [
   {
     xws: 'grappler',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 3 },
     sides: [
       {
         title: { en: 'Grappler' },
         type: 'Title',
         ability: {
           en:
-            'While you perform a Drill Beak attack, at attack range 1, if the defender is tractored, treat it as being at range 0 instead.',
+            'While you perform a Drill Beak attack at attack range 1, if the defender is tractored, treat it as being at range 0 instead.',
         },
         slots: ['Title'],
-        ffg: -1,
+        ffg: 946,
       },
     ],
     hyperspace: false,
@@ -1441,7 +1441,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'nautolansrevenge',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: "Nautolan's Revenge" },
@@ -1451,7 +1451,7 @@ const t: UpgradeBase[] = [
             'Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].',
         },
         slots: ['Title'],
-        ffg: -1,
+        ffg: 945,
       },
     ],
     hyperspace: false,
@@ -1461,7 +1461,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'neimoidiangrasp',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 5 },
     sides: [
       {
         title: { en: 'Neimoidian Grasp' },
@@ -1471,7 +1471,7 @@ const t: UpgradeBase[] = [
             'After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.',
         },
         slots: ['Title'],
-        ffg: -1,
+        ffg: 947,
       },
     ],
     hyperspace: false,
@@ -1486,7 +1486,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'trident',
     limited: 1,
-    cost: { value: 200 },
+    cost: { value: 4 },
     sides: [
       {
         title: { en: 'Trident' },
@@ -1496,7 +1496,7 @@ const t: UpgradeBase[] = [
             'After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.',
         },
         slots: ['Title'],
-        ffg: -1,
+        ffg: 948,
       },
     ],
     hyperspace: false,

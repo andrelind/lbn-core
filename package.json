@@ -1,6 +1,6 @@
 {
   "name": "lbn-core",
-  "version": "1.0.79",
+  "version": "1.0.82",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",

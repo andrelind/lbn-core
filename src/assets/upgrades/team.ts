@@ -281,7 +281,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'droidcrew',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 5 },
     sides: [
       {
         title: { en: 'Droid Crew' },
@@ -291,7 +291,7 @@ const t: UpgradeBase[] = [
             'While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.',
         },
         slots: ['Team'],
-        ffg: -1,
+        ffg: 942,
       },
     ],
     hyperspace: false,
@@ -301,7 +301,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'tractortechnicians',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 2 },
     sides: [
       {
         title: { en: 'Tractor Technicians' },
@@ -311,7 +311,7 @@ const t: UpgradeBase[] = [
             'During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 [Energy]. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.',
         },
         slots: ['Team'],
-        ffg: -1,
+        ffg: 944,
       },
     ],
     hyperspace: false,
@@ -320,7 +320,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'corsaircrew',
     limited: 0,
-    cost: { value: 200 },
+    cost: { value: 5 },
     sides: [
       {
         title: { en: 'Corsair Crew' },
@@ -330,7 +330,7 @@ const t: UpgradeBase[] = [
             'While you perform an attack against a standard ship, you may spend 1 [Hit] result. If you do, the defender gains 1 deplete token.',
         },
         slots: ['Team', 'Gunner'],
-        ffg: -1,
+        ffg: 943,
       },
     ],
     hyperspace: false,

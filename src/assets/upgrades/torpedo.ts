@@ -163,22 +163,23 @@ const t: UpgradeBase[] = [
   },
   {
     xws: 'trackingtorpedoes',
-    limited: 0,
-    cost: { value: 200 },
+    limited: 1,
+    cost: { value: 8 },
     sides: [
       {
         title: { en: 'Tracking Torpedoes' },
         type: 'Torpedo',
         ability: {
           en:
-            'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [Bank Left] 3, [Straight] 4, and [Bank Right] 3 templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
+            'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the ([Bank Left] 3], ([Straight] 4], and ([Bank Right] 3] templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
         },
         slots: ['Torpedo'],
-        ffg: -1,
+        ffg: 941,
       },
     ],
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Huge'] }],
   },
 ];
 

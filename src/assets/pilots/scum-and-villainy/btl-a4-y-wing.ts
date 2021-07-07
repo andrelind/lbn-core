@@ -229,7 +229,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result.',
+          'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.',
       },
       slots: [
         'Talent',

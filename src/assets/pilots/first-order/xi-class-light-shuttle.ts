@@ -99,7 +99,7 @@ const t: ShipType = {
       epic: true,
       ability: {
         en:
-          'While a friendly ship at range 0-2 performs a primary attack, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
+          'While a friendly ship at range 0-2 performs a primary attack, before the Modify Dice step, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
         de:
           'Solange ein befreundetes Schiff in Reichweite 0-2 einen Primärangriff durchführt, falls es 1 oder mehr Leerseiten-Ergebnisse hat, muss jenes Schiff 1 Anstrengungsmarker erhalten, um 1 Leerseiten-Ergebnis neu zu werfen, falls möglich.',
         fr:
