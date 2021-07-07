@@ -800,7 +800,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Replace your Autothrusters ship ability with the following:\n\n<strong>Sensitive Controls</strong>: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+            'Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
         },
         slots: ['Configuration'],
         ffg: 924,
@@ -821,7 +821,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: \n\n<strong>Advanced Fire Control</strong>: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
+            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
         },
         slots: ['Configuration'],
         ffg: 925,
@@ -842,7 +842,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following:\n\n<strong>Vectored Cannons</strong>: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].',
+            'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].',
         },
         slots: ['Configuration'],
         ffg: 926,

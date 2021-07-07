@@ -41,6 +41,10 @@ const t: ShipType = {
       ],
       hyperspace: false,
       epic: true,
+      text: {
+        en:
+          'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',
+      },
     },
   ],
 };
