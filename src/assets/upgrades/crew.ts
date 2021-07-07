@@ -2742,6 +2742,12 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.',
+          de:
+            'Zu Beginn der Endphase darfst du 2 [Charge] ausgeben, um ein Schiff in Reichweite 0-1 mit 1 oder mehreren kreisförmigen Markern zu wählen. Während der Endphase werden kreisförmige Marker von jenem Schiff nicht entfernt.',
+          es:
+            'Al comienzo de la fase Final, puedes gastar 2 [Charge] para elegir una nave con 1 o más fichas redondas que tengas a alcance range 0-1. Durante la fase Final, las fichas redondas de esa nave no se retiran.',
+          fr:
+            'Au début de la phase de dénouement, vous pouvez dépenser 2 [Charge] pour choisir un vaisseau à portée 0-1 ayant au moins 1 marqueur circulaire. Pendant la phase de dénouement, les marqueurs circulaires ne sont pas retirés du vaisseau choisi.',
         },
         slots: ['Crew'],
         ffg: 919,
@@ -2757,11 +2763,22 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'Protectorate Gleb' },
+        title: {
+          en: 'Protectorate Gleb',
+          de: 'Schulleiterin Gleb',
+          es: 'Protectora Gleb',
+          fr: 'Tutélaire Gleb',
+        },
         type: 'Crew',
         ability: {
           en:
             'After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.',
+          de:
+            'Nachdem du koordiniert hast, darfst du 1 orangen oder roten Marker auf das von dir koordinierte Schiff transferieren.',
+          es:
+            'Después de que coordines, puedes transferir 1 ficha naranja o roja a la nave que has coordinado.',
+          fr:
+            'Après avoir coordonné, vous pouvez transférer 1 marqueur orange ou rouge au vaisseau que vous avez coordonné.',
         },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },

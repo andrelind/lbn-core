@@ -195,13 +195,24 @@ const t: ShipType = {
     {
       xws: 'cienaree',
       name: { en: 'Ciena Ree' },
-      caption: { en: 'Look Through My Eyes' },
+      caption: {
+        en: 'Look Through My Eyes',
+        de: 'Sieh durch meine Augen',
+        es: 'Mira a través de mis ojos',
+        fr: 'Regarde À Travers Mes Yeux',
+      },
       cost: 48,
       initiative: 6,
       limited: 1,
       ability: {
         en:
           'After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.',
+        de:
+          'Nachdem du einen Angriff durchgeführt hast, falls der Verteidiger zerstört worden ist, erhältst du 1 Stressmarker. Nachdem ein befreundetes Schiff in Reichweite 0-3 zerstört worden ist, entferne 1 Stressmarker.',
+        es:
+          'Después de que efectúes un ataque, si el defensor fue destruido, recibes 1 ficha de Tensión. Después de que una nave aliada que tengas a alcance 0-3 sea destruida, retira 1 ficha de Tensión.',
+        fr:
+          "Après que vous avez effectué une attaque, si le défenseur a été détruit, gagnez 1 marqueur de stress. Après qu'un vaisseau allié à portée 0-3 a été détruit, retirez 1 marqueur de stress.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
@@ -212,13 +223,24 @@ const t: ShipType = {
     {
       xws: 'gideonhask-tieininterceptor',
       name: { en: 'Gideon Hask' },
-      caption: { en: 'Inferno Two' },
+      caption: {
+        en: 'Inferno Two',
+        de: 'Inferno Zwei',
+        es: 'Infernal Dos',
+        fr: 'Inferno Deux',
+      },
       cost: 48,
       initiative: 4,
       limited: 1,
       ability: {
         en:
           'While you perform an attack against a damaged defender, roll 1 additional attack die.',
+        de:
+          'Solange du einen Angriff gegen einen beschädigten Verteidiger durchführst, wirfst du 1 zusätzlichen Angriffswürfel.',
+        es:
+          'Mientras efectúas un ataque contra un defensor dañado, tira 1 dado de ataque adicional.',
+        fr:
+          "Tant que vous effectuez une attaque contre un défenseur endommagé, lancez 1 dé d'attaque supplémentaire.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
@@ -229,13 +251,24 @@ const t: ShipType = {
     {
       xws: 'vultskerris-tieininterceptor',
       name: { en: 'Vult Skerris' },
-      caption: { en: 'Arrogant Ace' },
+      caption: {
+        en: 'Arrogant Ace',
+        de: 'Arrogantes Fliegerass',
+        es: 'As arrogante',
+        fr: 'As Arrogant',
+      },
       cost: 46,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           'Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.',
+        de:
+          'Aktion: Erhalte 1 Anstrengungsmarker, um 1 [Charge] wiederherzustellen. Bevor du kämpfst, darfst du 1 [Charge] ausgeben, um eine Aktion durchzuführen.',
+        es:
+          'Acción: Recibe 1 ficha de Sobresfuerzo para recuperar 1 [Charge]. Antes de que intervengas, puedes gastar 1 [Charge] para realizar una acción.',
+        fr:
+          'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
@@ -245,14 +278,25 @@ const t: ShipType = {
     },
     {
       xws: 'commandantgoran',
-      name: { en: 'Commandant Goran' },
-      caption: { en: 'Skystrike Superintendent' },
+      name: { en: 'Commandant Goran', de: 'Kommandant Goran' },
+      caption: {
+        en: 'Skystrike Superintendent',
+        de: 'Ausbilder der Skystrike-Akademie',
+        es: 'Superintentende de Skystrike',
+        fr: 'Superviseur de Skystrike',
+      },
       cost: 43,
       initiative: 4,
       limited: 1,
       ability: {
         en:
           'After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.',
+        de:
+          'Nachdem ein befreundetes Schiff in Reichweite 0-3 mit einer niedrigeren Initiative als du ein Manöver teilweise ausgeführt hat, darf es eine rote [Focus]-Aktion durchführen.',
+        es:
+          'Después de que una nave aliada que tengas a alcance 0-3 con una Iniciativa menor que la tuya ejecute parcialmente una maniobra, esa nave puede realizar una acción [Focus] roja.',
+        fr:
+          "Après qu'un vaisseau allié à portée 0-3 avec une initiative plus faible que la vôtre a partiellement exécuté une manœuvre, il peut effectuer une action [Focus] rouge.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
@@ -263,13 +307,24 @@ const t: ShipType = {
     {
       xws: 'lieutenantlorrir',
       name: { en: 'Lieutenant Lorrir' },
-      caption: { en: 'Requiem for Brentaal' },
+      caption: {
+        en: 'Requiem for Brentaal',
+        de: 'Requiem für Brentaal',
+        es: 'Réquiem por Brentaal',
+        fr: 'Requiem pour Brentaal',
+      },
       cost: 41,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
+        de:
+          'Solange du eine Fassrolle fliegst, musst du die ([Bank Left] oderr [Bank Right])-Schablone statt der ([Straight])-Schablone verwenden.',
+        es:
+          'Mientras realizas una tonel volado, debes utilizar la plantilla ([Bank Left] o [Bank Right]) en vez de la plantilla ([Straight]).',
+        fr:
+          'Tant que vous effectuez un tonneau, vous devez utiliser le gabarit ([Bank Left] ou [Bank Right]) à la place du gabarit ([Straight]).',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       hyperspace: true,
@@ -280,13 +335,24 @@ const t: ShipType = {
     {
       xws: 'nashwindrider',
       name: { en: 'Nash Windrider' },
-      caption: { en: 'Alderaanian Zealot' },
+      caption: {
+        en: 'Alderaanian Zealot',
+        de: 'Alderaanischer Fanatiker',
+        es: 'Fanático de Alderaan',
+        fr: 'Zélote Alderaanien',
+      },
       cost: 40,
       initiative: 2,
       limited: 1,
       ability: {
         en:
           'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.',
+        de:
+          'Während der Kampfphase, nachdem ein befreundetes kleines Schiff in Reichweite 0-3 zerstört worden ist, falls jenes Schiff in dieser Phase noch nicht gekämpft hat, darfst du 1 [Charge] ausgeben. Falls du das tust, kämpft jenes Schiff bei der aktuellen Initiative.',
+        es:
+          'Durante la fase de Enfrentamiento, después de que una nave pequeña aliada que tengas a alcance 0-3 sea destruida, si esa nave no ha intervenido en esta fase, puedes gastar 1 [Charge]. Si lo haces, esa nave interviene en el momento de Iniciativa actual.',
+        fr:
+          "Pendant la phase d'engagement, après qu'un petit vaisseau allié à portée 0-3 a été détruit, s'il ne s'était pas déjà engagé à cette phase, vous pouvez dépenser 1 [Charge]. Dans ce cas, il s'engage à l'initiative actuelle.",
       },
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],

@@ -57,11 +57,11 @@ const t: UpgradeBase[] = [
           en:
             'After you perform a [Coordinate] action, you may spend up to 2 [Energy] to coordinate that many additional ships at range 0-1 of the ship you coordinated.',
           de:
-            'Nachdem du eine[Coordinate] -\nAktion durchgeführt hast, darfst du bis zu 2 ausgeben, um ebenso viele zusätzliche Schiffe in Reichweite 0-1 des Schiffes, das du koordiniert hast, zu koordinieren.',
+            'Nachdem du eine[Coordinate] -\nAktion durchgeführt hast, darfst du bis zu 2 [Energy] ausgeben, um ebenso viele zusätzliche Schiffe in Reichweite 0-1 des Schiffes, das du koordiniert hast, zu koordinieren.',
           es:
-            'Después de que realices una acción [Coordinate], puedes gastar hasta 2 para coordinar esa misma cantidad de naves adicionales que estén situadas a alcance 0-1 de la nave que has coordinado.',
+            'Después de que realices una acción [Coordinate], puedes gastar hasta 2 [Energy] para coordinar esa misma cantidad de naves adicionales que estén situadas a alcance 0-1 de la nave que has coordinado.',
           fr:
-            "Après avoir effectué une action [Coordinate], vous pouvez dépenser jusqu'à 2 pour coordonner autant de vaisseaux supplémentaires à portée 0-1 du vaisseau que vous avez coordonné.",
+            "Après avoir effectué une action [Coordinate], vous pouvez dépenser jusqu'à 2 [Energy] pour coordonner autant de vaisseaux supplémentaires à portée 0-1 du vaisseau que vous avez coordonné.",
         },
         grants: [
           {
@@ -105,11 +105,11 @@ const t: UpgradeBase[] = [
           en:
             'Before you engage, you may spend 1 or more [Energy] to flip that many of your Offline upgrade cards. Action: Spend 1 or more [Energy] to repair that many of your faceup Ship damage cards.',
           de:
-            'Bevor du kämpfst, darfst du 1 oder mehr ausgeben, um ebenso viele deiner Offline -Aufwertungen umzudrehen. Aktion: Gib 1 oder mehr aus, um ebenso viele deiner offenen Schiff-Schadens-karten zu reparieren.',
+            'Bevor du kämpfst, darfst du 1 oder mehr[Energy] ausgeben, um ebenso viele deiner Offline -Aufwertungen umzudrehen. Aktion: Gib 1 oder mehr[Energy] aus, um ebenso viele deiner offenen Schiff-Schadens-karten zu reparieren.',
           es:
-            'Antes de que intervengas, puedes gastar 1 o más para darle la vuelta a esa misma cantidad de tus cartas de Mejora Inoperativas. Acción: Gasta 1 o más para reparar esa misma cantidad de tus cartas de Daño Nave boca arriba.',
+            'Antes de que intervengas, puedes gastar 1 o más [Energy] para darle la vuelta a esa misma cantidad de tus cartas de Mejora Inoperativas. Acción: Gasta 1 o más [Energy] para reparar esa misma cantidad de tus cartas de Daño Nave boca arriba.',
           fr:
-            "Avant de vous engager, vous pouvez dépenser 1 ou plusieurs pour retourner autant de vos cartes d'amélioration Hors-ligne. Action: dépensez 1 ou plusieurs pour réparer autant de vos cartes de dégât Vaisseau face visible.",
+            "Avant de vous engager, vous pouvez dépenser 1 ou plusieurs [Energy] pour retourner autant de vos cartes d'amélioration Hors-ligne. Action: dépensez 1 ou plusieurs [Energy] pour réparer autant de vos cartes de dégât Vaisseau face visible.",
         },
         grants: [
           {
@@ -145,11 +145,11 @@ const t: UpgradeBase[] = [
           en:
             'While you perform a primary or attack, you may spend 1 or more [Energy] to reroll that many attack dice.',
           de:
-            'Solange du einen Primär- oder -Angriff durchführst, darfst du 1 oder mehr ausgeben, um ebenso viele Angriffswürfel neu zu werfen.',
+            'Solange du einen Primär- oder -Angriff durchführst, darfst du 1 oder mehr [Energy] ausgeben, um ebenso viele Angriffswürfel neu zu werfen.',
           es:
-            'Mientras efectúas un ataque principal o puedes gastar 1 o más para volver a tirar esa misma cantidad de dados de ataque.',
+            'Mientras efectúas un ataque principal o puedes gastar 1 o más [Energy] para volver a tirar esa misma cantidad de dados de ataque.',
           fr:
-            "Tant que vous effectuez une attaque principale ou , vous pouvez dépenser 1 ou plusieurs pour relancer autant de dés d'attaque.",
+            "Tant que vous effectuez une attaque principale ou , vous pouvez dépenser 1 ou plusieurs [Energy] pour relancer autant de dés d'attaque.",
         },
         grants: [
           {
@@ -214,11 +214,11 @@ const t: UpgradeBase[] = [
           en:
             'While you perform a [Reload] action, you may spend up to 3 [Energy] to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.',
           de:
-            'Solange du eine [Reload]-\nAktion durchführst, darfst du bis zu 3 ausgeben, um ebenso viele zusätzliche [Charge] auf deinen aus-gerüsteten [Missile]/[Torpedo]-Aufwertungen nachzuladen. Nachdem du eine [Reload]-Aktion durchgeführt hast, darfst du 1 ausgeben, um 1 Entwaffnet- Marker zu entfernen.',
+            'Solange du eine [Reload]-\nAktion durchführst, darfst du bis zu 3 [Energy] ausgeben, um ebenso viele zusätzliche [Charge] auf deinen aus-gerüsteten [Missile]/[Torpedo]-Aufwertungen nachzuladen. Nachdem du eine [Reload]-Aktion durchgeführt hast, darfst du 1 [Energy]ausgeben, um 1 Entwaffnet- Marker zu entfernen.',
           es:
-            'Mientras realizas una acción [Reload], puedes gastar hasta 3 para recargar esa misma cantidad de [Charge] adicionales en tus mejoras [Missile]/[Torpedo] equipadas. Después de que realices una acción [Reload], puedes gastar 1 para retirar 1 ficha de Desarme.',
+            'Mientras realizas una acción [Reload], puedes gastar hasta 3 [Energy] para recargar esa misma cantidad de [Charge] adicionales en tus mejoras [Missile]/[Torpedo] equipadas. Después de que realices una acción [Reload], puedes gastar 1 [Energy] para retirar 1 ficha de Desarme.',
           fr:
-            "Tant que vous effectuez une action [Reload], vous pouvez dépenser jusqu'à 3 pour recharger autant de [Charge] supplémentaires de vos améliorations [Missile]/[Torpedo] équipées. Après avoir effectué une action [Reload], vous pouvez dépenser 1 pour retirer 1 marqueur de désarmement.",
+            "Tant que vous effectuez une action [Reload], vous pouvez dépenser jusqu'à 3 [Energy] pour recharger autant de [Charge] supplémentaires de vos améliorations [Missile]/[Torpedo] équipées. Après avoir effectué une action [Reload], vous pouvez dépenser 1 [Energy] pour retirer 1 marqueur de désarmement.",
         },
         grants: [
           {
@@ -254,11 +254,11 @@ const t: UpgradeBase[] = [
           en:
             'You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.',
           de:
-            'Du kannst bis zu 3 Zielerfassungen auf unterschiedlichen Objekte aufrechterhalten.Nachdem du eine [Lock] Aktion durchgeführt hast, darfst du bis zu 2 ausgeben, um ebenso viele andere Objekte in Reichweite 0-1 des Ziels als Ziel zu erfassen, wobei du Reich weiten beschränkungen ignorierst.',
+            'Du kannst bis zu 3 Zielerfassungen auf unterschiedlichen Objekte aufrechterhalten.Nachdem du eine [Lock] Aktion durchgeführt hast, darfst du bis zu 2 [Energy] ausgeben, um ebenso viele andere Objekte in Reichweite 0-1 des Ziels als Ziel zu erfassen, wobei du Reich weiten beschränkungen ignorierst.',
           es:
-            'Puedes mantener hasta 3 Blancos fijados sobre objetos distintos. Después de que realices una acción [Lock], puedes gastar hasta 2 para obtener un Blanco fijado sobre esa misma cantidad de otros objetos que estén situados a alcance 0-1 del objeto que has fijado, ignorando las restricciones de alcance.',
+            'Puedes mantener hasta 3 Blancos fijados sobre objetos distintos. Después de que realices una acción [Lock], puedes gastar hasta 2 [Energy] para obtener un Blanco fijado sobre esa misma cantidad de otros objetos que estén situados a alcance 0-1 del objeto que has fijado, ignorando las restricciones de alcance.',
           fr:
-            "Vous pouvez maintenir jusqu'à 3 verrouillages sur différents objets. Après avoir effectué une action [Lock], vous pouvez dépenser jusqu'à 2 pour verrouiller autant d'autres objets à portée 0-1 de l'objet que vous avez verrouillé, en ignorant les restrictions de portée.",
+            "Vous pouvez maintenir jusqu'à 3 verrouillages sur différents objets. Après avoir effectué une action [Lock], vous pouvez dépenser jusqu'à 2 [Energy] pour verrouiller autant d'autres objets à portée 0-1 de l'objet que vous avez verrouillé, en ignorant les restrictions de portée.",
         },
         grants: [
           {
@@ -284,11 +284,13 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
-        title: { en: 'Droid Crew' },
+        title: { en: 'Droid Crew', de: 'Droidenmannschaft' },
         type: 'Team',
         ability: {
           en:
             'While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.',
+          de:
+            'Solange du eine weiße [Focus]-Aktion durchführst, behandle sie stattdessen, als wäre sie rot. Zu Beginn der Endphase repariere alle deine offenen Crew-Schadenskarten.',
         },
         slots: ['Team'],
         ffg: 942,
@@ -304,11 +306,13 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'Tractor Technicians' },
+        title: { en: 'Tractor Technicians', de: 'Fangstrahltechniker' },
         type: 'Team',
         ability: {
           en:
             'During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 [Energy]. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.',
+          de:
+            'Während der Endphase kann jedes andere Schiff in Reichweite 0-1 seine Fangstrahlmarker nicht entfernen. Bevor ein gefangenes feindliches Schiff in Reichweite 0-1 sein Rad aufdeckt, darfst du 1 [Energy] ausgeben. Falls du das tust, verringert jenes Schiff, solange es sein Manöver in dieser Aktivierung ausführt, die Geschwindigkeit jenes Manövers um 1 (Minimum: 1).',
         },
         slots: ['Team'],
         ffg: 944,
@@ -323,11 +327,13 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
-        title: { en: 'Corsair Crew' },
+        title: { en: 'Corsair Crew', de: 'Korsarenmannschaft' },
         type: 'Team',
         ability: {
           en:
             'While you perform an attack against a standard ship, you may spend 1 [Hit] result. If you do, the defender gains 1 deplete token.',
+          de:
+            'Solange du einen Angriff gegen ein Standardschiff durchführst, darfst du 1 [Hit]-Ergebnis ausgeben. Falls du das tust, erhält der Verteidiger 1 Erschöpfungsmarker.',
         },
         slots: ['Team', 'Gunner'],
         ffg: 943,

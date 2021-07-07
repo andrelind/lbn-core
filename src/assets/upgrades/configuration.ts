@@ -435,11 +435,11 @@ const t: UpgradeBase[] = [
           en:
             'Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.',
           de:
-            'Füge [Cannon]-, [Turret]-, und [Missile]-Slots hinzu. Bonusangriff: Gib 1 aus, um einen [Cannon]-, [Turret]-, oder [Missile]-Angriff durchzuführen.',
+            'Füge [Cannon]-, [Turret]-, und [Missile]-Slots hinzu. Bonusangriff: Gib 1 [Energy] aus, um einen [Cannon]-, [Turret]-, oder [Missile]-Angriff durchzuführen.',
           es:
-            'Añádete los espacios [Cannon], [Turret], y [Missile]. Ataque adicional: Gasta 1 para efectuar un ataque [Cannon], [Turret], o [Missile].',
+            'Añádete los espacios [Cannon], [Turret], y [Missile]. Ataque adicional: Gasta 1 [Energy] para efectuar un ataque [Cannon], [Turret], o [Missile].',
           fr:
-            'Ajoutez un emplacement [Cannon], un emplacement[Turret], et un emplacement [Missile]. Attaque Bonus : dépensez 1 pour effectuer une attaque [Cannon], [Turret], ou [Missile].',
+            'Ajoutez un emplacement [Cannon], un emplacement[Turret], et un emplacement [Missile]. Attaque Bonus : dépensez 1 [Energy] pour effectuer une attaque [Cannon], [Turret], ou [Missile].',
         },
         slots: ['Configuration'],
         grants: [
@@ -796,11 +796,22 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'Sensitive Controls' },
+        title: {
+          en: 'Sensitive Controls',
+          de: 'Genaue Steuerung',
+          es: 'Controles de altra precisión',
+          fr: 'Contrôles Sensibles',
+        },
         type: 'Configuration',
         ability: {
           en:
             'Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+          de:
+            'Ersetze deine Schiffsfähigkeit Automatische Schubdüsen durch: Genaue Steuerung: Während der Systemphase darfst du eine rote [Barrel Roll]- oder eine rote [Boost]-Aktion durchführen.',
+          es:
+            'Reemplaza tu capacidad de nave Propulsores automatizados por la siguiente: Controles de alta precisión: Durante la fase de Sistemas, puedes realizar una acción [Barrel Roll] o [Boost] roja.',
+          fr:
+            'Remplacez votre capacité de vaisseau Autopropulseurs par la suivante : Contrôles Sensibles : pendant la phase de système, vous pouvez effectuer une action [Barrel Roll] rouge ou [Boost] rouge.',
         },
         slots: ['Configuration'],
         ffg: 924,
@@ -817,11 +828,22 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'TIE Defender Elite' },
+        title: {
+          en: 'TIE Defender Elite',
+          de: 'TIE-Abwehrjäger-Elite',
+          es: 'Defensor TIE de élite',
+          fr: "Défenseur Tie d'Élite",
+        },
         type: 'Configuration',
         ability: {
           en:
             'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
+          de:
+            'Verringere die Schwierigkeit deiner Wendemanöver ([Turn Left] oder [Turn Right]). Erhöhe die Schwierigkeit deiner Koiogran-Wenden ([Koiogran Turn]). Ersetze deine Schiffsfähigkeit Vollgas durch: Verbesserte Feuerkontrolle: Nachdem du einen [Cannon]- oder [Missile]-Angriff durchgeführt hast, falls du den Verteidiger als Ziel erfasst hast, darfst du einen Bonus-Primärangriff gegen den Verteidiger durchführen.',
+          es:
+            'Reduce la dificultad de tus maniobras de giro ([Turn Left] o [Turn Right]). Incrementa la dificultad de tus maniobras de giro koiograno ([Koiogran Turn]). Reemplaza tu capacidad de nave Aceleración máxima por la siguiente: Control de disparo avanzado: Después de que efectúes un ataque [Cannon] o [Missile], si tienes un Blanco fijado sobre el defensor, puedes efectuar un ataque principal adicional contra el defensor.',
+          fr:
+            'Diminuez la difficulté de vos manœuvres de virage ([Turn Left] ou [Turn Right]). Augmentez la difficulté de vos manœuvres de Virage Koiogran ([Koiogran Turn]). Remplacez votre capacité de vaisseau Plein Gaz par la suivante : Commande de Tir Avancée : après avoir effectué une attaque [Cannon] ou [Missile], si vous avez un verrouillage sur le défenseur, vous pouvez effectuer une attaque principale bonus contre le défenseur.',
         },
         slots: ['Configuration'],
         ffg: 925,
@@ -838,11 +860,22 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: { en: 'Vectored Cannons (RZ-1)' },
+        title: {
+          en: 'Vectored Cannons (RZ-1)',
+          de: 'Schwenkbare Kanonen (RZ-1)',
+          es: 'Cañones vectoriales (RZ-1)',
+          fr: 'Canons Vectoriels (Rz-1)',
+        },
         type: 'Configuration',
         ability: {
           en:
             'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].',
+          de:
+            'Du erhältst einen [Single Turret Arc]-Anzeiger. Behandle die Winkelbedingung deines [Front Arc]-Primärangriffs, als wäre sie [Single Turret Arc]. Ersetze deine Schiffsfähigkeit Schwenkbare Schubdüsen durch: Schwenkbare Kanonen: Während der Systemphase darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen. Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc] oder [Rear Arc] rotieren.',
+          es:
+            'Recibes un indicador [Single Turret Arc]. Considera el requisito de arco de tu ataque principal [Front Arc] como si fuera [Single Turret Arc]. Reemplaza tu capacidad de nave Propulsores vectoriales por la siguiente: Cañones vectoriales: Durante la fase de Sistemas, puedes realizar una acción [Boost] o [Rotate Arc] roja. Sólo eres capaz de reorientar tu indicador [Single Turret Arc] hacia tu [Front Arc] o [Rear Arc].',
+          fr:
+            "Gagnez un indicateur [Single Turret Arc]. Considérez le prérequis d'arc de vos attaques principales [Front Arc] comme étant [Single Turret Arc]. Remplacez votre capacité de vaisseau Propulseurs Vectoriels par la suivante : Canons Vectoriels : pendant la phase de système, vous pouvez effectuer une action [Boost] rouge ou [Rotate Arc] rouge. Vous pouvez pivoter votre indicateur [Single Turret Arc] uniquement vers votre [Front Arc] ou [Rear Arc].",
         },
         slots: ['Configuration'],
         ffg: 926,

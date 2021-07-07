@@ -19,7 +19,7 @@ const t: UpgradeBase[] = [
           de:
             'Solange ein anderes befreundetes Schiff in Reichweite 0-1 verteidigt, falls es kleiner ist als du, darfst du 1 schilde oder 2 [Energy] ausgeben, um 1 [Hit] oder [Critical Hit]-Ergebnis zu negieren.',
           es:
-            'Mientras otra nave aliada que tienes a alcance 0-1 se defiende, si su tamaño es inferior al tuyo, puedes gastar 1 escudo o 2 para [Energy] anular 1 resultado [Hit] o [Critical Hit].',
+            'Mientras otra nave aliada que tienes a alcance 0-1 se defiende, si su tamaño es inferior al tuyo, puedes gastar 1 escudo o 2 [Energy] para anular 1 resultado [Hit] o [Critical Hit].',
           fr:
             "Tant qu'un autre vaisseau allié à portée 0-1 défend, s'il est d'une taille plus petite que vous, vous pouvez dépenser 1 bouclier ou 2 [Energy] pour annuler 1 résultat [Hit] ou [Critical Hit].",
         },
@@ -46,11 +46,11 @@ const t: UpgradeBase[] = [
           en:
             'While you lock, coordinate, or jam, you may spend up to 3  [Energy] to increase the range at which you can choose an object by 1 per [Energy] spent this way, to a maximum of range 5.',
           de:
-            'Solange du ein Ziel erfasst, koordinierst oder ein Störsignal sendest, darfst du bis zu 3 [Energy] ausgeben, um die Reichweite, in der du ein Objekt wählen darfst, um 1 pro ausgegebener zu erweitern, bis zu einem Maximum von Reichweite 5.',
+            'Solange du ein Ziel erfasst, koordinierst oder ein Störsignal sendest, darfst du bis zu 3  [Energy] ausgeben, um die Reichweite, in der du ein Objekt wählen darfst, um 1 pro ausgegebener [Energy] zu erweitern, bis zu einem Maximum von Reichweite 5.',
           es:
-            'Mientras fijas un blanco, coordinas o interfieres, puedes gastar hasta 3 [Energy] para incrementar el alcance al que puedes elegir un objeto en 1 por cada gastado de esta manera, hasta un máximo de alcance 5.',
+            'Mientras fijas un blanco, coordinas o interfieres, puedes gastar hasta 3  [Energy] para incrementar el alcance al que puedes elegir un objeto en 1 por cada [Energy] gastado de esta manera, hasta un máximo de alcance 5.',
           fr:
-            "Tant que vous verrouillez, coordonnez ou brouillez, vous pouvez dépenser jusqu'à 3 [Energy] pour augmenter la portée à laquelle vous pouvez choisir un objet de 1 par dépensée de cette manière, pour une portée maximale de 5.",
+            "Tant que vous verrouillez, coordonnez ou brouillez, vous pouvez dépenser jusqu'à 3  [Energy] pour augmenter la portée à laquelle vous pouvez choisir un objet de 1 par [Energy] dépensée de cette manière, pour une portée maximale de 5.",
         },
         slots: ['Cargo'],
         ffg: 757,

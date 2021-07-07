@@ -534,7 +534,7 @@ const t: UpgradeBase[] = [
       { baseSizes: ['Small', 'Medium'] },
       { stat: { type: 'shields', value: 1 } },
     ],
-    cost: { variable: 'agility', values: { '0': 6, '1': 3, '2': 2, '3': 1 } },
+    cost: { variable: 'agility', values: { '0': 6, '1': 3, '2': 1, '3': 1 } },
   },
   {
     limited: 0,

@@ -16,12 +16,7 @@ const cardUrl = '/cards';
 const expansionUrl = '/cards/extensions';
 const formatsUrl = '/gameformats';
 
-const languages = [
-  'en-en',
-  // 'de-de',
-  //  'es-es',
-  //   'fr-fr'
-];
+const languages = ['en-en', 'de-de', 'es-es', 'fr-fr'];
 
 const get = async (url: string, language: string) => {
   const result = await fetch(baseUrl + url, {

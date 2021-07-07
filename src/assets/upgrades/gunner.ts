@@ -811,6 +811,12 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1 strain or stress token.',
+          de:
+            'Nachdem du einen Spezialangriff durchgeführt hast, darfst du bis zu X befreundete Schiffe in Reichweite 0-3 des Verteidigers wählen. X ist die Anzahl Schadenskarten, die dem Verteidiger während jenes Angriffs zugeteilt worden sind. Jedes gewählte Schiff darf 1 Anstrengungs- oder Stressmarker entfernen.',
+          es:
+            'Después de que efectúes un ataque especial, puedes elegir hasta tantes naves aliadas que estén situadas a alcance 0-3 del defensor como la cantidad de cartas de Daño infligidas al defensor durante ese ataque. Cada nave elegida puede retirar 1 ficha de Sobresfuerzo o de Tensión.',
+          fr:
+            'Après avoir effectué une attaque spéciale, vous pouvez choisir un nombre de vaisseaux alliés, à portée 0-3 du défenseur, inférieur ou égal au nombre de cartes de dégât attribuées au défenseur lors de cette attaque. Chaque vaisseau choisi peut retirer 1 marqueur de stress ou de contrainte.',
         },
         slots: ['Gunner'],
         ffg: 921,

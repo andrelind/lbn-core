@@ -247,13 +247,24 @@ const t: ShipType = {
     {
       xws: 'herasyndulla-asf01bwing',
       name: { en: 'Hera Syndulla' },
-      caption: { en: 'Phoenix Leader' },
+      caption: {
+        en: 'Phoenix Leader',
+        de: 'Phönix Eins',
+        es: 'Jefe Fénix',
+        fr: 'Leader Phoenix',
+      },
       cost: 55,
       initiative: 6,
       limited: 1,
       ability: {
         en:
           'While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.',
+        de:
+          'Solange ein anderes befreundetes Schiff in Reichweite 1-2 verteidigt oder einen Angriff durchführt, darfst du 1 deiner Fokusmarker, Ausweichmarker oder Zielerfassungen auf jenes Schiff transferieren.',
+        es:
+          'Mientras otra nave aliada que tienes a alcance 1-2 se defiende o efectúa un ataque, puedes transferir 1 de tus fichas de Concentración, fichas de Evasión o Blancos fijados a esa nave.',
+        fr:
+          "Tant qu'un autre vaisseau allié à portée 1-2 défend ou effectue une attaque, vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau.",
       },
       slots: [
         'Talent',
@@ -273,13 +284,24 @@ const t: ShipType = {
     {
       xws: 'netrempollard',
       name: { en: 'Netrem Pollard' },
-      caption: { en: 'Dagger Leader' },
+      caption: {
+        en: 'Dagger Leader',
+        de: 'Dagger Eins',
+        es: 'Jefe Daga',
+        fr: 'Leader Dague',
+      },
       cost: 46,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180˚.',
+        de:
+          'Nachdem du eine Fassrolle geflogen bist, darfst du 1 nicht gestresstes befreundetes Schiff in Reichweite 0-1 wählen. Jenes Schiff erhält 1 Stressmarker, dann drehe dich um 180˚.',
+        es:
+          'Después de que realices un tonel volado, puedes elegir 1 nave aliada que no esté bajo tensión y tengas a alcance 0-1. Esa nave recibe 1 ficha de Tensión, y luego puedes girarte 180˚.',
+        fr:
+          "Après avoir effectué un tonneau, vous pouvez choisir 1 vaisseau allié qui n'est pas stressé à portée 0-1. Ce vaisseau gagne 1 marqueur de stress, puis vous pouvez pivoter à 180°.",
       },
       slots: [
         'Talent',

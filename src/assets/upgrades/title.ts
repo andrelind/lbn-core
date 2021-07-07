@@ -963,11 +963,11 @@ const t: UpgradeBase[] = [
           en:
             'Add slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].',
           de:
-            'Füge den -Slot hinzu. Während der Endphase darfst du 1 zusätzlichen additional schilde oder wiederherstellen.',
+            'Füge den -Slot hinzu. Während der Endphase darfst du 1 zusätzlichen additional schilde oder [Energy] wiederherstellen.',
           es:
-            'Añádete el espacio . Durante la fase Final, puedes recupera 1 escudo or adicional.',
+            'Añádete el espacio . Durante la fase Final, puedes recupera 1 escudo or [Energy] adicional.',
           fr:
-            'Ajoutez un emplacement . Pendant la phase de dénouement, vous pouvez récupérer 1 bouclier ou 2 supplémentaire.',
+            'Ajoutez un emplacement . Pendant la phase de dénouement, vous pouvez récupérer 1 bouclier ou 2 [Energy] supplémentaire.',
         },
         slots: ['Title'],
         grants: [
@@ -1128,11 +1128,11 @@ const t: UpgradeBase[] = [
           en:
             'Add and slots. After you fully execute a white maneuver, recover 1 [Energy].',
           de:
-            'Füge - und -Slots hinzu. Nachdem du ein weißes Manöver voll - ständig ausgeführt hast, stelle 1 wieder her.',
+            'Füge - und -Slots hinzu. Nachdem du ein weißes Manöver voll - ständig ausgeführt hast, stelle 1[Energy] wieder her.',
           es:
-            'Añádete los espacios y . Después de que ejecutes completamente una maniobra blanca, recuperas 1 .',
+            'Añádete los espacios y . Después de que ejecutes completamente una maniobra blanca, recuperas 1 [Energy].',
           fr:
-            'Ajoutez un emplacement et un emplacement . Après avoir entièrement exécuté une manoeuvre blanche, récupérez 1 .',
+            'Ajoutez un emplacement et un emplacement . Après avoir entièrement exécuté une manoeuvre blanche, récupérez 1 [Energy].',
         },
         grants: [
           { slot: 'Team', value: 1 },
@@ -1162,11 +1162,11 @@ const t: UpgradeBase[] = [
           en:
             'Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.',
           de:
-            'Füge den [Sensor]-Slot hinzu. Nachdem du ein befreundetes Schiff koordiniert hast, darfst du 1 ausgeben, um einem feindlichen Schiff in Reichweite 0-2 jenes Schiffes ein Störsignal zu senden, wobei du Reich weiten-beschränkungen ignorierst.',
+            'Füge den [Sensor]-Slot hinzu. Nachdem du ein befreundetes Schiff koordiniert hast, darfst du 1 [Energy] ausgeben, um einem feindlichen Schiff in Reichweite 0-2 jenes Schiffes ein Störsignal zu senden, wobei du Reich weiten-beschränkungen ignorierst.',
           es:
-            'Añádete el espacio [Sensor]. Después de que coordines una nave aliada, puedes gastar 1 para interferir una nave enemiga que esté situada a alcance 0-2 de esa nave aliada, ignorando las restricciones de alcance.',
+            'Añádete el espacio [Sensor]. Después de que coordines una nave aliada, puedes gastar 1 [Energy] para interferir una nave enemiga que esté situada a alcance 0-2 de esa nave aliada, ignorando las restricciones de alcance.',
           fr:
-            'Ajoutez un emplacement [Sensor]. Après avoir coordonné un vaisseau allié, vous pouvez dépenser 1 pour brouiller un vaisseau ennemi à portée 0-2 de ce vaisseau, en ignorant les restrictions de portée.',
+            'Ajoutez un emplacement [Sensor]. Après avoir coordonné un vaisseau allié, vous pouvez dépenser 1 [Energy] pour brouiller un vaisseau ennemi à portée 0-2 de ce vaisseau, en ignorant les restrictions de portée.',
         },
         grants: [{ slot: 'Sensor', value: 1 }],
         slots: ['Title'],
@@ -1192,11 +1192,11 @@ const t: UpgradeBase[] = [
           en:
             'While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.',
           de:
-            'Solange ein befreundetes Schiff in Reichweite 0-2 verteidigt, falls der Angriff durch ein Hindernis versperrt wird, darfst du 1 ausgeben. Falls du das tust, wirft der Verteidiger 1 zusätzlichen Verteidigungswürfel.',
+            'Solange ein befreundetes Schiff in Reichweite 0-2 verteidigt, falls der Angriff durch ein Hindernis versperrt wird, darfst du 1 [Energy] ausgeben. Falls du das tust, wirft der Verteidiger 1 zusätzlichen Verteidigungswürfel.',
           es:
-            'Mientras una nave aliada que tienes a alcance 0-2 se defiende, si el ataque está obstruido por un obstáculo, puedes gastar 1 . Si lo haces, el defensor tira 1 dado de defensa adicional.',
+            'Mientras una nave aliada que tienes a alcance 0-2 se defiende, si el ataque está obstruido por un obstáculo, puedes gastar 1 [Energy]. Si lo haces, el defensor tira 1 dado de defensa adicional.',
           fr:
-            "Tant qu'un vaisseau allié à portée 0-2 défend, si l'attaque est gênée par un obstacle, vous pouvez dépenser 1 . Dans ce cas, le défenseur lance 1 dé de défense supplémentaire.",
+            "Tant qu'un vaisseau allié à portée 0-2 défend, si l'attaque est gênée par un obstacle, vous pouvez dépenser 1 [Energy]. Dans ce cas, le défenseur lance 1 dé de défense supplémentaire.",
         },
         slots: ['Title'],
         ffg: 762,
@@ -1406,9 +1406,19 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'B6 Blade Wing Prototype' },
+        title: {
+          en: 'B6 Blade Wing Prototype',
+          de: 'Blatt-Flügler-Prototyp B6',
+          es: 'Prototipo B6 Ala Bisel',
+          fr: 'Prototype Blade Wing B6',
+        },
         type: 'Title',
-        ability: { en: 'Add [Gunner] slot.' },
+        ability: {
+          en: 'Add [Gunner] slot.',
+          de: 'Füge den [Gunner]-Slot hinzu.',
+          es: 'Añádete un espacio [Gunner].',
+          fr: 'Ajoutez un emplacement [Gunner].',
+        },
         grants: [{ slot: 'Gunner', value: 1 }],
         slots: ['Title'],
         ffg: 923,
@@ -1429,6 +1439,8 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'While you perform a Drill Beak attack at attack range 1, if the defender is tractored, treat it as being at range 0 instead.',
+          de:
+            'Solange du einen Bohrschnabel-Angriff in Angriffsreichweite 1 durchführst, falls der Verteidiger gefangen ist, behandle ihn stattdessen, als wäre er in Reichweite 0.',
         },
         slots: ['Title'],
         ffg: 946,
@@ -1444,11 +1456,13 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: "Nautolan's Revenge" },
+        title: { en: "Nautolan's Revenge", de: 'Rache der Nautolaner' },
         type: 'Title',
         ability: {
           en:
             'Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].',
+          de:
+            'Bevor du kämpfst, darfst du bis zu 2 Berechnungsmarker ausgeben. Falls du das tust, stellst du ebenso viele [Energy] wieder her.',
         },
         slots: ['Title'],
         ffg: 945,
@@ -1464,11 +1478,13 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
-        title: { en: 'Neimoidian Grasp' },
+        title: { en: 'Neimoidian Grasp', de: 'Neimoidianischer Griff' },
         type: 'Title',
         ability: {
           en:
             'After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.',
+          de:
+            'Nachdem du einen Angriff durchgeführt hast, darfst du eine rote [Evade]-Aktion durchführen. Solange du verteidigst, falls du ausweichst, darfst du 1 zusätzlichen Verteidigungs­würfel werfen.',
         },
         slots: ['Title'],
         ffg: 947,
@@ -1494,6 +1510,8 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.',
+          de:
+            'Nachdem du ein Schiff überschnitten hast oder ein Schiff dich überschnitten hat, falls es nicht gefangen ist, darfst du 1 [Energy] ausgeben. Falls du das tust, erhält es 3 Fangstrahlmarker.',
         },
         slots: ['Title'],
         ffg: 948,

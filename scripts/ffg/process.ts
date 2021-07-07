@@ -101,7 +101,11 @@ const processPilot = async (
   pilot.ffg = card.id;
   pilot.hyperspace = hyperspace;
 
-  setTranslation(pilot, 'name', card.name.replaceAll('•', ''), language);
+  if (language === 'es' && pilot.xws === 'zetasquadronpilot') {
+    setTranslation(pilot, 'name', 'Piloto del Escuadrón Zeta', language);
+  } else {
+    setTranslation(pilot, 'name', card.name.replaceAll('•', ''), language);
+  }
 
   if (card.subtitle && card.subtitle !== '') {
     setTranslation(pilot, 'caption', card.subtitle, language);
@@ -254,7 +258,7 @@ const processPilot = async (
       'utf8'
     );
   } catch (error) {
-    console.error(`Could not save ${pilot.xws}`);
+    console.error(`Could not save ${pilot.xws}`, JSON.stringify(ship));
   }
 };
 

@@ -233,13 +233,24 @@ const t: ShipType = {
     {
       xws: 'darthvader-tieddefender',
       name: { en: 'Darth Vader' },
-      caption: { en: 'Dark Lord of the Sith' },
+      caption: {
+        en: 'Dark Lord of the Sith',
+        de: 'Dunkler Lord der Sith',
+        es: 'Lord oscuro de los sith',
+        fr: 'Seigneur Noir des Sith',
+      },
       cost: 115,
       initiative: 6,
       limited: 1,
       ability: {
         en:
           'You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
+        de:
+          'Du kannst keine [Force] ausgeben, außer solange du angreifst. Solange du einen Angriff durchführst, darfst du 1 [Force] ausgeben, um 1 Leerseiten-­Ergebnis in ein [Hit]-Ergebnis zu ändern.',
+        es:
+          'No puedes gastar [Force] excepto mientras estás atacando. Mientras efectúas un ataque, puedes gastar 1 [Force] para cambiar 1 resultado de cara vacía por un resultado [Hit].',
+        fr:
+          'Vous ne pouvez pas dépenser de [Force] sauf lorsque vous attaquez. Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Force] pour changer 1 résultat vierge en un résultat [Hit].',
       },
       force: { value: 3, recovers: 1, side: ['dark'] },
       slots: ['Cannon', 'Missile', 'Force Power', 'Configuration'],
@@ -251,13 +262,24 @@ const t: ShipType = {
     {
       xws: 'vultskerris',
       name: { en: 'Vult Skerris' },
-      caption: { en: 'Arrogant Ace' },
+      caption: {
+        en: 'Arrogant Ace',
+        de: 'Arrogantes Fliegerass',
+        es: 'As arrogante',
+        fr: 'As Arrogant',
+      },
       cost: 82,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           'Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.',
+        de:
+          'Aktion: Erhalte 1 Anstrengungsmarker, um 1 [Charge] wiederherzustellen. Bevor du kämpfst, darfst du 1 [Charge] ausgeben, um eine Aktion durchzuführen.',
+        es:
+          'Acción: Recibe 1 ficha de Sobresfuerzo para recuperar 1 [Charge]. Antes de que intervengas, puedes gastar 1 [Charge] para realizar una acción.',
+        fr:
+          'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,
@@ -267,14 +289,25 @@ const t: ShipType = {
     },
     {
       xws: 'captaindobbs',
-      name: { en: 'Captain Dobbs' },
-      caption: { en: 'Reliable Replacement' },
+      name: { en: 'Captain Dobbs', fr: 'Capitaine Dobbs' },
+      caption: {
+        en: 'Reliable Replacement',
+        de: 'Verlässlicher Ersatz',
+        es: 'Reemplazo de confianza',
+        fr: 'Remplaçant Fiable',
+      },
       cost: 75,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.',
+        de:
+          'Solange ein anderes befreundetes Schiff in Reichweite 0-1 verteidigt, vor dem Schritt „Ergebnisse neutralisieren", falls du im Angriffswinkel und nicht ionisiert bist, darfst du 1 Ionenmarker erhalten, um 1 [Hit]-Ergebnis zu negieren.',
+        es:
+          'Mientras otra nave aliada que tienes a alcance 0-1 se defiende, antes del paso "Neutralizar resultados", si estás situado en el arco de ataque y no estás ionizado, puedes recibir 1 ficha de Iones para anular 1 resultado [Hit].',
+        fr:
+          "Tant qu'un autre vaisseau allié à portée 0-1 défend, avant l'étape « Neutraliser les résultats », si vous êtes dans l'arc d'attaque et n'êtes pas ionisé, vous pouvez gagner 1 marqueur ionique pour annuler 1 résultat [Hit].",
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       hyperspace: false,

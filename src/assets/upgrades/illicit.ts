@@ -342,8 +342,19 @@ const t: UpgradeBase[] = [
         ability: {
           en:
             'After you acquire a lock on an object or an object acquires a lock on you, if you have 1 active [Charge], lose 1 [Charge] and jam that object, ignoring range restrictions.',
+          de:
+            'Nachdem du ein Objekt als Ziel erfasst hast oder ein Objekt dich als Ziel erfasst hat, falls du 1 aktive [Charge] hast, verlierst du 1 [Charge] und sendest jenem Objekt ein Störsignal, wobei du Reichweitenbeschränkungen ignorierst.',
+          es:
+            'Después de que obtengas un Blanco fijado sobre un objeto o un objeto obtenga un Blanco fijado sobre ti, si tienes 1 [Charge] activa, pierde 1 [Charge] e interfiere ese objeto, ignorando las restricciones de alcance.',
+          fr:
+            "Après avoir verrouillé un objet ou qu'un objet vous a verrouillé, si vous avez 1 [Charge] active, perdez 1 [Charge] et brouillez cet objet, en ignorant les restrictions de portée.",
         },
-        title: { en: 'False Transponder Codes' },
+        title: {
+          en: 'False Transponder Codes',
+          de: 'Gefälschte Transpondercodes',
+          es: 'Códigos de transpondedor falsos',
+          fr: 'Codes de Transpondeur Falsifiés',
+        },
         type: 'Illicit',
         slots: ['Illicit'],
         ffg: 877,

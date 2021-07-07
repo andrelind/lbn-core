@@ -204,7 +204,12 @@ const t: ShipType = {
     {
       xws: 'gamutkey',
       name: { en: 'Gamut Key' },
-      caption: { en: 'Collaborationist Governor' },
+      caption: {
+        en: 'Collaborationist Governor',
+        de: 'Kollaborierender Gouverneur',
+        es: 'Gobernador colaboracionista',
+        fr: 'Gouverneur Collaborationniste',
+      },
       cost: 34,
       initiative: 3,
       limited: 1,
@@ -222,6 +227,12 @@ const t: ShipType = {
       ability: {
         en:
           'At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.',
+        de:
+          'Zu Beginn der Endphase darfst du 2 [Charge] ausgeben, um dich selbst oder ein Schiff in deinem [Single Turret Arc] mit 1 oder mehreren kreisförmigen Markern zu wählen. Während der Endphase werden kreisförmige Marker nicht von jenem Schiff entfernt.',
+        es:
+          'Al comienzo de la fase Final, puedes gastar 2 [Charge] para elegirte a ti mismo o a una nave situada en tu [Single Turret Arc] con 1 o más fichas redondas. Durante la fase Final, las fichas redondas de esa nave no se retiran.',
+        fr:
+          'Au début de la phase de dénouement, vous pouvez dépenser 2 [Charge] pour vous choisir ou choisir un vaisseau dans votre [Single Turret Arc] ayant au moins 1 marqueur circulaire. Pendant la phase de dénouement, les marqueurs circulaires ne sont pas retirés du vaisseau choisi.',
       },
       keywords: ['Freighter'],
       ffg: 896,
@@ -229,13 +240,24 @@ const t: ShipType = {
     {
       xws: 'kananjarrus-hwk290lightfreighter',
       name: { en: 'Kanan Jarrus' },
-      caption: { en: 'Lost Padawan' },
+      caption: {
+        en: 'Lost Padawan',
+        de: 'Verlorener Padawan',
+        es: 'Padawan perdido',
+        fr: 'Padawan Perdu ',
+      },
       cost: 42,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.',
+        de:
+          'Solange du oder ein Schiff in deinem [Single Turret Arc] verteidigt, darfst du 1 [Force] ausgeben. Falls du das tust, wirft der Angreifer 1 Angriffswürfel weniger.',
+        es:
+          'Mientras tú o una nave situada en tu [Single Turret Arc] os defendéis, puedes gastar 1 [Force]. Si lo haces, el atacante tira 1 dado de ataque menos.',
+        fr:
+          "Tant que vous ou un vaisseau dans votre [Single Turret Arc] défend, vous pouvez dépenser 1 [Force]. Dans ce cas, l'attaquant lance 1 dé d'attaque en moins.",
       },
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
@@ -255,13 +277,24 @@ const t: ShipType = {
     {
       xws: 'tapusk',
       name: { en: 'Tápusk' },
-      caption: { en: 'Order 66 Informant' },
+      caption: {
+        en: 'Order 66 Informant',
+        de: 'Informant der Order 66',
+        es: 'Confidente de la Orden 66',
+        fr: "Informateur de l'Ordre 66",
+      },
       cost: 36,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           'During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].',
+        de:
+          'Während der Endphase, bevor ein feindliches Schiff in deinem [Single Turret Arc] 1 wiederkehrende [Charge] oder [Force] wiederherstellt, darfst du 2 [Charge] ausgeben. Falls du das tust, stellt jenes Schiff jene [Charge] oder [Force] nicht wieder her.',
+        es:
+          'Durante la fase Final, antes de que una nave enemiga situada en tu [Single Turret Arc] recupere 1 [Charge] o [Force] recurrente, puedes gastar 2 [Charge]. Si lo haces, esa nave no recupera esa [Charge] o [Force].',
+        fr:
+          "Pendant la phase de dénouement, avant qu'un vaisseau ennemi dans votre [Single Turret Arc] ne récupère 1 [Charge] ou [Force] récurrente, vous pouvez dépenser 2 [Charge]. Dans ce cas, ce vaisseau ne récupère pas cette [Charge] ou [Force].",
       },
       slots: [
         'Talent',

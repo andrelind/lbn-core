@@ -10,18 +10,18 @@ const t: UpgradeBase[] = [
           en: 'Ion Cannon Battery (Offline)',
           de: 'Ionengeschütz-Batterie',
           es: 'Batería iónica',
-          fr: 'Batterie à Canons ioniques',
+          fr: 'Batterie à Canons Ioniques',
         },
         type: 'Hardpoint',
         ability: {
           en:
             'Offline After you engage, you may spend 2 [Energy] to flip this card.',
           de:
-            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Falls dieser Angriff trifft, erleidet der Verteidiger 1 [Critical Hit] -Schaden und alle [Hit]/[Critical Hit] -Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
+            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1  [Energy] aus. Falls dieser Angriff trifft, erleidet der Verteidiger 1  [Critical Hit] -Schaden und alle [Hit]/[Critical Hit] -Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Ataque adicional: Gasta 1 [Energy]. Si este ataque impacta, el defensor sufre 1 de daño [Critical Hit] damage, y todos los resultados [Hit]/[Critical Hit] infligen fichas de Iones en vez de daño.',
           fr:
-            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : dépensez 1 [Energy]. Si cette attaque touche, le défenseur subit 1 dégât  [Critical Hit] et tous les résultats [Hit]/[Critical Hit] infligent des marqueurs ioniques à la place des dégâts.',
+            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : dépensez 1 [Energy]. Si cette attaque touche, le défenseur subit 1 dégât [Critical Hit] et tous les résultats [Hit]/[Critical Hit] infligent des marqueurs ioniques à la place des dégâts.',
         },
         attack: {
           arc: 'Single Turret Arc',
@@ -50,7 +50,7 @@ const t: UpgradeBase[] = [
           en:
             'Setup: Equip this side faceup. Bonus Attack: Spend 1  [Energy]. If this attack hits, the defender suffers 1  [Critical Hit] damage, and all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
           de:
-            'Offline Nachdem du gekämpft hast [Energy], darfst du ausgeben, um diese Karte umzudrehen.',
+            'Offline Nachdem du gekämpft hast, darfst du [Energy] ausgeben, um diese Karte umzudrehen.',
           es:
             'Inoperativa Después de que intervengas, puedes gastar 2 [Energy] para darle la vuelta a esta carta.',
           fr:
@@ -101,7 +101,7 @@ const t: UpgradeBase[] = [
           en:
             'Setup: Equip this side faceup. You can perform [Torpedo] and [Missile] attacks only as bonus attacks. You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Full Front Arc]. Bonus Attack: Perform a [Torpedo] attack. Bonus Attack: Perform a [Missile] attack.',
           de:
-            'Offline Du musst die[Front Arc] -Bedingung deiner ausgerüsteten [Torpedo] - und [Missile] -Aufwertungen behandeln, als wäre sie [Bullseye Arc]. Aktion: Gib 2  [Energy]aus, um diese Karte umzudrehen.',
+            'Offline Du musst die[Front Arc] -Bedingung deiner ausgerüsteten [Torpedo] - und [Missile] -Aufwertungen behandeln, als wäre sie [Bullseye Arc]. Aktion: Gib 2 [Energy] aus, um diese Karte umzudrehen.',
           es:
             'Inoperativa Debes considerar el requisito [Front Arc] de tus mejoras [Torpedo] y [Missile] equipadas como si fuera [Bullseye Arc]. Acción: Gasta 2 [Energy] para darle la vuelta a esta carta.',
           fr:
@@ -122,17 +122,18 @@ const t: UpgradeBase[] = [
           en: 'Point-Defense Battery (Offline)',
           de: 'Punktverteidigungs-Batterie',
           es: 'Batería defensiva',
+          fr: 'Batterie Défensive',
         },
         type: 'Hardpoint',
         ability: {
           en:
             'Offline After you engage, you may spend 2 [Energy] to flip this card.',
           de:
-            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus.',
+            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1  [Energy] aus. Bonusangriff: Gib 1  [Energy] aus. Bonusangriff: Gib 1  [Energy] aus. Bonusangriff: Gib 1  [Energy] aus.',
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Ataque adicional: Gasta 1 [Energy]. Ataque adicional: Gasta 1 [Energy]. Ataque adicional: Gasta 1 [Energy]. Ataque adicional: Gasta 1 [Energy].',
           fr:
-            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : dépensez 1 [Energy] . Attaque Bonus : dépensez 1 [Energy] . Attaque Bonus : dépensez 1 [Energy] . Attaque Bonus : dépensez 1 [Energy] .',
+            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : dépensez 1 [Energy]. Attaque Bonus : dépensez 1 [Energy]. Attaque Bonus : dépensez 1 [Energy]. Attaque Bonus : dépensez 1 [Energy].',
         },
         attack: {
           arc: 'Double Turret Arc',
@@ -161,11 +162,11 @@ const t: UpgradeBase[] = [
           en:
             'Setup: Equip this side faceup. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy]. Bonus Attack: Spend 1  [Energy].',
           de:
-            'Offline Nachdem du gekämpft hast, darfst du 2 ausgeben, um diese Karte umzudrehen.',
+            'Offline Nachdem du gekämpft hast, darfst du 2 [Energy] ausgeben, um diese Karte umzudrehen.',
           es:
-            'Inoperativa Después de que intervengas, puedes gastar 2 para darle la vuelta a esta carta.',
+            'Inoperativa Después de que intervengas, puedes gastar 2 [Energy] para darle la vuelta a esta carta.',
           fr:
-            'Hors-ligne Après que vous vous êtes engagé, vous pouvez dépenser 2 pour retourner cette carte.',
+            'Hors-ligne Après que vous vous êtes engagé, vous pouvez dépenser 2 [Energy] pour retourner cette carte.',
         },
       },
     ],
@@ -182,18 +183,18 @@ const t: UpgradeBase[] = [
           en: 'Targeting Battery (Offline)',
           de: 'Zielbatterie',
           es: 'Batería de rastreo de blancos',
-          fr: 'Batterie de CiBlage',
+          fr: 'Batterie de Ciblage',
         },
         type: 'Hardpoint',
         ability: {
           en:
             'Offline After you engage, you may spend 2 [Energy] to flip this card.',
           de:
-            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1 [Energy] aus. Nachdem du diesen Angriff durchgeführt hast, darfst du den Verteidiger als Ziel erfassen.',
+            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Gib 1  [Energy] aus. Nachdem du diesen Angriff durchgeführt hast, darfst du den Verteidiger als Ziel erfassen.',
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Ataque adicional: Gasta 1 [Energy]. Después de que efectúes este ataque, puedes obtener un Blanco fijado sobre el defensor.',
           fr:
-            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : dépensez 1 [Energy] . Après avoir effectué cette attaque, vous pouvez verrouiller le défenseur.',
+            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : Dépensez 1 [Energy]. Après avoir effectué cette attaque, vous pouvez verrouiller le défenseur.',
         },
         attack: {
           arc: 'Single Turret Arc',
@@ -262,7 +263,9 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Ataque adicional ([Lock]): Gasta 3 [Energy]. Si este ataque impacta, añade 3 resultados [Hit].',
           fr:
-            'Mise en Place : à équiper avec cette face visible. Attaque Bonus : ([Lock]): dépensez 3 [Energy]. Si cette attaque touche, ajoutez 3 résultats [Hit].',
+            'Mise en Place : à équiper avec cette face visible. Attaque Bonus ([Lock]) : dépensez 3 [Energy]. Si cette attaque touche, ajoutez 3 résultats [Hit].',
+          de:
+            'Setup: Equip this side faceup. Bonus Attack ([Lock]): Spend 3 [Energy]. If this attack hits, add 3 [Hit] results.',
         },
         attack: {
           arc: 'Single Turret Arc',
@@ -320,22 +323,29 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     sides: [
       {
-        title: { en: 'Tractor Tentacles' },
+        title: { en: 'Tractor Tentacles', de: 'Fangtentakel' },
         type: 'Hardpoint',
         ability: {
           en:
             'Setup: Equip this side faceup. Bonus Attack Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].',
+          de:
+            'Aufbau: Rüste diese Seite offen aus. Bonusangriff Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus. Bonusangriff: Gib 1 [Energy] aus.',
         },
         slots: ['Hardpoint'],
         ffg: 933,
       },
       {
         ffg: 934,
-        title: { en: 'Tractor Tentacles (Offline)' },
+        title: {
+          en: 'Tractor Tentacles (Offline)',
+          de: 'Fangtentakel (Offline)',
+        },
         type: 'Hardpoint',
         slots: [],
         ability: {
           en: 'Offline Action: Spend 1 [Energy] to repair this card.',
+          de:
+            'Offline Aktion: Gib 1 [Energy] aus, um diese Karte zu reparieren.',
         },
       },
     ],
@@ -349,22 +359,26 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     sides: [
       {
-        title: { en: 'Drill Beak' },
+        title: { en: 'Drill Beak', de: 'Bohrschnabel' },
         type: 'Hardpoint',
         ability: {
           en:
             'Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.',
+          de:
+            'Aufbau: Rüste diese Seite offen aus. Du kannst diesen Angriff in Reichweite 0 durchführen. Bonusangriff: Gib 1 [Energy] aus. Falls die Angriffsreichweite 0 ist, ändere alle [Hit]-Ergebnisse in [Critical Hit]-Ergebnisse.',
         },
         slots: ['Hardpoint', 'Cargo'],
         ffg: 935,
       },
       {
         ffg: 936,
-        title: { en: 'Drill Beak (Offline)' },
+        title: { en: 'Drill Beak (Offline)', de: 'Bohrschnabel (Offline)' },
         type: 'Hardpoint',
         slots: [],
         ability: {
           en: 'Offline Action: Spend 1 [Energy] to repair this card.',
+          de:
+            'Offline Aktion: Gib 1 [Energy] aus, um diese Karte zu reparieren.',
         },
       },
     ],
@@ -378,22 +392,29 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
-        title: { en: 'Enhanced Propulsion' },
+        title: { en: 'Enhanced Propulsion', de: 'Verbesserter Antrieb' },
         type: 'Hardpoint',
         ability: {
           en:
             'Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white (2 [Straight]), (1 [Bank Left]), or (1 [Bank Right]) maneuver.',
+          de:
+            'Aufbau: Rüste diese Seite offen aus. Zu Beginn der Endphase darfst du 2 [Energy] ausgeben, um ein weißes (2 [Straight])-, (1 [Bank Left])- oder (1 [Bank Right])-Manöver auszuführen.',
         },
         slots: ['Hardpoint', 'Cargo'],
         ffg: 937,
       },
       {
         ffg: 938,
-        title: { en: 'Enhanced Propulsion (Offline)' },
+        title: {
+          en: 'Enhanced Propulsion (Offline)',
+          de: 'Verbesserter Antrieb (Offline)',
+        },
         type: 'Hardpoint',
         slots: [],
         ability: {
           en: 'Offline Action: Spend 1 [Energy] to repair this card.',
+          de:
+            'Offline Aktion: Gib 1 [Energy] aus, um diese Karte zu reparieren.',
         },
       },
     ],
@@ -406,22 +427,29 @@ const t: UpgradeBase[] = [
     cost: { value: 10 },
     sides: [
       {
-        title: { en: 'Proton Cannon Battery' },
+        title: { en: 'Proton Cannon Battery', de: 'Protonengeschütz-Batterie' },
         type: 'Hardpoint',
         ability: {
           en:
             'Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Critical Hit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Critical Hit] result.',
+          de:
+            'Aufbau: Rüste diese Seite offen aus. Bonusangriff: Ändere 1 [Hit]-Ergebnis in ein [Critical Hit]-Ergebnis. Bonusangriff: Gib 1 [Energy] aus. Ändere 1 [Hit]-Ergebnis in ein [Critical Hit]-Ergebnis.',
         },
         slots: ['Hardpoint', 'Cargo'],
         ffg: 939,
       },
       {
         ffg: 940,
-        title: { en: 'Proton Cannon Battery (Offline)' },
+        title: {
+          en: 'Proton Cannon Battery (Offline)',
+          de: 'Protonengeschütz-Batterie (Offline)',
+        },
         type: 'Hardpoint',
         slots: [],
         ability: {
           en: 'Offline Action: Spend 1 [Energy] to repair this card.',
+          de:
+            'Offline Aktion: Gib 1 [Energy] aus, um diese Karte zu reparieren.',
         },
       },
     ],

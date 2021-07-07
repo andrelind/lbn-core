@@ -167,11 +167,13 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     sides: [
       {
-        title: { en: 'Tracking Torpedoes' },
+        title: { en: 'Tracking Torpedoes', de: 'Zielsuch-Torpedos' },
         type: 'Torpedo',
         ability: {
           en:
             'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the ([Bank Left] 3], ([Straight] 4], and ([Bank Right] 3] templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
+          de:
+            'Während der Systemphase darfst du bis zu 3 [Charge] ausgeben, um ebenso viele Zielsuchtorpedos unter Verwendung der ([Bank Left] 3]-, ([Straight] 4]- und ([Bank Right] 3]-Schablonen zu starten. Jedes Gerät muss eine andere Schablone verwenden. Dann darf jedes Gerät ein Objekt als Ziel erfassen, das du als Ziel erfasst hast, wobei es Reichweiten­beschränkungen ignoriert.',
         },
         slots: ['Torpedo'],
         ffg: 941,

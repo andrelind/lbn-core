@@ -198,13 +198,24 @@ const t: ShipType = {
     {
       xws: 'leemakai',
       name: { en: 'Leema Kai' },
-      caption: { en: 'Opportunity Knocks' },
+      caption: {
+        en: 'Opportunity Knocks',
+        de: 'Kommandant der Opportunity',
+        es: 'Cuando surge la oportunidad',
+        fr: 'Frappe Opportuniste',
+      },
       cost: 40,
       initiative: 5,
       limited: 1,
       ability: {
         en:
           "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
+        de:
+          'Bevor du kämpfst, falls du nicht im [Front Arc] eines feindlichen Schiffes bist, darfst du ein feindliches Schiff in deinem full front arc als Ziel erfassen.',
+        es:
+          'Antes de que intervengas, si no estás situado en el [Front Arc] de ninguna nave enemiga, puedes obtener un Blanco fijado sobre una nave enemiga que tengas en tu full front arc.',
+        fr:
+          'Avant de vous engager, si vous êtes dans aucun [Front Arc] de vaisseaux ennemis, vous pouvez verrouiller un vaisseau ennemi dans votre full front arc.',
       },
       slots: [
         'Talent',
@@ -223,13 +234,24 @@ const t: ShipType = {
     {
       xws: 'arlizhadrassian',
       name: { en: 'Arliz Hadrassian' },
-      caption: { en: 'Crimson Blade' },
+      caption: {
+        en: 'Crimson Blade',
+        de: 'Rotes Schwert',
+        es: 'Espada Carmesí',
+        fr: 'Lame Pourpre',
+      },
       cost: 39,
       initiative: 4,
       limited: 1,
       ability: {
         en:
           'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.',
+        de:
+          'Solange du einen [Front Arc]-Angriff durchführst, falls du beschädigt bist, darfst du 1 deiner [Focus]-Ergebnisse in ein [Critical Hit]-Ergebnis ändern. Solange du verteidigst, falls du beschädigt bist, musst du 1 deiner [Focus]-Ergebnisse in ein Leerseiten-Ergebnis ändern.',
+        es:
+          'Mientras efectúas un ataque [Front Arc], si estás dañado, puedes cambiar 1 de tus resultados [Focus] por un resultado [Critical Hit]. Mientras te defiendes, si estás dañado, debes cambiar 1 de tus resultados [Focus] por un resultado de cara vacía.',
+        fr:
+          'Tant que vous effectuez une attaque [Front Arc], si vous êtes endommagé, vous pouvez changer 1 de vos résultats [Focus] en un résultat [Critical Hit]. Tant que vous défendez, si vous êtes endommagé, vous devez changer 1 de vos résultats [Focus] en un résultat vierge.',
       },
       slots: [
         'Talent',
@@ -248,13 +270,24 @@ const t: ShipType = {
     {
       xws: 'padric',
       name: { en: 'Padric' },
-      caption: { en: 'Napkin Bomber' },
+      caption: {
+        en: 'Napkin Bomber',
+        de: 'Servietten-Attentäter',
+        es: 'Terrorista de la servilleta',
+        fr: 'Attentat de la Serviette',
+      },
       cost: 36,
       initiative: 3,
       limited: 1,
       ability: {
         en:
           'After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.',
+        de:
+          'Nachdem ein befreundetes Gerät detoniert ist, das du als Ziel erfasst hast, erhält jedes feindliche Schiff in Reichweite 0-1 jenes Geräts 1 Anstrengungsmarker.',
+        es:
+          'Después de que un dispositivo aliado que tengas fijado como blanco se detone, toda nave enemiga situada a alcance 0-1 de ese dispositivo recibe 1 ficha de sobresfuerzo.',
+        fr:
+          "Après qu'un engin allié que vous avez verrouillé a explosé, chaque vaisseau ennemi à portée 0-1 de cet engin gagne 1 marqueur de contrainte.",
       },
       slots: [
         'Talent',
@@ -272,7 +305,12 @@ const t: ShipType = {
     },
     {
       xws: 'amaxinewarrior',
-      name: { en: 'Amaxine Warrior' },
+      name: {
+        en: 'Amaxine Warrior',
+        de: 'Amaxinen-Krieger',
+        es: 'Guerrero amaxino',
+        fr: 'Guerrier Amaxine',
+      },
       cost: 33,
       initiative: 3,
       limited: 0,
@@ -292,11 +330,22 @@ const t: ShipType = {
       text: {
         en:
           'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
+        de:
+          'Auch Jahrzehnte nach der Schlacht von Endor sind ehemalige Anhänger des Imperiums noch in der Neuen Republik aktiv. Viele von ihnen haben sich paramilitärischen Organisationen wie den Amaxinen-Kriegern angeschlossen, die mit ihren martialischen Traditionen und ihrer Kriegerkultur die hasserfüllte Ideologie der Ersten Ordnung unter denjenigen verbreiten, die am anfälligsten dafür sind.',
+        es:
+          'Décadas después de la batalla de Endor, antiguos imperiales siguen activos en la Nueva República. Muchos se han unido a organizaciones paramilitares, como la de los guerreros amaxinos, que se apropian de tradiciones y culturas marciales para difundir la detestable ideología de la Primera orden entre quienes son más vulnerables a ella.',
+        fr:
+          "Des décennies après la Bataille d'Endor, d'anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s'approprient les traditions et cultures martiales pour répandre l'idéologie haineuse du Premier Ordre parmi les individus les plus influençables.",
       },
     },
     {
       xws: 'jinatasecurityofficer',
-      name: { en: 'Jinata Security Officer' },
+      name: {
+        en: 'Jinata Security Officer',
+        de: 'Jinata-Sicherheitsoffizier',
+        es: 'Agente de Seguridad Jinata',
+        fr: 'Officier de la Sécurité Jinata',
+      },
       cost: 31,
       initiative: 2,
       limited: 0,
@@ -308,6 +357,12 @@ const t: ShipType = {
       text: {
         en:
           "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
+        de:
+          'Der Jinata-Sicherheitsdienst hat sein Hauptquartier auf der ehemals imperialen Welt Vardos. Zum einen arbeiten sie am Wiederaufbau des verwüsteten Planeten, zum anderen beschaffen sie Truppen für die Erste Ordnung.',
+        es:
+          'Con sede en el antiguo baluarte imperial de Vardos, Seguridad Jinata prosigue sus tareas de reconstrucción del devastado planeta, aun cuando colaboran con el programa de rearmamento de la Primera Orden.',
+        fr:
+          "Basé dans l'ancien bastion Impérial de Vardos, la Sécurité Jinata poursuit ses efforts de reconstruction sur la planète dévastée, tout en collaborant avec le programme de réarmement du Premier Ordre.",
       },
     },
   ],

@@ -1097,11 +1097,22 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: { en: 'Cutthroat' },
+        title: {
+          en: 'Cutthroat',
+          de: 'Halsabschneider',
+          es: 'Feroz rivalidad',
+          fr: 'Égorgeur',
+        },
         type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring [Charge] on your ship card or one of your equipped upgrade cards.',
+          de:
+            'Nachdem ein anderes befreundetes Schiff in Reichweite 0-3 zerstört worden ist, falls jenes Schiff limitiert ist oder die Aufwertung Halsabschneider hat, darfst du 1 deiner orangen oder roten Marker entfernen oder 1 nicht-wiederkehrende [Charge] on your ship card or one of your equipped upgrade cards.',
+          es:
+            'Después de que otra nave aliada que tengas a alcance 0-3 sea destruida, si esa nave es limitada o tiene la mejora Feroz rivalidad, puedes retirar 1 de tus fichas naranjas o rojas , o recuperar 1 [Charge] no recurrente sobre tu carta de Nave o una de tus cartas de Mejora equipadas.',
+          fr:
+            "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration égorgeur, vous pouvez retirer 1 de vos marqueurs orange ou rouges, ou récupérer 1 [Charge] non-récurrente sur votre carte de vaisseau ou sur l'une de vos cartes d'amélioration équipées.",
         },
         slots: ['Talent'],
         ffg: 914,
@@ -1117,11 +1128,22 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'Tierfon Belly Run' },
+        title: {
+          en: 'Tierfon Belly Run',
+          de: 'Tierfon-Tiefflug',
+          es: 'Pasada rasante de Tierfon',
+          fr: 'Rase-Mottes de Tierfon',
+        },
         type: 'Talent',
         ability: {
           en:
             'You can perform special attacks even while at range 0 of asteroids. While you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.',
+          de:
+            'Du kannst Spezialangriffe durchführen, auch solange du in Reichweite 0 eines Asteroiden bist. Solange du verteidigst, falls du in Reichweite 0 eines Hindernisses bist, können Angriffswürfel nicht neu geworfen werden.',
+          es:
+            'Eres capaz de realizar ataques especiales incluso aunque estés a alcance 0 de asteroides. Mientras te defiendes, si estás a alcance 0 de un obstáculo, los dados de ataque no pueden ser vueltos a tirar.',
+          fr:
+            "Vous pouvez effectuer des attaques spéciales même si vous êtes à portée 0 d'astéroïdes. Tant que vous défendez, si vous êtes à portée 0 d'un obstacle, les dés d'attaque ne peuvent pas être relancés.",
         },
         slots: ['Talent'],
         ffg: 918,
@@ -1137,11 +1159,22 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: { en: 'Disciplined' },
+        title: {
+          en: 'Disciplined',
+          de: 'Diszipliniert',
+          es: 'Disciplina férrea',
+          fr: 'Discipliné',
+        },
         type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
+          de:
+            'Nachdem ein anderes befreundetes Schiff in Reichweite 0-3 zerstört worden ist, falls jenes Schiff limitiert ist oder die Aufwertung Diszipliniert hat, darfst du eine [Lock]- oder [Barrel Roll]-Aktion durchführen.',
+          es:
+            'Después de que otra nave aliada que tengas a alcance 0-3 sea destruida, si esa nave es limitada o tiene la mejora Disciplina férrea, puedes realizar una acción [Lock] o [Barrel Roll].',
+          fr:
+            "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration Discipliné, vous pouvez effectuer une action [Lock] ou [Barrel Roll].",
         },
         slots: ['Talent'],
         ffg: 915,
@@ -1157,11 +1190,22 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: { en: 'Hopeful' },
+        title: {
+          en: 'Hopeful',
+          de: 'Hoffnungsvoll',
+          es: 'Ánimo esperanzado',
+          fr: 'Optimiste',
+        },
         type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.',
+          de:
+            'Nachdem ein anderes befreundetes Schiff in Reichweite 0-3 zerstört worden ist, falls jenes Schiff limitiert ist oder die Aufwertung Hoffnungsvoll hat, darfst du eine [Focus]- oder [Boost]-Aktion durchführen.',
+          es:
+            'Después de que otra nave aliada que tengas a alcance 0-3 sea destruida, si esa nave es limitada o tiene la mejora Ánimo esperanzado, puedes realizar una acción [Focus] o [Boost].',
+          fr:
+            "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration Optimiste, vous pouvez effectuer une action [Focus] ou [Boost].",
         },
         slots: ['Talent'],
         ffg: 916,
@@ -1177,11 +1221,22 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: { en: 'Interloper Turn' },
+        title: {
+          en: 'Interloper Turn',
+          de: 'Knoten-Wende',
+          es: 'Giro de intruso',
+          fr: 'Virage Incongru',
+        },
         type: 'Talent',
         ability: {
           en:
             'Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token.',
+          de:
+            'Bevor du ein Wendemanöver ([Turn Left] oderr [Turn Right]) mit Geschwindigkeit 1-2 oder eine Koiogran-Wende ([Koiogran Turn]) mit Geschwindigkeit 1-2 ausführst, falls du in Reichweite 0-1 eines Asteroiden, eines Konstrukts oder eines riesigen Schiffes bist, darfst du 1 Fangstrahlmarker erhalten.',
+          es:
+            'Antes de que ejecutes una maniobra de giro ([Turn Left] o [Turn Right]) de velocidad 1-2 o de giro koiograno ([Koiogran Turn]) de velocidad 1-2, si estás a alcance 0-1 de un asteroide, estructura o nave enorme, puedes recibir 1 ficha de Campo de tracción.',
+          fr:
+            "Avant d'exécuter une manœuvre de virage ([Turn Left] ou [Turn Right]) à vitesse 1-2 ou un Virage Koiogran ([Koiogran Turn]) à vitesse 1-2, si vous êtes à portée 0-1 d'un astéroïde, d'une structure ou d'un vaisseau immense, vous pouvez gagner 1 marqueur de rayon tracteur.",
         },
         slots: ['Talent'],
         ffg: 917,
