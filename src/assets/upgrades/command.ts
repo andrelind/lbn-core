@@ -396,7 +396,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
   },
   {
-    xws: 'b6blasewingprototype',
+    xws: 'b6bladewingprototype',
     limited: 1,
     cost: { value: 200 },
     sides: [

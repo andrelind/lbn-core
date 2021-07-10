@@ -7,7 +7,7 @@ export type Action = {
   };
 };
 
-export type Language = 'de' | 'en' | 'es' | 'fr' | 'it' | 'pl' | 'pt' | 'zh';
+export type Language = 'de' | 'en' | 'es' | 'fr';
 
 export type Translation = {
   en: string;
