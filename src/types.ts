@@ -239,7 +239,13 @@ export type Stat = {
   recovers?: number;
 };
 
-export type StatType = 'agility' | 'attack' | 'hull' | 'shields' | 'energy';
+export type StatType =
+  | 'agility'
+  | 'attack'
+  | 'hull'
+  | 'shields'
+  | 'energy'
+  | 'charges';
 
 export type Squadron = {
   uid: string;

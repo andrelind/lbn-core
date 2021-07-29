@@ -18,6 +18,7 @@ const icons: { [s: string]: string } = {
   cannon: 'C',
   cargo: 'G',
   charge: 'g',
+  charges: 'g',
   cloak: 'k',
   command: 'V',
   'condition-outline': 'Æ',
@@ -178,14 +179,12 @@ const icons: { [s: string]: string } = {
   unique: 'u',
 };
 
-const named = (icon?: string) => {
+export const xwingIcons = (icon?: string) => {
   if (!icon) {
     return;
   }
   return icons[icon.toLowerCase()] || '0';
 };
-
-export default named;
 
 const shipMap: { [s: string]: string } = {
   aggressorassaultfighter: 'i',

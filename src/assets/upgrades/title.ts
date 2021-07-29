@@ -1493,10 +1493,8 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     restrictions: [
-      {
-        factions: ['Separatist Alliance'],
-        chassis: ['tridentclassassaultship'],
-      },
+      { factions: ['Separatist Alliance'] },
+      { chassis: ['tridentclassassaultship'] },
     ],
   },
   {
@@ -1520,10 +1518,8 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     restrictions: [
-      {
-        factions: ['Separatist Alliance'],
-        chassis: ['tridentclassassaultship'],
-      },
+      { factions: ['Separatist Alliance'] },
+      { chassis: ['tridentclassassaultship'] },
     ],
   },
 ];
