@@ -56,15 +56,15 @@ const validatePilot = (pilot: any): Object | void => {
     // YASB...
     if (slotKeys.indexOf(key) < 0) {
       // No unknown keys please
-      console.log(`Unknown key ${key}`);
+      // console.log(`Unknown key ${key}`);
       return undefined;
     }
     if (upgradeData[key] === undefined) {
-      console.log(`Unknown key ${key}`);
+      // console.log(`Unknown key ${key}`);
       return undefined;
     }
     if (!Array.isArray(upgrades[key])) {
-      console.log(`Not an array ${key}`);
+      // console.log(`Not an array ${key}`);
       return undefined;
     }
 
@@ -86,9 +86,9 @@ const validatePilot = (pilot: any): Object | void => {
 };
 
 const validatePilots = (list: Array<any>): Array<any> | void => {
-  console.log(list);
+  // console.log(list);
   if (!Array.isArray(list)) {
-    console.log(`Not an array - ${typeof list}`);
+    // console.log(`Not an array - ${typeof list}`);
     return undefined;
   }
 
@@ -185,7 +185,7 @@ export const getFaction = (faction: string): Faction => {
   }
 };
 
-type ExportXWS = {
+export type ExportXWS = {
   name: string;
   description: string;
   faction: FactionKey;
@@ -314,7 +314,7 @@ export const importFromQR = (data: any, skipParse: boolean = false) => {
     validatedJson.faction = getFaction(json.faction);
     validatedJson.ships = validatedJson.ships || [];
     validatedJson.format = validatedJson.format || 'Hyperspace';
-    console.log('validatedJson', validatedJson);
+    // console.log('validatedJson', validatedJson);
     return validatedJson;
   } catch (error) {
     console.log(error);
@@ -323,7 +323,7 @@ export const importFromQR = (data: any, skipParse: boolean = false) => {
 };
 
 export const convertFromFFG = (ffgSquad: any) => {
-  console.log(ffgSquad);
+  // console.log(ffgSquad);
   const {
     faction,
     // id = '',
@@ -358,7 +358,7 @@ export const convertFromFFG = (ffgSquad: any) => {
         ({ upgrade_types, id: upgradeId, name: upgradeName = '' }) => {
           const slotId = upgrade_types[0];
           let slot = xwsMap.slots[`${slotId}`];
-          console.log({ slot });
+          // console.log({ slot });
           if (!slot) {
             throw new Error(
               `Unknown slot with ID "${slotId}" for upgrade "${upgradeName}"`
@@ -414,6 +414,6 @@ export const convertFromFFG = (ffgSquad: any) => {
     version: '2.0.0',
   };
 
-  console.log(xws);
+  // console.log(xws);
   return xws;
 };

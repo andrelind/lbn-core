@@ -81,3 +81,24 @@ export const slotKeys: SlotKey[] = [
   'torpedo',
   'turret',
 ];
+
+export const obstacles: string[] = [
+  'obstacle-core2asteroid0',
+  'obstacle-core2asteroid1',
+  'obstacle-core2asteroid2',
+  'obstacle-core2asteroid3',
+  'obstacle-core2asteroid4',
+  'obstacle-core2asteroid5',
+  'obstacle-vt49decimatordebris0',
+  'obstacle-vt49decimatordebris1',
+  'obstacle-vt49decimatordebris2',
+  'obstacle-yt2400debris0',
+  'obstacle-yt2400debris1',
+  'obstacle-yt2400debris2',
+  'obstacle-gascloud1',
+  'obstacle-gascloud2',
+  'obstacle-gascloud3',
+  'obstacle-gascloud4',
+  'obstacle-gascloud5',
+  'obstacle-gascloud6',
+];
