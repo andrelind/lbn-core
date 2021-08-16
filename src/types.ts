@@ -90,6 +90,7 @@ export type Pilot = {
   caption?: Translation;
   xws: string;
   cost: number;
+  predictedCost?: number;
   initiative: number;
   limited: number;
   ability?: Translation;

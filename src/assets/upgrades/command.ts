@@ -637,57 +637,6 @@ const t: UpgradeBase[] = [
     epic: true,
   },
   {
-    xws: 'bounty',
-    sides: [
-      {
-        ffg: 904,
-        title: {
-          en: 'Bounty (Paid)',
-          de: 'Kopfgeld (Ausbezahlt)',
-          es: 'Recompensa (pagada)',
-          fr: 'Prime (Payée)',
-        },
-        type: 'Command',
-        slots: [],
-        text: {
-          en:
-            'Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.',
-          de:
-            'Die Kopfgeldjagd ist ein kompliziertes Berufsfeld. Jeder Auftragsmörder kann töten, doch die besten Jäger sind für ihre Fähigkeit bekannt, eine Zielperson lebendig zu überbringen. Das ist zwar schwieriger, jedoch ist die Belohnung dafür umso höher.',
-          es:
-            'La del cazarrecompensas es una profesión complicada. Cualquier asesino puede matar, pero los mejores cazadores son famosos por su habilidad para traer a las presas con vida, ya que eso resulta mucho más difícil, pero siempre proporciona una recompensa mucho más sustanciosa.',
-          fr:
-            "Chasseur de primes est une profession compliquée. N'importe quel assassin peut tuer, mais les meilleurs chasseurs sont reconnus pour leur capacité à capturer leurs cibles vivantes, ce qui est bien plus ardu, mais rapporte beaucoup plus !",
-        },
-      },
-      {
-        ffg: 905,
-        title: {
-          en: 'Bounty (Hired)',
-          de: 'Kopfgeld (Ausgesetzt)',
-          es: 'Recompensa (ofrecida)',
-          fr: 'Prime (Recruté)',
-        },
-        type: 'Command',
-        slots: [],
-        ability: {
-          en:
-            'Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.',
-          de:
-            'Aufbau: Rüste diese Seite offen aus. Du kannst in Staffeln der Separatisten, des Imperiums und der Ersten Ordnung aufgenommen werden. Nachdem du einen Angriff durchgeführt hast, falls der Verteidiger zerstört worden ist und ein limitiertes Schiff war, darfst du 1 [Charge] auf deiner Schiffskarte und jeder deiner Aufwertungskarten wiederherstellen. Dann drehe diese Karte um.',
-          es:
-            'Preparación: Equipa esta carta con este lado boca arriba. Puedes ser incluido en escuadrones Separatistas, Imperiales y de la Primera Orden. Después de que efectúes un ataque, si el defensor era una nave limitada y ha sido destruido, puedes recuperar 1 [Charge] sobre tu carta de Nave y cada una de tus cartas de Mejora. Luego dale la vuelta a esta carta.',
-          fr:
-            "Mise en Place : à équiper avec cette face visible. Vous pouvez être intégré à des escadrons Séparatistes, Impériaux et du Premier Ordre. Après que vous avez effectué une attaque, si le défenseur était un vaisseau limité et a été détruit, vous pouvez récupérer 1 [Charge] sur votre carte de vaisseau et chacune de vos cartes d'amélioration. Puis retournez cette carte.",
-        },
-      },
-    ],
-    cost: { value: 5 },
-    limited: 0,
-    hyperspace: false,
-    epic: true,
-  },
-  {
     limited: 1,
     xws: 'b6bladewingprototype-command',
     hyperspace: false,

@@ -1,10 +1,10 @@
-import pilotData from '../src/assets/pilots';
-import upgradeData from '../src/assets/upgrades';
-import { Faction, ShipType, SlotKey } from '../src/types';
-import { canImportXws, ExportXWS } from '../src/helpers/import+export';
-import { loadSquadron } from '../src/helpers/unit';
+import pilotData from '../../src/assets/pilots';
+import upgradeData from '../../src/assets/upgrades';
+import { Faction, ShipType, SlotKey } from '../../src/types';
+import { canImportXws, ExportXWS } from '../../src/helpers/import+export';
+import { loadSquadron } from '../../src/helpers/unit';
 import fetch from 'node-fetch';
-import { factionKeys } from '../src/helpers/enums';
+import { factionKeys } from '../../src/helpers/enums';
 import ora from 'ora';
 
 export interface Participant {

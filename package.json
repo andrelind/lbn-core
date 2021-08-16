@@ -1,6 +1,6 @@
 {
   "name": "lbn-core",
-  "version": "1.0.87",
+  "version": "1.0.90",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -12,11 +12,15 @@
     "update:sirjorj": "ts-node ./scripts/sirjorj/merge.ts"
   },
   "devDependencies": {
+    "@types/async-csv": "^2.1.1",
+    "@types/exceljs": "^1.3.0",
     "@types/node": "^14.14.10",
     "@types/node-fetch": "^2.5.8",
     "@types/prettier": "^2.2.0",
     "@types/uuid": "^8.3.0",
+    "async-csv": "^2.1.3",
     "csv-writer": "^1.6.0",
+    "exceljs": "^4.2.1",
     "node-fetch": "^2.6.1",
     "ora": "^5.4.1",
     "prettier": "^2.2.1",

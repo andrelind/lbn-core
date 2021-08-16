@@ -6,3 +6,6 @@ scripts/ffg/en
 scripts/ffg/de
 scripts/ffg/es
 scripts/ffg/fr
+*.csv
+*.xlsx
+lightning_logs/
