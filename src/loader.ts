@@ -336,6 +336,12 @@ export const upgradesForSlot = (
           ) {
             found = true;
           }
+        } else if (res.keywords) {
+          res.keywords.forEach((keyword) => {
+            if (ship?.pilot?.keywords?.includes(keyword)) {
+              found = true;
+            }
+          });
         }
 
         if (res.character) {

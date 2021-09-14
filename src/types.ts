@@ -127,6 +127,7 @@ export type Restrictions = {
   equipped?: Slot[];
   factions?: Faction[];
   sides?: Side[];
+  keywords?: string[];
   solitary?: boolean;
   initiative?: { min?: number; max?: number };
   stat?: { type: StatType; value: number };
