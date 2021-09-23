@@ -9,7 +9,10 @@ import * as ExcelJS from 'exceljs';
 import csv from 'async-csv';
 
 const run = async () => {
-  const csvString = await fsPromises.readFile('./pilots_results.csv', 'utf-8');
+  const csvString = await fsPromises.readFile(
+    './scripts/ML/pilots_results.csv',
+    'utf-8'
+  );
   const rows = await csv.parse(csvString);
 
   const wb = new ExcelJS.Workbook();
@@ -53,7 +56,7 @@ const run = async () => {
         });
 
         const header =
-          'import  {ShipType} from "../../../../types";\n\nconst t: ShipType = ';
+          'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
         try {
           const formatted = prettier.format(
             `${header}${JSON.stringify(ship)};\n\nexport default t;`,

@@ -77,6 +77,7 @@ const t: ShipType = {
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 34,
       ffg: 791,
+      keywords: ['TIE'],
     },
     {
       xws: 'oddball-nimbusclassvwing',
@@ -99,7 +100,7 @@ const t: ShipType = {
         fr:
           "Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], vous pouvez verrouiller ce vaisseau.",
       },
-      keywords: ['Clone'],
+      keywords: ['Clone', 'TIE'],
     },
     {
       name: { en: '"Contrail"', de: '„Contrail"' },
@@ -122,7 +123,7 @@ const t: ShipType = {
       cost: 33,
       epic: true,
       ffg: 789,
-      keywords: ['Clone'],
+      keywords: ['Clone', 'TIE'],
     },
     {
       name: { en: '"Klick"', de: '„Klick"' },
@@ -145,7 +146,7 @@ const t: ShipType = {
       cost: 32,
       epic: true,
       ffg: 790,
-      keywords: ['Clone'],
+      keywords: ['Clone', 'TIE'],
     },
     {
       name: {
@@ -172,7 +173,7 @@ const t: ShipType = {
       cost: 29,
       epic: true,
       ffg: 792,
-      keywords: ['Clone'],
+      keywords: ['Clone', 'TIE'],
     },
     {
       name: {
@@ -199,6 +200,7 @@ const t: ShipType = {
       cost: 27,
       epic: true,
       ffg: 793,
+      keywords: ['TIE'],
     },
   ],
   ffg: 71,

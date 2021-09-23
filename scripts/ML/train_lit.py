@@ -11,13 +11,13 @@ import pytorch_lightning as pl
 import csv
 
 
-num_epochs = 1000
+num_epochs = 500
 input_size = 187
 h1_size = 100
 h2_size = 50
-h3_size = 50
+h3_size = 25
 num_classes = 1
-batch_size = 64
+batch_size = 32
 learning_rate = 0.0001
 
 
@@ -41,6 +41,7 @@ class LitAutoEncoder(pl.LightningModule):
         self.encoder = nn.Sequential(
             nn.Linear(input_size, h1_size),
             nn.Linear(h1_size, h2_size),
+            # nn.ReLU(),
             nn.Linear(h2_size, h3_size),
             nn.Linear(h3_size, num_classes))
         self.decoder = nn.Sequential(
@@ -83,11 +84,14 @@ raw = np.loadtxt('./scripts/ML/pilots.csv', delimiter=",",
 xx = raw[:, 1:]
 yy = raw[:, [0]]
 
-x_train = xx[:400]
-x_val = xx[401:]
-
-y_train = yy[:400]
-y_val = yy[401:]
+# x_train = xx[:458]
+# y_train = yy[:458]
+# x_val = xx[459:]
+# y_val = yy[459:]
+x_train = xx[:420]
+y_train = yy[:420]
+x_val = xx[421:]
+y_val = yy[421:]
 
 train_dataset = XWingDataset(x_train, y_train)
 val_dataset = XWingDataset(x_val, y_val)

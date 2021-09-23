@@ -126,13 +126,8 @@ const run = async () => {
             }
           });
 
-          pilot.slots.forEach((slot) => {
-            row[all.indexOf(slot)] += 1;
-          });
-
-          ship.dial.forEach((m) => {
-            row[all.indexOf(m)] = 1;
-          });
+          pilot.slots.forEach((slot) => (row[all.indexOf(slot)] += 1));
+          ship.dial.forEach((m) => (row[all.indexOf(m)] = 1));
 
           rows.push(row);
         });
@@ -147,13 +142,13 @@ const run = async () => {
     }
   }
 
-  const shuffle = (array: any[]) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  };
+  // const shuffle = (array: any[]) => {
+  //   for (let i = array.length - 1; i > 0; i--) {
+  //     const j = Math.floor(Math.random() * (i + 1));
+  //     [array[i], array[j]] = [array[j], array[i]];
+  //   }
+  //   return array;
+  // };
 
   const originals = createCsvWriter({
     header: all,
@@ -165,7 +160,8 @@ const run = async () => {
     header: all,
     path: './scripts/ML/pilots.csv',
   });
-  await inputs.writeRecords(shuffle(rows));
+  await inputs.writeRecords(rows);
+  // await inputs.writeRecords(shuffle(rows));
 };
 
 run();
