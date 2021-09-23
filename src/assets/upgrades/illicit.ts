@@ -30,7 +30,7 @@ const t: UpgradeBase[] = [
         ffg: 286,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     hyperspace: false,
     epic: true,
@@ -360,7 +360,7 @@ const t: UpgradeBase[] = [
         ffg: 877,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 3 },
   },
 ];
 

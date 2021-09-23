@@ -298,7 +298,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['vultureclassdroidfighter'] }],
     hyperspace: true,
     epic: true,
-    cost: { value: 1 },
+    cost: { value: 0 },
   },
   {
     limited: 0,
@@ -328,7 +328,7 @@ const t: UpgradeBase[] = [
     ],
     cost: {
       variable: 'initiative',
-      values: { '0': 4, '1': 4, '2': 8, '3': 12, '4': 16, '5': 20, '6': 24 },
+      values: { '0': 6, '1': 6, '2': 10, '3': 14, '4': 17, '5': 20, '6': 24 },
     },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
     hyperspace: true,
@@ -362,7 +362,7 @@ const t: UpgradeBase[] = [
     ],
     cost: {
       variable: 'initiative',
-      values: { '0': -1, '1': 0, '2': 1, '3': 2, '4': 3, '5': 4, '6': 5 },
+      values: { '0': 2, '1': 2, '2': 3, '3': 4, '4': 5, '5': 6, '6': 7 },
     },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
     hyperspace: true,
@@ -418,7 +418,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['hyenaclassdroidbomber'] }],
     hyperspace: true,
     epic: true,
-    cost: { value: 1 },
+    cost: { value: 0 },
   },
   {
     limited: 2,
@@ -529,12 +529,12 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['asf01bwing'] }],
     hyperspace: true,
     epic: true,
-    cost: { value: 2 },
+    cost: { value: 0 },
   },
   {
     xws: 'alpha3bbesh',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 1 },
     sides: [
       {
         title: {
@@ -628,7 +628,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'maneuverassistmgk300',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 0 },
     sides: [
       {
         title: {
@@ -670,7 +670,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'targetassistmgk300',
     limited: 0,
-    cost: { value: 3 },
+    cost: { value: 1 },
     sides: [
       {
         title: {
@@ -753,7 +753,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 0 },
     limited: 0,
     hyperspace: true,
     epic: true,
@@ -787,13 +787,13 @@ const t: UpgradeBase[] = [
         ffg: 871,
       },
     ],
-    cost: { value: 1 },
+    cost: { value: 0 },
     restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
     xws: 'sensitivecontrols',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 0 },
     sides: [
       {
         title: {
@@ -825,7 +825,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'tiedefenderelite',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 0 },
     sides: [
       {
         title: {
@@ -857,7 +857,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'vectoredcannonsrz1',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         title: {

@@ -124,7 +124,7 @@ const t: ShipType = {
         es:
           'Mientras tengas 2 o menos fichas de Tensión, si estás dañado, eres capaz de ejecutar maniobras básicas rojas incluso aunque estés bajo tensión; si estás dañado críticamente, eres capaz de ejecutar maniobras avanzadas rojas incluso aunque estés bajo tensión.',
       },
-      cost: 32,
+      cost: 31,
       slots: [
         'Talent',
         'Missile',
@@ -159,7 +159,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque principal, si la Iniciativa de la nave enemiga es mayor que la cantidad de cartas de Daño que tienes, puedes tirar 1 dado adicional.',
       },
-      cost: 39,
+      cost: 38,
       slots: [
         'Talent',
         'Missile',
@@ -195,7 +195,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Barrel Roll' },
         { difficulty: 'White', type: 'SLAM' },
       ],
-      cost: 28,
+      cost: 27,
       slots: [
         'Missile',
         'Crew',

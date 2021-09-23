@@ -36,7 +36,7 @@ const t: UpgradeBase[] = [
         ffg: 256,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 4 },
     hyperspace: false,
     epic: true,
   },
@@ -191,14 +191,14 @@ const t: UpgradeBase[] = [
         ffg: 578,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 4 },
     hyperspace: false,
     epic: true,
   },
   {
     xws: 'underslungblastercannon',
     limited: 0,
-    cost: { value: 3 },
+    cost: { value: 2 },
     sides: [
       {
         title: {
@@ -242,7 +242,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'syncedlasercannons',
     limited: 0,
-    cost: { value: 6 },
+    cost: { value: 7 },
     sides: [
       {
         title: {

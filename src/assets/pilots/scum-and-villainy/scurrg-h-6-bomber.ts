@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 47,
+      cost: 45,
       xws: 'captainnym',
       ability: {
         en:
@@ -90,7 +90,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 45,
+      cost: 43,
       xws: 'lokrevenant',
       text: {
         en:
@@ -126,7 +126,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 46,
+      cost: 44,
       xws: 'solsixxa',
       ability: {
         en:

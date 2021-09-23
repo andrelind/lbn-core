@@ -61,7 +61,7 @@ const t: ShipType = {
         fr: 'Intelligence Adaptative',
         es: 'Intelecto adaptativo',
       },
-      cost: 35,
+      cost: 38,
       initiative: 1,
       limited: 1,
       ability: {
@@ -96,7 +96,7 @@ const t: ShipType = {
         fr: 'Drone Baktoid',
         es: 'Dron baktoide',
       },
-      cost: 34,
+      cost: 37,
       initiative: 1,
       limited: 0,
       slots: [
@@ -137,7 +137,7 @@ const t: ShipType = {
         fr: 'Protocoles de Dévastation',
         es: 'Protocolos de devastación',
       },
-      cost: 35,
+      cost: 38,
       initiative: 2,
       limited: 2,
       ability: {
@@ -173,7 +173,7 @@ const t: ShipType = {
         fr: "Protocoles d'Embuscade",
         es: 'Protocolos de emboscada',
       },
-      cost: 42,
+      cost: 39,
       initiative: 3,
       limited: 1,
       ability: {
@@ -272,7 +272,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      cost: 36,
+      cost: 38,
       ffg: 667,
       keywords: ['Droid'],
     },

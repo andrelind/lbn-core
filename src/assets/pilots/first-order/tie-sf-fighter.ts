@@ -103,7 +103,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 47,
+      cost: 4,
       xws: 'quickdraw',
       ability: {
         en:
@@ -134,7 +134,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 38,
+      cost: 36,
       xws: 'backdraft',
       ability: {
         en:
@@ -163,7 +163,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 34,
+      cost: 33,
       xws: 'omegasquadronexpert',
       text: {
         en:
@@ -250,7 +250,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 38,
+      cost: 34,
       xws: 'captainphasma',
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
       artwork:

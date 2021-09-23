@@ -85,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 35,
+      cost: 34,
       xws: 'evaanverlaine',
       ability: {
         en:
@@ -122,7 +122,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 32,
+      cost: 31,
       xws: 'goldsquadronveteran',
       text: {
         en:
@@ -166,7 +166,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 30,
+      cost: 29,
       xws: 'graysquadronbomber',
       text: {
         en:
@@ -198,7 +198,7 @@ const t: ShipType = {
       caption: { en: 'Gray Leader', de: 'Grau Eins', es: 'Jefe Gris' },
       initiative: 4,
       limited: 1,
-      cost: 37,
+      cost: 36,
       xws: 'hortonsalm',
       ability: {
         en:
@@ -236,7 +236,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 41,
+      cost: 40,
       xws: 'norrawexley-btla4ywing',
       ability: {
         en:

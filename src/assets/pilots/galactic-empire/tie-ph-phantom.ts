@@ -172,7 +172,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 48,
+      cost: 49,
       xws: 'sigmasquadronace',
       text: {
         en:

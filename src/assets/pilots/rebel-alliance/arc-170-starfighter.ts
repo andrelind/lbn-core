@@ -83,7 +83,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 46,
+      cost: 45,
       xws: 'ibtisam',
       ability: {
         en:
@@ -119,7 +119,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 55,
+      cost: 53,
       xws: 'norrawexley',
       ability: {
         en:

@@ -96,7 +96,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 20,
+      cost: 21,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 498,
       artwork:
@@ -131,7 +131,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 23,
+      cost: 24,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 500,
       artwork:
@@ -166,7 +166,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 21,
+      cost: 22,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 502,
       artwork:
@@ -196,7 +196,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 26,
+      cost: 23,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 499,
       artwork:
@@ -225,7 +225,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 22,
+      cost: 21,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 497,
       artwork:

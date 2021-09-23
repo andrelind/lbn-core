@@ -78,7 +78,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-3', es: 'Espectro-3' },
       initiative: 2,
       limited: 1,
-      cost: 67,
+      cost: 66,
       xws: 'chopper',
       ability: {
         en:
@@ -117,7 +117,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-2', es: 'Espectro-2' },
       initiative: 5,
       limited: 1,
-      cost: 72,
+      cost: 69,
       xws: 'herasyndulla-vcx100lightfreighter',
       ability: {
         en:
@@ -152,7 +152,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-1', es: 'Espectro-1' },
       initiative: 3,
       limited: 1,
-      cost: 76,
+      cost: 73,
       xws: 'kananjarrus',
       ability: {
         en:
@@ -192,7 +192,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 67,
+      cost: 68,
       xws: 'lothalrebel',
       text: {
         en:

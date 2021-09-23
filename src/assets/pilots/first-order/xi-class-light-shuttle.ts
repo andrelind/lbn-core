@@ -44,7 +44,7 @@ const t: ShipType = {
       xws: 'agentterex',
       ffg: 658,
       name: { en: 'Agent Terex', es: 'Agente Terex' },
-      cost: 42,
+      cost: 38,
       limited: 1,
       initiative: 3,
       caption: {
@@ -85,7 +85,7 @@ const t: ShipType = {
         fr: 'Commandant Malarus',
         es: 'Comandante Malarus',
       },
-      cost: 45,
+      cost: 44,
       limited: 1,
       initiative: 5,
       caption: {
@@ -117,7 +117,7 @@ const t: ShipType = {
         fr: 'Messager du Premier Ordre',
         es: 'Mensajero de la Primera Orden',
       },
-      cost: 38,
+      cost: 35,
       limited: 0,
       initiative: 2,
       slots: ['Crew', 'Crew', 'Modification', 'Tech', 'Tech'],

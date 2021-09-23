@@ -86,7 +86,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 42,
+      cost: 40,
       xws: 'lulolampar',
       ability: {
         en:
@@ -315,7 +315,7 @@ const t: ShipType = {
         es: 'Osado señuelo',
         fr: 'Perturbateur Casse-Cou',
       },
-      cost: 32,
+      cost: 33,
       initiative: 1,
       limited: 1,
       ability: {

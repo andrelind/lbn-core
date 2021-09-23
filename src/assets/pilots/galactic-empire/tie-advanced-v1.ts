@@ -64,7 +64,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 28,
+      cost: 31,
       xws: 'baronoftheempire',
       text: {
         en:
@@ -124,7 +124,7 @@ const t: ShipType = {
       name: { en: 'Inquisitor', fr: 'Inquisiteur', es: 'Inquisidor' },
       initiative: 3,
       limited: 0,
-      cost: 36,
+      cost: 39,
       xws: 'inquisitor',
       text: {
         en:
@@ -196,7 +196,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 42,
+      cost: 44,
       xws: 'fifthbrother',
       ability: {
         en:

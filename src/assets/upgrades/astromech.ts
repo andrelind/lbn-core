@@ -445,7 +445,7 @@ const t: UpgradeBase[] = [
         ffg: 481,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Resistance'] }],
     hyperspace: false,
     epic: true,
@@ -559,7 +559,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Galactic Republic'] }],
     hyperspace: false,
     epic: true,
-    cost: { value: 5 },
+    cost: { value: 3 },
   },
   {
     limited: 1,
@@ -770,7 +770,7 @@ const t: UpgradeBase[] = [
         ffg: 863,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {

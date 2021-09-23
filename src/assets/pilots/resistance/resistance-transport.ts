@@ -110,7 +110,7 @@ const t: ShipType = {
         'Modification',
         'Tech',
       ],
-      cost: 34,
+      cost: 35,
       ffg: 570,
     },
     {
@@ -139,7 +139,7 @@ const t: ShipType = {
         'Modification',
         'Tech',
       ],
-      cost: 35,
+      cost: 37,
       ffg: 571,
       caption: {
         en: 'Insubordinate Insurgent',
@@ -179,7 +179,7 @@ const t: ShipType = {
         'Modification',
         'Tech',
       ],
-      cost: 32,
+      cost: 34,
       ffg: 572,
     },
   ],

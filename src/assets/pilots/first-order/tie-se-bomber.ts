@@ -55,7 +55,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       hyperspace: false,
-      cost: 0,
+      cost: 36,
       slots: [
         'Talent',
         'Tech',
@@ -81,7 +81,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       hyperspace: false,
-      cost: 0,
+      cost: 35,
       slots: [
         'Talent',
         'Tech',
@@ -108,7 +108,7 @@ const t: ShipType = {
       initiative: 2,
       limited: 1,
       hyperspace: false,
-      cost: 0,
+      cost: 36,
       slots: [
         'Talent',
         'Tech',
@@ -135,7 +135,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 0,
       hyperspace: false,
-      cost: 0,
+      cost: 32,
       slots: [
         'Talent',
         'Tech',
@@ -145,6 +145,47 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
+      text: {
+        en:
+          'The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.',
+      },
+      ffg: -999,
+      artwork: '???',
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: { en: 'Dread' },
+      xws: 'dread',
+      initiative: 3,
+      limited: 0,
+      hyperspace: false,
+      cost: 32,
+      slots: [
+        'Talent',
+        'Tech',
+        'Torpedo',
+        'Missile',
+        'Gunner',
+        'Device',
+        'Modification',
+      ],
+      text: {
+        en: '???',
+      },
+      ffg: -999,
+      artwork: '???',
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: { en: 'Sienar-Jaemus Test Pilot' },
+      xws: 'sienarjaemustestpilot',
+      initiative: 3,
+      limited: 0,
+      hyperspace: false,
+      cost: 31,
+      slots: ['Tech', 'Torpedo', 'Missile', 'Gunner', 'Device', 'Modification'],
       text: {
         en:
           'The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.',

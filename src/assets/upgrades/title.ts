@@ -57,7 +57,7 @@ const t: UpgradeBase[] = [
         grants: [{ action: { type: 'SLAM', difficulty: 'White' }, value: 1 }],
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 4 },
     restrictions: [{ factions: ['Resistance'] }, { chassis: ['t70xwing'] }],
     hyperspace: true,
     epic: true,
@@ -411,7 +411,7 @@ const t: UpgradeBase[] = [
         ffg: 329,
       },
     ],
-    cost: { value: 14 },
+    cost: { value: 6 },
     restrictions: [
       { factions: ['Rebel Alliance'] },
       { chassis: ['yt2400lightfreighter'] },
@@ -508,7 +508,7 @@ const t: UpgradeBase[] = [
         ffg: 391,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [
       { factions: ['Galactic Empire'] },
       { chassis: ['lambdaclasst4ashuttle'] },
@@ -706,7 +706,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    cost: { value: 4 },
+    cost: { value: 3 },
   },
   {
     limited: 1,
@@ -1368,7 +1368,7 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
     restrictions: [{ factions: ['Resistance'] }, { chassis: ['fireball'] }],
-    cost: { value: 2 },
+    cost: { value: 1 },
   },
   {
     limited: 1,
@@ -1403,7 +1403,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'b6bladewingprototype',
     limited: 1,
-    cost: { value: 2 },
+    cost: { value: 1 },
     sides: [
       {
         title: {

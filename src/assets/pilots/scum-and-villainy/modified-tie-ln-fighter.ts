@@ -73,7 +73,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 30,
+      cost: 28,
       xws: 'ahhav',
       ability: {
         en:
@@ -143,7 +143,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 32,
+      cost: 29,
       xws: 'foremanproach',
       ability: {
         en:
@@ -206,7 +206,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 26,
+      cost: 24,
       xws: 'overseeryushyn',
       ability: {
         en:

@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 30,
+      cost: 29,
       xws: 'crymorahgoon',
       text: {
         en:
@@ -127,7 +127,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 32,
+      cost: 31,
       xws: 'hiredgun',
       text: {
         en:
@@ -166,7 +166,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 43,
+      cost: 41,
       xws: 'kavil',
       ability: {
         en:
@@ -204,7 +204,7 @@ const t: ShipType = {
         es: 'Cuando surge la oportunidad',
         fr: 'Frappe Opportuniste',
       },
-      cost: 40,
+      cost: 39,
       initiative: 5,
       limited: 1,
       ability: {
@@ -240,7 +240,7 @@ const t: ShipType = {
         es: 'Espada Carmesí',
         fr: 'Lame Pourpre',
       },
-      cost: 39,
+      cost: 38,
       initiative: 4,
       limited: 1,
       ability: {
@@ -346,7 +346,7 @@ const t: ShipType = {
         es: 'Agente de Seguridad Jinata',
         fr: 'Officier de la Sécurité Jinata',
       },
-      cost: 31,
+      cost: 30,
       initiative: 2,
       limited: 0,
       slots: ['Turret', 'Torpedo', 'Astromech', 'Device', 'Gunner', 'Tech'],

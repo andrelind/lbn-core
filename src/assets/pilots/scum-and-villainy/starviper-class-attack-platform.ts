@@ -91,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 48,
+      cost: 49,
       xws: 'blacksunassassin',
       text: {
         en:
@@ -148,7 +148,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 54,
+      cost: 51,
       xws: 'dalanoberos-starviperclassattackplatform',
       ability: {
         en:
@@ -178,7 +178,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 64,
+      cost: 51,
       xws: 'guri',
       ability: {
         en:

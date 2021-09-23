@@ -178,7 +178,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 48,
+      cost: 49,
       xws: 'tennumb',
       ability: {
         en:
@@ -217,7 +217,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 50,
+      cost: 45,
       xws: 'ginamoonsong',
       ability: {
         en:
@@ -253,7 +253,7 @@ const t: ShipType = {
         es: 'Jefe Fénix',
         fr: 'Leader Phoenix',
       },
-      cost: 55,
+      cost: 48,
       initiative: 6,
       limited: 1,
       ability: {
@@ -290,7 +290,7 @@ const t: ShipType = {
         es: 'Jefe Daga',
         fr: 'Leader Dague',
       },
-      cost: 46,
+      cost: 43,
       initiative: 3,
       limited: 1,
       ability: {

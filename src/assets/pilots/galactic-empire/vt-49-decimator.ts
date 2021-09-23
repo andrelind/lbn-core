@@ -59,7 +59,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 74,
+      cost: 71,
       xws: 'captainoicunn',
       ability: {
         en: 'You can perform primary attacks at range 0.',
@@ -136,7 +136,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 76,
+      cost: 75,
       xws: 'rearadmiralchiraneau',
       ability: {
         en:
@@ -175,7 +175,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 75,
+      cost: 73,
       xws: 'mornakee',
       ability: {
         en:

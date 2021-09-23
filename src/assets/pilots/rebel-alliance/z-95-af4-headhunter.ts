@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 36,
+      cost: 35,
       xws: 'airencracken',
       ability: {
         en:
@@ -109,7 +109,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 30,
+      cost: 29,
       xws: 'lieutenantblount',
       ability: {
         en:
@@ -137,7 +137,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 24,
+      cost: 23,
       xws: 'talasquadronpilot',
       text: {
         en:

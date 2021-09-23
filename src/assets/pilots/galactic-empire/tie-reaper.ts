@@ -79,7 +79,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 45,
+      cost: 42,
       xws: 'vizier',
       ability: {
         en:

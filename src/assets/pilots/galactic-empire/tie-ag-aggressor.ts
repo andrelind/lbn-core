@@ -91,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 30,
+      cost: 29,
       xws: 'lieutenantkestal',
       ability: {
         en:

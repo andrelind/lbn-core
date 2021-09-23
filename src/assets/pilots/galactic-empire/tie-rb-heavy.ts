@@ -96,7 +96,7 @@ const t: ShipType = {
         fr: "Sentinelle de l'Escadron Onyx",
       },
       cost: 36,
-      initiative: 3,
+      initiative: 5,
       limited: 0,
       slots: [
         'Talent',
@@ -130,7 +130,7 @@ const t: ShipType = {
         es: 'Perseguidor implacable',
         fr: 'Poursuivant Implacable',
       },
-      cost: 39,
+      cost: 38,
       initiative: 4,
       limited: 1,
       ability: {
@@ -181,7 +181,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      cost: 37,
+      cost: 36,
       ffg: 694,
       keywords: ['TIE'],
     },

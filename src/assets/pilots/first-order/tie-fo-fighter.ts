@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 42,
+      cost: 35,
       xws: 'midnight',
       ability: {
         en:
@@ -84,7 +84,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 38,
+      cost: 33,
       xws: 'commandermalarus',
       ability: {
         en:
@@ -145,7 +145,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 33,
+      cost: 31,
       xws: 'static',
       ability: {
         en:
@@ -170,7 +170,7 @@ const t: ShipType = {
       caption: { en: 'Zeta Ace', de: 'Ass Zeta', fr: 'As Zeta', es: 'As Zeta' },
       initiative: 3,
       limited: 1,
-      cost: 31,
+      cost: 30,
       xws: 'longshot',
       ability: {
         en:
@@ -199,7 +199,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 28,
+      cost: 29,
       xws: 'omegasquadronace',
       text: {
         en:
@@ -288,7 +288,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 26,
+      cost: 27,
       xws: 'zetasquadronpilot',
       text: {
         en:
@@ -317,7 +317,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 25,
+      cost: 26,
       xws: 'epsilonsquadroncadet',
       text: {
         en:
@@ -347,7 +347,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 27,
+      cost: 28,
       xws: 'lieutenantrivas',
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/66f969d008fc995bd940bf1ab647109f.jpg',

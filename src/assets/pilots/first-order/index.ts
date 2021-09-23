@@ -7,6 +7,8 @@ import tiesffighter from './tie-sf-fighter';
 import tievnsilencer from './tie-vn-silencer';
 import upsilonclassshuttle from './upsilon-class-shuttle';
 import xiclasslightshuttle from './xi-class-light-shuttle';
+import tiesebomber from './tie-se-bomber';
+import tiewiwhispermodifiedinterceptor from './tie-wi-whisper-modified-interceptor';
 
 const ships: { [s: string]: ShipType } = {
   gozanticlasscruiser,
@@ -17,6 +19,8 @@ const ships: { [s: string]: ShipType } = {
   upsilonclassshuttle,
   tiebainterceptor,
   xiclasslightshuttle,
+  tiesebomber,
+  tiewiwhispermodifiedinterceptor,
 };
 
 export default ships;

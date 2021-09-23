@@ -98,7 +98,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, puedes volver a tirar hasta 1 de tus dados por cada otra nave aliada situada en el arco de ataque.',
       },
       slots: ['Talent', 'Crew', 'Modification', 'Tech'],
-      cost: 25,
+      cost: 28,
       ffg: 574,
     },
     {
@@ -142,7 +142,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, puedes añadir 1 resultado de cara vacía, o puedes recibir 1 ficha de Sobresfuerzo para añadir 1 resultado de Concentración en vez de uno de cara vacía.',
       },
       slots: ['Talent', 'Crew', 'Modification', 'Tech'],
-      cost: 30,
+      cost: 32,
       ffg: 575,
       caption: {
         en: 'Big Deal',

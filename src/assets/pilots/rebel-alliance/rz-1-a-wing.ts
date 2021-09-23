@@ -194,7 +194,7 @@ const t: ShipType = {
         es: 'Jefe Fénix',
         fr: 'Leader Phoenix',
       },
-      cost: 42,
+      cost: 48,
       initiative: 6,
       limited: 1,
       ability: {
@@ -250,7 +250,7 @@ const t: ShipType = {
         es: 'Hija de Mandalore',
         fr: 'Fille de Mandalore',
       },
-      cost: 37,
+      cost: 35,
       initiative: 3,
       limited: 1,
       ability: {

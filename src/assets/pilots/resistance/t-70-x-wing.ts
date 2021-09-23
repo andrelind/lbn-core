@@ -93,7 +93,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg',
-      cost: 62,
+      cost: 61,
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',
@@ -117,7 +117,7 @@ const t: ShipType = {
         es: 'Comandante de la Resistencia',
         fr: 'Commandant de la Résistance',
       },
-      cost: 60,
+      cost: 55,
       initiative: 6,
       limited: 1,
       charges: { value: 2, recovers: 1 },
@@ -265,7 +265,7 @@ const t: ShipType = {
         es:
           'Después de que reveles una maniobra de giro Tallon ([Tallon Roll Left] o [Tallon Roll Right]) roja, si tienes 2 o menos fichas de Tensión, considera esa maniobra como si fuera blanca.',
       },
-      cost: 54,
+      cost: 53,
       slots: [
         'Talent',
         'Astromech',
@@ -298,7 +298,7 @@ const t: ShipType = {
         fr: "Après avoir perdu 1 bouclier, gagnez 1 marqueur d'évasion.",
         es: 'Después de que pierdas 1 escudo, recibes 1 ficha de Evasión.',
       },
-      cost: 48,
+      cost: 46,
       slots: [
         'Talent',
         'Astromech',
@@ -335,7 +335,7 @@ const t: ShipType = {
         es:
           'Mientras realizas una acción [Boost], puedes utilizar la plantilla (1 [Turn Left]) o (1 [Turn Right]) en vez de una de las plantillas normales para esta acción.',
       },
-      cost: 50,
+      cost: 47,
       slots: [
         'Talent',
         'Astromech',
@@ -402,7 +402,7 @@ const t: ShipType = {
         es:
           'Después de que recibas una ficha de Tensión, si tienes alguna nave enemiga a alcance 0-1 situada en tu [Front Arc], puedes retirar esa ficha de Tensión.',
       },
-      cost: 55,
+      cost: 54,
       slots: [
         'Talent',
         'Astromech',
@@ -441,7 +441,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg',
-      cost: 47,
+      cost: 45,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 450,
       hyperspace: true,
@@ -497,7 +497,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg',
-      cost: 52,
+      cost: 49,
       slots: [
         'Talent',
         'Astromech',
@@ -555,7 +555,7 @@ const t: ShipType = {
         es: 'Superviviente tenaz',
         fr: 'Survivant Tenace',
       },
-      cost: 48,
+      cost: 46,
       initiative: 4,
       limited: 1,
       ability: {
@@ -593,7 +593,7 @@ const t: ShipType = {
         fr: 'Héroïne Optimiste',
       },
       hyperspace: true,
-      cost: 49,
+      cost: 47,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ability: {
         en:

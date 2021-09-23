@@ -257,7 +257,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 45,
+      cost: 43,
       xws: 'kullbeesperado',
       ability: {
         en:
@@ -294,7 +294,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 43,
+      cost: 41,
       xws: 'leevantenza',
       ability: {
         en:
@@ -331,7 +331,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 61,
+      cost: 60,
       xws: 'lukeskywalker',
       ability: {
         en:
@@ -415,7 +415,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 47,
+      cost: 46,
       xws: 'thanekyrell',
       ability: {
         en:

@@ -96,7 +96,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/d927ccf08a9444340378449fe71e9f70.jpg',
-      cost: 52,
+      cost: 51,
       slots: [
         'Sensor',
         'Crew',
@@ -133,7 +133,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/511b878f719e9fa59a50cdf980d10ead.jpg',
-      cost: 54,
+      cost: 53,
       slots: [
         'Sensor',
         'Crew',
@@ -208,7 +208,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/bbac51ca4ba44f26d90a53b6c5db5e2c.jpg',
-      cost: 56,
+      cost: 55,
       slots: [
         'Sensor',
         'Crew',
@@ -245,7 +245,7 @@ const t: ShipType = {
       },
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/dafd2937accc362f766ca0da3308ccbc.jpg',
-      cost: 56,
+      cost: 55,
       slots: [
         'Sensor',
         'Crew',
@@ -276,7 +276,7 @@ const t: ShipType = {
         es:
           'Después de que sueltes un dispositivo, puedes gastar 1 [Charge] para soltar un dispositivo adicional.',
       },
-      cost: 56,
+      cost: 55,
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',

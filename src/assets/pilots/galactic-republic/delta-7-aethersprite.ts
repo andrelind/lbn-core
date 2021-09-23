@@ -96,7 +96,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       hyperspace: true,
       epic: true,
-      cost: 37,
+      cost: 36,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 515,
       artwork:
@@ -127,7 +127,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 49,
+      cost: 47,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 511,
       artwork:
@@ -158,7 +158,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 45,
+      cost: 43,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 513,
       artwork:
@@ -189,7 +189,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 42,
+      cost: 40,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 514,
       artwork:
@@ -219,7 +219,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 46,
+      cost: 44,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 512,
       artwork:
@@ -250,7 +250,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 61,
+      cost: 59,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 507,
       artwork:
@@ -281,7 +281,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 43,
+      cost: 41,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 510,
       artwork:
@@ -312,7 +312,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 38,
+      cost: 36,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 509,
       artwork:
@@ -343,7 +343,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 42,
+      cost: 49,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 508,
       artwork:

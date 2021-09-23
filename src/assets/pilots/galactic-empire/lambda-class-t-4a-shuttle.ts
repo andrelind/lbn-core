@@ -50,7 +50,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 48,
+      cost: 47,
       xws: 'captainkagi',
       ability: {
         en:
@@ -109,7 +109,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 47,
+      cost: 46,
       xws: 'lieutenantsai',
       ability: {
         en:
@@ -137,7 +137,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 43,
+      cost: 41,
       xws: 'omicrongrouppilot',
       text: {
         en:

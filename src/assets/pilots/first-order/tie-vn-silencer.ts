@@ -85,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 63,
+      cost: 61,
       ability: {
         en:
           'While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.',
@@ -115,7 +115,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 76,
+      cost: 77,
       ability: {
         en:
           "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
@@ -175,7 +175,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 57,
+      cost: 56,
       ability: {
         en:
           'While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].',
@@ -234,7 +234,7 @@ const t: ShipType = {
       xws: 'sienarjaemusengineer',
       initiative: 1,
       limited: 0,
-      cost: 48,
+      cost: 50,
       text: {
         en:
           'Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.',

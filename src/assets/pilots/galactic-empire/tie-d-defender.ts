@@ -151,7 +151,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 68,
+      cost: 67,
       xws: 'deltasquadronpilot',
       text: {
         en:
@@ -239,7 +239,7 @@ const t: ShipType = {
         es: 'Lord oscuro de los sith',
         fr: 'Seigneur Noir des Sith',
       },
-      cost: 115,
+      cost: 112,
       initiative: 6,
       limited: 1,
       ability: {
@@ -268,7 +268,7 @@ const t: ShipType = {
         es: 'As arrogante',
         fr: 'As Arrogant',
       },
-      cost: 82,
+      cost: 77,
       initiative: 5,
       limited: 1,
       ability: {
@@ -296,7 +296,7 @@ const t: ShipType = {
         es: 'Reemplazo de confianza',
         fr: 'Remplaçant Fiable',
       },
-      cost: 75,
+      cost: 73,
       initiative: 3,
       limited: 1,
       ability: {

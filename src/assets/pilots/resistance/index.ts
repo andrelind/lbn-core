@@ -7,6 +7,7 @@ import resistancetransportpod from './resistance-transport-pod';
 import rz2awing from './rz-2-a-wing';
 import scavengedyt1300 from './scavenged-yt-1300';
 import t70xwing from './t-70-x-wing';
+import btanr2ywing from './bta-nr2-y-wing';
 
 const ships: { [s: string]: ShipType } = {
   gr75mediumtransport,
@@ -17,6 +18,7 @@ const ships: { [s: string]: ShipType } = {
   scavengedyt1300,
   t70xwing,
   fireball,
+  btanr2ywing,
 };
 
 export default ships;

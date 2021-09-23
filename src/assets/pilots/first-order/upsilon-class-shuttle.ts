@@ -78,7 +78,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 66,
+      cost: 73,
       xws: 'lieutenantdormitz',
       ability: {
         en:

@@ -95,7 +95,7 @@ const t: ShipType = {
           'Diseñados para la particular fisiología de los pilotos geonosianos, los cazas estelares de clase Nantex son capaces de efectuar maniobras que harían pedazos a la mayoría de naves y pilotos.',
       },
       slots: ['Talent'],
-      cost: 33,
+      cost: 35,
       ffg: 609,
     },
     {
@@ -116,7 +116,7 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       slots: ['Talent', 'Talent'],
-      cost: 45,
+      cost: 44,
       ffg: 604,
       caption: {
         en: "Archduke's Enforcer",
@@ -213,7 +213,7 @@ const t: ShipType = {
         fr: "As de l'Arène Petranaki",
         es: 'As del coliseo Petranaki',
       },
-      cost: 35,
+      cost: 37,
       ffg: 608,
       initiative: 4,
       artwork:

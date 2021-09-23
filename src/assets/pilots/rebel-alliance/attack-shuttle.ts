@@ -74,7 +74,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-4', es: 'Espectro-4' },
       initiative: 2,
       limited: 1,
-      cost: 32,
+      cost: 33,
       xws: 'zeborrelios',
       ability: {
         en:

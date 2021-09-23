@@ -83,7 +83,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 31,
+      cost: 32,
       xws: 'alphasquadronpilot',
       text: {
         en:
@@ -112,7 +112,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 35,
+      cost: 36,
       xws: 'sabersquadronace',
       text: {
         en:
@@ -142,7 +142,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 54,
+      cost: 53,
       xws: 'soontirfel',
       ability: {
         en:
@@ -257,7 +257,7 @@ const t: ShipType = {
         es: 'As arrogante',
         fr: 'As Arrogant',
       },
-      cost: 46,
+      cost: 43,
       initiative: 5,
       limited: 1,
       ability: {
@@ -313,7 +313,7 @@ const t: ShipType = {
         es: 'Réquiem por Brentaal',
         fr: 'Requiem pour Brentaal',
       },
-      cost: 41,
+      cost: 39,
       initiative: 3,
       limited: 1,
       ability: {

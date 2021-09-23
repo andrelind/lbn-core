@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 36,
+      cost: 33,
       xws: 'lieutenantkarsabi',
       ability: {
         en:

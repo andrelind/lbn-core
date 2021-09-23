@@ -49,7 +49,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 44,
+      cost: 43,
       xws: 'esegetuketu',
       ability: {
         en:

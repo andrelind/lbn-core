@@ -80,7 +80,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 66,
+      cost: 65,
       xws: 'ig88a',
       ability: {
         en:
@@ -119,7 +119,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 62,
+      cost: 61,
       xws: 'ig88b',
       ability: {
         en:
@@ -165,7 +165,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 63,
+      cost: 62,
       xws: 'ig88c',
       ability: {
         en:
@@ -204,7 +204,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 62,
+      cost: 61,
       xws: 'ig88d',
       ability: {
         en:

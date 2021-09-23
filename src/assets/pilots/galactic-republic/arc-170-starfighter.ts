@@ -65,7 +65,7 @@ const t: ShipType = {
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
       hyperspace: false,
       epic: true,
-      cost: 54,
+      cost: 53,
       ffg: 526,
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
@@ -74,7 +74,7 @@ const t: ShipType = {
     {
       name: { en: '"Jag"', de: '„Jag"' },
       xws: 'jag',
-      cost: 48,
+      cost: 47,
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
       ffg: 525,
       caption: { en: 'CT-55/11-9009' },

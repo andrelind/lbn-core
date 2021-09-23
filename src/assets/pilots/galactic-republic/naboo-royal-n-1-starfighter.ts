@@ -124,7 +124,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 45,
+      cost: 44,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 557,
     },
@@ -151,7 +151,7 @@ const t: ShipType = {
         es:
           'Mientras una nave enemiga en tu [Front Arc] se defiende o efectúa un ataque, esa nave sólo puede modificar 1 resultado [Focus] (los otros resultados siguen pudiendo ser modificados).',
       },
-      cost: 44,
+      cost: 43,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 559,
     },
@@ -172,7 +172,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 38,
+      cost: 36,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 560,
       caption: {
@@ -231,7 +231,7 @@ const t: ShipType = {
       conditions: ['decoyed'],
       hyperspace: true,
       epic: true,
-      cost: 42,
+      cost: 41,
       slots: ['Sensor', 'Torpedo', 'Astromech'],
       ffg: 561,
       caption: {

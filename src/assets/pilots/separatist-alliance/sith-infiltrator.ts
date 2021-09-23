@@ -67,7 +67,7 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
-      cost: 65,
+      cost: 64,
       slots: [
         'Cannon',
         'Torpedo',
@@ -142,7 +142,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       epic: true,
-      cost: 51,
+      cost: 50,
       slots: [
         'Cannon',
         'Torpedo',

@@ -98,7 +98,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 56,
+      cost: 55,
       xws: 'lattsrazzi',
       ability: {
         en:
@@ -138,7 +138,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 66,
+      cost: 64,
       xws: 'moraloeval',
       ability: {
         en:

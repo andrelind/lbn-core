@@ -91,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 62,
+      cost: 59,
       xws: 'corranhorn',
       ability: {
         en:
@@ -120,7 +120,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 60,
+      cost: 55,
       xws: 'gavindarklighter',
       ability: {
         en:
@@ -148,7 +148,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 49,
+      cost: 48,
       xws: 'knavesquadronescort',
       text: {
         en:

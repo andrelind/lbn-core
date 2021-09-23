@@ -88,7 +88,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 55,
+      cost: 54,
       xws: 'majorvonreg',
       ability: {
         en:
@@ -146,7 +146,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 48,
+      cost: 45,
       xws: 'ember',
       ability: {
         en:

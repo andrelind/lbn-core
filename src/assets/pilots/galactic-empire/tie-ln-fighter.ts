@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 44,
+      cost: 41,
       xws: 'howlrunner',
       ability: {
         en:
@@ -86,7 +86,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 30,
+      cost: 28,
       xws: 'maulermithel',
       ability: {
         en:
@@ -120,7 +120,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 25,
+      cost: 23,
       xws: 'nightbeast',
       ability: {
         en:
@@ -154,7 +154,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 30,
+      cost: 28,
       xws: 'scourgeskutu',
       ability: {
         en:
@@ -287,7 +287,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 27,
       xws: 'delmeeko',
       ability: {
         en:
@@ -317,7 +317,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 27,
       xws: 'gideonhask',
       ability: {
         en:
@@ -414,7 +414,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 27,
       xws: 'seynmarana',
       ability: {
         en:
@@ -444,7 +444,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 26,
+      cost: 24,
       xws: 'valenrudor',
       ability: {
         en:

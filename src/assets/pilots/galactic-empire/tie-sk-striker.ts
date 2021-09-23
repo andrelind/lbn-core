@@ -77,7 +77,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 41,
       xws: 'countdown',
       ability: {
         en:
@@ -137,7 +137,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 42,
       xws: 'puresabacc',
       ability: {
         en:
@@ -166,7 +166,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 33,
+      cost: 34,
       xws: 'blacksquadronscout',
       text: {
         en:
@@ -195,7 +195,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 31,
+      cost: 32,
       xws: 'planetarysentinel',
       text: {
         en:
@@ -225,7 +225,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 34,
+      cost: 32,
       xws: 'vagabond',
       ability: {
         en:

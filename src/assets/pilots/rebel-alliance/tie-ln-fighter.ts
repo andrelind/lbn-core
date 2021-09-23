@@ -47,7 +47,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-4', es: 'Espectro-4' },
       initiative: 2,
       limited: 1,
-      cost: 23,
+      cost: 22,
       xws: 'zeborrelios-tielnfighter',
       ability: {
         en:
@@ -77,7 +77,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 28,
+      cost: 26,
       xws: 'captainrex',
       ability: {
         en:
@@ -103,7 +103,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-6', es: 'Espectro-6' },
       initiative: 3,
       limited: 1,
-      cost: 28,
+      cost: 26,
       xws: 'ezrabridger-tielnfighter',
       ability: {
         en:
@@ -129,7 +129,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-5', es: 'Espectro-5' },
       initiative: 3,
       limited: 1,
-      cost: 28,
+      cost: 26,
       xws: 'sabinewren-tielnfighter',
       ability: {
         en:

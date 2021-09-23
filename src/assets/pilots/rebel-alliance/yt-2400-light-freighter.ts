@@ -83,7 +83,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 76,
+      cost: 72,
       xws: 'leebo',
       ability: {
         en:
@@ -126,7 +126,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 85,
+      cost: 79,
       xws: 'dashrendar',
       ability: {
         en: 'While you move, you ignore obstacles.',

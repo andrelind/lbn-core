@@ -44,7 +44,7 @@ const t: ShipType = {
         es: 'Conector de control de TransGalMeg',
         fr: 'Liaison de Contrôle TransGalMeg',
       },
-      cost: 5,
+      cost: 2,
       initiative: 0,
       limited: 0,
       slots: ['Hyperdrive'],

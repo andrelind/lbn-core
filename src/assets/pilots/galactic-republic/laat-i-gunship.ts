@@ -53,7 +53,7 @@ const t: ShipType = {
       xws: 'hawk',
       ffg: 660,
       name: { en: '"Hawk"', de: '„Hawk"' },
-      cost: 54,
+      cost: 51,
       limited: 1,
       initiative: 4,
       caption: {
@@ -89,7 +89,7 @@ const t: ShipType = {
       xws: 'hound',
       ffg: 662,
       name: { en: '"Hound"', de: '„Hound"' },
-      cost: 50,
+      cost: 48,
       limited: 1,
       initiative: 2,
       caption: {
@@ -125,7 +125,7 @@ const t: ShipType = {
       xws: 'warthog',
       ffg: 661,
       name: { en: '"Warthog"', de: '„Warthog"' },
-      cost: 54,
+      cost: 52,
       limited: 1,
       initiative: 3,
       caption: {
@@ -188,7 +188,7 @@ const t: ShipType = {
         'Gunner',
         'Gunner',
       ],
-      cost: 49,
+      cost: 47,
       ffg: 663,
       keywords: ['Clone'],
     },

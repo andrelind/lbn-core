@@ -29,7 +29,10 @@ const t: UpgradeBase[] = [
         ffg: 252,
       },
     ],
-    cost: { value: 10 },
+    cost: {
+      variable: 'size',
+      values: { Small: 13, Medium: 11, Large: 9, Huge: 200 },
+    },
     hyperspace: false,
     epic: true,
   },

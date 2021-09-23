@@ -270,7 +270,7 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     restrictions: [{ action: { type: 'Reload' } }],
-    cost: { value: 10 },
+    cost: { value: 8 },
   },
   {
     limited: 0,
@@ -344,7 +344,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    cost: { value: 3 },
+    cost: { value: 4 },
   },
   {
     xws: 'concussionbombs',
@@ -418,7 +418,7 @@ const t: UpgradeBase[] = [
         ffg: 864,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 5 },
   },
 ];
 

@@ -151,7 +151,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 54,
+      cost: 53,
       xws: 'kadsolus',
       ability: {
         en: 'After you fully execute a red maneuver, gain 2 focus tokens.',

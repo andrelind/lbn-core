@@ -79,7 +79,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 24,
+      cost: 23,
       xws: 'blacksunsoldier',
       text: {
         en:
@@ -108,7 +108,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 25,
+      cost: 24,
       xws: 'kaatoleeachos',
       ability: {
         en:
@@ -138,7 +138,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 28,
       xws: 'ndrusuhlak',
       ability: {
         en:
@@ -171,7 +171,7 @@ const t: ShipType = {
       },
       initiative: 0,
       limited: 1,
-      cost: 6,
+      cost: 4,
       xws: 'nashtahpup',
       ability: {
         en:
@@ -200,7 +200,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 28,
+      cost: 27,
       xws: 'bossk-z95af4headhunter',
       ability: {
         en:

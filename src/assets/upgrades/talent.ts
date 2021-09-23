@@ -132,7 +132,7 @@ const t: UpgradeBase[] = [
         ffg: 232,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     hyperspace: false,
     epic: true,
@@ -166,7 +166,7 @@ const t: UpgradeBase[] = [
         ffg: 233,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 2 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     hyperspace: false,
     epic: true,
@@ -236,7 +236,7 @@ const t: UpgradeBase[] = [
         ffg: 459,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 1 },
     restrictions: [{ factions: ['First Order'] }],
     hyperspace: true,
     epic: true,
@@ -297,7 +297,7 @@ const t: UpgradeBase[] = [
         ffg: 471,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 1, '1': 1, '2': 1, '3': 2 } },
+    cost: { value: 2 },
     restrictions: [{ factions: ['Resistance'] }],
     hyperspace: false,
     epic: true,
@@ -356,7 +356,7 @@ const t: UpgradeBase[] = [
         ffg: 237,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 6 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     hyperspace: true,
     epic: true,
@@ -551,7 +551,7 @@ const t: UpgradeBase[] = [
         ffg: 243,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ action: { type: 'Reload' } }],
     hyperspace: false,
     epic: true,
@@ -947,7 +947,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'ionlimiteroverride',
     limited: 0,
-    cost: { value: 3 },
+    cost: { value: 2 },
     sides: [
       {
         title: {
@@ -1071,7 +1071,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'cutthroat',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 2 },
     sides: [
       {
         title: {
@@ -1102,7 +1102,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'tierfonbellyrun',
     limited: 0,
-    cost: { value: 2 },
+    cost: { value: 1 },
     sides: [
       {
         title: {
@@ -1133,7 +1133,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'disciplined',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 2 },
     sides: [
       {
         title: {

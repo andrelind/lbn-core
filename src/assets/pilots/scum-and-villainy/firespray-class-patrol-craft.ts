@@ -56,7 +56,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 86,
+      cost: 85,
       xws: 'bobafett',
       ability: {
         en:
@@ -177,7 +177,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 72,
+      cost: 68,
       xws: 'kathscarlet',
       ability: {
         en:

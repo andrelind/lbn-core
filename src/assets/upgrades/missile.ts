@@ -429,7 +429,7 @@ const t: UpgradeBase[] = [
         ffg: 673,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 4 },
   },
   {
     limited: 2,
@@ -467,7 +467,7 @@ const t: UpgradeBase[] = [
         ffg: 851,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 4 },
   },
 ];
 

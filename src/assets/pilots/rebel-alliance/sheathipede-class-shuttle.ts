@@ -159,7 +159,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 50,
+      cost: 47,
       xws: 'fennrau-sheathipedeclassshuttle',
       ability: {
         en:

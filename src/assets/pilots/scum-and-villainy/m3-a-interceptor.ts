@@ -78,7 +78,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 25,
+      cost: 27,
       xws: 'cartelspacer',
       text: {
         en:

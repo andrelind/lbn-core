@@ -121,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 45,
+      cost: 44,
       xws: 'maarekstele',
       ability: {
         en:
@@ -216,7 +216,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 44,
+      cost: 43,
       xws: 'vedfoslo',
       ability: {
         en:
@@ -246,7 +246,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 41,
+      cost: 40,
       xws: 'zertikstrom',
       ability: {
         en:
