@@ -305,7 +305,7 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque principale [Rear Arc], vous pouvez relancer 1 dé d'attaque. Ajoutez un emplacement [Gunner].",
         },
         slots: ['Title'],
-        grants: [{ slot: 'Force Power', value: 1 }],
+        grants: [{ slot: 'Gunner', value: 1 }],
         image: {
           en:
             'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png',

@@ -111,7 +111,7 @@ export const loadUpgrade = (
 
   if (upgrade.sides[0].grants) {
     upgrade.sides[0].grants.forEach((g) => {
-      const { slot, stat, action, side } = g;
+      const { slot, stat, action, side, arc } = g;
       if (slot) {
         if (g.value > 0) {
           if (ship.pilot?.slots.indexOf(slot) > 0) {
@@ -123,9 +123,11 @@ export const loadUpgrade = (
           ship.pilot?.slots.splice(ship.pilot?.slots.indexOf(slot), 1);
         }
       } else if (stat) {
-        const stats = ship.stats.filter((s) => s.type === stat);
+        const stats = ship.stats.filter(
+          (s) => s.type === stat && s.arc === arc
+        );
         if (stats.length === 0 && g.value > 0) {
-          ship.stats.push({ type: stat, value: g.value });
+          ship.stats.push({ type: stat, value: g.value, arc });
         } else {
           stats.forEach((s) => (s.value += g.value));
         }

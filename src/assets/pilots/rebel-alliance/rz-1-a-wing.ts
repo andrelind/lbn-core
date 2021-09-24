@@ -223,7 +223,7 @@ const t: ShipType = {
         fr:
           'Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Front Arc], il lance 1 dé de défense en moins.',
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],

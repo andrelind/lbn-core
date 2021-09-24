@@ -516,7 +516,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    restrictions: [{}],
+    restrictions: [{ arcs: ['Rear Arc'] }],
     hyperspace: false,
     epic: true,
   },
