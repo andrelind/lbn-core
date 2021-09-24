@@ -89,7 +89,7 @@ const t: UpgradeBase[] = [
         type: 'Talent',
         ability: {
           en:
-            'While you perform a white [Boost] action, you may treat it as red to use the [1 [Turn Left]] or [1 [Turn Right]] template instead.',
+            'While you perform a white [Boost] action, you may treat it as red to use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
           de:
             'Solange du eine weiße [Boost]-Aktion durchführst, darfst du sie behandeln, als wäre sie rot, um stattdessen die (1 [Turn Left])- oder (1 [Turn Right])-Schablone zu verwenden.',
           es:

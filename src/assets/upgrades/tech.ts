@@ -370,6 +370,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [
+      { baseSizes: ['Medium', 'Large'] },
+      { factions: ['First Order'] },
+    ],
   },
   {
     limited: 0,

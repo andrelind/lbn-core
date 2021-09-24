@@ -323,7 +323,7 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         ability: {
           en:
-            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
+            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
           de:
             'Zu Beginn der Kampfphase darfst du 1 Berechnungsmarker und 1 [Charge] ausgeben, um unter Verwendung der (3 [Bank Left])-, (3 [Straight]) oder (3 [Bank Right])-Schablone 1 Buzz- Droidenschwarm zu starten. Die [Charge] dieser Karte kann nicht wiederhergestellt werden.',
           es:
@@ -537,7 +537,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            'During the System Phase, you may spend 1 [Charge] from this cared to launch 1 electro-chaff cloud using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template.',
+            'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template.',
         },
         charges: { value: 1, recovers: 0 },
         title: { en: 'Electro-Chaff Missiles' },

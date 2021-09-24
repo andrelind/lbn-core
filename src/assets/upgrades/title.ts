@@ -385,7 +385,7 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         actions: [{ type: 'Barrel Roll', difficulty: 'White' }],
         grants: [
-          { slot: 'Force Power', value: 1 },
+          { slot: 'Cannon', value: 1 },
           { action: { type: 'Barrel Roll', difficulty: 'White' }, value: 1 },
         ],
         image: {
@@ -706,7 +706,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
+            "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
           de:
             "Falls du 2 oder weniger Stressmarker hast, kannst du rote Segnor-Looping-Manöver ([Segnor's Loop Left] oder [Segnor's Loop Right]) ausführen und [Boost]- und [Rotate Arc]-Aktionen durchführen, auch solange du gestresst bist.",
           es:

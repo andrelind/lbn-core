@@ -92,7 +92,7 @@ const t: ShipType = {
       xws: 'constablezuvio',
       ability: {
         en:
-          'If you would drop a device, you may launch it using a [1 [Straight]] template instead.',
+          'If you would drop a device, you may launch it using a (1 [Straight]) template instead.',
         de:
           'Falls du ein Gerät abwerfen würdest, darfst du es stattdessen unter Verwendung der (1 [Straight])-Schablone starten.',
         fr:

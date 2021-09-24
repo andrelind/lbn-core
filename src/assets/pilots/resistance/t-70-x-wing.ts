@@ -279,7 +279,7 @@ const t: ShipType = {
       xws: 'elloasty',
       ability: {
         en:
-          'After you reveal a red Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
+          'After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right]) maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
         de:
           'Nachdem du ein rotes Tallon-Rolle-Manöver ([Tallon Roll Left] oder [Tallon Roll Right]) aufgedeckt hast, falls du 2 oder weniger Stressmarker hast, behandle jenes Manöver, als wäre es weiß.',
         fr:
@@ -357,7 +357,7 @@ const t: ShipType = {
       xws: 'karekun',
       ability: {
         en:
-          'While you boost, you may use the [1 [Turn Left]] or [1 [Turn Right]] template instead.',
+          'While you boost, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
         de:
           'Solange du Schub gibst, darfst du stattdessen die (1 [Turn Left])- oder (1 [Turn Right])-Schablone verwenden.',
         fr:

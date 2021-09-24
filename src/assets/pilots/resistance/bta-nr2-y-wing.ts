@@ -36,6 +36,13 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Boost' },
   ],
   icon: '???',
+  ability: {
+    name: { en: 'Intuitive Interface' },
+    text: {
+      en:
+        'After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action.',
+    },
+  },
   pilots: [
     {
       name: { en: 'Zorii Bliss' },

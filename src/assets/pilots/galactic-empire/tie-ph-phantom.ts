@@ -89,7 +89,7 @@ const t: ShipType = {
       xws: 'echo',
       ability: {
         en:
-          'While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.',
+          'While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.',
         de:
           'Solange du dich enttarnst, musst du die (2 [Bank Left])- oder (2 [Bank Right])-Schablone anstatt der (2 [Straight])-Schablone verwenden.',
         fr:

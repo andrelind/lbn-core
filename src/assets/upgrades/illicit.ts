@@ -201,7 +201,7 @@ const t: UpgradeBase[] = [
         type: 'Illicit',
         ability: {
           en:
-            'Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.',
+            'Action: Spend 1 [Charge]. Drop 1 loose cargo using the (1 [Straight]) template.',
           de:
             'Aktion: Gib 1 [Charge] aus. Wirf unter Verwendung der (1 [Straight])-Schablone 1 freie Fracht ab.',
           es:

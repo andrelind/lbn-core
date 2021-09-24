@@ -151,7 +151,7 @@ const t: ShipType = {
       xws: 'emonazzameen',
       ability: {
         en:
-          'If you would drop a device using a [1 [Straight]] template, you may use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.',
+          'If you would drop a device using a (1 [Straight]) template, you may use the (3 [Turn Left]), (3 [Straight]), or (3 [Turn Right]) template instead.',
         de:
           'Falls du unter Verwendung der (1 [Straight])-Schablone ein Gerät abwerfen würdest, darfst du stattdessen die (3 [Turn Left])-, (3 [Straight])- oder (3 [Turn Right])-Schablone verwenden.',
         fr:

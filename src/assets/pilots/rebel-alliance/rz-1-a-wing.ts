@@ -364,7 +364,7 @@ const t: ShipType = {
         fr:
           'Après avoir verrouillé ou avoir dépensé un verrouillage, vous pouvez vous retirer 1 marqueur rouge.',
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],

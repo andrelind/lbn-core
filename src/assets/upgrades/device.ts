@@ -15,7 +15,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].',
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the (1 [Straight]) template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].',
           de:
             'Bombe Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone eine Streubombe abzuwerfen. Zu Beginn der Aktivierungsphase darfst du 1 Schild ausgeben, um 2 [Charge] wiederherzustellen.',
           es:
@@ -58,7 +58,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+            "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the (1 [Straight]) template. This card's [Charge] cannot be recovered.",
           de:
             'Mine Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone ein Connernetz abzuwerfen. Die [Charge] dieser Karte kann nicht wiederhergestellt werden.',
           es:
@@ -101,7 +101,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.',
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the (1 [Straight]) template.',
           de:
             'Bombe Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone eine Protonenbombe abzuwerfen.',
           es:
@@ -144,7 +144,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+            "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the (1 [Straight]) template. This card's [Charge] cannot be recovered.",
           de:
             'Mine Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone eine Annäherungsmine abzuwerfen. Die [Charge] dieser Karte können nicht wiederhergestellt werden.',
           es:
@@ -187,7 +187,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.',
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the (1 [Straight]) template.',
           de:
             'Bombe Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone eine Seismische Bombe abzuwerfen.',
           es:
@@ -248,7 +248,7 @@ const t: UpgradeBase[] = [
           name: 'DRK-1 Probe Droid',
           type: 'Remote',
           effect:
-            'While a friendly ship locks an object or jams an enemy ship, it may measure range from you. After an enemy ship overlaps you, that ship rolls 1 attack die. On a [Focus] result, you suffer 1 [Hit] damage. System Phase: At your initiative, you may relocate useing a [2 [Bank Left]], [2 [Straight]], or [2 [Bank Right]] template.',
+            'While a friendly ship locks an object or jams an enemy ship, it may measure range from you. After an enemy ship overlaps you, that ship rolls 1 attack die. On a [Focus] result, you suffer 1 [Hit] damage. System Phase: At your initiative, you may relocate useing a (2 [Bank Left]), (2 [Straight]), or (2 [Bank Right]) template.',
         },
         ffg: 541,
         artwork:
@@ -274,7 +274,7 @@ const t: UpgradeBase[] = [
         type: 'Device',
         ability: {
           en:
-            "Bomb During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
+            "Bomb During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the (1 [Straight]) template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
           de:
             'Bombe Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight]) -Schablone eine Elektro-Protonen-Bombe abzuwerfen. Dann platziere 1 Zeitzünder auf jenem Gerät. Die [Charge] dieser Karte kann nicht wiederhergestellt werden.',
           es:
@@ -326,7 +326,7 @@ const t: UpgradeBase[] = [
         },
         ability: {
           en:
-            "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+            "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the (1 [Straight]) template. This card's [Charge] cannot be recovered.",
           de:
             'Mine Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone ein Cluster­minenset abzuwerfen. Die [Charge] dieser Karte kann nicht wiederhergestellt werden.',
           es:
@@ -369,7 +369,7 @@ const t: UpgradeBase[] = [
         },
         ability: {
           en:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.',
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the (1 [Straight]) template.',
           de:
             'Bombe Während der Systemphase darfst du 1 [Charge] ausgeben, um unter Verwendung der (1 [Straight])-Schablone eine Ionenbombe abzuwerfen.',
           es:
@@ -411,7 +411,7 @@ const t: UpgradeBase[] = [
         },
         ability: {
           en:
-            "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb using the [1 [Straight]] template, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
+            "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb using the (1 [Straight]) template, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
           de:
             'Während der Systemphase, falls mindestens eine [Charge] dieser Karte inaktiv ist, musst du 1 [Charge] ausgeben, um 1 Erschütterungsbombe abzuwerfen, falls möglich. Ansonsten darfst du 1 [Charge] ausgeben, um 1 Erschütterungsbombe abzuwerfen.',
           fr:
@@ -442,7 +442,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            'Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].',
+            'Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the (1 [Straight]) or (2 [Straight]) template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].',
           de:
             'Bombe Während der Systemphase darfst du bis zu 2 [Charge] ausgeben, um ebenso viele Thermaldetonatoren unter Verwendung der (1 [Straight]) oder (2 [Straight])-Schablone abzuwerfen. Jeder muss unter Verwendung einer anderen Schablone platziert werden. Sobald du diese Karte nachlädst, stellst du 1 zusätzliche [Charge] wieder her.',
           es:

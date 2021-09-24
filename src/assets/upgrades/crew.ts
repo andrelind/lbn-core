@@ -1482,7 +1482,7 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         ability: {
           en:
-            'During the System Phase, you may spend 2 [Charge]. If you do, choose the [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] template. Each friendly ship may perform a red [Boost] action using that template.',
+            'During the System Phase, you may spend 2 [Charge]. If you do, choose the (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) template. Each friendly ship may perform a red [Boost] action using that template.',
           de:
             'Während der Systemphase darfst du 2 [Charge] ausgeben. Falls du das tust, wähle die (1 [Bank Left])-, (1 [Straight])- oder (1 [Bank Right])-Schablone. Jedes befreundete Schiff darf unter Verwendung jener Schablone eine rote [Boost]-Aktion durchführen.',
           es:

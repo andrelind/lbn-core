@@ -342,7 +342,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.',
+          'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
         de:
           'Solange du eine Fassrolle fliegst, musst du die ([Bank Left] oderr [Bank Right])-Schablone statt der ([Straight])-Schablone verwenden.',
         es:
