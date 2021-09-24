@@ -265,6 +265,7 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ action: { type: 'SLAM' } }],
   },
   {
     limited: 1,
@@ -302,6 +303,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -338,6 +340,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -374,6 +377,7 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Huge'] }],
   },
   {
     limited: 0,

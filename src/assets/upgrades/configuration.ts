@@ -275,7 +275,7 @@ const t: UpgradeBase[] = [
             "Tant que vous avez exactement 1 marqueur de désarmement, vous pouvez toujours effectuer des attaques [Cannon]. Tant que vous effectuez une attaque [Cannon] alors que vous êtes désarmé, lancez 3 dés d'attaque au maximum. Ajoutez un emplacement [Cannon].",
         },
         slots: ['Configuration'],
-        grants: [{ slot: 'Force Power', value: 1 }],
+        grants: [{ slot: 'Cannon', value: 1 }],
         image: {
           en:
             'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png',
@@ -1045,7 +1045,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    restrictions: [{ chassis: ['btanr2ywing'] }, {}],
+    restrictions: [{ chassis: ['btanr2ywing'] }],
     hyperspace: false,
     epic: true,
   },

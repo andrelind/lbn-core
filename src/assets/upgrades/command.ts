@@ -35,6 +35,7 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -71,6 +72,10 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     hyperspace: false,
     epic: true,
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['tieadvancedx1', 'tieadvancedv1'] },
+    ],
   },
   {
     limited: 1,
@@ -102,6 +107,10 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     hyperspace: false,
     epic: true,
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { baseSizes: ['Huge'] },
+    ],
   },
   {
     limited: 1,
@@ -138,6 +147,7 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -170,6 +180,7 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -205,6 +216,10 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     hyperspace: false,
     epic: true,
+    restrictions: [
+      { factions: ['First Order'] },
+      { chassis: ['tiesffighter', 'tievnsilencer'] },
+    ],
   },
   {
     limited: 1,
@@ -236,6 +251,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -267,6 +283,7 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -378,6 +395,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Small'] }],
   },
   {
     limited: 2,
@@ -414,6 +432,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Small'] }, { initiative: { min: 4 } }],
   },
   {
     limited: 0,
@@ -465,26 +484,6 @@ const t: UpgradeBase[] = [
       { factions: ['Galactic Republic'] },
       { chassis: ['delta7aethersprite', 'eta2actis'] },
     ],
-  },
-  {
-    xws: 'b6bladewingprototype',
-    limited: 1,
-    cost: { value: 200 },
-    sides: [
-      {
-        title: { en: 'B6 Blade Wing Prototype' },
-        type: 'Command',
-        ability: {
-          en:
-            'Add [Gunner] slot.  Attack ([Lock]): Gain 1 ion token to perform this attack.  If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.',
-        },
-        slots: ['Command', 'Title'],
-        ffg: -1,
-      },
-    ],
-    hyperspace: false,
-    epic: true,
-    restrictions: [{}, {}],
   },
   {
     xws: 'shadowwing',
@@ -540,6 +539,9 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
+    restrictions: [
+      { chassis: ['tielnfighter', 'tieininterceptor', 'tiesabomber'] },
+    ],
   },
   {
     xws: 'bounty',
@@ -689,6 +691,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     xws: 'skystrikeacademyclass',
@@ -733,6 +736,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['tielnfighter', 'tieininterceptor'] },
+    ],
   },
   {
     limited: 1,
@@ -930,7 +937,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    restrictions: [{ factions: ['Scum and Villainy'] }, {}, {}],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     epic: true,
   },
 ];

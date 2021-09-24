@@ -458,6 +458,12 @@ const t: UpgradeBase[] = [
         },
         type: 'Device',
         slots: ['Device'],
+        device: {
+          name: 'Thermal Detonators',
+          type: 'Bomb',
+          effect:
+            'At the end of the Activation Phase, this device detonates.\n\nWhen this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 Hit/Critical Hit damage for each matching result.',
+        },
         charges: { value: 4, recovers: 0 },
         ffg: 864,
         image: {

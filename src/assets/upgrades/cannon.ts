@@ -256,6 +256,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [
+      { factions: ['Resistance', 'Rebel Alliance'] },
+      { chassis: ['t65xwing', 't70xwing'] },
+    ],
   },
   {
     xws: 'syncedlasercannons',

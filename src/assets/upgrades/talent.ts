@@ -1277,7 +1277,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['btla4ywing', 'btlbywing'] }],
+    restrictions: [{ keywords: ['Y-wing'] }],
   },
   {
     xws: 'disciplined',
@@ -1396,7 +1396,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    restrictions: [{ action: { type: 'Reload' } }],
+    restrictions: [{ keywords: ['TIE'] }, { action: { type: 'Reload' } }],
     hyperspace: true,
     epic: true,
   },

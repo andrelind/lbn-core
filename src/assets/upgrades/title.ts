@@ -160,9 +160,9 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         grants: [
-          { slot: 'Force Power', value: 1 },
-          { slot: 'Force Power', value: 1 },
-          { slot: 'Force Power', value: -1 },
+          { slot: 'Sensor', value: 1 },
+          { slot: 'Astromech', value: 1 },
+          { slot: 'Crew', value: -1 },
         ],
         image: {
           en:
@@ -530,8 +530,8 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         grants: [
-          { slot: 'Force Power', value: -1 },
-          { slot: 'Force Power', value: 1 },
+          { slot: 'Crew', value: -1 },
+          { slot: 'Astromech', value: 1 },
         ],
         image: {
           en:
@@ -821,6 +821,11 @@ const t: UpgradeBase[] = [
             "Ajoutez un emplacement [Gunner]. Tant que vous défendez, si la portée d'attaque est 1, vous pouvez lancer 1 dé de défense supplémentaire.",
         },
         title: { en: 'Assailer', de: 'Sturmbringer' },
+        grants: [
+          { slot: 'Gunner', value: 1 },
+          { stat: 'hull', value: 2 },
+          { stat: 'shields', value: -2 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 769,
@@ -831,6 +836,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 5 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['raiderclasscorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -848,6 +857,11 @@ const t: UpgradeBase[] = [
             "Ajoutez un emplacement [Gunner]. Tant que vous effectuez une attaque à portée d'attaque 1-2, vous pouvez ajouter 1 résultat [Focus].",
         },
         title: { en: 'Blood Crow', es: 'Cuervo de Sangre' },
+        grants: [
+          { slot: 'Gunner', value: 1 },
+          { stat: 'shields', value: -1 },
+          { stat: 'energy', value: 2 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 773,
@@ -858,6 +872,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 8 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['gozanticlasscruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -885,6 +903,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 5 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['gr75mediumtransport'] },
+    ],
   },
   {
     limited: 1,
@@ -905,6 +927,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         grants: [
+          { slot: 'Team', value: 1 },
+          { slot: 'Cargo', value: 1 },
+          { stat: 'shields', value: -2 },
           {
             action: {
               type: 'Evade',
@@ -930,6 +955,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 4 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['cr90corelliancorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -947,6 +976,11 @@ const t: UpgradeBase[] = [
             'Ajoutez un emplacement [Crew]. Après que vous avez effectué une attaque, si le défenseur a été détruit, vous pouvez effectuer une action [Focus] or [Lock].',
         },
         title: { en: 'Impetuous', de: 'Ungestüm', es: 'Impetuoso' },
+        grants: [
+          { slot: 'Crew', value: 1 },
+          { stat: 'shields', value: -2 },
+          { stat: 'energy', value: 2 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 771,
@@ -957,6 +991,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 4 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['raiderclasscorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -974,6 +1012,7 @@ const t: UpgradeBase[] = [
             "Ajoutez un emplacement . Tant que vous effectuez une attaque, si le défenseur a un marqueur orange ou rouge, vous pouvez relancer jusqu'à 2 dés d'attaque.",
         },
         title: { en: 'Instigator', es: 'Instigador' },
+        grants: [{ slot: 'Team', value: 1 }],
         type: 'Title',
         slots: ['Title'],
         ffg: 772,
@@ -984,6 +1023,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 6 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['raiderclasscorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1014,6 +1057,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 3 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['raiderclasscorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1035,6 +1082,12 @@ const t: UpgradeBase[] = [
           de: 'Gefräßiger Worrt',
           es: 'Worrt Insaciable',
         },
+        grants: [
+          { slot: 'Cargo', value: 1 },
+          { stat: 'hull', value: 3 },
+          { stat: 'shields', value: -1 },
+          { stat: 'energy', value: -1 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 779,
@@ -1045,6 +1098,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 7 },
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { chassis: ['croccruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1062,6 +1119,7 @@ const t: UpgradeBase[] = [
             "Vous pouvez arrimer jusqu'à 2 petits vaisseaux. Après qu'un vaisseau s'est déployé depuis vous, il peut effectuer une action [Focus] ou [Barrel Roll].",
         },
         title: { en: 'Liberator', es: 'Libertador' },
+        grants: [{ stat: 'energy', value: 1 }],
         type: 'Title',
         slots: ['Title'],
         ffg: 763,
@@ -1072,6 +1130,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 5 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['cr90corelliancorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1089,6 +1151,10 @@ const t: UpgradeBase[] = [
             "Mise en Place : débutez en réserve. À la fin de la Mise en place, placez-vous dans la zone de jeu à portée 0-2 d'un vaisseau allié.",
         },
         title: { en: 'Luminous', es: 'Luminoso' },
+        grants: [
+          { stat: 'shields', value: -1 },
+          { stat: 'energy', value: 2 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 767,
@@ -1099,6 +1165,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 12 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['gr75mediumtransport'] },
+    ],
   },
   {
     limited: 1,
@@ -1119,8 +1189,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         grants: [
-          { action: { type: 'Evade', difficulty: 'Red' }, value: 1 },
-          { action: { type: 'Coordinate', difficulty: 'White' }, value: 1 },
+          { slot: 'Turret', value: 1 },
+          { slot: 'Team', value: 1 },
+          { slot: 'Cargo', value: 1 },
         ],
         ffg: 778,
         artwork:
@@ -1130,6 +1201,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 8 },
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { chassis: ['croccruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1147,6 +1222,10 @@ const t: UpgradeBase[] = [
             'Ajoutez un emplacement [Crew] et un emplacement [Illicit]. Si vous êtes endommagé, diminuez la difficulté de vos manoeuvres ayant une vitesse 3-5.',
         },
         title: { en: 'Broken Horn' },
+        grants: [
+          { slot: 'Crew', value: 1 },
+          { slot: 'Illicit', value: 1 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 777,
@@ -1157,6 +1236,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 4 },
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { chassis: ['croccruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1174,6 +1257,11 @@ const t: UpgradeBase[] = [
             'Ajoutez un emplacement et un emplacement . Après avoir entièrement exécuté une manoeuvre blanche, récupérez 1 [Energy].',
         },
         title: { en: 'Quantum Storm', es: 'Tormenta Cuántica' },
+        grants: [
+          { slot: 'Team', value: 1 },
+          { slot: 'Cargo', value: 1 },
+          { stat: 'energy', value: 1 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 768,
@@ -1184,6 +1272,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 3 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['gr75mediumtransport'] },
+    ],
   },
   {
     limited: 1,
@@ -1201,6 +1293,7 @@ const t: UpgradeBase[] = [
             'Ajoutez un emplacement [Sensor]. Après avoir coordonné un vaisseau allié, vous pouvez dépenser 1 [Energy] pour brouiller un vaisseau ennemi à portée 0-2 de ce vaisseau, en ignorant les restrictions de portée.',
         },
         title: { en: 'Suppressor', es: 'Supresor' },
+        grants: [{ slot: 'Sensor', value: 1 }],
         type: 'Title',
         slots: ['Title'],
         ffg: 775,
@@ -1211,6 +1304,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 6 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['gozanticlasscruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1238,6 +1335,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 4 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['cr90corelliancorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1255,6 +1356,10 @@ const t: UpgradeBase[] = [
             "Ajoutez 2 emplacements [Crew]. Tant que vous défendez, si l'attaquant est dans votre [Rear Arc], vous pouvez lancer 1 dé de défense supplémentaire.",
         },
         title: { en: 'Tantive IV' },
+        grants: [
+          { slot: 'Crew', value: 1 },
+          { slot: 'Crew', value: 1 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 764,
@@ -1265,6 +1370,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 5 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['cr90corelliancorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1282,6 +1391,11 @@ const t: UpgradeBase[] = [
             "Ajoutez un emplacement [Gunner]. Tant que vous effectuez une attaque bonus, si vous n'avez pas attaqué le défenseur à ce round, vous pouvez relancer 1 dé d'attaque.",
         },
         title: { en: 'Thunderstrike', de: 'Donnerschlag', es: 'Trueno' },
+        grants: [
+          { slot: 'Gunner', value: 1 },
+          { stat: 'shields', value: -3 },
+          { stat: 'hull', value: 3 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 765,
@@ -1292,6 +1406,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 4 },
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['cr90corelliancorvette'] },
+    ],
   },
   {
     limited: 1,
@@ -1309,6 +1427,10 @@ const t: UpgradeBase[] = [
             "Ajoutez un emplacement [Crew] et un emplacement . Après qu'un vaisseau s'est déployé depuis vous, il peut effectuer une action [Evade] ou [Boost].",
         },
         title: { en: 'Vector' },
+        grants: [
+          { slot: 'Crew', value: 1 },
+          { slot: 'Cargo', value: 1 },
+        ],
         type: 'Title',
         slots: ['Title'],
         ffg: 776,
@@ -1319,6 +1441,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 7 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['gozanticlasscruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1346,6 +1472,10 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 7 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['gozanticlasscruiser'] },
+    ],
   },
   {
     limited: 1,
@@ -1382,6 +1512,7 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
     cost: { value: 1 },
+    restrictions: [{ factions: ['Resistance'] }, { chassis: ['fireball'] }],
   },
   {
     limited: 1,
@@ -1401,6 +1532,7 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque [Front Arc], si vous êtes dans le du défenseur, vous pouvez changer 1 résultat [Hit] en un résultat [Critical Hit]. Ajoutez un emplacement [Gunner].',
         },
         title: { en: 'Slave I', de: 'Sklave I', es: 'Esclavo I' },
+        grants: [{ slot: 'Gunner', value: 1 }],
         type: 'Title',
         slots: ['Title'],
         ffg: 869,

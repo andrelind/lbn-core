@@ -93,7 +93,12 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    restrictions: [{ factions: ['Scum and Villainy'] }],
+    restrictions: [
+      {
+        factions: ['Scum and Villainy'],
+        character: ['darthvader', 'darthvader-tieddefender'],
+      },
+    ],
     hyperspace: true,
     epic: true,
   },
@@ -740,7 +745,10 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    restrictions: [{ factions: ['First Order'] }],
+    restrictions: [
+      { factions: ['First Order'] },
+      { action: { type: 'Coordinate', difficulty: 'White' } },
+    ],
     hyperspace: false,
     epic: true,
   },
@@ -1415,7 +1423,16 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 10 },
-    restrictions: [{ factions: ['Scum and Villainy'] }],
+    restrictions: [
+      {
+        factions: ['Scum and Villainy'],
+        character: [
+          'ezrabridger',
+          'ezrabridger-sheathipedeclassshuttle',
+          'ezrabridger-tielnfighter',
+        ],
+      },
+    ],
     hyperspace: false,
     epic: true,
   },
@@ -2587,6 +2604,7 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
   },
   {
     limited: 1,
@@ -2628,6 +2646,7 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     limited: 1,
@@ -2663,6 +2682,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 9 },
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'aaylasecura',
@@ -2704,6 +2724,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'agentterex',
@@ -2757,6 +2778,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'commandermalarus',
@@ -2819,6 +2841,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'commanderpyre',
@@ -2854,6 +2877,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'fives',
@@ -2885,6 +2909,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'ghostcompany',
@@ -2931,6 +2956,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [
+      { factions: ['Galactic Republic'] },
+      { action: { type: 'Rotate Arc' } },
+    ],
   },
   {
     xws: 'hondoohnaka',
@@ -2995,6 +3024,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'wolfpack',
@@ -3026,6 +3056,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'yoda',
@@ -3061,6 +3092,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     limited: 1,
@@ -3092,7 +3124,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    restrictions: [{ factions: ['Scum and Villainy', 'Separatist Alliance'] }],
+    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
   {
     limited: 1,

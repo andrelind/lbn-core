@@ -605,7 +605,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
+    restrictions: [
+      { baseSizes: ['Small', 'Medium'] },
+      { stat: { type: 'shields', value: 1 } },
+    ],
     cost: { variable: 'agility', values: { '0': 6, '1': 3, '2': 1, '3': 1 } },
   },
   {
@@ -679,6 +682,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['t70xwing'] }],
   },
   {
     limited: 0,
@@ -711,7 +715,15 @@ const t: UpgradeBase[] = [
       },
     ],
     standarized: true,
-    restrictions: [{}, {}],
+    restrictions: [
+      {
+        chassis: [
+          'vultureclassdroidfighter',
+          'hyenaclassdroidbomber',
+          'droidtrifighter',
+        ],
+      },
+    ],
     cost: { value: 0 },
   },
   {
@@ -746,6 +758,10 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
+    restrictions: [
+      { keywords: ['TIE'] },
+      { stat: { type: 'agility', value: 3 } },
+    ],
   },
 ];
 

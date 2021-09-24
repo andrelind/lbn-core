@@ -371,6 +371,7 @@ const t: UpgradeBase[] = [
     },
     hyperspace: false,
     epic: true,
+    restrictions: [{ baseSizes: ['Small'] }],
   },
   {
     xws: 'patience',
@@ -398,6 +399,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ sides: ['light'] }],
   },
   {
     limited: 0,
@@ -430,6 +432,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
+    restrictions: [{ baseSizes: ['Small'] }, { action: { type: 'Boost' } }],
   },
   {
     limited: 0,
@@ -449,6 +452,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     epic: true,
+    restrictions: [{ sides: ['light'] }],
   },
   {
     limited: 0,

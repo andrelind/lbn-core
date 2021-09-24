@@ -65,7 +65,12 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    restrictions: [{ factions: ['Scum and Villainy'] }],
+    restrictions: [
+      {
+        factions: ['Scum and Villainy'],
+        character: ['darthvader', 'darthvader-tieddefender'],
+      },
+    ],
     hyperspace: true,
     epic: true,
   },
@@ -683,6 +688,7 @@ const t: UpgradeBase[] = [
     cost: { value: 12 },
     hyperspace: false,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     limited: 0,
@@ -785,6 +791,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
   {
     xws: 'clonecaptainrex',
@@ -821,6 +828,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'suppressivegunner',
@@ -916,6 +924,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     limited: 0,

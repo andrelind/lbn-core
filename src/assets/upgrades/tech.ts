@@ -296,6 +296,7 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'automatedtargetpriority',
@@ -332,6 +333,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ initiative: { max: 3 } }],
   },
   {
     xws: 'sensorbuoysuite',
