@@ -101,14 +101,7 @@ const t: ShipType = {
         { difficulty: 'Red', type: 'Barrel Roll' },
         { difficulty: 'White', type: 'Rotate Arc' },
       ],
-      slots: [
-        'Talent',
-        'Missile',
-        'Illicit',
-        'Modification',
-        'Title',
-        'Gunner',
-      ],
+      slots: ['Talent', 'Missile', 'Illicit', 'Modification', 'Title'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
       ffg: 78,
@@ -135,15 +128,7 @@ const t: ShipType = {
           "Tant que vous vous déplacez, ignorez les obstacles. Angle Mort des Senseurs : tant que vous effectuez une attaque principale à portée d'attaque 0-1, n'appliquez pas le bonus de portée 0-1 et lancez 1 dé d'attaque en moins.",
         es: 'Mientras te mueves, ignoras los obstáculos.',
       },
-      slots: [
-        'Talent',
-        'Missile',
-        'Crew',
-        'Illicit',
-        'Modification',
-        'Title',
-        'Gunner',
-      ],
+      slots: ['Talent', 'Missile', 'Crew', 'Illicit', 'Modification', 'Title'],
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
       ffg: 77,

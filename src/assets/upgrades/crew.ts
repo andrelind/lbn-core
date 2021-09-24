@@ -2572,7 +2572,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'hondoohnaka',
     limited: 1,
-    cost: { value: 65 },
+    cost: { value: 5 },
     sides: [
       {
         title: { en: 'Hondo Ohnaka' },
