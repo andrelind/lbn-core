@@ -96,8 +96,8 @@ const t: UpgradeBase[] = [
         },
         slots: ['Configuration'],
         grants: [
-          { slot: 'Force Power', value: 1 },
-          { slot: 'Force Power', value: 1 },
+          { slot: 'Torpedo', value: 1 },
+          { slot: 'Missile', value: 1 },
         ],
         image: {
           en:
@@ -540,6 +540,7 @@ const t: UpgradeBase[] = [
     hyperspace: false,
     epic: true,
     cost: { value: 6 },
+    restrictions: [{ chassis: ['croccruiser'] }],
   },
   {
     limited: 0,
@@ -624,6 +625,7 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
     cost: { value: 0 },
+    restrictions: [{ chassis: ['asf01bwing'] }],
   },
   {
     xws: 'alpha3bbesh',
@@ -646,6 +648,7 @@ const t: UpgradeBase[] = [
           de: 'Alpha-3B „Besh"',
           es: 'Alfa-3B "Besh"',
         },
+        grants: [{ slot: 'Device', value: 1 }],
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: 870,
@@ -655,6 +658,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
     xws: 'interceptbooster',
@@ -721,6 +725,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['droidtrifighter'] }],
   },
   {
     xws: 'maneuverassistmgk300',
@@ -764,6 +769,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['tierbheavy'] }],
   },
   {
     xws: 'targetassistmgk300',
@@ -807,6 +813,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['tierbheavy'] }],
   },
   {
     xws: 'repulsorliftstabilizers',
@@ -868,6 +875,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['hmpdroidgunship'] }],
   },
   {
     limited: 0,
@@ -900,6 +908,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 0 },
+    restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
     xws: 'sensitivecontrols',
@@ -932,7 +941,7 @@ const t: UpgradeBase[] = [
     standarized: true,
     hyperspace: true,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [{ chassis: ['tieininterceptor', 'tievnsilencer'] }],
   },
   {
     xws: 'tiedefenderelite',
@@ -969,7 +978,6 @@ const t: UpgradeBase[] = [
     restrictions: [
       { factions: ['Galactic Empire'] },
       { chassis: ['tieddefender'] },
-      {},
     ],
   },
   {
@@ -1012,7 +1020,7 @@ const t: UpgradeBase[] = [
     standarized: true,
     hyperspace: true,
     epic: true,
-    restrictions: [{}, {}],
+    restrictions: [{ chassis: ['rz1awing'] }],
   },
   {
     limited: 0,

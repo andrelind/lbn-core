@@ -468,6 +468,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 6 },
     epic: true,
+    restrictions: [{ sides: ['dark'] }],
   },
   {
     limited: 0,

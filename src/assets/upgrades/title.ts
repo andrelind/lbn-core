@@ -17,7 +17,7 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         actions: [{ type: 'Reload', difficulty: 'White' }],
         grants: [
-          { slot: 'Force Power', value: 1 },
+          { slot: 'Device', value: 1 },
           { action: { type: 'Reload', difficulty: 'White' }, value: 1 },
         ],
         image: {
@@ -638,7 +638,7 @@ const t: UpgradeBase[] = [
             "Après avoir révélé une manœuvre de virage ([Turn Left] or [Turn Right]) ou de virage sur l'aile ([Bank Left] or [Bank Right]), vous pouvez régler votre cadran sur la manœuvre de même vitesse mais de direction opposée. Ajoutez un emplacement [Torpedo].",
         },
         slots: ['Title'],
-        grants: [{ slot: 'Force Power', value: 1 }],
+        grants: [{ slot: 'Torpedo', value: 1 }],
         image: {
           en:
             'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png',
@@ -676,7 +676,7 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         charges: { value: 2, recovers: 0 },
         grants: [
-          { slot: 'Force Power', value: 1 },
+          { slot: 'Modification', value: 1 },
           { stat: 'shields', value: 1 },
         ],
         image: {
@@ -1434,7 +1434,7 @@ const t: UpgradeBase[] = [
         },
         type: 'Title',
         slots: ['Title'],
-        grants: [{ slot: 'Force Power', value: 1 }],
+        grants: [{ slot: 'Gunner', value: 1 }],
         ffg: 923,
         artwork:
           'https://squadbuilder.fantasyflightgames.com/card_art/69e848f2da9a8f6f18d2f89096a94513.jpg',

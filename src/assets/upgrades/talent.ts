@@ -855,7 +855,10 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }, {}],
+    restrictions: [
+      { factions: ['Galactic Republic'] },
+      { 'non-limited': true },
+    ],
     cost: { value: 1 },
   },
   {
@@ -933,6 +936,7 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
     cost: { value: 4 },
+    restrictions: [{ chassis: ['nantexclassstarfighter'] }],
   },
   {
     limited: 0,
@@ -1038,6 +1042,7 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
     cost: { value: 2 },
+    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'deadeyeshot',
@@ -1074,6 +1079,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
   },
   {
     xws: 'ionlimiteroverride',
@@ -1106,7 +1112,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{}],
+    restrictions: [{ keywords: ['TIE'] }],
   },
   {
     xws: 'margsablclosure',
@@ -1139,6 +1145,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
   },
   {
     xws: 'starbirdslash',
@@ -1171,6 +1178,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['rz1awing', 'rz2awing'] }],
   },
   {
     xws: 'backwardstailslide',
@@ -1203,6 +1211,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['t65xwing', 't70xwing'] }],
   },
   {
     xws: 'cutthroat',
@@ -1235,6 +1244,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Scum and Villainy'] }],
   },
   {
     xws: 'tierfonbellyrun',
@@ -1267,6 +1277,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ chassis: ['btla4ywing', 'btlbywing'] }],
   },
   {
     xws: 'disciplined',
@@ -1299,6 +1310,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }],
   },
   {
     xws: 'hopeful',
@@ -1331,6 +1343,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     xws: 'interloperturn',
@@ -1383,7 +1396,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    restrictions: [{ action: { type: 'Reload' } }, {}],
+    restrictions: [{ action: { type: 'Reload' } }],
     hyperspace: true,
     epic: true,
   },
