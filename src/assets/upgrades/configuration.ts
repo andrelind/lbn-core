@@ -1038,6 +1038,8 @@ const t: UpgradeBase[] = [
           { action: { type: 'Lock', difficulty: 'White' }, value: 1 },
           { action: { type: 'Reload', difficulty: 'White' }, value: 1 },
           { stat: 'shields', value: 2 },
+          { slot: 'Torpedo', value: 1 },
+          { slot: 'Missile', value: 1 },
         ],
         image: { en: '???' },
         ffg: 929,
