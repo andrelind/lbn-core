@@ -26,18 +26,18 @@ export default function onAction(
   // console.log(action);
   switch (action.type) {
     case MARK_ALL_READ: {
-      const sorted = notes.sort((a, b) => {
-        if (a.id > b.id) {
-          return -1;
-        }
-        if (a.id < b.id) {
-          return 1;
-        }
-        return 0;
-      });
+      // const sorted = notes.sort((a, b) => {
+      //   if (a.id > b.id) {
+      //     return -1;
+      //   }
+      //   if (a.id < b.id) {
+      //     return 1;
+      //   }
+      //   return 0;
+      // });
 
       return {
-        lastRead: sorted[0].id,
+        lastRead: 36,
         numberOfUnread: 0,
       };
     }
