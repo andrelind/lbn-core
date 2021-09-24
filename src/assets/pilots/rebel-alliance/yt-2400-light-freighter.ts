@@ -101,13 +101,24 @@ const t: ShipType = {
         { difficulty: 'Red', type: 'Barrel Roll' },
         { difficulty: 'White', type: 'Rotate Arc' },
       ],
-      slots: ['Talent', 'Missile', 'Illicit', 'Modification', 'Title'],
+      slots: [
+        'Talent',
+        'Missile',
+        'Illicit',
+        'Illicit',
+        'Modification',
+        'Title',
+      ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
       ffg: 78,
       hyperspace: false,
       epic: true,
       keywords: ['Droid', 'Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png',
+      },
     },
     {
       name: { en: 'Dash Rendar' },
@@ -128,13 +139,25 @@ const t: ShipType = {
           "Tant que vous vous déplacez, ignorez les obstacles. Angle Mort des Senseurs : tant que vous effectuez une attaque principale à portée d'attaque 0-1, n'appliquez pas le bonus de portée 0-1 et lancez 1 dé d'attaque en moins.",
         es: 'Mientras te mueves, ignoras los obstáculos.',
       },
-      slots: ['Talent', 'Missile', 'Crew', 'Illicit', 'Modification', 'Title'],
+      slots: [
+        'Talent',
+        'Missile',
+        'Crew',
+        'Crew',
+        'Illicit',
+        'Modification',
+        'Title',
+      ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
       ffg: 77,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png',
+      },
     },
     {
       name: {
@@ -157,13 +180,17 @@ const t: ShipType = {
         es:
           'Aunque un carguero ligero YT-2400 recién salido de fábrica dispone de mucho espacio para la carga, a menudo se aprovecha ese espacio para instalar sistemas modificados de armamento y motores sobredimensionados.',
       },
-      slots: ['Missile', 'Crew', 'Illicit', 'Modification', 'Title', 'Gunner'],
+      slots: ['Missile', 'Crew', 'Crew', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
       ffg: 79,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png',
+      },
     },
   ],
 };

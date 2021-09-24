@@ -72,10 +72,14 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
       ffg: 195,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_195.png',
+      },
     },
     {
       name: { en: 'Captain Jostero', es: 'Capitán Jostero' },
@@ -101,10 +105,14 @@ const t: ShipType = {
       },
       slots: ['Missile', 'Illicit', 'Illicit', 'Modification', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg',
       ffg: 194,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_194.png',
+      },
     },
     {
       name: {
@@ -129,10 +137,14 @@ const t: ShipType = {
       },
       slots: ['Missile', 'Illicit', 'Illicit', 'Modification', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
       ffg: 196,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_196.png',
+      },
     },
     {
       name: { en: 'Graz' },
@@ -165,11 +177,15 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg',
       ffg: 192,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_192.png',
+      },
     },
     {
       name: { en: 'Talonbane Cobra' },
@@ -202,10 +218,14 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg',
       ffg: 191,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_191.png',
+      },
     },
     {
       name: { en: 'Viktor Hel' },
@@ -238,11 +258,15 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg',
       ffg: 193,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_193.png',
+      },
     },
   ],
 };

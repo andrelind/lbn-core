@@ -86,12 +86,16 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, tira 1 dado adicional si la nave enemiga es de un tamaño más grande que el tuyo.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 442,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png',
+      },
     },
     {
       name: {
@@ -120,13 +124,17 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, antes de que se tiren los dados de ataque, si no estás situado en el [Bullseye Arc] de la nave enemiga, puedes gastar 1 [Charge]. Si lo haces, la nave enemiga recibe 1 ficha de Interferencia.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg',
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification'],
       ffg: 443,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png',
+      },
     },
     {
       name: {
@@ -156,12 +164,16 @@ const t: ShipType = {
           'Antes de que intervengas, puedes elegir 1 nave enemiga que tengas a alcance 1-2 y esté situada en tu [Bullseye Arc] y recibir 1 ficha de Desarme. Si lo haces, esa nave recibe 1 ficha de Campo de tracción.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 441,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png',
+      },
     },
     {
       name: {
@@ -185,12 +197,16 @@ const t: ShipType = {
           'Con los proyectos de construcción imperiales consumiendo materias primas a un ritmo sin precedentes, el Gremio Minero explota implacablemente los yacimientos de doonio recién descubiertos en mundos como Batonn, Lothal y Umbara.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 445,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png',
+      },
     },
     {
       name: {
@@ -220,12 +236,16 @@ const t: ShipType = {
       },
       charges: { value: 1, recovers: 1 },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
       slots: ['Modification'],
       ffg: 444,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png',
+      },
     },
     {
       name: {
@@ -249,12 +269,16 @@ const t: ShipType = {
           'Como parte de su acuerdo con el Imperio, el Gremio Minero recibe cazas TIE/ln modificados para la protección de sus operaciones. A estos cazas se les han retirado varios paneles solares de sus estabilizadores para mejorar la visibilidad, y poseen sistemas de soporte vital más completos para mayor confort de sus pilotos corporativos.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
       slots: ['Modification'],
       ffg: 446,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png',
+      },
     },
   ],
 };

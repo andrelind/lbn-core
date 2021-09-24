@@ -103,10 +103,14 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
       ffg: 209,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_209.png',
+      },
     },
     {
       name: { en: 'Dalan Oberos' },
@@ -139,11 +143,15 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg',
       ffg: 208,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_208.png',
+      },
     },
     {
       name: { en: 'Torani Kulda' },
@@ -176,11 +184,15 @@ const t: ShipType = {
         'Modification',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg',
       ffg: 207,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_207.png',
+      },
     },
   ],
 };

@@ -67,12 +67,16 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, si tienes a la nave enemiga fijada como blanco, los dados de esa nave no se pueden modificar.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/c6a43d25d22d4112dd7e968cab4eb3d5.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/c6a43d25d22d4112dd7e968cab4eb3d5.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 397,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c7994885b38757f92bdf3a98c37b3c96.png',
+      },
     },
     {
       name: { en: 'Commander Malarus', es: 'Comandante Malarus' },
@@ -97,13 +101,17 @@ const t: ShipType = {
           'Al comienzo de la fase de Enfrentamiento, puedes gastar 1 [Charge] y recibir 1 ficha de Tensión. Si lo haces, hasta el final de la ronda, mientras te defiendes o efectúas un ataque, puedes cambiar todos tus resultados [Focus] por resultados [Evade] o [Hit].',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/d9cfa6aacc29d55a47aaa0d9f75d362e.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/d9cfa6aacc29d55a47aaa0d9f75d362e.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       charges: { value: 2, recovers: 0 },
       ffg: 452,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f7506ec739f5580d484ff0ee49b041f3.png',
+      },
     },
     {
       name: { en: '"Scorch"', de: '„Scorch"', es: '"Quemadura"' },
@@ -128,12 +136,16 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, si no estás bajo tensión, puedes recibir 1 ficha de Tensión para tirar 1 dado de ataque adicional.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/dd225b2dab46b921e622dca6d799591f.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/dd225b2dab46b921e622dca6d799591f.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 398,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/9dd11d408bb869cb947663fc29622833.png',
+      },
     },
     {
       name: { en: '"Static"', de: '„Static"', es: '"Estática"' },
@@ -158,12 +170,16 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, puedes gastar tu Blanco fijado sobre el defensor y una ficha de Concentración para cambiar todos tus resultados por resultados 󲁨.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 399,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/2481fe5d98026e086a901d83dbe87018.png',
+      },
     },
     {
       name: { en: '"Longshot"', de: '„Longshot"', es: '"Tiro Aventurado"' },
@@ -183,12 +199,16 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal a alcance de ataque 3, tira 1 dado de ataque adicional.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/31ad38b2fc0d39f37ad82e1c70f62135.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/31ad38b2fc0d39f37ad82e1c70f62135.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 400,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d0e698f59696c15b60d7eaa1e2d51eeb.png',
+      },
     },
     {
       name: {
@@ -212,12 +232,16 @@ const t: ShipType = {
           'Sólo los pilotos que han demostrado una habilidad excepcional acompañada de una dedicación inquebrantable son recompensados con uno de los prestigiosos puestos en los escuadrones de la Primera Orden que actuaron en secreto contra la Nueva República durante la Guerra Fría.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/4e5010f7b60902288dac36bf646dcde9.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/4e5010f7b60902288dac36bf646dcde9.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 403,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/97e72d0f5dc8c2dd21a355e3258f37dd.png',
+      },
     },
     {
       name: { en: '"Muse"', de: '„Muse"', es: '"Musa"' },
@@ -242,12 +266,16 @@ const t: ShipType = {
           'Al comienzo de la fase de Enfrentamiento, puedes elegir una nave aliada que tengas a alcance 0-1. Si lo haces, esa nave retira 1 ficha de Tensión.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 401,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/7de4e91de0906eb548bfe3a08a1b6abe.png',
+      },
     },
     {
       name: { en: 'TN-3465' },
@@ -272,12 +300,16 @@ const t: ShipType = {
           'Mientras otra nave aliada efectúa un ataque, si estás a alcance 0-1 del defensor, puedes sufrir 1 de daño [Critical Hit] para cambiar 1 de los resultados del atacante por un resultado [Critical Hit].',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/9fce0e75539a225e9ff1536e466c3c13.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/9fce0e75539a225e9ff1536e466c3c13.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 453,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/333cbf0da8849edb38c4e93944d8fe57.png',
+      },
     },
     {
       name: {
@@ -301,12 +333,16 @@ const t: ShipType = {
           'Sin las trabas de una engorrosa burocracia galáctica, las tecnologías que fueron investigadas originalmente en el programa de TIE avanzado del Imperio se producen ahora en masa para los cazas estelares de la Primera Orden. Como resultado, los pilotos de TIE/fo disfrutan de unos índices de supervivencia superiores a los de sus predecesores en el Imperio Galáctico.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/d20d6cc2a052afc783d535c802874d23.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/d20d6cc2a052afc783d535c802874d23.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 404,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/be1062b6a7a8e4644223146342990a02.png',
+      },
     },
     {
       name: {
@@ -330,12 +366,16 @@ const t: ShipType = {
           'Entrenados desde su infancia a bordo de destructores estelares clase Resurgente en pleno espacio profundo, muchos de los pilotos de cazas TIE de la Primera Orden nunca han llegado a pisar la superficie de un planeta.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/610cb198e4cda75aab0207841c6e4a87.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/610cb198e4cda75aab0207841c6e4a87.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 405,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e911cd18f04225bbd36c48114b56f3cc.png',
+      },
     },
     {
       name: { en: 'Lieutenant Rivas', es: 'Teniente Rivas' },
@@ -350,7 +390,7 @@ const t: ShipType = {
       cost: 28,
       xws: 'lieutenantrivas',
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/66f969d008fc995bd940bf1ab647109f.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/66f969d008fc995bd940bf1ab647109f.jpg',
       ability: {
         en:
           'After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.',
@@ -366,6 +406,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/7188ec2eb699261dbd47a15df6164f4c.png',
+      },
     },
     {
       name: { en: '"Null"', de: '„Null"', es: '"Nulo"' },
@@ -389,12 +433,16 @@ const t: ShipType = {
           'Mientras no estés dañado, tu valor de Iniciativa se considera que es 7.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/eb788d9622d096c6d96c96cf20dc1939.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/eb788d9622d096c6d96c96cf20dc1939.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 402,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/79a9d780d3540647af1e057113869294.png',
+      },
     },
   ],
 };

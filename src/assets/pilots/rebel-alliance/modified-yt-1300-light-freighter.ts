@@ -78,11 +78,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg',
       ffg: 71,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_71.png',
+      },
     },
     {
       name: { en: 'Han Solo' },
@@ -117,11 +121,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
       ffg: 69,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png',
+      },
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -156,11 +164,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg',
       ffg: 70,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png',
+      },
     },
     {
       name: {
@@ -193,11 +205,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
       ffg: 72,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_72.png',
+      },
     },
     {
       name: { en: 'Leia Organa' },
@@ -214,14 +230,14 @@ const t: ShipType = {
       epic: true,
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
+        'Force Power',
         'Missile',
         'Crew',
         'Crew',
+        'Gunner',
         'Modification',
         'Modification',
         'Title',
-        'Gunner',
-        'Force Power',
       ],
       ability: {
         en:
@@ -236,8 +252,12 @@ const t: ShipType = {
       cost: 77,
       ffg: 630,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png',
+      },
     },
   ],
 };

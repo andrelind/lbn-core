@@ -66,11 +66,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
       ffg: 81,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png',
+      },
     },
     {
       name: {
@@ -100,11 +104,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
       ffg: 80,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_80.png',
+      },
     },
     {
       name: {
@@ -134,11 +142,15 @@ const t: ShipType = {
       },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
       ffg: 88,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_88.png',
+      },
     },
     {
       name: {
@@ -168,11 +180,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
       ffg: 82,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_82.png',
+      },
     },
     {
       name: { en: '"Wampa"', de: '„Wampa"' },
@@ -199,11 +215,15 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
       ffg: 89,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png',
+      },
     },
     {
       name: {
@@ -235,11 +255,15 @@ const t: ShipType = {
       ],
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
       ffg: 92,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_92.png',
+      },
     },
     {
       name: {
@@ -271,11 +295,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
       ffg: 90,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_90.png',
+      },
     },
     {
       name: { en: 'Del Meeko' },
@@ -301,11 +329,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
       ffg: 85,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_85.png',
+      },
     },
     {
       name: { en: 'Gideon Hask' },
@@ -331,11 +363,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
       ffg: 84,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_84.png',
+      },
     },
     {
       name: { en: 'Iden Versio' },
@@ -362,11 +398,15 @@ const t: ShipType = {
       charges: { value: 1, recovers: 0 },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
       ffg: 83,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png',
+      },
     },
     {
       name: {
@@ -398,11 +438,15 @@ const t: ShipType = {
       ],
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
       ffg: 91,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_91.png',
+      },
     },
     {
       name: { en: 'Seyn Marana' },
@@ -428,11 +472,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
       ffg: 86,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png',
+      },
     },
     {
       name: { en: 'Valen Rudor' },
@@ -458,11 +506,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg',
       ffg: 87,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png',
+      },
     },
   ],
 };

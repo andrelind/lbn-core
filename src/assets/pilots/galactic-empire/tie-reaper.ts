@@ -93,11 +93,15 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_115.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_115.jpg',
       ffg: 115,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_115.png',
+      },
     },
     {
       name: {
@@ -127,11 +131,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg',
       ffg: 114,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_114.png',
+      },
     },
     {
       name: { en: 'Major Vermeil' },
@@ -157,11 +165,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_113.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_113.jpg',
       ffg: 113,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_113.png',
+      },
     },
     {
       name: {
@@ -193,11 +205,15 @@ const t: ShipType = {
       ],
       slots: ['Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
       ffg: 116,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_116.png',
+      },
     },
   ],
 };

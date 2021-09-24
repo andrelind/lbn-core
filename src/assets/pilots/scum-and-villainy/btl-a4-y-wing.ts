@@ -70,14 +70,18 @@ const t: ShipType = {
         'Device',
         'Illicit',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg',
       ffg: 168,
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png',
+      },
     },
     {
       name: { en: 'Drea Renthal' },
@@ -109,14 +113,18 @@ const t: ShipType = {
         'Device',
         'Illicit',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg',
       ffg: 166,
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png',
+      },
     },
     {
       name: {
@@ -147,14 +155,18 @@ const t: ShipType = {
         'Device',
         'Illicit',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg',
       ffg: 167,
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png',
+      },
     },
     {
       name: { en: 'Kavil' },
@@ -186,14 +198,18 @@ const t: ShipType = {
         'Device',
         'Illicit',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg',
       ffg: 165,
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png',
+      },
     },
     {
       xws: 'leemakai',
@@ -219,17 +235,19 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
+        'Tech',
         'Turret',
         'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
-        'Gunner',
-        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 898,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg',
     },
     {
       xws: 'arlizhadrassian',
@@ -255,17 +273,56 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
+        'Tech',
         'Turret',
         'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
-        'Gunner',
-        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 899,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg',
+    },
+    {
+      xws: 'amaxinewarrior',
+      name: {
+        en: 'Amaxine Warrior',
+        de: 'Amaxinen-Krieger',
+        es: 'Guerrero amaxino',
+        fr: 'Guerrier Amaxine',
+      },
+      cost: 33,
+      initiative: 3,
+      limited: 0,
+      slots: [
+        'Talent',
+        'Tech',
+        'Turret',
+        'Torpedo',
+        'Missile',
+        'Astromech',
+        'Device',
+      ],
+      hyperspace: true,
+      epic: true,
+      keywords: ['Y-wing'],
+      ffg: 901,
+      text: {
+        en:
+          'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
+        de:
+          'Auch Jahrzehnte nach der Schlacht von Endor sind ehemalige Anhänger des Imperiums noch in der Neuen Republik aktiv. Viele von ihnen haben sich paramilitärischen Organisationen wie den Amaxinen-Kriegern angeschlossen, die mit ihren martialischen Traditionen und ihrer Kriegerkultur die hasserfüllte Ideologie der Ersten Ordnung unter denjenigen verbreiten, die am anfälligsten dafür sind.',
+        es:
+          'Décadas después de la batalla de Endor, antiguos imperiales siguen activos en la Nueva República. Muchos se han unido a organizaciones paramilitares, como la de los guerreros amaxinos, que se apropian de tradiciones y culturas marciales para difundir la detestable ideología de la Primera orden entre quienes son más vulnerables a ella.',
+        fr:
+          "Des décennies après la Bataille d'Endor, d'anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s'approprient les traditions et cultures martiales pour répandre l'idéologie haineuse du Premier Ordre parmi les individus les plus influençables.",
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg',
     },
     {
       xws: 'padric',
@@ -291,52 +348,19 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
+        'Tech',
         'Turret',
         'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
-        'Gunner',
-        'Tech',
       ],
       hyperspace: false,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 900,
-    },
-    {
-      xws: 'amaxinewarrior',
-      name: {
-        en: 'Amaxine Warrior',
-        de: 'Amaxinen-Krieger',
-        es: 'Guerrero amaxino',
-        fr: 'Guerrier Amaxine',
-      },
-      cost: 33,
-      initiative: 3,
-      limited: 0,
-      slots: [
-        'Talent',
-        'Turret',
-        'Torpedo',
-        'Astromech',
-        'Device',
-        'Gunner',
-        'Tech',
-      ],
-      hyperspace: true,
-      epic: true,
-      keywords: ['Y-wing'],
-      ffg: 901,
-      text: {
-        en:
-          'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
-        de:
-          'Auch Jahrzehnte nach der Schlacht von Endor sind ehemalige Anhänger des Imperiums noch in der Neuen Republik aktiv. Viele von ihnen haben sich paramilitärischen Organisationen wie den Amaxinen-Kriegern angeschlossen, die mit ihren martialischen Traditionen und ihrer Kriegerkultur die hasserfüllte Ideologie der Ersten Ordnung unter denjenigen verbreiten, die am anfälligsten dafür sind.',
-        es:
-          'Décadas después de la batalla de Endor, antiguos imperiales siguen activos en la Nueva República. Muchos se han unido a organizaciones paramilitares, como la de los guerreros amaxinos, que se apropian de tradiciones y culturas marciales para difundir la detestable ideología de la Primera orden entre quienes son más vulnerables a ella.',
-        fr:
-          "Des décennies après la Bataille d'Endor, d'anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s'approprient les traditions et cultures martiales pour répandre l'idéologie haineuse du Premier Ordre parmi les individus les plus influençables.",
-      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg',
     },
     {
       xws: 'jinatasecurityofficer',
@@ -349,7 +373,7 @@ const t: ShipType = {
       cost: 30,
       initiative: 2,
       limited: 0,
-      slots: ['Turret', 'Torpedo', 'Astromech', 'Device', 'Gunner', 'Tech'],
+      slots: ['Tech', 'Turret', 'Torpedo', 'Missile', 'Astromech', 'Device'],
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
@@ -364,6 +388,8 @@ const t: ShipType = {
         fr:
           "Basé dans l'ancien bastion Impérial de Vardos, la Sécurité Jinata poursuit ses efforts de reconstruction sur la planète dévastée, tout en collaborant avec le programme de réarmement du Premier Ordre.",
       },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg',
     },
   ],
 };

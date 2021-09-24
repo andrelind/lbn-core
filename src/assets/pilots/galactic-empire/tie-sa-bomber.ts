@@ -109,11 +109,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg',
       ffg: 110,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_110.png',
+      },
     },
     {
       name: { en: 'Captain Jonus', es: 'Capitán Jonus' },
@@ -148,11 +152,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg',
       ffg: 108,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_108.png',
+      },
     },
     {
       name: {
@@ -186,11 +194,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg',
       ffg: 111,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_111.png',
+      },
     },
     {
       name: { en: 'Major Rhymer', es: 'Mayor Rhymer' },
@@ -225,11 +237,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg',
       ffg: 109,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_109.png',
+      },
     },
     {
       name: {
@@ -261,11 +277,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg',
       ffg: 112,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_112.png',
+      },
     },
     {
       name: { en: 'Tomax Bren' },
@@ -300,11 +320,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg',
       ffg: 107,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_107.png',
+      },
     },
   ],
 };

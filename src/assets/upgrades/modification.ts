@@ -25,8 +25,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_68.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_68.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_68.jpg',
         ffg: 292,
       },
     ],
@@ -49,7 +53,7 @@ const t: UpgradeBase[] = [
         type: 'Modification',
         ability: {
           en:
-            'After you perform a [Slam] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.',
+            'After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.',
           de:
             'Nachdem du eine [Slam]-Aktion durchgeführt hast, falls du das Manöver vollständig ausgeführt hast, darfst du eine weiße Aktion aus deiner Aktionsleiste durchführen, wobei du jene Aktion behandelst, als wäre sie rot.',
           es:
@@ -58,13 +62,17 @@ const t: UpgradeBase[] = [
             "Après avoir effectué une action [Slam], si vous avez entièrement exécuté la manœuvre, vous pouvez effectuer une action blanche de votre barre d'action, en la considérant comme rouge.",
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg',
         ffg: 293,
       },
     ],
     cost: { value: 3 },
-    restrictions: [{ action: { type: 'SLAM' } }],
+    restrictions: [{ action: { type: 'SLAM', difficulty: 'White' } }],
     hyperspace: false,
     epic: true,
   },
@@ -92,8 +100,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_70.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg',
         ffg: 294,
       },
     ],
@@ -128,8 +140,12 @@ const t: UpgradeBase[] = [
             'Pendant la phase de dénouement, vous pouvez subir 1 dégât [Hit] pour retirer 1 marqueur rouge.',
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_71.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg',
         ffg: 295,
       },
     ],
@@ -160,9 +176,14 @@ const t: UpgradeBase[] = [
             'Las grandes fuerzas militares como las del Imperio Galáctico utilizan componentes de motores estandarizados, pero los pilotos individuales y las organizaciones pequeñas suelen reemplazar los acoplamientos de energía, añadir propulsores o emplear combustible de alto rendimiento para aumentar las prestaciones de sus motores.',
         },
         slots: ['Modification'],
+        actions: [{ type: 'Boost', difficulty: 'White' }],
         grants: [{ action: { type: 'Boost', difficulty: 'White' }, value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_72.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg',
         ffg: 296,
       },
     ],
@@ -198,8 +219,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Modification'],
         grants: [{ stat: 'hull', value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_73.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg',
         ffg: 297,
       },
     ],
@@ -230,8 +255,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque [Torpedo] ou [Missile], après avoir lancé les dés d'attaque, vous pouvez annuler tous les résultats des dés pour récupérer 1 [Charge] que vous avez dépensée comme coût pour l'attaque.",
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_74.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg',
         ffg: 298,
       },
     ],
@@ -263,8 +292,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Modification'],
         grants: [{ stat: 'shields', value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_75.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg',
         ffg: 299,
       },
     ],
@@ -295,8 +328,12 @@ const t: UpgradeBase[] = [
             'Si vous devez gagner un marqueur ionique ou de brouillage, vous pouvez choisir un vaisseau à portée 0-1. Dans ce cas, gagnez 1 marqueur de stress et transférez 1 marqueur ionique ou de brouillage à ce vaisseau.',
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/9c42b09b923d60ac8504e52bd0cbaf25.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg',
         ffg: 300,
       },
     ],
@@ -328,8 +365,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Modification'],
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_77.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_77.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_77.jpg',
         ffg: 301,
       },
     ],
@@ -360,8 +401,12 @@ const t: UpgradeBase[] = [
             "Tant que vous gênez l'attaque d'un vaisseau ennemi, le défenseur lance 1 dé de défense supplémentaire.",
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_78.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg',
         ffg: 302,
       },
     ],
@@ -394,7 +439,13 @@ const t: UpgradeBase[] = [
         },
         charges: { value: 2, recovers: 0 },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/93e0fe1b2931944d128126b854c4ad33.png',
+        },
         ffg: 534,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/20769de45863e2bbb180f05e6ed1e0e3.jpg',
       },
     ],
     restrictions: [{ chassis: ['belbullab22starfighter'] }],
@@ -425,12 +476,18 @@ const t: UpgradeBase[] = [
             "Après avoir effectué une attaque, vous pouvez choisir un vaisseau allié à portée 1 ou un vaisseau allié qui possède l'amélioration Console Synchronisée à portée 1-3 et dépenser un verrouillage que vous avez sur le défenseur. Dans ce cas, le vaisseau allié que vous avez choisi peut verrouiller le défenseur.",
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/e3e5bd38f39f904fbaaa75293e56fb38.png',
+        },
         ffg: 554,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f105bb42b6d3500c300e48ab695c1647.jpg',
       },
     ],
     restrictions: [
       { factions: ['Galactic Republic'] },
-      { action: { type: 'Lock' } },
+      { action: { type: 'Lock', difficulty: 'White' } },
     ],
     hyperspace: true,
     epic: true,
@@ -460,7 +517,13 @@ const t: UpgradeBase[] = [
         },
         charges: { value: 1, recovers: 0 },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/79d9f2b2bc32bd78ab67dc82eece696a.png',
+        },
         ffg: 550,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg',
       },
     ],
     hyperspace: false,
@@ -491,7 +554,13 @@ const t: UpgradeBase[] = [
             "Après avoir largué, lancé ou placé une bombe ou une mine, vous pouvez placer dessus 1 marqueur d'amorce.",
         },
         slots: ['Modification'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/4572ece39224eeaf2dfce2770b96f919.png',
+        },
         ffg: 592,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg',
       },
     ],
     hyperspace: false,
@@ -503,13 +572,6 @@ const t: UpgradeBase[] = [
     xws: 'angleddeflectors',
     sides: [
       {
-        title: {
-          en: 'Angled Deflectors',
-          de: 'Ausgerichtete Deflektoren',
-          fr: 'Déflecteurs Orientables',
-          es: 'Deflectores reajustados',
-        },
-        type: 'Modification',
         text: {
           en:
             "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
@@ -520,20 +582,30 @@ const t: UpgradeBase[] = [
           es:
             'Los escudos de los cazas estelares suelen tener controles manuales que permiten reajustarlos para aumentar la protección frontal o posterior,. Sin embargo, hacer esto deja la nave expuesta si el piloto no es perfectamente consciente de lo que ocurre a su alrededor.',
         },
+        title: {
+          en: 'Angled Deflectors',
+          de: 'Ausgerichtete Deflektoren',
+          fr: 'Déflecteurs Orientables',
+          es: 'Deflectores reajustados',
+        },
+        type: 'Modification',
         slots: ['Modification'],
         grants: [
-          { action: { type: 'Reinforce', difficulty: 'White' }, value: 1 },
           { stat: 'shields', value: -1 },
+          { action: { type: 'Reinforce', difficulty: 'White' }, value: 1 },
         ],
         ffg: 593,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png',
+        },
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [
-      { baseSizes: ['Small', 'Medium'] },
-      { stat: { type: 'shields', value: 1 } },
-    ],
+    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     cost: { variable: 'agility', values: { '0': 6, '1': 3, '2': 1, '3': 1 } },
   },
   {
@@ -541,16 +613,19 @@ const t: UpgradeBase[] = [
     xws: 'targetingcomputer',
     sides: [
       {
+        ffg: 619,
         title: {
           en: 'Targeting Computer',
           de: 'Zielcomputer',
           fr: 'Ordinateur de Visée',
           es: 'Computadora de selección de blancos',
         },
-        type: 'Modification',
-        slots: ['Modification'],
-        grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
-        ffg: 619,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2e8e6572a5802967220296ec22e5d8cb.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/619d3d56eadaada29c6602cc7cd00148.png',
+        },
         text: {
           en:
             'Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.',
@@ -561,6 +636,9 @@ const t: UpgradeBase[] = [
           es:
             'Las computadoras de selección de blancos son componentes habituales en muchas naves, sobre todo en aquellas diseñadas para disparar cabezas explosivas. Algunos cazas estelares y transportes pequeños carecen de estos sistemas de guiado de armas, aunque eso no impide instalárselos como una modificación ulterior.',
         },
+        slots: ['Modification'],
+        type: 'Modification',
+        grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
       },
     ],
     hyperspace: false,
@@ -576,16 +654,9 @@ const t: UpgradeBase[] = [
     },
     sides: [
       {
-        title: {
-          en: 'Overdrive Thruster',
-          de: 'Übersteuerte Schubdüsen',
-          es: 'Propulsor de refuerzo',
-          fr: 'Surcharge des Propulseurs',
-        },
-        type: 'Modification',
         ability: {
           en:
-            'While you perform a red [Boost], [Barrel Roll], or [Slam] action, you must use a template of 1 speed higher, if able.',
+            'While you perform a red [Boost], [Barrel Roll], or [SLAM] action, you must use a template of 1 speed higher, if able.',
           de:
             'Solange du eine rote [Boost]-, [Barrel Roll]- oder [Slam]-Aktion durchführst, musst du eine Schablone mit einer um 1 höheren Geschwindigkeit verwenden, falls möglich.',
           es:
@@ -593,13 +664,21 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une action rouge [Boost], [Barrel Roll] ou [Slam], vous devez utiliser un gabarit de 1 vitesse supérieure, si possible.',
         },
+        title: {
+          en: 'Overdrive Thruster',
+          de: 'Übersteuerte Schubdüsen',
+          es: 'Propulsor de refuerzo',
+          fr: 'Surcharge des Propulseurs',
+        },
+        type: 'Modification',
         slots: ['Modification'],
         ffg: 721,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fb6fef19ae0bf5b42d4da716f4826c26.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['t70xwing'] }],
   },
   {
     limited: 0,
@@ -627,18 +706,12 @@ const t: UpgradeBase[] = [
         type: 'Modification',
         slots: ['Modification'],
         ffg: 866,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/327275e06ddaac1afbe7b8209883aa4b.jpg',
       },
     ],
     standarized: true,
-    restrictions: [
-      {
-        chassis: [
-          'vultureclassdroidfighter',
-          'hyenaclassdroidbomber',
-          'droidtrifighter',
-        ],
-      },
-    ],
+    restrictions: [{}, {}],
     cost: { value: 0 },
   },
   {
@@ -664,17 +737,15 @@ const t: UpgradeBase[] = [
           es: 'Motores iónicos de precisión',
           fr: 'Moteurs Ioniques de Précision',
         },
-        charges: { value: 2, recovers: 0 },
         type: 'Modification',
         slots: ['Modification'],
+        charges: { value: 2, recovers: 0 },
         ffg: 867,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fbafd721fa85216ee1d16d305e31e694.jpg',
       },
     ],
     cost: { value: 2 },
-    restrictions: [
-      { keywords: ['TIE'] },
-      { stat: { type: 'agility', value: 3 } },
-    ],
   },
 ];
 

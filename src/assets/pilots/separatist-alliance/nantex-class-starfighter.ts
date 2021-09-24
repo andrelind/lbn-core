@@ -97,6 +97,12 @@ const t: ShipType = {
       slots: ['Talent'],
       cost: 35,
       ffg: 609,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg',
     },
     {
       name: { en: 'Sun Fac' },
@@ -124,6 +130,12 @@ const t: ShipType = {
         fr: "Homme de Main de l'Archiduc",
         es: 'Lugarteniente del Archiduque',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg',
     },
     {
       name: { en: 'Berwer Kret' },
@@ -151,6 +163,12 @@ const t: ShipType = {
         fr: 'Capitaine de la Garde de la Ruche',
         es: 'Capitán de la guardia de la colmena',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg',
     },
     {
       name: { en: 'Chertek' },
@@ -178,6 +196,12 @@ const t: ShipType = {
         fr: 'As Opportuniste',
         es: 'As oportunista',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg',
     },
     {
       name: { en: 'Gorgol' },
@@ -205,6 +229,12 @@ const t: ShipType = {
         fr: 'Ingénieur Habile',
         es: 'Ingeniero mañoso',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d2d0764f83a2740f407082e934986ff2.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg',
     },
     {
       name: {
@@ -217,7 +247,7 @@ const t: ShipType = {
       ffg: 608,
       initiative: 4,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg',
       text: {
         en:
           'The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.',
@@ -233,6 +263,10 @@ const t: ShipType = {
       limited: 0,
       slots: ['Talent', 'Talent'],
       xws: 'petranakiarenaace',
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png',
+      },
     },
   ],
   ffg: 67,

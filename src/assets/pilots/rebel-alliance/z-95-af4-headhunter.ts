@@ -66,10 +66,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
       ffg: 27,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_27.png',
+      },
     },
     {
       name: {
@@ -94,10 +98,14 @@ const t: ShipType = {
       },
       slots: ['Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
       ffg: 30,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_30.png',
+      },
     },
     {
       name: { en: 'Lieutenant Blount', es: 'Teniente Blount' },
@@ -123,10 +131,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
       ffg: 28,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_28.png',
+      },
     },
     {
       name: {
@@ -151,10 +163,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
       ffg: 29,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_29.png',
+      },
     },
   ],
 };

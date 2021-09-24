@@ -84,6 +84,12 @@ const t: ShipType = {
           'Al comienzo de la fase Final, cada nave aliada que tengas a alcance 0-1 cuya maniobra revelada sea de velocidad 3-5 puede recibir 1 ficha de Sobresfuerzo para realizar una acción [Barrel Roll] o [Boost].',
       },
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e1fe9b6985d7c9960d634734abd9f9eb.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/14be5b23859dff4b6213511eb97e4e5b.jpg',
     },
     {
       xws: 'hound',
@@ -120,6 +126,12 @@ const t: ShipType = {
           'Después de que una nave pequeña aliada en tu [Single Turret Arc] reciba una ficha de Merma o de Sobresfuerzo, si no tienes ninguna ficha de ese tipo, puedes transferir esa ficha a ti mismo.',
       },
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/2230c99fa815740b48c9350547e1c299.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a88730785b8495c24b1711278ed18934.jpg',
     },
     {
       xws: 'warthog',
@@ -156,6 +168,12 @@ const t: ShipType = {
           'Después de que tu nave o una nave aliada que no sea limitada y tengas a alcance 0-2 sea destruida durante la fase de Enfrentamiento, esa nave no se retira hasta el final de esa fase.',
       },
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/1a2d9bd52455f4da3de74de0d9a78380.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f1866068850a0c806bfbe03c8bba2d07.jpg',
     },
     {
       name: {
@@ -191,6 +209,12 @@ const t: ShipType = {
       cost: 47,
       ffg: 663,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/0967a5458478435b72971f7d972a8aaf.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b8538000c5745f53f79e9b6650e6deec.jpg',
     },
   ],
   ffg: 74,

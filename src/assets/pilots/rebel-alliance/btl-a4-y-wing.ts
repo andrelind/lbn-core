@@ -66,14 +66,18 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
       ffg: 14,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_14.png',
+      },
     },
     {
       name: { en: 'Evaan Verlaine' },
@@ -104,14 +108,18 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
       ffg: 16,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_16.png',
+      },
     },
     {
       name: {
@@ -141,7 +149,7 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       alt: [
         {
@@ -151,11 +159,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_17.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_17.jpg',
       ffg: 17,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_17.png',
+      },
     },
     {
       name: {
@@ -184,14 +196,18 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
       ffg: 18,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_18.png',
+      },
     },
     {
       name: { en: 'Horton Salm' },
@@ -217,14 +233,18 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
       ffg: 15,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_15.png',
+      },
     },
     {
       name: { en: 'Norra Wexley' },
@@ -255,14 +275,18 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Gunner',
+        'Missile',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',
       ffg: 13,
       hyperspace: true,
       epic: true,
       keywords: ['Y-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_13.png',
+      },
     },
   ],
 };

@@ -91,11 +91,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Device', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
       ffg: 118,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_118.png',
+      },
     },
     {
       name: { en: '"Duchess"', de: '„Herzogin"', es: '"Duquesa"' },
@@ -121,11 +125,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Device', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
       ffg: 117,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_117.png',
+      },
     },
     {
       name: { en: '"Pure Sabacc"', de: '„Voller Sabacc"', es: '"Sabacc Puro"' },
@@ -151,11 +159,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Device', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
       ffg: 119,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_119.png',
+      },
     },
     {
       name: {
@@ -180,11 +192,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Device', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg',
       ffg: 120,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_120.png',
+      },
     },
     {
       name: {
@@ -209,11 +225,15 @@ const t: ShipType = {
       },
       slots: ['Device', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg',
       ffg: 121,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_121.png',
+      },
     },
     {
       name: { en: '"Vagabond"', de: '„Vagabond"', es: '"Vagabundo"' },
@@ -237,11 +257,17 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra utilizando tus Alerones adaptativos, si no estás bajo tensión, puedes soltar 1 dispositivo.',
       },
-      slots: ['Talent', 'Device', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Gunner', 'Device', 'Modification'],
       hyperspace: false,
       epic: true,
       ffg: 633,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg',
     },
   ],
 };

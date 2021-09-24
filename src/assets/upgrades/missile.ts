@@ -32,8 +32,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_36.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg',
         ffg: 265,
       },
     ],
@@ -72,8 +76,12 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_37.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg',
         ffg: 266,
       },
     ],
@@ -103,6 +111,10 @@ const t: UpgradeBase[] = [
           fr:
             'Attaque ([Lock]) : dépensez 1 [Charge]. Après que cette attaque a touché, chaque vaisseau à portée 0-1 du défenseur expose 1 de ses cartes de dégât.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_38.png',
+        },
         slots: ['Missile'],
         charges: { value: 3, recovers: 0 },
         attack: {
@@ -113,7 +125,7 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg',
         ffg: 267,
       },
     ],
@@ -152,8 +164,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_39.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg',
         ffg: 268,
       },
     ],
@@ -192,8 +208,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_40.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg',
         ffg: 269,
       },
     ],
@@ -219,6 +239,10 @@ const t: UpgradeBase[] = [
           es: 'Ataque ([Focus]): Gasta 1 [Charge].',
           fr: 'Attaque ([Focus]) : dépensez 1 [Charge].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_41.png',
+        },
         slots: ['Missile'],
         charges: { value: 1, recovers: 0 },
         attack: {
@@ -229,7 +253,7 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg',
         ffg: 270,
       },
     ],
@@ -267,8 +291,14 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/4b6213e5ed13735bb381df08bdd1398d.png',
+        },
         slots: ['Missile'],
         ffg: 532,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a0eeefcf98562fdbc606c8638c35b6db.jpg',
       },
     ],
     restrictions: [
@@ -293,7 +323,7 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         ability: {
           en:
-            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
+            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
           de:
             'Zu Beginn der Kampfphase darfst du 1 Berechnungsmarker und 1 [Charge] ausgeben, um unter Verwendung der (3 [Bank Left])-, (3 [Straight]) oder (3 [Bank Right])-Schablone 1 Buzz- Droidenschwarm zu starten. Die [Charge] dieser Karte kann nicht wiederhergestellt werden.',
           es:
@@ -302,6 +332,10 @@ const t: UpgradeBase[] = [
             "Au début de la phase d'engagement, vous pouvez dépenser 1 marqueur de calcul et 1 [Charge] pour lancer 1 nuée de droïdes buzz en utilisant le gabarit (3 [Bank Left]), (3 [Straight]) ou (3 [Bank Right]. La [Charge] de cette carte ne peut pas être récupérée.",
         },
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/ee2f0b906cb4f1dbcafc274f44b76d3d.png',
+        },
         slots: ['Missile'],
         device: {
           name: 'Buzz Droid Swarm',
@@ -310,6 +344,8 @@ const t: UpgradeBase[] = [
             'After an enemy ship moves through or overlaps you, relocate to its front or rear guides (you are at range 0 of this ship). You cannot overlap an object this way. If you cannot be placed at either set of guides, you and that ship each suffer 1 [Hit] damage. Engagement Phase: At your initiative, each enemy ship at range 0 suffers 1 [Critical Hit] damage.',
         },
         ffg: 543,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg',
       },
     ],
     cost: { value: 4 },
@@ -348,7 +384,13 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f2c1893053af65ce47300fb133a30312.png',
+        },
         ffg: 580,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg',
       },
     ],
     hyperspace: true,
@@ -360,14 +402,6 @@ const t: UpgradeBase[] = [
     xws: 'magpulsewarheads',
     sides: [
       {
-        title: {
-          en: 'Mag-Pulse Warheads',
-          de: 'Magnetimpuls-Sprengköpfe',
-          fr: 'Ogives à Impulsion Magnétique',
-          es: 'Ojivas de pulso magnético',
-        },
-        type: 'Missile',
-        slots: ['Missile'],
         ability: {
           en:
             'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers 1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all [Hit]/[Critical Hit] results.',
@@ -378,15 +412,29 @@ const t: UpgradeBase[] = [
           fr:
             "Attaque ([Lock]) : dépensez 1 [Charge]. Si cette attaque touche, le défenseur subit 1 dégât [Critical Hit] et gagne 1 marqueur d'épuisement et 1 marqueur de brouillage. Puis annulez tous les résultats [Hit]/[Critical Hit].",
         },
-        charges: { value: 2, recovers: 0 },
         attack: {
           arc: 'Front Arc',
-          value: 3,
-          minrange: 1,
           maxrange: 3,
+          minrange: 1,
           ordnance: true,
+          value: 3,
         },
+        charges: { value: 2, recovers: 0 },
+        title: {
+          en: 'Mag-Pulse Warheads',
+          de: 'Magnetimpuls-Sprengköpfe',
+          fr: 'Ogives à Impulsion Magnétique',
+          es: 'Ojivas de pulso magnético',
+        },
+        type: 'Missile',
+        slots: ['Missile'],
         ffg: 651,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png',
+        },
       },
     ],
     hyperspace: true,
@@ -410,6 +458,14 @@ const t: UpgradeBase[] = [
           es:
             'Ataque ([Calculate] o [Lock]): Gasta 1 [Charge]. Si el defensor está en tu [Front Arc], puedes gastar 1 [Charge] para tirar 1 dado de ataque adicional. Si el defensor está en tu [Bullseye Arc], en vez de eso puedes gastar hasta 2 [Charge] para tirar esa misma cantidad de dados de ataque adicionales.',
         },
+        attack: {
+          arc: 'Full Front Arc',
+          maxrange: 2,
+          minrange: 1,
+          ordnance: true,
+          value: 2,
+        },
+        charges: { value: 5, recovers: 0 },
         title: {
           en: 'Multi-Missile Pods',
           de: 'Mehrfachraketenwerfer',
@@ -418,15 +474,13 @@ const t: UpgradeBase[] = [
         },
         type: 'Missile',
         slots: ['Missile', 'Missile'],
-        attack: {
-          arc: 'Full Front Arc',
-          value: 2,
-          minrange: 1,
-          maxrange: 2,
-          ordnance: true,
-        },
-        charges: { value: 5, recovers: 0 },
         ffg: 673,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/af81354b305251139da023c343c9f70f.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png',
+        },
       },
     ],
     cost: { value: 4 },
@@ -448,26 +502,52 @@ const t: UpgradeBase[] = [
           fr:
             'Attaque ([Focus], [Calculate] ou [Lock]): dépensez 1 [Charge]. Si cette attaque touche, chaque vaisseau allié à portée 1-3 du défenseur peut verrouiller le défenseur. Puis annulez tous les résultats des dés.',
         },
+        attack: {
+          arc: 'Front Arc',
+          maxrange: 3,
+          minrange: 1,
+          ordnance: true,
+          value: 3,
+        },
+        charges: { value: 2, recovers: 0 },
         title: {
           en: 'XX-23 S-Thread Tracers',
           de: 'XX-23-S-Serie-Peilsender',
           es: 'Hiperrastreadores XX-23',
           fr: 'Traceurs XX-23 S',
         },
-        attack: {
-          arc: 'Front Arc',
-          value: 3,
-          minrange: 1,
-          maxrange: 3,
-          ordnance: false,
-        },
-        charges: { value: 2, recovers: 0 },
         type: 'Missile',
         slots: ['Missile'],
         ffg: 851,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/96/d7/96d7fd7e-cca2-403d-a291-5fcb973404c6/swz81_upgrade_s-tread-tracers.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/34fa7fa46dbf8626f1480fc9937e7c1b.jpg',
       },
     ],
     cost: { value: 4 },
+  },
+  {
+    limited: 2,
+    xws: 'electrochaffmissiles',
+    hyperspace: true,
+    sides: [
+      {
+        ability: {
+          en:
+            'During the System Phase, you may spend 1 [Charge] from this cared to launch 1 electro-chaff cloud using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template.',
+        },
+        charges: { value: 1, recovers: 0 },
+        title: { en: 'Electro-Chaff Missiles' },
+        type: 'Missile',
+        slots: ['Missile', 'Device'],
+        ffg: 932,
+      },
+    ],
+    cost: { value: 4 },
+    epic: true,
   },
 ];
 

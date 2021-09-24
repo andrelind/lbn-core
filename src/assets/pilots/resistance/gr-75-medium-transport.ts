@@ -14,29 +14,17 @@ const t: ShipType = {
     '0OR',
     '0NR',
     '1BB',
-    '1FB',
     '1NB',
+    '1FB',
     '2BW',
-    '2FW',
     '2NW',
+    '2FW',
     '3FR',
     '4FR',
   ],
   faction: 'Resistance',
-  stats: [
-    { arc: 'Front Arc', type: 'attack', value: 2 },
-    { type: 'agility', value: 0 },
-    { type: 'hull', value: 12 },
-    { type: 'shields', value: 3, recovers: 1 },
-    { type: 'energy', value: 4, recovers: 1 },
-  ],
-  actions: [
-    { difficulty: 'White', type: 'Focus' },
-    { difficulty: 'White', type: 'Coordinate' },
-    { difficulty: 'White', type: 'Jam' },
-    { difficulty: 'Red', type: 'Lock' },
-    { difficulty: 'Red', type: 'Reinforce' },
-  ],
+  stats: [],
+  actions: [],
   ability: {
     name: { en: 'Resupply Craft' },
     text: {
@@ -54,7 +42,7 @@ const t: ShipType = {
       },
       text: {
         en:
-          'A craft used since before the Clone Wars, the CR90 corvette is favored by the Royal House of Alderaan for its versatility.',
+          'In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.',
         de:
           'Manche Gruppen der Neuen Republik nutzen diese Schiffe schon seit dem Galaktischen Bürgerkrieg für Liefer- und Hilfsmissionen.',
         es:
@@ -65,17 +53,17 @@ const t: ShipType = {
       initiative: 7,
       engagement: 1,
       limited: 0,
-      cost: 55,
+      cost: 65,
       xws: 'newrepublicvolunteers',
       slots: [
-        'Turret',
+        'Command',
         'Hardpoint',
+        'Turret',
         'Crew',
         'Crew',
         'Team',
         'Cargo',
         'Cargo',
-        'Command',
       ],
       hyperspace: false,
       epic: true,
@@ -84,8 +72,12 @@ const t: ShipType = {
         en:
           'In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.',
       },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5c7cf19b2300729a88d9d58ca60ef3df.jpg',
     },
   ],
+  ffg: 80,
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_GR-75.png',
 };
 
 export default t;

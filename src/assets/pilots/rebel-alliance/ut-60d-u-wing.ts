@@ -74,11 +74,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
       ffg: 58,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png',
+      },
     },
     {
       name: {
@@ -103,10 +107,14 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Crew', 'Crew', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
       ffg: 60,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png',
+      },
     },
     {
       name: { en: 'Bodhi Rook' },
@@ -139,10 +147,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
       ffg: 54,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png',
+      },
     },
     {
       name: { en: 'Cassian Andor' },
@@ -175,10 +187,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
       ffg: 56,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_56.png',
+      },
     },
     {
       name: { en: 'Heff Tobber' },
@@ -211,10 +227,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
       ffg: 59,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_59.png',
+      },
     },
     {
       name: { en: 'Magva Yarro' },
@@ -248,11 +268,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
       ffg: 57,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_57.png',
+      },
     },
     {
       name: {
@@ -284,11 +308,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
       ffg: 61,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png',
+      },
     },
     {
       name: { en: 'Saw Gerrera' },
@@ -329,11 +357,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
       ffg: 55,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_55.png',
+      },
     },
     {
       name: { en: 'K-2SO' },
@@ -373,6 +405,12 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c65da3d5378ec32bd024325dbd80b3d6.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg',
     },
   ],
 };

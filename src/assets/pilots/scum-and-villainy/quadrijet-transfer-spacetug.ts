@@ -92,7 +92,7 @@ const t: ShipType = {
       xws: 'constablezuvio',
       ability: {
         en:
-          'If you would drop a device, you may launch it using a (1 [Straight]) template instead.',
+          'If you would drop a device, you may launch it using a [1 [Straight]] template instead.',
         de:
           'Falls du ein Gerät abwerfen würdest, darfst du es stattdessen unter Verwendung der (1 [Straight])-Schablone starten.',
         fr:
@@ -102,10 +102,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
       ffg: 161,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png',
+      },
     },
     {
       name: {
@@ -130,10 +134,14 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
       ffg: 164,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_164.png',
+      },
     },
     {
       name: { en: 'Sarco Plank' },
@@ -159,11 +167,15 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
       ffg: 162,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_162.png',
+      },
     },
     {
       name: { en: 'Unkar Plutt' },
@@ -189,10 +201,14 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
       ffg: 163,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_163.png',
+      },
     },
   ],
 };

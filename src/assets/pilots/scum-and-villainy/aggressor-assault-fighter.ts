@@ -103,11 +103,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_197.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_197.jpg',
       ffg: 197,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_197.png',
+      },
     },
     {
       name: { en: 'IG-88B' },
@@ -149,11 +153,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_198.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_198.jpg',
       ffg: 198,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_198.png',
+      },
     },
     {
       name: { en: 'IG-88C' },
@@ -188,11 +196,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_199.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_199.jpg',
       ffg: 199,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_199.png',
+      },
     },
     {
       name: { en: 'IG-88D' },
@@ -227,11 +239,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_200.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_200.jpg',
       ffg: 200,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_200.png',
+      },
     },
   ],
 };

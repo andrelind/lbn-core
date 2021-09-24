@@ -23,10 +23,14 @@ const t: UpgradeBase[] = [
           fr:
             "Action : dépensez 1 [Charge] pour effectuer une action [Cloak]. Au début de la phase de préparation, lancez 1 dé d'attaque. Sur un résultat [Focus], désoccultez-vous ou défaussez votre marqueur d'occultation.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_57.png',
+        },
         slots: ['Illicit'],
         charges: { value: 2, recovers: 0 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg',
         ffg: 286,
       },
     ],
@@ -57,10 +61,14 @@ const t: UpgradeBase[] = [
           fr:
             "Avant votre activation, vous pouvez dépenser 1 [Charge]. Dans ce cas, jusqu'à la fin du round, vous pouvez effectuer des actions et exécuter des manœuvres rouges, même si vous êtes stressé.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_58.png',
+        },
         slots: ['Illicit'],
         charges: { value: 1, recovers: 0 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg',
         ffg: 287,
       },
     ],
@@ -90,9 +98,13 @@ const t: UpgradeBase[] = [
           fr:
             'Après que vous avez été détruit, chaque autre vaisseau à portée 0-1 subit 1 dégât [Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_59.png',
+        },
         slots: ['Illicit'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg',
         ffg: 288,
       },
     ],
@@ -122,9 +134,13 @@ const t: UpgradeBase[] = [
           fr:
             'Avant de vous engager, vous pouvez gagner 1 marqueur ionique et 1 marqueur de désarmement. Dans ce cas, chaque vaisseau à portée 0 subit 1 dégât [Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_60.png',
+        },
         slots: ['Illicit'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg',
         ffg: 289,
       },
     ],
@@ -146,7 +162,7 @@ const t: UpgradeBase[] = [
         type: 'Illicit',
         ability: {
           en:
-            'Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white (0 [Stationary]) instead of the maneuver you revealed, then gain 1 stress token.',
+            'Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.',
           de:
             'Bevor du ein Manöver ausführen würdest, darfst du 1 Schild ausgeben. Falls du das tust, führe anstatt des Manövers, das du aufgedeckt hast, ein weißes (0 [Stationary])-Manöver aus, dann erhalte 1 Stressmarker.',
           es:
@@ -154,9 +170,13 @@ const t: UpgradeBase[] = [
           fr:
             "Avant d'exécuter une manœuvre, vous pouvez dépenser 1 bouclier. Dans ce cas, exécutez une manœuvre (0 [Stationary]) blanche à la place de celle que vous avez révélée, puis gagnez 1 marqueur de stress.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_61.png',
+        },
         slots: ['Illicit'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg',
         ffg: 290,
       },
     ],
@@ -181,13 +201,17 @@ const t: UpgradeBase[] = [
         type: 'Illicit',
         ability: {
           en:
-            'Action: Spend 1 [Charge]. Drop 1 loose cargo using the (1 [Straight]) template.',
+            'Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.',
           de:
             'Aktion: Gib 1 [Charge] aus. Wirf unter Verwendung der (1 [Straight])-Schablone 1 freie Fracht ab.',
           es:
             'Acción: Gasta 1 [Charge]. Suelta 1 Cargamento expulsado utilizando la plantilla (1 [Straight]).',
           fr:
             'Action : dépensez 1 [Charge]. Larguez 1 cargaison égarée en utilisant le gabarit (1 [Straight]).',
+        },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_62.png',
         },
         slots: ['Illicit'],
         charges: { value: 1, recovers: 0 },
@@ -197,7 +221,7 @@ const t: UpgradeBase[] = [
           effect: 'Loose cargo is a debris cloud.',
         },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg',
         ffg: 291,
       },
     ],
@@ -211,16 +235,9 @@ const t: UpgradeBase[] = [
     xws: 'coaxiumhyperfuel',
     sides: [
       {
-        title: {
-          en: 'Coaxium Hyperfuel',
-          de: 'Coaxium-Hypertreibstoff',
-          fr: 'Hypercarburant Coaxium',
-          es: 'Hipercombustible coaxium',
-        },
-        type: 'Illicit',
         ability: {
           en:
-            'You can perform the [Slam] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [Slam] action.',
+            'You can perform the [SLAM] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [SLAM] action.',
           de:
             'Du kannst die [Slam]-Aktion durchführen, auch solange du gestresst bist. Falls du das tust, erleidest du 1 [Critical Hit]-Schaden, es sei denn, du legst 1 deiner Schadenskarten offen. Nachdem du ein Manöver teilweise ausgeführt hast, darfst du 1 deiner Schadenskarten offenlegen oder 1 [Critical Hit]-Schaden erleiden, um eine [Slam]-Aktion durchzuführen.',
           es:
@@ -228,12 +245,24 @@ const t: UpgradeBase[] = [
           fr:
             "Vous pouvez effectuer l'action [Slam], même si vous êtes stressé. Dans ce cas, vous subissez 1 dégât [Critical Hit] à moins que vous n'exposiez 1 de vos cartes de dégât. Après avoir partiellement exécuté une manœuvre, vous pouvez exposer 1 de vos cartes de dégât ou subir 1 dégât [Critical Hit] pour effectuer une action [Slam].",
         },
+        title: {
+          en: 'Coaxium Hyperfuel',
+          de: 'Coaxium-Hypertreibstoff',
+          fr: 'Hypercarburant Coaxium',
+          es: 'Hipercombustible coaxium',
+        },
+        type: 'Illicit',
         slots: ['Illicit'],
         ffg: 650,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/791981d898356ad13e463b8699975155.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/1622f5d9e279b54d4610820f5dd31a95.png',
+        },
       },
     ],
     cost: { value: 1 },
-    restrictions: [{ action: { type: 'SLAM' } }],
     hyperspace: false,
     epic: true,
   },
@@ -242,13 +271,6 @@ const t: UpgradeBase[] = [
     xws: 'quickreleaselocks',
     sides: [
       {
-        title: {
-          en: 'Quick-Release Locks',
-          de: 'Schnellspannverschluss',
-          es: 'Enganches de apertura rápida',
-          fr: 'Verrous à Libération Rapide',
-        },
-        type: 'Illicit',
         ability: {
           en:
             "During the System Phase, you may spend 1 [Charge] to drop 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way.. This card's [Charge] cannot be recovered.",
@@ -259,13 +281,25 @@ const t: UpgradeBase[] = [
           fr:
             'Pendant la phase de système, vous pouvez dépenser 1 [Charge] pour placer 1 dérive de cargaison dans votre [Rear Arc] à portée 0. Le marqueur de dérive de cargaison ne peut pas chevaucher de vaisseau de cette manière. Les [Charge] de cette carte ne peuvent pas être récupérées.',
         },
-        charges: { value: 2, recovers: 0 },
+        title: {
+          en: 'Quick-Release Locks',
+          de: 'Schnellspannverschluss',
+          es: 'Enganches de apertura rápida',
+          fr: 'Verrous à Libération Rapide',
+        },
+        type: 'Illicit',
         slots: ['Illicit'],
+        charges: { value: 2, recovers: 0 },
         ffg: 753,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/af/19/af197066-3d72-45aa-acbc-68c50abd20ef/swz55_quick-release-locks_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/836fa300919eafe8e7ac5fbc47b8c0c6.jpg',
       },
     ],
     cost: { value: 5 },
-    restrictions: [{ baseSizes: ['Huge'] }],
     hyperspace: false,
     epic: true,
   },
@@ -274,13 +308,6 @@ const t: UpgradeBase[] = [
     xws: 'saboteursmap',
     sides: [
       {
-        title: {
-          en: "Saboteur's Map",
-          de: 'Karte des Saboteurs',
-          es: 'Mapa de saboteador',
-          fr: 'Carte du Saboteur',
-        },
-        type: 'Illicit',
         ability: {
           en:
             'At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship, strategic marker, or other device.',
@@ -291,13 +318,24 @@ const t: UpgradeBase[] = [
           fr:
             "À la fin de la Mise en place, vous pouvez dépenser jusqu'à 1 [Charge] de chacune de vos améliorations Mine équipées pour placer l'engin correspondant dans la zone de jeu au-delà de la portée 2 de tout vaisseau ennemi ou autre engin.",
         },
-        charges: { value: 2, recovers: 0 },
+        title: {
+          en: "Saboteur's Map",
+          de: 'Karte des Saboteurs',
+          es: 'Mapa de saboteador',
+          fr: 'Carte du Saboteur',
+        },
+        type: 'Illicit',
         slots: ['Illicit'],
         ffg: 754,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/db/b6/dbb6b484-2d70-46ac-b2cd-49f1a300e0bf/swz55_saboteurs-map_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/46a2b1477a848a09c56dbcd49ab6f9f4.jpg',
       },
     ],
     cost: { value: 3 },
-    restrictions: [{ baseSizes: ['Huge'] }],
     hyperspace: false,
     epic: true,
   },
@@ -306,13 +344,6 @@ const t: UpgradeBase[] = [
     xws: 'scannerbaffler',
     sides: [
       {
-        title: {
-          en: 'Scanner Baffler',
-          de: 'Scanner-Manipulator',
-          es: 'Interferidor de sensores',
-          fr: 'Scanner Cloisonné',
-        },
-        type: 'Illicit',
         ability: {
           en:
             'At the end of Setup, you may choose any number of other friendly, non-huge ships in your deployment area at range 0-1. If you do, place those ships anywhere in the same deployment area.',
@@ -323,12 +354,24 @@ const t: UpgradeBase[] = [
           fr:
             "À la fin de la Mise en place, vous pouvez choisir jusqu'à 6 autres vaisseaux standards alliés dans votre zone de déploiement à portée 0-1. Dans ce cas, placez ces vaisseaux n'importe où à portée 0-1.",
         },
+        title: {
+          en: 'Scanner Baffler',
+          de: 'Scanner-Manipulator',
+          es: 'Interferidor de sensores',
+          fr: 'Scanner Cloisonné',
+        },
+        type: 'Illicit',
         slots: ['Illicit'],
         ffg: 755,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/3d/58/3d58ccbe-3a8b-410e-bbf6-5ffadb2230c9/swz55_scanner-baffler_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/c4749e45f352215cb96d6b1125c09a91.jpg',
       },
     ],
     cost: { value: 8 },
-    restrictions: [{ baseSizes: ['Huge'] }],
     hyperspace: false,
     epic: true,
   },
@@ -357,10 +400,60 @@ const t: UpgradeBase[] = [
         },
         type: 'Illicit',
         slots: ['Illicit'],
+        charges: { value: 1, recovers: 0 },
         ffg: 877,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/de/d4/ded4b0e6-683b-4caa-b642-41fdd09f7ed6/swz82_a1_upgrade_false-codes.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/06d6e39ec52930c4faca371e8dcd3fd6.jpg',
       },
     ],
     cost: { value: 3 },
+  },
+  {
+    limited: 0,
+    xws: 'babufrik',
+    hyperspace: true,
+    sides: [
+      {
+        ability: {
+          en:
+            'Before you would gain a non-lock red or orange token, you may spend 1 [Charge] to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you must spend 1 [Charge]. If you cannot, remove those tokens and gain matching tokens.',
+        },
+        title: { en: 'Babu Frik' },
+        type: 'Illicit',
+        slots: ['Illicit'],
+        charges: { value: 3, recovers: 0 },
+        ffg: 930,
+      },
+    ],
+    restrictions: [{ factions: ['Scum and Villainy', 'Resistance'] }],
+    cost: { value: 7 },
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'overtunedmodulators',
+    hyperspace: true,
+    sides: [
+      {
+        ability: {
+          en:
+            'During the System Phase, if you are not stressed, you may spend 1 [Charge] to gain 3 calculate tokens. During the End Phase, if your [Charge] is inactive, for each green token you remove, gain 1 strain token.',
+        },
+        title: { en: 'Overtuned Modulators' },
+        type: 'Illicit',
+        slots: ['Illicit'],
+        charges: { value: 1, recovers: 0 },
+        ffg: 931,
+        image: { en: '???' },
+        artwork: '???',
+      },
+    ],
+    cost: { value: 3 },
+    epic: true,
   },
 ];
 

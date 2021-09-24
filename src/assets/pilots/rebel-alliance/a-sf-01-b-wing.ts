@@ -79,11 +79,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
       ffg: 25,
       hyperspace: true,
       epic: true,
       keywords: ['B-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png',
+      },
     },
     {
       name: {
@@ -123,11 +127,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg',
       ffg: 26,
       hyperspace: true,
       epic: true,
       keywords: ['B-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png',
+      },
     },
     {
       name: { en: 'Braylen Stramm' },
@@ -162,11 +170,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
       ffg: 23,
       hyperspace: true,
       epic: true,
       keywords: ['B-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png',
+      },
     },
     {
       name: { en: 'Ten Numb' },
@@ -201,11 +213,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
       ffg: 24,
       hyperspace: true,
       epic: true,
       keywords: ['B-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png',
+      },
     },
     {
       name: { en: 'Gina Moonsong' },
@@ -243,6 +259,12 @@ const t: ShipType = {
       epic: true,
       ffg: 628,
       keywords: ['B-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg',
     },
     {
       xws: 'herasyndulla-asf01bwing',
@@ -280,6 +302,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing', 'Spectre'],
       ffg: 878,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg',
     },
     {
       xws: 'netrempollard',
@@ -295,7 +319,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180˚.',
+          'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
         de:
           'Nachdem du eine Fassrolle geflogen bist, darfst du 1 nicht gestresstes befreundetes Schiff in Reichweite 0-1 wählen. Jenes Schiff erhält 1 Stressmarker, dann drehe dich um 180˚.',
         es:
@@ -317,6 +341,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing'],
       ffg: 879,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg',
     },
   ],
 };

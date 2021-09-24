@@ -82,11 +82,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg',
       ffg: 210,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter', 'Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_210.png',
+      },
     },
     {
       name: { en: 'Latts Razzi' },
@@ -122,11 +126,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
       ffg: 212,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter', 'Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_212.png',
+      },
     },
     {
       name: { en: 'Moralo Eval' },
@@ -163,11 +171,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
       ffg: 211,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_211.png',
+      },
     },
     {
       name: {
@@ -201,11 +213,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
       ffg: 213,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_213.png',
+      },
     },
   ],
 };

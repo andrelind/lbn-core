@@ -18,14 +18,20 @@ const t: UpgradeBase[] = [
           fr:
             "Pendant la phase de dénouement, vous pouvez choisir jusqu'à 3 vaisseaux alliés à portée 0-3. Dans ce cas, chacun de ces vaisseaux ne retire pas 1 marqueur de calcul.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/47dae8a3ecd27a48f3dc35aff03a1a75.png',
+        },
+        slots: ['Tactical Relay'],
+        ffg: 531,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg',
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
-        slots: ['Tactical Relay'],
-        ffg: 531,
       },
     ],
-    restrictions: [{ factions: ['Separatist Alliance'] }],
+    restrictions: [{ factions: ['Separatist Alliance'] }, {}],
     hyperspace: true,
     epic: true,
     cost: { value: 10 },
@@ -47,11 +53,17 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau allié à portée 0-3 effectue une attaque principale contre un défenseur situé dans son [Bullseye Arc], s'il y a 2 dés d'attaque ou moins, il peut dépenser 1 marqueur de calcul pour ajouter 1 résultat [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/633a34a139c912116c1b034fc2765484.png',
+        },
         slots: ['Tactical Relay'],
         ffg: 530,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f6177b6339e425fff560af884596a83b.jpg',
       },
     ],
-    restrictions: [{ factions: ['Separatist Alliance'] }],
+    restrictions: [{ factions: ['Separatist Alliance'] }, {}],
     cost: { value: 5 },
     hyperspace: false,
     epic: true,
@@ -73,11 +85,17 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau allié à portée 0-3 défend, il peut dépenser 1 marqueur de calcul. Dans ce cas, ajoutez 1 résultat [Evade] sauf si l'attaquant choisit de gagner 1 marqueur de contrainte.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/2178079ef9488899e51e927b2e136572.png',
+        },
         slots: ['Tactical Relay'],
         ffg: 537,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fa9a0b38a079ec78b6db330c2ffc9b0a.jpg',
       },
     ],
-    restrictions: [{ factions: ['Separatist Alliance'] }],
+    restrictions: [{ factions: ['Separatist Alliance'] }, {}],
     cost: { value: 5 },
     hyperspace: true,
     epic: true,
@@ -99,11 +117,17 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau allié à portée 0-3 avec [Calculate] dans sa barre d'action a été détruit, chaque vaisseau allié à portée 0-3 avec [Calculate] dans sa barre d'action gagne 1 marqueur de calcul.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d71e07aa3147c6fe943bd0c8131a0096.png',
+        },
         slots: ['Tactical Relay'],
         ffg: 590,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg',
       },
     ],
-    restrictions: [{ factions: ['Separatist Alliance'] }],
+    restrictions: [{ factions: ['Separatist Alliance'] }, {}],
     hyperspace: false,
     epic: true,
     cost: { value: 11 },
@@ -114,8 +138,16 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
+        ffg: 682,
         title: { en: 'Kalani' },
         type: 'Tactical Relay',
+        slots: ['Tactical Relay'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f7d014b30966a8e308aad5d1336d50dd.png',
+        },
         ability: {
           en:
             'After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.',
@@ -126,14 +158,14 @@ const t: UpgradeBase[] = [
           es:
             'Después de que una nave enemiga ejecute una maniobra, si está situada en el [Bullseye Arc] de una nave aliada que tienes a alcance 0-3, puedes gastar 1 [Charge]. Si lo haces, esa nave aliada obtiene un Blanco fijado sobre esa nave enemiga, y luego recibe 1 ficha de Tensión.',
         },
-        slots: ['Tactical Relay'],
         charges: { value: 3, recovers: 3 },
-        ffg: 682,
+        grants: [
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+        ],
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Separatist Alliance'] }],
   },
 ];
 

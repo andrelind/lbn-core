@@ -58,7 +58,7 @@ const t: ShipType = {
         es: 'Héroe de Coruscant',
         fr: 'Héros de Coruscant',
       },
-      slots: ['Talent', 'Astromech', 'Modification', 'Force Power'],
+      slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       hyperspace: true,
       force: { value: 3, recovers: 1, side: ['light', 'dark'] },
       epic: true,
@@ -73,6 +73,12 @@ const t: ShipType = {
           "Après que vous, ou un vaisseau Obi-Wan Kenobi allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre retire 1 marqueur rouge de votre choix.",
       },
       keywords: ['Dark Side', 'Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/ef/ca/efcac3d6-868a-4e99-a872-3f2265e4983e/swz79_anakin-skywalker.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg',
     },
     {
       xws: 'obiwankenobi-eta2actis',
@@ -87,7 +93,7 @@ const t: ShipType = {
         es: 'Guardián de la democracia',
         fr: 'Gardien de la Démocratie',
       },
-      slots: ['Talent', 'Astromech', 'Modification', 'Force Power'],
+      slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       force: { value: 3, recovers: 1, side: ['light'] },
       hyperspace: true,
       epic: true,
@@ -102,6 +108,12 @@ const t: ShipType = {
           "Après que vous, ou un vaisseau Anakin Skywalker allié à portée 0-3, avez exécuté une manœuvre, s'il y a plus de vaisseaux ennemis que d'autres vaisseaux alliés à portée 0-1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 [Force]. Dans ce cas, le vaisseau ayant exécuté la manœuvre gagne 1 marqueur de concentration.",
       },
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/2d/36/2d3610e5-ebc0-4448-8fb3-4b6dcc5f391a/swz79_obi-wan_kenobi.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg',
     },
     {
       xws: 'aaylasecura',
@@ -116,7 +128,7 @@ const t: ShipType = {
         es: 'Guerrera segura de sí misma',
         fr: 'Guerrière Confiante',
       },
-      slots: ['Talent', 'Astromech', 'Modification', 'Force Power'],
+      slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: true,
       epic: true,
@@ -131,6 +143,12 @@ const t: ShipType = {
           "Tant qu'un vaisseau ennemi dans votre [Front Arc] à portée 0-1 effectue une attaque, le défenseur peut changer 1 résultat vierge en un résultat [Focus].",
       },
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/c2/e2/c2e2ee1f-1bdd-4ff7-ad95-c442af9b510a/swz79_aayla-secura.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a2171b5544ebfd56e22775efa9b73fc4.jpg',
     },
     {
       name: { en: 'Shaak Ti' },
@@ -155,11 +173,17 @@ const t: ShipType = {
         fr:
           "Au début de la phase de dénouement, vous pouvez dépenser n'importe quel nombre de [Force] pour choisir autant de vaisseaux alliés à portée 0-2. Chaque vaisseau choisi ne retire pas 1 marqueur de concentration ou d'évasion lors de cette phase de dénouement.",
       },
-      slots: ['Talent', 'Astromech', 'Modification', 'Force Power'],
+      slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       cost: 43,
       epic: true,
       ffg: 784,
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/fa/6a/fa6afe10-be85-46ee-93e6-0637b3ce34b0/swz79_shaak-ti.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg',
     },
     {
       name: {
@@ -183,11 +207,17 @@ const t: ShipType = {
       },
       hyperspace: false,
       force: { value: 2, recovers: 1, side: ['light'] },
-      slots: ['Astromech', 'Modification', 'Force Power'],
+      slots: ['Force Power', 'Astromech', 'Modification'],
       cost: 41,
       epic: true,
       ffg: 786,
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/b4/8d/b48d787d-96db-4955-9a58-5c8aa3ab9035/swz79_jedi-general.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b6b83d1e5f47b832018274f35339492a.jpg',
     },
     {
       name: { en: 'Yoda' },
@@ -212,11 +242,17 @@ const t: ShipType = {
         fr:
           "Après qu'un autre vaisseau allié à portée 0-3 a dépensé au moins 1 [Force], vous pouvez dépenser 1 [Force]. Dans ce cas, cet autre vaisseau allié récupère 1 [Force].",
       },
-      slots: ['Astromech', 'Modification', 'Force Power', 'Force Power'],
+      slots: ['Force Power', 'Force Power', 'Astromech', 'Modification'],
       cost: 45,
       epic: true,
       ffg: 785,
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/5b/fb/5bfbf23b-29c5-47c9-a6ba-1a2a7ddba319/swz79_yoda.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg',
     },
   ],
   ffg: 76,

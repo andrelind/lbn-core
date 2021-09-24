@@ -103,7 +103,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 4,
+      cost: 44,
       xws: 'quickdraw',
       ability: {
         en:
@@ -118,11 +118,15 @@ const t: ShipType = {
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
       charges: { value: 1, recovers: 1 },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
       ffg: 406,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png',
+      },
     },
     {
       name: { en: '"Backdraft"', de: '„Backdraft"', es: '"Llamarada"' },
@@ -148,11 +152,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
       ffg: 407,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png',
+      },
     },
     {
       name: {
@@ -177,11 +185,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
       ffg: 408,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png',
+      },
     },
     {
       name: {
@@ -206,11 +218,15 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
       ffg: 409,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png',
+      },
     },
     {
       name: { en: 'Lieutenant LeHuse', es: 'Teniente LeHuse' },
@@ -218,9 +234,9 @@ const t: ShipType = {
       limited: 1,
       cost: 37,
       xws: 'lieutenantlehuse',
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg',
       ffg: 641,
       hyperspace: false,
       epic: true,
@@ -241,6 +257,10 @@ const t: ShipType = {
           'Mientras efectúas un ataque, puedes gastar el Blanco fijado que otra nave aliada tenga sobre el defensor para volver a tirar cualquier cantidad de tus resultados.',
       },
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png',
+      },
     },
     {
       name: {
@@ -252,9 +272,9 @@ const t: ShipType = {
       limited: 1,
       cost: 34,
       xws: 'captainphasma',
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg',
       hyperspace: false,
       epic: true,
       ffg: 642,
@@ -275,6 +295,10 @@ const t: ShipType = {
           'Mientras te defiendes, después del paso de "Neutralizar resultados", otra nave aliada que tengas a alcance 0-1 debe sufrirr 1 de daño [Hit]/[Critical Hit] para anular 1 resultado equivalente.',
       },
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/7c0bc32446e17991aff226d0fcab7b19.png',
+      },
     },
   ],
 };

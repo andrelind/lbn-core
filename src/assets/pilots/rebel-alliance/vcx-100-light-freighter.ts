@@ -106,11 +106,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
       ffg: 75,
       hyperspace: false,
       epic: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_75.png',
+      },
     },
     {
       name: { en: 'Hera Syndulla' },
@@ -141,11 +145,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
       ffg: 73,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_73.png',
+      },
     },
     {
       name: { en: 'Kanan Jarrus' },
@@ -177,11 +185,15 @@ const t: ShipType = {
         'Force Power',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
       ffg: 74,
       hyperspace: true,
       epic: true,
-      keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
+      keywords: ['Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png',
+      },
     },
     {
       name: {
@@ -215,11 +227,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
       ffg: 76,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_76.png',
+      },
     },
     {
       name: { en: 'Alexsandr Kallus' },
@@ -236,9 +252,9 @@ const t: ShipType = {
         'Torpedo',
         'Crew',
         'Crew',
+        'Gunner',
         'Modification',
         'Title',
-        'Gunner',
       ],
       ability: {
         en:
@@ -253,8 +269,12 @@ const t: ShipType = {
       cost: 68,
       ffg: 631,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
       keywords: ['Freighter', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f78c33b746f35f6848708327178dec80.png',
+      },
     },
   ],
 };

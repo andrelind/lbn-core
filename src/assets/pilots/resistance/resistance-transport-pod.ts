@@ -57,7 +57,7 @@ const t: ShipType = {
         es:
           'Durante la fase de Sistemas, puedes realizar una acción [Barrel Roll] roja o una acción [Boost] roja.',
       },
-      slots: ['Talent', 'Crew', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
         { difficulty: 'Red', type: 'Lock' },
@@ -73,6 +73,12 @@ const t: ShipType = {
         es: 'Caja de sorpresas',
       },
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg',
     },
     {
       name: { en: 'Rose Tico' },
@@ -97,9 +103,15 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, puedes volver a tirar hasta 1 de tus dados por cada otra nave aliada situada en el arco de ataque.',
       },
-      slots: ['Talent', 'Crew', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
       cost: 28,
       ffg: 574,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/1dbf7b355d60f5b3f278522eb702f99f.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg',
     },
     {
       name: { en: 'Vi Moradi' },
@@ -120,9 +132,15 @@ const t: ShipType = {
           'Preparación: Después de desplegar las fuerzas, asigna el Estado Datos comprometedores a 1 nave enemiga.',
       },
       conditions: ['compromisingintel'],
-      slots: ['Crew', 'Modification', 'Tech'],
+      slots: ['Tech', 'Crew', 'Modification'],
       cost: 27,
       ffg: 576,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/14139a2d20ff13b01bd5810371a89064.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg',
     },
     {
       name: { en: 'Finn' },
@@ -141,7 +159,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, puedes añadir 1 resultado de cara vacía, o puedes recibir 1 ficha de Sobresfuerzo para añadir 1 resultado de Concentración en vez de uno de cara vacía.',
       },
-      slots: ['Talent', 'Crew', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
       cost: 32,
       ffg: 575,
       caption: {
@@ -150,6 +168,12 @@ const t: ShipType = {
         fr: 'Choix Difficiles',
         es: 'Tipo importante',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/311d88e51a039b79e9a422ab3c475288.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg',
     },
   ],
   ffg: 65,

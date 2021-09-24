@@ -30,12 +30,18 @@ const t: UpgradeBase[] = [
             action: {
               type: 'Focus',
               difficulty: 'White',
-              linked: { difficulty: 'Red', type: 'Barrel Roll' },
+              linked: { type: 'Barrel Roll', difficulty: 'Red' },
             },
             value: 1,
           },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png',
+        },
         ffg: 486,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg',
       },
       {
         title: {
@@ -52,8 +58,12 @@ const t: UpgradeBase[] = [
           fr: 'Avant votre activation, vous pouvez retourner cette carte.',
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/49372b4efb974ff673a1b79441186fd5.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg',
         ffg: 487,
       },
     ],
@@ -86,11 +96,15 @@ const t: UpgradeBase[] = [
         },
         slots: ['Configuration'],
         grants: [
-          { slot: 'Torpedo', value: 1 },
-          { slot: 'Missile', value: 1 },
+          { slot: 'Force Power', value: 1 },
+          { slot: 'Force Power', value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_125.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg',
         ffg: 350,
       },
     ],
@@ -113,7 +127,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'While you defend, roll 1 fewer defense die. After you execute a (0 [Stationary]) maneuver, you may rotate your ship 90˚ or 180˚. Before you activate, you may flip this card.',
+            'While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.',
           de:
             'Solange du verteidigst, wirf 1 Verteidigungswürfel weniger. Nachdem du ein (0 [Stationary])-Manöver ausgeführt hast, darfst du dein Schiff um 90° oder um 180° drehen. Bevor du aktiviert wirst, darfst du diese Karte umdrehen.',
           es:
@@ -122,8 +136,12 @@ const t: UpgradeBase[] = [
             'Tant que vous défendez, lancez 1 dé de défense en moins. Après avoir exécuté une manœuvre (0 [Stationary]), vous pouvez faire pivoter votre vaisseau de 90° ou 180°. Avant votre activation, vous pouvez retourner cette carte.',
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg',
         ffg: 332,
       },
       {
@@ -141,8 +159,12 @@ const t: UpgradeBase[] = [
           fr: 'Avant votre activation, vous pouvez retourner cette carte.',
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg',
         ffg: 331,
       },
     ],
@@ -174,19 +196,31 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque principale, lancez 1 dé d'attaque en moins. Avant votre activation, vous pouvez retourner cette carte.",
         },
         slots: ['Configuration'],
+        actions: [
+          { type: 'Boost', difficulty: 'White' },
+          {
+            type: 'Focus',
+            difficulty: 'White',
+            linked: { difficulty: 'Red', type: 'Boost' },
+          },
+        ],
         grants: [
           { action: { type: 'Boost', difficulty: 'White' }, value: 1 },
           {
             action: {
               type: 'Focus',
               difficulty: 'White',
-              linked: { difficulty: 'Red', type: 'Boost' },
+              linked: { type: 'Boost', difficulty: 'Red' },
             },
             value: 1,
           },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108b.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg',
         ffg: 334,
       },
       {
@@ -204,8 +238,12 @@ const t: UpgradeBase[] = [
           fr: 'Avant votre activation, vous pouvez retourner cette carte.',
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg',
         ffg: 333,
       },
     ],
@@ -237,9 +275,13 @@ const t: UpgradeBase[] = [
             "Tant que vous avez exactement 1 marqueur de désarmement, vous pouvez toujours effectuer des attaques [Cannon]. Tant que vous effectuez une attaque [Cannon] alors que vous êtes désarmé, lancez 3 dés d'attaque au maximum. Ajoutez un emplacement [Cannon].",
         },
         slots: ['Configuration'],
-        grants: [{ slot: 'Cannon', value: 1 }],
+        grants: [{ slot: 'Force Power', value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg',
         ffg: 351,
       },
     ],
@@ -272,6 +314,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Configuration'],
         ffg: 555,
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg',
       },
       {
         title: {
@@ -283,7 +331,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a (2 [Straight]) and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90˚ in that direction. After you execute a maneuver, flip this card.',
+            'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.',
           de:
             'Du ignorierst Hindernisse in Reichweite 0 und solange du dich durch sie hindurchbewegst. Nachdem du dein Rad aufgedeckt hast, falls du ein anderes Manöver als (2 [Straight]) aufgedeckt hast und in Reichweite 0 eines Asteroiden oder einer Trümmerwolke bist, überspringe deinen Schritt „Manöver ausführen" und entferne 1 Stressmarker; falls du ein rechtes oder linkes Manöver aufgedeckt hast, drehe dein Schiff um 90° in jene Richtung. Nachdem du ein Manöver ausgeführt hast, drehe diese Karte um.',
           es:
@@ -293,6 +341,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Configuration'],
         ffg: 535,
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/55781f0b97bc691866379ff9e1d6d354.jpg',
       },
     ],
     restrictions: [{ chassis: ['vultureclassdroidfighter'] }],
@@ -311,8 +365,15 @@ const t: UpgradeBase[] = [
         grants: [
           { stat: 'agility', value: -1 },
           { stat: 'shields', value: 2 },
-          { stat: 'attack', arc: 'Front Arc', value: 1 },
+          { stat: 'attack', value: 1, arc: 'Front Arc' },
         ],
+        ffg: 548,
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/515903e04a0d06a9200860698326896d.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/6530f18639b7efff5a5a659589e5d65c.jpg',
         text: {
           en:
             "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability.",
@@ -323,7 +384,6 @@ const t: UpgradeBase[] = [
           es:
             'El Delta-7B fue diseñado como una variante más pesada del interceptor clase Delta-7 Duende del Éter, y es fácilmente identificable por el cambio en la posición del droide astromecánico. Muchos generales jedi prefieren esta nave por su mayor resistencia y potencia de fuego.',
         },
-        ffg: 548,
       },
     ],
     cost: {
@@ -357,7 +417,13 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Bullseye Arc], ajoutez 1 résultat [Focus].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png',
+        },
         ffg: 549,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg',
       },
     ],
     cost: {
@@ -391,7 +457,13 @@ const t: UpgradeBase[] = [
             "Mise en Place : à équiper avec cette face visible. Tant que vous exécutez une manœuvre, si vous chevauchez un astéroïde ou un nuage de débris et qu'il y a 1 autre vaisseau allié ou moins à portée 0 de cet obstacle, vous pouvez retourner cette carte.",
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/c23a0130bad7330c0abb6218745910aa.png',
+        },
         ffg: 594,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1340d2e5df785275c674d2be07379bf1.jpg',
       },
       {
         title: {
@@ -403,7 +475,7 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         ability: {
           en:
-            'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a (2 [Straight]) and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.',
+            'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.',
           de:
             'Du ignorierst Hindernisse in Reichweite 0 und solange du dich durch sie hindurchbewegst. Nachdem du dein Rad aufgedeckt hast, falls du ein anderes Manöver als (2 [Straight]) aufgedeckt hast und in Reichweite 0 eines Asteroiden oder einer Trümmerwolke bist, überspringe deinen Schritt „Manöver ausführen" und entferne 1 Stressmarker; falls du ein rechtes oder linkes Manöver aufgedeckt hast, drehe dein Schiff um 90° in jene Richtung. Nachdem du ein Manöver ausgeführt hast, drehe diese Karte um.',
           es:
@@ -412,7 +484,13 @@ const t: UpgradeBase[] = [
             "Ignorez les obstacles à portée 0 et tant que vous vous déplacez à travers. Après avoir révélé votre cadran, si vous avez révélé une manœuvre autre que (2 [Straight]) et êtes à portée 0 d'un astéroïde ou d'un nuage de débris, sautez votre étape « Exécuter la manœuvre » et retirez 1 marqueur de stress ; si vous avez révélé une manœuvre à droite ou à gauche, pivotez votre vaisseau de 90° dans cette direction. Après avoir exécuté une manœuvre, retournez cette carte.",
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/aba79159308e850b635f6c43721ccdee.png',
+        },
         ffg: 595,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/172286420e4263a098c3a2ecb0e73ce2.jpg',
       },
     ],
     restrictions: [{ chassis: ['hyenaclassdroidbomber'] }],
@@ -425,12 +503,6 @@ const t: UpgradeBase[] = [
     xws: 'corsairrefit',
     sides: [
       {
-        title: {
-          en: 'Corsair Refit',
-          de: 'Kaperer-Aufrüstung',
-          es: 'Reequipado para la piratería',
-        },
-        type: 'Configuration',
         ability: {
           en:
             'Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.',
@@ -441,6 +513,12 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement [Cannon], un emplacement[Turret], et un emplacement [Missile]. Attaque Bonus : dépensez 1 [Energy] pour effectuer une attaque [Cannon], [Turret], ou [Missile].',
         },
+        title: {
+          en: 'Corsair Refit',
+          de: 'Kaperer-Aufrüstung',
+          es: 'Reequipado para la piratería',
+        },
+        type: 'Configuration',
         slots: ['Configuration'],
         grants: [
           { slot: 'Cannon', value: 1 },
@@ -451,28 +529,26 @@ const t: UpgradeBase[] = [
           { stat: 'energy', value: 1 },
         ],
         ffg: 780,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/fe/93/fe93367f-f999-477a-9e52-7be684649ff7/swz55_corsair-refit_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1ee2df3c1a0ce5aa60439927e2d1e9ca.jpg',
       },
     ],
-    restrictions: [{ chassis: ['croccruiser'] }],
     hyperspace: false,
     epic: true,
-    cost: { value: 15 },
+    cost: { value: 6 },
   },
   {
     limited: 0,
     xws: 'stabilizedsfoils',
     sides: [
       {
-        title: {
-          en: 'Stabilized S-foils (Open)',
-          de: 'Stabilisierte S-Flügel (geöffnet)',
-          fr: 'S-foils Stabilisés (Dépliés)',
-          es: 'Alas móviles estabilizadas (posición abierta)',
-        },
-        type: 'Configuration',
         ability: {
           en:
-            'After you perform an attack, you may spend your lock on the defender to perform a bonus [Cannon] attack against that ship using a [Cannon] upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.',
+            'Before you activate, if you are not critically damaged, you may flip this card.',
           de:
             'Nachdem du einen Angriff durchgeführt hast, darfst du deine Zielerfassung auf dem Verteidiger ausgeben, um unter Verwendung einer [Cannon]-Aufwertung, mit der du in diesem Zug noch nicht angegriffen hast, einen Bonus-[Cannon]-Angriff gegen jenes Schiff durchzuführen. Bevor du aktiviert wirst, falls du nicht kritisch beschädigt bist, darfst du diese Karte umdrehen.',
           es:
@@ -480,37 +556,13 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir effectué une attaque, vous pouvez dépenser votre verrouillage sur le défenseur pour effectuer une attaque bonus [Cannon] contre ce vaisseau en utilisant une amélioration [Cannon] avec laquelle vous n'avez pas attaqué à ce round. Avant de vous activer, si vous n'êtes pas critiquement endommagé, vous pouvez retourner cette carte.",
         },
-        slots: ['Configuration'],
-        grants: [
-          {
-            action: {
-              type: 'Barrel Roll',
-              difficulty: 'White',
-              linked: { type: 'Lock', difficulty: 'Red' },
-            },
-            value: 1,
-          },
-        ],
-        ffg: 645,
-      },
-      {
         title: {
           en: 'Stabilized S-foils (Closed)',
-          de: 'Stabilisierte S-Flügel (geschlossen)',
-          fr: 'S-foils Stabilisés (Repliés)',
-          es: 'Alas móviles estabilizadas (posición cerrada)',
+          de: 'Stabilisierte S-Flügel (geöffnet)',
+          fr: 'S-foils Stabilisés (Dépliés)',
+          es: 'Alas móviles estabilizadas (posición abierta)',
         },
         type: 'Configuration',
-        ability: {
-          en:
-            'Before you activate, if you are not critically damaged, you may flip this card.',
-          de:
-            'Bevor du aktiviert wirst, falls du nicht kritisch beschädigt bist, darfst du diese Karte umdrehen.',
-          es:
-            'Antes de que te actives, si no estás dañado críticamente, puedes darle la vuelta a esta carta.',
-          fr:
-            "Avant de vous activer, si vous n'êtes pas critiquement endommagé, vous pouvez retourner cette carte.",
-        },
         slots: ['Configuration'],
         grants: [
           {
@@ -524,9 +576,51 @@ const t: UpgradeBase[] = [
           { action: { type: 'Reload', difficulty: 'Red' }, value: 1 },
         ],
         ffg: 646,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/80efc4163ceb2000a6981b9851c3d1a9.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/77f37d94be3977d6d573219dd6462c2b.png',
+        },
+      },
+      {
+        ability: {
+          en:
+            'After you perform an attack, you may spend your lock on the defender to perform a bonus [Cannon] attack against that ship using a [Cannon] upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.',
+          de:
+            'Bevor du aktiviert wirst, falls du nicht kritisch beschädigt bist, darfst du diese Karte umdrehen.',
+          es:
+            'Antes de que te actives, si no estás dañado críticamente, puedes darle la vuelta a esta carta.',
+          fr:
+            "Avant de vous activer, si vous n'êtes pas critiquement endommagé, vous pouvez retourner cette carte.",
+        },
+        title: {
+          en: 'Stabilized S-foils (Open)',
+          de: 'Stabilisierte S-Flügel (geschlossen)',
+          fr: 'S-foils Stabilisés (Repliés)',
+          es: 'Alas móviles estabilizadas (posición cerrada)',
+        },
+        type: 'Configuration',
+        slots: ['Configuration'],
+        grants: [
+          {
+            action: {
+              type: 'Barrel Roll',
+              difficulty: 'White',
+              linked: { type: 'Lock', difficulty: 'Red' },
+            },
+            value: 1,
+          },
+        ],
+        ffg: 645,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/e6316661a866ec6d474363d135ae75d4.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f03c2baf5b0a095e28948f03468cc5d2.png',
+        },
       },
     ],
-    restrictions: [{ chassis: ['asf01bwing'] }],
     hyperspace: true,
     epic: true,
     cost: { value: 0 },
@@ -537,12 +631,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Alpha-3B "Besh"',
-          de: 'Alpha-3B „Besh"',
-          es: 'Alfa-3B "Besh"',
-        },
-        type: 'Configuration',
         ability: {
           en:
             'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
@@ -553,14 +641,20 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque principale, vous pouvez dépenser votre verrouillage sur le défenseur pour changer 1 de vos résultats vierges ou [Focus] en un résultat [Hit]. Ajoutez un emplacement [Device].',
         },
+        title: {
+          en: 'Alpha-3B "Besh"',
+          de: 'Alpha-3B „Besh"',
+          es: 'Alfa-3B "Besh"',
+        },
+        type: 'Configuration',
         slots: ['Configuration'],
         ffg: 870,
-        grants: [{ slot: 'Device', value: 1 }],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2e6d4fc53253cdf04086649b7eaf917a.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
     xws: 'interceptbooster',
@@ -568,13 +662,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Intercept Booster (Attached)',
-          de: 'Abfang-Booster (Eingeklinkt)',
-          es: 'Aceleradores de intercepción (conectados)',
-          fr: "Propulseur d'Interception (Accroché)",
-        },
-        type: 'Configuration',
         ability: {
           en:
             'Setup: Equip this side faceup. During the System Phase, gain 1 disarm token unless you flip this card. At the end of the End Phase, if you have no active [Charge], flip this card.',
@@ -585,6 +672,15 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : à équiper avec cette face visible. Pendant la phase de système, gagnez 1 marqueur de désarmement sauf si vous retournez cette carte. À la fin de la phase de dénouement, si vous n'avez pas de [Charge] active, retournez cette carte.",
         },
+        title: {
+          en: 'Intercept Booster (Attached)',
+          de: 'Abfang-Booster (Eingeklinkt)',
+          es: 'Aceleradores de intercepción (conectados)',
+          fr: "Propulseur d'Interception (Accroché)",
+        },
+        type: 'Configuration',
+        slots: ['Configuration'],
+        charges: { value: 3, recovers: -1 },
         grants: [
           {
             action: {
@@ -595,20 +691,11 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Configuration'],
         ffg: 873,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/e0d4a33513507acf6852de1329ad7b85.jpg',
       },
       {
-        title: {
-          en: 'Intercept Booster (Detached)',
-          de: 'Abfang-Booster (Ausgeklinkt)',
-          es: 'Aceleradores de intercepción (desprendidos)',
-          fr: "Propulseur d'Interception (Détaché)",
-        },
-        type: 'Configuration',
-        ability: { en: '' },
-        slots: ['Configuration'],
-        ffg: 872,
         text: {
           en:
             'Unhindered by the frailty of an organic pilot, Droid Tri-Fighters are capable of radical acceleration and acute maneuvering. Fitted with booster rockets and fired from the missile tubes of Separatist capital ships, they can intercept hostiles well beyond the range of conventionally deployed starfighters.',
@@ -619,11 +706,21 @@ const t: UpgradeBase[] = [
           fr:
             "Libéré de la fragilité des pilotes organiques, les Tri-Chasseurs Droïdes sont capables d'accélération phénoménales et de manœuvres extrêmes. Équipés de propulseurs d'appoint et envoyés à partir des tubes lance-missiles des vaisseaux capitaux Séparatistes, ils peuvent intercepter des ennemis bien au-delà de la portée habituelle de déploiement des chasseurs.",
         },
+        title: {
+          en: 'Intercept Booster (Detached)',
+          de: 'Abfang-Booster (Ausgeklinkt)',
+          es: 'Aceleradores de intercepción (desprendidos)',
+          fr: "Propulseur d'Interception (Détaché)",
+        },
+        type: 'Configuration',
+        slots: ['Configuration'],
+        ffg: 872,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1c125de5b479dbc58f1a0bc2ec770ed3.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['droidtrifighter'] }],
   },
   {
     xws: 'maneuverassistmgk300',
@@ -631,13 +728,6 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     sides: [
       {
-        title: {
-          en: 'Maneuver-Assist MGK-300',
-          de: 'MGK-300-Manöverassistent',
-          es: 'MGK-300 de ayuda de vuelo',
-          fr: 'Aide à la Manœuvre MGK-300',
-        },
-        type: 'Configuration',
         ability: {
           en:
             'Reduce the difficulty of your speed 3 straight ([Straight]) and bank ([Bank Left] or [Bank Right]) maneuvers.',
@@ -648,6 +738,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir révélé une manœuvre de virage sur l'aile ([Bank Left] ou [Bank Right]) ou de virage ([Turn Left] or [Turn Right]), vous devez effectuer cette manœuvre comme un dérapage, puis retournez cette carte. Après avoir entièrement exécuté une manœuvre non-dérapage, vous pouvez retourner cette carte.",
         },
+        title: {
+          en: 'Maneuver-Assist MGK-300',
+          de: 'MGK-300-Manöverassistent',
+          es: 'MGK-300 de ayuda de vuelo',
+          fr: 'Aide à la Manœuvre MGK-300',
+        },
+        type: 'Configuration',
+        slots: ['Configuration'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
           {
@@ -659,13 +757,13 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Configuration'],
         ffg: 722,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8b7bc25a4c99fafd0c61ac6efb1129ae.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['tierbheavy'] }],
   },
   {
     xws: 'targetassistmgk300',
@@ -673,13 +771,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Target-Assist MGK-300',
-          de: 'MGK-300-Zielassistent',
-          es: 'MGK-300 de cálculo de tiro',
-          fr: 'Aide à la Visée MGK-300',
-        },
-        type: 'Configuration',
         ability: {
           en:
             'Before you engage, if you have no green tokens and you are not stressed, gain 1 calculate token for each enemy ship at range 2-3 in your firing arc, to a maximum of 2.',
@@ -690,6 +781,14 @@ const t: UpgradeBase[] = [
           fr:
             "Diminuez la difficulté de vos manœuvres à vitesse 3 en ligne droite ([Straight]) et virage sur l'aile ([Bank Left] ou [Bank Right]).",
         },
+        title: {
+          en: 'Target-Assist MGK-300',
+          de: 'MGK-300-Zielassistent',
+          es: 'MGK-300 de cálculo de tiro',
+          fr: 'Aide à la Visée MGK-300',
+        },
+        type: 'Configuration',
+        slots: ['Configuration'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
           {
@@ -701,13 +800,13 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Configuration'],
         ffg: 723,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/954401c2bc0cc705693553362d078536.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['tierbheavy'] }],
   },
   {
     xws: 'repulsorliftstabilizers',
@@ -721,7 +820,13 @@ const t: UpgradeBase[] = [
           es: 'Repulsores de estabilización (inactivos)',
         },
         type: 'Configuration',
-        slots: [],
+        slots: ['Configuration'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/b16d22d90b1b5048a15cf1734334d8fa.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d159e1d6ffc15eda188f858292dc9c2b.png',
+        },
         ability: {
           en:
             'Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight]) maneuvers. After you fully execute a maneuver, you may flip this card.',
@@ -743,6 +848,12 @@ const t: UpgradeBase[] = [
         },
         type: 'Configuration',
         slots: ['Configuration'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/57074bd7f510c9c4fd3717894e0239a0.png',
+        },
         ability: {
           en:
             'After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card.',
@@ -757,7 +868,6 @@ const t: UpgradeBase[] = [
     limited: 0,
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['hmpdroidgunship'] }],
   },
   {
     limited: 0,
@@ -781,14 +891,15 @@ const t: UpgradeBase[] = [
           de: 'Alpha-3E „Esk"',
           es: 'Alfa-3E "Esk"',
         },
-        charges: { value: 2, recovers: 1 },
         type: 'Configuration',
         slots: ['Configuration'],
+        charges: { value: 2, recovers: 1 },
         ffg: 871,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg',
       },
     ],
     cost: { value: 0 },
-    restrictions: [{ chassis: ['nimbusclassvwing'] }],
   },
   {
     xws: 'sensitivecontrols',
@@ -796,16 +907,8 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     sides: [
       {
-        title: {
-          en: 'Sensitive Controls',
-          de: 'Genaue Steuerung',
-          es: 'Controles de altra precisión',
-          fr: 'Contrôles Sensibles',
-        },
-        type: 'Configuration',
         ability: {
-          en:
-            'Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+          en: 'Replace your Autothrusters ship ability with the following:',
           de:
             'Ersetze deine Schiffsfähigkeit Automatische Schubdüsen durch: Genaue Steuerung: Während der Systemphase darfst du eine rote [Barrel Roll]- oder eine rote [Boost]-Aktion durchführen.',
           es:
@@ -813,14 +916,23 @@ const t: UpgradeBase[] = [
           fr:
             'Remplacez votre capacité de vaisseau Autopropulseurs par la suivante : Contrôles Sensibles : pendant la phase de système, vous pouvez effectuer une action [Barrel Roll] rouge ou [Boost] rouge.',
         },
+        title: {
+          en: 'Sensitive Controls',
+          de: 'Genaue Steuerung',
+          es: 'Controles de altra precisión',
+          fr: 'Contrôles Sensibles',
+        },
+        type: 'Configuration',
         slots: ['Configuration'],
         ffg: 924,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg',
       },
     ],
     standarized: true,
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['tieininterceptor', 'tievnsilencer'] }],
+    restrictions: [{}, {}],
   },
   {
     xws: 'tiedefenderelite',
@@ -828,16 +940,9 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     sides: [
       {
-        title: {
-          en: 'TIE Defender Elite',
-          de: 'TIE-Abwehrjäger-Elite',
-          es: 'Defensor TIE de élite',
-          fr: "Défenseur Tie d'Élite",
-        },
-        type: 'Configuration',
         ability: {
           en:
-            'Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
+            'Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers. Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.',
           de:
             'Verringere die Schwierigkeit deiner Wendemanöver ([Turn Left] oder [Turn Right]). Erhöhe die Schwierigkeit deiner Koiogran-Wenden ([Koiogran Turn]). Ersetze deine Schiffsfähigkeit Vollgas durch: Verbesserte Feuerkontrolle: Nachdem du einen [Cannon]- oder [Missile]-Angriff durchgeführt hast, falls du den Verteidiger als Ziel erfasst hast, darfst du einen Bonus-Primärangriff gegen den Verteidiger durchführen.',
           es:
@@ -845,14 +950,27 @@ const t: UpgradeBase[] = [
           fr:
             'Diminuez la difficulté de vos manœuvres de virage ([Turn Left] ou [Turn Right]). Augmentez la difficulté de vos manœuvres de Virage Koiogran ([Koiogran Turn]). Remplacez votre capacité de vaisseau Plein Gaz par la suivante : Commande de Tir Avancée : après avoir effectué une attaque [Cannon] ou [Missile], si vous avez un verrouillage sur le défenseur, vous pouvez effectuer une attaque principale bonus contre le défenseur.',
         },
+        title: {
+          en: 'TIE Defender Elite',
+          de: 'TIE-Abwehrjäger-Elite',
+          es: 'Defensor TIE de élite',
+          fr: "Défenseur Tie d'Élite",
+        },
+        type: 'Configuration',
         slots: ['Configuration'],
         ffg: 925,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a70e6ac15fdc103d5ee2dd50aa315f9c.jpg',
       },
     ],
     standarized: true,
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['tieddefender'] }],
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { chassis: ['tieddefender'] },
+      {},
+    ],
   },
   {
     xws: 'vectoredcannonsrz1',
@@ -860,13 +978,6 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     sides: [
       {
-        title: {
-          en: 'Vectored Cannons (RZ-1)',
-          de: 'Schwenkbare Kanonen (RZ-1)',
-          es: 'Cañones vectoriales (RZ-1)',
-          fr: 'Canons Vectoriels (Rz-1)',
-        },
-        type: 'Configuration',
         ability: {
           en:
             'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].',
@@ -877,14 +988,107 @@ const t: UpgradeBase[] = [
           fr:
             "Gagnez un indicateur [Single Turret Arc]. Considérez le prérequis d'arc de vos attaques principales [Front Arc] comme étant [Single Turret Arc]. Remplacez votre capacité de vaisseau Propulseurs Vectoriels par la suivante : Canons Vectoriels : pendant la phase de système, vous pouvez effectuer une action [Boost] rouge ou [Rotate Arc] rouge. Vous pouvez pivoter votre indicateur [Single Turret Arc] uniquement vers votre [Front Arc] ou [Rear Arc].",
         },
+        title: {
+          en: 'Vectored Cannons (RZ-1)',
+          de: 'Schwenkbare Kanonen (RZ-1)',
+          es: 'Cañones vectoriales (RZ-1)',
+          fr: 'Canons Vectoriels (Rz-1)',
+        },
+        type: 'Configuration',
         slots: ['Configuration'],
+        attack: {
+          arc: 'Single Turret Arc',
+          value: 2,
+          minrange: 1,
+          maxrange: 3,
+          ordnance: false,
+        },
+        grants: [{ arc: 'Single Turret Arc', value: 1 }],
         ffg: 926,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg',
       },
     ],
     standarized: true,
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['rz1awing'] }],
+    restrictions: [{}, {}],
+  },
+  {
+    limited: 0,
+    xws: 'wartimeloadout',
+    sides: [
+      {
+        title: { en: 'Wartime Loadout' },
+        type: 'Configuration',
+        slots: ['Configuration', 'Modification'],
+        ability: {
+          en:
+            'Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following: Devastating Barrage: While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannont be canceled by [Evade] results.',
+        },
+        grants: [
+          { action: { type: 'Lock', difficulty: 'White' }, value: 1 },
+          { action: { type: 'Reload', difficulty: 'White' }, value: 1 },
+          { stat: 'shields', value: 2 },
+        ],
+        image: { en: '???' },
+        ffg: 929,
+        artwork: '???',
+      },
+    ],
+    cost: { value: 4 },
+    restrictions: [{ chassis: ['btanr2ywing'] }, {}],
+    hyperspace: false,
+    epic: true,
+  },
+  {
+    limited: 0,
+    xws: 'enhancedjammingsuite',
+    sides: [
+      {
+        title: { en: 'Enhanced Jamming Suite' },
+        type: 'Configuration',
+        slots: ['Configuration', 'Tech'],
+        ability: {
+          en:
+            'While you jam, you can choose yourself or another friendly ship. While you defend, if the attacker has no green tokens or there is a jammed ship in the attack arc, you may roll 1 additional defense die.',
+        },
+        grants: [
+          {
+            action: {
+              type: 'Focus',
+              difficulty: 'White',
+              linked: { type: 'Jam', difficulty: 'White' },
+            },
+            value: 1,
+          },
+          {
+            action: {
+              type: 'Barrel Roll',
+              difficulty: 'White',
+              linked: { type: 'Jam', difficulty: 'White' },
+            },
+            value: 1,
+          },
+          {
+            action: {
+              type: 'Boost',
+              difficulty: 'White',
+              linked: { type: 'Jam', difficulty: 'White' },
+            },
+            value: 1,
+          },
+          { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
+        ],
+        image: { en: '???' },
+        ffg: 933,
+        artwork: '???',
+      },
+    ],
+    cost: { value: 0 },
+    restrictions: [{ chassis: ['tiewiwhispermodifiedinterceptor'] }],
+    hyperspace: false,
+    epic: true,
   },
 ];
 

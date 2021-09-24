@@ -32,8 +32,12 @@ const t: UpgradeBase[] = [
           maxrange: 1,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_33.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg',
         ffg: 262,
       },
     ],
@@ -72,8 +76,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_34.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg',
         ffg: 263,
       },
     ],
@@ -103,6 +111,10 @@ const t: UpgradeBase[] = [
           fr:
             'Attaque ([Lock]) : dépensez 1 [Charge]. Changez 1 résultat [Hit] en un résultat [Critical Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_35.png',
+        },
         slots: ['Torpedo'],
         charges: { value: 2, recovers: 0 },
         attack: {
@@ -113,7 +125,7 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg',
         ffg: 264,
       },
     ],
@@ -126,13 +138,6 @@ const t: UpgradeBase[] = [
     xws: 'plasmatorpedoes',
     sides: [
       {
-        title: {
-          en: 'Plasma Torpedoes',
-          de: 'Plasmatorpedos',
-          fr: 'Torpilles à Plasma',
-          es: 'Torpedos de plasma',
-        },
-        type: 'Torpedo',
         ability: {
           en:
             'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.',
@@ -143,6 +148,13 @@ const t: UpgradeBase[] = [
           fr:
             "Attaque ([Lock]) : dépensez 1 [Charge]. Lors de l'étape « Neutraliser les résultats », les résultats [Critical Hit] sont annulés avant les résultats [Hit]. Après que cette attaque a touché, le défenseur perd 1 bouclier.",
         },
+        title: {
+          en: 'Plasma Torpedoes',
+          de: 'Plasmatorpedos',
+          fr: 'Torpilles à Plasma',
+          es: 'Torpedos de plasma',
+        },
+        type: 'Torpedo',
         slots: ['Torpedo'],
         charges: { value: 2, recovers: 0 },
         attack: {
@@ -152,9 +164,13 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
-        artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg',
         ffg: 579,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4123de29aa73a40eca130e1e75d9353b.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/60fb85c3782c235904678bac8a106150.png',
+        },
       },
     ],
     cost: { value: 7 },

@@ -24,8 +24,12 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque, vous pouvez dépenser 1 marqueur de concentration pour changer 1 de vos résultats vierges en un résultat [Hit].',
         },
         slots: ['Tech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/e77e204e6b7164f6a1d945b20a0c4359.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/e19aa7cd99df250715c17386135cd140.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/e19aa7cd99df250715c17386135cd140.jpg',
         ffg: 460,
       },
     ],
@@ -56,8 +60,12 @@ const t: UpgradeBase[] = [
             "Après qu'un vaisseau ennemi vous a verrouillé, si vous n'êtes pas dans son [Bullseye Arc], il gagne 1 marqueur de stress.",
         },
         slots: ['Tech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/55d8ff7d35b714d9c9a6ef1fd7732a60.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/55ff3d199702695f23631d85a25bbae6.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/55ff3d199702695f23631d85a25bbae6.jpg',
         ffg: 488,
       },
     ],
@@ -89,8 +97,12 @@ const t: UpgradeBase[] = [
             "Mise en place : avant de placer les forces, vous pouvez choisir un nombre entre 0 et 6. Pendant la mise en place, considérez que votre initiative est égale au nombre choisi. Après la Mise en place, assignez 1 marqueur de concentration ou d'évasion à chaque vaisseau allié à portée 0-2.",
         },
         slots: ['Tech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a48713c6784bf33bd3f8b36eb19221c3.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/fa5c01453d7aa2e2f1f100593e79669d.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/fa5c01453d7aa2e2f1f100593e79669d.jpg',
         ffg: 461,
       },
     ],
@@ -121,8 +133,12 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer les actions [Barrel Roll] et [Boost] même si vous êtes stressé.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a114625347a0f3088f4679f8107ab631.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/3789dd873db0d0c74293531bef49e16e.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/3789dd873db0d0c74293531bef49e16e.jpg',
         slots: ['Tech'],
         ffg: 463,
       },
@@ -157,8 +173,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau allié à portée 1-2 effectue une attaque contre une cible que vous avez verrouillée, ce vaisseau allié ignore le prérequis d'attaque [Lock].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/83782f01cd3486006c4d279864d2983a.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/1597042d794000fb34d1eee30cc10f35.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/1597042d794000fb34d1eee30cc10f35.jpg',
         slots: ['Tech'],
         ffg: 464,
       },
@@ -190,8 +210,12 @@ const t: UpgradeBase[] = [
             "Tant que vous exécutez entièrement une manœuvre rouge, avant l'étape « Vérifier la difficulté », vous pouvez effectuer 1 action.",
         },
         slots: ['Tech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/ace963fc4fe9d97f64ab8564dc4beae7.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/811e07d55f95e53fef3182020d8cbf6e.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/811e07d55f95e53fef3182020d8cbf6e.jpg',
         ffg: 462,
       },
     ],
@@ -222,8 +246,12 @@ const t: UpgradeBase[] = [
             'Tant que vous coordonnez ou brouillez, si vous avez un verrouillage sur un vaisseau, vous pouvez dépenser ce verrouillage pour choisir ce vaisseau, en ignorant toutes les restrictions de portées.',
         },
         slots: ['Tech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/094f3bbc6e3041886398e9eaf692d4ab.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/14c54aef2e36ac34564194e4785c98ce.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/14c54aef2e36ac34564194e4785c98ce.jpg',
         ffg: 491,
       },
     ],
@@ -237,13 +265,6 @@ const t: UpgradeBase[] = [
     xws: 'deuteriumpowercells',
     sides: [
       {
-        title: {
-          en: 'Deuterium Power Cells',
-          de: 'Deuterium-Energiezellen',
-          fr: 'Cellules Énergétiques au Deutérium',
-          es: 'Células energéticas de deuterio',
-        },
-        type: 'Tech',
         ability: {
           en:
             'During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.',
@@ -255,12 +276,24 @@ const t: UpgradeBase[] = [
             "Pendant la phase de système, vous pouvez dépenser 1 [Charge] et gagner 1 marqueur de désarmement pour récupérer 1 . Avant que vous ne gagniez 1 marqueur autre qu'un marqueur de verrouillage, si vous n'êtes pas stressé, vous pouvez dépenser 1 [Charge] pour gagner 1 marqueur de stress à la place.",
         },
         charges: { value: 2, recovers: 0 },
+        title: {
+          en: 'Deuterium Power Cells',
+          de: 'Deuterium-Energiezellen',
+          fr: 'Cellules Énergétiques au Deutérium',
+          es: 'Células energéticas de deuterio',
+        },
+        type: 'Tech',
         slots: ['Tech', 'Modification'],
         ffg: 654,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/038636d357004cc01635a93c224d921d.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png',
+        },
       },
     ],
     cost: { value: 8 },
-    restrictions: [{ factions: ['First Order'] }],
     hyperspace: true,
     epic: true,
   },
@@ -270,6 +303,7 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
+        ffg: 671,
         title: {
           en: 'Automated Target Priority',
           de: 'Automatisches Zielsystem',
@@ -277,9 +311,16 @@ const t: UpgradeBase[] = [
           es: 'Priorización de blancos automatizada',
         },
         type: 'Tech',
+        slots: ['Tech'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d0f9614d25d622b900f5ceafc8028fbd.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/49d9da05371e92cafec65512526b85c3.png',
+        },
         ability: {
           en:
-            'While you perform an attack, you must choose a defender at the closest valid attack range. After you perform an attack that missed, place 1 calculate token on this card.  Before you engage, you may remove 1 calculate token from this card to gain a matching token.',
+            'While you perform an attack, you must choose a defender at the closest valid attack range. After you perform an attack that missed, place 1 calculate token on this card. Before you engage, you may remove 1 calculate token from this card to gain a matching token.',
           de:
             'Solange du einen Angriff durchführst, musst du einen Verteidiger in der kürzesten gültigen Angriffsreichweite wählen. Nachdem du einen Angriff durchgeführt hast, der verfehlt hat, platziere 1 Berechnungs­marker auf dieser Karte.  Bevor du kämpfst, darfst du 1 Berechnungsmarker von dieser Karte entfernen, um einen passenden Marker zu erhalten.',
           fr:
@@ -287,13 +328,10 @@ const t: UpgradeBase[] = [
           es:
             'Mientras efectúas un ataque, debes elegir un defensor que esté situado en el alcance de ataque válido más cercano. Después de que efectúes un ataque que falle, coloca 1 ficha de Cálculos sobre esta carta.  Antes de que intervengas, puedes retirar 1 ficha de Cálculos de esta carta para recibir una ficha equivalente.',
         },
-        slots: ['Tech'],
-        ffg: 671,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ initiative: { max: 3 } }],
   },
   {
     xws: 'sensorbuoysuite',
@@ -301,6 +339,7 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     sides: [
       {
+        ffg: 672,
         title: {
           en: 'Sensor Buoy Suite',
           de: 'Sensorbojen',
@@ -308,6 +347,13 @@ const t: UpgradeBase[] = [
           es: 'Conjunto de boyas de sensores',
         },
         type: 'Tech',
+        slots: ['Tech'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8962c76fb021f876c97b6044b7da827b.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f8fd5c5d87f0512c774b6ac4d0c83f2e.png',
+        },
         ability: {
           en:
             'Setup: Before placing forces, place 2 sensor buoy remotes beyond range 2 of any edge. Before you engage, you may acquire a lock on a ship at range 0-1 of a friendly sensor buoy, ignoring range restrictions.',
@@ -318,16 +364,34 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Antes de desplegar las fuerzas, coloca 2 remotos de Boya de sensores más allá de alcance 2 de todo borde. Antes de que intervengas, puedes obtener un Blanco fijado sobre una nave que esté situada a alcance 0-1 de una Boya de sensores aliada, ignorando las restricciones de alcance.',
         },
-        slots: ['Tech'],
-        ffg: 672,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [
-      { factions: ['First Order'] },
-      { baseSizes: ['Medium', 'Large'] },
+  },
+  {
+    limited: 0,
+    xws: 'sensorscramblers',
+    sides: [
+      {
+        title: { en: 'Sensor Scramblers' },
+        type: 'Tech',
+        ability: {
+          en:
+            'Setup: Gain 1 cloak token. While you are cloaked, other ships cannot acquire locks on you. During the End Phase, if you are cloaked and there is an enemy ship at range 0-3, you must decloak. If you do and that decloak fails, lose 1 cloak token.',
+        },
+        slots: ['Tech'],
+        image: { en: '???' },
+        artwork: '???',
+        ffg: 939,
+      },
     ],
+    cost: { value: 1 },
+    restrictions: [
+      { chassis: ['tiewiwhispermodifiedinterceptor', 'tievnsilencer'] },
+    ],
+    hyperspace: true,
+    epic: true,
   },
 ];
 

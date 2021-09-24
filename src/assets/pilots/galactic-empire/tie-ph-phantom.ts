@@ -89,7 +89,7 @@ const t: ShipType = {
       xws: 'echo',
       ability: {
         en:
-          'While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.',
+          'While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.',
         de:
           'Solange du dich enttarnst, musst du die (2 [Bank Left])- oder (2 [Bank Right])-Schablone anstatt der (2 [Straight])-Schablone verwenden.',
         fr:
@@ -99,11 +99,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
       ffg: 132,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_132.png',
+      },
     },
     {
       name: { en: '"Whisper"', de: '„Geflüster"', es: '"Susurro"' },
@@ -128,11 +132,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
       ffg: 131,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_131.png',
+      },
     },
     {
       name: {
@@ -157,11 +165,15 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg',
       ffg: 134,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_134.png',
+      },
     },
     {
       name: {
@@ -186,11 +198,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg',
       ffg: 133,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_133.png',
+      },
     },
   ],
 };

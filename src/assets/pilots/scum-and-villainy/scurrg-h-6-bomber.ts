@@ -76,10 +76,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
       ffg: 204,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_204.png',
+      },
     },
     {
       name: {
@@ -112,10 +116,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
       ffg: 206,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png',
+      },
     },
     {
       name: { en: 'Sol Sixxa' },
@@ -149,10 +157,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',
       ffg: 205,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_205.png',
+      },
     },
   ],
 };

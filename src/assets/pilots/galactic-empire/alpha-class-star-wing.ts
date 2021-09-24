@@ -73,10 +73,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg',
       ffg: 136,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_136.png',
+      },
     },
     {
       name: { en: 'Major Vynder', es: 'Mayor Vynder' },
@@ -109,10 +113,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg',
       ffg: 135,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_135.png',
+      },
     },
     {
       name: {
@@ -137,10 +145,14 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Torpedo', 'Missile', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg',
       ffg: 138,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_138.png',
+      },
     },
     {
       name: {
@@ -172,10 +184,14 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg',
       ffg: 137,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_137.png',
+      },
     },
   ],
 };

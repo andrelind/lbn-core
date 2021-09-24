@@ -100,6 +100,12 @@ const t: ShipType = {
         es: 'Héroe de Naboo',
       },
       keywords: ['Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/21e28ea4e8784dce5a554a33888d8be0.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d9180cc98a1a4384bb2a0e11efbf1311.jpg',
     },
     {
       name: { en: 'Ric Olié' },
@@ -127,6 +133,12 @@ const t: ShipType = {
       cost: 44,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 557,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg',
     },
     {
       name: { en: 'Padmé Amidala' },
@@ -154,6 +166,12 @@ const t: ShipType = {
       cost: 43,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 559,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg',
     },
     {
       name: { en: 'Dineé Ellberger' },
@@ -181,6 +199,12 @@ const t: ShipType = {
         fr: 'Bravo Cinq',
         es: 'Bravo Cinco',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/06e0863851b95dba4874b211e05661cc.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg',
     },
     {
       name: {
@@ -207,6 +231,12 @@ const t: ShipType = {
       cost: 33,
       slots: ['Sensor', 'Torpedo', 'Astromech'],
       ffg: 562,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/274db1f70ed4da939b9440837a30c39a.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4e1a2195431b026de73c90f8ce5f7c20.jpg',
     },
     {
       name: {
@@ -240,6 +270,12 @@ const t: ShipType = {
         fr: 'Stratagème Royal',
         es: 'Ardid regio',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg',
     },
   ],
   ffg: 66,

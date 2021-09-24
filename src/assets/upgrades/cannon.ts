@@ -31,8 +31,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_27.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg',
         ffg: 256,
       },
     ],
@@ -70,8 +74,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_28.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg',
         ffg: 257,
       },
     ],
@@ -109,8 +117,12 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_29.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg',
         ffg: 258,
       },
     ],
@@ -148,8 +160,12 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_30.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg',
         ffg: 259,
       },
     ],
@@ -162,12 +178,6 @@ const t: UpgradeBase[] = [
     xws: 'autoblasters',
     sides: [
       {
-        title: {
-          en: 'Autoblasters',
-          de: 'Autoblaster',
-          es: 'Cañones bláster automáticos',
-        },
-        type: 'Cannon',
         ability: {
           en:
             "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
@@ -178,6 +188,12 @@ const t: UpgradeBase[] = [
           fr:
             "Attaque : si le défenseur est dans votre [Bullseye Arc], lancez 1 dé supplémentaire. Lors de l'étape « Neutraliser les résultats », si vous n'êtes pas dans le [Front Arc] du défenseur, les résultats [Evade] n'annulent pas les résultats [Critical Hit].",
         },
+        title: {
+          en: 'Autoblasters',
+          de: 'Autoblaster',
+          es: 'Cañones bláster automáticos',
+        },
+        type: 'Cannon',
         slots: ['Cannon'],
         attack: {
           arc: 'Front Arc',
@@ -186,9 +202,13 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
-        artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg',
         ffg: 578,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png',
+        },
       },
     ],
     cost: { value: 4 },
@@ -201,13 +221,6 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: {
-          en: 'Underslung Blaster Cannon',
-          de: 'Unterbaute Blasterkanone',
-          es: 'Cañón bláster inferior',
-          fr: 'Canon Blaster Suspendu',
-        },
-        type: 'Cannon',
         ability: {
           en:
             'After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending a lock for the default effect.',
@@ -218,6 +231,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau ennemi a exécuté une manœuvre, vous pouvez effectuer cette attaque contre lui en tant qu'attaque bonus. Attaque ([Lock]) : vos dés ne peuvent être modifiés qu'en dépensant un verrouillage pour l'effet par défaut.",
         },
+        title: {
+          en: 'Underslung Blaster Cannon',
+          de: 'Unterbaute Blasterkanone',
+          es: 'Cañón bláster inferior',
+          fr: 'Canon Blaster Suspendu',
+        },
+        type: 'Cannon',
+        slots: ['Cannon'],
         attack: {
           arc: 'Single Turret Arc',
           value: 2,
@@ -228,16 +249,13 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
-        slots: ['Cannon'],
         ffg: 718,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [
-      { factions: ['Resistance', 'Rebel Alliance'] },
-      { chassis: ['t65xwing', 't70xwing'] },
-    ],
   },
   {
     xws: 'syncedlasercannons',
@@ -245,6 +263,7 @@ const t: UpgradeBase[] = [
     cost: { value: 7 },
     sides: [
       {
+        ffg: 674,
         title: {
           en: 'Synced Laser Cannons',
           de: 'Synchronisierte Laserkanonen',
@@ -252,6 +271,20 @@ const t: UpgradeBase[] = [
           es: 'Cañones láser sincronizados',
         },
         type: 'Cannon',
+        slots: ['Cannon', 'Cannon'],
+        attack: {
+          arc: 'Front Arc',
+          value: 3,
+          minrange: 2,
+          maxrange: 3,
+          ordnance: false,
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png',
+        },
         ability: {
           en:
             'Attack: If you are calculating, the defender does not apply the range bonus.',
@@ -262,15 +295,6 @@ const t: UpgradeBase[] = [
           es:
             'Ataque: Si estás calculando, el defensor no aplica el modificador por alcance.',
         },
-        slots: ['Cannon', 'Cannon'],
-        attack: {
-          arc: 'Front Arc',
-          value: 3,
-          minrange: 2,
-          maxrange: 3,
-          ordnance: false,
-        },
-        ffg: 674,
       },
     ],
     hyperspace: true,

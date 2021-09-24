@@ -22,11 +22,16 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
+        actions: [{ type: 'Rotate Arc', difficulty: 'White' }],
         grants: [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_31.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg',
         ffg: 260,
       },
     ],
@@ -56,6 +61,10 @@ const t: UpgradeBase[] = [
           fr:
             'Attaque : si cette attaque touche, dépensez 1 résultat [Hit] ou [Critical Hit] pour faire subir 1 dégât [Hit] au défenseur. Tous les résultats [Hit]/[Critical Hit] restants infligent des marqueurs ioniques au lieu des dégâts.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_32.png',
+        },
         slots: ['Turret'],
         attack: {
           arc: 'Single Turret Arc',
@@ -64,11 +73,12 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
+        actions: [{ type: 'Rotate Arc', difficulty: 'White' }],
         grants: [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg',
         ffg: 261,
       },
     ],

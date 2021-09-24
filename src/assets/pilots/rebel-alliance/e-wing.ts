@@ -103,12 +103,23 @@ const t: ShipType = {
         es:
           'A Iniciativa 0, puedes efectuar un ataque principal adicional contra una nave enemiga que tengas en tu [Bullseye Arc]. Si lo haces, al comienzo de la siguiente fase de Planificación, recibes 1 ficha de Desarme.',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech', 'Modification'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Tech',
+        'Torpedo',
+        'Astromech',
+        'Modification',
+      ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg',
       ffg: 50,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_50.png',
+      },
     },
     {
       name: { en: 'Gavin Darklighter' },
@@ -132,12 +143,23 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada efectúa un ataque, si el defensor está situado en tu [Front Arc], el atacante puede cambiar 1 resultado [Hit] por un resultado [Critical Hit].',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech', 'Modification'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Tech',
+        'Torpedo',
+        'Astromech',
+        'Modification',
+      ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg',
       ffg: 51,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_51.png',
+      },
     },
     {
       name: {
@@ -160,12 +182,16 @@ const t: ShipType = {
         es:
           'Diseñados para combinar las mejores prestaciones de las series Ala-X y Ala-A, el Ala-E supera a ambos modelos en velocidad, maniobrabilidad y potencia de fuego.',
       },
-      slots: ['Sensor', 'Torpedo', 'Astromech', 'Modification'],
+      slots: ['Sensor', 'Tech', 'Torpedo', 'Astromech', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg',
       ffg: 53,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_53.png',
+      },
     },
     {
       name: {
@@ -188,12 +214,23 @@ const t: ShipType = {
         es:
           'Los pilotos de élite del Escuadrón Pícaro se cuentan entre los mejores de la Alianza Rebelde.',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech', 'Modification'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Tech',
+        'Torpedo',
+        'Astromech',
+        'Modification',
+      ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg',
       ffg: 52,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_52.png',
+      },
     },
   ],
 };

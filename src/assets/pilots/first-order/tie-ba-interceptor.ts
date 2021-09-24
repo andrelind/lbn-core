@@ -100,11 +100,17 @@ const t: ShipType = {
         es:
           'Durante la fase de Sistemas, puedes elegir 1 nave enemiga situada en tu [Bullseye Arc]. Esa nave recibe 1 ficha de Merma o de Sobresfuerzo a tu elección.',
       },
-      slots: ['Talent', 'Missile', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       hyperspace: true,
       epic: true,
       ffg: 624,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg',
     },
     {
       name: { en: '"Holo"', de: '„Holo"' },
@@ -128,13 +134,17 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, debes transferir 1 de tus fichas a otra nave aliada que tengas a alcance 0-2.',
       },
-      slots: ['Talent', 'Missile', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       hyperspace: true,
       epic: true,
       ffg: 625,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg',
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png',
+      },
     },
     {
       name: { en: '"Ember"', de: '„Ember"', es: '"Ascua"' },
@@ -158,11 +168,17 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si hay alguna nave dañada aliada con el defensor situada a alcance 0-1 del defensor, éste no puede gastar fichas de Concentración o de Cálculos.',
       },
-      slots: ['Talent', 'Missile', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       hyperspace: true,
       epic: true,
       ffg: 626,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/4de956edddeacb92ef3e4f94e0a63db3.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg',
     },
     {
       name: {
@@ -175,7 +191,7 @@ const t: ShipType = {
       limited: 0,
       cost: 41,
       xws: 'firstorderprovocateur',
-      slots: ['Talent', 'Missile', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       hyperspace: false,
       epic: true,
       ffg: 627,
@@ -190,6 +206,12 @@ const t: ShipType = {
           'Aplicando las ideas del mayor Vonreg, Sistemas de Flota Sienar-Jaemus pudo mejorar diseños de valía ya probada, así como construir esta excepcional nave tan precisa como letal.',
       },
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c834c2c4722b60e67292130d40c7ec19.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg',
     },
   ],
 };

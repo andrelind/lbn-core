@@ -24,8 +24,12 @@ const t: UpgradeBase[] = [
             'Pendant la phase de dénouement, vous pouvez faire pivoter votre indicateur [Single Turret Arc].',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_162.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_162.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_162.jpg',
         ffg: 388,
       },
     ],
@@ -50,19 +54,18 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, vous pouvez changer 1 résultat [Hit] en un résultat [Critical Hit] pour chaque marqueur de stress qu'a le défenseur.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_140.png',
+        },
         slots: ['Gunner'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_140.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_140.jpg',
         ffg: 365,
       },
     ],
     cost: { value: 2 },
-    restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: ['darthvader', 'darthvader-tieddefender'],
-      },
-    ],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     hyperspace: true,
     epic: true,
   },
@@ -84,8 +87,12 @@ const t: UpgradeBase[] = [
             "Après avoir effectué une attaque principale, si vous êtes concentré, vous pouvez effectuer une attaque bonus [Single Turret Arc] contre un vaisseau que vous n'avez pas encore attaqué à ce round.",
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_95.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_95.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_95.jpg',
         ffg: 319,
       },
     ],
@@ -111,9 +118,13 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir effectué une attaque principale ratée, si vous n'êtes pas stressé, vous devez recevoir 1 marqueur de stress pour effectuer une attaque principale bonus contre la même cible.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_139.png',
+        },
         slots: ['Gunner'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_139.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_139.jpg',
         ffg: 364,
       },
     ],
@@ -139,10 +150,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir défendu, si l'attaquant est dans votre arc de tir, vous pouvez dépenser 1 [Charge]. Dans ce cas, lancez 1 dé d'attaque sauf si l'attaquant choisit de retirer 1 marqueur vert. Sur un résultat [Hit] ou [Critical Hit], l'attaquant subit 1 dégât [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_141.png',
+        },
         slots: ['Gunner'],
         charges: { value: 1, recovers: 1 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_141.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_141.jpg',
         ffg: 366,
       },
     ],
@@ -168,10 +183,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir effectué une attaque principale, vous pouvez dépenser 1 [Force] pour effectuer une attaque bonus [Single Turret Arc] depuis une [Single Turret Arc] avec laquelle vous n'avez pas attaqué à ce round. Dans ce cas et si vous êtes stressé, vous pouvez relancer 1 dé d'attaque.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_96.png',
+        },
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg',
         ffg: 320,
       },
     ],
@@ -202,10 +221,14 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Force] pour changer 1 de vos résultats [Focus] en un résultat [Critical Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_122.png',
+        },
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['dark'] },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_122.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_122.jpg',
         ffg: 348,
       },
     ],
@@ -231,10 +254,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Charge] pour changer 1 résultat [Hit] en un résultat [Critical Hit]. Tant que vous défendez, si votre [Charge] est active, l'attaquant peut changer 1 résultat [Hit] en un résultat [Critical Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_142.png',
+        },
         slots: ['Gunner'],
         charges: { value: 1, recovers: 1 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_142.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_142.jpg',
         ffg: 367,
       },
     ],
@@ -261,8 +288,12 @@ const t: UpgradeBase[] = [
             "Pendant la phase d'engagement, à l'initiative 7, vous pouvez effectuer une attaque [Single Turret Arc]. Vous ne pouvez pas effectuer d'autre attaque avec cette [Single Turret Arc] à ce round.",
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_97.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_97.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_97.jpg',
         ffg: 321,
       },
     ],
@@ -288,8 +319,12 @@ const t: UpgradeBase[] = [
             'Avant de vous engager, vous pouvez effectuer une action [Focus] rouge.',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_163.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_163.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_163.jpg',
         ffg: 389,
       },
     ],
@@ -321,8 +356,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque [Single Turret Arc], après l'étape « Modifier les dés de défense », le défenseur retire 1 marqueur de concentration ou de calcul.",
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_49.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_49.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_49.jpg',
         ffg: 278,
       },
     ],
@@ -349,8 +388,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_98.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_98.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_98.jpg',
         ffg: 322,
       },
     ],
@@ -382,8 +425,12 @@ const t: UpgradeBase[] = [
             'Si vous devez larguer ou lancer un engin, vous pouvez utiliser un gabarit de même direction mais avec une vitesse supérieure ou inférieure de 1.',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_50.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_50.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_50.jpg',
         ffg: 279,
       },
     ],
@@ -414,8 +461,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque principale [Front Arc], si votre [Single Turret Arc] est dans votre [Front Arc], vous pouvez lancer 1 dé d'attaque supplémentaire. Après avoir effectué une attaque principale [Front Arc], si votre [Single Turret Arc] est dans votre [Rear Arc], vous pouvez effectuer une attaque principale [Single Turret Arc] bonus.",
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d3aed19c7eb6f9ebc2352ac49cdd6b87.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/b87bf63d7db6195febd879edc4880f13.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/b87bf63d7db6195febd879edc4880f13.jpg',
         ffg: 470,
       },
     ],
@@ -450,13 +501,17 @@ const t: UpgradeBase[] = [
             'Après avoir effectué une attaque principale [Front Arc], vous pouvez effectuer une attaque principale [Rear Arc] bonus.',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_51.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_51.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_51.jpg',
         ffg: 280,
       },
     ],
     cost: { value: 2 },
-    restrictions: [{ arcs: ['Rear Arc'] }],
+    restrictions: [{}],
     hyperspace: false,
     epic: true,
   },
@@ -483,8 +538,12 @@ const t: UpgradeBase[] = [
             "Après avoir effectué une attaque principale, vous pouvez effectuer une attaque bonus [Single Turret Arc] en utilisant une [Single Turret Arc] que vous n'avez pas déjà utilisée pour attaquer à ce round.",
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_52.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_52.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_52.jpg',
         ffg: 281,
       },
     ],
@@ -514,8 +573,12 @@ const t: UpgradeBase[] = [
             'Tant que vous défendez ou effectuez une attaque principale, si le vaisseau ennemi est dans votre [Front Arc], vous pouvez ajouter 1 résultat vierge à votre lancer (ce dé peut être relancé ou modifié autrement).',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/79477be319935f42270f1712cd269dff.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/7d5d0c76d3c8fdbb5ec893c270eec7b2.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/7d5d0c76d3c8fdbb5ec893c270eec7b2.jpg',
         ffg: 476,
       },
     ],
@@ -542,8 +605,12 @@ const t: UpgradeBase[] = [
             'Après avoir effectué une attaque principale, vous pouvez larguer 1 bombe ou pivoter votre indicateur [Single Turret Arc]. Après avoir été détruit, vous pouvez larguer 1 bombe.',
         },
         slots: ['Gunner'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/9dc15f634233b5daba107a07aa63d04c.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg',
         ffg: 477,
       },
     ],
@@ -571,13 +638,17 @@ const t: UpgradeBase[] = [
         },
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/e11aec8ae6ec855694947bc2f9d1917e.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/ab5eea679d5ca9369cd122bc65001119.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/ab5eea679d5ca9369cd122bc65001119.jpg',
         ffg: 478,
       },
     ],
     restrictions: [{ factions: ['Resistance'] }],
-    cost: { value: 13 },
+    cost: { value: 10 },
     hyperspace: false,
     epic: true,
   },
@@ -586,8 +657,14 @@ const t: UpgradeBase[] = [
     xws: 'ahsokatano',
     sides: [
       {
+        ffg: 615,
         title: { en: 'Ahsoka Tano' },
-        type: 'Gunner',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f37eb1e56dc1928bfcd53e4eb95a01ae.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/bdc101788f827aeaf2f50a513b59aa7e.png',
+        },
         ability: {
           en:
             'After you execute a maneuver, you may spend 1 [Force] and choose a friendly ship at range 1-3 in your firing arc. If you do, it may perform a red [Focus] action, even while stressed.',
@@ -600,12 +677,9 @@ const t: UpgradeBase[] = [
         },
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
-        artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/ab5eea679d5ca9369cd122bc65001119.jpg',
-        ffg: 615,
+        type: 'Gunner',
       },
     ],
-    restrictions: [{ factions: ['Galactic Republic'] }],
     cost: { value: 12 },
     hyperspace: false,
     epic: true,
@@ -634,8 +708,12 @@ const t: UpgradeBase[] = [
             "Tant qu'un autre vaisseau allié effectue une attaque principale, si le défenseur est dans votre arc de tir, vous pouvez dépenser 1 [Charge]. Dans ce cas, l'attaquant lance 1 dé supplémentaire, pour un maximum de 4. Pendant la phase de système, vous pouvez gagner 1 marqueur de désarmement pour récupérer 1 [Charge].",
         },
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a532c1de311e8d0a288af8232495a007.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/8461a9f5c79195b802e8b04da922809f.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/8461a9f5c79195b802e8b04da922809f.jpg',
         ffg: 553,
       },
     ],
@@ -667,8 +745,12 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir effectué une attaque qui a raté, si au moins 1 résultat [Hit]/[Critical Hit] a été neutralisé, le défenseur gagne 1 marqueur de contrainte.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/1da8e9de468d456f724d0c1f37e90d28.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/209d0df0333dc348c74c0e8a760ca741.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/209d0df0333dc348c74c0e8a760ca741.jpg',
         ffg: 552,
       },
     ],
@@ -683,8 +765,6 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
-        title: { en: 'Boba Fett' },
-        type: 'Gunner',
         ability: {
           en:
             'While you perform an attack, if there are no other ships in the attack arc, you may change 1 of your [Focus] results to a [Hit] result.',
@@ -695,13 +775,16 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, s'il n'y a aucun autre vaisseau dans l'arc d'attaque, vous pouvez changer 1 de vos résultats [Focus] en un résultat [Hit].",
         },
+        title: { en: 'Boba Fett' },
+        type: 'Gunner',
         slots: ['Gunner'],
         ffg: 857,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d6d9f440cf8d6965a879db163d42d402.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
   {
     xws: 'clonecaptainrex',
@@ -709,6 +792,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
+        ffg: 688,
         title: {
           en: 'Clone Captain Rex',
           de: 'Klon-Captain Rex',
@@ -716,6 +800,13 @@ const t: UpgradeBase[] = [
           es: 'Capitán clon Rex',
         },
         type: 'Gunner',
+        slots: ['Gunner'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/245421ccca34a8495ab2b1176215763d.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d5557710e25d5770248736e4743d08ad.png',
+        },
         ability: {
           en:
             'While you perform an attack, you may spend 1 [Focus] result. If you do, each friendly ship that has the defender in its [Bullseye Arc] may gain 1 strain to perform a [Focus] action.',
@@ -726,13 +817,10 @@ const t: UpgradeBase[] = [
           es:
             'Mientras efectúas un ataque, puedes gastar 1 resultado [Focus]. Si lo haces, cada nave aliada que tenga al defensor en su [Bullseye Arc] puede recibir 1 ficha de Sobresfuerzo para realizar una acción [Focus].',
         },
-        slots: ['Gunner'],
-        ffg: 688,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'suppressivegunner',
@@ -740,6 +828,7 @@ const t: UpgradeBase[] = [
     cost: { value: 7 },
     sides: [
       {
+        ffg: 689,
         title: {
           en: 'Suppressive Gunner',
           de: 'Unterstützungsschütze',
@@ -747,6 +836,13 @@ const t: UpgradeBase[] = [
           es: 'Artillerio disuasorio',
         },
         type: 'Gunner',
+        slots: ['Gunner'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4902fa74cccbaadfa2108ef7670bcbfe.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/ded967f8af64da8948746e6351238484.png',
+        },
         ability: {
           en:
             'While you perform an attack, you may spend 1 [Focus] result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 [Hit] damage.',
@@ -757,8 +853,6 @@ const t: UpgradeBase[] = [
           es:
             'Mientras efectúas un ataque, puedes gastar 1 resultado [Focus]. Si lo haces, el defensor recibe 1 ficha de Merma a menos que elija sufrir 1 de daño [Hit].',
         },
-        slots: ['Gunner'],
-        ffg: 689,
       },
     ],
     hyperspace: true,
@@ -790,6 +884,8 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: 859,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/c10278c132ecd7cf511b29d4a91c597b.jpg',
       },
     ],
     cost: { value: 5 },
@@ -800,11 +896,9 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: { en: 'Sabine Wren' },
-        type: 'Gunner',
         ability: {
           en:
-            'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1 strain or stress token.',
+            'After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack. Each chosen ship may remove 1 strain or stress token.',
           de:
             'Nachdem du einen Spezialangriff durchgeführt hast, darfst du bis zu X befreundete Schiffe in Reichweite 0-3 des Verteidigers wählen. X ist die Anzahl Schadenskarten, die dem Verteidiger während jenes Angriffs zugeteilt worden sind. Jedes gewählte Schiff darf 1 Anstrengungs- oder Stressmarker entfernen.',
           es:
@@ -812,13 +906,60 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir effectué une attaque spéciale, vous pouvez choisir un nombre de vaisseaux alliés, à portée 0-3 du défenseur, inférieur ou égal au nombre de cartes de dégât attribuées au défenseur lors de cette attaque. Chaque vaisseau choisi peut retirer 1 marqueur de stress ou de contrainte.',
         },
+        title: { en: 'Sabine Wren' },
+        type: 'Gunner',
         slots: ['Gunner'],
         ffg: 921,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/239d3285c1e55ae021c63a3f0f19985f.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Rebel Alliance'] }],
+  },
+  {
+    limited: 0,
+    xws: 'dt798',
+    sides: [
+      {
+        title: { en: 'DT-798' },
+        type: 'Gunner',
+        ability: {
+          en:
+            'At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens.',
+        },
+        slots: ['Gunner'],
+        image: { en: '???' },
+        artwork: '???',
+        ffg: 940,
+      },
+    ],
+    cost: { value: 5 },
+    restrictions: [{ factions: ['First Order'] }],
+    hyperspace: true,
+    epic: true,
+  },
+  {
+    limited: 0,
+    xws: 'firstorderordnancetech',
+    sides: [
+      {
+        title: { en: 'First Order Ordnance Tech' },
+        type: 'Gunner',
+        text: {
+          en:
+            'The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.',
+        },
+        slots: ['Gunner'],
+        image: { en: '???' },
+        artwork: '???',
+        ffg: 937,
+      },
+    ],
+    cost: { value: 3 },
+    restrictions: [{ factions: ['First Order'] }],
+    hyperspace: true,
+    epic: true,
   },
 ];
 

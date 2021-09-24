@@ -78,11 +78,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg',
       ffg: 101,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png',
+      },
     },
     {
       name: {
@@ -114,11 +118,15 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: ['Sensor', 'Missile', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
       ffg: 99,
       hyperspace: false,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_99.png',
+      },
     },
     {
       name: { en: 'Inquisitor', fr: 'Inquisiteur', es: 'Inquisidor' },
@@ -139,11 +147,15 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['dark'] },
       slots: ['Sensor', 'Missile', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
       ffg: 102,
       hyperspace: true,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_102.png',
+      },
     },
     {
       name: {
@@ -175,11 +187,15 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: ['Sensor', 'Missile', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
       ffg: 100,
       hyperspace: false,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_100.png',
+      },
     },
     {
       name: {
@@ -209,11 +225,17 @@ const t: ShipType = {
           'Mientras efectúas un ataque, después del paso de "Neutralizar resultados", si el ataque impacta, puedes gastar 2 [Force] para añadir 1 resultado [Critical Hit] .',
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
-      slots: ['Sensor', 'Missile', 'Force Power'],
+      slots: ['Force Power', 'Sensor', 'Missile'],
       hyperspace: false,
       epic: true,
       ffg: 632,
       keywords: ['Dark Side', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg',
     },
   ],
 };

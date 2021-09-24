@@ -81,8 +81,12 @@ const t: ShipType = {
       ],
       ffg: 503,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
       keywords: ['Dark Side', 'Sith'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png',
+      },
     },
     {
       name: { en: 'Count Dooku', fr: 'Comte Dooku' },
@@ -117,8 +121,12 @@ const t: ShipType = {
       ],
       ffg: 504,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
       keywords: ['Dark Side', 'Sith'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png',
+      },
     },
     {
       name: {
@@ -155,7 +163,11 @@ const t: ShipType = {
       ],
       ffg: 506,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg',
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png',
+      },
     },
     {
       name: { en: '0-66' },
@@ -163,14 +175,14 @@ const t: ShipType = {
       cost: 49,
       slots: [
         'Talent',
-        'Cannon',
         'Torpedo',
+        'Cannon',
         'Crew',
         'Crew',
-        'Device',
-        'Modification',
-        'Title',
         'Tactical Relay',
+        'Device',
+        'Title',
+        'Modification',
       ],
       ffg: 505,
       caption: {
@@ -187,7 +199,7 @@ const t: ShipType = {
         { difficulty: 'Red', type: 'Barrel Roll' },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
       ability: {
         en:
           'After you defend, you may spend 1 calculate token to perform an action.',
@@ -201,6 +213,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',
+      },
     },
   ],
   ffg: 60,

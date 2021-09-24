@@ -97,11 +97,15 @@ const t: ShipType = {
       },
       slots: ['Modification', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png',
+      },
     },
     {
       name: {
@@ -126,11 +130,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png',
+      },
     },
     {
       name: { en: 'Soontir Fel' },
@@ -156,11 +164,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
       ffg: 103,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png',
+      },
     },
     {
       name: { en: 'Turr Phennir' },
@@ -186,11 +198,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
       ffg: 104,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png',
+      },
     },
     {
       xws: 'cienaree',
@@ -219,6 +235,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 889,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg',
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -247,6 +265,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 892,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg',
     },
     {
       xws: 'vultskerris-tieininterceptor',
@@ -275,6 +295,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 890,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg',
     },
     {
       xws: 'commandantgoran',
@@ -303,6 +325,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 891,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg',
     },
     {
       xws: 'lieutenantlorrir',
@@ -318,7 +342,7 @@ const t: ShipType = {
       limited: 1,
       ability: {
         en:
-          'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
+          'While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.',
         de:
           'Solange du eine Fassrolle fliegst, musst du die ([Bank Left] oderr [Bank Right])-Schablone statt der ([Straight])-Schablone verwenden.',
         es:
@@ -331,6 +355,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 893,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg',
     },
     {
       xws: 'nashwindrider',
@@ -341,7 +367,7 @@ const t: ShipType = {
         es: 'Fanático de Alderaan',
         fr: 'Zélote Alderaanien',
       },
-      cost: 40,
+      cost: 41,
       initiative: 2,
       limited: 1,
       ability: {
@@ -360,6 +386,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 894,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
     },
   ],
 };

@@ -86,11 +86,15 @@ const t: ShipType = {
         },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg',
       ffg: 149,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_149.png',
+      },
     },
     {
       name: {
@@ -123,11 +127,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
       ffg: 154,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_154.png',
+      },
     },
     {
       name: { en: 'Emon Azzameen' },
@@ -143,7 +151,7 @@ const t: ShipType = {
       xws: 'emonazzameen',
       ability: {
         en:
-          'If you would drop a device using a (1 [Straight]) template, you may use the (3 [Turn Left]), (3 [Straight]), or (3 [Turn Right]) template instead.',
+          'If you would drop a device using a [1 [Straight]] template, you may use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.',
         de:
           'Falls du unter Verwendung der (1 [Straight])-Schablone ein Gerät abwerfen würdest, darfst du stattdessen die (3 [Turn Left])-, (3 [Straight])- oder (3 [Turn Right])-Schablone verwenden.',
         fr:
@@ -162,10 +170,14 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg',
       ffg: 150,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_150.png',
+      },
     },
     {
       name: { en: 'Kath Scarlet' },
@@ -200,10 +212,14 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg',
       ffg: 151,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_151.png',
+      },
     },
     {
       name: { en: 'Koshka Frost' },
@@ -238,11 +254,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg',
       ffg: 152,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_152.png',
+      },
     },
     {
       name: { en: 'Krassis Trelix' },
@@ -277,10 +297,14 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
       ffg: 153,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_153.png',
+      },
     },
   ],
 };

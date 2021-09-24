@@ -105,11 +105,15 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['dark'] },
       slots: ['Sensor', 'Missile', 'Modification', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
       ffg: 93,
       hyperspace: false,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png',
+      },
     },
     {
       name: { en: 'Maarek Stele' },
@@ -135,11 +139,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
       ffg: 94,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_94.png',
+      },
     },
     {
       name: {
@@ -164,11 +172,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg',
       ffg: 97,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_97.png',
+      },
     },
     {
       name: {
@@ -200,11 +212,15 @@ const t: ShipType = {
       ],
       slots: ['Sensor', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg',
       ffg: 98,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_98.png',
+      },
     },
     {
       name: { en: 'Ved Foslo' },
@@ -230,11 +246,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg',
       ffg: 95,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_95.png',
+      },
     },
     {
       name: { en: 'Zertik Strom' },
@@ -260,11 +280,15 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Missile', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
       ffg: 96,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_96.png',
+      },
     },
   ],
 };

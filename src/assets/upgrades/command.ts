@@ -6,12 +6,6 @@ const t: UpgradeBase[] = [
     xws: 'admiralozzel',
     sides: [
       {
-        title: {
-          en: 'Admiral Ozzel',
-          es: 'Almirante Ozzel',
-          fr: 'Amiral Ozzel',
-        },
-        type: 'Command',
         ability: {
           en:
             'While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.',
@@ -22,13 +16,24 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau allié grand ou immense situé à portée 0-3 exécute une manoeuvre, il peut subir 1 dégât [Hit] pour exécuter une manoeuvre de même direction et difficulté à une vitesse supérieure ou inférieure de 1 à la place.",
         },
+        title: {
+          en: 'Admiral Ozzel',
+          es: 'Almirante Ozzel',
+          fr: 'Amiral Ozzel',
+        },
+        type: 'Command',
         slots: ['Command', 'Crew'],
         ffg: 724,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/07/be/07be48c1-8c28-47af-8bee-ea09c08b59ec/swz53_admiral-ozzel.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f5f82fcbc211ffa39f9a213fac643a76.jpg',
       },
     ],
     cost: { value: 6 },
     hyperspace: false,
-    restrictions: [{ factions: ['Galactic Empire'] }, { baseSizes: ['Huge'] }],
     epic: true,
   },
   {
@@ -36,13 +41,6 @@ const t: UpgradeBase[] = [
     xws: 'agentoftheempire',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'Agent of the Empire',
-          de: 'Agent des Imperiums',
-          es: 'Agente del Imperio',
-          fr: "Agent de l'Empire",
-        },
         ability: {
           en:
             'You are a wing leader. Your wingmates must be 2, 3, 4, or 5 TIE/ln fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.',
@@ -53,16 +51,24 @@ const t: UpgradeBase[] = [
           fr:
             "Vous êtes le leader. Vos ailiers doivent être 2, 3, 4 ou 5 chasseurs TIE/ln. Tant que vous défendez, jusqu'à 2 de vos ailiers dans l'arc d'attaque peuvent subir 1 dégât [Hit] ou [Critical Hit] pour annuler un résultat correspondant.",
         },
-        grants: [{ wing: ['tielnfighter'], value: 5 }],
+        title: {
+          en: 'Agent of the Empire',
+          de: 'Agent des Imperiums',
+          es: 'Agente del Imperio',
+          fr: "Agent de l'Empire",
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 732,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/42/fa/42fad53e-0d06-4c35-8427-eba34651791b/swz57_agent-of-the-empire.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f7021137f14e5ee530cd1cc9e5b9264a.jpg',
       },
     ],
     cost: { value: 4 },
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['tieadvancedx1', 'tieadvancedv1'] },
-    ],
     hyperspace: false,
     epic: true,
   },
@@ -71,8 +77,6 @@ const t: UpgradeBase[] = [
     xws: 'azmorigan',
     sides: [
       {
-        title: { en: 'Azmorigan' },
-        type: 'Command',
         ability: {
           en:
             'During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.',
@@ -83,15 +87,19 @@ const t: UpgradeBase[] = [
           fr:
             "Pendant la phase de dénouement, vous pouvez choisir jusqu'à 2 vaisseaux alliés à portée 0-1. Dans ce cas, chacun de ces vaisseaux ne retire pas 1 marqueur de calcul ou d'évasion.",
         },
+        title: { en: 'Azmorigan' },
+        type: 'Command',
         slots: ['Command', 'Crew'],
         ffg: 725,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/5b/c2/5bc2cc05-bcc4-427a-90ad-039225fa1c87/swz55_azmorigan_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4dfc9c0a148c3aac400435771a229870.jpg',
       },
     ],
     cost: { value: 4 },
-    restrictions: [
-      { factions: ['Scum and Villainy'] },
-      { baseSizes: ['Huge'] },
-    ],
     hyperspace: false,
     epic: true,
   },
@@ -100,12 +108,6 @@ const t: UpgradeBase[] = [
     xws: 'captainneeda',
     sides: [
       {
-        title: {
-          en: 'Captain Needa',
-          es: 'Capitán Needa',
-          fr: 'Captaine Needa',
-        },
-        type: 'Command',
         ability: {
           en:
             'After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.',
@@ -116,14 +118,25 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau allié à portée 0-4 a révélé son cadran de manoeuvres, vous pouvez dépenser 1 [Charge]. Dans ce cas, il règle son cadran sur une autre manoeuvre de même vitesse et difficulté.",
         },
-        charges: { value: 4, recovers: 0 },
+        title: {
+          en: 'Captain Needa',
+          es: 'Capitán Needa',
+          fr: 'Captaine Needa',
+        },
+        type: 'Command',
         slots: ['Command', 'Crew'],
+        charges: { value: 4, recovers: 0 },
         ffg: 726,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/48/59/48592366-3c7f-49f6-9088-b8f6b7d459b0/swz53_captain-needa.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0583ea3a0143ba8e16ced0d3338f0df1.jpg',
       },
     ],
     cost: { value: 8 },
     hyperspace: false,
-    restrictions: [{ factions: ['Galactic Empire'] }, { baseSizes: ['Huge'] }],
     epic: true,
   },
   {
@@ -131,8 +144,6 @@ const t: UpgradeBase[] = [
     xws: 'carlistrieekan',
     sides: [
       {
-        type: 'Command',
-        title: { en: 'Carlist Rieekan' },
         ability: {
           en:
             'After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.',
@@ -143,13 +154,20 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau allié à portée 0-2 a été détruit, vous pouvez choisir un vaisseau allié à portée 0-2. Dans ce cas, il peut effectuer une action [Evade] rouge.",
         },
-        grants: [{ action: { type: 'Evade', difficulty: 'Red' }, value: 1 }],
+        title: { en: 'Carlist Rieekan' },
+        type: 'Command',
         slots: ['Command', 'Crew'],
+        grants: [{ action: { type: 'Evade', difficulty: 'Red' }, value: 1 }],
         ffg: 728,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/97/9b/979b69f2-1540-411b-a797-7cbf921f0fcb/swz55_carlist-rieekan_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a86c9d037c976d140ae0d6095f39225a.jpg',
       },
     ],
-    cost: { value: 6 },
-    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
+    cost: { value: 4 },
     hyperspace: false,
     epic: true,
   },
@@ -158,13 +176,6 @@ const t: UpgradeBase[] = [
     xws: 'firstorderelite',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'First Order Elite',
-          de: 'Elite der Ersten Ordnung',
-          es: 'Élite de la Primera Orden',
-          fr: 'Élite du Premier Ordre',
-        },
         ability: {
           en:
             'You are a wing leader. Your wingmates must be 2 or 3 TIE/fo fighters or TIE/sf fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.',
@@ -175,16 +186,23 @@ const t: UpgradeBase[] = [
           fr:
             "Vous êtes le leader. Vos ailiers doivent être 2 ou 3 chasseurs TIE/fo ou TIE/sf. Tant que vous défendez, jusqu'à 2 de vos ailiers dans l'arc d'attaque peuvent subir 1 dégât [Hit] ou [Critical Hit] pour annuler un résultat correspondant.",
         },
-        grants: [{ wing: ['tiefofighter', 'tiesffighter'], value: 3 }],
+        title: {
+          en: 'First Order Elite',
+          de: 'Elite der Ersten Ordnung',
+          es: 'Élite de la Primera Orden',
+          fr: 'Élite du Premier Ordre',
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 733,
+        image: {
+          en: 'https://infinitearenas.com/xw2browse/epic/first-order-elite.PNG',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/aa85719e74f86fec8b7232cf901f9f29.jpg',
       },
     ],
     cost: { value: 4 },
-    restrictions: [
-      { factions: ['First Order'] },
-      { chassis: ['tiesffighter', 'tievnsilencer'] },
-    ],
     hyperspace: false,
     epic: true,
   },
@@ -193,8 +211,6 @@ const t: UpgradeBase[] = [
     xws: 'jandodonna',
     sides: [
       {
-        type: 'Command',
-        title: { en: 'Jan Dodonna' },
         ability: {
           en:
             'Friendly ships at range 0-3 can spend your focus and evade tokens.',
@@ -205,12 +221,19 @@ const t: UpgradeBase[] = [
           fr:
             "Les vaisseaux alliés à portée 0-3 peuvent dépenser vos marqueurs de concentration et d'évasion.",
         },
+        title: { en: 'Jan Dodonna' },
+        type: 'Command',
         slots: ['Command', 'Crew'],
         ffg: 729,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/1e/b5/1eb5c6d9-dc5c-4fa0-8e58-5153a993d075/swz55_jan-dodonna_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fa6dba670282a19b80dc0e53dec78536.jpg',
       },
     ],
-    cost: { value: 4 },
-    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
+    cost: { value: 3 },
     hyperspace: false,
     epic: true,
   },
@@ -219,8 +242,6 @@ const t: UpgradeBase[] = [
     xws: 'raymusantilles',
     sides: [
       {
-        type: 'Command',
-        title: { en: 'Raymus Antilles' },
         ability: {
           en:
             'After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.',
@@ -231,12 +252,19 @@ const t: UpgradeBase[] = [
           fr:
             "Après que vous avez été détruit, chaque vaisseau allié à portée 0-1 gagne 1 marqueur de concentration. Après que vous avez été détruit, vous n'êtes pas retiré de la zone de jeu avant la fin de la phase de dénouement.",
         },
+        title: { en: 'Raymus Antilles' },
+        type: 'Command',
         slots: ['Command', 'Crew'],
         ffg: 730,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/ee/ba/eebaaf91-37a3-4d28-9e08-6c421ed496b4/swz55_raymus-antilles_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/ac03675e91a973a4a31a9b4d380080a6.jpg',
       },
     ],
-    cost: { value: 12 },
-    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
+    cost: { value: 8 },
     hyperspace: false,
     epic: true,
   },
@@ -245,13 +273,6 @@ const t: UpgradeBase[] = [
     xws: 'stalwartcaptain',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'Stalwart Captain',
-          de: 'Standhafter Captain',
-          es: 'Capitán tenaz',
-          fr: 'Capitaine Exemplaire',
-        },
         ability: {
           en:
             'After you are destroyed, you are not removed until the end of the End Phase.',
@@ -262,8 +283,21 @@ const t: UpgradeBase[] = [
           fr:
             "Après que vous avez été détruit, vous n'êtes pas retiré de la zone de jeu avant la fin de la phase de dénouement.",
         },
+        title: {
+          en: 'Stalwart Captain',
+          de: 'Standhafter Captain',
+          es: 'Capitán tenaz',
+          fr: 'Capitaine Exemplaire',
+        },
+        type: 'Command',
         slots: ['Command', 'Crew'],
         ffg: 731,
+        image: {
+          en:
+            'https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/b/bc/Stalwart_Captain.png/revision/latest?cb=20201006040027',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/e204e200410fdea80a1e7582db0dcd32.jpg',
       },
     ],
     cost: { value: 6 },
@@ -276,13 +310,6 @@ const t: UpgradeBase[] = [
     xws: 'strategiccommander',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'Strategic Commander',
-          de: 'Strategischer Commander',
-          es: 'Comandante estratégico',
-          fr: 'Commandant Stratégique',
-        },
         ability: {
           en:
             'After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.',
@@ -293,9 +320,22 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau allié à portée 0-4 a révélé son cadran de manoeuvres, vous pouvez dépenser 1 [Charge]. Dans ce cas, il règle son cadran sur une autre manoeuvre de même vitesse et difficulté.",
         },
-        charges: { value: 3, recovers: 0 },
+        title: {
+          en: 'Strategic Commander',
+          de: 'Strategischer Commander',
+          es: 'Comandante estratégico',
+          fr: 'Commandant Stratégique',
+        },
+        type: 'Command',
         slots: ['Command', 'Crew'],
+        charges: { value: 3, recovers: 0 },
         ffg: 727,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/5e/b5/5eb5591f-95b5-4fd1-9371-f5c819200dc9/swz53_strategic-commander_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg',
       },
     ],
     cost: { value: 6 },
@@ -308,13 +348,6 @@ const t: UpgradeBase[] = [
     xws: 'veteranwingleader',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'Veteran Wing Leader',
-          de: 'Erfahrener Schwarmführer',
-          es: 'Jefe de ala veterano',
-          fr: 'Leader Vétéran',
-        },
         ability: {
           en:
             'You are a wing leader. Your wingmates must be 2, 3, 4, or 5 other ships of your ship type. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.',
@@ -325,13 +358,24 @@ const t: UpgradeBase[] = [
           fr:
             "Vous êtes le leader. Vos ailiers doivent être 2, 3, 4 ou 5 autres vaisseaux du même type de vaisseau que le vôtre. Tant que vous défendez, jusqu'à 2 de vos ailiers dans l'arc d'attaque peuvent subir 1 dégât [Hit] ou [Critical Hit] pour annuler un résultat correspondant.",
         },
-        grants: [{ wing: true, value: 5 }],
+        title: {
+          en: 'Veteran Wing Leader',
+          de: 'Erfahrener Schwarmführer',
+          es: 'Jefe de ala veterano',
+          fr: 'Leader Vétéran',
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 734,
+        image: {
+          en:
+            'https://infinitearenas.com/xw2browse/epic/veteran-wing-leader.PNG',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d40521b56b50feb76368a2233b4da4d9.jpg',
       },
     ],
     cost: { value: 2 },
-    restrictions: [{ baseSizes: ['Small'] }],
     hyperspace: false,
     epic: true,
   },
@@ -340,13 +384,6 @@ const t: UpgradeBase[] = [
     xws: 'dreadnoughthunter',
     sides: [
       {
-        type: 'Command',
-        title: {
-          en: 'Dreadnought Hunter',
-          de: 'Dreadnought-Jäger',
-          es: 'Cazador de acorazados',
-          fr: 'Chasseur de Cuirassés',
-        },
         ability: {
           en:
             'While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your [Bullseye Arc], you may apply the Precision Shot effect even if you are not in the specified arc.',
@@ -357,12 +394,24 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque contre un vaisseau immense, si l'attaque attribue une carte de dégât face visible au défenseur et que ce dernier est dans votre [Bullseye Arc], vous pouvez appliquer l'effet Tir de Précision même si vous n'est pas dans l'arc spécifié.",
         },
+        title: {
+          en: 'Dreadnought Hunter',
+          de: 'Dreadnought-Jäger',
+          es: 'Cazador de acorazados',
+          fr: 'Chasseur de Cuirassés',
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 735,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/8e/a3/8ea37fba-1307-40f7-838b-1ea77d5ee769/swz57_dreadnought-hunter.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/077db882ed94ceec1150c405bd689c33.jpg',
       },
     ],
-    cost: { value: 6 },
-    restrictions: [{ baseSizes: ['Small'] }, { initiative: { min: 4 } }],
+    cost: { value: 3 },
     hyperspace: false,
     epic: true,
   },
@@ -391,9 +440,31 @@ const t: UpgradeBase[] = [
         type: 'Command',
         slots: ['Command'],
         ffg: 835,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg',
+      },
+      {
+        ability: {
+          en:
+            'While your wingmates execute purple maneuvers, they treat those maneuvers as red, instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+        },
+        title: { en: 'Jedi Commander' },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 834,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/fd/1f/fd1ff8be-72b9-4c61-b5cc-7b892c7244e3/swz79_jedi-commander2.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg',
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 4 },
+    restrictions: [
+      { factions: ['Galactic Republic'] },
+      { chassis: ['delta7aethersprite', 'eta2actis'] },
+    ],
   },
   {
     xws: 'b6bladewingprototype',
@@ -418,16 +489,9 @@ const t: UpgradeBase[] = [
   {
     xws: 'shadowwing',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 4 },
     sides: [
       {
-        title: {
-          en: 'Shadow Wing',
-          de: 'Schattengeschwader',
-          fr: "Escadre de l'Ombre",
-          es: 'Ala Sombría',
-        },
-        type: 'Command',
         ability: {
           en:
             'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 other ships of your type. After you are placed, flip this card.',
@@ -438,10 +502,6 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Eres un jefe de ala. Tus compañeros de ala deben ser 2-5 otras naves de tu tipo. Después de que seas colocado, dale la vuelta a esta carta.',
         },
-        slots: ['Command'],
-        ffg: 911,
-      },
-      {
         title: {
           en: 'Shadow Wing',
           de: 'Schattengeschwader',
@@ -449,6 +509,12 @@ const t: UpgradeBase[] = [
           es: 'Ala Sombría',
         },
         type: 'Command',
+        slots: ['Command'],
+        ffg: 911,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg',
+      },
+      {
         ability: {
           en:
             'Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do, they voluntarily split from the wing. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
@@ -459,29 +525,28 @@ const t: UpgradeBase[] = [
           es:
             'Tus compañeros de ala son capaces de realizar acciones [Barrel Roll] o [Boost]. Si las realizan, se separan voluntariamente del ala. Mientras te defiendes, hasta 2 de tus compañeros de ala situdos en el arco de ataque pueden cada uno de ellos sufrir 1 de daño [Hit]/[Critical Hit] para anular 1 resultado equivalente.',
         },
+        title: {
+          en: 'Shadow Wing',
+          de: 'Schattengeschwader',
+          fr: "Escadre de l'Ombre",
+          es: 'Ala Sombría',
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 910,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { chassis: ['tielnfighter', 'tieininterceptor', 'tiesabomber'] },
-    ],
   },
   {
     xws: 'bounty',
     limited: 0,
-    cost: { value: 5 },
+    cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Bounty (Hired)',
-          de: 'Kopfgeld (Ausgesetzt)',
-          fr: 'Prime (Recruté)',
-          es: 'Recompensa (ofrecida)',
-        },
-        type: 'Command',
         ability: {
           en:
             'Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.',
@@ -492,20 +557,19 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Puedes ser incluido en escuadrones Separatistas, Imperiales y de la Primera Orden. Después de que efectúes un ataque, si el defensor era una nave limitada y ha sido destruido, puedes recuperar 1 [Charge] sobre tu carta de Nave y cada una de tus cartas de Mejora. Luego dale la vuelta a esta carta.',
         },
-        slots: ['Command'],
-        ffg: 905,
-      },
-      {
         title: {
-          en: 'Bounty (Paid)',
-          de: 'Kopfgeld (Ausbezahlt)',
-          fr: 'Prime (Payée)',
-          es: 'Recompensa (pagada)',
+          en: 'Bounty (Hired)',
+          de: 'Kopfgeld (Ausgesetzt)',
+          fr: 'Prime (Recruté)',
+          es: 'Recompensa (ofrecida)',
         },
         type: 'Command',
-        ability: { en: '' },
         slots: ['Command'],
-        ffg: 904,
+        ffg: 905,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/6877dc90b8296a93c3fc9129d5087020.jpg',
+      },
+      {
         text: {
           en:
             'Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.',
@@ -516,6 +580,17 @@ const t: UpgradeBase[] = [
           es:
             'La del cazarrecompensas es una profesión complicada. Cualquier asesino puede matar, pero los mejores cazadores son famosos por su habilidad para traer a las presas con vida, ya que eso resulta mucho más difícil, pero siempre proporciona una recompensa mucho más sustanciosa.',
         },
+        title: {
+          en: 'Bounty (Paid)',
+          de: 'Kopfgeld (Ausbezahlt)',
+          fr: 'Prime (Payée)',
+          es: 'Recompensa (pagada)',
+        },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 904,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4502e115fb501138e161b28b0d3f0474.jpg',
       },
     ],
     hyperspace: false,
@@ -575,15 +650,9 @@ const t: UpgradeBase[] = [
   {
     xws: 'phoenixsquadron',
     limited: 1,
-    cost: { value: 5 },
+    cost: { value: 4 },
     sides: [
       {
-        title: {
-          en: 'Phoenix Squadron',
-          es: 'Escuadrón Fénix',
-          fr: 'Escadron Phœnix',
-        },
-        type: 'Command',
         ability: {
           en:
             'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5 RZ-1 A-wings After you are placed, flip this card.',
@@ -594,11 +663,30 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : à équiper avec cette face visible. Vous êtes le leader. Vos ailiers doivent être 2-5 vaisseaux parmi les suivants : 0-1 Navette d'Attaque 0-1 Navette de classe Sheathipede 0-5 A-wings RZ-1 Après avoir été placé, retournez cette carte.",
         },
+        title: {
+          en: 'Phoenix Squadron',
+          es: 'Escuadrón Fénix',
+          fr: 'Escadron Phœnix',
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 909,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg',
+      },
+      {
+        ability: {
+          en:
+            'At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+        },
+        title: { en: 'Phoenix Squadron' },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 908,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg',
       },
     ],
-    restrictions: [{ factions: ['Rebel Alliance'] }],
     hyperspace: false,
     epic: true,
   },
@@ -608,13 +696,6 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     sides: [
       {
-        title: {
-          en: 'Skystrike Academy Class',
-          de: 'Schüler der Skystrike-Akademie',
-          es: 'Clase de la Academia Skystrike',
-          fr: "Promotion de l'Académie Skystrike",
-        },
-        type: 'Command',
         ability: {
           en:
             'Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed, flip this card.',
@@ -625,13 +706,30 @@ const t: UpgradeBase[] = [
           fr:
             'Mise en Place : à équiper avec cette face visible. Vous êtes le leader.Vos ailiers doivent être 2-5 chasseurs TIE/ln avec une initiative inférieure à la vôtre. Après avoir été placé, retournez cette carte.',
         },
+        title: {
+          en: 'Skystrike Academy Class',
+          de: 'Schüler der Skystrike-Akademie',
+          es: 'Clase de la Academia Skystrike',
+          fr: "Promotion de l'Académie Skystrike",
+        },
+        type: 'Command',
         slots: ['Command'],
         ffg: 913,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg',
       },
-    ],
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['tielnfighter', 'tieininterceptor'] },
+      {
+        ability: {
+          en:
+            'After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
+        },
+        title: { en: 'Skystrike Academy Class' },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 912,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg',
+      },
     ],
     hyperspace: false,
     epic: true,
@@ -659,16 +757,15 @@ const t: UpgradeBase[] = [
         },
         type: 'Command',
         slots: ['Command', 'Title'],
-        grants: [{ slot: 'Gunner', value: 1 }],
         ffg: 903,
         artwork:
           'https://squadbuilder.fantasyflightgames.com/card_art/71fe49e6d10dc74321a0a96f0b2f64e6.jpg',
       },
     ],
-    cost: { value: 12 },
+    cost: { value: 4 },
     restrictions: [
       { factions: ['Rebel Alliance'] },
-      { character: ['asf01bwing'] },
+      { chassis: ['asf01bwing'] },
     ],
     epic: true,
   },
@@ -800,6 +897,40 @@ const t: UpgradeBase[] = [
       },
     ],
     hyperspace: false,
+    epic: true,
+  },
+  {
+    limited: 0,
+    xws: 'initforthemoneyrebellion',
+    hyperspace: false,
+    sides: [
+      {
+        ability: {
+          en:
+            'Setup: Equip this side faceup. You can be included in Republic, Rebel, and Resistance squads. After an allied limited ship in your squad is destroyed, gain 1 focus token and flip this card.',
+        },
+        title: { en: 'In It For The Money' },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 907,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/26e935cc224ffd02de5e797faa5685c6.jpg',
+      },
+      {
+        ability: {
+          en:
+            'Non-Scum ships in your squad are treated as friendly instead of allied.',
+        },
+        title: { en: 'In It For Your Rebellion' },
+        type: 'Command',
+        slots: ['Command'],
+        ffg: 906,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/977af5c5c1604a9e45cd040408f5e482.jpg',
+      },
+    ],
+    cost: { value: 1 },
+    restrictions: [{ factions: ['Scum and Villainy'] }, {}, {}],
     epic: true,
   },
 ];

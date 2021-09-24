@@ -100,8 +100,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 515,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
+      },
     },
     {
       name: { en: 'Obi-Wan Kenobi' },
@@ -131,8 +135,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 511,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png',
+      },
     },
     {
       name: { en: 'Plo Koon' },
@@ -162,8 +170,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 513,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png',
+      },
     },
     {
       name: { en: 'Saesee Tiin' },
@@ -193,8 +205,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 514,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
+      },
     },
     {
       name: { en: 'Mace Windu' },
@@ -223,8 +239,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 512,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
+      },
     },
     {
       name: { en: 'Anakin Skywalker' },
@@ -254,8 +274,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 507,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png',
+      },
     },
     {
       name: { en: 'Ahsoka Tano' },
@@ -285,8 +309,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 510,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
+      },
     },
     {
       name: { en: 'Barriss Offee' },
@@ -316,8 +344,12 @@ const t: ShipType = {
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 509,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png',
+      },
     },
     {
       name: { en: 'Luminara Unduli' },
@@ -343,12 +375,16 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       hyperspace: false,
       epic: true,
-      cost: 49,
+      cost: 40,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 508,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
       keywords: ['Jedi', 'Light Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png',
+      },
     },
   ],
   ffg: 61,

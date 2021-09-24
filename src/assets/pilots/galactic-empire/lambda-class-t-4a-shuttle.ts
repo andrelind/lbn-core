@@ -64,10 +64,14 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg',
       ffg: 142,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_142.png',
+      },
     },
     {
       name: { en: 'Colonel Jendon', es: 'Coronel Jendon' },
@@ -94,10 +98,14 @@ const t: ShipType = {
       charges: { value: 2, recovers: 0 },
       slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg',
       ffg: 143,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_143.png',
+      },
     },
     {
       name: { en: 'Lieutenant Sai', es: 'Teniente Sai' },
@@ -123,10 +131,14 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg',
       ffg: 144,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png',
+      },
     },
     {
       name: {
@@ -151,10 +163,14 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg',
       ffg: 145,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_145.png',
+      },
     },
   ],
 };

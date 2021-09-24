@@ -19,7 +19,13 @@ const t: UpgradeBase[] = [
             "Action : dépensez 1 [Charge] non-récurrente d'une autre amélioration équipée pour récupérer 1 bouclier. Action : dépensez 2 boucliers pour récupérer 1 [Charge] non-récurrente sur une amélioration équipée.",
         },
         slots: ['Astromech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png',
+        },
         ffg: 323,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_99.jpg',
       },
     ],
     cost: { value: 2 },
@@ -44,9 +50,13 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir entièrement exécuté une manœuvre, si vous n'avez pas largué ou lancé d'engin à ce round, vous pouvez larguer 1 bombe.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_143.png',
+        },
         slots: ['Astromech'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg',
         ffg: 368,
       },
     ],
@@ -79,12 +89,16 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_53.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg',
         ffg: 282,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 3, '1': 4, '2': 5, '3': 8 } },
+    cost: { variable: 'agility', values: { '0': 3, '1': 3, '2': 5, '3': 8 } },
     hyperspace: true,
     epic: true,
   },
@@ -105,10 +119,14 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir révélé votre cadran, vous pouvez dépenser 1 [Charge] et gagner 1 marqueur de désarmement pour récupérer 1 bouclier.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png',
+        },
         slots: ['Astromech'],
         charges: { value: 3, recovers: 0 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg',
         ffg: 324,
       },
     ],
@@ -140,8 +158,12 @@ const t: UpgradeBase[] = [
             "Vous pouvez maintenir jusqu'à 2 cibles verrouillées. Chaque verrouillage doit être sur un objet différent. Après avoir effectué une action [Lock], vous pouvez verrouiller une cible.",
         },
         slots: ['Astromech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_54.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg',
         ffg: 283,
       },
     ],
@@ -172,8 +194,12 @@ const t: UpgradeBase[] = [
             'Diminuez la difficulté de vos manœuvres de base ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]) ayant une vitesse 1-2.',
         },
         slots: ['Astromech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_55.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg',
         ffg: 284,
       },
     ],
@@ -206,8 +232,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_56.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg',
         ffg: 285,
       },
     ],
@@ -234,8 +264,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 3, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg',
         ffg: 325,
       },
     ],
@@ -261,10 +295,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque contre un défenseur dans votre [Front Arc], vous pouvez dépenser 1 [Charge] pour relancer 1 dé d'attaque. Si le résultat relancé est un résultat [Critical Hit], subissez 1 dégât [Critical Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_144.png',
+        },
         slots: ['Astromech'],
         charges: { value: 3, recovers: 0 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg',
         ffg: 369,
       },
     ],
@@ -286,9 +324,13 @@ const t: UpgradeBase[] = [
           es: 'Puedes efectuar ataques contra naves aliadas.',
           fr: 'Vous pouvez effectuer des attaques contre des vaisseaux alliés.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_145.png',
+        },
         slots: ['Astromech'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg',
         ffg: 370,
       },
     ],
@@ -315,9 +357,13 @@ const t: UpgradeBase[] = [
           fr:
             "Avant votre activation ou avant de vous engager, vous pouvez dépenser 1 [Charge] pour ignorer les obstacles jusqu'à la fin de cette phase.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/aed4536536b67bae316b260ed151c22a.png',
+        },
         slots: ['Astromech'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/7361f88154703f61221bc2a775f4a9b6.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/7361f88154703f61221bc2a775f4a9b6.jpg',
         ffg: 483,
       },
     ],
@@ -343,8 +389,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous défendez, vous pouvez dépenser votre verrouillage sur l'attaquant pour relancer n'importe quel nombre de vos dés de défense.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg',
         slots: ['Astromech'],
         ffg: 482,
       },
@@ -371,8 +421,12 @@ const t: UpgradeBase[] = [
           fr:
             "Avant d'exécuter une manœuvre bleue, vous pouvez dépenser 1 [Charge] pour effectuer une action [Barrel Roll] ou [Boost].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
         ffg: 479,
@@ -407,8 +461,12 @@ const t: UpgradeBase[] = [
           fr:
             "Avant d'exécuter une manœuvre bleue, vous pouvez dépenser 1 [Charge] pour effectuer une action [Barrel Roll].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
         ffg: 480,
@@ -439,8 +497,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau que vous avez verrouillé effectue une attaque, vous pouvez choisir 1 dé d'attaque. Dans ce cas, l'attaquant relance ce dé.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg',
         slots: ['Astromech'],
         ffg: 481,
       },
@@ -474,7 +536,13 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/26f6dd68ba6bb37fa5315f45a6237c88.png',
+        },
         ffg: 546,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/081dbeb7591c8dfd1f752729b27bdf2a.jpg',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -501,7 +569,13 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png',
+        },
         ffg: 547,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -527,7 +601,13 @@ const t: UpgradeBase[] = [
             "Après avoir entièrement exécuté une manœuvre rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], gagnez 1 marqueur de calcul.",
         },
         slots: ['Astromech'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/749fa54f44bc3327349aa3f8b1742a67.png',
+        },
         ffg: 551,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -552,22 +632,26 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, vous pouvez dépenser 1 marqueur d'évasion pour changer 1 résultat [Focus] en un résultat [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/8fce75228aa2c4eaaf3e9666c4da8caf.png',
+        },
         slots: ['Astromech'],
         ffg: 589,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/db2012557dc9b2953aeeb8c3f98d5052.jpg',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
     hyperspace: false,
     epic: true,
-    cost: { value: 3 },
+    cost: { value: 5 },
   },
   {
     limited: 1,
     xws: 'r2a6',
     sides: [
       {
-        title: { en: 'R2-A6' },
-        type: 'Astromech',
         ability: {
           en:
             'After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.',
@@ -578,8 +662,16 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir révélé votre cadran, vous pouvez régler votre cadran sur une manœuvre de même direction mais avec une vitesse supérieure ou inférieure de 1.',
         },
+        title: { en: 'R2-A6' },
+        type: 'Astromech',
         slots: ['Astromech'],
         ffg: 588,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/1d90c6b2f87d17c061e07a92373310b4.png',
+        },
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -592,8 +684,14 @@ const t: UpgradeBase[] = [
     xws: 'c110p',
     sides: [
       {
+        ffg: 618,
         title: { en: 'C1-10P' },
-        type: 'Astromech',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/c480434cf330e99e269eaf0fe83e2444.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/cde74a191d82775eacf2e273e855ef5f.png',
+        },
         ability: {
           en:
             'Setup: Equip this side faceup. After you execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During the End Phase, if this card has 0 active [Charge], flip it.',
@@ -606,16 +704,22 @@ const t: UpgradeBase[] = [
         },
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
-        ffg: 618,
+        type: 'Astromech',
       },
       {
+        ffg: 617,
         title: {
           en: 'C1-10P (Erratic)',
           de: 'C1-10P (launisch)',
           fr: 'C1-10P (Erratique)',
           es: 'C1-10P (errático)',
         },
-        type: 'Astromech',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/815bfa9be6941de313eb1e318a02b2ae.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/6150404202e627187f39b6092cdf702c.png',
+        },
         ability: {
           en:
             'After you execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.',
@@ -627,7 +731,7 @@ const t: UpgradeBase[] = [
             'Après avoir exécuté une manœuvre, vous devez choisir un vaisseau à portée 0-1.Il gagne 1 marqueur de brouillage.',
         },
         slots: ['Astromech'],
-        ffg: 617,
+        type: 'Astromech',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -640,8 +744,6 @@ const t: UpgradeBase[] = [
     xws: 'r1j5',
     sides: [
       {
-        title: { en: 'R1-J5' },
-        type: 'Astromech',
         ability: {
           en:
             'While you have 2 or fewer stress tokens, you can perform actions on damage cards even while stressed. After you repair a damage card with the Ship trait, you may spend 1 [Charge] to repair that card again.',
@@ -652,9 +754,17 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions des cartes de dégât, même si vous êtes stressé. Après avoir réparé une carte de dégât avec le trait Vaisseau, vous pouvez dépenser 1 [Charge] pour réparer cette carte à nouveau.',
         },
-        charges: { value: 3, recovers: 0 },
+        title: { en: 'R1-J5' },
+        type: 'Astromech',
         slots: ['Astromech'],
+        charges: { value: 3, recovers: 0 },
         ffg: 644,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2f64dab83e6e4c52702d5906a18dbae6.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/07ef542a7250abbf79d27526f17ac879.png',
+        },
       },
     ],
     restrictions: [{ factions: ['Resistance'] }],
@@ -668,8 +778,6 @@ const t: UpgradeBase[] = [
     cost: { variable: 'agility', values: { '0': 4, '1': 6, '2': 8, '3': 10 } },
     sides: [
       {
-        title: { en: 'R2-D2' },
-        type: 'Astromech',
         ability: {
           en:
             'After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.',
@@ -680,9 +788,13 @@ const t: UpgradeBase[] = [
           fr:
             "Après votre activation, vous pouvez dépenser 1 [Charge] et gagner 1 marqueur d'épuisement pour réparer 1 carte de dégât, récupérer 1 bouclier ou retirer 1 engin à portée 0-1.",
         },
-        charges: { value: 2, recovers: 0 },
-        slots: ['Astromech'],
+        title: { en: 'R2-D2' },
         ffg: 860,
+        type: 'Astromech',
+        slots: ['Astromech'],
+        charges: { value: 2, recovers: 0 },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/cc1695a002e056cd11643b166658169e.jpg',
       },
     ],
     hyperspace: true,
@@ -695,8 +807,6 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
-        title: { en: 'R2-D2' },
-        type: 'Astromech',
         ability: {
           en:
             'During the End Phase, you may spend 1 [Charge] and 1 shield to remove 1 red token. During the End Phase, if you have no active shields, you may spend 2 [Charge] to recover 1 shield and gain 1 deplete token.',
@@ -707,9 +817,13 @@ const t: UpgradeBase[] = [
           fr:
             "Pendant la phase de dénouement, vous pouvez dépenser 1 [Charge] et 1 pour retirer 1 marqueur rouge. Pendant la phase de dénouement, si vous n'avez aucun actif, vous pouvez dépenser 2 [Charge] pour récupérer 1 et gagner 1 marqueur d'épuisement.",
         },
-        charges: { value: 4, recovers: 0 },
-        slots: ['Astromech'],
+        title: { en: 'R2-D2' },
         ffg: 720,
+        type: 'Astromech',
+        slots: ['Astromech'],
+        charges: { value: 4, recovers: 0 },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f22fbeaa2ade3bd405388482bd747c27.jpg',
       },
     ],
     hyperspace: true,
@@ -722,8 +836,6 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     sides: [
       {
-        title: { en: 'R6-D8' },
-        type: 'Astromech',
         ability: {
           en:
             'While you perform an attack, you may reroll a number of attack dice up to the number of friendly ships at range 0-3 that have the defender in their [Bullseye Arc].',
@@ -734,8 +846,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, vous pouvez relancer un nombre de dés d'attaque inférieur ou égal au nombre de vaisseaux alliés à portée 0-3 qui ont le défenseur dans leur [Bullseye Arc].",
         },
+        title: { en: 'R6-D8' },
+        type: 'Astromech',
         slots: ['Astromech'],
         ffg: 719,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7155fb226f88c98baf36c5b3fa1e2ef6.jpg',
       },
     ],
     hyperspace: true,
@@ -768,10 +884,11 @@ const t: UpgradeBase[] = [
         type: 'Astromech',
         slots: ['Astromech'],
         ffg: 863,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/36187a497f1d8fcd81e0209c279c2c2f.jpg',
       },
     ],
-    cost: { value: 3 },
-    restrictions: [{ factions: ['Galactic Republic'] }],
+    cost: { value: 4 },
   },
   {
     limited: 1,
@@ -791,10 +908,12 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Charge] pour changer 1 résultat [Hit] en un résultat [Critical Hit].',
         },
         title: { en: 'R7-A7' },
-        charges: { value: 3, recovers: 0 },
         type: 'Astromech',
         slots: ['Astromech'],
+        charges: { value: 3, recovers: 0 },
         ffg: 862,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/21a23aa5bad45f33650cc2f7a3b3ecce.jpg',
       },
     ],
     cost: { value: 3 },
@@ -806,19 +925,74 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     sides: [
       {
-        title: { en: 'R4-B11' },
-        type: 'Astromech',
         ability: {
           en:
             'While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice.',
         },
+        title: { en: 'R4-B11' },
+        type: 'Astromech',
         slots: ['Astromech'],
         ffg: 922,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/5f2c2265fbbcf55a749acc6e224f8946.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
+  },
+  {
+    limited: 0,
+    xws: 'watchfulastromech',
+    hyperspace: true,
+    sides: [
+      {
+        ability: {
+          en:
+            "After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy ship's firing arc, you may perform a red [Calculate] action.",
+        },
+        title: { en: 'Watchful Astromech' },
+        type: 'Astromech',
+        slots: ['Astromech'],
+        ffg: 928,
+        artwork: '????',
+      },
+    ],
+    cost: { value: 2 },
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'l4er5',
+    hyperspace: false,
+    sides: [
+      {
+        ability: {
+          en:
+            'At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.',
+        },
+        title: { en: 'L4E-R5' },
+        type: 'Astromech',
+        slots: ['Astromech'],
+        ffg: 927,
+        artwork: '????',
+        grants: [
+          {
+            action: {
+              type: 'Rotate Arc',
+              difficulty: 'White',
+              linked: { type: 'Calculate', difficulty: 'White' },
+            },
+            value: 1,
+          },
+        ],
+      },
+    ],
+    cost: { value: 4 },
+    restrictions: [
+      { action: { type: 'Rotate Arc' }, factions: ['Resistance'] },
+    ],
+    epic: true,
   },
 ];
 

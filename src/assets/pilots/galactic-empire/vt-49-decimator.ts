@@ -79,10 +79,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg',
       ffg: 146,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_146.png',
+      },
     },
     {
       name: {
@@ -116,10 +120,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg',
       ffg: 148,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_148.png',
+      },
     },
     {
       name: {
@@ -160,10 +168,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg',
       ffg: 147,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_147.png',
+      },
     },
     {
       name: { en: 'Morna Kee' },
@@ -194,14 +206,20 @@ const t: ShipType = {
         'Crew',
         'Crew',
         'Crew',
+        'Gunner',
         'Device',
         'Modification',
         'Title',
-        'Gunner',
       ],
       hyperspace: false,
       epic: true,
       ffg: 634,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/5a913f54447ec375ccc1403769438f81.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg',
     },
   ],
 };

@@ -68,10 +68,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
       ffg: 66,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_66.png',
+      },
     },
     {
       name: { en: 'Ibtisam' },
@@ -104,10 +108,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
       ffg: 68,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_68.png',
+      },
     },
     {
       name: { en: 'Norra Wexley' },
@@ -123,7 +131,7 @@ const t: ShipType = {
       xws: 'norrawexley',
       ability: {
         en:
-          'While you defend, if there is an enemy ship at range 0-1, you may add 1 [Evade] result to your dice results.',
+          'While you defend, if there is an enemy ship at range 0-1, add 1 [Evade] result to your dice results.',
         de:
           'Solange du verteidigst, falls ein feindliches Schiff in Reichweite 0-1 ist, füge 1 [Evade]-Ergebnis zu deinen Würfelergebnissen hinzu.',
         fr:
@@ -140,10 +148,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
       ffg: 65,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_65.png',
+      },
     },
     {
       name: { en: 'Shara Bey' },
@@ -176,10 +188,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',
       ffg: 67,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_67.png',
+      },
     },
   ],
 };

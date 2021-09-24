@@ -64,10 +64,14 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
       ffg: 33,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png',
+      },
     },
     {
       name: { en: 'Lowhhrick' },
@@ -93,10 +97,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg',
       ffg: 32,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png',
+      },
     },
     {
       name: { en: 'Wullffwarro' },
@@ -122,10 +130,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg',
       ffg: 31,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png',
+      },
     },
   ],
 };

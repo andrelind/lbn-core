@@ -61,11 +61,15 @@ const t: ShipType = {
       },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
       ffg: 49,
       hyperspace: false,
       epic: true,
       keywords: ['Spectre', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png',
+      },
     },
     {
       name: { en: 'Captain Rex', fr: 'Capitaine Rex', es: 'Capitán Rex' },
@@ -92,11 +96,15 @@ const t: ShipType = {
       conditions: ['suppressivefire'],
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
       ffg: 48,
       hyperspace: false,
       epic: true,
       keywords: ['Clone', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png',
+      },
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -118,11 +126,15 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: ['Modification', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
       ffg: 46,
       hyperspace: false,
       epic: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png',
+      },
     },
     {
       name: { en: 'Sabine Wren' },
@@ -143,11 +155,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
       ffg: 47,
       hyperspace: false,
       epic: true,
       keywords: ['Spectre', 'TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png',
+      },
     },
   ],
 };

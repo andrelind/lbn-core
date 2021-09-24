@@ -84,11 +84,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
       ffg: 174,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_174.png',
+      },
     },
     {
       name: { en: 'Palob Godalhi' },
@@ -122,11 +126,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
       ffg: 175,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_175.png',
+      },
     },
     {
       name: {
@@ -158,11 +166,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
       ffg: 177,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_177.png',
+      },
     },
     {
       name: { en: 'Torkil Mux' },
@@ -195,11 +207,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
       ffg: 176,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png',
+      },
     },
     {
       xws: 'gamutkey',
@@ -236,6 +252,8 @@ const t: ShipType = {
       },
       keywords: ['Freighter'],
       ffg: 896,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg',
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -261,18 +279,20 @@ const t: ShipType = {
       },
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [
+        'Force Power',
         'Crew',
         'Device',
         'Illicit',
         'Modification',
         'Modification',
         'Title',
-        'Force Power',
       ],
       hyperspace: true,
       epic: true,
-      keywords: ['Freighter', 'Jedi', 'Light Side'],
+      keywords: ['Jedi', 'Light Side'],
       ffg: 897,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg',
     },
     {
       xws: 'tapusk',
@@ -307,8 +327,9 @@ const t: ShipType = {
       ],
       hyperspace: true,
       epic: true,
-      keywords: ['Freighter'],
       ffg: 895,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg',
     },
   ],
 };

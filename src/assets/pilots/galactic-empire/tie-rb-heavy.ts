@@ -86,6 +86,12 @@ const t: ShipType = {
           "À l'académie militaire de Carida, les cadets de la Marine Impériale sont entraînés à être impitoyables et loyaux, privilégiant la victoire à la survie de leurs propres camarades.",
       },
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/43/2d/432db246-0a8d-42de-9711-a893c825b9b3/swz67_carida-cadet.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg',
     },
     {
       xws: 'onyxsquadronsentry',
@@ -95,8 +101,8 @@ const t: ShipType = {
         es: 'Centinela del Escuadrón Ónice',
         fr: "Sentinelle de l'Escadron Onyx",
       },
-      cost: 36,
-      initiative: 5,
+      cost: 35,
+      initiative: 3,
       limited: 0,
       slots: [
         'Talent',
@@ -120,6 +126,12 @@ const t: ShipType = {
           'Le TIE/rb lourd, parfois surnommé la « brute », est conçu pour la polyvalence opérationnelle. Sa coque renforcée et sa capacité à accueillir un copilote droïde MGK-300 en font un excellent appareil de patrouille.',
       },
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/3d/7c/3d7ca1c1-9e57-4085-a9a6-e82a3d92c6df/swz67_onyx-sentry.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg',
     },
     {
       xws: 'rampage',
@@ -155,6 +167,12 @@ const t: ShipType = {
       epic: true,
       ffg: 693,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg',
     },
     {
       name: { en: 'Lyttan Dree' },
@@ -184,6 +202,12 @@ const t: ShipType = {
       cost: 36,
       ffg: 694,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
     },
   ],
   ffg: 72,

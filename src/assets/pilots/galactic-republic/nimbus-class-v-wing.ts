@@ -78,6 +78,12 @@ const t: ShipType = {
       cost: 31,
       ffg: 791,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/bf/0e/bf0e3b50-3f36-4940-953b-f0a2d9f2b9b9/swz80_ship_tarkin.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/02fb0df2a559b8bc66fd475442dbe8df.jpg',
     },
     {
       xws: 'oddball-nimbusclassvwing',
@@ -101,6 +107,12 @@ const t: ShipType = {
           "Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], vous pouvez verrouiller ce vaisseau.",
       },
       keywords: ['Clone', 'TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/8e/70/8e70bbf1-d0ca-4367-9e3a-4ad0186af71f/swz80_ship_odd-ball.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/03ff8a220e58ba5c122bd82292447182.jpg',
     },
     {
       name: { en: '"Contrail"', de: '„Contrail"' },
@@ -124,6 +136,12 @@ const t: ShipType = {
       epic: true,
       ffg: 789,
       keywords: ['Clone', 'TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
     },
     {
       name: { en: '"Klick"', de: '„Klick"' },
@@ -147,6 +165,12 @@ const t: ShipType = {
       epic: true,
       ffg: 790,
       keywords: ['Clone', 'TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
     },
     {
       name: {
@@ -174,6 +198,12 @@ const t: ShipType = {
       epic: true,
       ffg: 792,
       keywords: ['Clone', 'TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/c0/b0/c0b03f12-cff6-43af-99df-6ddf61fd471a/swz80_ship_shadow-escort.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a9dd9a8a65facfae13018bb0d1aad602.jpg',
     },
     {
       name: {
@@ -201,6 +231,12 @@ const t: ShipType = {
       epic: true,
       ffg: 793,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/a1/27/a127938a-aecc-48eb-ba09-622781e84084/swz80_ship_volunteer.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/963d472b274bb777fdc9be15527e28f1.jpg',
     },
   ],
   ffg: 71,

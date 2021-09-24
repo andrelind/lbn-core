@@ -77,11 +77,15 @@ const t: ShipType = {
         'Force Power',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
       ffg: 219,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Dark Side'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_219.png',
+      },
     },
     {
       name: { en: 'Ketsu Onyo' },
@@ -107,11 +111,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg',
       ffg: 218,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_218.png',
+      },
     },
     {
       name: { en: 'Sabine Wren' },
@@ -137,11 +145,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg',
       ffg: 220,
       hyperspace: false,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_220.png',
+      },
     },
     {
       name: {
@@ -166,11 +178,15 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
       ffg: 221,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_221.png',
+      },
     },
   ],
 };

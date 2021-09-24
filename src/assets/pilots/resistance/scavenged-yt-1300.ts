@@ -69,7 +69,7 @@ const t: ShipType = {
           'Tras presenciar el cataclismo de Hosnian, algunos viajeros espaciales ayudaron de buen grado a la Resistencia con cualquier nave que tuvieran a su disposición.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/3e567923957881e9a4dbef46789c7fbf.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/3e567923957881e9a4dbef46789c7fbf.jpg',
       cost: 58,
       slots: [
         'Missile',
@@ -84,6 +84,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/28411b84c1b15f0bfa9928f2206e44f5.png',
+      },
     },
     {
       name: { en: 'Chewbacca' },
@@ -107,7 +111,7 @@ const t: ShipType = {
           'Después de que una nave aliada que tengas a alcance 0-3 sea destruida, puedes realizar una acción. Luego puedes efectuar un ataque adicional.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/c40ec30b7df138c4510b08f4f02d54b5.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/c40ec30b7df138c4510b08f4f02d54b5.jpg',
       cost: 60,
       slots: [
         'Talent',
@@ -123,6 +127,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/209a8dece475a265aaf1b5318ba7f08a.png',
+      },
     },
     {
       name: { en: 'Han Solo' },
@@ -146,7 +154,7 @@ const t: ShipType = {
           'Preparación: Puedes ser colocado en cualquier lugar de la zona de juego que esté más allá de alcance 3 de las naves enemigas.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/15263defc98e4a54d76ae9224534dacf.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/15263defc98e4a54d76ae9224534dacf.jpg',
       cost: 62,
       slots: [
         'Talent',
@@ -162,6 +170,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/5816bd53c272ed50096e22ae1af2b38a.png',
+      },
     },
     {
       name: { en: 'Rey' },
@@ -185,7 +197,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, si la nave enemiga está situada en tu [Front Arc], puedes gastar 1 [Force] para cambiar 1 de tus resultados de cara vacía por un resultado [Evade] o [Hit].',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/1ff06aeff0d74773e9c9f3846b38b75d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/1ff06aeff0d74773e9c9f3846b38b75d.jpg',
       force: { value: 2, recovers: 1, side: ['light'] },
       cost: 68,
       slots: [
@@ -202,6 +214,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'Light Side', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/0ee7006e6cc51d8c08b784c9b770f1b0.png',
+      },
     },
   ],
 };

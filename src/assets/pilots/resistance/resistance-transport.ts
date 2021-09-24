@@ -61,13 +61,14 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
+        'Tech',
+        'Cannon',
         'Cannon',
         'Torpedo',
         'Crew',
         'Crew',
         'Astromech',
         'Modification',
-        'Tech',
       ],
       cost: 38,
       ffg: 569,
@@ -77,6 +78,12 @@ const t: ShipType = {
         fr: "Escorte d'Évacuation",
         es: 'Escolta de evacuación',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/a9ae63785f4cadaa28a74858ff1d1bc4.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/27956dc3600e6e06bf26f9a981205410.jpg',
     },
     {
       name: { en: 'Pammich Nerro Goode' },
@@ -102,16 +109,23 @@ const t: ShipType = {
           'Mientras tienes 2 o menos fichas de Tensión, puedes ejecutar maniobras rojas incluso aunque estés bajo tensión.',
       },
       slots: [
+        'Tech',
+        'Cannon',
         'Cannon',
         'Torpedo',
         'Crew',
         'Crew',
         'Astromech',
         'Modification',
-        'Tech',
       ],
       cost: 35,
       ffg: 570,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/9d7dd5d0851911412dd5c86603a0ea91.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e5f2e692fcaf63d513cd5c7c1294283e.jpg',
     },
     {
       name: { en: 'Nodin Chavdri' },
@@ -131,13 +145,14 @@ const t: ShipType = {
           'Después de que coordines o seas coordinados, si tienes 2 o menos fichas de Tensión, puedes realizar 1 acción en tu barra de acciones como una acción roja, incluso aunque estés bajo tensión.',
       },
       slots: [
+        'Tech',
+        'Cannon',
         'Cannon',
         'Torpedo',
         'Crew',
         'Crew',
         'Astromech',
         'Modification',
-        'Tech',
       ],
       cost: 37,
       ffg: 571,
@@ -147,6 +162,12 @@ const t: ShipType = {
         fr: 'Insurgé Indiscipliné',
         es: 'Insurgente insubordinado',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/9f41de269cb1ff091487554fb53b2374.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b0179494a00c2538a4467793e722db3e.jpg',
     },
     {
       name: {
@@ -171,16 +192,23 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       slots: [
+        'Tech',
+        'Cannon',
         'Cannon',
         'Torpedo',
         'Crew',
         'Crew',
         'Astromech',
         'Modification',
-        'Tech',
       ],
       cost: 34,
       ffg: 572,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg',
     },
   ],
   ffg: 63,

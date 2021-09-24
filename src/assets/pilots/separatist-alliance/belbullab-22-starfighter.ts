@@ -78,7 +78,11 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
       ffg: 492,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg',
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png',
+      },
     },
     {
       name: { en: 'Wat Tambor' },
@@ -107,7 +111,11 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
       ffg: 493,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg',
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png',
+      },
     },
     {
       name: {
@@ -149,8 +157,12 @@ const t: ShipType = {
       slots: ['Modification', 'Title', 'Tactical Relay'],
       ffg: 496,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/538c4833605af80b226da9e5f800e6ef.png',
+      },
     },
     {
       name: { en: 'Captain Sear', fr: 'Capitaine Sear', es: 'Capitán Sear' },
@@ -179,7 +191,11 @@ const t: ShipType = {
       slots: ['Modification', 'Title', 'Tactical Relay'],
       ffg: 494,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg',
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png',
+      },
     },
     {
       name: {
@@ -195,7 +211,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 0,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg',
       text: {
         en:
           'With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.',
@@ -208,6 +224,10 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png',
+      },
     },
   ],
   ffg: 58,

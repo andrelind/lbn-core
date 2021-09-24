@@ -76,11 +76,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg',
       ffg: 225,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png',
+      },
     },
     {
       name: { en: 'Han Solo' },
@@ -115,11 +119,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg',
       ffg: 222,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_222.png',
+      },
     },
     {
       name: { en: 'L3-37' },
@@ -153,17 +161,21 @@ const t: ShipType = {
         'Missile',
         'Crew',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg',
       ffg: 224,
       hyperspace: true,
       epic: true,
       keywords: ['Droid', 'Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png',
+      },
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -198,11 +210,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg',
       ffg: 223,
       hyperspace: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_223.png',
+      },
     },
   ],
 };

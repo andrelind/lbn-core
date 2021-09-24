@@ -88,11 +88,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
       ffg: 37,
       hyperspace: false,
       epic: true,
       keywords: ['Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png',
+      },
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -114,11 +118,15 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: ['Turret', 'Crew', 'Modification', 'Title', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
       ffg: 36,
       hyperspace: false,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png',
+      },
     },
     {
       name: { en: 'Hera Syndulla' },
@@ -139,11 +147,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
       ffg: 34,
       hyperspace: false,
       epic: true,
       keywords: ['Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_34.png',
+      },
     },
     {
       name: { en: 'Sabine Wren' },
@@ -164,11 +176,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
       ffg: 35,
       hyperspace: false,
       epic: true,
       keywords: ['Mandalorian', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png',
+      },
     },
   ],
 };

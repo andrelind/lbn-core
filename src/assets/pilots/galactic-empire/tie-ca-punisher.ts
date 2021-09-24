@@ -79,11 +79,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg',
       ffg: 140,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png',
+      },
     },
     {
       name: { en: '"Redline"', de: '„Rote Linie"', es: '"Velocidad Terminal"' },
@@ -118,11 +122,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg',
       ffg: 139,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png',
+      },
     },
     {
       name: {
@@ -156,11 +164,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg',
       ffg: 141,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png',
+      },
     },
   ],
 };

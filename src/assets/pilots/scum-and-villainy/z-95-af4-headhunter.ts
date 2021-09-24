@@ -65,10 +65,14 @@ const t: ShipType = {
       },
       slots: ['Missile', 'Illicit', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
       ffg: 173,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_173.png',
+      },
     },
     {
       name: {
@@ -93,10 +97,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
       ffg: 172,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_172.png',
+      },
     },
     {
       name: { en: "Kaa'to Leeachos" },
@@ -122,11 +130,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg',
       ffg: 170,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_170.png',
+      },
     },
     {
       name: { en: "N'dru Suhlak" },
@@ -152,10 +164,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
       ffg: 169,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_169.png',
+      },
     },
     {
       name: {
@@ -185,10 +201,14 @@ const t: ShipType = {
       },
       slots: ['Missile', 'Illicit', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
       ffg: 171,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_171.png',
+      },
     },
     {
       name: { en: 'Bossk' },
@@ -217,6 +237,12 @@ const t: ShipType = {
       epic: true,
       ffg: 635,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/13a94a5ed78d4629017a439fbf0906ea.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/48cf03ca0e16baf2f506829f20517b83.jpg',
     },
   ],
 };

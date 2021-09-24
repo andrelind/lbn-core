@@ -15,12 +15,17 @@ const t: UpgradeBase[] = [
           fr: 'Ajoutez un emplacement [Device].',
         },
         slots: ['Title'],
+        actions: [{ type: 'Reload', difficulty: 'White' }],
         grants: [
-          { slot: 'Device', value: 1 },
+          { slot: 'Force Power', value: 1 },
           { action: { type: 'Reload', difficulty: 'White' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg',
         ffg: 371,
       },
     ],
@@ -41,7 +46,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.',
+            'After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.',
           de:
             'Nachdem du eine [Slam]-Aktion durchgeführt hast, verliere 1 [Charge]. Dann darfst du 1 Ionenmarker erhalten, um 1 Entwaffnet-Marker zu entfernen. Falls deine [Charge] inaktiv ist, kannst du die [Slam]-Aktion nicht durchführen.',
           es:
@@ -51,8 +56,13 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         charges: { value: 1, recovers: 0 },
+        actions: [{ type: 'SLAM', difficulty: 'White' }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg',
         ffg: 484,
         grants: [{ action: { type: 'SLAM', difficulty: 'White' }, value: 1 }],
       },
@@ -79,9 +89,13 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir partiellement exécuté une manœuvre, vous pouvez effectuer 1 action blanche, en la considérant comme rouge.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png',
+        },
         slots: ['Title'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg',
         ffg: 349,
       },
     ],
@@ -110,9 +124,13 @@ const t: UpgradeBase[] = [
           fr:
             "1 navette d'attaque ou de classe Sheathipede peut s'arrimer à vous. Les vaisseaux arrimés ne peuvent être déployés que par vos glissières arrière.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png',
+        },
         slots: ['Title'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg',
         ffg: 326,
       },
     ],
@@ -142,12 +160,16 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         grants: [
-          { slot: 'Sensor', value: 1 },
-          { slot: 'Astromech', value: 1 },
-          { slot: 'Crew', value: -1 },
+          { slot: 'Force Power', value: 1 },
+          { slot: 'Force Power', value: 1 },
+          { slot: 'Force Power', value: -1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg',
         ffg: 372,
       },
     ],
@@ -173,8 +195,12 @@ const t: UpgradeBase[] = [
           fr: "1 Chasseur de Têtes Z-95-AF4 peut s'arrimer à vous.",
         },
         slots: ['Title'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_148.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg',
         ffg: 373,
       },
     ],
@@ -204,8 +230,12 @@ const t: UpgradeBase[] = [
             "Vous avez la capacité de pilote de chaque autre vaisseau allié qui possède l'amélioration IG-2000.",
         },
         slots: ['Title'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg',
         ffg: 374,
       },
     ],
@@ -231,7 +261,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            '1 Escape Craft may dock with you. While you have an escape craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.',
+            '1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.',
           de:
             '1 Rettungskapsel darf bei dir andocken. Solange ein Rettungskapsel bei dir angedockt ist, darfst du seine Schilde ausgeben, als wären sie auf deiner Schiffskarte. Solange du einen Primärangriff gegen ein gestresstes Schiff durchführst, wirfst du 1 zusätzlichen Angriffswürfel.',
           es:
@@ -240,8 +270,12 @@ const t: UpgradeBase[] = [
             "1 Vaisseau de secours peut s'arrimer à vous. Tant que vous avez un Vaisseau de secours arrimé, vous pouvez dépenser ses boucliers comme s'ils étaient sur votre carte de vaisseau. Tant que vous effectuez une attaque principale contre un vaisseau stressé, lancez 1 dé d'attaque supplémentaire.",
         },
         slots: ['Title'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/96b50606e65bfe308b9e75a03d9a1884.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg',
         ffg: 390,
       },
     ],
@@ -271,9 +305,13 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque principale [Rear Arc], vous pouvez relancer 1 dé d'attaque. Ajoutez un emplacement [Gunner].",
         },
         slots: ['Title'],
-        grants: [{ slot: 'Gunner', value: 1 }],
+        grants: [{ slot: 'Force Power', value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg',
         ffg: 375,
       },
     ],
@@ -307,10 +345,15 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous défendez, si vous avez un marqueur d'évasion, vous pouvez relancer 1 dé de défense.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_103.png',
+        },
         slots: ['Title'],
+        actions: [{ type: 'Evade', difficulty: 'White' }],
         grants: [{ action: { type: 'Evade', difficulty: 'White' }, value: 1 }],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg',
         ffg: 327,
       },
     ],
@@ -340,12 +383,17 @@ const t: UpgradeBase[] = [
           fr: 'Ajoutez un emplacement [Cannon].',
         },
         slots: ['Title'],
+        actions: [{ type: 'Barrel Roll', difficulty: 'White' }],
         grants: [
-          { slot: 'Cannon', value: 1 },
+          { slot: 'Force Power', value: 1 },
           { action: { type: 'Barrel Roll', difficulty: 'White' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg',
         ffg: 376,
       },
     ],
@@ -375,8 +423,13 @@ const t: UpgradeBase[] = [
             "Gagnez une arme principale [Front Arc] avec une valeur de « 3 ». Pendant la phase de dénouement, ne retirez pas jusqu'à 2 marqueurs de concentration.",
         },
         slots: ['Title'],
+        grants: [{ stat: 'attack', value: 3, arc: 'Front Arc' }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg',
         ffg: 328,
       },
     ],
@@ -397,7 +450,7 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            'While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.',
+            'While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.',
           de:
             'Solange du einen versperrten Angriff durchführst, wirft der Verteidiger 1 Verteidigungswürfel weniger. Nachdem du ein Manöver vollständig ausgeführt hast, falls du dich durch ein Hindernis hindurchbewegt oder dich mit ihm überschnitten hast, darfst du 1 deiner roten oder orangefarbenen Marker entfernen.',
           es:
@@ -405,9 +458,13 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque qui est gênée, le défenseur lance 1 dé de défense en moins. Après avoir entièrement exécuté une manœuvre, si vous avez traversé ou chevauché un obstacle, vous pouvez retirer 1 de vos marqueurs rouges ou orange.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png',
+        },
         slots: ['Title'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg',
         ffg: 329,
       },
     ],
@@ -432,9 +489,13 @@ const t: UpgradeBase[] = [
           es: 'Puedes acoplarte a alcance 0-1.',
           fr: 'Vous pouvez vous arrimer à portée 0-1.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_106.png',
+        },
         slots: ['Title'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg',
         ffg: 330,
       },
     ],
@@ -469,11 +530,15 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         grants: [
-          { slot: 'Crew', value: -1 },
-          { slot: 'Astromech', value: 1 },
+          { slot: 'Force Power', value: -1 },
+          { slot: 'Force Power', value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_152.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg',
         ffg: 377,
       },
     ],
@@ -502,9 +567,13 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir effectué une action [Coordinate], vous pouvez choisir un vaisseau ennemi à portée 0-3 du vaisseau coordonné. Dans ce cas, verrouillez ce vaisseau ennemi, en ignorant toute restriction de portée.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png',
+        },
         slots: ['Title'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg',
         ffg: 391,
       },
     ],
@@ -534,8 +603,12 @@ const t: UpgradeBase[] = [
             'Après avoir effectué une attaque qui touche, si le défenseur est dans votre [Single Turret Arc] et votre [Front Arc], il gagne 1 marqueur de rayon tracteur.',
         },
         slots: ['Title'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg',
         ffg: 378,
       },
     ],
@@ -565,9 +638,13 @@ const t: UpgradeBase[] = [
             "Après avoir révélé une manœuvre de virage ([Turn Left] or [Turn Right]) ou de virage sur l'aile ([Bank Left] or [Bank Right]), vous pouvez régler votre cadran sur la manœuvre de même vitesse mais de direction opposée. Ajoutez un emplacement [Torpedo].",
         },
         slots: ['Title'],
-        grants: [{ slot: 'Torpedo', value: 1 }],
+        grants: [{ slot: 'Force Power', value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg',
         ffg: 379,
       },
     ],
@@ -599,11 +676,15 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         charges: { value: 2, recovers: 0 },
         grants: [
-          { slot: 'Modification', value: 1 },
+          { slot: 'Force Power', value: 1 },
           { stat: 'shields', value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_155.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg',
         ffg: 380,
       },
     ],
@@ -625,14 +706,18 @@ const t: UpgradeBase[] = [
         type: 'Title',
         ability: {
           en:
-            "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
+            "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
           de:
             "Falls du 2 oder weniger Stressmarker hast, kannst du rote Segnor-Looping-Manöver ([Segnor's Loop Left] oder [Segnor's Loop Right]) ausführen und [Boost]- und [Rotate Arc]-Aktionen durchführen, auch solange du gestresst bist.",
           es:
             "Si tienes 2 o menos fichas de Tensión, puedes ejecutar maniobras de giro de Segnor ([Segnor's Loop Left] o [Segnor's Loop Right]) rojas y realizar acciones [Boost] y [Rotate Arc] incluso aunque estés bajo tensión.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/23627443c7f5e7447c306ea7c6242634.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg',
         slots: ['Title'],
         ffg: 485,
       },
@@ -664,6 +749,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Title'],
         grants: [{ stat: 'hull', value: 2 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/36b33e7330846570087096cb55fba140.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/36d9391908fe020dec45153ce9bd7d3d.jpg',
         ffg: 533,
       },
     ],
@@ -697,6 +788,12 @@ const t: UpgradeBase[] = [
           { action: { type: 'Cloak', difficulty: 'Red' }, value: 1 },
           { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
         ],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1380bed351b072e5c4df4bb776625fad.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/73d545fd02afd29fa8aa9e9015e7be6e.png',
+        },
         ffg: 542,
       },
     ],
@@ -713,8 +810,6 @@ const t: UpgradeBase[] = [
     xws: 'assailer',
     sides: [
       {
-        title: { en: 'Assailer', de: 'Sturmbringer' },
-        type: 'Title',
         ability: {
           en:
             'Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.',
@@ -725,30 +820,23 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez un emplacement [Gunner]. Tant que vous défendez, si la portée d'attaque est 1, vous pouvez lancer 1 dé de défense supplémentaire.",
         },
-        grants: [
-          { slot: 'Gunner', value: 1 },
-          { stat: 'hull', value: 2 },
-          { stat: 'shields', value: -2 },
-        ],
+        title: { en: 'Assailer', de: 'Sturmbringer' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 769,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['raiderclasscorvette'] },
-    ],
-    cost: { value: 7 },
+    cost: { value: 5 },
   },
   {
     limited: 1,
     xws: 'bloodcrow',
     sides: [
       {
-        title: { en: 'Blood Crow', es: 'Cuervo de Sangre' },
-        type: 'Title',
         ability: {
           en:
             'Add [Gunner] slot. While you perform an attack at attack range 1-2, you may add 1 [Focus] result.',
@@ -759,30 +847,23 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez un emplacement [Gunner]. Tant que vous effectuez une attaque à portée d'attaque 1-2, vous pouvez ajouter 1 résultat [Focus].",
         },
-        grants: [
-          { slot: 'Gunner', value: 1 },
-          { stat: 'shields', value: -1 },
-          { stat: 'energy', value: 2 },
-        ],
+        title: { en: 'Blood Crow', es: 'Cuervo de Sangre' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 773,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['gozanticlasscruiser'] },
-    ],
-    cost: { value: 5 },
+    cost: { value: 8 },
   },
   {
     limited: 1,
     xws: 'brighthope',
     sides: [
       {
-        title: { en: 'Bright Hope' },
-        type: 'Title',
         ability: {
           en:
             'You can reinforce only your [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.',
@@ -793,16 +874,16 @@ const t: UpgradeBase[] = [
           fr:
             "Vous ne pouvez renforcer que votre [Full Front Arc]. Tant que vous défendez, si vous êtes renforcé et que l'attaquant est dans votre [Full Front Arc], vous pouvez lancer 1 dé de défense supplémentaire.",
         },
+        title: { en: 'Bright Hope' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 766,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4f3cb0d471b9ea207665b120a5b27eb7.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['gr75mediumtransport'] },
-    ],
     cost: { value: 5 },
   },
   {
@@ -810,6 +891,12 @@ const t: UpgradeBase[] = [
     xws: 'dodonnaspride',
     sides: [
       {
+        ability: {
+          en: 'Add [Team] and [Cargo] slots.',
+          de: 'Füge -und -Slots hinzu.',
+          es: 'Añádete los espacios y .',
+          fr: 'Ajoutez un emplacement et un emplacement .',
+        },
         title: {
           en: "Dodonna's Pride",
           de: 'Dodonnas Stolz',
@@ -817,16 +904,7 @@ const t: UpgradeBase[] = [
         },
         type: 'Title',
         slots: ['Title'],
-        ability: {
-          en: 'Add and slots.',
-          de: 'Füge -und -Slots hinzu.',
-          es: 'Añádete los espacios y .',
-          fr: 'Ajoutez un emplacement et un emplacement .',
-        },
         grants: [
-          { slot: 'Team', value: 1 },
-          { slot: 'Cargo', value: 1 },
-          { stat: 'shields', value: -2 },
           {
             action: {
               type: 'Evade',
@@ -845,23 +923,19 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 761,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1dca6b93927cdf20f638ddc7362e0f0f.jpg',
       },
-    ],
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['cr90corelliancorvette'] },
     ],
     hyperspace: false,
     epic: true,
-    cost: { value: 8 },
+    cost: { value: 4 },
   },
   {
     limited: 1,
     xws: 'impetuous',
     sides: [
       {
-        title: { en: 'Impetuous', de: 'Ungestüm', es: 'Impetuoso' },
-        type: 'Title',
         ability: {
           en:
             'Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.',
@@ -872,21 +946,16 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement [Crew]. Après que vous avez effectué une attaque, si le défenseur a été détruit, vous pouvez effectuer une action [Focus] or [Lock].',
         },
-        grants: [
-          { slot: 'Crew', value: 1 },
-          { stat: 'shields', value: -2 },
-          { stat: 'energy', value: 2 },
-        ],
+        title: { en: 'Impetuous', de: 'Ungestüm', es: 'Impetuoso' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 771,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['raiderclasscorvette'] },
-    ],
     cost: { value: 4 },
   },
   {
@@ -894,11 +963,9 @@ const t: UpgradeBase[] = [
     xws: 'instigator',
     sides: [
       {
-        title: { en: 'Instigator', es: 'Instigador' },
-        type: 'Title',
         ability: {
           en:
-            'Add slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.',
+            'Add [Team] slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.',
           de:
             'Füge den -Slot hinzu. Solange du einen Angriff durchführst, falls der Verteidiger einen orange-farbenen oder roten Marker hat, darfst du bis zu 2 Angriffswürfel neu werfen.',
           es:
@@ -906,17 +973,16 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez un emplacement . Tant que vous effectuez une attaque, si le défenseur a un marqueur orange ou rouge, vous pouvez relancer jusqu'à 2 dés d'attaque.",
         },
-        grants: [{ slot: 'Team', value: 1 }],
+        title: { en: 'Instigator', es: 'Instigador' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 772,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['raiderclasscorvette'] },
-    ],
     cost: { value: 6 },
   },
   {
@@ -924,8 +990,6 @@ const t: UpgradeBase[] = [
     xws: 'corvus',
     sides: [
       {
-        title: { en: 'Corvus' },
-        type: 'Title',
         ability: {
           en:
             'You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.',
@@ -936,16 +1000,19 @@ const t: UpgradeBase[] = [
           fr:
             "Vous pouvez arrimer jusqu'à 2 petits vaisseaux. Après avoir effectué une action [Calculate], gagnez 1 marqueur de calcul.",
         },
+        title: { en: 'Corvus' },
+        type: 'Title',
         slots: ['Title'],
+        grants: [
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+        ],
         ffg: 770,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/89af7f90118cad6862fa2acb79f05e24.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['raiderclasscorvette'] },
-    ],
     cost: { value: 3 },
   },
   {
@@ -953,15 +1020,9 @@ const t: UpgradeBase[] = [
     xws: 'insatiableworrt',
     sides: [
       {
-        title: {
-          en: 'Insatiable Worrt',
-          de: 'Gefräßiger Worrt',
-          es: 'Worrt Insaciable',
-        },
-        type: 'Title',
         ability: {
           en:
-            'Add slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].',
+            'Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].',
           de:
             'Füge den -Slot hinzu. Während der Endphase darfst du 1 zusätzlichen additional schilde oder [Energy] wiederherstellen.',
           es:
@@ -969,22 +1030,20 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement . Pendant la phase de dénouement, vous pouvez récupérer 1 bouclier ou 2 [Energy] supplémentaire.',
         },
+        title: {
+          en: 'Insatiable Worrt',
+          de: 'Gefräßiger Worrt',
+          es: 'Worrt Insaciable',
+        },
+        type: 'Title',
         slots: ['Title'],
-        grants: [
-          { slot: 'Cargo', value: 1 },
-          { stat: 'hull', value: 3 },
-          { stat: 'shields', value: -1 },
-          { stat: 'energy', value: -1 },
-        ],
         ffg: 779,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Scum and Villainy'] },
-      { chassis: ['croccruiser'] },
-    ],
     cost: { value: 7 },
   },
   {
@@ -992,8 +1051,6 @@ const t: UpgradeBase[] = [
     xws: 'liberator',
     sides: [
       {
-        title: { en: 'Liberator', es: 'Libertador' },
-        type: 'Title',
         ability: {
           en:
             'You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.',
@@ -1004,17 +1061,16 @@ const t: UpgradeBase[] = [
           fr:
             "Vous pouvez arrimer jusqu'à 2 petits vaisseaux. Après qu'un vaisseau s'est déployé depuis vous, il peut effectuer une action [Focus] ou [Barrel Roll].",
         },
+        title: { en: 'Liberator', es: 'Libertador' },
+        type: 'Title',
         slots: ['Title'],
-        grants: [{ stat: 'energy', value: 1 }],
         ffg: 763,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['cr90corelliancorvette'] },
-    ],
     cost: { value: 5 },
   },
   {
@@ -1022,8 +1078,6 @@ const t: UpgradeBase[] = [
     xws: 'luminous',
     sides: [
       {
-        title: { en: 'Luminous', es: 'Luminoso' },
-        type: 'Title',
         ability: {
           en:
             'Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.',
@@ -1034,20 +1088,16 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : débutez en réserve. À la fin de la Mise en place, placez-vous dans la zone de jeu à portée 0-2 d'un vaisseau allié.",
         },
+        title: { en: 'Luminous', es: 'Luminoso' },
+        type: 'Title',
         slots: ['Title'],
-        grants: [
-          { stat: 'shields', value: -1 },
-          { stat: 'energy', value: 2 },
-        ],
         ffg: 767,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['gr75mediumtransport'] },
-    ],
     cost: { value: 12 },
   },
   {
@@ -1055,11 +1105,9 @@ const t: UpgradeBase[] = [
     xws: 'merchantone',
     sides: [
       {
-        title: { en: 'Merchant One', de: 'Händler Eins', es: 'Mercader Uno' },
-        type: 'Title',
         ability: {
           en:
-            'Add [Turret], , and slots. Bonus Attack: Perform a [Turret] attack.',
+            'Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.',
           de:
             'Füge [Turret]-, -, und -Slots hinzu. Bonusangriff: Führe einen [Turret]-Angriff durch.',
           es:
@@ -1067,21 +1115,20 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement [Turret], un emplacement , et un emplacement . Attaque Bonus : effectuez une attaque [Turret].',
         },
+        title: { en: 'Merchant One', de: 'Händler Eins', es: 'Mercader Uno' },
+        type: 'Title',
         slots: ['Title'],
         grants: [
-          { slot: 'Turret', value: 1 },
-          { slot: 'Team', value: 1 },
-          { slot: 'Cargo', value: 1 },
+          { action: { type: 'Evade', difficulty: 'Red' }, value: 1 },
+          { action: { type: 'Coordinate', difficulty: 'White' }, value: 1 },
         ],
         ffg: 778,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/9c35d5bc7124123ec8818e53912449bd.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Scum and Villainy'] },
-      { chassis: ['croccruiser'] },
-    ],
     cost: { value: 8 },
   },
   {
@@ -1089,8 +1136,6 @@ const t: UpgradeBase[] = [
     xws: 'brokenhorn',
     sides: [
       {
-        title: { en: 'Broken Horn' },
-        type: 'Title',
         ability: {
           en:
             'Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.',
@@ -1101,20 +1146,16 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement [Crew] et un emplacement [Illicit]. Si vous êtes endommagé, diminuez la difficulté de vos manoeuvres ayant une vitesse 3-5.',
         },
+        title: { en: 'Broken Horn' },
+        type: 'Title',
         slots: ['Title'],
-        grants: [
-          { slot: 'Crew', value: 1 },
-          { slot: 'Illicit', value: 1 },
-        ],
         ffg: 777,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Scum and Villainy'] },
-      { chassis: ['croccruiser'] },
-    ],
     cost: { value: 4 },
   },
   {
@@ -1122,11 +1163,9 @@ const t: UpgradeBase[] = [
     xws: 'quantumstorm',
     sides: [
       {
-        title: { en: 'Quantum Storm', es: 'Tormenta Cuántica' },
-        type: 'Title',
         ability: {
           en:
-            'Add and slots. After you fully execute a white maneuver, recover 1 [Energy].',
+            'Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].',
           de:
             'Füge - und -Slots hinzu. Nachdem du ein weißes Manöver voll - ständig ausgeführt hast, stelle 1[Energy] wieder her.',
           es:
@@ -1134,21 +1173,16 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement et un emplacement . Après avoir entièrement exécuté une manoeuvre blanche, récupérez 1 [Energy].',
         },
-        grants: [
-          { slot: 'Team', value: 1 },
-          { slot: 'Cargo', value: 1 },
-          { stat: 'energy', value: 1 },
-        ],
+        title: { en: 'Quantum Storm', es: 'Tormenta Cuántica' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 768,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['gr75mediumtransport'] },
-    ],
     cost: { value: 3 },
   },
   {
@@ -1156,8 +1190,6 @@ const t: UpgradeBase[] = [
     xws: 'suppressor',
     sides: [
       {
-        title: { en: 'Suppressor', es: 'Supresor' },
-        type: 'Title',
         ability: {
           en:
             'Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.',
@@ -1168,17 +1200,16 @@ const t: UpgradeBase[] = [
           fr:
             'Ajoutez un emplacement [Sensor]. Après avoir coordonné un vaisseau allié, vous pouvez dépenser 1 [Energy] pour brouiller un vaisseau ennemi à portée 0-2 de ce vaisseau, en ignorant les restrictions de portée.',
         },
-        grants: [{ slot: 'Sensor', value: 1 }],
+        title: { en: 'Suppressor', es: 'Supresor' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 775,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['gozanticlasscruiser'] },
-    ],
     cost: { value: 6 },
   },
   {
@@ -1186,8 +1217,6 @@ const t: UpgradeBase[] = [
     xws: 'jainaslight',
     sides: [
       {
-        title: { en: "Jaina's Light", de: 'Jainas Licht', es: 'Luz de Jaina' },
-        type: 'Title',
         ability: {
           en:
             'While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.',
@@ -1198,25 +1227,23 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un vaisseau allié à portée 0-2 défend, si l'attaque est gênée par un obstacle, vous pouvez dépenser 1 [Energy]. Dans ce cas, le défenseur lance 1 dé de défense supplémentaire.",
         },
+        title: { en: "Jaina's Light", de: 'Jainas Licht', es: 'Luz de Jaina' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 762,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['cr90corelliancorvette'] },
-    ],
-    cost: { value: 6 },
+    cost: { value: 4 },
   },
   {
     limited: 1,
     xws: 'tantiveiv',
     sides: [
       {
-        title: { en: 'Tantive IV' },
-        type: 'Title',
         ability: {
           en:
             'Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.',
@@ -1227,29 +1254,23 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez 2 emplacements [Crew]. Tant que vous défendez, si l'attaquant est dans votre [Rear Arc], vous pouvez lancer 1 dé de défense supplémentaire.",
         },
-        grants: [
-          { slot: 'Crew', value: 1 },
-          { slot: 'Crew', value: 1 },
-        ],
+        title: { en: 'Tantive IV' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 764,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['cr90corelliancorvette'] },
-    ],
-    cost: { value: 6 },
+    cost: { value: 5 },
   },
   {
     limited: 1,
     xws: 'thunderstrike',
     sides: [
       {
-        title: { en: 'Thunderstrike', de: 'Donnerschlag', es: 'Trueno' },
-        type: 'Title',
         ability: {
           en:
             'Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.',
@@ -1260,21 +1281,16 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez un emplacement [Gunner]. Tant que vous effectuez une attaque bonus, si vous n'avez pas attaqué le défenseur à ce round, vous pouvez relancer 1 dé d'attaque.",
         },
-        grants: [
-          { slot: 'Gunner', value: 1 },
-          { stat: 'shields', value: -3 },
-          { stat: 'hull', value: 3 },
-        ],
+        title: { en: 'Thunderstrike', de: 'Donnerschlag', es: 'Trueno' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 765,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { chassis: ['cr90corelliancorvette'] },
-    ],
     cost: { value: 4 },
   },
   {
@@ -1282,11 +1298,9 @@ const t: UpgradeBase[] = [
     xws: 'vector',
     sides: [
       {
-        title: { en: 'Vector' },
-        type: 'Title',
         ability: {
           en:
-            'Add [Crew] and slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.',
+            'Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.',
           de:
             'Füge [Crew]- und -Slots hinzu. Nachdem ein Schiff von dir abgesetzt worden ist, darf es eine [Evade]- oder [Boost]-Aktion durchführen.',
           es:
@@ -1294,29 +1308,23 @@ const t: UpgradeBase[] = [
           fr:
             "Ajoutez un emplacement [Crew] et un emplacement . Après qu'un vaisseau s'est déployé depuis vous, il peut effectuer une action [Evade] ou [Boost].",
         },
-        grants: [
-          { slot: 'Crew', value: 1 },
-          { slot: 'Cargo', value: 1 },
-        ],
+        title: { en: 'Vector' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 776,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['gozanticlasscruiser'] },
-    ],
-    cost: { value: 8 },
+    cost: { value: 7 },
   },
   {
     limited: 1,
     xws: 'requiem',
     sides: [
       {
-        title: { en: 'Requiem', es: 'Réquiem' },
-        type: 'Title',
         ability: {
           en:
             'After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.',
@@ -1327,16 +1335,16 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau s'est déployé depuis vous, il peut verrouiller un vaisseau que vous verrouillez déjà, en ignorant les restrictions de portée.",
         },
+        title: { en: 'Requiem', es: 'Réquiem' },
+        type: 'Title',
         slots: ['Title'],
         ffg: 774,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg',
       },
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire'] },
-      { chassis: ['gozanticlasscruiser'] },
-    ],
     cost: { value: 7 },
   },
   {
@@ -1344,13 +1352,6 @@ const t: UpgradeBase[] = [
     xws: 'kazsfireball',
     sides: [
       {
-        title: {
-          en: "Kaz's Fireball",
-          de: "Kaz' Fireball",
-          fr: 'Fireball de Kaz',
-          es: 'Bola de Fuego de Kaz',
-        },
-        type: 'Title',
         ability: {
           en:
             'Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait; you are dealt that card instead. Then, shuffle the damage deck. You can perform actions on damage cards even while ionized.',
@@ -1361,13 +1362,25 @@ const t: UpgradeBase[] = [
           fr:
             'Mise en Place : lorsque vous résolvez Explosion en Vol, vous pouvez chercher et choisir dans le paquet de dégâts une carte de dégât avec le trait Vaisseau ; cette carte vous est attribuée à la place. Puis mélangez le paquet de dégâts. Vous pouvez effectuer des actions des cartes de dégât, même si vous êtes ionisé.',
         },
+        title: {
+          en: "Kaz's Fireball",
+          de: "Kaz' Fireball",
+          fr: 'Fireball de Kaz',
+          es: 'Bola de Fuego de Kaz',
+        },
+        type: 'Title',
         slots: ['Title'],
         ffg: 655,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0affe4d794e05c485d6103e5414e816a.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/793a1b659936801101622a5fc0a71e73.png',
+        },
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Resistance'] }, { chassis: ['fireball'] }],
     cost: { value: 1 },
   },
   {
@@ -1379,7 +1392,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            "While you perform a [Front Arc] attack, if you are in the defender's full rear arc, you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
+            "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
           de:
             'Solange du einen [Front Arc]-Angriff durchführst, falls du im des Verteidigers bist, darfst du 1 [Hit]-Ergebnis in ein [Critical Hit]-Ergebnis zu ändern. Füge den [Gunner]-Slot hinzu.',
           es:
@@ -1388,10 +1401,11 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque [Front Arc], si vous êtes dans le du défenseur, vous pouvez changer 1 résultat [Hit] en un résultat [Critical Hit]. Ajoutez un emplacement [Gunner].',
         },
         title: { en: 'Slave I', de: 'Sklave I', es: 'Esclavo I' },
-        grants: [{ slot: 'Gunner', value: 1 }],
         type: 'Title',
         slots: ['Title'],
         ffg: 869,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d16195cbd5b4a9e1cfaf94b35dd188e7.jpg',
       },
     ],
     restrictions: [
@@ -1406,6 +1420,12 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
+        ability: {
+          en: 'Add [Gunner] slot.',
+          de: 'Füge den [Gunner]-Slot hinzu.',
+          es: 'Añádete un espacio [Gunner].',
+          fr: 'Ajoutez un emplacement [Gunner].',
+        },
         title: {
           en: 'B6 Blade Wing Prototype',
           de: 'Blatt-Flügler-Prototyp B6',
@@ -1413,20 +1433,19 @@ const t: UpgradeBase[] = [
           fr: 'Prototype Blade Wing B6',
         },
         type: 'Title',
-        ability: {
-          en: 'Add [Gunner] slot.',
-          de: 'Füge den [Gunner]-Slot hinzu.',
-          es: 'Añádete un espacio [Gunner].',
-          fr: 'Ajoutez un emplacement [Gunner].',
-        },
-        grants: [{ slot: 'Gunner', value: 1 }],
         slots: ['Title'],
+        grants: [{ slot: 'Force Power', value: 1 }],
         ffg: 923,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/69e848f2da9a8f6f18d2f89096a94513.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['asf01bwing'] }],
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { chassis: ['asf01bwing'] },
+    ],
   },
   {
     xws: 'grappler',

@@ -68,11 +68,15 @@ const t: ShipType = {
       },
       slots: ['Torpedo', 'Astromech', 'Modification', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg',
       ffg: 7,
       hyperspace: false,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png',
+      },
     },
     {
       name: {
@@ -96,7 +100,7 @@ const t: ShipType = {
           'Diseñado por la Corporación Incom, el caza T-65 Ala-X no tardó en convertirse en uno de los vehículos militares más efectivos y versátiles de la galaxia y una gran baza para la Rebelión.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_11.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_11.jpg',
       alt: [
         {
           image:
@@ -109,6 +113,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_11.png',
+      },
     },
     {
       name: {
@@ -139,11 +147,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
       ffg: 12,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png',
+      },
     },
     {
       name: {
@@ -179,11 +191,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg',
       ffg: 9,
       hyperspace: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png',
+      },
     },
     {
       name: { en: 'Garven Dreis' },
@@ -210,11 +226,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg',
       ffg: 4,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_4.png',
+      },
     },
     {
       name: { en: 'Jek Porkins' },
@@ -241,11 +261,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg',
       ffg: 5,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_5.png',
+      },
     },
     {
       name: { en: 'Kullbee Sperado' },
@@ -278,11 +302,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg',
       ffg: 6,
       hyperspace: false,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png',
+      },
     },
     {
       name: { en: 'Leevan Tenza' },
@@ -315,11 +343,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg',
       ffg: 8,
       hyperspace: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png',
+      },
     },
     {
       name: { en: 'Luke Skywalker' },
@@ -364,11 +396,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg',
       ffg: 2,
       hyperspace: true,
       epic: true,
       keywords: ['Light Side', 'X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_2.png',
+      },
     },
     {
       name: {
@@ -399,11 +435,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg',
       ffg: 10,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_10.png',
+      },
     },
     {
       name: { en: 'Thane Kyrell' },
@@ -435,11 +475,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg',
       ffg: 3,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_3.png',
+      },
     },
     {
       name: { en: 'Wedge Antilles' },
@@ -471,11 +515,15 @@ const t: ShipType = {
         'Configuration',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg',
       ffg: 1,
       hyperspace: false,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_1.png',
+      },
     },
   ],
 };

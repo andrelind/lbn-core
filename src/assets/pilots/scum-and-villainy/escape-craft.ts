@@ -108,11 +108,15 @@ const t: ShipType = {
       },
       slots: [],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg',
       ffg: 229,
       hyperspace: true,
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_229.png',
+      },
     },
     {
       name: { en: 'L3-37' },
@@ -143,11 +147,15 @@ const t: ShipType = {
       ],
       slots: ['Talent', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg',
       ffg: 228,
       hyperspace: true,
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_228.png',
+      },
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -163,7 +171,7 @@ const t: ShipType = {
       xws: 'landocalrissian-escapecraft',
       ability: {
         en:
-          'After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results. Co-Pilot: While you are docked, your carrier ship has your pilot ability in addition to its own.',
+          'After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.',
         de:
           'Nachdem du Würfel geworfen hast, falls du nicht gestresst bist, darfst du 1 Stressmarker erhalten um alle deine Leerseiten neu zu werfen.',
         fr:
@@ -173,10 +181,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg',
       ffg: 226,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png',
+      },
     },
     {
       name: {
@@ -207,10 +219,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg',
       ffg: 227,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_227.png',
+      },
     },
   ],
 };

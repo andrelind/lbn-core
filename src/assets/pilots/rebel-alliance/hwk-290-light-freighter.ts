@@ -82,11 +82,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
       ffg: 42,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_42.png',
+      },
     },
     {
       name: { en: 'Kyle Katarn' },
@@ -119,11 +123,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
       ffg: 43,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_43.png',
+      },
     },
     {
       name: {
@@ -148,11 +156,15 @@ const t: ShipType = {
       },
       slots: ['Crew', 'Device', 'Modification', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
       ffg: 45,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png',
+      },
     },
     {
       name: { en: 'Roark Garnet' },
@@ -185,11 +197,15 @@ const t: ShipType = {
         'Title',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
       ffg: 44,
       hyperspace: false,
       epic: true,
       keywords: ['Freighter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_44.png',
+      },
     },
   ],
 };

@@ -92,7 +92,7 @@ const t: ShipType = {
           'Después de que realices una acción, puedes gastar 1 [Charge] para realizar una acción blanca, considerándola como si fuera roja.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg',
       cost: 61,
       charges: { value: 1, recovers: 1 },
       slots: [
@@ -107,6 +107,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/14c504c0815213a66010c4013d9296ee.png',
+      },
     },
     {
       xws: 'poedameron-swz68',
@@ -143,6 +147,12 @@ const t: ShipType = {
       epic: true,
       ffg: 697,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/76/66/76668017-6298-4471-b1cc-d388d5fc11b8/swz68_poe-dameron.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ecefa0fae78bbecdcb598ff36d323d4d.jpg',
     },
     {
       name: {
@@ -165,13 +175,17 @@ const t: ShipType = {
           'El T-70 Ala-X de Incom-FreiTek se diseñó para ampliar la flexibilidad táctica del venerable T-65. Su sofisticado puerto para droides astromecánicos es compatible con una amplia variedad de modelos, y sus cápsulas modulares de armamento permiten al personal técnico adaptar para misiones específicas la configuración de armas del caza.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg',
       cost: 41,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 426,
       hyperspace: false,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/a82a39a4c9baf883fbc6ae353abdd2ec.png',
+      },
     },
     {
       name: {
@@ -194,7 +208,7 @@ const t: ShipType = {
           'Aunque el grueso del Cuerpo de Cazas Estelares de la Resistencia está compuesto por jóvenes voluntarios de la Nueva República, sus filas se ven reforzadas por veteranos de la Guerra Civil Galáctica decididos a terminar lo que empezaron hace décadas.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg',
       cost: 43,
       slots: [
         'Talent',
@@ -208,6 +222,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/58967d94cfef285c4df2fdbb77fd0502.png',
+      },
     },
     {
       name: {
@@ -230,7 +248,7 @@ const t: ShipType = {
           'Durante la Guerra Fría, el Escuadrón Negro de Poe Dameron llevó a cabo audaces operaciones encubiertas contra la Primera Orden, contraviniendo los tratados que habían sido ratificados por el Senado de la Nueva República.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/e75228d8174f7879c51157fdd9b26e61.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/e75228d8174f7879c51157fdd9b26e61.jpg',
       cost: 46,
       slots: [
         'Talent',
@@ -244,6 +262,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/d2b6a5166b3fd985df5d1941408b58e1.png',
+      },
     },
     {
       name: { en: 'Ello Asty' },
@@ -257,7 +279,7 @@ const t: ShipType = {
       xws: 'elloasty',
       ability: {
         en:
-          'After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right]) maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
+          'After you reveal a red Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
         de:
           'Nachdem du ein rotes Tallon-Rolle-Manöver ([Tallon Roll Left] oder [Tallon Roll Right]) aufgedeckt hast, falls du 2 oder weniger Stressmarker hast, behandle jenes Manöver, als wäre es weiß.',
         fr:
@@ -275,11 +297,15 @@ const t: ShipType = {
         'Tech',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/ff73537d7ab2f063e7a510c05013269e.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/ff73537d7ab2f063e7a510c05013269e.jpg',
       ffg: 419,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f77180ae05fd919a0dff2225380246a6.png',
+      },
     },
     {
       name: { en: 'Joph Seastriker' },
@@ -308,11 +334,15 @@ const t: ShipType = {
         'Tech',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/b5b43d179b039649e764e6bd4f212a29.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/b5b43d179b039649e764e6bd4f212a29.jpg',
       ffg: 424,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/df85f5b77e16363a05c8f68792440166.png',
+      },
     },
     {
       name: { en: 'Kare Kun' },
@@ -327,7 +357,7 @@ const t: ShipType = {
       xws: 'karekun',
       ability: {
         en:
-          'While you boost, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
+          'While you boost, you may use the [1 [Turn Left]] or [1 [Turn Right]] template instead.',
         de:
           'Solange du Schub gibst, darfst du stattdessen die (1 [Turn Left])- oder (1 [Turn Right])-Schablone verwenden.',
         fr:
@@ -345,11 +375,15 @@ const t: ShipType = {
         'Tech',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/f121bc27f2b283258a65d348bcafe40d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/f121bc27f2b283258a65d348bcafe40d.jpg',
       ffg: 421,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/6edb8ed4cbf882bf6dbe7a37b5981d85.png',
+      },
     },
     {
       name: { en: 'Lieutenant Bastian', es: 'Teniente Bastian' },
@@ -373,13 +407,17 @@ const t: ShipType = {
           'Después de que se le inflija una carta de Daño a una nave que tienes a alcance 1-2, puedes obtener un Blanco fijado sobre esa nave.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg',
       cost: 47,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 449,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/3f43d6b3c6e87bde6a681e9d4421dec8.png',
+      },
     },
     {
       name: { en: 'Nien Nunb' },
@@ -412,11 +450,15 @@ const t: ShipType = {
         'Tech',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/5daa441317975eb576396af36e852f74.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/5daa441317975eb576396af36e852f74.jpg',
       ffg: 420,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/00a3c393a33b33168bc61e47749e1474.png',
+      },
     },
     {
       name: { en: 'Jaycris Tubbs' },
@@ -440,13 +482,17 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra azul, puedes elegir una nave aliada que tengas a alcance 0-1. Si lo haces, esa nave retira 1 ficha de Tensión.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg',
       cost: 45,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 450,
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png',
+      },
     },
     {
       name: { en: 'Jessika Pava' },
@@ -470,7 +516,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, puedes gastar 1 [Charge] o 1 [Charge] no recurrente de la mejora [Astromech] que tengas equipada para volver a tirar hasta 1 de tus dados por cada otra nave aliada que tengas a alcance 0-1.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg',
       cost: 51,
       charges: { value: 1, recovers: 1 },
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
@@ -478,6 +524,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png',
+      },
     },
     {
       name: { en: 'Temmin Wexley' },
@@ -496,7 +546,7 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra de velocidad 2-4, puedes realizar una acción [Boost].',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg',
       cost: 49,
       slots: [
         'Talent',
@@ -510,6 +560,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png',
+      },
     },
     {
       xws: 'temminwexley-swz68',
@@ -545,6 +599,12 @@ const t: ShipType = {
       epic: true,
       ffg: 698,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/2c/81/2c81e32f-8c0d-4d26-a9b5-e6bfbe9dab0e/swz68_temmin-wexley.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9ff6521bca10294ce8413081a1068ee0.jpg',
     },
     {
       xws: 'caithrenalli',
@@ -580,6 +640,12 @@ const t: ShipType = {
       epic: true,
       ffg: 699,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/60/8a/608a4657-6612-417d-bd10-be587c2a208f/swz68_cai-threnalli.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b9ec74da0f0350bdc545aa068ff3f154.jpg',
     },
     {
       name: { en: 'Nimi Chireen', de: 'Nimi Chireen' },
@@ -594,7 +660,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       cost: 47,
-      slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
+      slots: ['Tech', 'Astromech', 'Modification', 'Configuration', 'Title'],
       ability: {
         en:
           "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
@@ -608,6 +674,12 @@ const t: ShipType = {
       epic: true,
       ffg: 700,
       keywords: ['X-wing'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/c1/0e/c10e3900-82d8-4bba-9b2b-9ed2f8ad826b/swz68_nimi-chireen.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg',
     },
   ],
 };

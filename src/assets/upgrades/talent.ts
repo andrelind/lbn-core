@@ -24,8 +24,12 @@ const t: UpgradeBase[] = [
             "Après avoir échoué à une action, si vous n'avez aucun marqueur vert, vous pouvez effectuer une action [Focus].",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/73927eb0dc7bc2bb0de194f1af1dead2.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg',
         ffg: 381,
       },
     ],
@@ -58,8 +62,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Talent'],
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_1.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg',
         ffg: 230,
       },
     ],
@@ -81,7 +89,7 @@ const t: UpgradeBase[] = [
         type: 'Talent',
         ability: {
           en:
-            'While you perform a white [Boost] action, you may treat it as red to use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
+            'While you perform a white [Boost] action, you may treat it as red to use the [1 [Turn Left]] or [1 [Turn Right]] template instead.',
           de:
             'Solange du eine weiße [Boost]-Aktion durchführst, darfst du sie behandeln, als wäre sie rot, um stattdessen die (1 [Turn Left])- oder (1 [Turn Right])-Schablone zu verwenden.',
           es:
@@ -90,8 +98,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une action [Boost] blanche, vous pouvez considérer qu'elle est rouge pour utiliser le gabarit (1 [Turn Left]) ou (1 [Turn Right]) à la place.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_2.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg',
         ffg: 231,
       },
     ],
@@ -126,9 +138,14 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une action [Evade] rouge, s'il y a un obstacle à portée 0-1, considérez cette action comme blanche à la place.",
         },
         slots: ['Talent'],
+        actions: [{ type: 'Evade', difficulty: 'Red' }],
         grants: [{ action: { type: 'Evade', difficulty: 'Red' }, value: 1 }],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_3.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_3.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_3.jpg',
         ffg: 232,
       },
     ],
@@ -161,8 +178,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Talent'],
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_4.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg',
         ffg: 233,
       },
     ],
@@ -194,11 +215,16 @@ const t: UpgradeBase[] = [
             'Aunque los toneles volados suelen ser una maniobra problemática para los cazas pesados, los pilotos experimentados saben cómo realizarlos sin que sus naves sufran una tensión excesiva ni queden expuestas a posibles ataques.',
         },
         slots: ['Talent'],
+        actions: [{ type: 'Barrel Roll', difficulty: 'White' }],
         grants: [
           { action: { type: 'Barrel Roll', difficulty: 'White' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_5.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_5.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_5.jpg',
         ffg: 234,
       },
     ],
@@ -232,8 +258,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque principale, si vous n'êtes pas protégé, vous pouvez changer 1 résultat [Focus] en un résultat [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png',
+        },
         slots: ['Talent'],
         ffg: 459,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg',
       },
     ],
     cost: { value: 1 },
@@ -263,9 +295,13 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque principale [Front Arc], si la portée d'attaque est 1 et que vous êtes dans l'[Front Arc] du défenseur, vous pouvez changer 1 de vos résultats en un résultat [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_6.png',
+        },
         slots: ['Talent'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg',
         ffg: 235,
       },
     ],
@@ -292,8 +328,12 @@ const t: UpgradeBase[] = [
             "Tant que vous défendez ou effectuez une attaque, si vous n'avez que des résultats vierges et au moins 2 résultats, vous pouvez relancer n'importe quel nombre de vos dés.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/9f8baf4893cd90288df44b69b50fa788.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/0f6d1677c35001248d7768047c10aa87.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/0f6d1677c35001248d7768047c10aa87.jpg',
         ffg: 471,
       },
     ],
@@ -324,8 +364,12 @@ const t: UpgradeBase[] = [
             "Tant qu'un vaisseau ennemi à portée 0 défend, il lance un dé de défense en moins.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_7.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg',
         ffg: 236,
       },
     ],
@@ -351,8 +395,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque, si vous avez un marqueur d'évasion, vous pouvez changer 1 des résultats [Evade] du défenseur en un résultat [Focus].",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_8.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_8.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_8.jpg',
         ffg: 237,
       },
     ],
@@ -385,8 +433,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Talent'],
         charges: { value: 1, recovers: 1 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_9.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg',
         ffg: 238,
       },
     ],
@@ -417,8 +469,12 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque, si le défenseur est dans votre [Bullseye Arc], vous pouvez changer 1 résultat [Hit] en un résultat [Critical Hit].',
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_10.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg',
         ffg: 239,
       },
     ],
@@ -449,8 +505,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque [Front Arc], si vous n'êtes pas dans l'arc de tir du défenseur, il lance 1 dé de défense en moins.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg',
         ffg: 240,
       },
     ],
@@ -481,8 +541,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Bullseye Arc], vous pouvez relancer 1 dé d'attaque.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_12.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg',
         ffg: 241,
       },
     ],
@@ -512,9 +576,13 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque, vous pouvez choisir un autre vaisseau allié à portée 0-1 du défenseur. Dans ce cas, le vaisseau choisi subit 1 dégât [Hit] et vous pouvez changer 1 de vos résultats de dé en un résultat [Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_13.png',
+        },
         slots: ['Talent'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg',
         ffg: 242,
       },
     ],
@@ -546,8 +614,12 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque [Torpedo] ou [Missile], vous pouvez dépenser 1 [Charge] de cette amélioration. Dans ce cas, choisissez deux dés de défense. Le défenseur doit relancer ces dés.',
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg',
         ffg: 243,
       },
     ],
@@ -578,9 +650,13 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un autre vaisseau allié à portée 0-1 défend, avant l'étape « Neutraliser les résultats », si vous êtes dans l'arc de l'attaque, vous pouvez subir 1 dégât [Critical Hit] pour annuler 1 résultat [Critical Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_15.png',
+        },
         slots: ['Talent'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg',
         ffg: 244,
       },
     ],
@@ -612,11 +688,16 @@ const t: UpgradeBase[] = [
             "Tant que vous coordonnez, le vaisseau que vous avez choisi peut effectuer une action seulement si celle-ci est également dans votre barre d'action.",
         },
         slots: ['Talent'],
+        actions: [{ type: 'Coordinate', difficulty: 'Red' }],
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_16.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_16.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_16.jpg',
         ffg: 245,
       },
     ],
@@ -650,8 +731,12 @@ const t: UpgradeBase[] = [
             "Au début de la phase d'engagement, vous pouvez choisir 1 vaisseau allié à portée 1. Dans ce cas, considérez que son initiative est égale à la vôtre jusqu'à la fin du round.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_17.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg',
         ffg: 246,
       },
     ],
@@ -685,8 +770,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque qui est gênée par un obstacle, lancez 1 dé d'attaque supplémentaire.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_18.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg',
         ffg: 247,
       },
     ],
@@ -718,7 +807,13 @@ const t: UpgradeBase[] = [
         },
         slots: ['Talent'],
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a10d907fea50e32ab28d924c67486d37.png',
+        },
         ffg: 529,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/406e6007268488c36fc9066fb0a5d70f.jpg',
       },
     ],
     hyperspace: true,
@@ -749,15 +844,18 @@ const t: UpgradeBase[] = [
             "Tant qu'un autre vaisseau allié situé dans votre [Left Arc] ou [Right Arc] à portée 0-2 défend, s'il est limité ou possède l'amélioration Dévoué et que vous n'êtes pas contraint, vous pouvez gagner 1 marqueur de contrainte. Dans ce cas, le défenseur relance 1 de ses résultats vierges.",
         },
         slots: ['Talent'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png',
+        },
         ffg: 544,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/21b00eaf0d2f447db8fc7b2dc69222ab.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Republic'] },
-      { 'non-limited': true },
-    ],
+    restrictions: [{ factions: ['Galactic Republic'] }, {}],
     cost: { value: 1 },
   },
   {
@@ -784,6 +882,12 @@ const t: UpgradeBase[] = [
             "À la fin de la phase d'activation, si vous êtes tracté, vous pouvez choisir 1 vaisseau situé dans votre arc [Single Turret Arc] à portée 0-1. Transférez-lui 1 marqueur de rayon tracteur.",
         },
         ffg: 610,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/9513320be3bb150bb8ee6d3504e0ed01.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/5d7e0560460a1d91281537a658ddfc86.png',
+        },
       },
     ],
     hyperspace: false,
@@ -799,14 +903,19 @@ const t: UpgradeBase[] = [
     limited: 0,
     sides: [
       {
+        ffg: 611,
         title: {
           en: 'Gravitic Deflection',
           de: 'Gravitationsdeflektor',
           fr: 'Déflexion Gravitationnelle',
           es: 'Desvío gravítico',
         },
-        type: 'Talent',
-        slots: ['Talent'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8bcd2006892a98b5b29d9aba67733cb6.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/50ec6aa5a267ece16d36533f4efe2bb0.png',
+        },
         ability: {
           en:
             'While you defend, you may reroll 1 defense die for each tractored ship in the attack arc.',
@@ -817,12 +926,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous défendez, vous pouvez relancer 1 dé de défense pour chaque vaisseau tracté situé dans l'arc d'attaque.",
         },
-        ffg: 611,
+        slots: ['Talent'],
+        type: 'Talent',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['nantexclassstarfighter'] }],
     cost: { value: 4 },
   },
   {
@@ -850,6 +959,13 @@ const t: UpgradeBase[] = [
         },
         type: 'Talent',
         slots: ['Talent'],
+        ffg: 612,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/ec959ee48f953dbde71aa7c89d0b54bf.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png',
+        },
         attack: {
           arc: 'Front Arc',
           value: 2,
@@ -857,7 +973,6 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: true,
         },
-        ffg: 612,
       },
     ],
     cost: {
@@ -870,13 +985,6 @@ const t: UpgradeBase[] = [
     xws: 'proudtradition',
     sides: [
       {
-        title: {
-          en: 'Proud Tradition',
-          de: 'Stolze Tradition',
-          fr: 'Noble Tradition',
-          es: 'Tradición honrosa',
-        },
-        type: 'Talent',
         ability: {
           en:
             'Setup: Equip this side faceup. While you have 2 or fewer stress tokens, you may perform [Focus] actions even while stressed. After you perform an attack, if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical Hit] damage to flip this card.',
@@ -887,10 +995,29 @@ const t: UpgradeBase[] = [
           fr:
             'Mise en Place : à équiper avec cette face visible. Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions [Focus], même si vous êtes stressé. Après que vous avez effectué une attaque, si vous êtes stressé, le défenseur peut dépenser 1 marqueur de concentration ou subir 1 dégât [Critical Hit] pour retourner cette carte.',
         },
+        title: {
+          en: 'Proud Tradition',
+          de: 'Stolze Tradition',
+          fr: 'Noble Tradition',
+          es: 'Tradición honrosa',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 653,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/8f9f85aa00fb260336b9938e2a3f7c33.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/09ec8bb3b37800437bbff7963db6aec6.png',
+        },
       },
       {
+        ability: {
+          en: 'Treat your [Focus] actions as red.',
+          de: 'Behandle deine [Focus]-Aktionen, als wären sie rot.',
+          es: 'Tus acciones [Focus] se consideran rojas.',
+          fr: 'Considérez vos actions [Focus] comme rouge.',
+        },
         title: {
           en: 'False Tradition',
           de: 'Falsche Tradition',
@@ -898,17 +1025,16 @@ const t: UpgradeBase[] = [
           es: 'Tradición fraudulenta',
         },
         type: 'Talent',
-        ability: {
-          en: 'Treat your [Focus] actions as red.',
-          de: 'Behandle deine [Focus]-Aktionen, als wären sie rot.',
-          es: 'Tus acciones [Focus] se consideran rojas.',
-          fr: 'Considérez vos actions [Focus] comme rouge.',
-        },
         slots: ['Talent'],
         ffg: 652,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/30486dca1780008aea8c4c905f44ead3.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a060961e9ee792e605c75aaf6d65ad34.png',
+        },
       },
     ],
-    restrictions: [{ factions: ['First Order'] }],
     hyperspace: true,
     epic: true,
     cost: { value: 2 },
@@ -919,6 +1045,7 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
+        ffg: 670,
         title: {
           en: 'Deadeye Shot',
           de: 'Schuss ins Schwarze',
@@ -926,6 +1053,13 @@ const t: UpgradeBase[] = [
           es: 'Tiro preciso',
         },
         type: 'Talent',
+        slots: ['Talent'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/9f2bb1378eecd7358ebb4fd42b3f2f65.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/99f10f4dd059aae2529ec0863a6cc47e.png',
+        },
         ability: {
           en:
             'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may spend 1 [Hit] result or change 1 [Critical Hit] result to a [Hit] result. If you do, the defender exposes 1 of its damage cards.',
@@ -936,13 +1070,10 @@ const t: UpgradeBase[] = [
           es:
             'Mientras efectúas un ataque principal, si el defensor está situado en tu [Bullseye Arc], puedes gastar 1 resultado [Hit] o cambiar 1 resultado [Critical Hit] por un resultado [Hit]. Si lo haces, el defensor expone 1 de sus cartas de Daño.',
         },
-        slots: ['Talent'],
-        ffg: 670,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
   },
   {
     xws: 'ionlimiteroverride',
@@ -950,13 +1081,6 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: {
-          en: 'Ion Limiter Override',
-          de: 'Aufgehobene Ionenbegrenzung',
-          es: 'Anulación del limitador iónico',
-          fr: 'Surcharge du Limitateur Ionique',
-        },
-        type: 'Talent',
         ability: {
           en:
             'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
@@ -967,13 +1091,22 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir entièrement exécuté une manœuvre rouge, vous pouvez effectuer une action [Barrel Roll], même si vous êtes stressé. Dans ce cas, lancez un dé d'attaque ; sur un résultat [Hit] gagnez 1 marqueur de contrainte et sur un résultat [Critical Hit] gagnez 1 marqueur ionique.",
         },
+        title: {
+          en: 'Ion Limiter Override',
+          de: 'Aufgehobene Ionenbegrenzung',
+          es: 'Anulación del limitador iónico',
+          fr: 'Surcharge du Limitateur Ionique',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 717,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/babf3b90df6a73d026d4ab7670306ab7.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ keywords: ['TIE'] }],
+    restrictions: [{}],
   },
   {
     xws: 'margsablclosure',
@@ -981,13 +1114,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Marg Sabl Closure',
-          de: 'Marg-Sabl-Einkesselung',
-          es: 'Envoltura Marg Sabl',
-          fr: 'Encerclement Marg Sabl',
-        },
-        type: 'Talent',
         ability: {
           en:
             'After you fully execute a maneuver, if you moved through an obstacle, structure, or huge ship, or if you deployed, you may choose 1 enemy ship in your [Front Arc] at range 1-2. That ship gains 1 strain token.',
@@ -998,13 +1124,21 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir entièrement exécuté une manœuvre, si vous vous êtes déplacé à travers un obstacle, une structure ou un vaisseau immense, ou si vous étiez déployé, vous pouvez choisir 1 vaisseau ennemi dans votre [Front Arc] à portée 1-2. Ce vaisseau gagne 1 marqueur de contrainte.',
         },
+        title: {
+          en: 'Marg Sabl Closure',
+          de: 'Marg-Sabl-Einkesselung',
+          es: 'Envoltura Marg Sabl',
+          fr: 'Encerclement Marg Sabl',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 846,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/6c495e5b96157ab865a895c70d614ae6.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ baseSizes: ['Small', 'Medium'] }],
   },
   {
     xws: 'starbirdslash',
@@ -1012,13 +1146,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Starbird Slash',
-          de: 'Sternenvogel-Streich',
-          es: 'Acometida de ave estelar',
-          fr: 'Balafre du Phénix',
-        },
-        type: 'Talent',
         ability: {
           en:
             "After you fully execute a maneuver, you may choose 1 enemy ship you moved through. That ship gains 1 strain token. Then, if you are in that ship's firing arc, you gain 1 strain token.",
@@ -1029,13 +1156,21 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir entièrement exécuté une manœuvre, vous pouvez choisir 1 vaisseau ennemi que vous avez traversé. Ce dernier gagne 1 marqueur de contrainte. Puis, si vous êtes dans son arc de tir, vous gagnez 1 marqueur de contrainte.',
         },
+        title: {
+          en: 'Starbird Slash',
+          de: 'Sternenvogel-Streich',
+          es: 'Acometida de ave estelar',
+          fr: 'Balafre du Phénix',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 716,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/9651ea60a9c2b74779fbcadcc989c171.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['rz1awing', 'rz2awing'] }],
   },
   {
     xws: 'backwardstailslide',
@@ -1043,13 +1178,6 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: {
-          en: 'Backwards Tailslide',
-          de: 'Rückwärts-Tailslide',
-          es: 'Caída de cola hacia atrás',
-          fr: "Glissade sur l'Arrière",
-        },
-        type: 'Talent',
         ability: {
           en:
             'While you boost or barrel roll, if your equipped [Configuration] upgrade has the "(Closed)" side faceup, you can move through and overlap obstacles. After you boost or barrel roll through an obstacle, if you are not at range 0 of it, gain 1 evade token.',
@@ -1060,13 +1188,21 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous accélérez ou effectuez un tonneau, si votre amélioration [Configuration] équipée a sa face « Repliée » visible, vous pouvez vous déplacer à travers et chevaucher des obstacles. Après avoir accéléré ou effectué un tonneau à travers un obstacle, si vous n'êtes pas à portée 0 de celui-ci, gagnez 1 marqueur d'évasion.",
         },
+        title: {
+          en: 'Backwards Tailslide',
+          de: 'Rückwärts-Tailslide',
+          es: 'Caída de cola hacia atrás',
+          fr: "Glissade sur l'Arrière",
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 715,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d30db8383beca909eca0993a9299d226.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['t65xwing', 't70xwing'] }],
   },
   {
     xws: 'cutthroat',
@@ -1074,13 +1210,6 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: {
-          en: 'Cutthroat',
-          de: 'Halsabschneider',
-          es: 'Feroz rivalidad',
-          fr: 'Égorgeur',
-        },
-        type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring [Charge] on your ship card or one of your equipped upgrade cards.',
@@ -1091,13 +1220,21 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration égorgeur, vous pouvez retirer 1 de vos marqueurs orange ou rouges, ou récupérer 1 [Charge] non-récurrente sur votre carte de vaisseau ou sur l'une de vos cartes d'amélioration équipées.",
         },
+        title: {
+          en: 'Cutthroat',
+          de: 'Halsabschneider',
+          es: 'Feroz rivalidad',
+          fr: 'Égorgeur',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 914,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/ae15ec14df97ac215567f78fe6c92343.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Scum and Villainy'] }],
   },
   {
     xws: 'tierfonbellyrun',
@@ -1105,13 +1242,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Tierfon Belly Run',
-          de: 'Tierfon-Tiefflug',
-          es: 'Pasada rasante de Tierfon',
-          fr: 'Rase-Mottes de Tierfon',
-        },
-        type: 'Talent',
         ability: {
           en:
             'You can perform special attacks even while at range 0 of asteroids. While you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.',
@@ -1122,13 +1252,21 @@ const t: UpgradeBase[] = [
           fr:
             "Vous pouvez effectuer des attaques spéciales même si vous êtes à portée 0 d'astéroïdes. Tant que vous défendez, si vous êtes à portée 0 d'un obstacle, les dés d'attaque ne peuvent pas être relancés.",
         },
+        title: {
+          en: 'Tierfon Belly Run',
+          de: 'Tierfon-Tiefflug',
+          es: 'Pasada rasante de Tierfon',
+          fr: 'Rase-Mottes de Tierfon',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 918,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a1b35914e278f332b59e04749c90452c.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ chassis: ['btla4ywing', 'btlbywing'] }],
   },
   {
     xws: 'disciplined',
@@ -1136,13 +1274,6 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        title: {
-          en: 'Disciplined',
-          de: 'Diszipliniert',
-          es: 'Disciplina férrea',
-          fr: 'Discipliné',
-        },
-        type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
@@ -1153,13 +1284,21 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration Discipliné, vous pouvez effectuer une action [Lock] ou [Barrel Roll].",
         },
+        title: {
+          en: 'Disciplined',
+          de: 'Diszipliniert',
+          es: 'Disciplina férrea',
+          fr: 'Discipliné',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 915,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/bddffdbe4ada9aa8b6f43b883cfb7acb.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Empire'] }],
   },
   {
     xws: 'hopeful',
@@ -1167,13 +1306,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Hopeful',
-          de: 'Hoffnungsvoll',
-          es: 'Ánimo esperanzado',
-          fr: 'Optimiste',
-        },
-        type: 'Talent',
         ability: {
           en:
             'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.',
@@ -1184,13 +1316,21 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un autre vaisseau allié à portée 0-3 a été détruit, si ce vaisseau était limité ou qu'il avait l'amélioration Optimiste, vous pouvez effectuer une action [Focus] ou [Boost].",
         },
+        title: {
+          en: 'Hopeful',
+          de: 'Hoffnungsvoll',
+          es: 'Ánimo esperanzado',
+          fr: 'Optimiste',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 916,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/3c50ea7c72423be60ac00017cbaed807.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
     xws: 'interloperturn',
@@ -1198,13 +1338,6 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     sides: [
       {
-        title: {
-          en: 'Interloper Turn',
-          de: 'Knoten-Wende',
-          es: 'Giro de intruso',
-          fr: 'Virage Incongru',
-        },
-        type: 'Talent',
         ability: {
           en:
             'Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token.',
@@ -1215,13 +1348,44 @@ const t: UpgradeBase[] = [
           fr:
             "Avant d'exécuter une manœuvre de virage ([Turn Left] ou [Turn Right]) à vitesse 1-2 ou un Virage Koiogran ([Koiogran Turn]) à vitesse 1-2, si vous êtes à portée 0-1 d'un astéroïde, d'une structure ou d'un vaisseau immense, vous pouvez gagner 1 marqueur de rayon tracteur.",
         },
+        title: {
+          en: 'Interloper Turn',
+          de: 'Knoten-Wende',
+          es: 'Giro de intruso',
+          fr: 'Virage Incongru',
+        },
+        type: 'Talent',
         slots: ['Talent'],
         ffg: 917,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/1ae514eedd2e4129b311b69c4174e5f6.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
     restrictions: [{ chassis: ['tieddefender'] }],
+  },
+  {
+    limited: 0,
+    xws: 'feedbackping',
+    sides: [
+      {
+        title: { en: 'Feedback Ping' },
+        type: 'Talent',
+        ability: {
+          en:
+            'After a ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions.',
+        },
+        slots: ['Talent'],
+        image: { en: '???' },
+        artwork: '???',
+        ffg: 938,
+      },
+    ],
+    cost: { value: 1 },
+    restrictions: [{ action: { type: 'Reload' } }, {}],
+    hyperspace: true,
+    epic: true,
   },
 ];
 

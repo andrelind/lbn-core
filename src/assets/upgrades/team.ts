@@ -6,13 +6,6 @@ const t: UpgradeBase[] = [
     xws: 'bombardmentspecialists',
     sides: [
       {
-        title: {
-          en: 'Bombardment Specialists',
-          de: 'Beschuss-Spezialisten',
-          es: 'Especialistas en bombardeo',
-          fr: 'Spécialistes du Bombardement',
-        },
-        type: 'Team',
         ability: {
           en:
             'While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.',
@@ -23,6 +16,14 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul pour augmenter ou diminuer de 1 le prérequis de portée, pour une limite de 0-5.',
         },
+        title: {
+          en: 'Bombardment Specialists',
+          de: 'Beschuss-Spezialisten',
+          es: 'Especialistas en bombardeo',
+          fr: 'Spécialistes du Bombardement',
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -33,8 +34,9 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 746,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/00df0c7fae30d4be941f32ba2fce1bc0.jpg',
       },
     ],
     cost: { value: 6 },
@@ -46,13 +48,6 @@ const t: UpgradeBase[] = [
     xws: 'commsteam',
     sides: [
       {
-        title: {
-          en: 'Comms Team',
-          de: 'Kommunikationsteam',
-          es: 'Personal de comunicaciones',
-          fr: 'Équipe de Communication',
-        },
-        type: 'Team',
         ability: {
           en:
             'After you perform a [Coordinate] action, you may spend up to 2 [Energy] to coordinate that many additional ships at range 0-1 of the ship you coordinated.',
@@ -63,6 +58,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir effectué une action [Coordinate], vous pouvez dépenser jusqu'à 2 [Energy] pour coordonner autant de vaisseaux supplémentaires à portée 0-1 du vaisseau que vous avez coordonné.",
         },
+        title: {
+          en: 'Comms Team',
+          de: 'Kommunikationsteam',
+          es: 'Personal de comunicaciones',
+          fr: 'Équipe de Communication',
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -81,11 +84,12 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 747,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/accec3b3b4603e26ba5bf37cddc2ff1d.jpg',
       },
     ],
-    cost: { value: 8 },
+    cost: { value: 7 },
     hyperspace: false,
     epic: true,
   },
@@ -94,13 +98,6 @@ const t: UpgradeBase[] = [
     xws: 'damagecontrolteam',
     sides: [
       {
-        title: {
-          en: 'Damage Control Team',
-          de: 'Schadensbegrenzungsteam',
-          es: 'Personal de control de daños',
-          fr: 'Équipe de Contrôle des Dégâts',
-        },
-        type: 'Team',
         ability: {
           en:
             'Before you engage, you may spend 1 or more [Energy] to flip that many of your Offline upgrade cards. Action: Spend 1 or more [Energy] to repair that many of your faceup Ship damage cards.',
@@ -111,6 +108,14 @@ const t: UpgradeBase[] = [
           fr:
             "Avant de vous engager, vous pouvez dépenser 1 ou plusieurs [Energy] pour retourner autant de vos cartes d'amélioration Hors-ligne. Action: dépensez 1 ou plusieurs [Energy] pour réparer autant de vos cartes de dégât Vaisseau face visible.",
         },
+        title: {
+          en: 'Damage Control Team',
+          de: 'Schadensbegrenzungsteam',
+          es: 'Personal de control de daños',
+          fr: 'Équipe de Contrôle des Dégâts',
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -121,8 +126,9 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 750,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2e47d434c593aca8030f04103b86a132.jpg',
       },
     ],
     cost: { value: 3 },
@@ -134,16 +140,9 @@ const t: UpgradeBase[] = [
     xws: 'gunneryspecialists',
     sides: [
       {
-        title: {
-          en: 'Gunnery Specialists',
-          de: 'Artillerie-Spezialisten',
-          es: 'Especialistas en artillería',
-          fr: 'Spécialistes en Artillerie',
-        },
-        type: 'Team',
         ability: {
           en:
-            'While you perform a primary or attack, you may spend 1 or more [Energy] to reroll that many attack dice.',
+            'While you perform a primary or [Hardpoint] attack, you may spend 1 or more [Energy] to reroll that many attack dice.',
           de:
             'Solange du einen Primär- oder -Angriff durchführst, darfst du 1 oder mehr [Energy] ausgeben, um ebenso viele Angriffswürfel neu zu werfen.',
           es:
@@ -151,6 +150,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque principale ou , vous pouvez dépenser 1 ou plusieurs [Energy] pour relancer autant de dés d'attaque.",
         },
+        title: {
+          en: 'Gunnery Specialists',
+          de: 'Artillerie-Spezialisten',
+          es: 'Especialistas en artillería',
+          fr: 'Spécialistes en Artillerie',
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -161,11 +168,12 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 749,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/e39555ce2c899f2f12dcf6fe6e0f5f25.jpg',
       },
     ],
-    cost: { value: 8 },
+    cost: { value: 5 },
     hyperspace: false,
     epic: true,
   },
@@ -174,8 +182,6 @@ const t: UpgradeBase[] = [
     xws: 'igrmdroids',
     sides: [
       {
-        title: { en: 'IG-RM Droids', es: 'Droides IG-RM', fr: 'Droïdes IG-RM' },
-        type: 'Team',
         ability: {
           en:
             'While you perform an attack, if you are calculating, you may change 1 [Hit] result to a [Critical Hit] result.',
@@ -186,15 +192,18 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous effectuez une attaque, si vous êtes calculateur, vous pouvez changer 1 résultat [Hit] en un résultat [Critical Hit].',
         },
+        title: { en: 'IG-RM Droids', es: 'Droides IG-RM', fr: 'Droïdes IG-RM' },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
-        slots: ['Team'],
         ffg: 748,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a2e89d07fdf5680e06bce60518845ba9.jpg',
       },
     ],
     cost: { value: 2 },
-    restrictions: [{ factions: ['Scum and Villainy'] }],
     hyperspace: false,
     epic: true,
   },
@@ -203,13 +212,6 @@ const t: UpgradeBase[] = [
     xws: 'ordnanceteam',
     sides: [
       {
-        title: {
-          en: 'Ordnance Team',
-          de: 'Munitionsteam',
-          es: 'Personal de municiones',
-          fr: "Équipe d'Artificiers",
-        },
-        type: 'Team',
         ability: {
           en:
             'While you perform a [Reload] action, you may spend up to 3 [Energy] to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.',
@@ -220,6 +222,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une action [Reload], vous pouvez dépenser jusqu'à 3 [Energy] pour recharger autant de [Charge] supplémentaires de vos améliorations [Missile]/[Torpedo] équipées. Après avoir effectué une action [Reload], vous pouvez dépenser 1 [Energy] pour retirer 1 marqueur de désarmement.",
         },
+        title: {
+          en: 'Ordnance Team',
+          de: 'Munitionsteam',
+          es: 'Personal de municiones',
+          fr: "Équipe d'Artificiers",
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -230,11 +240,12 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 751,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7a267ccc8299728e6f9fa8650b1321ca.jpg',
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 2 },
     hyperspace: false,
     epic: true,
   },
@@ -243,13 +254,6 @@ const t: UpgradeBase[] = [
     xws: 'sensorexperts',
     sides: [
       {
-        title: {
-          en: 'Sensor Experts',
-          de: 'Sensor-Experten',
-          es: 'Expertos en sensores',
-          fr: 'Experts des Senseurs',
-        },
-        type: 'Team',
         ability: {
           en:
             'You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.',
@@ -260,6 +264,14 @@ const t: UpgradeBase[] = [
           fr:
             "Vous pouvez maintenir jusqu'à 3 verrouillages sur différents objets. Après avoir effectué une action [Lock], vous pouvez dépenser jusqu'à 2 [Energy] pour verrouiller autant d'autres objets à portée 0-1 de l'objet que vous avez verrouillé, en ignorant les restrictions de portée.",
         },
+        title: {
+          en: 'Sensor Experts',
+          de: 'Sensor-Experten',
+          es: 'Expertos en sensores',
+          fr: 'Experts des Senseurs',
+        },
+        type: 'Team',
+        slots: ['Team'],
         grants: [
           {
             action: {
@@ -270,11 +282,12 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        slots: ['Team'],
         ffg: 752,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/779973fbba5deb810846a7f0bf7bf3c3.jpg',
       },
     ],
-    cost: { value: 10 },
+    cost: { value: 6 },
     hyperspace: false,
     epic: true,
   },

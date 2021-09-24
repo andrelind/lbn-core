@@ -3,9 +3,10 @@ import fetch from 'node-fetch';
 import ora from 'ora';
 import prettier from 'prettier';
 import assets from '../../src/assets';
-import ffgToXws from '../../src/assets/ffg-xws';
-import { Faction, Pilot, SlotKey } from '../../src/types';
+import { Faction, Restrictions, Size, SlotKey } from '../../src/types';
 import { asyncForEach, getFaction, getName } from '../ffg/utils';
+import { XWDPilot, XWDShip, XWDUpgrade } from './data2-types';
+import { slotFromKey } from '../../src/helpers/convert';
 
 const baseUrl =
   'https://raw.githubusercontent.com/guidokessels/xwing-data2/master';
@@ -19,7 +20,7 @@ const get = async (url: string) => {
   return result;
 };
 
-const processShip = (faction: Faction, shipData: any) => {
+const processShip = (faction: Faction, shipData: XWDShip) => {
   let ship = assets.pilots[faction][shipData.xws];
   if (!ship) {
     // eslint-disable-next-line no-unused-vars
@@ -46,37 +47,45 @@ const processShip = (faction: Faction, shipData: any) => {
     }
   });
 
-  ship.pilots = pilots.map((pilot: Pilot) => {
-    const local = ship.pilots.find((p) => p.xws === pilot.xws);
-    if (local) {
-      // if (pilot.image) {
-      //   // @ts-ignore
-      //   local.image = { en: pilot.image };
-      // }
-      local.keywords = pilot.keywords;
-      return local;
+  ship.pilots = pilots.map((pilot: XWDPilot) => {
+    let local = ship.pilots.find((p) => p.xws === pilot.xws);
+    if (!local) {
+      local = {
+        ...pilot,
+        name: { en: pilot.name },
+        caption: undefined,
+        ability: undefined,
+        shipAbility: undefined,
+        text: undefined,
+        image: undefined,
+        epic: true,
+      };
     }
 
-    // @ts-ignore
-    // pilot.name = { en: pilot.name };
-    if (pilot.caption) {
-      // @ts-ignore
-      pilot.caption = { en: pilot.caption };
+    if (pilot.image) {
+      local.image = { en: pilot.image };
     }
-    if (pilot.ability) {
-      // @ts-ignore
-      pilot.ability = { en: pilot.ability };
+    if (pilot.artwork) {
+      local.artwork = pilot.artwork;
+    }
+    if (pilot.caption) {
+      local.caption = { ...local.caption, en: pilot.caption };
     }
     if (pilot.text) {
-      // @ts-ignore
-      pilot.text = { en: pilot.text };
+      local.text = { ...local.text, en: pilot.text };
     }
-    delete pilot.shipAbility;
+    if (pilot.ability) {
+      local.ability = { ...local.ability, en: pilot.ability };
+    }
 
-    // pilot.slots = pilot.slots || [];
-    // pilot.cost = pilot.cost || 0;
-    pilot.epic = true;
-    return pilot;
+    local.initiative = pilot.initiative;
+    local.limited = pilot.limited;
+    local.cost = pilot.cost;
+    local.keywords = pilot.keywords;
+    local.slots = pilot.slots;
+    local.hyperspace = pilot.hyperspace;
+
+    return local;
   });
 
   const header =
@@ -97,36 +106,138 @@ const processShip = (faction: Faction, shipData: any) => {
   );
 };
 
-const processUpgrade = (key: SlotKey, data: any) => {
+const processUpgrade = (key: SlotKey, data: XWDUpgrade) => {
   let upgrade = assets.upgrades[key].find((u) => u.xws === data.xws);
+  const { name, ...rest } = data;
+
   if (!upgrade) {
-    console.log('**** Upgrade not found ****', data.name, data);
-    const { name, ...rest } = data;
     upgrade = {
       ...rest,
+      sides: rest.sides.map((s) => ({
+        ...s,
+        title: { en: s.title },
+        ability: s.ability ? { en: s.ability } : undefined,
+        text: s.text ? { en: s.text } : undefined,
+        image: s.image ? { en: s.image } : undefined,
+        force: s.force ? { ...s.force, side: ['light', 'dark'] } : undefined,
+        grants: s.grants
+          ? s.grants.map((g) => {
+              if (g.type === 'action') {
+                return {
+                  action: g.value,
+                  value: 1,
+                };
+              } else if (g.type === 'slot') {
+                return {
+                  slot: g.value,
+                  value: g.amount || 1,
+                };
+              } else if (g.type === 'stat') {
+                if (g.arc) {
+                  return {
+                    stat: g.value,
+                    value: g.amount || 1,
+                    arc: g.arc,
+                  };
+                }
+                return {
+                  stat: g.value,
+                  value: g.amount || 1,
+                };
+              } else if (g.type === 'arc') {
+                return {
+                  arc: g.value,
+                  value: 1,
+                };
+              } else if (g.type === 'force') {
+                return {
+                  side: g.value[0],
+                  value: g.amount || 1,
+                };
+              }
+              return g;
+            })
+          : undefined,
+      })),
       epic: true,
       cost: rest.cost || { value: 0 },
+      restrictions: rest.restrictions?.map((r) => {
+        const { action, factions, equipped } = r;
+        const res: Restrictions = { action, factions, equipped };
+
+        if (r.sizes) {
+          res.baseSizes = r.sizes as Size[];
+        }
+        if (r.ships) {
+          res.chassis = r.ships;
+        }
+        return res;
+      }),
     };
-    if (!upgrade) {
-      return;
-    }
     assets.upgrades[key].push(upgrade);
+  } else if (upgrade) {
+    upgrade.sides = rest.sides.map((s, i) => ({
+      ...s,
+      title: { ...upgrade!.sides[i]?.title, en: s.title },
+      ability: s.ability
+        ? { ...upgrade!.sides[i]?.ability, en: s.ability }
+        : undefined,
+      text: s.text ? { ...upgrade!.sides[i]?.text, en: s.text } : undefined,
+      image: s.image ? { ...upgrade!.sides[i]?.image, en: s.image } : undefined,
+      force: s.force ? { ...upgrade!.sides[i]?.force, ...s.force } : undefined,
+      grants: s.grants
+        ? s.grants.map((g) => {
+            if (g.type === 'action') {
+              return {
+                action: g.value,
+                value: 1,
+              };
+            } else if (g.type === 'slot') {
+              return {
+                slot: slotFromKey(g.value),
+                value: g.amount || 1,
+              };
+            } else if (g.type === 'stat') {
+              if (g.arc) {
+                return {
+                  stat: g.value,
+                  value: g.amount || 1,
+                  arc: g.arc,
+                };
+              }
+              return {
+                stat: g.value,
+                value: g.amount || 1,
+              };
+            } else if (g.type === 'arc') {
+              return {
+                arc: g.value,
+                value: 1,
+              };
+            } else if (g.type === 'force') {
+              return {
+                side: g.value[0],
+                value: g.amount || 1,
+              };
+            }
+            return g;
+          })
+        : undefined,
+    }));
+    upgrade.cost = rest.cost || { value: 0 };
+    upgrade.restrictions = rest.restrictions?.map((r) => {
+      const { action, factions, equipped } = r;
+      const res: Restrictions = { action, factions, equipped };
+
+      if (r.sizes) {
+        res.baseSizes = r.sizes as Size[];
+      }
+      if (r.ships) {
+        res.chassis = r.ships;
+      }
+      return res;
+    });
   }
-
-  upgrade.sides.forEach((side) => {
-    const ffg =
-      Object.keys(ffgToXws.upgrades).find(
-        (key) => upgrade && ffgToXws.upgrades[key] === upgrade.xws
-      ) || '-1';
-
-    // @ts-ignore
-    side.title = { en: side.title };
-    if (side.ability) {
-      // @ts-ignore
-      side.ability = { en: side.ability };
-    }
-    side.ffg = side.ffg ? side.ffg : parseInt(ffg);
-  });
 };
 
 const progress = (i: number, increment: number) =>

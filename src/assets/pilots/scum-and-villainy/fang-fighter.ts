@@ -105,11 +105,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Torpedo'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
       ffg: 155,
       hyperspace: true,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_155.png',
+      },
     },
     {
       name: { en: 'Joy Rekkoff' },
@@ -135,11 +139,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg',
       ffg: 157,
       hyperspace: true,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_157.png',
+      },
     },
     {
       name: { en: 'Kad Solus' },
@@ -164,11 +172,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
       ffg: 158,
       hyperspace: true,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_158.png',
+      },
     },
     {
       name: {
@@ -199,11 +211,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
       ffg: 156,
       hyperspace: true,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_156.png',
+      },
     },
     {
       name: {
@@ -228,11 +244,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
       ffg: 159,
       hyperspace: false,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_159.png',
+      },
     },
     {
       name: {
@@ -257,11 +277,15 @@ const t: ShipType = {
       },
       slots: ['Torpedo', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
       ffg: 160,
       hyperspace: false,
       epic: true,
       keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_160.png',
+      },
     },
   ],
 };

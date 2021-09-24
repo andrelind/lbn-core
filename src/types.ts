@@ -132,6 +132,7 @@ export type Restrictions = {
   initiative?: { min?: number; max?: number };
   stat?: { type: StatType; value: number };
   'non-limited'?: boolean;
+  // shipAbility -> Check .en title of shipAbility
 };
 
 export type Side = 'dark' | 'light';

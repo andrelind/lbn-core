@@ -71,16 +71,20 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
       ffg: 217,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png',
+      },
     },
     {
       name: { en: 'Dengar' },
@@ -117,17 +121,21 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg',
       ffg: 214,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png',
+      },
     },
     {
       name: { en: 'Manaroo' },
@@ -156,17 +164,21 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg',
       ffg: 215,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png',
+      },
     },
     {
       name: { en: 'Tel Trevura' },
@@ -196,16 +208,20 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
       ffg: 216,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png',
+      },
     },
     {
       name: { en: 'Nom Lumb' },
@@ -233,17 +249,21 @@ const t: ShipType = {
         'Cannon',
         'Torpedo',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg',
       hyperspace: true,
       epic: true,
       ffg: 637,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png',
+      },
     },
   ],
 };

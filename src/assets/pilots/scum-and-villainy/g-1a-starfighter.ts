@@ -73,11 +73,15 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Jam' },
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg',
       ffg: 201,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_201.png',
+      },
     },
     {
       name: {
@@ -102,11 +106,15 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Crew', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
       ffg: 203,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png',
+      },
     },
     {
       name: { en: 'Zuckuss' },
@@ -139,11 +147,15 @@ const t: ShipType = {
       ],
       slots: ['Talent', 'Sensor', 'Crew', 'Illicit', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg',
       ffg: 202,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_202.png',
+      },
     },
   ],
 };

@@ -101,11 +101,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
       ffg: 123,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_123.png',
+      },
     },
     {
       name: {
@@ -136,11 +140,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
       ffg: 124,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_124.png',
+      },
     },
     {
       name: {
@@ -165,11 +173,15 @@ const t: ShipType = {
       },
       slots: ['Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
       ffg: 126,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_126.png',
+      },
     },
     {
       name: {
@@ -194,11 +206,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
       ffg: 125,
       hyperspace: true,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_125.png',
+      },
     },
     {
       name: { en: 'Rexler Brath' },
@@ -224,40 +240,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
       ffg: 122,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
-    },
-    {
-      xws: 'darthvader-tieddefender',
-      name: { en: 'Darth Vader' },
-      caption: {
-        en: 'Dark Lord of the Sith',
-        de: 'Dunkler Lord der Sith',
-        es: 'Lord oscuro de los sith',
-        fr: 'Seigneur Noir des Sith',
-      },
-      cost: 112,
-      initiative: 6,
-      limited: 1,
-      ability: {
+      image: {
         en:
-          'You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
-        de:
-          'Du kannst keine [Force] ausgeben, außer solange du angreifst. Solange du einen Angriff durchführst, darfst du 1 [Force] ausgeben, um 1 Leerseiten-­Ergebnis in ein [Hit]-Ergebnis zu ändern.',
-        es:
-          'No puedes gastar [Force] excepto mientras estás atacando. Mientras efectúas un ataque, puedes gastar 1 [Force] para cambiar 1 resultado de cara vacía por un resultado [Hit].',
-        fr:
-          'Vous ne pouvez pas dépenser de [Force] sauf lorsque vous attaquez. Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Force] pour changer 1 résultat vierge en un résultat [Hit].',
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_122.png',
       },
-      force: { value: 3, recovers: 1, side: ['dark'] },
-      slots: ['Cannon', 'Missile', 'Force Power', 'Configuration'],
-      hyperspace: false,
-      epic: true,
-      keywords: ['Dark Side', 'Sith', 'TIE'],
-      ffg: 886,
     },
     {
       xws: 'vultskerris',
@@ -286,6 +277,39 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 887,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg',
+    },
+    {
+      xws: 'darthvader-tieddefender',
+      name: { en: 'Darth Vader' },
+      caption: {
+        en: 'Dark Lord of the Sith',
+        de: 'Dunkler Lord der Sith',
+        es: 'Lord oscuro de los sith',
+        fr: 'Seigneur Noir des Sith',
+      },
+      cost: 112,
+      initiative: 6,
+      limited: 1,
+      ability: {
+        en:
+          'You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
+        de:
+          'Du kannst keine [Force] ausgeben, außer solange du angreifst. Solange du einen Angriff durchführst, darfst du 1 [Force] ausgeben, um 1 Leerseiten-­Ergebnis in ein [Hit]-Ergebnis zu ändern.',
+        es:
+          'No puedes gastar [Force] excepto mientras estás atacando. Mientras efectúas un ataque, puedes gastar 1 [Force] para cambiar 1 resultado de cara vacía por un resultado [Hit].',
+        fr:
+          'Vous ne pouvez pas dépenser de [Force] sauf lorsque vous attaquez. Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Force] pour changer 1 résultat vierge en un résultat [Hit].',
+      },
+      force: { value: 3, recovers: 1, side: ['dark'] },
+      slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
+      hyperspace: false,
+      epic: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
+      ffg: 886,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg',
     },
     {
       xws: 'captaindobbs',
@@ -314,6 +338,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 888,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg',
     },
   ],
 };

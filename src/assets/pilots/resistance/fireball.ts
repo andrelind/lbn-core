@@ -102,6 +102,12 @@ const t: ShipType = {
         es:
           'Algunos pilotos con tanto talento como ambición se inician en el mundo de la competición como miembros del personal de tierra, trabajando sin descanso para mantener en el aire naves de diseño improvisado en planetas lejados como Castilon.',
       },
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg',
     },
     {
       name: { en: 'Jarek Yeager' },
@@ -137,6 +143,12 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 620,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg',
     },
     {
       name: { en: 'Kazuda Xiono' },
@@ -172,6 +184,12 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       ffg: 621,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg',
     },
     {
       name: { en: 'R1-J5' },
@@ -208,6 +226,12 @@ const t: ShipType = {
       epic: true,
       ffg: 622,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg',
     },
   ],
 };

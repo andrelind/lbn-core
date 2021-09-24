@@ -83,11 +83,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Astromech', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg',
       ffg: 40,
       hyperspace: true,
       epic: true,
       keywords: ['Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png',
+      },
     },
     {
       name: { en: 'AP-5' },
@@ -117,11 +121,15 @@ const t: ShipType = {
       ],
       slots: ['Talent', 'Crew', 'Astromech', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
       ffg: 41,
       hyperspace: false,
       epic: true,
       keywords: ['Droid', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png',
+      },
     },
     {
       name: { en: 'Ezra Bridger' },
@@ -143,11 +151,15 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: ['Crew', 'Astromech', 'Modification', 'Title', 'Force Power'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg',
       ffg: 39,
       hyperspace: true,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png',
+      },
     },
     {
       name: { en: 'Fenn Rau' },
@@ -173,11 +185,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Crew', 'Astromech', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
       ffg: 38,
       hyperspace: false,
       epic: true,
-      keywords: ['Mandalorian', 'Spectre'],
+      keywords: ['Mandalorian'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png',
+      },
     },
   ],
 };

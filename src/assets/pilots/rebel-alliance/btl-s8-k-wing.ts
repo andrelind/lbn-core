@@ -72,10 +72,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg',
       ffg: 63,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_63.png',
+      },
     },
     {
       name: { en: 'Miranda Doni' },
@@ -110,10 +114,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg',
       ffg: 62,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_62.png',
+      },
     },
     {
       name: {
@@ -147,10 +155,14 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg',
       ffg: 64,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_64.png',
+      },
     },
   ],
 };

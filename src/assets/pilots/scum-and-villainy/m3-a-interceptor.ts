@@ -92,10 +92,14 @@ const t: ShipType = {
       },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg',
       ffg: 190,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_190.png',
+      },
     },
     {
       name: { en: 'Genesis Red' },
@@ -121,10 +125,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg',
       ffg: 184,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_184.png',
+      },
     },
     {
       name: { en: 'Inaldra' },
@@ -150,10 +158,14 @@ const t: ShipType = {
       },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg',
       ffg: 187,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_187.png',
+      },
     },
     {
       name: { en: "Laetin A'shera" },
@@ -179,10 +191,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg',
       ffg: 185,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_185.png',
+      },
     },
     {
       name: { en: 'Quinn Jast' },
@@ -208,11 +224,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg',
       ffg: 186,
       hyperspace: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_186.png',
+      },
     },
     {
       name: { en: 'Serissu' },
@@ -238,10 +258,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg',
       ffg: 183,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_183.png',
+      },
     },
     {
       name: { en: 'Sunny Bounder' },
@@ -267,10 +291,14 @@ const t: ShipType = {
       },
       slots: ['Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg',
       ffg: 188,
       hyperspace: true,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_188.png',
+      },
     },
     {
       name: {
@@ -295,10 +323,14 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Modification'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg',
       ffg: 189,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_189.png',
+      },
     },
     {
       name: { en: 'G4R-G0R V/M' },
@@ -326,7 +358,7 @@ const t: ShipType = {
       cost: 28,
       ffg: 636,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg',
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
         { difficulty: 'White', type: 'Evade' },
@@ -335,6 +367,10 @@ const t: ShipType = {
       ],
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png',
+      },
     },
   ],
 };

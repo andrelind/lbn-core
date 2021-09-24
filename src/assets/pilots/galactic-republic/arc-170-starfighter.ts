@@ -68,8 +68,12 @@ const t: ShipType = {
       cost: 53,
       ffg: 526,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png',
+      },
     },
     {
       name: { en: '"Jag"', de: '„Jag"' },
@@ -81,7 +85,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
       ability: {
         en:
           'After a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] defends, you may acquire a lock on the attacker.',
@@ -95,6 +99,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
+      },
     },
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
@@ -113,7 +121,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
       ability: {
         en:
           'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
@@ -127,6 +135,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
+      },
     },
     {
       name: { en: '"Wolffe"', de: '„Wolffe"' },
@@ -145,7 +157,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
       charges: { value: 1, recovers: 0 },
       ability: {
         en:
@@ -160,6 +172,10 @@ const t: ShipType = {
       hyperspace: false,
       epic: true,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
+      },
     },
     {
       name: {
@@ -175,7 +191,7 @@ const t: ShipType = {
       initiative: 2,
       limited: 0,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg',
       text: {
         en:
           "The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy's presence at any battle where they are deployed.",
@@ -189,6 +205,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png',
+      },
     },
     {
       name: {
@@ -211,7 +231,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 0,
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg',
       text: {
         en:
           'Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.',
@@ -225,6 +245,10 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       keywords: ['Clone'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/0e0fb59b2806b41214275255986965f2.png',
+      },
     },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',

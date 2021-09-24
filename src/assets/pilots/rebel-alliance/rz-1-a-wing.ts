@@ -91,11 +91,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
       ffg: 20,
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_20.png',
+      },
     },
     {
       name: {
@@ -120,11 +124,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
       hyperspace: false,
       epic: true,
       keywords: ['A-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_21.png',
+      },
     },
     {
       name: { en: 'Jake Farrell' },
@@ -150,11 +158,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
       ffg: 19,
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_19.png',
+      },
     },
     {
       name: {
@@ -179,39 +191,15 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Missile', 'Configuration'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
       hyperspace: false,
       epic: true,
       keywords: ['A-wing'],
-    },
-    {
-      xws: 'herasyndulla-rz1awing',
-      name: { en: 'Hera Syndulla' },
-      caption: {
-        en: 'Phoenix Leader',
-        de: 'Phönix Eins',
-        es: 'Jefe Fénix',
-        fr: 'Leader Phoenix',
-      },
-      cost: 48,
-      initiative: 6,
-      limited: 1,
-      ability: {
+      image: {
         en:
-          'While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.',
-        de:
-          'Solange ein anderes befreundetes Schiff in Reichweite 1-2 verteidigt oder einen Angriff durchführt, darfst du 1 deiner Fokusmarker, Ausweichmarker oder Zielerfassungen auf jenes Schiff transferieren.',
-        es:
-          'Mientras otra nave aliada que tienes a alcance 1-2 se defiende o efectúa un ataque, puedes transferir 1 de tus fichas de Concentración, fichas de Evasión o Blancos fijados a esa nave.',
-        fr:
-          "Tant qu'un autre vaisseau allié à portée 1-2 défend ou effectue une attaque, vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau.",
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_22.png',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
-      epic: true,
-      keywords: ['A-wing', 'Spectre'],
-      ffg: 880,
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -235,11 +223,13 @@ const t: ShipType = {
         fr:
           'Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Front Arc], il lance 1 dé de défense en moins.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
       ffg: 883,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -268,6 +258,38 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
       ffg: 885,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg',
+    },
+    {
+      xws: 'herasyndulla-rz1awing',
+      name: { en: 'Hera Syndulla' },
+      caption: {
+        en: 'Phoenix Leader',
+        de: 'Phönix Eins',
+        es: 'Jefe Fénix',
+        fr: 'Leader Phoenix',
+      },
+      cost: 48,
+      initiative: 6,
+      limited: 1,
+      ability: {
+        en:
+          'While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.',
+        de:
+          'Solange ein anderes befreundetes Schiff in Reichweite 1-2 verteidigt oder einen Angriff durchführt, darfst du 1 deiner Fokusmarker, Ausweichmarker oder Zielerfassungen auf jenes Schiff transferieren.',
+        es:
+          'Mientras otra nave aliada que tienes a alcance 1-2 se defiende o efectúa un ataque, puedes transferir 1 de tus fichas de Concentración, fichas de Evasión o Blancos fijados a esa nave.',
+        fr:
+          "Tant qu'un autre vaisseau allié à portée 1-2 défend ou effectue une attaque, vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau.",
+      },
+      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      hyperspace: true,
+      epic: true,
+      keywords: ['A-wing', 'Spectre'],
+      ffg: 880,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg',
     },
     {
       xws: 'ahsokatano-rz1awing',
@@ -287,11 +309,13 @@ const t: ShipType = {
           "Après avoir entièrement exécuté une manœuvre, vous pouvez choisir un vaisseau allié à portée 1-2 et dépenser 2 [Force]. Ce vaisseau peut effectuer une action, même s'il est stressé.",
       },
       force: { value: 3, side: ['light'], recovers: 1 },
-      slots: ['Missile', 'Force Power', 'Force Power', 'Configuration'],
+      slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing', 'Light Side'],
       ffg: 881,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg',
     },
     {
       xws: 'sharabey-rz1awing',
@@ -320,6 +344,8 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing'],
       ffg: 882,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg',
     },
     {
       xws: 'derekklivian',
@@ -338,11 +364,13 @@ const t: ShipType = {
         fr:
           'Après avoir verrouillé ou avoir dépensé un verrouillage, vous pouvez vous retirer 1 marqueur rouge.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       hyperspace: true,
       epic: true,
       keywords: ['A-wing'],
       ffg: 884,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg',
     },
   ],
 };

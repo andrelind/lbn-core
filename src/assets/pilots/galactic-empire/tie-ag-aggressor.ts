@@ -75,11 +75,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
       ffg: 128,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png',
+      },
     },
     {
       name: { en: 'Lieutenant Kestal', es: 'Teniente Kestal' },
@@ -112,11 +116,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
       ffg: 127,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png',
+      },
     },
     {
       name: {
@@ -148,11 +156,15 @@ const t: ShipType = {
         'Gunner',
       ],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
       ffg: 129,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png',
+      },
     },
     {
       name: {
@@ -177,11 +189,15 @@ const t: ShipType = {
       },
       slots: ['Turret', 'Missile', 'Missile', 'Modification', 'Gunner'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
       ffg: 130,
       hyperspace: false,
       epic: true,
       keywords: ['TIE'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png',
+      },
     },
   ],
 };

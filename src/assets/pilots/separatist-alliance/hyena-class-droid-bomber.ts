@@ -102,6 +102,12 @@ const t: ShipType = {
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 568,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/749bdc89c3da6b8034154780959e9c34.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg',
     },
     {
       name: {
@@ -135,12 +141,18 @@ const t: ShipType = {
       slots: ['Sensor', 'Device', 'Device', 'Modification', 'Configuration'],
       ffg: 565,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/099422de35fb5ad2c2d238237e7dfe2c.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg',
     },
     {
       name: { en: 'DBS-404' },
       xws: 'dbs404',
       initiative: 4,
-      limited: 1,
+      limited: 0,
       ability: {
         en:
           'You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.',
@@ -163,6 +175,12 @@ const t: ShipType = {
         es: 'Protocolo de preservación ausente',
       },
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/3e647295c7237a5eb36b94d887eb8e56.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg',
     },
     {
       name: {
@@ -196,6 +214,12 @@ const t: ShipType = {
       slots: ['Sensor', 'Missile', 'Missile', 'Modification', 'Configuration'],
       ffg: 566,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/254bc7be63cc9f4e629198f8d45f2f9b.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg',
     },
     {
       name: {
@@ -219,10 +243,16 @@ const t: ShipType = {
       },
       hyperspace: false,
       epic: true,
-      cost: 28,
+      cost: 29,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 567,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/cf510ca885a5f85395542b9aa51fba73.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg',
     },
     {
       name: { en: 'DBS-32C' },
@@ -258,9 +288,15 @@ const t: ShipType = {
       hyperspace: true,
       epic: true,
       cost: 40,
-      slots: ['Sensor', 'Modification', 'Configuration', 'Tactical Relay'],
+      slots: ['Sensor', 'Tactical Relay', 'Modification', 'Configuration'],
       ffg: 564,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/1befc5619a02e2ea8b7bfb8df93471a1.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg',
     },
   ],
   ffg: 64,

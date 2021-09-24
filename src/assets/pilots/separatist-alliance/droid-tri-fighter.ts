@@ -85,6 +85,12 @@ const t: ShipType = {
       },
       ffg: 794,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/eb/3d/eb3db7f7-4707-4c09-ae41-6a74b669f4d1/swz81_dis-t81_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/dcb7fa7d662c724a28e03ddb3370da25.jpg',
     },
     {
       name: {
@@ -118,6 +124,12 @@ const t: ShipType = {
       epic: true,
       ffg: 796,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/57/f7/57f74986-1cbf-4745-9792-360153f75719/swz81_phlac-prototype_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/eb98630629620582fd4c0d091205da1f.jpg',
     },
     {
       name: {
@@ -152,6 +164,12 @@ const t: ShipType = {
       epic: true,
       ffg: 797,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/91/bb/91bb3546-290e-4131-895e-a77d79ebbc99/swz81_fearsome-predator_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a98ea9c3fc6a99ebda7b5c841d5c179e.jpg',
     },
     {
       name: { en: 'DIS-347' },
@@ -180,6 +198,12 @@ const t: ShipType = {
       epic: true,
       ffg: 795,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/8f/96/8f96a822-921a-4c77-ae90-2fe15e196171/swz81_dis-347_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/805930d3844bde8727c6bb17eb973c8e.jpg',
     },
     {
       name: {
@@ -207,6 +231,12 @@ const t: ShipType = {
       epic: true,
       ffg: 798,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/e5/c8/e5c82543-69af-42ee-bb32-32b0c11d6845/swz81_separatist-interceptor_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3981f72bca3374e9654a11d70531354e.jpg',
     },
     {
       name: {
@@ -234,6 +264,12 @@ const t: ShipType = {
       epic: true,
       ffg: 799,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://images-cdn.fantasyflightgames.com/filer_public/74/88/7488fd46-8f27-4ca9-b573-db8d6f7d749e/swz81_colicoid-interceptor_cutout.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a0b36a5320377ef6cb2611e4d0d39a6a.jpg',
     },
   ],
   ffg: 77,

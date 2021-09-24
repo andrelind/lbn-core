@@ -64,7 +64,7 @@ const t: ShipType = {
           'Ya estén los silos de munición de sus Fortalezas Estelares cargados con bombas de protones o suministros básicos para emergencias, las heroicas tripulaciones del Escuadrón Cobalto dedican sus vidas a cambiar la galaxia para mejor.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/514351d5c41a8341ea5da5673269d917.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/514351d5c41a8341ea5da5673269d917.jpg',
       cost: 51,
       slots: [
         'Sensor',
@@ -79,6 +79,10 @@ const t: ShipType = {
       ffg: 434,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/6b6a3bb8049699e2d66fe09531e8bc00.png',
+      },
     },
     {
       name: { en: 'Cat' },
@@ -95,7 +99,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, tira 1 dado adicional si el defensor está situado a alcance 0-1 de al menos 1 dispositivo aliado.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/d927ccf08a9444340378449fe71e9f70.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/d927ccf08a9444340378449fe71e9f70.jpg',
       cost: 51,
       slots: [
         'Sensor',
@@ -110,6 +114,10 @@ const t: ShipType = {
       ffg: 433,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/b386dc25736682ebc785b15551de903b.png',
+      },
     },
     {
       name: { en: 'Vennie' },
@@ -132,7 +140,7 @@ const t: ShipType = {
           'Mientras te defiendes, si el atacante está situado en el [Single Turret Arc] de alguna nave aliada, puedes añadir 1 resultado [Focus] a tu tirada.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/511b878f719e9fa59a50cdf980d10ead.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/511b878f719e9fa59a50cdf980d10ead.jpg',
       cost: 53,
       slots: [
         'Sensor',
@@ -147,6 +155,10 @@ const t: ShipType = {
       ffg: 448,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/0d494986a24e6c55efae066a43161b0d.png',
+      },
     },
     {
       name: { en: 'Ben Teene' },
@@ -169,7 +181,7 @@ const t: ShipType = {
           'Después de que efectúes un ataque, si el defensor está situado en tu [Single Turret Arc], asígnale el estado Estremecido.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/74ca7444aec38cb0034b67b04f6aaa76.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/74ca7444aec38cb0034b67b04f6aaa76.jpg',
       cost: 54,
       conditions: ['rattled'],
       slots: [
@@ -185,6 +197,10 @@ const t: ShipType = {
       ffg: 432,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/c9189c7e510b4d734d4d78c4f595010f.png',
+      },
     },
     {
       name: { en: 'Edon Kappehl' },
@@ -207,7 +223,7 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra azul o blanca, si no has soltado ni lanzado ningún dispositivo en esta ronda, puedes soltar 1 dispositivo.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/bbac51ca4ba44f26d90a53b6c5db5e2c.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/bbac51ca4ba44f26d90a53b6c5db5e2c.jpg',
       cost: 55,
       slots: [
         'Sensor',
@@ -222,6 +238,10 @@ const t: ShipType = {
       ffg: 447,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/f58fe0b57dc4a9c878627f0fea9cf1ef.png',
+      },
     },
     {
       name: { en: 'Finch Dallow' },
@@ -244,7 +264,7 @@ const t: ShipType = {
           'Antes de que vayas a soltar una bomba, en vez de eso puedes colocarla en la zona de juego de manera que esté en contacto contigo.',
       },
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/dafd2937accc362f766ca0da3308ccbc.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/dafd2937accc362f766ca0da3308ccbc.jpg',
       cost: 55,
       slots: [
         'Sensor',
@@ -259,6 +279,10 @@ const t: ShipType = {
       ffg: 431,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/43d9a0555f719a4cbe1ffe905fd38c46.png',
+      },
     },
     {
       name: { en: 'Paige Tico' },
@@ -281,17 +305,23 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Sensor',
+        'Tech',
         'Crew',
+        'Gunner',
+        'Gunner',
         'Device',
         'Device',
         'Modification',
-        'Gunner',
-        'Gunner',
-        'Tech',
       ],
       hyperspace: false,
       epic: true,
       ffg: 640,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/en/fab73e7af97d9d6169f0f504b60d34c2.png',
+      },
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2bd70a86ef09e15aa93b165a56f32834.jpg',
     },
   ],
 };

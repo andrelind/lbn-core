@@ -24,8 +24,12 @@ const t: UpgradeBase[] = [
             "Après avoir révélé votre cadran, vous pouvez effectuer 1 action. Dans ce cas, vous ne pouvez pas effectuer d'autre action pendant votre activation.",
         },
         slots: ['Sensor'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_23.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg',
         ffg: 252,
       },
     ],
@@ -60,8 +64,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Sensor'],
         charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_24.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg',
         ffg: 253,
       },
     ],
@@ -92,8 +100,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une attaque, si vous avez un verrouillage sur le défenseur, vous pouvez relancer 1 dé d'attaque. Dans ce cas, vous ne pouvez pas dépenser votre marqueur de verrouillage pendant cette attaque.",
         },
         slots: ['Sensor'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_25.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg',
         ffg: 254,
       },
     ],
@@ -115,7 +127,7 @@ const t: UpgradeBase[] = [
         type: 'Sensor',
         ability: {
           en:
-            'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
+            'During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.',
           de:
             'Während der Systemphase, falls du eine Bombe abwerfen oder starten würdest, darfst du sie stattdessen unter Verwendung der (5 [Straight])-Schablone starten.',
           es:
@@ -124,8 +136,12 @@ const t: UpgradeBase[] = [
             'Pendant la phase de système, si vous êtes censé larguer ou lancer une bombe, vous pouvez la lancer en utilisant le gabarit (5 [Straight]) à la place.',
         },
         slots: ['Sensor'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_26.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg',
         ffg: 255,
       },
     ],
@@ -138,13 +154,6 @@ const t: UpgradeBase[] = [
     xws: 'passivesensors',
     sides: [
       {
-        title: {
-          en: 'Passive Sensors',
-          de: 'Passive Sensoren',
-          fr: 'Senseurs Passifs',
-          es: 'Sensores pasivos',
-        },
-        type: 'Sensor',
         ability: {
           en:
             'Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.',
@@ -155,9 +164,22 @@ const t: UpgradeBase[] = [
           fr:
             'Action : dépensez 1 [Charge]. Vous ne pouvez effectuer cette action que lors de votre étape « Effectuer une action ». Tant que votre [Charge] est inactive, vous ne pouvez pas être coordonné. Avant de vous engager, si votre [Charge] est inactive, vous pouvez effectuer une action [Calculate] ou [Lock].',
         },
-        charges: { value: 1, recovers: 1 },
+        title: {
+          en: 'Passive Sensors',
+          de: 'Passive Sensoren',
+          fr: 'Senseurs Passifs',
+          es: 'Sensores pasivos',
+        },
+        type: 'Sensor',
         slots: ['Sensor'],
+        charges: { value: 1, recovers: 1 },
         ffg: 577,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png',
+        },
       },
     ],
     cost: {

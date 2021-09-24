@@ -18,9 +18,13 @@ const t: UpgradeBase[] = [
           fr:
             "Pendant l'étape « Effectuer une action », vous pouvez effectuer 1 action, même si vous êtes stressé. Après avoir effectué une action en étant stressé, subissez 1 dégât [Hit] sauf si vous exposez 1 de vos cartes de dégât.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_83.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_83.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_83.jpg',
         ffg: 307,
       },
     ],
@@ -47,8 +51,12 @@ const t: UpgradeBase[] = [
             'Vous pouvez effectuer des attaques principales à portée 0. Les vaisseaux ennemis à portée 0 peuvent effectuer des attaques principales contre vous.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_94.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg',
         ffg: 318,
       },
     ],
@@ -74,19 +82,18 @@ const t: UpgradeBase[] = [
           fr:
             "Au début de la phase d'engagement, vous pouvez choisir 1 vaisseau ennemi à portée 0-1. Dans ce cas, vous gagnez 1 marqueur de calcul sauf si ce vaisseau choisit de gagner 1 marqueur de stress.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_127.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_127.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_127.jpg',
         ffg: 352,
       },
     ],
     cost: { value: 5 },
-    restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: ['darthvader', 'darthvader-tieddefender'],
-      },
-    ],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     hyperspace: true,
     epic: true,
   },
@@ -107,9 +114,13 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, après avoir lancé les dés d'attaque, vous pouvez nommer un type de marqueur vert. Dans ce cas, gagnez 2 marqueurs ioniques et, pendant cette attaque, le défenseur ne peut pas dépenser de marqueur du type nommé.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_128.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_128.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_128.jpg',
         ffg: 353,
       },
     ],
@@ -139,9 +150,13 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un autre vaisseau allié à portée 0-3 a défendu, s'il est détruit, l'attaquant gagne 2 marqueurs de stress. Tant qu'un vaisseau allié à portée 0-3 effectue une attaque contre un vaisseau stressé, il peut relancer 1 dé d'attaque.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_109.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_109.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_109.jpg',
         ffg: 335,
       },
     ],
@@ -167,10 +182,14 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : assignez l'état Traqué à 1 vaisseau ennemi. Tant que vous effectuez une attaque contre le vaisseau qui possède l'état Traqué, vous pouvez changer 1 de vos résultats [Focus] en un résultat [Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/5e9b30fb5a437355afd9d17d8700bd9c.png',
+        },
         conditions: ['hunted'],
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_110.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_110.jpg',
         ffg: 336,
       },
     ],
@@ -197,8 +216,12 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une action [Focus], vous pouvez considérer qu'elle est rouge. Dans ce cas, gagnez 1 marqueur de concentration supplémentaire pour chaque vaisseau ennemi à portée 0-1, pour un maximum de 2.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_79.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_79.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_79.jpg',
         ffg: 303,
       },
     ],
@@ -224,9 +247,13 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : débutez en réserve. À la fin de la Mise en place, placez-vous à portée 0 d'un obstacle et au-delà de la portée 3 de tout vaisseau ennemi.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_129.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_129.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_129.jpg',
         ffg: 354,
       },
     ],
@@ -253,11 +280,16 @@ const t: UpgradeBase[] = [
             "Avant de lancer les dés de défense, vous pouvez dépenser 1 marqueur de calcul pour dire à voix haute un nombre supérieur ou égal à 1. Dans ce cas et si vous obtenez exactement cette quantité de résultats [Evade] sur votre lancer, ajoutez 1 résultat [Evade]. Après avoir effectué l'action [Calculate], gagnez 1 marqueur de calcul.",
         },
         slots: ['Crew'],
+        actions: [{ type: 'Calculate', difficulty: 'White' }],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_80.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_80.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_80.jpg',
         ffg: 304,
       },
     ],
@@ -283,9 +315,13 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir largué ou lancé un engin, vous pouvez effectuer une action [Boost] rouge.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_130.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_130.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_130.jpg',
         ffg: 355,
       },
     ],
@@ -316,8 +352,12 @@ const t: UpgradeBase[] = [
             "À la fin de la phase d'engagement, chaque vaisseau ennemi à portée 0-1 qui n'est pas stressé gagne 1 marqueur de stress.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/784566afc8c540d5e392689865207059.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/71ad5db561ea39d9d59c4bbdc1b42f35.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/71ad5db561ea39d9d59c4bbdc1b42f35.jpg',
         ffg: 465,
       },
     ],
@@ -344,8 +384,12 @@ const t: UpgradeBase[] = [
             'Pendant la phase de système, vous pouvez choisir 1 vaisseau ennemi à portée 1-2, dire à voix haute une direction et une vitesse, puis regarder le cadran de ce vaisseau. Si la direction et la vitesse du vaisseau choisi correspondent à ce que vous avez dit, vous pouvez régler votre cadran sur une autre manœuvre.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_81.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_81.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_81.jpg',
         ffg: 305,
       },
     ],
@@ -373,8 +417,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Crew'],
         charges: { value: 2, recovers: 1 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_82.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_82.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_82.jpg',
         ffg: 306,
       },
     ],
@@ -401,8 +449,12 @@ const t: UpgradeBase[] = [
             'Au début de la phase de dénouement, vous pouvez dépenser 1 marqueur de concentration pour réparer 1 de vos cartes de dégât face visible.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_157.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_157.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_157.jpg',
         ffg: 382,
       },
     ],
@@ -429,8 +481,12 @@ const t: UpgradeBase[] = [
             'Après avoir effectué une action [Coordinate], si le vaisseau coordonné effectue une action [Barrel Roll] ou [Boost], il peut gagner 1 marqueur de stress pour pivoter de 90°.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_111.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_111.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_111.jpg',
         ffg: 337,
       },
     ],
@@ -459,9 +515,13 @@ const t: UpgradeBase[] = [
           fr:
             "Pendant la phase de dénouement, vous pouvez choisir 2 améliorations [Illicit] équipant des vaisseaux alliés à portée 0-1. Dans ce cas, vous pouvez échanger ces améliorations. Fin de Partie : remettez toutes les améliorations [Illicit] sur leurs vaisseaux d'origine.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_131.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_131.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_131.jpg',
         ffg: 356,
       },
     ],
@@ -489,8 +549,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_112.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_112.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_112.jpg',
         ffg: 338,
       },
     ],
@@ -521,8 +585,12 @@ const t: UpgradeBase[] = [
             "Pendant la phase d'activation, les vaisseaux ennemis à portée 0-1 ne peuvent pas retirer de marqueurs de stress.",
         },
         slots: ['Crew', 'Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_113.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_113.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_113.jpg',
         ffg: 339,
       },
     ],
@@ -552,11 +620,16 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : avant de placer les forces, assignez l'état Prototype Optimisé à un autre vaisseau allié.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_114.png',
+        },
         conditions: ['optimizedprototype'],
         slots: ['Crew'],
+        actions: [{ type: 'Lock', difficulty: 'White' }],
         grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_114.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_114.jpg',
         ffg: 340,
       },
     ],
@@ -587,10 +660,14 @@ const t: UpgradeBase[] = [
           fr:
             "Tant qu'un autre vaisseau allié défend ou effectue une attaque, vous pouvez dépenser 1 [Force] pour modifier 1 de ses dés comme si ce vaisseau avait dépensé 1 [Force].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_115.png',
+        },
         slots: ['Crew', 'Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_115.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_115.jpg',
         ffg: 341,
       },
     ],
@@ -622,8 +699,12 @@ const t: UpgradeBase[] = [
             "Tant que vous défendez et avant que les dés d'attaque ne soient lancés, vous pouvez dépenser un marqueur de verrouillage que vous avez sur l'attaquant pour lancer 1 dé d'attaque. Dans ce cas, l'attaquant gagne 1 marqueur de brouillage. Puis, sur un résultat [Hit] ou [Critical Hit], gagnez 1 marqueur de brouillage.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_42.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_42.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_42.jpg',
         ffg: 271,
       },
     ],
@@ -649,16 +730,17 @@ const t: UpgradeBase[] = [
             "Tant que vous effectuez une action [Coordinate] blanche, vous pouvez considérer qu'elle est rouge. Dans ce cas, vous pouvez coordonner jusqu'à 2 vaisseaux supplémentaires du même type, et chaque vaisseau que vous coordonnez doit effectuer la même action, en la considérant comme rouge.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg',
         ffg: 466,
       },
     ],
     cost: { value: 3 },
-    restrictions: [
-      { factions: ['First Order'] },
-      { action: { type: 'Coordinate', difficulty: 'White' } },
-    ],
+    restrictions: [{ factions: ['First Order'] }],
     hyperspace: false,
     epic: true,
   },
@@ -686,8 +768,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Crew'],
         charges: { value: 1, recovers: 0 },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_43.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_43.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_43.jpg',
         ffg: 272,
       },
     ],
@@ -717,10 +803,14 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau ennemi à portée 0-2 a révélé son cadran, vous pouvez dépenser 1 [Force] pour effectuer 1 action blanche de votre barre d'action, en considérant cette action comme rouge.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_116.png',
+        },
         slots: ['Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg',
         ffg: 342,
       },
     ],
@@ -750,10 +840,14 @@ const t: UpgradeBase[] = [
           fr:
             'Pendant la phase de système, vous pouvez dépenser 2 [Charge]. Dans ce cas, chaque vaisseau allié peut verrouiller un vaisseau que vous avez verrouillé.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_117.png',
+        },
         slots: ['Crew'],
         charges: { value: 2, recovers: 1 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_117.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_117.jpg',
         ffg: 343,
       },
     ],
@@ -782,9 +876,13 @@ const t: UpgradeBase[] = [
           fr:
             'Vous pouvez exécuter des manœuvres rouges même si vous êtes stressé. Après avoir entièrement exécuté une manœuvre rouge, si vous avez au moins 3 marqueurs de stress, retirez 1 marqueur de stress et subissez 1 dégât [Hit].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_84.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_84.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_84.jpg',
         ffg: 308,
       },
     ],
@@ -810,12 +908,17 @@ const t: UpgradeBase[] = [
           fr:
             "Vous avez la capacité de pilote de chaque autre vaisseau allié qui possède l'amélioration IG-2000. Après avoir effectué une action [Calculate], gagnez 1 marqueur de calcul.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_132.png',
+        },
         slots: ['Crew'],
+        actions: [{ type: 'Calculate', difficulty: 'White' }],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_132.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_132.jpg',
         ffg: 357,
       },
     ],
@@ -847,8 +950,12 @@ const t: UpgradeBase[] = [
             'Pendant la phase de dénouement, les vaisseaux ennemis à portée 1-2 ne peuvent pas retirer de marqueurs de brouillage.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_118.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_118.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_118.jpg',
         ffg: 344,
       },
     ],
@@ -876,8 +983,12 @@ const t: UpgradeBase[] = [
         },
         conditions: ['listeningdevice'],
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_44.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_44.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_44.jpg',
         ffg: 273,
       },
     ],
@@ -907,10 +1018,14 @@ const t: UpgradeBase[] = [
           fr:
             'Pendant la phase de dénouement, vous pouvez choisir 1 vaisseau allié à portée 0-2 et dépenser 1 [Charge]. Dans ce cas, ce vaisseau récupère 1 [Charge] sur 1 de ses améliorations [Illicit] équipées.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_133.png',
+        },
         slots: ['Crew', 'Crew'],
         charges: { value: 4, recovers: 0 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_133.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_133.jpg',
         ffg: 358,
       },
     ],
@@ -937,8 +1052,12 @@ const t: UpgradeBase[] = [
             "Si un vaisseau allié à portée 0-3 est censé gagner un marqueur de concentration, il peut gagner 1 marqueur d'évasion à la place.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_85.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_85.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_85.jpg',
         ffg: 309,
       },
     ],
@@ -966,8 +1085,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Crew'],
         force: { value: 1, recovers: 1, side: ['light'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_86.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_86.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_86.jpg',
         ffg: 310,
       },
     ],
@@ -993,9 +1116,13 @@ const t: UpgradeBase[] = [
           fr:
             'Au début de la phase de dénouement, vous pouvez choisir 1 vaisseau ennemi à portée 0-2 dans votre arc de tir. Dans ce cas, ce vaisseau ennemi ne retire pas ses marqueurs de rayon tracteur.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_134.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_134.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_134.jpg',
         ffg: 359,
       },
     ],
@@ -1024,8 +1151,12 @@ const t: UpgradeBase[] = [
         conditions: ['illshowyouthedarkside'],
         slots: ['Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f60322a1f5ace7e45f6c7e0fa0200705.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/a61302c8e1cd180d4198e9ae75b82e91.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/a61302c8e1cd180d4198e9ae75b82e91.jpg',
         ffg: 467,
       },
     ],
@@ -1052,8 +1183,12 @@ const t: UpgradeBase[] = [
             "Mise en Place : équipez-vous avec cette face visible. Tant que vous défendez, vous pouvez retourner cette carte. Dans ce cas, l'attaquant doit relancer tous les dés d'attaque.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg',
         ffg: 384,
       },
       {
@@ -1075,7 +1210,13 @@ const t: UpgradeBase[] = [
             "Si vous n'êtes pas protégé, diminuez la difficulté de vos manœuvres de virages sur l'aile ([Bank Left] et [Bank Right]).",
         },
         slots: ['Configuration'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png',
+        },
         ffg: 383,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/b3af6a2a042345a1d95dd7f877fce8c7.jpg',
       },
     ],
     cost: { value: 4 },
@@ -1101,8 +1242,12 @@ const t: UpgradeBase[] = [
             "Après avoir lancé des dés, vous pouvez dépenser 1 marqueur vert pour relancer jusqu'à 2 de vos résultats.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_159.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_159.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_159.jpg',
         ffg: 385,
       },
     ],
@@ -1129,8 +1274,12 @@ const t: UpgradeBase[] = [
             "Action : lancez 2 dés de défense. Pour chaque résultat [Focus] obtenu, gagnez 1 marqueur de concentration. Pour chaque résultat [Evade] obtenu, gagnez 1 marqueur d'évasion. Si les deux résultats sont vierges, le joueur adverse choisit concentration ou évasion. Vous gagnez 1 marqueur de ce type.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_87.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_87.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_87.jpg',
         ffg: 311,
       },
     ],
@@ -1156,9 +1305,13 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous défendez, si l'attaquant est stressé, vous pouvez retirer 1 marqueur de stress de l'attaquant pour changer 1 de vos résultats Vierge/[Focus] en un résultat [Evade].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_135.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_135.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_135.jpg',
         ffg: 360,
       },
     ],
@@ -1184,10 +1337,14 @@ const t: UpgradeBase[] = [
           fr:
             "Au début de la phase d'activation, vous pouvez dépenser 3 [Charge]. Pendant cette phase, chaque vaisseau allié réduit la difficulté de ses manœuvres rouges.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_88.png',
+        },
         slots: ['Crew'],
         charges: { value: 3, recovers: 1 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg',
         ffg: 312,
       },
     ],
@@ -1214,8 +1371,12 @@ const t: UpgradeBase[] = [
             "Après avoir défendu, si l'attaque touche, vous pouvez verrouiller l'attaquant.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_89.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_89.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_89.jpg',
         ffg: 313,
       },
     ],
@@ -1241,25 +1402,20 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir subi des dégâts, vous pouvez gagner 1 marqueur de stress pour récupérer 1 [Force]. Vous pouvez vous équiper d\'améliorations "Côté Obscur".',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_136.png',
+        },
         slots: ['Crew'],
-        grants: [{ side: 'dark', value: 1 }],
         force: { value: 1, recovers: 1, side: ['dark'] },
+        grants: [{ value: 1 }],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg',
         ffg: 361,
       },
     ],
     cost: { value: 10 },
-    restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: [
-          'ezrabridger',
-          'ezrabridger-sheathipedeclassshuttle',
-          'ezrabridger-tielnfighter',
-        ],
-      },
-    ],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     hyperspace: false,
     epic: true,
   },
@@ -1285,9 +1441,13 @@ const t: UpgradeBase[] = [
           fr:
             "Au début de la phase d'engagement, si vous êtes endommagé, vous pouvez effectuer une action [Reinforce] rouge.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_119.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_119.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_119.jpg',
         ffg: 345,
       },
     ],
@@ -1305,7 +1465,7 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         ability: {
           en:
-            'During the System Phase, you may spend 2 [Charge]. If you do, choose the (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) template. Each friendly ship may perform a red [Boost] action using that template.',
+            'During the System Phase, you may spend 2 [Charge]. If you do, choose the [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] template. Each friendly ship may perform a red [Boost] action using that template.',
           de:
             'Während der Systemphase darfst du 2 [Charge] ausgeben. Falls du das tust, wähle die (1 [Bank Left])-, (1 [Straight])- oder (1 [Bank Right])-Schablone. Jedes befreundete Schiff darf unter Verwendung jener Schablone eine rote [Boost]-Aktion durchführen.',
           es:
@@ -1313,10 +1473,14 @@ const t: UpgradeBase[] = [
           fr:
             'Pendant la phase de système, vous pouvez dépenser 2 [Charge]. Dans ce cas, choisissez le gabarit (1 [Bank Left]), (1 [Straight]) ou (1 [Bank Right]). Chaque vaisseau allié peut effectuer une action [Boost] rouge en utilisant ce gabarit.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_120.png',
+        },
         slots: ['Crew'],
         charges: { value: 2, recovers: 1 },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_120.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_120.jpg',
         ffg: 346,
       },
     ],
@@ -1346,8 +1510,12 @@ const t: UpgradeBase[] = [
             "Diminuez la difficulté de vos manœuvres de virages sur l'aile ([Bank Left] et [Bank Right]).",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_90.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg',
         ffg: 314,
       },
     ],
@@ -1379,8 +1547,12 @@ const t: UpgradeBase[] = [
             "À la fin du round, vous pouvez lancer 1 dé d'attaque pour réparer 1 carte de dégât face visible. Puis, sur un résultat [Hit], exposez 1 carte de dégât.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_45.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_45.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_45.jpg',
         ffg: 274,
       },
     ],
@@ -1410,8 +1582,12 @@ const t: UpgradeBase[] = [
             'Après avoir effectué une action [Focus], gagnez 1 marqueur de concentration.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_46.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_46.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_46.jpg',
         ffg: 275,
       },
     ],
@@ -1442,8 +1618,12 @@ const t: UpgradeBase[] = [
             "Pendant la phase d'activation ou d'engagement, après qu'un vaisseau ennemi dans votre [Front Arc] et à portée 0-1 a gagné un marqueur rouge ou orange, si vous n'êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, le vaisseau ennemi gagne 1 marqueur supplémentaire du type qu'il vient de gagner.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/900397d209adfd3f7bd6429909cc20cc.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/007c0145ba0ec1c57de17c0448cafef2.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/007c0145ba0ec1c57de17c0448cafef2.jpg',
         ffg: 468,
       },
     ],
@@ -1470,8 +1650,12 @@ const t: UpgradeBase[] = [
             'Tant que vous vous déplacez et effectuez des attaques, vous ignorez les obstacles que vous verrouillez.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_161.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg',
         ffg: 387,
       },
     ],
@@ -1498,8 +1682,12 @@ const t: UpgradeBase[] = [
             "Pendant la phase de dénouement, si vous êtes endommagé et n'êtes pas protégé, vous pouvez lancer 1 dé d'attaque pour récupérer 1 bouclier. Sur un résultat [Hit], exposez 1 de vos cartes de dégât.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_91.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_91.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_91.jpg',
         ffg: 315,
       },
     ],
@@ -1526,8 +1714,12 @@ const t: UpgradeBase[] = [
             "Mise en Place : placez sur cette carte les marqueurs suivants : 1 ionique, 1 brouillage, 1 stress, 1 rayon tracteur. Après qu'un vaisseau a subi les effets d'une bombe alliée, vous pouvez retirer 1 marqueur ionique, de brouillage, de stress ou de rayon tracteur de cette carte. Dans ce cas, ce vaisseau gagne un marqueur correspondant.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_92.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_92.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_92.jpg',
         ffg: 316,
       },
     ],
@@ -1554,8 +1746,12 @@ const t: UpgradeBase[] = [
             'Tant que vous effectuez une attaque, vous pouvez subir 1 dégât [Hit] pour changer tous vos résultats [Focus] en résultats [Critical Hit].',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_93.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_93.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_93.jpg',
         ffg: 317,
       },
     ],
@@ -1587,24 +1783,18 @@ const t: UpgradeBase[] = [
             'Après avoir révélé votre cadran de manœuvres, vous pouvez régler votre cadran sur une autre manœuvre non-rouge de même vitesse. Tant que vous exécutez cette manœuvre, augmentez sa difficulté.',
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_47.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_47.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_47.jpg',
         ffg: 276,
       },
     ],
     cost: {
       variable: 'initiative',
-      values: {
-        '0': 2,
-        '1': 3,
-        '2': 4,
-        '3': 5,
-        '4': 6,
-        '5': 7,
-        '6': 8,
-        '7': 8,
-        '8': 8,
-      },
+      values: { '0': 2, '1': 3, '2': 4, '3': 5, '4': 6, '5': 7, '6': 8 },
     },
     hyperspace: true,
     epic: true,
@@ -1631,10 +1821,14 @@ const t: UpgradeBase[] = [
           fr:
             "Si un vaisseau ennemi à portée 0-1 est censé gagner un marqueur de stress, vous pouvez dépenser 1 [Force] pour qu'il gagne 1 marqueur de brouillage ou de rayon tracteur à la place.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_121.png',
+        },
         slots: ['Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_121.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_121.jpg',
         ffg: 347,
       },
     ],
@@ -1667,8 +1861,12 @@ const t: UpgradeBase[] = [
         },
         slots: ['Crew', 'Crew'],
         force: { value: 1, recovers: 1, side: ['dark'] },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/5b699f8b5268e5290c42adce0fd2ee3e.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/3b29995fb9e419822a34c672f2543fa6.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/3b29995fb9e419822a34c672f2543fa6.jpg',
         ffg: 469,
       },
     ],
@@ -1700,12 +1898,16 @@ const t: UpgradeBase[] = [
             'En el caos de una batalla de cazas estelares, una simple orden puede suponer la diferencia entre una victoria y una masacre.',
         },
         slots: ['Crew'],
+        actions: [{ type: 'Coordinate', difficulty: 'White' }],
         grants: [
           { action: { type: 'Coordinate', difficulty: 'White' }, value: 1 },
-          { action: { type: 'Coordinate', difficulty: 'Red' }, value: -1 },
         ],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_48.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_48.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_48.jpg',
         ffg: 277,
       },
     ],
@@ -1732,8 +1934,12 @@ const t: UpgradeBase[] = [
             "Mise en Place : après avoir placé les forces, vous pouvez choisir 1 obstacle dans la zone de jeu. Dans ce cas, placez-le n'importe où dans la zone de jeu au-delà de la portée 2 de tout bord ou vaisseau et au-delà de la portée 1 de tout autre obstacle.",
         },
         slots: ['Crew'],
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_160.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_160.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_160.jpg',
         ffg: 386,
       },
     ],
@@ -1759,9 +1965,13 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir partiellement exécuté une manœuvre, vous pouvez subir 1 dégât [Hit] pour effectuer 1 action blanche.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_137.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_137.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_137.jpg',
         ffg: 362,
       },
     ],
@@ -1787,9 +1997,13 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous effectuez une attaque, si vous n'êtes pas stressé, vous pouvez choisir 1 dé de défense et gagner 1 marqueur de stress. Dans ce cas, le défenseur doit relancer le dé choisi.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_138.png',
+        },
         slots: ['Crew'],
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_138.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_138.jpg',
         ffg: 363,
       },
     ],
@@ -1815,8 +2029,12 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous coordonnez, vous pouvez choisir des vaisseaux alliés au-delà de la portée 2 s'ils ont l'icône [Calculate] dans leur barre d'action. Après avoir effectué l'action [Calculate] ou [Coordinate], gagnez 1 marqueur de calcul.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a0e80bb89748e7415e945a050f82ba84.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/1629b5a262f8b69e1dee4b841150c9b7.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/1629b5a262f8b69e1dee4b841150c9b7.jpg',
         slots: ['Crew'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
@@ -1847,8 +2065,12 @@ const t: UpgradeBase[] = [
           fr:
             "Après avoir effectué une action [Evade], gagnez un nombre de marqueurs d'évasion supplémentaires égal au nombre de vaisseaux ennemis à portée 0-1.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/622ea4b573afbb5c95b3e9f2989a8aef.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg',
         slots: ['Crew'],
         grants: [{ action: { type: 'Evade', difficulty: 'Red' }, value: 1 }],
         ffg: 474,
@@ -1876,8 +2098,12 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en place : perdez 1 [Charge]. Après qu'une carte de dégât a été attribuée à un vaisseau allié à portée 0-3, récupérez 1 [Charge]. Tant que vous effectuez une attaque, vous pouvez dépenser 2 [Charge] pour changer 1 résultat [Focus] en un résultat [Critical Hit].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/3090c218acff7dc71a81e791ce15860e.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg',
         slots: ['Crew'],
         charges: { value: 2, recovers: 0 },
         ffg: 473,
@@ -1905,8 +2131,12 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 de vos résultats pour verrouiller le vaisseau ennemi.',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/60ac08169a90794c33d1d582f1a08480.png',
+        },
         artwork:
-          'https://sb-cdn.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg',
+          'https://squadbuilder.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg',
         slots: ['Crew'],
         ffg: 475,
       },
@@ -1937,12 +2167,18 @@ const t: UpgradeBase[] = [
           fr:
             "Mise en Place : à équiper avec cette face visible. Après avoir défendu, si l'attaquant est à portée 0-2, vous pouvez dépenser 1 [Force]. Dans ce cas, l'attaquant gagne 1 marqueur de stress. Pendant la phase de dénouement, vous pouvez retourner cette carte.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/8218d7b903ea8c0c0f88375124a93a5f.png',
+        },
         force: { value: 1, recovers: 1, side: ['dark', 'light'] },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
         ],
         slots: ['Crew'],
         ffg: 556,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg',
       },
       {
         title: { en: 'Darth Sidious', fr: 'Dark Sidious' },
@@ -1957,12 +2193,18 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir effectué une action [Coordinate] violette, le vaisseau que vous avez coordonné gagne 1 marqueur de stress. Puis il gagne 1 marqueur de concentration ou récupère 1 [Force].',
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/fe4d36bbd6f43ada43a5cf55354211c0.png',
+        },
         force: { value: 1, recovers: 1, side: ['dark', 'light'] },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
         ],
         slots: ['Crew'],
         ffg: 538,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/e0772c182d95e3abd540950c7689ab34.jpg',
       },
     ],
     cost: { value: 14 },
@@ -1987,9 +2229,15 @@ const t: UpgradeBase[] = [
           fr:
             "Avant qu'un vaisseau à portée 0-2 ne lance des dés d'attaque ou de défense, si toutes vos [Force] sont actives, vous pouvez dépenser 1 [Force] et nommer un résultat. Si le lancer ne contient pas le résultat nommé, le vaisseau doit changer 1 dé pour ce résultat.",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/a1920988dd8634d9780c6363e3f36f6e.png',
+        },
         force: { value: 1, recovers: 1, side: ['dark'] },
         slots: ['Crew'],
         ffg: 539,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg',
       },
     ],
     cost: { value: 14 },
@@ -2014,9 +2262,15 @@ const t: UpgradeBase[] = [
           fr:
             "Tant que vous défendez, après l'étape « Neutraliser les résultats », s'il y a au moins 2 résultats [Hit]/[Critical Hit], vous pouvez dépenser 1 [Charge] pour annuler 1 résultat [Hit] ou [Critical Hit]. Après qu'un vaisseau allié a été détruit, récupérez 1 [Charge].",
         },
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/f3740c47b0253ec848c4cfcdde195393.png',
+        },
         charges: { value: 1, recovers: 0 },
         slots: ['Crew'],
         ffg: 540,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg',
       },
     ],
     cost: { value: 3 },
@@ -2029,8 +2283,6 @@ const t: UpgradeBase[] = [
     xws: 'amilynholdo',
     sides: [
       {
-        title: { en: 'Amilyn Holdo' },
-        type: 'Crew',
         ability: {
           en:
             'Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.',
@@ -2041,8 +2293,16 @@ const t: UpgradeBase[] = [
           fr:
             "Avant de vous engager, vous pouvez choisir un autre vaisseau allié à portée 1-2. Vous pouvez transférer à ce vaisseau 1 marqueur d'un type qu'il ne possède pas. Il peut vous transférer 1 marqueur d'un type que vous ne possédez pas.",
         },
+        title: { en: 'Amilyn Holdo' },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 581,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/cbe5e849e9daa4f3f968b2ff6e2879b1.png',
+        },
       },
     ],
     cost: { value: 8 },
@@ -2055,8 +2315,6 @@ const t: UpgradeBase[] = [
     xws: 'ga97',
     sides: [
       {
-        title: { en: 'GA-97' },
-        type: 'Crew',
         ability: {
           en:
             "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
@@ -2068,11 +2326,19 @@ const t: UpgradeBase[] = [
             "Mise en Place : avant de placer les forces, vous pouvez dépenser 3-5 [Charge]. Dans ce cas, choisissez un autre vaisseau allié et assignez-lui l'état C'est la Résistance.",
         },
         conditions: ['itstheresistance'],
+        title: { en: 'GA-97' },
+        type: 'Crew',
+        slots: ['Crew'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
-        slots: ['Crew'],
         ffg: 582,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/3af44c6d32812dc07238b40842d67b47.png',
+        },
       },
     ],
     cost: { value: 5 },
@@ -2085,8 +2351,6 @@ const t: UpgradeBase[] = [
     xws: 'kaydelconnix',
     sides: [
       {
-        title: { en: 'Kaydel Connix' },
-        type: 'Crew',
         ability: {
           en:
             'After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.',
@@ -2097,8 +2361,16 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir révélé votre cadran, vous pouvez régler votre cadran sur une manœuvre de base à la vitesse supérieure suivante. Tant que vous exécutez cette manœuvre, augmentez sa difficulté.',
         },
+        title: { en: 'Kaydel Connix' },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 583,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f14db8bb29fcb06dfee758cb33490fbe.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/29a0eb418850a3821c38874daf0a6b0d.png',
+        },
       },
     ],
     cost: { value: 5 },
@@ -2111,8 +2383,6 @@ const t: UpgradeBase[] = [
     xws: 'korrsella',
     sides: [
       {
-        title: { en: 'Korr Sella' },
-        type: 'Crew',
         ability: {
           en:
             'After you fully execute a blue maneuver, remove all of your stress tokens.',
@@ -2123,8 +2393,16 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir entièrement exécuté une manœuvre bleue, retirez tous vos marqueurs de stress.',
         },
+        title: { en: 'Korr Sella' },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 584,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/97aa5ed09744e698d42c2a12a369c786.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/dd102b8e517399d12b17756a863d19ee.png',
+        },
       },
     ],
     cost: { value: 6 },
@@ -2137,8 +2415,6 @@ const t: UpgradeBase[] = [
     xws: 'larmadacy',
     sides: [
       {
-        title: { en: "Larma D'Acy" },
-        type: 'Crew',
         ability: {
           en:
             'While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.',
@@ -2149,8 +2425,16 @@ const t: UpgradeBase[] = [
           fr:
             'Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions [Reinforce], [Coordinate] et [Jam], même si vous êtes stressé. Tant que vous effectuez une action blanche [Reinforce], [Coordinate] ou [Jam], si vous êtes stressé, considérez cette action comme rouge.',
         },
+        title: { en: "Larma D'Acy" },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 585,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d147142728d8cc0aa647f97966df3988.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/555a815e60cd7bf4612109c3fd65beaa.png',
+        },
       },
     ],
     cost: { value: 4 },
@@ -2163,8 +2447,6 @@ const t: UpgradeBase[] = [
     xws: 'leiaorgana-resistance',
     sides: [
       {
-        title: { en: 'Leia Organa' },
-        type: 'Crew',
         ability: {
           en:
             'After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.',
@@ -2175,12 +2457,20 @@ const t: UpgradeBase[] = [
           fr:
             "Après qu'un vaisseau allié a révélé son cadran, vous pouvez dépenser 1 [Force]. Dans ce cas, ce vaisseau allié réduit la difficulté de sa manœuvre.",
         },
+        title: { en: 'Leia Organa' },
+        type: 'Crew',
         slots: ['Crew', 'Crew'],
+        force: { value: 1, recovers: 1, side: ['light'] },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
         ],
-        force: { value: 1, recovers: 1, side: ['light'] },
         ffg: 586,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/bd5f0c91b7fb256f91fcfbd006e56acc.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/0a194c8c529278b471e64edc597b06fc.png',
+        },
       },
     ],
     cost: { value: 16 },
@@ -2193,11 +2483,9 @@ const t: UpgradeBase[] = [
     xws: 'pz4co',
     sides: [
       {
-        title: { en: 'PZ-4CO' },
-        type: 'Crew',
         ability: {
           en:
-            'At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2.  If you do, transfer 1 calculate token to that ship.  If your revealed maneuver is blue, you may transfer 1 focus token instead.',
+            'At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.',
           de:
             'Am Ende der Aktivierungs­phase darfst du 1 befreun­detes Schiff in Reichweite 1-2 wählen. Falls du das tust, transferiere 1 Berechnungsmarker auf jenes Schiff. Falls dein aufgedecktes Manöver blau ist, darfst du stattdessen 1 Fokusmarker transferieren.',
           es:
@@ -2205,11 +2493,19 @@ const t: UpgradeBase[] = [
           fr:
             "À la fin de la phase d'activation, vous pouvez choisir 1 vaisseau allié à portée 1-2. Dans ce cas, transférez 1 marqueur de calcul à ce vaisseau. Si votre manœuvre révélée est bleue, vous pouvez transférer 1 marqueur de concentration à la place.",
         },
+        title: { en: 'PZ-4CO' },
+        type: 'Crew',
+        slots: ['Crew'],
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
-        slots: ['Crew'],
         ffg: 587,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/11c5bdf18a62dc43bdda0834026dace2.png',
+        },
       },
     ],
     cost: { value: 5 },
@@ -2222,8 +2518,14 @@ const t: UpgradeBase[] = [
     xws: 'c3po-republic',
     sides: [
       {
+        ffg: 616,
         title: { en: 'C-3PO' },
-        type: 'Crew',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/f64417de71053f39ded8886b72184819.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/01e1a3b43aee6c564662825cadcd3f22.png',
+        },
         ability: {
           en:
             'While you defend, if you are calculating, you may reroll 1 defense die. After you perform a [Calculate] action, gain 1 calculate token.',
@@ -2235,11 +2537,13 @@ const t: UpgradeBase[] = [
             'Tant que vous défendez, si vous êtes calculateur, vous pouvez relancer 1 dé de défense. Après avoir effectué une action [Calculate], gagnez 1 marqueur de calcul.',
         },
         slots: ['Crew'],
-        ffg: 616,
+        type: 'Crew',
+        grants: [
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+        ],
       },
     ],
     cost: { value: 7 },
-    restrictions: [{ factions: ['Galactic Republic'] }],
     hyperspace: true,
     epic: true,
   },
@@ -2248,8 +2552,6 @@ const t: UpgradeBase[] = [
     xws: 'torynfarr',
     sides: [
       {
-        title: { en: 'Toryn Farr' },
-        type: 'Crew',
         ability: {
           en:
             'After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.',
@@ -2260,6 +2562,8 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir coordonné un vaisseau allié, ce dernier peut verrouiller un vaisseau que vous verrouillez déjà, en ignorant les restrictions de portée.',
         },
+        title: { en: 'Toryn Farr' },
+        type: 'Crew',
         slots: ['Crew'],
         grants: [
           {
@@ -2272,10 +2576,15 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 760,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/e8/ee/e8eec466-9409-40e6-8b9b-c3bee65c451f/swz55_toryn-farr_card.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/fa45744ddf40d228a433cca33a7e2f6f.jpg',
       },
     ],
     cost: { value: 4 },
-    restrictions: [{ factions: ['Rebel Alliance'] }, { baseSizes: ['Huge'] }],
     hyperspace: false,
     epic: true,
   },
@@ -2284,11 +2593,9 @@ const t: UpgradeBase[] = [
     xws: 'k2so',
     sides: [
       {
-        title: { en: 'K-2SO' },
-        type: 'Crew',
         ability: {
           en:
-            'During the System Phase, you may choose a friendly ship at range 0-3.  That ship gains 1 calculate and 1 stress token.',
+            'During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.',
           de:
             'Während der Systemphase darfst du ein befreundetes Schiff in Reichweite 0-3 wählen. Jenes Schiff erhält 1 Berechnungs- und 1 Stressmarker.',
           es:
@@ -2296,16 +2603,29 @@ const t: UpgradeBase[] = [
           fr:
             'Pendant la phase de système, vous pouvez choisir un vaisseau allié à portée 0-3. Ce vaisseau gagne 1 marqueur de calcul et 1 marqueur de stress.',
         },
+        title: { en: 'K-2SO' },
+        type: 'Crew',
         slots: ['Crew'],
         grants: [
-          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
-          { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
+          {
+            action: {
+              type: 'Calculate',
+              difficulty: 'White',
+              linked: { type: 'Jam', difficulty: 'White' },
+            },
+            value: 1,
+          },
         ],
         ffg: 647,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/ced6485e9da6861b36fe3ab0c747fe76.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/bd3d6c3227984bc0f5daacebdc7d92ad.png',
+        },
       },
     ],
     cost: { value: 6 },
-    restrictions: [{ factions: ['Rebel Alliance'] }],
     hyperspace: false,
     epic: true,
   },
@@ -2316,7 +2636,6 @@ const t: UpgradeBase[] = [
     epic: true,
     sides: [
       {
-        title: { en: 'Plo Koon' },
         ability: {
           en:
             'At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card.',
@@ -2327,16 +2646,22 @@ const t: UpgradeBase[] = [
           es:
             'Al comienzo de la fase Final, si estás reforzado, puedes elegir 1 nave aliada que tengas a alcance 0 o que esté en tu [Left Arc] o [Right Arc] y la tengas a alcance 1. Esa nave retira 1 ficha de merma o de Sobresfuerzo, o repara 1 carta de Daño boca arriba.',
         },
+        force: { value: 1, recovers: 1, side: ['light'] },
+        title: { en: 'Plo Koon' },
         type: 'Crew',
         slots: ['Crew'],
-        force: { value: 1, recovers: 1, side: ['light'] },
         grants: [
           { action: { type: 'Reinforce', difficulty: 'Purple' }, value: 1 },
         ],
         ffg: 677,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7551a4c70f701c81e3e79ea9bb5a4237.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/1f07b416e509fa27d4005c8d25452e06.png',
+        },
       },
     ],
-    restrictions: [{ factions: ['Galactic Republic'] }],
     cost: { value: 9 },
   },
   {
@@ -2345,8 +2670,6 @@ const t: UpgradeBase[] = [
     cost: { value: 14 },
     sides: [
       {
-        title: { en: 'Aayla Secura' },
-        type: 'Crew',
         ability: {
           en:
             'While an enemy ship in your [Bullseye Arc] performs an attack, if the defender is friendly and at range 0-2, the defender may change 1 blank result to a [Focus] result.',
@@ -2357,8 +2680,9 @@ const t: UpgradeBase[] = [
           es:
             'Mientras una nave enemiga situada en tu [Bullseye Arc] efectúa un ataque, si el defensor es aliado tuyo y lo tienes a alcance 0-2, ese defensor puede cambiar 1 resultado de cara vacía por un resultado [Focus].',
         },
+        title: { en: 'Aayla Secura' },
+        type: 'Crew',
         slots: ['Crew'],
-        force: { value: 1, recovers: 1, side: ['light'] },
         grants: [
           {
             action: {
@@ -2370,11 +2694,16 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 675,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/c1d9f86978058e101f6cf112c3946655.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/c75b7f3eaadb889b7b94d020c0d81d29.png',
+        },
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'agentterex',
@@ -2382,8 +2711,6 @@ const t: UpgradeBase[] = [
     cost: { value: 7 },
     sides: [
       {
-        title: { en: 'Agent Terex', es: 'Agente Terex' },
-        type: 'Crew',
         ability: {
           en:
             'Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.',
@@ -2394,14 +2721,28 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Equipa esta carta con este lado boca arriba y coloca 3 fichas de Cálculos sobre esta carta. Al comienzo de la frase de Enfrentamiento, puedes elegir una nave aliada que tengas a alcance 0-3 y retirar 1 ficha de Cálculos de esta carta para hacer que esa nave recibe una ficha equivalente, Luego, si no hay ninguna ficha de Cálculos sobre esta carta, dale la vuelta.',
         },
+        title: { en: 'Agent Terex', es: 'Agente Terex' },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 686,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/6e7153cd20c808370bbd80d871cf85c3.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/46f1700aa15a7a4e25b3d19b4ad97818.png',
+        },
       },
       {
+        slots: ['Crew'],
         ffg: 685,
         title: { en: 'Agent Terex (Cyborg)', es: 'Agente Terex (cíborg)' },
         type: 'Crew',
-        slots: [],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/87f139d19477b1ab35c2dc2ab578eedc.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/8d74e6cb42cd9717409451bafda8467b.png',
+        },
         ability: {
           en:
             'During the System Phase, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3.',
@@ -2416,7 +2757,6 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'commandermalarus',
@@ -2424,12 +2764,20 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
+        ffg: 684,
         title: {
           en: 'Commander Malarus',
           fr: 'Commandant Malarus',
           es: 'Comandante Malarus',
         },
         type: 'Crew',
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/70fb233cb4aee8f02716292268d0b9c1.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/842e172f79c8af94b3dde0cfc769b74a.png',
+        },
         ability: {
           en:
             'Setup: Equip this side faceup. While a friendly non-limited ship at range 0-1 performs a primary attack, that ship may reroll 1 blank result. If it does and the attack does not hit, you must flip this card.',
@@ -2440,8 +2788,6 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Equipa esta carta con este lado boca arriba. Mientras una nave aliada que no es limitada y que tienes a alcance 0-1 efectúa un ataque principal, esa nave puede volver a tirar 1 resultado de cara vacía. Si lo hace y el ataque no impacta, debes darle la vuelta a esta carta.',
         },
-        slots: ['Crew'],
-        ffg: 684,
       },
       {
         ffg: 683,
@@ -2452,7 +2798,13 @@ const t: UpgradeBase[] = [
           es: 'Comandante Malarus (perfeccionada)',
         },
         type: 'Crew',
-        slots: [],
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/c304667782eb50cd85af9fb996a924c9.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d8dabcfeadffbe5ef9eeb1ba4973f714.png',
+        },
         ability: {
           en:
             'While you perform an attack, if the defender is in your [Bullseye Arc], you must convert all [Focus] results to [Hit] results and gain 1 stress token. Then, if you have 2 or more stress tokens, suffer 1 [Hit] damage.',
@@ -2467,7 +2819,6 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'commanderpyre',
@@ -2475,12 +2826,20 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
+        ffg: 687,
         title: {
           en: 'Commander Pyre',
           fr: 'Commandant Pyre',
           es: 'Comandante Pyre',
         },
         type: 'Crew',
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/7d1c00624b8253b9157856764d2c1004.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/95166cc0044f721aec2933ae972b2898.png',
+        },
         ability: {
           en:
             'Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die.',
@@ -2491,13 +2850,10 @@ const t: UpgradeBase[] = [
           es:
             'Preparación: Después de desplegar las fuerzas, elige una nave enemiga. Esa nave recibe 2 fichas de Tensión. Mientras te defiendes, si el atacante está bajo tensión, puedes volver a tirar 1 dado de defensa.',
         },
-        slots: ['Crew'],
-        ffg: 687,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['First Order'] }],
   },
   {
     xws: 'fives',
@@ -2505,8 +2861,16 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     sides: [
       {
+        ffg: 679,
         title: { en: '"Fives"', de: '„Fives"', es: '"Cincos"' },
         type: 'Crew',
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/706062dbbf35d8d46c1e1f4b7dad8661.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/e15010d96446e208166336cffb78f94d.png',
+        },
         ability: {
           en:
             "After you perform an attack that missed, if the defender's initiative is equal to or greater than your initiative, place 1 evade or focus token on this card. Before you engage, you may remove 1 token from this card to gain 1 matching token.",
@@ -2517,13 +2881,10 @@ const t: UpgradeBase[] = [
           es:
             'Después de que efectúes un ataque que falle, si la Iniciativa del defensor es igual o mayor que tu Iniciativa, coloca 1 ficha de Concentración o de Evasión sobre esta carta. Antes de que intervengas, puedes retirar 1 ficha de esta carta para recibir 1 ficha equivalente.',
         },
-        slots: ['Crew'],
-        ffg: 679,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'ghostcompany',
@@ -2531,6 +2892,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
+        ffg: 681,
         title: {
           en: 'Ghost Company',
           de: 'Geisterkompanie',
@@ -2538,6 +2900,13 @@ const t: UpgradeBase[] = [
           es: 'Compañía Fantasma',
         },
         type: 'Crew',
+        slots: ['Crew', 'Gunner'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/333dab28d3d96dd2d7a48339d470aae4.png',
+        },
         ability: {
           en:
             'After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack.',
@@ -2548,7 +2917,6 @@ const t: UpgradeBase[] = [
           es:
             'Después de que efectúes un ataque principal, si estás concentrado, puedes efectuar un ataque [Single Turret Arc] contra una nave a la que no hayas atacado en esta ronda como un ataque adicional.',
         },
-        slots: ['Crew', 'Gunner'],
         grants: [
           {
             action: {
@@ -2559,15 +2927,10 @@ const t: UpgradeBase[] = [
             value: 1,
           },
         ],
-        ffg: 681,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Republic'] },
-      { action: { type: 'Rotate Arc' } },
-    ],
   },
   {
     xws: 'hondoohnaka',
@@ -2575,8 +2938,6 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     sides: [
       {
-        title: { en: 'Hondo Ohnaka' },
-        type: 'Crew',
         ability: {
           en:
             'Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.',
@@ -2587,8 +2948,16 @@ const t: UpgradeBase[] = [
           fr:
             "Action : choisissez 2 vaisseaux à portée 1-3 de vous qui sont alliés entre eux. Coordonnez l'un des vaisseaux choisis, puis brouillez l'autre, en ignorant les restrictions de portée.",
         },
+        title: { en: 'Hondo Ohnaka' },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 853,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/f2/30/f230e89a-4885-4721-b2a0-7c0e1ef1726f/swz-hondo-ohnaka.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/9345f2eadd69a3f1ea2f44648a17d9b2.jpg',
       },
     ],
     hyperspace: true,
@@ -2600,8 +2969,16 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     sides: [
       {
+        ffg: 676,
         title: { en: 'Kit Fisto' },
         type: 'Crew',
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png',
+        },
         ability: {
           en:
             'At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action.',
@@ -2614,13 +2991,10 @@ const t: UpgradeBase[] = [
         },
         force: { value: 1, recovers: 1, side: ['light'] },
         grants: [{ action: { type: 'Evade', difficulty: 'Purple' }, value: 1 }],
-        slots: ['Crew'],
-        ffg: 676,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'wolfpack',
@@ -2628,8 +3002,16 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     sides: [
       {
+        ffg: 680,
         title: { en: 'Wolfpack', de: 'Wolfsrudel', es: 'Manada' },
         type: 'Crew',
+        slots: ['Crew', 'Gunner'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d5a7c585a6f5f06e76c7b927392b61c1.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/63ef9ffc007432e395b3bfa406a879ec.png',
+        },
         ability: {
           en:
             'After a friendly ship at range 0-3 defends, if the attacker is in your firing arc, the defender may gain 1 strain token to acquire a lock on the attacker.',
@@ -2640,13 +3022,10 @@ const t: UpgradeBase[] = [
           es:
             'Después de que una nave aliada que tengas a alcance 0-3 se defienda, si el atacante está situado en tu arco de fuego, el defensor puede recibir 1 ficha de Sobresfuerzo para obtener un Blanco fijado sobre el atacante.',
         },
-        slots: ['Crew', 'Gunner'],
-        ffg: 680,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     xws: 'yoda',
@@ -2654,8 +3033,16 @@ const t: UpgradeBase[] = [
     cost: { value: 12 },
     sides: [
       {
+        ffg: 678,
         title: { en: 'Yoda' },
         type: 'Crew',
+        slots: ['Crew'],
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg',
+        image: {
+          en:
+            'https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png',
+        },
         ability: {
           en:
             'After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force].',
@@ -2670,13 +3057,10 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
         ],
-        slots: ['Crew'],
-        ffg: 678,
       },
     ],
     hyperspace: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
     limited: 1,
@@ -2699,10 +3083,16 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         slots: ['Crew'],
         ffg: 854,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/5b/54/5b5418d8-1e33-403d-abfc-815cf4ffac94/swz82_a1_upgrade_jango-fett.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/3a7ec5348f98da20c7b17b91535a3dd2.jpg',
       },
     ],
     cost: { value: 6 },
-    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
+    restrictions: [{ factions: ['Scum and Villainy', 'Separatist Alliance'] }],
   },
   {
     limited: 1,
@@ -2722,14 +3112,21 @@ const t: UpgradeBase[] = [
             'Mise en Place : perdez 2 [Charge]. Pendant la phase de système, vous pouvez vous assigner, face cachée, 1 de vos états secrets : Vous Devriez me Remercier Vous Devriez Faire des Affaires',
         },
         title: { en: 'Zam Wesell' },
-        conditions: ['youdbettermeanbusiness', 'youshouldthankme'],
         type: 'Crew',
         slots: ['Crew'],
+        conditions: ['youdbettermeanbusiness', 'youshouldthankme'],
+        charges: { value: 2, recovers: 0 },
         ffg: 856,
+        image: {
+          en:
+            'https://images-cdn.fantasyflightgames.com/filer_public/77/bd/77bd5f12-05de-4c34-9e5a-e8dfa636de52/swz82_a1_upgrade_zam-wessel.png',
+        },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/b8819288e0722a11e26d15ecd0b2717f.jpg',
       },
     ],
     cost: { value: 11 },
-    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
+    restrictions: [{ factions: ['Scum and Villainy', 'Separatist Alliance'] }],
   },
   {
     xws: 'gamutkey',
@@ -2737,8 +3134,6 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
-        title: { en: 'Gamut Key' },
-        type: 'Crew',
         ability: {
           en:
             'At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.',
@@ -2749,8 +3144,13 @@ const t: UpgradeBase[] = [
           fr:
             'Au début de la phase de dénouement, vous pouvez dépenser 2 [Charge] pour choisir un vaisseau à portée 0-1 ayant au moins 1 marqueur circulaire. Pendant la phase de dénouement, les marqueurs circulaires ne sont pas retirés du vaisseau choisi.',
         },
+        title: { en: 'Gamut Key' },
+        charges: { value: 2, recovers: 1 },
+        type: 'Crew',
         slots: ['Crew'],
         ffg: 919,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/d6faf9522ae2569b7a125b6a84d5df9a.jpg',
       },
     ],
     hyperspace: true,
@@ -2763,13 +3163,6 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     sides: [
       {
-        title: {
-          en: 'Protectorate Gleb',
-          de: 'Schulleiterin Gleb',
-          es: 'Protectora Gleb',
-          fr: 'Tutélaire Gleb',
-        },
-        type: 'Crew',
         ability: {
           en:
             'After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.',
@@ -2780,17 +3173,26 @@ const t: UpgradeBase[] = [
           fr:
             'Après avoir coordonné, vous pouvez transférer 1 marqueur orange ou rouge au vaisseau que vous avez coordonné.',
         },
+        title: {
+          en: 'Protectorate Gleb',
+          de: 'Schulleiterin Gleb',
+          es: 'Protectora Gleb',
+          fr: 'Tutélaire Gleb',
+        },
+        type: 'Crew',
+        slots: ['Crew'],
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },
         ],
-        slots: ['Crew'],
         ffg: 920,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg',
       },
     ],
     hyperspace: true,
     epic: true,
     restrictions: [
-      { factions: ['First Order', 'Galactic Empire', 'Scum and Villainy'] },
+      { factions: ['Scum and Villainy', 'Galactic Empire', 'First Order'] },
     ],
   },
 ];

@@ -103,12 +103,16 @@ const t: ShipType = {
         es:
           'Aunque los asesinatos se pueden ejecutar mediante un disparo en la oscuridad o añadiendo alguna sustancia letal a una bebida, la visión de una lanzadera cayendo del cielo envuelta en llamas envía un tipo de mensaje muy distinto.',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
       ffg: 181,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_181.png',
+      },
     },
     {
       name: {
@@ -131,12 +135,16 @@ const t: ShipType = {
         es:
           'El mismísimo príncipe Xizor colaboró con Motores Mandal en el diseño de la plataforma de ataque clase Víbora Estelar, uno de los cazas estelares más formidables de la galaxia.',
       },
-      slots: ['Sensor', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Tech', 'Torpedo', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
       ffg: 182,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_182.png',
+      },
     },
     {
       name: { en: 'Dalan Oberos' },
@@ -152,7 +160,7 @@ const t: ShipType = {
       xws: 'dalanoberos-starviperclassattackplatform',
       ability: {
         en:
-          'After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90˚.',
+          'After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.',
         de:
           'Nachdem du ein Manöver vollständig ausgeführt hast, darfst du 1 Stressmarker erhalten, um dein Schiff um 90° zu drehen.',
         fr:
@@ -160,13 +168,17 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra, puedes recibir 1 ficha de Tensión para girar tu nave 90˚ sobre sí misma.',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
       ffg: 179,
       hyperspace: false,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png',
+      },
     },
     {
       name: { en: 'Guri' },
@@ -178,7 +190,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 51,
+      cost: 60,
       xws: 'guri',
       ability: {
         en:
@@ -204,13 +216,17 @@ const t: ShipType = {
           type: 'Boost',
         },
       ],
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg',
       ffg: 178,
       hyperspace: false,
       epic: true,
       keywords: ['Droid'],
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png',
+      },
     },
     {
       name: { en: 'Prince Xizor', de: 'Prinz Xizor', es: 'Príncipe Xizor' },
@@ -222,7 +238,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 54,
+      cost: 51,
       xws: 'princexizor',
       ability: {
         en:
@@ -234,12 +250,16 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, después del paso de "Neutralizar los resultados", otra nave aliada que tengas a alcance 0-1 y en el arco de ataque puede sufrir 1 de daño [Hit] o [Critical Hit]. Si lo haces, anula 1 resultado equivalente.',
       },
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
       artwork:
-        'https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg',
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg',
       ffg: 180,
       hyperspace: false,
       epic: true,
+      image: {
+        en:
+          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_180.png',
+      },
     },
   ],
 };
