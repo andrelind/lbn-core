@@ -302,7 +302,12 @@ export const upgradesForSlot = (
           res.sides.find(
             (s) =>
               ship.pilot?.force?.side.includes(s) ||
-              ship.pilot?.sides?.includes(s)
+              ship.pilot?.sides?.includes(s) ||
+              Object.keys(ship.upgrades || {}).map((key) => {
+                return ship.upgrades?.[key as SlotKey]?.map((u) =>
+                  u.sides[0].force?.side?.includes(s)
+                );
+              }).length > 0
           )
         ) {
           // A pilot can have force sides but also upgrades...!

@@ -47,6 +47,10 @@ const t: ShipType = {
       type: 'Reload',
     },
   ],
+  ability: {
+    name: { en: 'Pursuit Thrusters' },
+    text: { en: 'During the System Phase, you may perform a [Boost] action' },
+  },
   icon: '???',
   pilots: [
     {

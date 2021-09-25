@@ -301,7 +301,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
-    restrictions: [{ action: { type: 'Reload', difficulty: 'White' } }],
+    restrictions: [{ action: { type: 'Reload' } }],
     cost: { value: 8 },
   },
   {

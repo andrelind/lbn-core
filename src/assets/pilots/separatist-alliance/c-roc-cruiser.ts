@@ -26,8 +26,20 @@ const t: ShipType = {
     '5FR',
   ],
   faction: 'Separatist Alliance',
-  stats: [],
-  actions: [],
+  stats: [
+    { arc: 'Front Arc', type: 'attack', value: 3 },
+    { type: 'agility', value: 0 },
+    { type: 'hull', value: 12 },
+    { type: 'shields', value: 4, recovers: 1 },
+    { type: 'energy', value: 4, recovers: 1 },
+  ],
+  actions: [
+    { difficulty: 'White', type: 'Focus' },
+    { difficulty: 'White', type: 'Lock' },
+    { difficulty: 'White', type: 'Reinforce' },
+    { difficulty: 'Red', type: 'Coordinate' },
+    { difficulty: 'White', type: 'Jam' },
+  ],
   ability: {
     name: { en: 'Overdrive Burners' },
     text: {

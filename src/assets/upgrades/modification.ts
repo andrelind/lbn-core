@@ -189,7 +189,7 @@ const t: UpgradeBase[] = [
     ],
     cost: {
       variable: 'size',
-      values: { Small: 2, Medium: 4, Large: 7, Huge: 10 },
+      values: { Small: 3, Medium: 4, Large: 7, Huge: 10 },
     },
     restrictions: [{ action: { type: 'Boost', difficulty: 'Red' } }],
     hyperspace: true,
@@ -487,7 +487,7 @@ const t: UpgradeBase[] = [
     ],
     restrictions: [
       { factions: ['Galactic Republic'] },
-      { action: { type: 'Lock', difficulty: 'White' } },
+      { action: { type: 'Lock' } },
     ],
     hyperspace: true,
     epic: true,

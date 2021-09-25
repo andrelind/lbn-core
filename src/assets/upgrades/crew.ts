@@ -737,7 +737,7 @@ const t: UpgradeBase[] = [
         slots: ['Crew'],
         image: {
           en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png',
+            'https://squadbuilder.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png',
         },
         artwork:
           'https://squadbuilder.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg',
@@ -747,7 +747,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     restrictions: [
       { factions: ['First Order'] },
-      { action: { type: 'Coordinate', difficulty: 'White' } },
+      { action: { type: 'Coordinate' } },
     ],
     hyperspace: false,
     epic: true,

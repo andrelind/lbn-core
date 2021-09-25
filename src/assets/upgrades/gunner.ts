@@ -554,7 +554,7 @@ const t: UpgradeBase[] = [
     ],
     cost: {
       variable: 'size',
-      values: { Small: 11, Medium: 8, Large: 7, Huge: 7 },
+      values: { Small: 9, Medium: 8, Large: 7, Huge: 7 },
     },
     restrictions: [{ action: { type: 'Rotate Arc' } }],
     hyperspace: false,
@@ -927,7 +927,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Rebel Alliance'] }],
   },
   {
-    limited: 0,
+    limited: 1,
     xws: 'dt798',
     sides: [
       {

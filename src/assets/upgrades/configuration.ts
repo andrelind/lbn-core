@@ -1048,7 +1048,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
   },
   {
