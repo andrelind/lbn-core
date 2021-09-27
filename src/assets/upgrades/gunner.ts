@@ -959,6 +959,16 @@ const t: UpgradeBase[] = [
           en:
             'The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.',
         },
+        grants: [
+          {
+            action: {
+              type: 'Reload',
+              difficulty: 'White',
+              linked: { type: 'Lock', difficulty: 'White' },
+            },
+            value: 1,
+          },
+        ],
         slots: ['Gunner'],
         image: { en: '???' },
         artwork: '???',

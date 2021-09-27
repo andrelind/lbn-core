@@ -537,7 +537,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template.',
+            'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (4 [Straight]), or (3 [Bank Right]) template.',
         },
         charges: { value: 1, recovers: 0 },
         title: { en: 'Electro-Chaff Missiles' },

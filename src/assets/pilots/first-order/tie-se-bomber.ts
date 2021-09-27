@@ -74,7 +74,7 @@ const t: ShipType = {
         en:
           'After you fully execute a maneuver or perform a [Boost] action, if you moved through an enemy ship, you may acquire a lock on that ship.',
       },
-      ffg: -999,
+      ffg: 913,
       artwork: '???',
       caption: { en: 'Ordnance Expert' },
       keywords: ['TIE'],
@@ -102,7 +102,7 @@ const t: ShipType = {
         en:
           'While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.',
       },
-      ffg: -999,
+      ffg: 914,
       artwork: '???',
       caption: { en: 'Jad Bean' },
       keywords: ['TIE'],
@@ -126,7 +126,7 @@ const t: ShipType = {
         'Modification',
       ],
       text: { en: '???' },
-      ffg: -999,
+      ffg: 915,
       artwork: '???',
       keywords: ['TIE'],
       epic: true,
@@ -157,7 +157,7 @@ const t: ShipType = {
         en:
           'While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice.',
       },
-      ffg: -999,
+      ffg: 916,
       artwork: '???',
       caption: { en: 'Hateful Harrier' },
       keywords: ['TIE'],
@@ -185,7 +185,7 @@ const t: ShipType = {
         en:
           'The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.',
       },
-      ffg: -999,
+      ffg: 917,
       artwork: '???',
       keywords: ['TIE'],
       epic: true,
@@ -211,7 +211,7 @@ const t: ShipType = {
         en:
           'Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.',
       },
-      ffg: -999,
+      ffg: 918,
       artwork: '???',
       keywords: ['TIE'],
       epic: true,

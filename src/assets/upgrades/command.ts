@@ -762,6 +762,7 @@ const t: UpgradeBase[] = [
           fr: 'Prototype Blade Wing B6',
           es: 'Prototipo B6 Ala Bisel',
         },
+        grants: [{ slot: 'Gunner', value: 1 }],
         type: 'Command',
         slots: ['Command', 'Title'],
         ffg: 903,

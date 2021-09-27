@@ -965,7 +965,7 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'l4er5',
-    hyperspace: false,
+    hyperspace: true,
     sides: [
       {
         ability: {

@@ -1097,7 +1097,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 0 },
     restrictions: [{ chassis: ['tiewiwhispermodifiedinterceptor'] }],
-    hyperspace: false,
+    hyperspace: true,
     epic: true,
   },
 ];

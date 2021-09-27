@@ -132,7 +132,7 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
       conditions: ['illshowyouthedarkside'],
-      slots: ['Torpedo', 'Missile', 'Force Power', 'Tech'],
+      slots: ['Torpedo', 'Missile', 'Force Power', 'Tech', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg',
       ffg: 414,

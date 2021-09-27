@@ -417,7 +417,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
   },
   {
-    limited: 0,
+    limited: 1,
     xws: 'babufrik',
     hyperspace: true,
     sides: [
@@ -438,7 +438,7 @@ const t: UpgradeBase[] = [
     epic: true,
   },
   {
-    limited: 1,
+    limited: 0,
     xws: 'overtunedmodulators',
     hyperspace: true,
     sides: [
