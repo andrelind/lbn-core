@@ -539,6 +539,17 @@ const t: UpgradeBase[] = [
           en:
             'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (4 [Straight]), or (3 [Bank Right]) template.',
         },
+        device: {
+          type: 'Remote',
+          name: 'Electro-Chaff Missile',
+          effect: `
+- While a ship is at range 0 of an electro-chaff cloud, it cannot be locked, jammed, or coordinated by other ships.
+- After a ship moves through or overlaps an electro-chaff cloud, it skips its perform action step, then it gains one jam token and breaks all locks on it.
+- While a ship defends, if the attack is obstructed by an electro-chaff cloud, it rolls one additional defence dice.
+
+During the End Phase remove each electro-chaff cloud with no fuse markers on it. Then remove one fuse marker from each electro-chaff cloud.
+          `,
+        },
         charges: { value: 1, recovers: 0 },
         title: { en: 'Electro-Chaff Missiles' },
         type: 'Missile',

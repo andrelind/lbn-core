@@ -304,9 +304,10 @@ export const upgradesForSlot = (
               ship.pilot?.force?.side.includes(s) ||
               ship.pilot?.sides?.includes(s) ||
               Object.keys(ship.upgrades || {}).map((key) => {
-                return ship.upgrades?.[key as SlotKey]?.map((u) =>
-                  u.sides[0].force?.side?.includes(s)
-                );
+                const m = ship.upgrades?.[key as SlotKey]
+                  ?.map((u) => Boolean(u.sides[0].force?.side?.includes(s)))
+                  .filter((x) => x);
+                return m && m?.length > 0;
               }).length > 0
           )
         ) {
