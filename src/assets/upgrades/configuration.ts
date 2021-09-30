@@ -917,7 +917,8 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability: {
-          en: 'Replace your Autothrusters ship ability with the following:',
+          en:
+            'Replace your Autothrusters ship ability with the following:\n<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
           de:
             'Ersetze deine Schiffsfähigkeit Automatische Schubdüsen durch: Genaue Steuerung: Während der Systemphase darfst du eine rote [Barrel Roll]- oder eine rote [Boost]-Aktion durchführen.',
           es:

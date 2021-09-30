@@ -54,7 +54,7 @@ const t: ShipType = {
   icon: '???',
   pilots: [
     {
-      name: { en: 'Breach' },
+      name: { en: '"Breach"' },
       xws: 'breach',
       initiative: 5,
       limited: 1,
@@ -82,7 +82,7 @@ const t: ShipType = {
       image: { en: '???' },
     },
     {
-      name: { en: 'Scorch' },
+      name: { en: '"Scorch"' },
       xws: 'scorch-tiesebomber',
       initiative: 4,
       limited: 1,
@@ -110,7 +110,7 @@ const t: ShipType = {
       image: { en: '???' },
     },
     {
-      name: { en: 'Dread' },
+      name: { en: '"Dread"' },
       xws: 'dread',
       initiative: 3,
       limited: 1,
@@ -138,7 +138,7 @@ const t: ShipType = {
       },
     },
     {
-      name: { en: 'Grudge' },
+      name: { en: '"Grudge"' },
       xws: 'grudge',
       initiative: 2,
       limited: 1,

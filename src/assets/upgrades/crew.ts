@@ -2626,14 +2626,8 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         slots: ['Crew'],
         grants: [
-          {
-            action: {
-              type: 'Calculate',
-              difficulty: 'White',
-              linked: { type: 'Jam', difficulty: 'White' },
-            },
-            value: 1,
-          },
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+          { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
         ],
         ffg: 647,
         artwork:
@@ -2704,6 +2698,7 @@ const t: UpgradeBase[] = [
         title: { en: 'Aayla Secura' },
         type: 'Crew',
         slots: ['Crew'],
+        force: { value: 1, recovers: 1, side: ['light'] },
         grants: [
           {
             action: {

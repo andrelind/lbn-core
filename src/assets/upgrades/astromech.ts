@@ -888,7 +888,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/36187a497f1d8fcd81e0209c279c2c2f.jpg',
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
   {
@@ -991,7 +991,8 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [
-      { action: { type: 'Rotate Arc' }, factions: ['Resistance'] },
+      { action: { type: 'Rotate Arc' } },
+      { factions: ['Resistance'] },
     ],
     epic: true,
   },

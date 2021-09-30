@@ -169,7 +169,7 @@ const t: ShipType = {
       },
       hyperspace: true,
       cost: 44,
-      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 924,
       artwork: '???',
       keywords: ['TIE'],
