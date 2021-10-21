@@ -175,9 +175,9 @@ export const upgradesForSlot = (
   squadron: Squadron,
   ship: Ship,
   slot: Slot,
-  collection: CollectionState,
   { t, c }: { t: TypeT; c: TypeC },
   showUnavailable: boolean,
+  collection?: CollectionState,
   needle?: string
 ): Upgrade[] => {
   const shipXws = usedShipXWS(ship);
@@ -303,12 +303,14 @@ export const upgradesForSlot = (
             (s) =>
               ship.pilot?.force?.side.includes(s) ||
               ship.pilot?.sides?.includes(s) ||
-              Object.keys(ship.upgrades || {}).map((key) => {
-                const m = ship.upgrades?.[key as SlotKey]
-                  ?.map((u) => Boolean(u.sides[0].force?.side?.includes(s)))
-                  .filter((x) => x);
-                return m && m?.length > 0;
-              }).length > 0
+              Object.keys(ship.upgrades || {})
+                .map((key) => {
+                  const m = ship.upgrades?.[key as SlotKey]
+                    ?.map((uu) => Boolean(uu.sides[0].force?.side?.includes(s)))
+                    .filter((x) => x);
+                  return m && m?.length > 0;
+                })
+                .filter((x) => x).length > 0
           )
         ) {
           // A pilot can have force sides but also upgrades...!

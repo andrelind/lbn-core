@@ -26,8 +26,20 @@ const t: ShipType = {
     '5FR',
   ],
   faction: 'Galactic Republic',
-  stats: [],
-  actions: [],
+  stats: [
+    { type: 'attack', arc: 'Left Arc', value: 4 },
+    { type: 'attack', arc: 'Right Arc', value: 4 },
+    { type: 'hull', value: 18 },
+    { type: 'shields', value: 7, recovers: 2 },
+    { type: 'energy', value: 7, recovers: 2 },
+  ],
+  actions: [
+    { type: 'Focus', difficulty: 'White' },
+    { type: 'Reinforce', difficulty: 'White' },
+    { type: 'Lock', difficulty: 'White' },
+    { type: 'Coordinate', difficulty: 'Red' },
+    { type: 'Jam', difficulty: 'Red' },
+  ],
   ability: {
     name: { en: 'Broadside Batteries' },
     text: {

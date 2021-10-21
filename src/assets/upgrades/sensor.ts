@@ -127,7 +127,7 @@ const t: UpgradeBase[] = [
         type: 'Sensor',
         ability: {
           en:
-            'During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.',
+            'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
           de:
             'Während der Systemphase, falls du eine Bombe abwerfen oder starten würdest, darfst du sie stattdessen unter Verwendung der (5 [Straight])-Schablone starten.',
           es:

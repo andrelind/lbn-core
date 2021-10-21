@@ -24,7 +24,7 @@ const t: ShipType = {
       xws: 'lawlesspirates',
       ffg: 950,
       name: { en: 'Lawless Pirates' },
-      cost: 90,
+      cost: 85,
       limited: 0,
       initiative: 8,
       slots: [

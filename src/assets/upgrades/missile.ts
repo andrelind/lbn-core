@@ -537,7 +537,7 @@ const t: UpgradeBase[] = [
       {
         ability: {
           en:
-            'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (4 [Straight]), or (3 [Bank Right]) template.',
+            'During the System Phase, you may spend 1 [Charge] from this card to launch 1 electro-chaff cloud using the (3 [Bank Left]), (4 [Straight]), or (3 [Bank Right]) template. Then place 1 fuse marker on it.\nThis card’s [Charge] cannot be recovered',
         },
         device: {
           type: 'Remote',

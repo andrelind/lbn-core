@@ -24,12 +24,15 @@ import {
   cleanupUpgrades,
   copyPilot,
   loadPilot,
+  loadSquadron,
   pointsForSquadron,
 } from '../helpers/unit';
 import upgradeData from '../assets/upgrades';
 
 import { bumpMinor, bumpPatch } from '../helpers/versioning';
 import { PilotXWS, Ship, SlotKey, SquadronXWS, Upgrade } from '../types';
+import { upgradesForSlot } from '../loader';
+import { useLocalized } from '../helpers/i18n';
 
 export type XwsState = SquadronXWS[];
 
@@ -187,6 +190,18 @@ export default function onAction(
           ship: shipXws,
           upgrades: upgrades || {},
         };
+
+        const l = useLocalized();
+
+        const sq = loadSquadron(squadron);
+        if (sq) {
+          const sh = loadPilot(pilot, squadron.faction);
+          const configs = upgradesForSlot(sq, sh, 'Configuration', l, true);
+
+          if (configs.length === 1 && !pilot?.upgrades?.configuration) {
+            pilot!.upgrades!.configuration = [configs[0].xws];
+          }
+        }
 
         // Check for "standarized" upgrades equipped to other
         // ships with the same shipXws

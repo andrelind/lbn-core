@@ -23,7 +23,7 @@ const t: ShipType = {
     {
       xws: 'colicoiddestroyer',
       name: { en: 'Colicoid Destroyer' },
-      cost: 90,
+      cost: 85,
       initiative: 8,
       limited: 0,
       slots: [

@@ -23,8 +23,19 @@ const t: ShipType = {
     '4FR',
   ],
   faction: 'First Order',
-  stats: [],
-  actions: [],
+  stats: [
+    { type: 'attack', arc: 'Front Arc', value: 3 },
+    { type: 'hull', value: 11 },
+    { type: 'shields', value: 5, recovers: 1 },
+    { type: 'energy', value: 3, recovers: 2 },
+  ],
+  actions: [
+    { type: 'Focus', difficulty: 'White' },
+    { type: 'Reinforce', difficulty: 'White' },
+    { type: 'Lock', difficulty: 'White' },
+    { type: 'Coordinate', difficulty: 'White' },
+    { type: 'Jam', difficulty: 'White' },
+  ],
   ability: {
     name: { en: 'Docking Clamps' },
     text: { en: 'You can dock up to 4 small ships.' },

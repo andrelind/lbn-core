@@ -425,7 +425,7 @@ export const t: Source[] = [
         suppressivegunner: 1,
         tierfonbellyrun: 2,
         patience: 1,
-        hopeful: 2,
+        hopeful: 3,
         margsablclosure: 2,
         extrememaneuvers: 1,
         'sabinewren-gunner': 1,

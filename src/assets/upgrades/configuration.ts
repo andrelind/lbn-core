@@ -1051,6 +1051,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['btanr2ywing'] }],
     hyperspace: true,
     epic: true,
+    standarized: true,
   },
   {
     limited: 0,

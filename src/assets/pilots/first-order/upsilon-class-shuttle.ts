@@ -82,7 +82,7 @@ const t: ShipType = {
       xws: 'lieutenantdormitz',
       ability: {
         en:
-          'Setup: After you are placed, other friendly ships can be placed anywhere in the play area at range 0-2 of you.',
+          'Setup: After you are placed, friendly small ships can be placed anywhere in the play area at range 0-2 of you.',
         de:
           'Aufbau: Nachdem du platziert worden bist, können andere befreundete Schiffe irgendwo auf der Spielfläche in Reichweite 0-2 von dir platziert werden.',
         fr:

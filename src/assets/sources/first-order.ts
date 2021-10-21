@@ -337,6 +337,7 @@ export const t: Source[] = [
         primedthrusters: 1,
         sensorscrambler: 2,
         iontorpedoes: 1,
+        sensorscramblers: 1,
       },
     },
   },
