@@ -139,11 +139,11 @@ export default function onAction(
 
           const game: Game = {
             uid,
-            gameType: 'Swiss',
+            type: 'Swiss',
             score: undefined,
             bye: false,
             win: undefined,
-            round: l.games.filter((g) => g.gameType === 'Swiss').length + 1,
+            round: l.games.filter((g) => g.type === 'Swiss').length + 1,
             notes: undefined,
             opponent: {
               name: undefined,
@@ -162,7 +162,7 @@ export default function onAction(
 
     case EDIT_GAME: {
       const { tournamentUid, game } = action;
-      const { uid, gameType, round, score, opponent, bye, win, notes } = game;
+      const { uid, type, round, score, opponent, bye, win, notes } = game;
 
       return {
         ...state,
@@ -179,7 +179,7 @@ export default function onAction(
 
             const editGame = { ...g };
 
-            editGame.gameType = gameType;
+            editGame.type = type;
             editGame.round = round;
             editGame.score = score;
             editGame.bye = bye;

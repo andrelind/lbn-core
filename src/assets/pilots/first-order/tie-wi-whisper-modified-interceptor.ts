@@ -52,6 +52,13 @@ const t: ShipType = {
       type: 'Boost',
     },
   ],
+  ability: {
+    name: { en: 'Heavy Weapon Turret' },
+    text: {
+      en:
+        'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You <strong>must</strong> treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]',
+    },
+  },
   icon: '???',
   pilots: [
     {

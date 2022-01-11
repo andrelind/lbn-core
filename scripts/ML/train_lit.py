@@ -11,13 +11,13 @@ import pytorch_lightning as pl
 import csv
 
 
-num_epochs = 500
-input_size = 187
-h1_size = 100
-h2_size = 50
-h3_size = 25
+num_epochs = 1000
+input_size = 191
+h1_size = 125
+h2_size = 60
+h3_size = 20
 num_classes = 1
-batch_size = 32
+batch_size = 128
 learning_rate = 0.0001
 
 
@@ -40,14 +40,25 @@ class LitAutoEncoder(pl.LightningModule):
         super().__init__()
         self.encoder = nn.Sequential(
             nn.Linear(input_size, h1_size),
+            nn.ReLU(),
+            nn.Dropout(0.25),
             nn.Linear(h1_size, h2_size),
-            # nn.ReLU(),
+            nn.ReLU(),
+            nn.Dropout(0.1),
             nn.Linear(h2_size, h3_size),
+            nn.ReLU(),
+            nn.Dropout(0.1),
             nn.Linear(h3_size, num_classes))
         self.decoder = nn.Sequential(
             nn.Linear(num_classes, h3_size),
+            nn.Dropout(0.1),
+            nn.ReLU(),
             nn.Linear(h3_size, h2_size),
+            nn.Dropout(0.1),
+            nn.ReLU(),
             nn.Linear(h2_size, h1_size),
+            nn.Dropout(0.25),
+            nn.ReLU(),
             nn.Linear(h1_size, input_size))
 
     def forward(self, x):

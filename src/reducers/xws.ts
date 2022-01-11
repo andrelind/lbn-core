@@ -197,8 +197,17 @@ export default function onAction(
         if (sq) {
           const sh = loadPilot(pilot, squadron.faction);
           const configs = upgradesForSlot(sq, sh, 'Configuration', l, true);
+          const blacklist = [
+            'vectoredcannonsrz1',
+            'tiedefenderelite',
+            'sensitivecontrols',
+          ];
 
-          if (configs.length === 1 && !pilot?.upgrades?.configuration) {
+          if (
+            configs.length === 1 &&
+            !pilot?.upgrades?.configuration &&
+            !blacklist.includes(configs[0].xws)
+          ) {
             pilot!.upgrades!.configuration = [configs[0].xws];
           }
         }

@@ -417,7 +417,7 @@ export type GameType = 'Swiss' | 'Cut' | 'Final';
 
 export type Game = {
   uid: string;
-  gameType: GameType;
+  type: GameType;
   bye: boolean;
   win: boolean | undefined;
   round: number;

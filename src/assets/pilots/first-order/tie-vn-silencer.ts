@@ -232,7 +232,7 @@ const t: ShipType = {
         es:
           'Después de que otra nave aliada sea destruida, puedes realizar una acción, incluso aunque estés bajo tensión.',
       },
-      slots: ['Talent', 'Torpedo', 'Missile', 'Tech'],
+      slots: ['Talent', 'Torpedo', 'Configuration', 'Missile', 'Tech'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
       ffg: 456,

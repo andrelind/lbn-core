@@ -74,6 +74,7 @@ export const t: Source[] = [
         proximitymines: 1,
         electroprotonbomb: 1,
         delayedfuses: 1,
+        protonbombs: 1,
       },
     },
   },

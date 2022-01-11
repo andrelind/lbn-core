@@ -391,6 +391,7 @@ const t: UpgradeBase[] = [
     ],
     hyperspace: false,
     epic: true,
+    restrictions: [{ chassis: ['tridentclassassaultship'] }],
   },
   {
     xws: 'protoncannonbattery',

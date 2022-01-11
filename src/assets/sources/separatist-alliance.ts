@@ -210,7 +210,7 @@ export const t: Source[] = [
         discordmissiles: 1,
         margsablclosure: 1,
         xx23sthreadtracers: 1,
-        independentcalculations: 1,
+        independentcalculations: 2,
         interceptbooster: 1,
         precisionionengines: 1,
       },
