@@ -18,6 +18,7 @@ import ut60duwing from './ut-60d-u-wing';
 import vcx100lightfreighter from './vcx-100-light-freighter';
 import yt2400lightfreighter from './yt-2400-light-freighter';
 import z95af4headhunter from './z-95-af4-headhunter';
+import fangfighter from './fang-fighter';
 
 const ships: { [s: string]: ShipType } = {
   asf01bwing,
@@ -28,6 +29,7 @@ const ships: { [s: string]: ShipType } = {
   btls8kwing,
   cr90corelliancorvette,
   ewing,
+  fangfighter,
   gr75mediumtransport,
   hwk290lightfreighter,
   modifiedyt1300lightfreighter,
