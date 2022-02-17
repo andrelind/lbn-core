@@ -516,6 +516,50 @@ const t: ShipType = {
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png',
       },
     },
+
+    {
+      name: { en: 'ISB Jingoist' },
+      caption: { en: 'Heartless Enforcer' },
+      initiative: 4,
+      limited: 2,
+      xws: 'isbjingoist',
+      ability: {
+        en:
+          'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
+      },
+      image: {
+        en: 'https://infinitearenas.com/xw2/images/pilots/isbjingoist.png',
+      },
+      slots: ['Talent', 'Modification'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png',
+      keywords: ['TIE'],
+      cost: 0,
+      hyperspace: false,
+      epic: true,
+    },
+    {
+      name: { en: 'Moff Gideon' },
+      caption: { en: 'Ruthless Remnant Leader' },
+      initiative: 4,
+      limited: 1,
+      xws: 'moffgideon',
+      charges: { value: 2, recovers: 1 },
+      ability: {
+        en:
+          'While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.',
+      },
+      image: {
+        en: 'https://infinitearenas.com/xw2/images/pilots/moffgideon.png',
+      },
+      slots: ['Talent', 'Modification'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
+      keywords: ['TIE'],
+      cost: 0,
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 

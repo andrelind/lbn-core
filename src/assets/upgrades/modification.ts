@@ -763,6 +763,55 @@ const t: UpgradeBase[] = [
       { stat: { type: 'agility', value: 3 } },
     ],
   },
+
+  {
+    limited: 0,
+    xws: 'mandalorianoptics',
+    hyperspace: false,
+    epic: true,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability: {
+          en:
+            'During the System Phase, you may spend 1 [Charge] to acquire a lock on an object in your [Front Arc]. While you perform a primary attack, if you have a lock on the defender, ignore obstacles beyond range 0 obstructing the attack.',
+        },
+        title: { en: 'Mandalorian Optics' },
+        type: 'Modification',
+        slots: ['Modification'],
+        charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png',
+        },
+        ffg: -1,
+      },
+    ],
+  },
+  {
+    limited: 0,
+    xws: 'beskarreinforcedplating',
+    hyperspace: false,
+    epic: true,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability: {
+          en:
+            'While you defend, if the attacker is in your [Front Arc], before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt that card facedown instead, or spend 2 [Charge] to discard it instead.',
+        },
+        title: { en: 'Beskar Reinforced Plating' },
+        type: 'Modification',
+        slots: ['Modification'],
+        charges: { value: 2, recovers: 0 },
+        image: {
+          en:
+            'https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png',
+        },
+        ffg: -1,
+      },
+    ],
+  },
 ];
 
 export default t;

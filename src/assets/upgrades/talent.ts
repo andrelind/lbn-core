@@ -1400,6 +1400,30 @@ const t: UpgradeBase[] = [
     hyperspace: true,
     epic: true,
   },
+  {
+    limited: 0,
+    xws: 'clantraining',
+    sides: [
+      {
+        title: { en: 'Clan Training' },
+        type: 'Talent',
+        ability: {
+          en:
+            'Before you engage, if you are not focused and there is an enemy ship in your [Front Arc] at range 1, you may spend 1 [Charge] to perform a red [Focus] action. After you perform an attack, if the defender is destroyed, recover 1 [Charge].',
+        },
+        slots: ['Talent'],
+        image: {
+          en: 'https://infinitearenas.com/xw2/images/upgrades/clantraining.png',
+        },
+        artwork: '???',
+        ffg: -1,
+      },
+    ],
+    hyperspace: false,
+    epic: true,
+    cost: { value: 0 },
+    restrictions: [{ keywords: ['Mandalorian'] }],
+  },
 ];
 
 export default t;

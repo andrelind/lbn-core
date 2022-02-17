@@ -287,6 +287,29 @@ const t: ShipType = {
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_160.png',
       },
     },
+    {
+      name: { en: 'Mandalorian Royal Guard' },
+      initiative: 4,
+      limited: 2,
+      xws: 'mandalorianroyalguard',
+      ability: {
+        en:
+          'While a friendly non-small ship defends, if you are in the attack arc, you may gain 1 deplete and 1 strain token. If you do, the defender may change 1 result to an [Evade] result.',
+      },
+      image: {
+        en:
+          'https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png',
+      },
+
+      slots: ['Talent', 'Torpedo', 'Modification'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png',
+      ffg: 159,
+      keywords: ['Mandalorian'],
+      cost: 0,
+      hyperspace: false,
+      epic: true,
+    },
   ],
 };
 
