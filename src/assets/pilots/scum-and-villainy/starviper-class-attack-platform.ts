@@ -160,7 +160,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 51,
+      cost: 5,
       xws: 'dalanoberos-starviperclassattackplatform',
       ability: {
         en:
@@ -183,6 +183,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Guri' },

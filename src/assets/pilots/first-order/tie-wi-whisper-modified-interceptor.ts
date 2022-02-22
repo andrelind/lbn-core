@@ -67,7 +67,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       standard: true,
-      cost: 63,
+      cost: 7,
       slots: [
         'Force Power',
         'Talent',
@@ -83,10 +83,12 @@ const t: ShipType = {
       ffg: 919,
       artwork: '???',
       caption: { en: 'Supreme Leader of the First Order' },
-      keywords: ['TIE', 'Dark Side', 'Light Side'],
+      keywords: ['Dark Side', 'Light Side', 'TIE'],
       force: { value: 3, recovers: 1, side: ['dark', 'light'] },
       epic: true,
       image: { en: '???' },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: '"Wrath"' },

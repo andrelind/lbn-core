@@ -140,7 +140,7 @@ const t: ShipType = {
         'Gunner',
         'Force Power',
       ],
-      cost: 5,
+      cost: 6,
       ffg: 596,
       caption: {
         en: 'Hero of the Republic',
@@ -148,14 +148,14 @@ const t: ShipType = {
         fr: 'Héros de la République',
         es: 'Héroe de la República',
       },
-      keywords: ['Light Side'],
+      keywords: ['Jedi', 'Light Side', 'Y-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/c7c979a7d90961d2e3afe377a71285df.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg',
-      loadout: 20,
+      loadout: 28,
       extended: true,
     },
     {
@@ -240,7 +240,8 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 39,
+      cost: 5,
+      loadout: 18,
       ffg: 597,
       keywords: ['Clone', 'Y-wing'],
       image: {
@@ -249,6 +250,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg',
+      extended: true,
     },
     {
       name: { en: '"Matchstick"' },

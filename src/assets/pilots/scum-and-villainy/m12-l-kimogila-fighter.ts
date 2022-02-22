@@ -154,7 +154,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_208.png',
       },
-      loadout: 10,
+      loadout: 12,
       extended: true,
     },
     {

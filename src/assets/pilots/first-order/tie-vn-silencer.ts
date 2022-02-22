@@ -121,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 7,
+      cost: 8,
       ability: {
         en:
           "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
@@ -140,12 +140,12 @@ const t: ShipType = {
       ffg: 414,
       standard: true,
       epic: true,
-      keywords: ['Dark Side', 'Light Side', 'TIE'],
+      keywords: ['Dark Side', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png',
       },
-      loadout: 18,
+      loadout: 16,
       extended: true,
     },
     {

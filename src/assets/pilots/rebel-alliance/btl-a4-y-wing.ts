@@ -266,7 +266,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 40,
+      cost: 5,
       xws: 'norrawexley-btla4ywing',
       ability: {
         en:
@@ -297,6 +297,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_13.png',
       },
+      loadout: 18,
+      extended: true,
     },
   ],
 };

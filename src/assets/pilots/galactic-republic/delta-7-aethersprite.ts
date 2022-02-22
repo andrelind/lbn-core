@@ -96,7 +96,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 515,
       artwork:
@@ -106,7 +106,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
       },
-      loadout: 8,
+      loadout: 3,
       extended: true,
     },
     {
@@ -170,7 +170,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 7,
+      cost: 5,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 513,
       artwork:
@@ -207,7 +207,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: false,
       epic: true,
-      cost: 6,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 514,
       artwork:
@@ -217,7 +217,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
       },
-      loadout: 9,
+      loadout: 8,
       extended: true,
     },
     {
@@ -243,7 +243,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 512,
       artwork:
@@ -253,7 +253,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
       },
-      loadout: 8,
+      loadout: 7,
       extended: true,
     },
     {
@@ -278,9 +278,10 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra, si tienes alguna nave enemiga en tu [Front Arc] at range a alcance 0-1 o en tu [Bullseye Arc], puedes gastar 1 [Force] para retirar 1 ficha de Tensión.',
       },
       force: { value: 3, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 59,
+      cost: 6,
+      loadout: 10,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 507,
       artwork:
@@ -290,6 +291,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png',
       },
+      extended: true,
     },
     {
       name: { en: 'Ahsoka Tano' },
@@ -315,7 +317,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 510,
       artwork:
@@ -325,7 +327,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
       },
-      loadout: 10,
+      loadout: 9,
       extended: true,
     },
     {
@@ -352,7 +354,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 5,
+      cost: 3,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 509,
       artwork:
@@ -362,7 +364,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png',
       },
-      loadout: 10,
+      loadout: 7,
       extended: true,
     },
     {
@@ -389,7 +391,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 508,
       artwork:

@@ -274,7 +274,7 @@ const t: ShipType = {
         es: 'Padawan perdido',
         fr: 'Padawan Perdu ',
       },
-      cost: 42,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -299,10 +299,12 @@ const t: ShipType = {
       ],
       standard: true,
       epic: true,
-      keywords: ['Jedi', 'Light Side'],
+      keywords: ['Jedi', 'Light Side', 'Freighter'],
       ffg: 897,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'tapusk',

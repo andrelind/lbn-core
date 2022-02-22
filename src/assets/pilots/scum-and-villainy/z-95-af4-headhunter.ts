@@ -230,7 +230,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 27,
+      cost: 3,
       xws: 'bossk-z95af4headhunter',
       ability: {
         en:
@@ -243,7 +243,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, después del paso de "Neutralizar resultados", puedes gastar 1 resultado [Critical Hit] para añadir 2 resultados [Hit].',
       },
       slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
-      standard: false,
+      standard: true,
       epic: true,
       ffg: 635,
       keywords: ['Bounty Hunter'],
@@ -253,6 +253,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/48cf03ca0e16baf2f506829f20517b83.jpg',
+      loadout: 8,
+      extended: true,
     },
   ],
 };

@@ -7,11 +7,15 @@ import { keyFromSlot, slotFromKey } from '../../src/helpers/convert';
 import prettier from 'prettier';
 import { Slot } from '../../src/types';
 
-const findShipAndPilot = (name: string, subtitle: string) => {
+const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
   const shipsAndPilots = factions
     .map((f) => {
       const ships = Object.keys(factionShips[f])
         .map((key) => {
+          if (factionShips[f][key].name.en.trimName() !== shipName.trimName()) {
+            return;
+          }
+
           const pilots = factionShips[f][key].pilots;
 
           const pilot = pilots.find(
@@ -42,6 +46,8 @@ const runShips = async () => {
   const wb = await wbLoader.xlsx.load(file);
   // Read lists
 
+  let shipName = '';
+
   wb.worksheets.forEach((ws) => {
     ws.eachRow((row) => {
       if (
@@ -64,12 +70,14 @@ const runShips = async () => {
       const std = row.getCell(7).text;
       const ext = row.getCell(8).text;
 
-      const shipAndPilot = findShipAndPilot(pilotName, subtitle);
+      const shipAndPilot = findShipAndPilot(shipName, pilotName, subtitle);
       if (!shipAndPilot || !cost) {
         if (subtitle !== '[object Object]') {
           console.log(
             `Not found: ${pilotName} ${subtitle} ${cost} ${loadout} ${upgrades} ${keywords} ${std} ${ext}`
           );
+        } else {
+          shipName = pilotName;
         }
         return;
       }

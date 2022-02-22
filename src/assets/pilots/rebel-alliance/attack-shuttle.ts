@@ -90,14 +90,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
       ffg: 37,
-      standard: true,
+      standard: false,
       epic: true,
-      keywords: ['TIE', 'Spectre'],
+      keywords: ['Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png',
       },
-      loadout: 6,
+      loadout: 10,
       extended: true,
     },
     {
@@ -105,7 +105,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-6', es: 'Espectro-6' },
       initiative: 3,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'ezrabridger',
       ability: {
         en:
@@ -122,14 +122,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
       ffg: 36,
-      standard: true,
+      standard: false,
       epic: true,
-      keywords: ['Light Side', 'Spectre', 'TIE'],
+      keywords: ['Light Side', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png',
       },
-      loadout: 8,
+      loadout: 7,
       extended: true,
     },
     {
@@ -137,7 +137,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-2', es: 'Espectro-2' },
       initiative: 5,
       limited: 1,
-      cost: 38,
+      cost: 4,
       xws: 'herasyndulla',
       ability: {
         en:
@@ -160,13 +160,15 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_34.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Sabine Wren' },
       caption: { en: 'Spectre-5', es: 'Espectro-5' },
       initiative: 3,
       limited: 1,
-      cost: 6,
+      cost: 4,
       xws: 'sabinewren',
       ability: {
         en:
@@ -184,12 +186,12 @@ const t: ShipType = {
       ffg: 35,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter', 'Mandalorian'],
+      keywords: ['Mandalorian', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png',
       },
-      loadout: 9,
+      loadout: 6,
       extended: true,
     },
   ],

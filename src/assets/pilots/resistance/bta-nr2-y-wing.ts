@@ -260,7 +260,7 @@ const t: ShipType = {
       initiative: 2,
       limited: 1,
       standard: true,
-      cost: 34,
+      cost: 3,
       slots: [
         'Talent',
         'Tech',
@@ -281,6 +281,8 @@ const t: ShipType = {
       caption: { en: 'Tenacious Survivor' },
       keywords: ['Y-wing'],
       epic: true,
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'New Republic Patrol' },

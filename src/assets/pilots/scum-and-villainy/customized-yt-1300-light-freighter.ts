@@ -98,7 +98,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 48,
+      cost: 7,
       xws: 'hansolo',
       ability: {
         en:
@@ -130,6 +130,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_222.png',
       },
+      loadout: 24,
+      extended: true,
     },
     {
       name: { en: 'L3-37' },
@@ -141,7 +143,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 3,
+      cost: 6,
       xws: 'l337',
       ability: {
         en:
@@ -173,12 +175,12 @@ const t: ShipType = {
       ffg: 224,
       standard: true,
       epic: true,
-      keywords: ['Droid'],
+      keywords: ['Droid', 'Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png',
       },
-      loadout: 4,
+      loadout: 15,
       extended: true,
     },
     {
@@ -191,7 +193,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 42,
+      cost: 6,
       xws: 'landocalrissian',
       ability: {
         en:
@@ -223,6 +225,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_223.png',
       },
+      loadout: 17,
+      extended: true,
     },
   ],
 };

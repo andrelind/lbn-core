@@ -69,7 +69,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-4', es: 'Espectro-4' },
       initiative: 2,
       limited: 1,
-      cost: 33,
+      cost: 3,
       xws: 'zeborrelios-sheathipedeclassshuttle',
       ability: {
         en:
@@ -92,6 +92,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'AP-5' },
@@ -138,7 +140,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-6', es: 'Espectro-6' },
       initiative: 3,
       limited: 1,
-      cost: 40,
+      cost: 4,
       xws: 'ezrabridger-sheathipedeclassshuttle',
       ability: {
         en:
@@ -162,6 +164,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Fenn Rau' },
@@ -173,7 +177,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 47,
+      cost: 5,
       xws: 'fennrau-sheathipedeclassshuttle',
       ability: {
         en:
@@ -189,13 +193,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
       ffg: 38,
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Mandalorian'],
+      keywords: ['Mandalorian', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png',
       },
+      loadout: 15,
+      extended: true,
     },
   ],
 };

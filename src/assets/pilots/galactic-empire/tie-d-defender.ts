@@ -269,7 +269,7 @@ const t: ShipType = {
         es: 'As arrogante',
         fr: 'As Arrogant',
       },
-      cost: 4,
+      cost: 8,
       initiative: 5,
       limited: 1,
       ability: {
@@ -289,7 +289,7 @@ const t: ShipType = {
       ffg: 887,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg',
-      loadout: 6,
+      loadout: 13,
       extended: true,
     },
     {
@@ -301,7 +301,7 @@ const t: ShipType = {
         es: 'Lord oscuro de los sith',
         fr: 'Seigneur Noir des Sith',
       },
-      cost: 112,
+      cost: 11,
       initiative: 6,
       limited: 1,
       ability: {
@@ -316,12 +316,14 @@ const t: ShipType = {
       },
       force: { value: 3, recovers: 1, side: ['dark'] },
       slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
       ffg: 886,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       xws: 'captaindobbs',

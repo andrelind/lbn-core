@@ -99,7 +99,8 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 29,
+      cost: 5,
+      loadout: 16,
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 516,
       artwork:
@@ -109,6 +110,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/9ecf7600f20da9a9eff5d3e244934ccb.png',
       },
+      extended: true,
     },
     {
       name: { en: '"Swoop"', de: '„Swoop"' },

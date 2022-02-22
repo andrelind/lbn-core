@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 3,
+      cost: 7,
       xws: 'bossk',
       ability: {
         en:
@@ -86,12 +86,12 @@ const t: ShipType = {
       ffg: 210,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter'],
+      keywords: ['Bounty Hunter', 'Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_210.png',
       },
-      loadout: 8,
+      loadout: 22,
       extended: true,
     },
     {

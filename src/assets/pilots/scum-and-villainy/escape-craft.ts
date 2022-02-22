@@ -130,7 +130,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 26,
+      cost: 3,
       xws: 'l337-escapecraft',
       ability: {
         en:
@@ -158,6 +158,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_228.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -169,7 +171,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 3,
       xws: 'landocalrissian-escapecraft',
       ability: {
         en:
@@ -191,6 +193,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {

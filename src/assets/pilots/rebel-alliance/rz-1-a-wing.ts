@@ -218,7 +218,7 @@ const t: ShipType = {
         es: 'Piloto prometedor',
         fr: 'Pilote Prometteur',
       },
-      cost: 6,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability: {
@@ -234,11 +234,11 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
-      keywords: ['X-wing'],
+      keywords: ['A-wing'],
       ffg: 883,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
-      loadout: 20,
+      loadout: 10,
       extended: true,
     },
     {
@@ -250,7 +250,7 @@ const t: ShipType = {
         es: 'Hija de Mandalore',
         fr: 'Fille de Mandalore',
       },
-      cost: 35,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -270,6 +270,8 @@ const t: ShipType = {
       ffg: 885,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg',
+      loadout: 15,
+      extended: true,
     },
     {
       xws: 'herasyndulla-rz1awing',
@@ -280,7 +282,7 @@ const t: ShipType = {
         es: 'Jefe Fénix',
         fr: 'Leader Phoenix',
       },
-      cost: 48,
+      cost: 5,
       initiative: 6,
       limited: 1,
       ability: {
@@ -300,12 +302,14 @@ const t: ShipType = {
       ffg: 880,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       xws: 'ahsokatano-rz1awing',
       name: { en: 'Ahsoka Tano' },
       caption: { en: 'Fulcrum' },
-      cost: 49,
+      cost: 6,
       initiative: 5,
       limited: 1,
       ability: {
@@ -326,6 +330,8 @@ const t: ShipType = {
       ffg: 881,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       xws: 'sharabey-rz1awing',
@@ -336,7 +342,7 @@ const t: ShipType = {
         es: 'Verde Cuatro',
         fr: 'Green Quatre',
       },
-      cost: 32,
+      cost: 3,
       initiative: 4,
       limited: 1,
       ability: {
@@ -356,6 +362,8 @@ const t: ShipType = {
       ffg: 882,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       xws: 'derekklivian',

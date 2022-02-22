@@ -257,7 +257,7 @@ const t: ShipType = {
         es: 'Infernal Dos',
         fr: 'Inferno Deux',
       },
-      cost: 48,
+      cost: 5,
       initiative: 4,
       limited: 1,
       ability: {
@@ -277,6 +277,8 @@ const t: ShipType = {
       ffg: 892,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       xws: 'vultskerris-tieininterceptor',

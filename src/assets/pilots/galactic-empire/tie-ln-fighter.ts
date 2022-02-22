@@ -286,7 +286,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 25,
+      cost: 3,
       xws: 'blacksquadronace',
       text: {
         en:
@@ -309,13 +309,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
       ffg: 90,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_90.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Del Meeko' },
@@ -363,7 +365,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 27,
+      cost: 3,
       xws: 'gideonhask',
       ability: {
         en:
@@ -386,6 +388,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_84.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: 'Iden Versio' },

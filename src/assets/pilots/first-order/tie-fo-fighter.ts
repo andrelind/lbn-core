@@ -90,7 +90,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 3,
       xws: 'commandermalarus',
       ability: {
         en:
@@ -113,8 +113,9 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f7506ec739f5580d484ff0ee49b041f3.png',
       },
-      loadout: 15,
+      loadout: 4,
       extended: true,
+      keywords: ['TIE'],
     },
     {
       name: { en: '"Scorch"', de: '„Scorch"', es: '"Quemadura"' },
@@ -126,7 +127,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'scorch',
       ability: {
         en:
@@ -149,7 +150,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/9dd11d408bb869cb947663fc29622833.png',
       },
-      loadout: 10,
+      loadout: 3,
       extended: true,
     },
     {

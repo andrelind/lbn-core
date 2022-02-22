@@ -49,7 +49,8 @@ const t: ShipType = {
       xws: 'anakinskywalker-eta2actis',
       ffg: 781,
       name: { en: 'Anakin Skywalker' },
-      cost: 51,
+      cost: 7,
+      loadout: 20,
       limited: 1,
       initiative: 6,
       caption: {
@@ -79,12 +80,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg',
+      extended: true,
     },
     {
       xws: 'obiwankenobi-eta2actis',
       ffg: 782,
       name: { en: 'Obi-Wan Kenobi' },
-      cost: 48,
+      cost: 5,
+      loadout: 10,
       limited: 1,
       initiative: 5,
       caption: {
@@ -114,6 +117,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg',
+      extended: true,
     },
     {
       xws: 'aaylasecura',

@@ -111,7 +111,7 @@ const t: ShipType = {
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
       xws: 'oddball-arc170starfighter',
-      cost: 5,
+      cost: 6,
       slots: [
         'Talent',
         'Torpedo',
@@ -143,7 +143,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
       },
-      loadout: 16,
+      loadout: 22,
       extended: true,
     },
     {

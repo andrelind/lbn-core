@@ -100,7 +100,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 6,
+      cost: 9,
       xws: 'hansolo-modifiedyt1300lightfreighter',
       ability: {
         en:
@@ -125,14 +125,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
       ffg: 69,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png',
       },
-      loadout: 15,
+      loadout: 25,
       extended: true,
     },
     {
@@ -145,7 +145,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 3,
+      cost: 9,
       xws: 'landocalrissian-modifiedyt1300lightfreighter',
       ability: {
         en:
@@ -176,8 +176,9 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png',
       },
-      loadout: 4,
+      loadout: 22,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: {

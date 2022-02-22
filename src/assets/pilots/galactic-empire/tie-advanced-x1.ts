@@ -83,7 +83,7 @@ const t: ShipType = {
       caption: { en: 'Black Leader', de: 'Schwarz Eins', es: 'Jefe Negro' },
       initiative: 6,
       limited: 1,
-      cost: 11,
+      cost: 8,
       xws: 'darthvader',
       ability: {
         en:
@@ -114,7 +114,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png',
       },
-      loadout: 14,
+      loadout: 22,
       extended: true,
     },
     {

@@ -47,7 +47,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-4', es: 'Espectro-4' },
       initiative: 2,
       limited: 1,
-      cost: 22,
+      cost: 3,
       xws: 'zeborrelios-tielnfighter',
       ability: {
         en:
@@ -63,13 +63,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
       ffg: 49,
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Spectre', 'TIE'],
+      keywords: ['TIE', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Captain Rex', fr: 'Capitaine Rex', es: 'Capitán Rex' },
@@ -113,7 +115,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-6', es: 'Espectro-6' },
       initiative: 3,
       limited: 1,
-      cost: 26,
+      cost: 3,
       xws: 'ezrabridger-tielnfighter',
       ability: {
         en:
@@ -130,20 +132,22 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
       ffg: 46,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Sabine Wren' },
       caption: { en: 'Spectre-5', es: 'Espectro-5' },
       initiative: 3,
       limited: 1,
-      cost: 26,
+      cost: 3,
       xws: 'sabinewren-tielnfighter',
       ability: {
         en:
@@ -159,13 +163,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
       ffg: 47,
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Spectre', 'TIE'],
+      keywords: ['Mandalorian', 'TIE', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
 };

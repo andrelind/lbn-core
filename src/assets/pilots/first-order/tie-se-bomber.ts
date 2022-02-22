@@ -89,7 +89,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       standard: true,
-      cost: 35,
+      cost: 4,
       slots: [
         'Talent',
         'Tech',
@@ -110,6 +110,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       epic: true,
       image: { en: '???' },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: '"Dread"' },

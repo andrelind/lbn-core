@@ -76,8 +76,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_66.png',
       },
-      loadout: 10,
-      keywords: ['X-wing'],
+      loadout: 11,
       extended: true,
     },
     {
@@ -132,7 +131,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 6,
       xws: 'norrawexley',
       ability: {
         en:
@@ -161,8 +160,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_65.png',
       },
-      loadout: 18,
-      keywords: ['Y-wing'],
+      loadout: 16,
       extended: true,
     },
     {
@@ -175,7 +173,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 3,
+      cost: 5,
       xws: 'sharabey',
       ability: {
         en:
@@ -204,8 +202,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_67.png',
       },
-      loadout: 7,
-      keywords: ['A-wing'],
+      loadout: 12,
       extended: true,
     },
   ],

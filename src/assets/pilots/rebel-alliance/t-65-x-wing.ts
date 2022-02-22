@@ -214,7 +214,7 @@ const t: ShipType = {
       caption: { en: 'Red Leader', de: 'Rot Eins', es: 'Jefe Rojo' },
       initiative: 4,
       limited: 1,
-      cost: 46,
+      cost: 5,
       xws: 'garvendreis-t65xwing',
       ability: {
         en:
@@ -243,6 +243,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_4.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Jek Porkins' },

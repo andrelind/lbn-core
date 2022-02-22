@@ -285,7 +285,7 @@ const t: ShipType = {
         es: 'Jefe Fénix',
         fr: 'Leader Phoenix',
       },
-      cost: 8,
+      cost: 6,
       initiative: 6,
       limited: 1,
       ability: {
@@ -308,13 +308,13 @@ const t: ShipType = {
         'Title',
         'Configuration',
       ],
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Freighter', 'Spectre'],
+      keywords: ['B-wing', 'Spectre'],
       ffg: 878,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg',
-      loadout: 20,
+      loadout: 27,
       extended: true,
     },
     {

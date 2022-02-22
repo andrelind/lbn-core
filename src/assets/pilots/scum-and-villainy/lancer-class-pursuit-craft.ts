@@ -135,7 +135,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 58,
+      cost: 6,
       xws: 'sabinewren-lancerclasspursuitcraft',
       ability: {
         en:
@@ -153,11 +153,13 @@ const t: ShipType = {
       ffg: 220,
       standard: false,
       epic: true,
-      keywords: ['Mandalorian'],
+      keywords: ['Bounty Hunter', 'Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_220.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: {

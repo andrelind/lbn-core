@@ -90,12 +90,12 @@ const t: ShipType = {
       xws: 'oddball-nimbusclassvwing',
       ffg: 788,
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
-      cost: 31,
+      cost: 4,
       limited: 1,
       initiative: 5,
       caption: { en: 'CC-2237' },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      standard: false,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -107,13 +107,15 @@ const t: ShipType = {
         fr:
           "Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre [Bullseye Arc], vous pouvez verrouiller ce vaisseau.",
       },
-      keywords: ['Clone', 'TIE'],
+      keywords: ['Clone'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/8e/70/8e70bbf1-d0ca-4367-9e3a-4ad0186af71f/swz80_ship_odd-ball.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/03ff8a220e58ba5c122bd82292447182.jpg',
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: '"Contrail"', de: '„Contrail"' },

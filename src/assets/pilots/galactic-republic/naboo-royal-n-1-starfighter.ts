@@ -89,7 +89,8 @@ const t: ShipType = {
       xws: 'anakinskywalker-nabooroyaln1starfighter',
       standard: true,
       epic: true,
-      cost: 41,
+      cost: 5,
+      loadout: 20,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       force: { value: 1, recovers: 1, side: ['light'] },
       ffg: 558,
@@ -106,6 +107,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d9180cc98a1a4384bb2a0e11efbf1311.jpg',
+      extended: true,
     },
     {
       name: { en: 'Ric Olié' },
