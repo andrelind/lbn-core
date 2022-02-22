@@ -35,11 +35,7 @@ const cleanText = (text: string) =>
     .replaceAll('\\]\\]', '])')
     .trim();
 
-const processPilot = async (
-  card: any,
-  language: string,
-  hyperspace: boolean
-) => {
+const processPilot = async (card: any, language: string, standard: boolean) => {
   // console.log(card.name);
   await timeout(1);
 
@@ -92,14 +88,14 @@ const processPilot = async (
       image: undefined,
       slots: [],
       // shipAbility: undefined,
-      hyperspace,
+      standard,
       epic: true,
     };
     ship.pilots.push(pilot);
   }
 
   pilot.ffg = card.id;
-  pilot.hyperspace = hyperspace;
+  pilot.standard = standard;
 
   if (language === 'es' && pilot.xws === 'zetasquadronpilot') {
     setTranslation(pilot, 'name', 'Piloto del Escuadrón Zeta', language);
@@ -333,7 +329,7 @@ const processUpgrade = async (
       ],
       cost: { value: 0 },
       limited: 0,
-      hyperspace: false,
+      standard: false,
       epic: true,
     };
     assets.upgrades[slot].push(upgrade);
@@ -353,13 +349,13 @@ const processUpgrade = async (
   if (upgrade.sides.length > 1) {
     const otherSide = upgrade.sides.find((s) => s.ffg !== card.id);
     if (otherSide) {
-      upgrade.hyperspace =
+      upgrade.standard =
         hyperspace.includes(card.id) || hyperspace.includes(otherSide.ffg);
     } else {
-      upgrade.hyperspace = hyperspace.includes(card.id);
+      upgrade.standard = hyperspace.includes(card.id);
     }
   } else {
-    upgrade.hyperspace = hyperspace.includes(card.id);
+    upgrade.standard = hyperspace.includes(card.id);
   }
 
   setTranslation(side, 'title', card.name.replace(/\•/g, ''), language);

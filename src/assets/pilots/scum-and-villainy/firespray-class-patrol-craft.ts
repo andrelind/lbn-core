@@ -56,7 +56,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 85,
+      cost: 7,
       xws: 'bobafett',
       ability: {
         en:
@@ -88,13 +88,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg',
       ffg: 149,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_149.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: {
@@ -105,7 +107,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 62,
+      cost: 7,
       xws: 'bountyhunter',
       text: {
         en:
@@ -129,13 +131,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
       ffg: 154,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_154.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Emon Azzameen' },
@@ -147,7 +151,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 71,
+      cost: 7,
       xws: 'emonazzameen',
       ability: {
         en:
@@ -172,12 +176,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg',
       ffg: 150,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_150.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Kath Scarlet' },
@@ -189,7 +195,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 68,
+      cost: 7,
       xws: 'kathscarlet',
       ability: {
         en:
@@ -214,12 +220,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg',
       ffg: 151,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_151.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       name: { en: 'Koshka Frost' },
@@ -231,7 +239,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 70,
+      cost: 7,
       xws: 'koshkafrost',
       ability: {
         en:
@@ -256,13 +264,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg',
       ffg: 152,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_152.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Krassis Trelix' },
@@ -274,7 +284,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 65,
+      cost: 8,
       xws: 'krassistrelix',
       ability: {
         en:
@@ -299,12 +309,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
       ffg: 153,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_153.png',
       },
+      loadout: 18,
+      extended: true,
     },
   ],
 };

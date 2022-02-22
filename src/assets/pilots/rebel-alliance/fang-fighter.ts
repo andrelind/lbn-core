@@ -26,43 +26,21 @@ const t: ShipType = {
   ],
   faction: 'Rebel Alliance',
   stats: [
-    {
-      arc: 'Front Arc',
-      type: 'attack',
-      value: 3,
-    },
-    {
-      type: 'agility',
-      value: 3,
-    },
-    {
-      type: 'hull',
-      value: 4,
-    },
+    { arc: 'Front Arc', type: 'attack', value: 3 },
+    { type: 'agility', value: 3 },
+    { type: 'hull', value: 4 },
   ],
   actions: [
+    { difficulty: 'White', type: 'Focus' },
+    { difficulty: 'White', type: 'Lock' },
     {
       difficulty: 'White',
-      type: 'Focus',
-    },
-    {
-      difficulty: 'White',
-      type: 'Lock',
-    },
-    {
-      difficulty: 'White',
-      linked: {
-        difficulty: 'Red',
-        type: 'Focus',
-      },
+      linked: { difficulty: 'Red', type: 'Focus' },
       type: 'Barrel Roll',
     },
     {
       difficulty: 'White',
-      linked: {
-        difficulty: 'Red',
-        type: 'Focus',
-      },
+      linked: { difficulty: 'Red', type: 'Focus' },
       type: 'Boost',
     },
   ],
@@ -93,10 +71,12 @@ const t: ShipType = {
       slots: ['Talent', 'Torpedo'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-rebel-fang.png',
-      hyperspace: false,
+      standard: true,
       keywords: ['Mandalorian'],
-      cost: 0,
+      cost: 7,
       epic: true,
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Bodica Venj' },
@@ -111,14 +91,13 @@ const t: ShipType = {
       image: {
         en: 'https://infinitearenas.com/xw2/images/pilots/bodicavenj.png',
       },
-
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/bodicavenj.png',
       keywords: ['Mandalorian'],
       cost: 0,
       epic: true,
-      hyperspace: false,
+      standard: false,
     },
     {
       name: { en: 'Dirk Ullodin' },
@@ -139,7 +118,7 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       cost: 0,
       epic: true,
-      hyperspace: false,
+      standard: false,
     },
     {
       name: { en: 'Clan Wren Volunteer' },
@@ -161,7 +140,7 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       cost: 0,
       epic: true,
-      hyperspace: false,
+      standard: false,
     },
   ],
 };

@@ -85,7 +85,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg',
       ffg: 40,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Spectre'],
       image: {
@@ -123,7 +123,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
       ffg: 41,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Droid', 'Spectre'],
       image: {
@@ -153,7 +153,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg',
       ffg: 39,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
       image: {
@@ -187,7 +187,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
       ffg: 38,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Mandalorian'],
       image: {

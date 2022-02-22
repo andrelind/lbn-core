@@ -61,7 +61,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 31,
+      cost: 3,
       xws: 'dacebonearm',
       ability: {
         en:
@@ -86,13 +86,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
       ffg: 174,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_174.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Palob Godalhi' },
@@ -104,7 +106,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 40,
+      cost: 6,
       xws: 'palobgodalhi',
       ability: {
         en:
@@ -128,13 +130,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
       ffg: 175,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_175.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -145,7 +149,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 28,
+      cost: 3,
       xws: 'spicerunner',
       text: {
         en:
@@ -168,13 +172,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
       ffg: 177,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_177.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Torkil Mux' },
@@ -186,7 +192,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 38,
+      cost: 4,
       xws: 'torkilmux',
       ability: {
         en:
@@ -209,13 +215,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
       ffg: 176,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'gamutkey',
@@ -226,7 +234,7 @@ const t: ShipType = {
         es: 'Gobernador colaboracionista',
         fr: 'Gouverneur Collaborationniste',
       },
-      cost: 34,
+      cost: 3,
       initiative: 3,
       limited: 1,
       slots: [
@@ -238,7 +246,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -254,6 +262,8 @@ const t: ShipType = {
       ffg: 896,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -287,7 +297,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Jedi', 'Light Side'],
       ffg: 897,
@@ -303,7 +313,7 @@ const t: ShipType = {
         es: 'Confidente de la Orden 66',
         fr: "Informateur de l'Ordre 66",
       },
-      cost: 36,
+      cost: 4,
       initiative: 5,
       limited: 1,
       ability: {
@@ -325,11 +335,14 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 895,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg',
+      loadout: 10,
+      keywords: ['Freighter'],
+      extended: true,
     },
   ],
 };

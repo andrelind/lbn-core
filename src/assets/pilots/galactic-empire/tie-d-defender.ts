@@ -103,7 +103,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
       ffg: 123,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -142,7 +142,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
       ffg: 124,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -175,7 +175,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
       ffg: 126,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -208,7 +208,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
       ffg: 125,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -242,7 +242,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
       ffg: 122,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -273,7 +273,7 @@ const t: ShipType = {
           'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       ffg: 887,
@@ -304,7 +304,7 @@ const t: ShipType = {
       },
       force: { value: 3, recovers: 1, side: ['dark'] },
       slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
       ffg: 886,
@@ -334,7 +334,7 @@ const t: ShipType = {
           "Tant qu'un autre vaisseau allié à portée 0-1 défend, avant l'étape « Neutraliser les résultats », si vous êtes dans l'arc d'attaque et n'êtes pas ionisé, vous pouvez gagner 1 marqueur ionique pour annuler 1 résultat [Hit].",
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       ffg: 888,

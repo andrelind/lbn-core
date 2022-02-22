@@ -27,7 +27,7 @@ export const limitedWarning = (
 export const upgradeFormatWarning = (upgrade: Upgrade, format: Format) => {
   switch (format) {
     case 'Hyperspace':
-      return !upgrade.hyperspace;
+      return !upgrade.standard;
     case 'Epic':
       return !upgrade.epic;
     case 'Extended': {
@@ -67,7 +67,7 @@ export const shipFormatWarning = (
 
   switch (format) {
     case 'Hyperspace': {
-      if (!ship.pilot.hyperspace) {
+      if (!ship.pilot.standard) {
         return true;
       }
       return checkUpgrades();
@@ -97,7 +97,7 @@ export const pilotFormatWarning = (
 ) => {
   switch (format) {
     case 'Hyperspace': {
-      if (!pilot?.hyperspace) {
+      if (!pilot?.standard) {
         return true;
       }
       break;

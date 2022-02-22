@@ -55,7 +55,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'contractedscout',
       text: {
         en:
@@ -79,12 +79,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
       ffg: 217,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Dengar' },
@@ -96,7 +98,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 53,
+      cost: 7,
       xws: 'dengar',
       ability: {
         en:
@@ -129,13 +131,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg',
       ffg: 214,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png',
       },
+      loadout: 22,
+      extended: true,
     },
     {
       name: { en: 'Manaroo' },
@@ -147,7 +151,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 45,
+      cost: 4,
       xws: 'manaroo',
       ability: {
         en:
@@ -172,13 +176,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg',
       ffg: 215,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Tel Trevura' },
@@ -190,7 +196,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 44,
+      cost: 6,
       xws: 'teltrevura',
       ability: {
         en:
@@ -216,12 +222,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
       ffg: 216,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Nom Lumb' },
@@ -233,7 +241,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 38,
+      cost: 5,
       xws: 'nomlumb',
       ability: {
         en:
@@ -256,7 +264,7 @@ const t: ShipType = {
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg',
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 637,
       keywords: ['Bounty Hunter'],
@@ -264,6 +272,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png',
       },
+      loadout: 11,
+      extended: true,
     },
   ],
 };

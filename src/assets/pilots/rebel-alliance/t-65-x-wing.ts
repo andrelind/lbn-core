@@ -70,7 +70,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg',
       ffg: 7,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -110,7 +110,7 @@ const t: ShipType = {
       ],
       slots: ['Torpedo', 'Astromech', 'Modification', 'Configuration'],
       ffg: 11,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -149,7 +149,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
       ffg: 12,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
@@ -193,7 +193,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg',
       ffg: 9,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
@@ -228,7 +228,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg',
       ffg: 4,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -263,7 +263,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg',
       ffg: 5,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -304,7 +304,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg',
       ffg: 6,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
@@ -345,7 +345,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg',
       ffg: 8,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
@@ -398,7 +398,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg',
       ffg: 2,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Light Side', 'X-wing'],
       image: {
@@ -437,7 +437,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg',
       ffg: 10,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -477,7 +477,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg',
       ffg: 3,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -517,7 +517,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg',
       ffg: 1,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['X-wing'],
       image: {

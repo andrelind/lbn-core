@@ -112,7 +112,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
       ffg: 78,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Droid', 'Freighter'],
       image: {
@@ -151,7 +151,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
       ffg: 77,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter'],
       image: {
@@ -184,7 +184,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
       ffg: 79,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter'],
       image: {

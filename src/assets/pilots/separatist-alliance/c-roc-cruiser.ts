@@ -81,7 +81,7 @@ const t: ShipType = {
         'Device',
         'Configuration',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 714,
       artwork:

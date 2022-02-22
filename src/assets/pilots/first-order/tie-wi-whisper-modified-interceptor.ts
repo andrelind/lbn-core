@@ -66,7 +66,7 @@ const t: ShipType = {
       xws: 'kyloren-tiewiwhispermodifiedinterceptor',
       initiative: 5,
       limited: 1,
-      hyperspace: true,
+      standard: true,
       cost: 63,
       slots: [
         'Force Power',
@@ -93,8 +93,8 @@ const t: ShipType = {
       xws: 'wrath',
       initiative: 5,
       limited: 1,
-      hyperspace: true,
-      cost: 53,
+      standard: true,
+      cost: 5,
       slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ability: {
         en:
@@ -106,6 +106,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       epic: true,
       image: { en: '???' },
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: '"Nightfall"' },
@@ -113,8 +115,8 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       text: { en: '???' },
-      hyperspace: true,
-      cost: 49,
+      standard: true,
+      cost: 4,
       slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 921,
       artwork: '???',
@@ -126,6 +128,8 @@ const t: ShipType = {
         en:
           'After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: '"Whirlwind"' },
@@ -133,8 +137,8 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       text: { en: '???' },
-      hyperspace: true,
-      cost: 47,
+      standard: true,
+      cost: 4,
       slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 922,
       artwork: '???',
@@ -146,6 +150,8 @@ const t: ShipType = {
         en:
           'Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: '709th Legion Ace' },
@@ -156,14 +162,16 @@ const t: ShipType = {
         en:
           "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
       },
-      hyperspace: true,
-      cost: 47,
+      standard: true,
+      cost: 4,
       slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 923,
       artwork: '???',
       keywords: ['TIE'],
       epic: true,
       image: { en: '???' },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Red Fury Zealot' },
@@ -174,14 +182,16 @@ const t: ShipType = {
         en:
           'Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.',
       },
-      hyperspace: true,
-      cost: 44,
+      standard: true,
+      cost: 4,
       slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 924,
       artwork: '???',
       keywords: ['TIE'],
       epic: true,
       image: { en: '???' },
+      loadout: 3,
+      extended: true,
     },
   ],
 };

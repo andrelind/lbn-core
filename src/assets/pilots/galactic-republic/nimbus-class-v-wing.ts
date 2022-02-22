@@ -72,7 +72,7 @@ const t: ShipType = {
         fr:
           'Pendant la phase de système, vous pouvez choisir un objet que vous avez verrouillé, situé à portée 1-3. Un autre vaisseau allié à portée 1-3 peut verrouiller cet objet.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 31,
@@ -94,7 +94,7 @@ const t: ShipType = {
       initiative: 5,
       caption: { en: 'CC-2237' },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ability: {
         en:
@@ -120,7 +120,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       caption: { en: 'CT-4981' },
-      hyperspace: false,
+      standard: false,
       ability: {
         en:
           "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
@@ -149,7 +149,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       caption: { en: 'GC-1000' },
-      hyperspace: false,
+      standard: false,
       ability: {
         en:
           'While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied.',
@@ -192,7 +192,7 @@ const t: ShipType = {
         fr:
           "Lors des derniers mois de la Guerre des Clones, les formations des clones d'élite effectuèrent des missions capitales pour l'avenir de la République ; comme assurer la protection de la navette personnelle du Chancelier Suprême Palpatine.",
       },
-      hyperspace: true,
+      standard: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 28,
       epic: true,
@@ -225,7 +225,7 @@ const t: ShipType = {
         fr:
           'Le V-wing Alpha-3 de classe Nimbus assemblé par Kuat Systems Engineering est un vaisseau de choix aussi bien pour les pilotes clones que pour les pilotes non-clones. Les techniques de pointe pour produire en masse ses moteurs ioniques de précision seront plus tard essentielles dans le développement des séries TIE par Sienar Fleet Systems.',
       },
-      hyperspace: true,
+      standard: true,
       slots: ['Astromech', 'Modification', 'Configuration'],
       cost: 26,
       epic: true,

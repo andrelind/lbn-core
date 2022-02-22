@@ -82,7 +82,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 0,
       xws: 'stalgasinhiveguard',
-      hyperspace: false,
+      standard: true,
       epic: true,
       text: {
         en:
@@ -95,7 +95,7 @@ const t: ShipType = {
           'Diseñados para la particular fisiología de los pilotos geonosianos, los cazas estelares de clase Nantex son capaces de efectuar maniobras que harían pedazos a la mayoría de naves y pilotos.',
       },
       slots: ['Talent'],
-      cost: 35,
+      cost: 4,
       ffg: 609,
       image: {
         en:
@@ -103,6 +103,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg',
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Sun Fac' },
@@ -119,10 +121,10 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, si el defensor está atrapado en un campo de tracción, tiras 1 dado de ataque adicional.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Talent'],
-      cost: 44,
+      cost: 6,
       ffg: 604,
       caption: {
         en: "Archduke's Enforcer",
@@ -136,6 +138,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg',
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'Berwer Kret' },
@@ -152,10 +156,10 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque que impacte, toda nave aliada con [Calculate] en su barra de acciones y un Blanco fijado sobre el defensor puede realizar una acción [Calculate] roja.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Talent'],
-      cost: 37,
+      cost: 4,
       ffg: 605,
       caption: {
         en: 'Hive Guard Captain',
@@ -169,6 +173,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Chertek' },
@@ -185,10 +191,10 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, si el defensor está atrapado en un campo de tracción, puedes volver a tirar hasta 2 dados de ataque.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Talent'],
-      cost: 36,
+      cost: 5,
       ffg: 606,
       caption: {
         en: 'Opportunistic Ace',
@@ -202,6 +208,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg',
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Gorgol' },
@@ -218,10 +226,10 @@ const t: ShipType = {
         es:
           'Durante la fase de Sistemas, puedes recibir 1 ficha de Desarme y elegir una nave aliada que tengas a alcance 1-2. Si lo haces, esa nave recibe 1 ficha de Campo de tracción, y luego repara 1 de de sus cartas de Daño con el atributo Nave .',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Modification'],
-      cost: 32,
+      cost: 4,
       ffg: 607,
       caption: {
         en: 'Handy Engineer',
@@ -235,6 +243,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg',
+      loadout: 9,
+      extended: true,
     },
     {
       name: {
@@ -243,7 +253,7 @@ const t: ShipType = {
         fr: "As de l'Arène Petranaki",
         es: 'As del coliseo Petranaki',
       },
-      cost: 37,
+      cost: 4,
       ffg: 608,
       initiative: 4,
       artwork:
@@ -258,7 +268,7 @@ const t: ShipType = {
         es:
           'El coliseo Petranaki es un edificio gigantesco de Geonosis que fue un lugar clave en la primera batalla de las Guerras Clon.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
       limited: 0,
       slots: ['Talent', 'Talent'],
@@ -267,6 +277,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png',
       },
+      loadout: 6,
+      extended: true,
     },
   ],
   ffg: 67,

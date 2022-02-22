@@ -71,7 +71,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
       ffg: 14,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
@@ -113,7 +113,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
       ffg: 16,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
@@ -161,7 +161,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_17.jpg',
       ffg: 17,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
@@ -201,7 +201,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
       ffg: 18,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
@@ -238,7 +238,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
       ffg: 15,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
@@ -280,7 +280,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',
       ffg: 13,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {

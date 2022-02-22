@@ -38,7 +38,7 @@ const t: ShipType = {
         'Gunner',
         'Command',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 949,
       text: {

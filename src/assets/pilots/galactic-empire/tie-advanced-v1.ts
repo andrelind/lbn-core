@@ -80,7 +80,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg',
       ffg: 101,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -120,7 +120,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
       ffg: 99,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
       image: {
@@ -149,7 +149,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
       ffg: 102,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
       image: {
@@ -189,7 +189,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
       ffg: 100,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
       image: {
@@ -226,7 +226,7 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: ['Force Power', 'Sensor', 'Missile'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 632,
       keywords: ['Dark Side', 'TIE'],

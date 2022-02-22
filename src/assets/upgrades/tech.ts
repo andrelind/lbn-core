@@ -34,7 +34,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -71,7 +71,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Resistance'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -108,7 +108,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['First Order'] }, { baseSizes: ['Large'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -148,7 +148,7 @@ const t: UpgradeBase[] = [
       values: { '0': 4, '1': 5, '2': 6, '3': 7, '4': 8, '5': 9, '6': 10 },
     },
     restrictions: [{ baseSizes: ['Small'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -184,7 +184,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -220,7 +220,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -257,7 +257,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     restrictions: [{ factions: ['First Order'] }, { action: { type: 'Lock' } }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -294,7 +294,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 8 },
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],
   },
@@ -331,7 +331,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ initiative: { max: 3 } }],
   },
@@ -368,7 +368,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [
       { baseSizes: ['Medium', 'Large'] },
@@ -396,7 +396,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       { chassis: ['tiewiwhispermodifiedinterceptor', 'tievnsilencer'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
 ];

@@ -44,7 +44,7 @@ const t: ShipType = {
       xws: 'agentterex',
       ffg: 658,
       name: { en: 'Agent Terex', es: 'Agente Terex' },
-      cost: 38,
+      cost: 5,
       limited: 1,
       initiative: 3,
       caption: {
@@ -64,7 +64,7 @@ const t: ShipType = {
         'Tech',
         'Tech',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -82,6 +82,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ee4ceab2fd34a3ccd68c74652f21b782.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       xws: 'commandermalarus-xiclasslightshuttle',
@@ -101,7 +103,7 @@ const t: ShipType = {
         es: 'Supervisora vengativa',
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -129,11 +131,11 @@ const t: ShipType = {
         fr: 'Messager du Premier Ordre',
         es: 'Mensajero de la Primera Orden',
       },
-      cost: 35,
+      cost: 4,
       limited: 0,
       initiative: 2,
       slots: ['Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
-      hyperspace: false,
+      standard: true,
       epic: true,
       text: {
         en:
@@ -151,12 +153,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/85aadb1aa3100fe7e92296ca0465f58b.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'gideonhask-xiclasslightshuttle',
       ffg: 657,
       name: { en: 'Gideon Hask' },
-      cost: 40,
+      cost: 4,
       limited: 1,
       initiative: 4,
       caption: {
@@ -166,7 +170,7 @@ const t: ShipType = {
         es: 'Extremista despiadado',
       },
       slots: ['Talent', 'Crew', 'Crew', 'Modification', 'Tech', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -184,6 +188,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg',
+      loadout: 15,
+      extended: true,
     },
   ],
   ffg: 73,

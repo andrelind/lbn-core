@@ -48,7 +48,7 @@ const t: ShipType = {
       initiative: 0,
       limited: 0,
       slots: ['Hyperdrive'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 787,
     },

@@ -82,7 +82,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'cartelexecutioner',
       text: {
         en:
@@ -105,12 +105,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
       ffg: 209,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_209.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: 'Dalan Oberos' },
@@ -121,7 +123,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 45,
+      cost: 5,
       xws: 'dalanoberos',
       ability: {
         en:
@@ -145,13 +147,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg',
       ffg: 208,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_208.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Torani Kulda' },
@@ -163,7 +167,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 48,
+      cost: 5,
       xws: 'toranikulda',
       ability: {
         en:
@@ -186,13 +190,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg',
       ffg: 207,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_207.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
 };

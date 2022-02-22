@@ -96,9 +96,9 @@ const t: ShipType = {
         es:
           'Armeros Baktoides concibió el Hiena como un vehículo de ataque compatible con las tácticas de enjambre utilizadas por los Buitre.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
-      cost: 26,
+      cost: 3,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 568,
       keywords: ['Droid'],
@@ -108,6 +108,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg',
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -135,9 +137,9 @@ const t: ShipType = {
         es:
           'Si vas a soltar un dispositivo, puedes lanzar ese dispositivo en vez de soltarlo, utilizando la misma plantilla.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 30,
+      cost: 3,
       slots: ['Sensor', 'Device', 'Device', 'Modification', 'Configuration'],
       ffg: 565,
       keywords: ['Droid'],
@@ -147,6 +149,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'DBS-404' },
@@ -163,9 +167,9 @@ const t: ShipType = {
         es:
           'Puedes efectuar ataques principales a alcance 0. Mientras efectúas un ataque a alcance de ataque 0-1, debes tirar 1 dado adicional. Después de que el ataque impacte, sufres 1 de daño [Critical Hit].',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 31,
+      cost: 4,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 563,
       caption: {
@@ -181,6 +185,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -208,9 +214,9 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque especial, si una nave aliada con la capacidad de nave Procesado de cálculos en red tiene un Blanco fijado sobre el defensor, puedes ignorar el requisito [Focus], [Calculate], o [Lock] de ese ataque.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 29,
+      cost: 3,
       slots: ['Sensor', 'Missile', 'Missile', 'Modification', 'Configuration'],
       ffg: 566,
       keywords: ['Droid'],
@@ -220,6 +226,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg',
+      loadout: 9,
+      extended: true,
     },
     {
       name: {
@@ -241,9 +249,9 @@ const t: ShipType = {
         es:
           'Los ejércitos de droides de la Alianza Separatista son insensibles al sufrimiento de los civiles y no hacen ningún esfuerzo por limitar los daños colaterales.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
-      cost: 29,
+      cost: 3,
       slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 567,
       keywords: ['Droid'],
@@ -253,6 +261,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg',
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'DBS-32C' },
@@ -285,9 +295,9 @@ const t: ShipType = {
         },
         { difficulty: 'Red', type: 'Jam' },
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 40,
+      cost: 4,
       slots: ['Sensor', 'Tactical Relay', 'Modification', 'Configuration'],
       ffg: 564,
       keywords: ['Droid'],
@@ -297,6 +307,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg',
+      loadout: 16,
+      extended: true,
     },
   ],
   ffg: 64,

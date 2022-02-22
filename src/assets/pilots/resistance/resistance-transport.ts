@@ -47,7 +47,7 @@ const t: ShipType = {
       xws: 'covanell',
       initiative: 4,
       limited: 1,
-      hyperspace: false,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -70,7 +70,7 @@ const t: ShipType = {
         'Astromech',
         'Modification',
       ],
-      cost: 38,
+      cost: 5,
       ffg: 569,
       caption: {
         en: 'Evacuation Escort',
@@ -84,6 +84,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/27956dc3600e6e06bf26f9a981205410.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Pammich Nerro Goode' },
@@ -96,7 +98,7 @@ const t: ShipType = {
         fr: "Régulatrice D'Qar",
         es: "Transportista de D'Qar",
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -118,7 +120,7 @@ const t: ShipType = {
         'Astromech',
         'Modification',
       ],
-      cost: 35,
+      cost: 4,
       ffg: 570,
       image: {
         en:
@@ -126,13 +128,15 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e5f2e692fcaf63d513cd5c7c1294283e.jpg',
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Nodin Chavdri' },
       xws: 'nodinchavdri',
       initiative: 2,
       limited: 1,
-      hyperspace: false,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -154,7 +158,7 @@ const t: ShipType = {
         'Astromech',
         'Modification',
       ],
-      cost: 37,
+      cost: 5,
       ffg: 571,
       caption: {
         en: 'Insubordinate Insurgent',
@@ -168,6 +172,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b0179494a00c2538a4467793e722db3e.jpg',
+      loadout: 16,
+      extended: true,
     },
     {
       name: {
@@ -189,7 +195,7 @@ const t: ShipType = {
         es:
           'Privados del Apoyo de la Nueva República, los miembros de la Resistencia suelen ejercer tanto de pilotos como de mecánicos de transporte, poniendo en práctica sus habilidades y conocimientos técnicos en la lucha contra la Primera Orden.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Tech',
@@ -201,7 +207,7 @@ const t: ShipType = {
         'Astromech',
         'Modification',
       ],
-      cost: 34,
+      cost: 4,
       ffg: 572,
       image: {
         en:
@@ -209,6 +215,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg',
+      loadout: 6,
+      extended: true,
     },
   ],
   ffg: 63,

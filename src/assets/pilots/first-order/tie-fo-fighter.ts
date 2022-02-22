@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 35,
+      cost: 4,
       xws: 'midnight',
       ability: {
         en:
@@ -70,13 +70,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/c6a43d25d22d4112dd7e968cab4eb3d5.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 397,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/c7994885b38757f92bdf3a98c37b3c96.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Commander Malarus', es: 'Comandante Malarus' },
@@ -88,7 +90,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 33,
+      cost: 5,
       xws: 'commandermalarus',
       ability: {
         en:
@@ -105,13 +107,14 @@ const t: ShipType = {
       slots: ['Talent', 'Modification', 'Tech'],
       charges: { value: 2, recovers: 0 },
       ffg: 452,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f7506ec739f5580d484ff0ee49b041f3.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: '"Scorch"', de: '„Scorch"', es: '"Quemadura"' },
@@ -123,7 +126,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 33,
+      cost: 4,
       xws: 'scorch',
       ability: {
         en:
@@ -139,13 +142,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/dd225b2dab46b921e622dca6d799591f.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 398,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/9dd11d408bb869cb947663fc29622833.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: '"Static"', de: '„Static"', es: '"Estática"' },
@@ -157,7 +162,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 31,
+      cost: 3,
       xws: 'static',
       ability: {
         en:
@@ -173,20 +178,22 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 399,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/2481fe5d98026e086a901d83dbe87018.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: '"Longshot"', de: '„Longshot"', es: '"Tiro Aventurado"' },
       caption: { en: 'Zeta Ace', de: 'Ass Zeta', fr: 'As Zeta', es: 'As Zeta' },
       initiative: 3,
       limited: 1,
-      cost: 30,
+      cost: 3,
       xws: 'longshot',
       ability: {
         en:
@@ -202,13 +209,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/31ad38b2fc0d39f37ad82e1c70f62135.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 400,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d0e698f59696c15b60d7eaa1e2d51eeb.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -219,7 +228,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 29,
+      cost: 3,
       xws: 'omegasquadronace',
       text: {
         en:
@@ -235,13 +244,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/4e5010f7b60902288dac36bf646dcde9.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 403,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/97e72d0f5dc8c2dd21a355e3258f37dd.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: '"Muse"', de: '„Muse"', es: '"Musa"' },
@@ -253,7 +264,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 30,
+      cost: 3,
       xws: 'muse',
       ability: {
         en:
@@ -269,13 +280,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg',
       slots: ['Talent', 'Modification', 'Tech'],
       ffg: 401,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/7de4e91de0906eb548bfe3a08a1b6abe.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'TN-3465' },
@@ -287,7 +300,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 28,
+      cost: 3,
       xws: 'tn3465',
       ability: {
         en:
@@ -303,13 +316,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/9fce0e75539a225e9ff1536e466c3c13.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 453,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/333cbf0da8849edb38c4e93944d8fe57.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -320,7 +335,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 27,
+      cost: 3,
       xws: 'zetasquadronpilot',
       text: {
         en:
@@ -336,13 +351,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/d20d6cc2a052afc783d535c802874d23.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 404,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/be1062b6a7a8e4644223146342990a02.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -353,7 +370,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 26,
+      cost: 3,
       xws: 'epsilonsquadroncadet',
       text: {
         en:
@@ -369,13 +386,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/610cb198e4cda75aab0207841c6e4a87.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 405,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e911cd18f04225bbd36c48114b56f3cc.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant Rivas', es: 'Teniente Rivas' },
@@ -387,7 +406,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 28,
+      cost: 2,
       xws: 'lieutenantrivas',
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/66f969d008fc995bd940bf1ab647109f.jpg',
@@ -403,13 +422,15 @@ const t: ShipType = {
       },
       slots: ['Modification', 'Tech'],
       ffg: 454,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/7188ec2eb699261dbd47a15df6164f4c.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: '"Null"', de: '„Null"', es: '"Nulo"' },
@@ -421,7 +442,7 @@ const t: ShipType = {
       },
       initiative: 0,
       limited: 1,
-      cost: 30,
+      cost: 3,
       xws: 'null',
       ability: {
         en: 'While you are not damaged, treat your initiative value as 7.',
@@ -436,13 +457,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/eb788d9622d096c6d96c96cf20dc1939.jpg',
       slots: ['Modification', 'Tech'],
       ffg: 402,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/79a9d780d3540647af1e057113869294.png',
       },
+      loadout: 6,
+      extended: true,
     },
   ],
 };

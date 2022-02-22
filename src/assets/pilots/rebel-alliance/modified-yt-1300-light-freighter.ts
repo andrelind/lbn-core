@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 70,
+      cost: 7,
       xws: 'chewbacca',
       ability: {
         en:
@@ -80,13 +80,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg',
       ffg: 71,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_71.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'Han Solo' },
@@ -98,7 +100,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 79,
+      cost: 6,
       xws: 'hansolo-modifiedyt1300lightfreighter',
       ability: {
         en:
@@ -123,13 +125,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
       ffg: 69,
-      hyperspace: true,
+      standard: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -141,7 +145,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 78,
+      cost: 3,
       xws: 'landocalrissian-modifiedyt1300lightfreighter',
       ability: {
         en:
@@ -166,13 +170,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg',
       ffg: 70,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -207,7 +212,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
       ffg: 72,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
@@ -226,7 +231,7 @@ const t: ShipType = {
         fr: 'Il y en a Une Autre',
         es: 'Hay otro',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: [

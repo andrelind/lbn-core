@@ -72,7 +72,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 696,
       text: {
@@ -112,7 +112,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 695,
       text: {
@@ -163,7 +163,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 693,
       keywords: ['TIE'],
@@ -190,7 +190,7 @@ const t: ShipType = {
         fr:
           "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque, si vous êtes dans le [Left Arc] ou [Right Arc] du défenseur, l'attaquant peut relancer 1 dé d'attaque.",
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       slots: [
         'Cannon',

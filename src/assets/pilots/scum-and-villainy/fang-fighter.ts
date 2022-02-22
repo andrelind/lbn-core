@@ -107,7 +107,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
       ffg: 155,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
@@ -125,7 +125,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 47,
+      cost: 5,
       xws: 'joyrekkoff',
       ability: {
         en:
@@ -141,13 +141,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg',
       ffg: 157,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_157.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Kad Solus' },
@@ -159,7 +161,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 53,
+      cost: 4,
       xws: 'kadsolus',
       ability: {
         en: 'After you fully execute a red maneuver, gain 2 focus tokens.',
@@ -174,13 +176,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
       ffg: 158,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_158.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -197,7 +201,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 56,
+      cost: 6,
       xws: 'oldteroch',
       ability: {
         en:
@@ -213,13 +217,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
       ffg: 156,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_156.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: {
@@ -230,7 +236,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 47,
+      cost: 5,
       xws: 'skullsquadronpilot',
       text: {
         en:
@@ -246,13 +252,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
       ffg: 159,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_159.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -263,7 +271,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'zealousrecruit',
       text: {
         en:
@@ -279,13 +287,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
       ffg: 160,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_160.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Mandalorian Royal Guard' },
@@ -300,15 +310,16 @@ const t: ShipType = {
         en:
           'https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png',
       },
-
       slots: ['Talent', 'Torpedo', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png',
       ffg: 159,
       keywords: ['Mandalorian'],
-      cost: 0,
-      hyperspace: false,
+      cost: 5,
+      standard: true,
       epic: true,
+      loadout: 10,
+      extended: true,
     },
   ],
 };

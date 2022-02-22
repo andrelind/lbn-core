@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 41,
+      cost: 6,
       xws: 'freightercaptain',
       text: {
         en:
@@ -78,13 +78,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg',
       ffg: 225,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Han Solo' },
@@ -121,7 +123,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg',
       ffg: 222,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
@@ -139,7 +141,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 41,
+      cost: 3,
       xws: 'l337',
       ability: {
         en:
@@ -169,13 +171,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg',
       ffg: 224,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['Droid', 'Freighter', 'YT-1300'],
+      keywords: ['Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Lando Calrissian' },
@@ -212,7 +216,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg',
       ffg: 223,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {

@@ -76,7 +76,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
       ffg: 58,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan'],
       image: {
@@ -109,7 +109,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
       ffg: 60,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -149,7 +149,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
       ffg: 54,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -189,7 +189,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
       ffg: 56,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -229,7 +229,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
       ffg: 59,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -270,7 +270,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
       ffg: 57,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan'],
       image: {
@@ -310,7 +310,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
       ffg: 61,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan'],
       image: {
@@ -359,7 +359,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
       ffg: 55,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Partisan'],
       image: {
@@ -402,7 +402,7 @@ const t: ShipType = {
         'Configuration',
       ],
       ffg: 629,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Droid'],
       image: {

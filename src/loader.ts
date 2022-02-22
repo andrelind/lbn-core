@@ -60,7 +60,7 @@ export const shipTypeOptions = (
         case 'Extended':
           return s.size !== 'Huge';
         case 'Hyperspace':
-          return s.pilots.filter((p) => p.hyperspace).length > 0;
+          return s.pilots.filter((p) => p.standard).length > 0;
         case 'Epic':
           return s.pilots.filter((p) => p.epic).length > 0;
       }
@@ -86,7 +86,7 @@ export const shipTypeOptions = (
           case 'Extended':
             return true;
           case 'Hyperspace':
-            return p.hyperspace;
+            return p.standard;
           case 'Epic':
             return p.epic;
         }
@@ -111,7 +111,7 @@ export const pilotOptions = (
         case 'Extended':
           return true;
         case 'Hyperspace':
-          return p.hyperspace;
+          return p.standard;
         case 'Epic':
           return p.epic;
       }
@@ -206,7 +206,7 @@ export const upgradesForSlot = (
         case 'Extended':
           return true;
         case 'Hyperspace':
-          return u.hyperspace;
+          return u.standard;
         case 'Epic':
           return u.epic;
       }

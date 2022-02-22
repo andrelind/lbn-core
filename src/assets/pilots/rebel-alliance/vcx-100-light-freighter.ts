@@ -108,7 +108,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
       ffg: 75,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
       image: {
@@ -147,7 +147,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
       ffg: 73,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'Spectre'],
       image: {
@@ -160,7 +160,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-1', es: 'Espectro-1' },
       initiative: 3,
       limited: 1,
-      cost: 73,
+      cost: 4,
       xws: 'kananjarrus',
       ability: {
         en:
@@ -187,13 +187,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
       ffg: 74,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['Spectre'],
+      keywords: ['Jedi', 'Light Side', 'Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -229,7 +231,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
       ffg: 76,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter'],
       image: {
@@ -243,7 +245,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       caption: { en: 'Fulcrum' },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',

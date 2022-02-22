@@ -90,7 +90,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
       ffg: 37,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Spectre'],
       image: {
@@ -120,7 +120,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
       ffg: 36,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
       image: {
@@ -149,7 +149,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
       ffg: 34,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Spectre'],
       image: {
@@ -162,7 +162,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-5', es: 'Espectro-5' },
       initiative: 3,
       limited: 1,
-      cost: 41,
+      cost: 6,
       xws: 'sabinewren',
       ability: {
         en:
@@ -178,13 +178,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
       ffg: 35,
-      hyperspace: false,
+      standard: false,
       epic: true,
-      keywords: ['Mandalorian', 'Spectre'],
+      keywords: ['Bounty Hunter', 'Mandalorian'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png',
       },
+      loadout: 9,
+      extended: true,
     },
   ],
 };

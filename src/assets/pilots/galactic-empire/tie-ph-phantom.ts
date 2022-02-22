@@ -101,7 +101,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
       ffg: 132,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -134,7 +134,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
       ffg: 131,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -167,7 +167,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg',
       ffg: 134,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -200,7 +200,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg',
       ffg: 133,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {

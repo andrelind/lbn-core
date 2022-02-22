@@ -90,7 +90,7 @@ const t: ShipType = {
         es:
           'El Escuadrón Sombra ha prestado servicio desde los primeros días de las Guerras Clon, obteniendo célebres victorias en Kadavo y contra la nave insignia de Grievous, el Malevolencia.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       slots: [
         'Talent',
@@ -127,7 +127,7 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra, si tienes alguna nave enemiga situada en tu [Front Arc] a alcance 0-1 o en tu [Bullseye Arc], puedes gastar 1 [Force] para retirar 1 ficha de Tensión.',
       },
       force: { value: 3, recovers: 1, side: ['light'] },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Turret',
@@ -175,7 +175,7 @@ const t: ShipType = {
         { difficulty: 'Red', type: 'Barrel Roll' },
         { difficulty: 'Red', type: 'Reload' },
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -223,7 +223,7 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si tienes alguna nave enemiga situada en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
       },
       caption: { en: 'CC-2237' },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -259,7 +259,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal o [Single Turret Arc], puedes volver a tirar 1 dado de ataque por cada ficha roja que tengas.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -301,7 +301,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque [Single Turret Arc] , si tu indicador [Single Turret Arc] está en tu [Left Arc] o [Right Arc], puedes cambiar 1 resultado de cara vacía por un resultado [Focus] .',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -343,7 +343,7 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-3 se defiende, esa nave puede tirar 1 dado de defensa adicioan por cada bomba o mina aliada que tenga a alcance 0-1.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Turret',
@@ -389,7 +389,7 @@ const t: ShipType = {
         es:
           'En la batalla de Geonosis, el Escuadrón Rojo proporcionó una cobertura indispensable a las cañoneras LAAT desplegadas para ocupar la superficie.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       slots: [
         'Turret',

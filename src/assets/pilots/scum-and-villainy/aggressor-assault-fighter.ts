@@ -80,7 +80,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 65,
+      cost: 7,
       xws: 'ig88a',
       ability: {
         en:
@@ -105,13 +105,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_197.jpg',
       ffg: 197,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_197.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'IG-88B' },
@@ -123,7 +125,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 61,
+      cost: 7,
       xws: 'ig88b',
       ability: {
         en:
@@ -155,13 +157,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_198.jpg',
       ffg: 198,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_198.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'IG-88C' },
@@ -173,7 +177,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 62,
+      cost: 7,
       xws: 'ig88c',
       ability: {
         en:
@@ -198,13 +202,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_199.jpg',
       ffg: 199,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_199.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'IG-88D' },
@@ -216,7 +222,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 61,
+      cost: 7,
       xws: 'ig88d',
       ability: {
         en:
@@ -241,13 +247,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_200.jpg',
       ffg: 200,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_200.png',
       },
+      loadout: 16,
+      extended: true,
     },
   ],
 };

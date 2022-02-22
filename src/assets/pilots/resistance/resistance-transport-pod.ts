@@ -45,7 +45,7 @@ const t: ShipType = {
       xws: 'bb8',
       initiative: 3,
       limited: 1,
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -64,7 +64,7 @@ const t: ShipType = {
         { difficulty: 'Red', type: 'Barrel Roll' },
         { difficulty: 'Red', type: 'Jam' },
       ],
-      cost: 25,
+      cost: 3,
       ffg: 573,
       caption: {
         en: 'Full of Surprises',
@@ -79,6 +79,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Rose Tico' },
@@ -91,7 +93,7 @@ const t: ShipType = {
         fr: 'Ingénieure Fervente',
         es: 'Ingeniera circunspecta',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -104,7 +106,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, puedes volver a tirar hasta 1 de tus dados por cada otra nave aliada situada en el arco de ataque.',
       },
       slots: ['Talent', 'Tech', 'Crew', 'Modification'],
-      cost: 28,
+      cost: 3,
       ffg: 574,
       image: {
         en:
@@ -112,6 +114,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Vi Moradi' },
@@ -119,7 +123,7 @@ const t: ShipType = {
       initiative: 1,
       limited: 1,
       caption: { en: 'Starling', fr: 'Sansonnet', es: 'Estornino' },
-      hyperspace: true,
+      standard: false,
       epic: true,
       ability: {
         en:
@@ -133,7 +137,7 @@ const t: ShipType = {
       },
       conditions: ['compromisingintel'],
       slots: ['Tech', 'Crew', 'Modification'],
-      cost: 27,
+      cost: 3,
       ffg: 576,
       image: {
         en:
@@ -141,13 +145,15 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg',
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Finn' },
       xws: 'finn',
       initiative: 2,
       limited: 1,
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -160,7 +166,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, puedes añadir 1 resultado de cara vacía, o puedes recibir 1 ficha de Sobresfuerzo para añadir 1 resultado de Concentración en vez de uno de cara vacía.',
       },
       slots: ['Talent', 'Tech', 'Crew', 'Modification'],
-      cost: 32,
+      cost: 4,
       ffg: 575,
       caption: {
         en: 'Big Deal',
@@ -174,6 +180,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg',
+      loadout: 15,
+      extended: true,
     },
   ],
   ffg: 65,

@@ -65,7 +65,7 @@ const t: ShipType = {
         'Cargo',
         'Cargo',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 710,
       ability: {

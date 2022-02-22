@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 49,
+      cost: 5,
       xws: '4lom',
       ability: {
         en:
@@ -75,13 +75,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg',
       ffg: 201,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_201.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -92,7 +94,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'gandfindsman',
       text: {
         en:
@@ -108,13 +110,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
       ffg: 203,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: 'Zuckuss' },
@@ -126,7 +130,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 45,
+      cost: 5,
       xws: 'zuckuss',
       ability: {
         en:
@@ -149,13 +153,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg',
       ffg: 202,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_202.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
 };

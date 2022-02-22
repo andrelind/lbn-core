@@ -87,7 +87,7 @@ const t: ShipType = {
           'Antes de que reveles tu maniobra, puedes gastar 1 [Force] para llevar a cabo un tonel volado (esto no es una acción).',
       },
       xws: 'anakinskywalker-nabooroyaln1starfighter',
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 41,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
@@ -128,7 +128,7 @@ const t: ShipType = {
         fr: 'Leader Bravo',
         es: 'Jefe Bravo',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 44,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
@@ -151,7 +151,7 @@ const t: ShipType = {
         fr: 'Négociatrice Agressive',
         es: 'Negociadora agresiva',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -188,7 +188,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, si la velocidad de tu maniobra revelada es la misma que la de la nave enemiga, los dados de esa nave no pueden ser modificados.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 36,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
@@ -226,7 +226,7 @@ const t: ShipType = {
         es:
           'Los pilotos voluntarios de la Fuerza de Seguridad Real de Naboo están entregados a la protección de la gente y los ideales de su mundo natal, y están plenamente convencidos de que su Reina sólo los envía a combatir cuando todas las demás opciones han fracasado.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       cost: 33,
       slots: ['Sensor', 'Torpedo', 'Astromech'],
@@ -259,7 +259,7 @@ const t: ShipType = {
           'Preparación: Después de desplegar las fuerzas, asigna el Estado Custodiado a 1 nave aliada que no sea una Doncella de Naboo.',
       },
       conditions: ['decoyed'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 41,
       slots: ['Sensor', 'Torpedo', 'Astromech'],

@@ -41,7 +41,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -84,7 +84,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -127,7 +127,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 0 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -170,7 +170,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -212,7 +212,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -254,7 +254,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [
       { factions: ['Resistance', 'Rebel Alliance'] },
@@ -301,7 +301,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
 ];

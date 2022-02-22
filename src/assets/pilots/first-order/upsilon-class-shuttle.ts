@@ -78,7 +78,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 73,
+      cost: 9,
       xws: 'lieutenantdormitz',
       ability: {
         en:
@@ -103,8 +103,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/4505cb1930309673fe5592dbc112d733.jpg',
       ffg: 412,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Major Stridan', es: 'Mayor Stridan' },
@@ -116,7 +118,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 61,
+      cost: 7,
       xws: 'majorstridan',
       ability: {
         en:
@@ -141,8 +143,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/862f9dcc1ce9809f9a394d8f0b05f268.jpg',
       ffg: 410,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 13,
+      extended: true,
     },
     {
       name: {
@@ -159,7 +163,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 59,
+      cost: 7,
       charges: { value: 1, recovers: 1 },
       ability: {
         en:
@@ -184,8 +188,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/24a40f6ec1875bfae9e7531b02252993.jpg',
       ffg: 458,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -197,7 +203,7 @@ const t: ShipType = {
       xws: 'starkillerbasepilot',
       initiative: 2,
       limited: 0,
-      cost: 58,
+      cost: 7,
       text: {
         en:
           "The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.",
@@ -221,8 +227,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/1ea0266ea42691778e8ecff6a5b50e45.jpg',
       ffg: 413,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant Tavson', es: 'Teniente Tavson' },
@@ -234,7 +242,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 64,
+      cost: 8,
       xws: 'lieutenanttavson',
       ability: {
         en:
@@ -260,8 +268,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/151154b50732a6dd42b411fc312137b9.jpg',
       ffg: 411,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Captain Cardinal', es: 'Capitán Cardenal' },
@@ -273,7 +283,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 62,
+      cost: 7,
       xws: 'captaincardinal',
       ability: {
         en:
@@ -299,8 +309,10 @@ const t: ShipType = {
       artwork:
         'https://sb-cdn.fantasyflightgames.com/card_art/a88822cc408323e561efd9e2acb83f2a.jpg',
       ffg: 457,
-      hyperspace: false,
+      standard: false,
       epic: true,
+      loadout: 12,
+      extended: true,
     },
   ],
 };

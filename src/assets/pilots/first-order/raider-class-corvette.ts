@@ -70,7 +70,7 @@ const t: ShipType = {
         'Team',
         'Cargo',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 708,
       artwork:

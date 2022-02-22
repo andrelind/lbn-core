@@ -90,7 +90,7 @@ export type Pilot = {
   caption?: Translation;
   xws: string;
   cost: number;
-  predictedCost?: number;
+  loadout?: number;
   initiative: number;
   limited: number;
   ability?: Translation;
@@ -109,7 +109,8 @@ export type Pilot = {
   charges?: { value: number; recovers: number };
   sides?: Side[];
   available?: number;
-  hyperspace: boolean;
+  standard: boolean;
+  extended?: boolean;
   epic: boolean;
   limitWarning?: boolean;
   ffg?: number;
@@ -287,7 +288,8 @@ export type UpgradeBase = {
   cost: UpgradeCost;
   sides: UpgradeSide[];
   restrictions?: Restrictions[];
-  hyperspace: boolean;
+  standard: boolean;
+  extended?: boolean;
   epic: boolean;
   standarized?: boolean;
 };

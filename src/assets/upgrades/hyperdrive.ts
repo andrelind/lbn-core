@@ -28,7 +28,7 @@ const t: UpgradeBase[] = [
         ffg: 850,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
 ];

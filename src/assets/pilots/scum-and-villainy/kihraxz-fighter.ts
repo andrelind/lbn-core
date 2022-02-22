@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 38,
+      cost: 4,
       xws: 'blacksunace',
       text: {
         en:
@@ -74,12 +74,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
       ffg: 195,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_195.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: 'Captain Jostero', es: 'Capitán Jostero' },
@@ -91,7 +93,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 41,
+      cost: 4,
       xws: 'captainjostero',
       ability: {
         en:
@@ -107,12 +109,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg',
       ffg: 194,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_194.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -123,7 +127,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 37,
+      cost: 4,
       xws: 'cartelmarauder',
       text: {
         en:
@@ -139,12 +143,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
       ffg: 196,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_196.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: { en: 'Graz' },
@@ -156,7 +162,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 45,
+      cost: 4,
       xws: 'graz',
       ability: {
         en:
@@ -179,13 +185,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg',
       ffg: 192,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_192.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Talonbane Cobra' },
@@ -197,7 +205,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 48,
+      cost: 5,
       xws: 'talonbanecobra',
       ability: {
         en:
@@ -220,12 +228,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg',
       ffg: 191,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_191.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Viktor Hel' },
@@ -237,7 +247,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 4,
       xws: 'viktorhel',
       ability: {
         en:
@@ -260,13 +270,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg',
       ffg: 193,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_193.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
 };

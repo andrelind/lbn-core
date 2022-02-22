@@ -78,7 +78,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 27,
+      cost: 4,
       xws: 'cartelspacer',
       text: {
         en:
@@ -94,12 +94,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg',
       ffg: 190,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_190.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Genesis Red' },
@@ -111,7 +113,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 31,
+      cost: 5,
       xws: 'genesisred',
       ability: {
         en:
@@ -127,12 +129,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg',
       ffg: 184,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_184.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Inaldra' },
@@ -144,7 +148,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 30,
+      cost: 4,
       xws: 'inaldra',
       ability: {
         en:
@@ -160,12 +164,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg',
       ffg: 187,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_187.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: "Laetin A'shera" },
@@ -177,7 +183,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 30,
+      cost: 4,
       xws: 'laetinashera',
       ability: {
         en:
@@ -193,12 +199,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg',
       ffg: 185,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_185.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Quinn Jast' },
@@ -210,7 +218,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 31,
+      cost: 4,
       xws: 'quinnjast',
       ability: {
         en:
@@ -226,13 +234,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg',
       ffg: 186,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_186.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Serissu' },
@@ -244,7 +254,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 40,
+      cost: 5,
       xws: 'serissu',
       ability: {
         en:
@@ -260,12 +270,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg',
       ffg: 183,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_183.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'Sunny Bounder' },
@@ -277,7 +289,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 27,
+      cost: 4,
       xws: 'sunnybounder',
       ability: {
         en:
@@ -293,12 +305,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg',
       ffg: 188,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_188.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -309,7 +323,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 29,
+      cost: 4,
       xws: 'tansariipointveteran',
       text: {
         en:
@@ -325,12 +339,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg',
       ffg: 189,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_189.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'G4R-G0R V/M' },
@@ -343,7 +359,7 @@ const t: ShipType = {
         es: 'Droide desquiciado',
         fr: 'Droïde Tilté',
       },
-      hyperspace: true,
+      standard: true,
       slots: ['Modification'],
       ability: {
         en:
@@ -355,7 +371,7 @@ const t: ShipType = {
         fr:
           'Après que vous avez défendu, chaque autre vaisseau à portée 0 subit 1 dégât [Critical Hit].',
       },
-      cost: 28,
+      cost: 4,
       ffg: 636,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg',
@@ -371,6 +387,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png',
       },
+      loadout: 11,
+      extended: true,
     },
   ],
 };

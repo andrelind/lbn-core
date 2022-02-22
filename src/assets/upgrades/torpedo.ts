@@ -42,7 +42,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -86,7 +86,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -130,7 +130,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 12 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -174,7 +174,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 7 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -195,7 +195,7 @@ const t: UpgradeBase[] = [
         ffg: 941,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Huge'] }],
   },

@@ -99,7 +99,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -132,7 +132,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -166,7 +166,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
       ffg: 103,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -200,7 +200,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
       ffg: 104,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
@@ -231,7 +231,7 @@ const t: ShipType = {
           "Après que vous avez effectué une attaque, si le défenseur a été détruit, gagnez 1 marqueur de stress. Après qu'un vaisseau allié à portée 0-3 a été détruit, retirez 1 marqueur de stress.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 889,
@@ -261,7 +261,7 @@ const t: ShipType = {
           "Tant que vous effectuez une attaque contre un défenseur endommagé, lancez 1 dé d'attaque supplémentaire.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 892,
@@ -291,7 +291,7 @@ const t: ShipType = {
           'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 890,
@@ -321,7 +321,7 @@ const t: ShipType = {
           "Après qu'un vaisseau allié à portée 0-3 avec une initiative plus faible que la vôtre a partiellement exécuté une manœuvre, il peut effectuer une action [Focus] rouge.",
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 891,
@@ -351,7 +351,7 @@ const t: ShipType = {
           'Tant que vous effectuez un tonneau, vous devez utiliser le gabarit ([Bank Left] ou [Bank Right]) à la place du gabarit ([Straight]).',
       },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 893,
@@ -382,7 +382,7 @@ const t: ShipType = {
       },
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 894,

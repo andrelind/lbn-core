@@ -103,7 +103,7 @@ const fetchAndProcess = async () => {
         //   : undefined,
         keywords: pilot.keywords?.split(',').map((x) => x.trim()),
         slots: pilot.upgrades || [],
-        hyperspace: false,
+        standard: false,
         epic: true,
       };
 
@@ -234,7 +234,7 @@ const fetchAndProcess = async () => {
           ffg: parseInt(s.ffg) || -1,
         };
       }),
-      hyperspace: false,
+      standard: false,
       epic: true,
       restrictions: restrictions.length ? restrictions : undefined,
     };

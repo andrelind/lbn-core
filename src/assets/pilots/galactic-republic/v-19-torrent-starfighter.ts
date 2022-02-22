@@ -66,7 +66,7 @@ const t: ShipType = {
         es:
           'Después de que realices una acción [Barrel Roll], puedes realizar una acción [Lock] roja.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 29,
       slots: ['Talent', 'Missile', 'Modification'],
@@ -95,7 +95,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si hay una nave enemiga en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 29,
       slots: ['Talent', 'Missile', 'Modification'],
@@ -124,7 +124,7 @@ const t: ShipType = {
         es:
           'Después de que una nave aliada pequeña o mediana ejecute completamente una maniobra de velocidad 3-4, si esa nave está situada a alcance 0-1 de ti, puede realizar una acción [Boost] roja.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 27,
       slots: ['Missile', 'Modification'],
@@ -158,7 +158,7 @@ const t: ShipType = {
         es:
           'Después de que te defiendas o efectúes un ataque, puedes elegir una nave aliada que tengas a alcance 1-2 en tu [Left Arc] o [Right Arc]. Si lo haces, transfiere 1 ficha verde a esa nave.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 28,
       slots: ['Talent', 'Missile', 'Modification'],
@@ -192,7 +192,7 @@ const t: ShipType = {
         es:
           'Después de que una nave aliada que tengas a alcance 1-2 efectúe un ataque contra una nave enemiga situada en tu [Front Arc], puedes realizar una acción [Focus] roja.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       cost: 26,
       slots: ['Missile', 'Modification'],
@@ -225,7 +225,7 @@ const t: ShipType = {
         es:
           'Los pilotos clon de élite del Escuadrón Azul están entrenados para volar en sus V-19 acompañando a pilotos jedi, y suelen prestar apoyo a comandantes famosos como Anakin Skywalker y Ahsoka Tano.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       cost: 26,
       slots: ['Talent', 'Missile', 'Modification'],
@@ -258,7 +258,7 @@ const t: ShipType = {
         es:
           'El caza estelar V-19 Torrente fue diseñado para ser una nave ligera que sirviera de escolta para los ágiles interceptores Delta-7 pilotados por caballeros jedi, y posee un perfil de vuelo único para desempeñar este cometido.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       cost: 25,
       slots: ['Missile', 'Modification'],

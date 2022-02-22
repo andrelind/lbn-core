@@ -59,7 +59,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 12,
+      cost: 2,
       xws: 'autopilotdrone',
       text: {
         en: "Sometimes, manufacturer's warnings are made to be broken.",
@@ -110,13 +110,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg',
       ffg: 229,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_229.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: 'L3-37' },
@@ -149,7 +151,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg',
       ffg: 228,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Droid'],
       image: {
@@ -183,7 +185,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg',
       ffg: 226,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
@@ -205,7 +207,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 28,
+      cost: 3,
       xws: 'outerrimpioneer',
       ability: {
         en:
@@ -221,12 +223,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg',
       ffg: 227,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_227.png',
       },
+      loadout: 4,
+      extended: true,
     },
   ],
 };

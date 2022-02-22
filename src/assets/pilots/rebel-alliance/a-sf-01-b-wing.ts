@@ -81,7 +81,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
       ffg: 25,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['B-wing'],
       image: {
@@ -129,7 +129,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg',
       ffg: 26,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['B-wing'],
       image: {
@@ -172,7 +172,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
       ffg: 23,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['B-wing'],
       image: {
@@ -215,7 +215,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
       ffg: 24,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['B-wing'],
       image: {
@@ -255,7 +255,7 @@ const t: ShipType = {
         'Title',
         'Configuration',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 628,
       keywords: ['B-wing'],
@@ -298,7 +298,7 @@ const t: ShipType = {
         'Title',
         'Configuration',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['B-wing', 'Spectre'],
       ffg: 878,
@@ -337,7 +337,7 @@ const t: ShipType = {
         'Title',
         'Configuration',
       ],
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['B-wing'],
       ffg: 879,

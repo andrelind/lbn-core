@@ -34,7 +34,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -70,7 +70,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -101,7 +101,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -141,7 +141,7 @@ const t: UpgradeBase[] = [
       values: { '0': 4, '1': 4, '2': 4, '3': 8, '4': 16, '5': 24, '6': 32 },
     },
     restrictions: [{ baseSizes: ['Small'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -177,7 +177,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -208,7 +208,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ sides: ['dark'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -244,7 +244,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -287,7 +287,7 @@ const t: UpgradeBase[] = [
       values: { '0': 3, '1': 3, '2': 3, '3': 3, '4': 4, '5': 6, '6': 8 },
     },
     restrictions: [{ factions: ['Galactic Republic'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -330,7 +330,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -369,7 +369,7 @@ const t: UpgradeBase[] = [
       variable: 'initiative',
       values: { '0': 3, '1': 3, '2': 3, '3': 4, '4': 7, '5': 10, '6': 13 },
     },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Small'] }],
   },
@@ -397,14 +397,14 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/905d768c07c386930b14d1d5f7e74ba4.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ sides: ['light'] }],
   },
   {
     limited: 0,
     xws: 'extrememaneuvers',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -437,7 +437,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'compassion',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {
@@ -457,7 +457,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'malice',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {
@@ -477,7 +477,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'shatteringshot',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {

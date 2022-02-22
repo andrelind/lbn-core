@@ -63,7 +63,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
       ffg: 49,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Spectre', 'TIE'],
       image: {
@@ -98,7 +98,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
       ffg: 48,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Clone', 'TIE'],
       image: {
@@ -128,7 +128,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
       ffg: 46,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
       image: {
@@ -157,7 +157,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
       ffg: 47,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Spectre', 'TIE'],
       image: {

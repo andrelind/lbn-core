@@ -41,7 +41,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -84,7 +84,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -127,7 +127,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -170,7 +170,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -213,7 +213,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -257,7 +257,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -299,7 +299,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ action: { type: 'Reload' } }],
     cost: { value: 8 },
@@ -343,7 +343,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 7 },
   },
@@ -386,7 +386,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
   },
@@ -430,13 +430,13 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     limited: 0,
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
     limited: 0,
     xws: 'thermaldetonators',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {

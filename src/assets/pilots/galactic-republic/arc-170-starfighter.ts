@@ -63,7 +63,7 @@ const t: ShipType = {
           'Mientras una nave aliada que tienes a alcance 1-2 en tu [Left Arc] or [Right Arc] efectúa un ataque principal, esa nave puede volver a tirar 1 dado de ataque.',
       },
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       cost: 53,
       ffg: 526,
@@ -96,7 +96,7 @@ const t: ShipType = {
         es:
           'Después de que una nave aliada que tengas a alcance 1-2 en tu [Left Arc] o [Right Arc] se defienda, puedes obtener un Blanco fijado sobre el atacante.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Clone'],
       image: {
@@ -132,7 +132,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si hay una nave enemiga en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Clone'],
       image: {
@@ -169,7 +169,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal [Front Arc], puedes gastar 1 [Charge] para volver a tirar 1 dado de ataque. Mientras efectúas un ataque principal [Rear Arc], puedes recuperar 1 [Charge] para tirar 1 dado de ataque adicional.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Clone'],
       image: {
@@ -202,7 +202,7 @@ const t: ShipType = {
         es:
           'El ARC-170 se diseñó como un caza pesado de escolta de altas prestaciones provisto de una potente combinación de láseres frontales y posteriores, cabezas de guerra y un droide astromecánico para tareas de navegación. Los escuadrones de estas impresionantes naves afianzaban la presencia de la Armada de la República en toda batalla en la que intervinieran.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Clone'],
       image: {
@@ -242,7 +242,7 @@ const t: ShipType = {
         es:
           'La Escuadrilla Clon Siete forma parte de la Flota del Círculo Abierto bajo el mando de generales jedi legendarios como Plo Koon y Obi-Wan Kenobi, y sirvió con distinción en las batallas de Coruscant y Cato Neimoidia.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Clone'],
       image: {

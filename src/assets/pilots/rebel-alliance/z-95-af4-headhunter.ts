@@ -68,7 +68,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
       ffg: 27,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -100,7 +100,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
       ffg: 30,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -133,7 +133,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
       ffg: 28,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
@@ -165,7 +165,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
       ffg: 29,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:

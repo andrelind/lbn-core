@@ -40,7 +40,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -90,7 +90,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 7 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -132,7 +132,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -174,7 +174,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -204,7 +204,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -246,7 +246,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -288,7 +288,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -309,7 +309,7 @@ const t: UpgradeBase[] = [
         ffg: 942,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ factions: ['Separatist Alliance'] }],
   },
@@ -331,7 +331,7 @@ const t: UpgradeBase[] = [
         ffg: 944,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -352,7 +352,7 @@ const t: UpgradeBase[] = [
         ffg: 943,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
 ];

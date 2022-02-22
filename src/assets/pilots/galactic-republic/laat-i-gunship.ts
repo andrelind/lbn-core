@@ -71,7 +71,7 @@ const t: ShipType = {
         'Gunner',
         'Gunner',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -113,7 +113,7 @@ const t: ShipType = {
         'Gunner',
         'Gunner',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -155,7 +155,7 @@ const t: ShipType = {
         'Gunner',
         'Gunner',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -195,7 +195,7 @@ const t: ShipType = {
         es:
           'Tan bien capacitada para las ofensivas espaciales como para los combates atmosféricos, la cañonera LAAT/i transporta tropas de la República a los frentes de batalla en planetas asediados por los separatistas.',
       },
-      hyperspace: false,
+      standard: false,
       epic: true,
       slots: [
         'Missile',

@@ -70,7 +70,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3e567923957881e9a4dbef46789c7fbf.jpg',
-      cost: 58,
+      cost: 6,
       slots: [
         'Missile',
         'Crew',
@@ -81,13 +81,15 @@ const t: ShipType = {
         'Gunner',
       ],
       ffg: 430,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/28411b84c1b15f0bfa9928f2206e44f5.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Chewbacca' },
@@ -124,7 +126,7 @@ const t: ShipType = {
         'Gunner',
       ],
       ffg: 429,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
@@ -167,7 +169,7 @@ const t: ShipType = {
         'Gunner',
       ],
       ffg: 427,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
@@ -199,7 +201,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1ff06aeff0d74773e9c9f3846b38b75d.jpg',
       force: { value: 2, recovers: 1, side: ['light'] },
-      cost: 68,
+      cost: 8,
       slots: [
         'Missile',
         'Crew',
@@ -211,13 +213,15 @@ const t: ShipType = {
         'Force Power',
       ],
       ffg: 428,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'Light Side', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/0ee7006e6cc51d8c08b784c9b770f1b0.png',
       },
+      loadout: 25,
+      extended: true,
     },
   ],
 };

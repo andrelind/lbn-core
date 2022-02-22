@@ -88,7 +88,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 54,
+      cost: 6,
       xws: 'majorvonreg',
       ability: {
         en:
@@ -101,7 +101,7 @@ const t: ShipType = {
           'Durante la fase de Sistemas, puedes elegir 1 nave enemiga situada en tu [Bullseye Arc]. Esa nave recibe 1 ficha de Merma o de Sobresfuerzo a tu elección.',
       },
       slots: ['Talent', 'Tech', 'Missile', 'Modification'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 624,
       keywords: ['TIE'],
@@ -111,6 +111,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg',
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: '"Holo"', de: '„Holo"' },
@@ -122,7 +124,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 53,
+      cost: 6,
       xws: 'holo',
       ability: {
         en:
@@ -135,7 +137,7 @@ const t: ShipType = {
           'Al comienzo de la fase de Enfrentamiento, debes transferir 1 de tus fichas a otra nave aliada que tengas a alcance 0-2.',
       },
       slots: ['Talent', 'Tech', 'Missile', 'Modification'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 625,
       artwork:
@@ -145,6 +147,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: '"Ember"', de: '„Ember"', es: '"Ascua"' },
@@ -156,7 +160,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 45,
+      cost: 4,
       xws: 'ember',
       ability: {
         en:
@@ -169,7 +173,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque, si hay alguna nave dañada aliada con el defensor situada a alcance 0-1 del defensor, éste no puede gastar fichas de Concentración o de Cálculos.',
       },
       slots: ['Talent', 'Tech', 'Missile', 'Modification'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 626,
       keywords: ['TIE'],
@@ -179,6 +183,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       name: {
@@ -189,10 +195,10 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'firstorderprovocateur',
       slots: ['Talent', 'Tech', 'Missile', 'Modification'],
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 627,
       text: {
@@ -212,6 +218,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg',
+      loadout: 3,
+      extended: true,
     },
   ],
 };

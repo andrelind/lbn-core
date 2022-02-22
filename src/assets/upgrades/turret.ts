@@ -36,7 +36,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -83,7 +83,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
 ];

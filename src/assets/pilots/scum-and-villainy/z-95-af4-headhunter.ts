@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 22,
+      cost: 3,
       xws: 'binayrepirate',
       text: {
         en:
@@ -67,12 +67,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
       ffg: 173,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_173.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -83,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 23,
+      cost: 3,
       xws: 'blacksunsoldier',
       text: {
         en:
@@ -99,12 +101,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
       ffg: 172,
-      hyperspace: true,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_172.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: "Kaa'to Leeachos" },
@@ -116,7 +120,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 24,
+      cost: 3,
       xws: 'kaatoleeachos',
       ability: {
         en:
@@ -132,13 +136,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg',
       ffg: 170,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_170.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: "N'dru Suhlak" },
@@ -150,7 +156,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 28,
+      cost: 2,
       xws: 'ndrusuhlak',
       ability: {
         en:
@@ -166,12 +172,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
       ffg: 169,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_169.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -187,7 +195,7 @@ const t: ShipType = {
       },
       initiative: 0,
       limited: 1,
-      cost: 4,
+      cost: 1,
       xws: 'nashtahpup',
       ability: {
         en:
@@ -203,12 +211,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
       ffg: 171,
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_171.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: 'Bossk' },
@@ -233,7 +243,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, después del paso de "Neutralizar resultados", puedes gastar 1 resultado [Critical Hit] para añadir 2 resultados [Hit].',
       },
       slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
-      hyperspace: false,
+      standard: false,
       epic: true,
       ffg: 635,
       keywords: ['Bounty Hunter'],

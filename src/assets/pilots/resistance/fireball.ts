@@ -80,7 +80,7 @@ const t: ShipType = {
       initiative: 2,
       limited: 0,
       xws: 'colossusstationmechanic',
-      cost: 26,
+      cost: 3,
       slots: [
         'Missile',
         'Astromech',
@@ -89,7 +89,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 623,
       text: {
@@ -108,6 +108,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg',
+      loadout: 2,
+      extended: true,
     },
     {
       name: { en: 'Jarek Yeager' },
@@ -130,7 +132,7 @@ const t: ShipType = {
         es:
           'Mientras tengas 2 o menos fichas de Tensión, si estás dañado, eres capaz de ejecutar maniobras básicas rojas incluso aunque estés bajo tensión; si estás dañado críticamente, eres capaz de ejecutar maniobras avanzadas rojas incluso aunque estés bajo tensión.',
       },
-      cost: 31,
+      cost: 3,
       slots: [
         'Talent',
         'Missile',
@@ -140,7 +142,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 620,
       image: {
@@ -149,6 +151,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg',
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Kazuda Xiono' },
@@ -171,7 +175,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque principal, si la Iniciativa de la nave enemiga es mayor que la cantidad de cartas de Daño que tienes, puedes tirar 1 dado adicional.',
       },
-      cost: 38,
+      cost: 4,
       slots: [
         'Talent',
         'Missile',
@@ -181,7 +185,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 621,
       image: {
@@ -190,6 +194,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'R1-J5' },
@@ -213,7 +219,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Barrel Roll' },
         { difficulty: 'White', type: 'SLAM' },
       ],
-      cost: 27,
+      cost: 2,
       slots: [
         'Missile',
         'Crew',
@@ -222,7 +228,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 622,
       keywords: ['Droid'],
@@ -232,6 +238,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg',
+      loadout: 0,
+      extended: true,
     },
   ],
 };

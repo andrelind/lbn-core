@@ -93,7 +93,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg',
-      cost: 61,
+      cost: 6,
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',
@@ -104,13 +104,15 @@ const t: ShipType = {
         'Tech',
       ],
       ffg: 418,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/14c504c0815213a66010c4013d9296ee.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       xws: 'poedameron-swz68',
@@ -143,7 +145,7 @@ const t: ShipType = {
         'Configuration',
         'Tech',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 697,
       keywords: ['X-wing'],
@@ -176,16 +178,18 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg',
-      cost: 41,
+      cost: 5,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 426,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/a82a39a4c9baf883fbc6ae353abdd2ec.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -209,7 +213,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg',
-      cost: 43,
+      cost: 5,
       slots: [
         'Talent',
         'Astromech',
@@ -219,13 +223,15 @@ const t: ShipType = {
         'Tech',
       ],
       ffg: 425,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/58967d94cfef285c4df2fdbb77fd0502.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -259,7 +265,7 @@ const t: ShipType = {
         'Tech',
       ],
       ffg: 451,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -287,7 +293,7 @@ const t: ShipType = {
         es:
           'Después de que reveles una maniobra de giro Tallon ([Tallon Roll Left] o [Tallon Roll Right]) roja, si tienes 2 o menos fichas de Tensión, considera esa maniobra como si fuera blanca.',
       },
-      cost: 53,
+      cost: 6,
       slots: [
         'Talent',
         'Astromech',
@@ -299,13 +305,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ff73537d7ab2f063e7a510c05013269e.jpg',
       ffg: 419,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f77180ae05fd919a0dff2225380246a6.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: { en: 'Joph Seastriker' },
@@ -324,7 +332,7 @@ const t: ShipType = {
         fr: "Après avoir perdu 1 bouclier, gagnez 1 marqueur d'évasion.",
         es: 'Después de que pierdas 1 escudo, recibes 1 ficha de Evasión.',
       },
-      cost: 46,
+      cost: 5,
       slots: [
         'Talent',
         'Astromech',
@@ -336,13 +344,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b5b43d179b039649e764e6bd4f212a29.jpg',
       ffg: 424,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/df85f5b77e16363a05c8f68792440166.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Kare Kun' },
@@ -377,7 +387,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f121bc27f2b283258a65d348bcafe40d.jpg',
       ffg: 421,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
@@ -408,16 +418,18 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg',
-      cost: 47,
+      cost: 5,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 449,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/3f43d6b3c6e87bde6a681e9d4421dec8.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Nien Nunb' },
@@ -440,7 +452,7 @@ const t: ShipType = {
         es:
           'Después de que recibas una ficha de Tensión, si tienes alguna nave enemiga a alcance 0-1 situada en tu [Front Arc], puedes retirar esa ficha de Tensión.',
       },
-      cost: 54,
+      cost: 6,
       slots: [
         'Talent',
         'Astromech',
@@ -452,13 +464,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/5daa441317975eb576396af36e852f74.jpg',
       ffg: 420,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/00a3c393a33b33168bc61e47749e1474.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       name: { en: 'Jaycris Tubbs' },
@@ -483,16 +497,18 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg',
-      cost: 45,
+      cost: 4,
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 450,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Jessika Pava' },
@@ -517,17 +533,19 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg',
-      cost: 51,
+      cost: 6,
       charges: { value: 1, recovers: 1 },
       slots: ['Astromech', 'Modification', 'Title', 'Configuration', 'Tech'],
       ffg: 423,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'Temmin Wexley' },
@@ -547,7 +565,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg',
-      cost: 49,
+      cost: 5,
       slots: [
         'Talent',
         'Astromech',
@@ -557,13 +575,15 @@ const t: ShipType = {
         'Tech',
       ],
       ffg: 422,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       xws: 'temminwexley-swz68',
@@ -595,7 +615,7 @@ const t: ShipType = {
         'Configuration',
         'Tech',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 698,
       keywords: ['X-wing'],
@@ -615,7 +635,7 @@ const t: ShipType = {
         es: 'Superviviente tenaz',
         fr: 'Survivant Tenace',
       },
-      cost: 46,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability: {
@@ -636,7 +656,7 @@ const t: ShipType = {
         'Configuration',
         'Tech',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 699,
       keywords: ['X-wing'],
@@ -646,6 +666,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b9ec74da0f0350bdc545aa068ff3f154.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Nimi Chireen', de: 'Nimi Chireen' },
@@ -658,7 +680,7 @@ const t: ShipType = {
         es: 'Heroína esperanzada',
         fr: 'Héroïne Optimiste',
       },
-      hyperspace: true,
+      standard: true,
       cost: 47,
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration', 'Title'],
       ability: {

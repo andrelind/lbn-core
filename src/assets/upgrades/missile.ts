@@ -42,7 +42,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 8 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -86,7 +86,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -130,7 +130,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -174,7 +174,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -218,7 +218,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -258,7 +258,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -306,7 +306,7 @@ const t: UpgradeBase[] = [
       { factions: ['Separatist Alliance'] },
     ],
     cost: { value: 5 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -350,7 +350,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -393,7 +393,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 5 },
   },
@@ -437,14 +437,14 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 5 },
   },
   {
     limited: 0,
     xws: 'multimissilepods',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -488,7 +488,7 @@ const t: UpgradeBase[] = [
   {
     limited: 2,
     xws: 'xx23sthreadtracers',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -532,7 +532,7 @@ const t: UpgradeBase[] = [
   {
     limited: 2,
     xws: 'electrochaffmissiles',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {

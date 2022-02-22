@@ -66,7 +66,7 @@ const t: ShipType = {
         fr:
           'Tant que vous défendez ou effectuez une attaque principale, si la difficulté de votre manœuvre révélée est inférieure à celle du vaisseau ennemi, vous pouvez changer 1 des résultats [Focus] du vaisseau ennemi en un résultat vierge.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -78,7 +78,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      cost: 80,
+      cost: 9,
       ffg: 800,
       keywords: ['Bounty Hunter'],
       image: {
@@ -87,6 +87,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b6d21423ce39d0a57330782ac9f37e24.jpg',
+      loadout: 27,
+      extended: true,
     },
     {
       xws: 'zamwesell',
@@ -97,7 +99,7 @@ const t: ShipType = {
         es: 'Sólo es un trabajo',
         fr: 'Juste un Boulot',
       },
-      cost: 84,
+      cost: 10,
       initiative: 5,
       limited: 1,
       ability: {
@@ -121,7 +123,7 @@ const t: ShipType = {
         'Title',
       ],
       conditions: ['youdbettermeanbusiness', 'youshouldthankme'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 801,
       keywords: ['Bounty Hunter'],
@@ -131,6 +133,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/99cf31dd1b9dc66bb0bd9522aacea4ce.jpg',
+      loadout: 22,
+      extended: true,
     },
     {
       xws: 'bobafett-separatistalliance',
@@ -154,7 +158,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -194,7 +198,7 @@ const t: ShipType = {
         fr:
           "Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l'opportunité de faire des bénéfices grâce à la guerre en cours.",
       },
-      hyperspace: false,
+      standard: true,
       slots: [
         'Cannon',
         'Missile',
@@ -204,7 +208,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      cost: 63,
+      cost: 7,
       epic: true,
       ffg: 803,
       image: {
@@ -213,6 +217,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/fd061204d3235827f2457d5be76cc18b.jpg',
+      loadout: 7,
+      extended: true,
     },
   ],
   ffg: 10,

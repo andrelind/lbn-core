@@ -59,7 +59,7 @@ const t: ShipType = {
         fr: 'Héros de Coruscant',
       },
       slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
-      hyperspace: true,
+      standard: true,
       force: { value: 3, recovers: 1, side: ['light', 'dark'] },
       epic: true,
       ability: {
@@ -95,7 +95,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       force: { value: 3, recovers: 1, side: ['light'] },
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -130,7 +130,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
       force: { value: 2, recovers: 1, side: ['light'] },
-      hyperspace: true,
+      standard: true,
       epic: true,
       ability: {
         en:
@@ -161,7 +161,7 @@ const t: ShipType = {
         es: 'Mentora compasiva',
         fr: 'Mentor Compatissant',
       },
-      hyperspace: true,
+      standard: true,
       force: { value: 2, recovers: 1, side: ['light'] },
       ability: {
         en:
@@ -205,7 +205,7 @@ const t: ShipType = {
         fr:
           "Alors que la Guerre des Clones fait des ravages dans les rangs de l'Ordre Jedi, ceux qui restent assument de plus grandes responsabilités dans la Grande Armée de la République.",
       },
-      hyperspace: false,
+      standard: false,
       force: { value: 2, recovers: 1, side: ['light'] },
       slots: ['Force Power', 'Astromech', 'Modification'],
       cost: 41,
@@ -230,7 +230,7 @@ const t: ShipType = {
         es: 'Gran maestro',
         fr: 'Grand Maître',
       },
-      hyperspace: true,
+      standard: true,
       force: { value: 3, recovers: 1, side: ['light'] },
       ability: {
         en:

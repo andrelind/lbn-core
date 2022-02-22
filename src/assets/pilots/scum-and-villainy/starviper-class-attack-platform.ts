@@ -91,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 49,
+      cost: 5,
       xws: 'blacksunassassin',
       text: {
         en:
@@ -107,12 +107,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
       ffg: 181,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_181.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -123,7 +125,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 45,
+      cost: 5,
       xws: 'blacksunenforcer',
       text: {
         en:
@@ -139,12 +141,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
       ffg: 182,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_182.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Dalan Oberos' },
@@ -172,7 +176,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
       ffg: 179,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
@@ -190,7 +194,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 60,
+      cost: 7,
       xws: 'guri',
       ability: {
         en:
@@ -220,13 +224,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg',
       ffg: 178,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Prince Xizor', de: 'Prinz Xizor', es: 'Príncipe Xizor' },
@@ -238,7 +244,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 51,
+      cost: 5,
       xws: 'princexizor',
       ability: {
         en:
@@ -254,12 +260,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg',
       ffg: 180,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_180.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
 };

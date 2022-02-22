@@ -34,7 +34,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -71,7 +71,7 @@ const t: UpgradeBase[] = [
         character: ['darthvader', 'darthvader-tieddefender'],
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -103,7 +103,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 8 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -135,7 +135,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 8 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -168,7 +168,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 6 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -201,7 +201,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 10 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -239,7 +239,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 12 },
     restrictions: [{ factions: ['Galactic Empire'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -272,7 +272,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -304,7 +304,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 10 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -335,7 +335,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 9 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -371,7 +371,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -404,7 +404,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 26 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -440,7 +440,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -480,7 +480,7 @@ const t: UpgradeBase[] = [
       { factions: ['First Order'] },
       { chassis: ['tiesffighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -517,7 +517,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ arcs: ['Rear Arc'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -557,7 +557,7 @@ const t: UpgradeBase[] = [
       values: { Small: 9, Medium: 8, Large: 7, Huge: 7 },
     },
     restrictions: [{ action: { type: 'Rotate Arc' } }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -589,7 +589,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 9 },
     restrictions: [{ factions: ['Resistance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -621,7 +621,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 6 },
     restrictions: [{ factions: ['Resistance'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -654,7 +654,7 @@ const t: UpgradeBase[] = [
     ],
     restrictions: [{ factions: ['Resistance'] }],
     cost: { value: 10 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -686,7 +686,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 12 },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
@@ -725,7 +725,7 @@ const t: UpgradeBase[] = [
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
     cost: { value: 8 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -762,7 +762,7 @@ const t: UpgradeBase[] = [
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
     cost: { value: 4 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -789,7 +789,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/d6d9f440cf8d6965a879db163d42d402.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
   },
@@ -826,7 +826,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Republic'] }],
   },
@@ -863,13 +863,13 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
     limited: 0,
     xws: 'weaponssystemsofficer',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -922,7 +922,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/239d3285c1e55ae021c63a3f0f19985f.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ factions: ['Rebel Alliance'] }],
   },
@@ -945,7 +945,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [{ factions: ['First Order'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -977,7 +977,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['First Order'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
 ];

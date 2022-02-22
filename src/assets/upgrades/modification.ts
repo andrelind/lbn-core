@@ -36,7 +36,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -73,7 +73,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ action: { type: 'SLAM', difficulty: 'White' } }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -114,7 +114,7 @@ const t: UpgradeBase[] = [
       values: { '0': 4, '1': 4, '2': 4, '3': 4, '4': 5, '5': 6, '6': 7 },
     },
     restrictions: [{ baseSizes: ['Small'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -150,7 +150,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -192,7 +192,7 @@ const t: UpgradeBase[] = [
       values: { Small: 3, Medium: 4, Large: 7, Huge: 10 },
     },
     restrictions: [{ action: { type: 'Boost', difficulty: 'Red' } }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -229,7 +229,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { variable: 'agility', values: { '0': 2, '1': 3, '2': 5, '3': 7 } },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -265,7 +265,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -302,7 +302,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { variable: 'agility', values: { '0': 3, '1': 4, '2': 6, '3': 8 } },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -338,7 +338,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -375,7 +375,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { variable: 'agility', values: { '0': 3, '1': 4, '2': 6, '3': 8 } },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -412,7 +412,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -449,7 +449,7 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ chassis: ['belbullab22starfighter'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 4 },
   },
@@ -489,7 +489,7 @@ const t: UpgradeBase[] = [
       { factions: ['Galactic Republic'] },
       { action: { type: 'Lock' } },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 1 },
   },
@@ -526,7 +526,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 3 },
     restrictions: [{ equipped: ['Astromech'] }],
@@ -563,7 +563,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 1 },
   },
@@ -603,7 +603,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [
       { baseSizes: ['Small', 'Medium'] },
@@ -644,7 +644,7 @@ const t: UpgradeBase[] = [
         grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 3 },
   },
@@ -680,14 +680,14 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/fb6fef19ae0bf5b42d4da716f4826c26.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [{ chassis: ['t70xwing'] }],
   },
   {
     limited: 0,
     xws: 'independentcalculations',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -729,7 +729,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'precisionionengines',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -767,7 +767,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'mandalorianoptics',
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 0 },
     sides: [
@@ -791,7 +791,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'beskarreinforcedplating',
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 0 },
     sides: [

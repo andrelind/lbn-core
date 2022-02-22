@@ -36,7 +36,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -73,7 +73,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -109,7 +109,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -145,7 +145,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -184,7 +184,7 @@ const t: UpgradeBase[] = [
       variable: 'initiative',
       values: { '0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6 },
     },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -227,7 +227,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -263,7 +263,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ action: { type: 'SLAM' } }],
   },
@@ -301,7 +301,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Huge'] }],
   },
@@ -338,7 +338,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Huge'] }],
   },
@@ -375,14 +375,14 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 8 },
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Huge'] }],
   },
   {
     limited: 0,
     xws: 'falsetranspondercodes',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -419,7 +419,7 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'babufrik',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {
@@ -440,7 +440,7 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'overtunedmodulators',
-    hyperspace: true,
+    standard: true,
     sides: [
       {
         ability: {

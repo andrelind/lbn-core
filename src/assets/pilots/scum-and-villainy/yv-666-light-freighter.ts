@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 60,
+      cost: 3,
       xws: 'bossk',
       ability: {
         en:
@@ -84,13 +84,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg',
       ffg: 210,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['Bounty Hunter', 'Freighter'],
+      keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_210.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Latts Razzi' },
@@ -102,7 +104,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 55,
+      cost: 6,
       xws: 'lattsrazzi',
       ability: {
         en:
@@ -128,13 +130,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
       ffg: 212,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Bounty Hunter', 'Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_212.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'Moralo Eval' },
@@ -146,7 +150,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 64,
+      cost: 7,
       xws: 'moraloeval',
       ability: {
         en:
@@ -173,13 +177,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
       ffg: 211,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_211.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: {
@@ -190,7 +196,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 51,
+      cost: 6,
       xws: 'trandoshanslaver',
       text: {
         en:
@@ -215,13 +221,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
       ffg: 213,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_213.png',
       },
+      loadout: 6,
+      extended: true,
     },
   ],
 };

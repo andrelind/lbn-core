@@ -88,7 +88,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 4,
       xws: 'constablezuvio',
       ability: {
         en:
@@ -104,12 +104,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
       ffg: 161,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       name: {
@@ -120,7 +122,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 29,
+      cost: 4,
       xws: 'jakkugunrunner',
       text: {
         en:
@@ -136,12 +138,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
       ffg: 164,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_164.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Sarco Plank' },
@@ -153,7 +157,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 29,
+      cost: 4,
       xws: 'sarcoplank',
       ability: {
         en:
@@ -169,13 +173,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
       ffg: 162,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_162.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Unkar Plutt' },
@@ -187,7 +193,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 29,
+      cost: 4,
       xws: 'unkarplutt',
       ability: {
         en:
@@ -203,12 +209,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
       ffg: 163,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_163.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
 };

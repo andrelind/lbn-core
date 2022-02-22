@@ -73,7 +73,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 28,
+      cost: 2,
       xws: 'ahhav',
       ability: {
         en:
@@ -89,13 +89,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 442,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -111,7 +113,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 30,
+      cost: 4,
       xws: 'captainseevor',
       ability: {
         en:
@@ -128,13 +130,15 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Modification'],
       ffg: 443,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -151,7 +155,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 3,
       xws: 'foremanproach',
       ability: {
         en:
@@ -167,13 +171,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 441,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: {
@@ -184,7 +190,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 23,
+      cost: 3,
       xws: 'miningguildsurveyor',
       text: {
         en:
@@ -200,13 +206,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
       slots: ['Talent', 'Modification'],
       ffg: 445,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -222,7 +230,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 24,
+      cost: 3,
       xws: 'overseeryushyn',
       ability: {
         en:
@@ -239,13 +247,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
       slots: ['Modification'],
       ffg: 444,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -256,7 +266,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 22,
+      cost: 3,
       xws: 'miningguildsentry',
       text: {
         en:
@@ -272,13 +282,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
       slots: ['Modification'],
       ffg: 446,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png',
       },
+      loadout: 0,
+      extended: true,
     },
   ],
 };

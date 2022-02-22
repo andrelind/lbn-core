@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 45,
+      cost: 6,
       xws: 'captainnym',
       ability: {
         en:
@@ -78,12 +78,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
       ffg: 204,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_204.png',
       },
+      loadout: 17,
+      extended: true,
     },
     {
       name: {
@@ -94,7 +96,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 43,
+      cost: 5,
       xws: 'lokrevenant',
       text: {
         en:
@@ -118,12 +120,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
       ffg: 206,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Sol Sixxa' },
@@ -134,7 +138,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 44,
+      cost: 5,
       xws: 'solsixxa',
       ability: {
         en:
@@ -159,12 +163,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',
       ffg: 205,
-      hyperspace: false,
+      standard: false,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_205.png',
       },
+      loadout: 12,
+      extended: true,
     },
   ],
 };

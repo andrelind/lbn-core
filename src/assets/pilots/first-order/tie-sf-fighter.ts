@@ -103,7 +103,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 44,
+      cost: 6,
       xws: 'quickdraw',
       ability: {
         en:
@@ -120,13 +120,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
       ffg: 406,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: '"Backdraft"', de: '„Backdraft"', es: '"Llamarada"' },
@@ -138,7 +140,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 36,
+      cost: 4,
       xws: 'backdraft',
       ability: {
         en:
@@ -154,13 +156,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
       ffg: 407,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -171,7 +175,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 33,
+      cost: 4,
       xws: 'omegasquadronexpert',
       text: {
         en:
@@ -187,13 +191,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
       ffg: 408,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -204,7 +210,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 32,
+      cost: 4,
       xws: 'zetasquadronsurvivor',
       text: {
         en:
@@ -220,25 +226,27 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
       ffg: 409,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant LeHuse', es: 'Teniente LeHuse' },
       initiative: 5,
       limited: 1,
-      cost: 37,
+      cost: 5,
       xws: 'lieutenantlehuse',
       slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg',
       ffg: 641,
-      hyperspace: false,
+      standard: true,
       epic: true,
       caption: {
         en: 'Unflinching Executioner',
@@ -261,6 +269,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: {
@@ -270,12 +280,12 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 34,
+      cost: 4,
       xws: 'captainphasma',
       slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg',
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 642,
       caption: {
@@ -299,6 +309,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/7c0bc32446e17991aff226d0fcab7b19.png',
       },
+      loadout: 14,
+      extended: true,
     },
   ],
 };

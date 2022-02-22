@@ -61,7 +61,7 @@ const t: ShipType = {
         fr: 'Intelligence Adaptative',
         es: 'Intelecto adaptativo',
       },
-      cost: 38,
+      cost: 5,
       initiative: 1,
       limited: 1,
       ability: {
@@ -83,7 +83,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 666,
       keywords: ['Droid'],
@@ -93,6 +93,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1cd30a5d258ff70472e785c816139d1f.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       xws: 'baktoiddrone',
@@ -102,7 +104,7 @@ const t: ShipType = {
         fr: 'Drone Baktoid',
         es: 'Dron baktoide',
       },
-      cost: 37,
+      cost: 5,
       initiative: 1,
       limited: 0,
       slots: [
@@ -114,7 +116,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       ffg: 669,
       text: {
@@ -134,6 +136,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8117e7b2349219b237157bfeda3028d0.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'geonosianprototype',
@@ -149,7 +153,7 @@ const t: ShipType = {
         fr: 'Protocoles de Dévastation',
         es: 'Protocolos de devastación',
       },
-      cost: 38,
+      cost: 5,
       initiative: 2,
       limited: 2,
       ability: {
@@ -171,7 +175,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 668,
       keywords: ['Droid'],
@@ -181,6 +185,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3a95eb82b3cf0420376c75f649d436ee.jpg',
+      loadout: 18,
+      extended: true,
     },
     {
       xws: 'dgs286',
@@ -191,7 +197,7 @@ const t: ShipType = {
         fr: "Protocoles d'Embuscade",
         es: 'Protocolos de emboscada',
       },
-      cost: 39,
+      cost: 5,
       initiative: 3,
       limited: 1,
       ability: {
@@ -213,7 +219,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 664,
       keywords: ['Droid'],
@@ -223,6 +229,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/20ce8cad5b251ad3ea16d849297e82db.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       xws: 'onderonoppressor',
@@ -238,7 +246,7 @@ const t: ShipType = {
         fr: "Module d'Attaque Atmosphérique",
         es: 'Módulo de ataque atmosférico',
       },
-      cost: 40,
+      cost: 4,
       initiative: 3,
       limited: 2,
       ability: {
@@ -260,7 +268,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 665,
       keywords: ['Droid'],
@@ -270,6 +278,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ba5a6c72eb21bd7bd58c9f7072dd0fdd.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       name: {
@@ -291,7 +301,7 @@ const t: ShipType = {
         es:
           'Cargada de municiones explosivas y protegida por escudos de rayos, una cañonera droide es capaz de arrasar con igual eficiencia formaciones de infantería y cazas estelares de la República.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
       slots: [
         'Missile',
@@ -302,7 +312,7 @@ const t: ShipType = {
         'Configuration',
         'Tactical Relay',
       ],
-      cost: 38,
+      cost: 5,
       ffg: 667,
       keywords: ['Droid'],
       image: {
@@ -311,6 +321,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg',
+      loadout: 8,
+      extended: true,
     },
   ],
   ffg: 75,

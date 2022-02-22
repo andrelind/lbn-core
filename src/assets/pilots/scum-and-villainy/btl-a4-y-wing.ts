@@ -51,7 +51,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 29,
+      cost: 4,
       xws: 'crymorahgoon',
       text: {
         en:
@@ -75,13 +75,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg',
       ffg: 168,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Drea Renthal' },
@@ -93,7 +95,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 46,
+      cost: 5,
       xws: 'drearenthal',
       ability: {
         en:
@@ -118,13 +120,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg',
       ffg: 166,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -135,7 +139,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 31,
+      cost: 4,
       xws: 'hiredgun',
       text: {
         en:
@@ -160,13 +164,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg',
       ffg: 167,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Kavil' },
@@ -178,7 +184,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 41,
+      cost: 6,
       xws: 'kavil',
       ability: {
         en:
@@ -203,13 +209,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg',
       ffg: 165,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       xws: 'leemakai',
@@ -220,7 +228,7 @@ const t: ShipType = {
         es: 'Cuando surge la oportunidad',
         fr: 'Frappe Opportuniste',
       },
-      cost: 39,
+      cost: 5,
       initiative: 5,
       limited: 1,
       ability: {
@@ -242,12 +250,14 @@ const t: ShipType = {
         'Astromech',
         'Device',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 898,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       xws: 'arlizhadrassian',
@@ -258,7 +268,7 @@ const t: ShipType = {
         es: 'Espada Carmesí',
         fr: 'Lame Pourpre',
       },
-      cost: 38,
+      cost: 5,
       initiative: 4,
       limited: 1,
       ability: {
@@ -280,12 +290,14 @@ const t: ShipType = {
         'Astromech',
         'Device',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 899,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg',
+      loadout: 13,
+      extended: true,
     },
     {
       xws: 'amaxinewarrior',
@@ -295,7 +307,7 @@ const t: ShipType = {
         es: 'Guerrero amaxino',
         fr: 'Guerrier Amaxine',
       },
-      cost: 33,
+      cost: 4,
       initiative: 3,
       limited: 0,
       slots: [
@@ -307,7 +319,7 @@ const t: ShipType = {
         'Astromech',
         'Device',
       ],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 901,
@@ -323,6 +335,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg',
+      loadout: 6,
+      extended: true,
     },
     {
       xws: 'padric',
@@ -333,7 +347,7 @@ const t: ShipType = {
         es: 'Terrorista de la servilleta',
         fr: 'Attentat de la Serviette',
       },
-      cost: 36,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -355,12 +369,14 @@ const t: ShipType = {
         'Astromech',
         'Device',
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 900,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'jinatasecurityofficer',
@@ -370,11 +386,11 @@ const t: ShipType = {
         es: 'Agente de Seguridad Jinata',
         fr: 'Officier de la Sécurité Jinata',
       },
-      cost: 30,
+      cost: 4,
       initiative: 2,
       limited: 0,
       slots: ['Tech', 'Turret', 'Torpedo', 'Missile', 'Astromech', 'Device'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['Y-wing'],
       ffg: 902,
@@ -390,6 +406,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg',
+      loadout: 4,
+      extended: true,
     },
   ],
 };

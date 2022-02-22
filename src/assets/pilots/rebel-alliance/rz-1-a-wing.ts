@@ -93,7 +93,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
       ffg: 20,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
@@ -126,7 +126,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['A-wing'],
       image: {
@@ -160,7 +160,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
       ffg: 19,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
@@ -193,7 +193,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
-      hyperspace: false,
+      standard: false,
       epic: true,
       keywords: ['A-wing'],
       image: {
@@ -224,7 +224,7 @@ const t: ShipType = {
           'Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Front Arc], il lance 1 dé de défense en moins.',
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       ffg: 883,
@@ -254,7 +254,7 @@ const t: ShipType = {
           "Tant que vous défendez ou effectuez une attaque, si la portée d'attaque est de 1 et que vous êtes dans le [Front Arc] du vaisseau ennemi, vous pouvez changer 1 de vos résultats en un résultat [Evade] ou [Hit].",
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
       ffg: 885,
@@ -284,7 +284,7 @@ const t: ShipType = {
           "Tant qu'un autre vaisseau allié à portée 1-2 défend ou effectue une attaque, vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau.",
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing', 'Spectre'],
       ffg: 880,
@@ -310,7 +310,7 @@ const t: ShipType = {
       },
       force: { value: 3, side: ['light'], recovers: 1 },
       slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing', 'Light Side'],
       ffg: 881,
@@ -340,7 +340,7 @@ const t: ShipType = {
           'Tant que vous défendez ou effectuez une attaque principale, vous pouvez dépenser 1 verrouillage que vous avez sur le vaisseau ennemi pour ajouter 1 résultat [Focus] aux résultats de vos dés.',
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       ffg: 882,
@@ -365,7 +365,7 @@ const t: ShipType = {
           'Après avoir verrouillé ou avoir dépensé un verrouillage, vous pouvez vous retirer 1 marqueur rouge.',
       },
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       ffg: 884,

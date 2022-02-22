@@ -86,7 +86,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 40,
+      cost: 5,
       xws: 'lulolampar',
       ability: {
         en:
@@ -102,13 +102,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg',
       ffg: 435,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'Tallissan Lintra' },
@@ -120,7 +122,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 37,
+      cost: 5,
       xws: 'tallissanlintra',
       ability: {
         en:
@@ -137,13 +139,15 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
       ffg: 436,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/72cb6c4e50b0ad24af0bb84ce0aa53f0.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Zari Bangel' },
@@ -155,7 +159,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 35,
+      cost: 5,
       xws: 'zaribangel',
       ability: {
         en:
@@ -171,20 +175,22 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg',
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
       ffg: 438,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Greer Sonnel' },
       caption: { en: 'Kothan Si' },
       initiative: 4,
       limited: 1,
-      cost: 36,
+      cost: 4,
       xws: 'greersonnel',
       ability: {
         en:
@@ -200,13 +206,15 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg',
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
       ffg: 437,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: {
@@ -216,7 +224,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 34,
+      cost: 4,
       xws: 'greensquadronexpert',
       text: {
         en:
@@ -232,13 +240,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg',
       ffg: 439,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -249,7 +259,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 33,
+      cost: 4,
       xws: 'bluesquadronrecruit',
       text: {
         en:
@@ -265,19 +275,21 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg',
       ffg: 440,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Zizi Tlo' },
       initiative: 5,
       limited: 1,
-      cost: 41,
+      cost: 5,
       xws: 'zizitlo',
       ability: {
         en:
@@ -291,7 +303,7 @@ const t: ShipType = {
       },
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Talent', 'Tech', 'Missile'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 638,
       caption: {
@@ -307,12 +319,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg',
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Ronith Blario' },
       initiative: 2,
       limited: 1,
-      cost: 34,
+      cost: 4,
       xws: 'ronithblario',
       ability: {
         en:
@@ -325,7 +339,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, si la nave enemiga se halla en el [Single Turret Arc] de otra nave aliada, puedes gastar 1 ficha de Concentración de esa nave aliada para cambiar 1 de tus resultados [Focus] por un resultado [Evade] o [Hit] .',
       },
       slots: ['Talent', 'Tech', 'Missile'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 639,
       caption: {
@@ -341,6 +355,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       xws: 'merlcobben',
@@ -351,7 +367,7 @@ const t: ShipType = {
         es: 'Osado señuelo',
         fr: 'Perturbateur Casse-Cou',
       },
-      cost: 33,
+      cost: 3,
       initiative: 1,
       limited: 1,
       ability: {
@@ -365,7 +381,7 @@ const t: ShipType = {
           "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque principale, si vous êtes dans le [Bullseye Arc] du défenseur, ce dernier lance 1 dé de défense en moins.",
       },
       slots: ['Talent', 'Missile', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 704,
       keywords: ['A-wing'],
@@ -375,6 +391,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       xws: 'suralindajavos',
@@ -385,7 +403,7 @@ const t: ShipType = {
         es: 'Periodista inquisitiva',
         fr: 'Journaliste Curieuse',
       },
-      cost: 35,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -399,7 +417,7 @@ const t: ShipType = {
           'Après avoir partiellement exécuté une manœuvre, vous pouvez gagner 1 marqueur de contrainte pour pivoter de 90° ou 180°.',
       },
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 703,
       keywords: ['A-wing'],
@@ -409,6 +427,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'wrobietyce',
@@ -419,7 +439,7 @@ const t: ShipType = {
         es: 'Artista de las acrobacias',
         fr: 'Acrobate Dynamique',
       },
-      cost: 35,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability: {
@@ -433,7 +453,7 @@ const t: ShipType = {
           "Après que vous avez défendu à portée d'attaque 1, si l'attaquant a modifié ses dés, il gagne un marqueur d'épuisement.",
       },
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 702,
       keywords: ['A-wing'],
@@ -443,6 +463,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Seftin Vanik', es: 'Vanik Septin', fr: 'Vanik Septin' },
@@ -454,7 +476,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 37,
+      cost: 4,
       xws: 'seftinvanik',
       ability: {
         en:
@@ -467,7 +489,7 @@ const t: ShipType = {
           "Après avoir effectué une action [Boost], vous pouvez transférer 1 marqueur d'évasion à un vaisseau allié à portée 1.",
       },
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
-      hyperspace: true,
+      standard: true,
       epic: true,
       ffg: 701,
       keywords: ['A-wing'],
@@ -477,6 +499,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg',
+      loadout: 5,
+      extended: true,
     },
   ],
 };

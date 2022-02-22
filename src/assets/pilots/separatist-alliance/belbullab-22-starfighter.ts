@@ -72,9 +72,9 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, si no estás situado en el arco de fuego del defensor, puedes volver a tirar hasta 2 dados de ataque.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 44,
+      cost: 5,
       slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
       ffg: 492,
       artwork:
@@ -83,6 +83,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Wat Tambor' },
@@ -105,9 +107,9 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, puedes volver a tirar 1 dado de ataque por cada nave aliada calculando que esté situada a alcance 1 del defensor.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 42,
+      cost: 4,
       slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
       ffg: 493,
       artwork:
@@ -116,6 +118,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: {
@@ -151,9 +155,9 @@ const t: ShipType = {
           type: 'Boost',
         },
       ],
-      hyperspace: false,
+      standard: true,
       epic: true,
-      cost: 35,
+      cost: 4,
       slots: ['Modification', 'Title', 'Tactical Relay'],
       ffg: 496,
       artwork:
@@ -163,6 +167,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/538c4833605af80b226da9e5f800e6ef.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: { en: 'Captain Sear', fr: 'Capitaine Sear', es: 'Capitán Sear' },
@@ -185,9 +191,9 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-3 efectúa un ataque principal, si el defensor está situado en el [Bullseye Arc] del atacante, antes del paso de "Neutralizar los resultados", la nave aliada puede gastar 1 ficha de Cálculos para anular 1 resultado [Evade].',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 45,
+      cost: 5,
       slots: ['Modification', 'Title', 'Tactical Relay'],
       ffg: 494,
       artwork:
@@ -196,6 +202,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: {
@@ -205,7 +213,7 @@ const t: ShipType = {
         es: 'As skakoano',
       },
       xws: 'skakoanace',
-      cost: 38,
+      cost: 4,
       slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
       ffg: 495,
       initiative: 3,
@@ -222,12 +230,14 @@ const t: ShipType = {
         es:
           'Con sus potentes motores, devastadores cañones láser triples y amplio nivel de personalización, el Belbullab-22 es la nave favorita de varios pilotos de élite de la Alianza Separatista, entre ellos el infame general Grievous.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png',
       },
+      loadout: 4,
+      extended: true,
     },
   ],
   ffg: 58,

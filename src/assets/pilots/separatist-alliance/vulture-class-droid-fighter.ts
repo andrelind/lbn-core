@@ -94,9 +94,9 @@ const t: ShipType = {
         es:
           'La Federación de Comercio desplegó incontables droides Buitre en la batalla de Naboo, y continuó utilizando estos cazas estelares tan baratos en las Guerras Clon.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 21,
+      cost: 2,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 498,
       artwork:
@@ -106,6 +106,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/4d8ed38f907fb4869611add738abda11.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -133,9 +135,9 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si el defensor está situado en tu [Bullseye Arc], puedes volver a tirar 1 resultado de cara vacía.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 24,
+      cost: 3,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 500,
       artwork:
@@ -145,6 +147,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/44cd712b4db9f34091cff73a4fda4303.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -172,9 +176,9 @@ const t: ShipType = {
         es:
           'Después de que una nave enemiga que tengas en tu [Bullseye Arc] a alcance 0-2 declare otra nave aliada como el defensor, puedes realizar una acción [Calculate] o [Lock].',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 22,
+      cost: 3,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 502,
       artwork:
@@ -184,6 +188,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/91421be1f3bbbefd005c1b2682f0bc44.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'DFS-081' },
@@ -206,9 +212,9 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-1 se defiende, esa nave puede gastar 1 ficha de Cálculos para cambiar todos los resultados [Critical Hit] por resultados [Hit] results.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 23,
+      cost: 3,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 499,
       artwork:
@@ -218,6 +224,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: {
@@ -239,9 +247,9 @@ const t: ShipType = {
         es:
           'A medida que las Guerras Clon se recrudecen, la Alianza Separatista sigue desarrollando la tecnología de cazas estelares droide, así como la de los droides tácticos que los coordinan.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 21,
+      cost: 3,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 497,
       artwork:
@@ -251,6 +259,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/64e75b9a1024ac0c909634e62e165b2e.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'DFS-311' },
@@ -273,9 +283,9 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, puedes transferir 1 de tus fichas de Cálculos a otra nave aliada que tengas a alcance 0-3.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 23,
+      cost: 3,
       slots: ['Missile', 'Modification', 'Configuration'],
       ffg: 501,
       artwork:
@@ -285,6 +295,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/741f05dbe0f7e56fc9918b86bdb0e3fb.png',
       },
+      loadout: 12,
+      extended: true,
     },
   ],
   ffg: 59,

@@ -63,10 +63,10 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       xws: 'dist81',
-      hyperspace: false,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 37,
+      cost: 4,
       caption: {
         en: 'Clever Circuits',
         de: 'Clevere Schaltkreise',
@@ -91,6 +91,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/dcb7fa7d662c724a28e03ddb3370da25.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -108,7 +110,7 @@ const t: ShipType = {
         es: 'Protocolo de análisis predictivo',
         fr: "Protocole d'Analyse Prédictive",
       },
-      hyperspace: false,
+      standard: false,
       ability: {
         en:
           "During the System Phase, you may spend your lock on a ship to look at that ship's dial.",
@@ -120,7 +122,7 @@ const t: ShipType = {
           'Pendant la phase de système, vous pouvez dépenser votre verrouillage sur un vaisseau pour regarder son cadran de manœuvres.',
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 38,
+      cost: 5,
       epic: true,
       ffg: 796,
       keywords: ['Droid'],
@@ -130,6 +132,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/eb98630629620582fd4c0d091205da1f.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -147,7 +151,7 @@ const t: ShipType = {
         es: 'Persecución obsesiva',
         fr: 'Poursuivant Obsédé',
       },
-      hyperspace: false,
+      standard: true,
       ability: {
         en:
           'Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship.',
@@ -160,7 +164,7 @@ const t: ShipType = {
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       conditions: ['fearfulprey'],
-      cost: 36,
+      cost: 5,
       epic: true,
       ffg: 797,
       keywords: ['Droid'],
@@ -170,6 +174,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a98ea9c3fc6a99ebda7b5c841d5c179e.jpg',
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'DIS-347' },
@@ -182,7 +188,7 @@ const t: ShipType = {
         es: 'Objetivo adquirido',
         fr: 'Cible Acquise',
       },
-      hyperspace: false,
+      standard: true,
       ability: {
         en:
           'At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.',
@@ -194,7 +200,7 @@ const t: ShipType = {
           "Au début de la phase d'engagement, vous pouvez verrouiller un objet à portée 1-3 qui a un verrouillage allié.",
       },
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 36,
+      cost: 4,
       epic: true,
       ffg: 795,
       keywords: ['Droid'],
@@ -204,6 +210,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/805930d3844bde8727c6bb17eb973c8e.jpg',
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -225,9 +233,9 @@ const t: ShipType = {
         fr:
           "Déployés tardivement durant la Guerre des Clones, ces chasseurs agressifs, et les nuées de droïdes buzz qu'ils transportent, sont une menace sérieuse même pour les pilotes Jedi vétérans.",
       },
-      hyperspace: true,
+      standard: true,
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 35,
+      cost: 4,
       epic: true,
       ffg: 798,
       keywords: ['Droid'],
@@ -237,6 +245,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3981f72bca3374e9654a11d70531354e.jpg',
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -258,9 +268,9 @@ const t: ShipType = {
         fr:
           "Conçu par le nid de création colicoïde et assemblé par Phlac-Arphocc Automata Industries, le processeur heuristique des Tri-Chasseurs Droïdes permet à ces redoutables appareils d'analyser et de s'adapter en temps réel aux tactiques de l'adversaire.",
       },
-      hyperspace: true,
+      standard: true,
       slots: ['Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 34,
+      cost: 4,
       epic: true,
       ffg: 799,
       keywords: ['Droid'],
@@ -270,6 +280,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a0b36a5320377ef6cb2611e4d0d39a6a.jpg',
+      loadout: 4,
+      extended: true,
     },
   ],
   ffg: 77,

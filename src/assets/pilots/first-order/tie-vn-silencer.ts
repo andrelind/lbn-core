@@ -85,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 61,
+      cost: 6,
       ability: {
         en:
           'While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.',
@@ -100,13 +100,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/20308b5887fb20d6b8ecdb3ede0bede3.jpg',
       ffg: 415,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/c5659b210e13b4e11fdd5f1396f2847c.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Kylo Ren' },
@@ -119,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 77,
+      cost: 7,
       ability: {
         en:
           "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
@@ -136,13 +138,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg',
       ffg: 414,
-      hyperspace: true,
+      standard: true,
       epic: true,
-      keywords: ['Dark Side', 'TIE'],
+      keywords: ['Dark Side', 'Light Side', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: {
@@ -154,7 +158,7 @@ const t: ShipType = {
       xws: 'firstordertestpilot',
       initiative: 4,
       limited: 0,
-      cost: 56,
+      cost: 5,
       text: {
         en:
           'Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft.',
@@ -169,13 +173,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/86349c032fc169cb2000d3db7c9fbef4.jpg',
       ffg: 416,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/568abbcd68bb174173da4e7ee92051e3.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: { en: '"Recoil"', de: '„Recoil"', es: '"Retroceso"' },
@@ -187,7 +193,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 56,
+      cost: 5,
       ability: {
         en:
           'While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].',
@@ -202,13 +208,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c4590088696ecc687f5c0f004d1d97ab.jpg',
       ffg: 455,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/ab11858b2b9ac5c8bbfb2dc21023ba34.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: '"Avenger"', de: '„Avenger"', es: '"Vengador"' },
@@ -221,7 +229,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 56,
+      cost: 6,
       ability: {
         en:
           'After another friendly ship is destroyed, you may perform an action, even while stressed.',
@@ -236,13 +244,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
       ffg: 456,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/d90d3057ead18b5df5f6de55a199a4cd.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -254,7 +264,7 @@ const t: ShipType = {
       xws: 'sienarjaemusengineer',
       initiative: 1,
       limited: 0,
-      cost: 50,
+      cost: 5,
       text: {
         en:
           'Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.',
@@ -269,13 +279,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg',
       ffg: 417,
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/8f7c4680fbc001169baf6538ab259e9b.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: { en: '"Rush"', de: '„Rush"', es: '"Subidón"' },
@@ -288,7 +300,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 57,
+      cost: 6,
       ability: {
         en: 'While you are damaged, treat your initiative as 6.',
         de:
@@ -302,13 +314,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3b748daed26df2870694ab9dc679c5ee.jpg',
       ffg: 643,
-      hyperspace: true,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/886d715885da65bdf10ad7c68e4d0a93.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
 };

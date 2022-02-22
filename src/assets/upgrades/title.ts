@@ -34,7 +34,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -69,7 +69,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ factions: ['Resistance'] }, { chassis: ['t70xwing'] }],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -104,7 +104,7 @@ const t: UpgradeBase[] = [
       { factions: ['Galactic Empire'] },
       { chassis: ['vt49decimator'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -139,7 +139,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance'] },
       { chassis: ['vcx100lightfreighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -178,7 +178,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['scurrgh6bomber'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -209,7 +209,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['yv666lightfreighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -244,7 +244,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['aggressorassaultfighter'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -284,7 +284,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['customizedyt1300lightfreighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -320,7 +320,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -362,7 +362,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance'] },
       { chassis: ['modifiedyt1300lightfreighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -402,7 +402,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['g1astarfighter'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -438,7 +438,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance', 'Scum and Villainy'] },
       { chassis: ['hwk290lightfreighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -473,7 +473,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance'] },
       { chassis: ['yt2400lightfreighter'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -504,7 +504,7 @@ const t: UpgradeBase[] = [
       { factions: ['Rebel Alliance'] },
       { chassis: ['attackshuttle', 'sheathipedeclassshuttle'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -547,7 +547,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['jumpmaster5000'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -582,7 +582,7 @@ const t: UpgradeBase[] = [
       { factions: ['Galactic Empire'] },
       { chassis: ['lambdaclasst4ashuttle'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -617,7 +617,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['lancerclasspursuitcraft'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -653,7 +653,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -690,7 +690,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 7 },
     restrictions: [{ chassis: ['starviperclassattackplatform'] }],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -727,7 +727,7 @@ const t: UpgradeBase[] = [
       { factions: ['Resistance'] },
       { chassis: ['scavengedyt1300'] },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -762,7 +762,7 @@ const t: UpgradeBase[] = [
       { factions: ['Separatist Alliance'] },
       { chassis: ['belbullab22starfighter'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 6 },
   },
@@ -801,7 +801,7 @@ const t: UpgradeBase[] = [
       { factions: ['Separatist Alliance'] },
       { chassis: ['sithinfiltrator'] },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 3 },
   },
@@ -833,7 +833,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 5 },
     restrictions: [
@@ -869,7 +869,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 8 },
     restrictions: [
@@ -900,7 +900,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/4f3cb0d471b9ea207665b120a5b27eb7.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 5 },
     restrictions: [
@@ -952,7 +952,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/1dca6b93927cdf20f638ddc7362e0f0f.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
     restrictions: [
@@ -988,7 +988,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
     restrictions: [
@@ -1020,7 +1020,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 6 },
     restrictions: [
@@ -1054,7 +1054,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/89af7f90118cad6862fa2acb79f05e24.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 3 },
     restrictions: [
@@ -1095,7 +1095,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 7 },
     restrictions: [
@@ -1127,7 +1127,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 5 },
     restrictions: [
@@ -1162,7 +1162,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 12 },
     restrictions: [
@@ -1198,7 +1198,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/9c35d5bc7124123ec8818e53912449bd.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 8 },
     restrictions: [
@@ -1233,7 +1233,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
     restrictions: [
@@ -1269,7 +1269,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 3 },
     restrictions: [
@@ -1301,7 +1301,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 6 },
     restrictions: [
@@ -1332,7 +1332,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
     restrictions: [
@@ -1367,7 +1367,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 5 },
     restrictions: [
@@ -1403,7 +1403,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 4 },
     restrictions: [
@@ -1438,7 +1438,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 7 },
     restrictions: [
@@ -1469,7 +1469,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg',
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     cost: { value: 7 },
     restrictions: [
@@ -1509,7 +1509,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     cost: { value: 1 },
     restrictions: [{ factions: ['Resistance'] }, { chassis: ['fireball'] }],
@@ -1517,7 +1517,7 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'slavei-swz82',
-    hyperspace: true,
+    standard: true,
     epic: true,
     sides: [
       {
@@ -1572,7 +1572,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/69e848f2da9a8f6f18d2f89096a94513.jpg',
       },
     ],
-    hyperspace: true,
+    standard: true,
     epic: true,
     restrictions: [
       { factions: ['Rebel Alliance'] },
@@ -1597,7 +1597,7 @@ const t: UpgradeBase[] = [
         ffg: 946,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ chassis: ['tridentclassassaultship'] }],
   },
@@ -1619,7 +1619,7 @@ const t: UpgradeBase[] = [
         ffg: 945,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [{ chassis: ['tridentclassassaultship'] }],
   },
@@ -1641,7 +1641,7 @@ const t: UpgradeBase[] = [
         ffg: 947,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [
       { factions: ['Separatist Alliance'] },
@@ -1666,7 +1666,7 @@ const t: UpgradeBase[] = [
         ffg: 948,
       },
     ],
-    hyperspace: false,
+    standard: false,
     epic: true,
     restrictions: [
       { factions: ['Separatist Alliance'] },

@@ -83,7 +83,7 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
     local.cost = pilot.cost;
     local.keywords = pilot.keywords;
     local.slots = pilot.slots;
-    local.hyperspace = pilot.hyperspace;
+    local.standard = pilot.standard;
 
     return local;
   });

@@ -37,7 +37,7 @@ const t: UpgradeBase[] = [
       variable: 'size',
       values: { Small: 13, Medium: 11, Large: 9, Huge: 200 },
     },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -74,7 +74,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -110,7 +110,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
   {
@@ -146,7 +146,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    hyperspace: false,
+    standard: false,
     epic: true,
   },
   {
@@ -186,7 +186,7 @@ const t: UpgradeBase[] = [
       variable: 'initiative',
       values: { '0': 4, '1': 4, '2': 4, '3': 4, '4': 5, '5': 6, '6': 7 },
     },
-    hyperspace: true,
+    standard: true,
     epic: true,
   },
 ];

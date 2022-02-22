@@ -65,9 +65,9 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque, puedes gastar 2 [Force] para efectuar un ataque principal adicional contra un objetivo diferente. Si tu primer ataque falló, puedes optar por efectuar este ataque principal adicional contra ese mismo objetivo.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
-      cost: 64,
+      cost: 8,
       slots: [
         'Cannon',
         'Torpedo',
@@ -87,6 +87,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Count Dooku', fr: 'Comte Dooku' },
@@ -105,9 +107,9 @@ const t: ShipType = {
         es:
           'Después de que te defiendas, si el atacante está situado en tu arco de fuego, puedes gastar 1 [Force] para retirar 1 de tus fichas azules o rojas. Después de que efectúes un ataque que impacte, puedes gastar 1 [Force] para realizar una acción.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
-      cost: 63,
+      cost: 8,
       slots: [
         'Cannon',
         'Torpedo',
@@ -127,6 +129,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png',
       },
+      loadout: 24,
+      extended: true,
     },
     {
       name: {
@@ -148,9 +152,9 @@ const t: ShipType = {
         es:
           'La nave que recibía el nombre de Cimitarra contaba con todo tipo de modificaciones y había sido equipada con tecnologías de sigilo y avanzados dispositivos de vigilancia para misiones de infiltración y asesinato.',
       },
-      hyperspace: true,
+      standard: true,
       epic: true,
-      cost: 50,
+      cost: 6,
       slots: [
         'Cannon',
         'Torpedo',
@@ -168,11 +172,13 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: '0-66' },
       xws: '066',
-      cost: 49,
+      cost: 6,
       slots: [
         'Talent',
         'Torpedo',
@@ -210,13 +216,15 @@ const t: ShipType = {
         es:
           'Después de que te defiendas, puedes gastar 1 ficha de Cálculos para realizar una acción.',
       },
-      hyperspace: false,
+      standard: true,
       epic: true,
       keywords: ['Droid'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',
       },
+      loadout: 11,
+      extended: true,
     },
   ],
   ffg: 60,
