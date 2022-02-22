@@ -289,7 +289,8 @@ const t: ShipType = {
         es: 'As arrogante',
         fr: 'As Arrogant',
       },
-      cost: 43,
+      cost: 4,
+      loadout: 6,
       initiative: 5,
       limited: 1,
       ability: {

@@ -93,7 +93,8 @@ const t: ShipType = {
         fr: 'Commandant Malarus',
         es: 'Comandante Malarus',
       },
-      cost: 44,
+      cost: 5,
+      loadout: 15,
       limited: 1,
       initiative: 5,
       caption: {
