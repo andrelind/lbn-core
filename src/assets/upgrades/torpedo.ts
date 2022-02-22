@@ -41,9 +41,10 @@ const t: UpgradeBase[] = [
         ffg: 262,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 8 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -88,6 +89,7 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -132,6 +134,7 @@ const t: UpgradeBase[] = [
     cost: { value: 12 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -174,8 +177,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 7 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'trackingtorpedoes',

@@ -36,8 +36,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -73,8 +74,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ action: { type: 'SLAM', difficulty: 'White' } }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -109,13 +111,11 @@ const t: UpgradeBase[] = [
         ffg: 294,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 4, '1': 4, '2': 4, '3': 4, '4': 5, '5': 6, '6': 7 },
-    },
+    cost: { value: 6 },
     restrictions: [{ baseSizes: ['Small'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -152,6 +152,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -187,13 +188,11 @@ const t: UpgradeBase[] = [
         ffg: 296,
       },
     ],
-    cost: {
-      variable: 'size',
-      values: { Small: 3, Medium: 4, Large: 7, Huge: 10 },
-    },
+    cost: { value: 3 },
     restrictions: [{ action: { type: 'Boost', difficulty: 'Red' } }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -228,9 +227,10 @@ const t: UpgradeBase[] = [
         ffg: 297,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 2, '1': 3, '2': 5, '3': 7 } },
+    cost: { value: 4 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -265,8 +265,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -301,9 +302,10 @@ const t: UpgradeBase[] = [
         ffg: 299,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 3, '1': 4, '2': 6, '3': 8 } },
-    standard: false,
+    cost: { value: 6 },
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -340,6 +342,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -374,9 +377,10 @@ const t: UpgradeBase[] = [
         ffg: 301,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 3, '1': 4, '2': 6, '3': 8 } },
+    cost: { value: 6 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -412,8 +416,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -451,7 +456,8 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['belbullab22starfighter'] }],
     standard: true,
     epic: true,
-    cost: { value: 4 },
+    cost: { value: 0 },
+    extended: true,
   },
   {
     xws: 'synchronizedconsole',
@@ -492,6 +498,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     cost: { value: 1 },
+    extended: true,
   },
   {
     limited: 0,
@@ -526,10 +533,11 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg',
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 3 },
     restrictions: [{ equipped: ['Astromech'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -563,9 +571,10 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg',
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 1 },
+    extended: true,
   },
   {
     limited: 0,
@@ -609,7 +618,8 @@ const t: UpgradeBase[] = [
       { baseSizes: ['Small', 'Medium'] },
       { stat: { type: 'shields', value: 1 } },
     ],
-    cost: { variable: 'agility', values: { '0': 6, '1': 3, '2': 1, '3': 1 } },
+    cost: { value: 4 },
+    extended: true,
   },
   {
     limited: 0,
@@ -644,17 +654,15 @@ const t: UpgradeBase[] = [
         grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 3 },
+    extended: true,
   },
   {
     xws: 'overdrivethruster',
     limited: 1,
-    cost: {
-      variable: 'initiative',
-      values: { '0': 2, '1': 3, '2': 4, '3': 5, '4': 6, '5': 7, '6': 8 },
-    },
+    cost: { value: 5 },
     sides: [
       {
         ability: {
@@ -683,6 +691,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['t70xwing'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -725,6 +734,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 0 },
+    extended: true,
   },
   {
     limited: 0,
@@ -762,14 +772,14 @@ const t: UpgradeBase[] = [
       { keywords: ['TIE'] },
       { stat: { type: 'agility', value: 3 } },
     ],
+    extended: true,
   },
-
   {
     limited: 0,
     xws: 'mandalorianoptics',
-    standard: false,
+    standard: true,
     epic: true,
-    cost: { value: 0 },
+    cost: { value: 5 },
     sides: [
       {
         ability: {
@@ -787,13 +797,14 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    extended: true,
   },
   {
     limited: 0,
     xws: 'beskarreinforcedplating',
-    standard: false,
+    standard: true,
     epic: true,
-    cost: { value: 0 },
+    cost: { value: 6 },
     sides: [
       {
         ability: {
@@ -811,6 +822,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    extended: true,
   },
 ];
 

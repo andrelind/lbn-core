@@ -1,8 +1,11 @@
 import * as ExcelJS from 'exceljs';
 import fs, { promises } from 'fs';
 import factionShips from '../../src/assets/pilots';
+import upgradesAssets from '../../src/assets/upgrades';
 import { factions } from '../../src/helpers/enums';
+import { keyFromSlot, slotFromKey } from '../../src/helpers/convert';
 import prettier from 'prettier';
+import { Slot } from '../../src/types';
 
 const findShipAndPilot = (name: string, subtitle: string) => {
   const shipsAndPilots = factions
@@ -24,10 +27,6 @@ const findShipAndPilot = (name: string, subtitle: string) => {
     .reduce((a, c) => [...a, ...c], [])
     .filter((x) => x);
 
-  //   console.log(
-  //     shipsAndPilots.map((s) => `${s?.ship.name.en} ${s?.pilot.name.en} ${name}`)
-  //   );
-
   if (shipsAndPilots.length > 1) {
     return shipsAndPilots.find(
       (p) => p?.pilot?.caption?.en.trimName === subtitle.trimName
@@ -36,7 +35,8 @@ const findShipAndPilot = (name: string, subtitle: string) => {
   return shipsAndPilots[0];
 };
 
-const runner = async () => {
+// @ts-ignore
+const runShips = async () => {
   const wbLoader = new ExcelJS.Workbook();
   const file = await promises.readFile('./scripts/amg/ship_points.xlsx');
   const wb = await wbLoader.xlsx.load(file);
@@ -114,6 +114,80 @@ const runner = async () => {
   });
 };
 
+const findUpgrade = (name: string, type: string) => {
+  const key = keyFromSlot(type as Slot);
+  const up = upgradesAssets[key].find(
+    (u) => u.sides[0].title.en.trimName() === name.trimName()
+  );
+
+  return up;
+};
+
+const runUpgrades = async () => {
+  const wbLoader = new ExcelJS.Workbook();
+  const file = await promises.readFile('./scripts/amg/upgrade_points.xlsx');
+  const wb = await wbLoader.xlsx.load(file);
+  // Read lists
+
+  wb.worksheets.forEach((ws) => {
+    ws.eachRow((row) => {
+      if (row.cellCount === 6 && row.getCell(1).text !== 'Upgrade Name') {
+        const name = row.getCell(1).text.replaceAll('•', '');
+        const upgradeType = row.getCell(2).text;
+        const cost = parseInt(row.getCell(3).text);
+        const std = row.getCell(5).toString();
+        const ext = row.getCell(6).toString();
+
+        let type = upgradeType
+          .substring(0, upgradeType.indexOf('('))
+          .split(',')
+          .map((s) => s.trim())[0];
+        if (type === 'Payload') {
+          type = 'Device';
+        }
+
+        const upgrade = findUpgrade(name, type);
+        if (!upgrade) {
+          console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
+          return;
+        }
+
+        upgrade.cost = { value: cost };
+        upgrade.standard = std === 'Yes' ? true : false;
+        upgrade.extended = ext === 'Yes' ? true : false;
+        upgrade.epic = true;
+
+        const key = keyFromSlot(type as Slot);
+
+        upgradesAssets[key][upgradesAssets[key].indexOf(upgrade)] = upgrade;
+
+        const f = upgradesAssets[key];
+
+        const header =
+          'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
+        const formatted = prettier.format(
+          `${header}${JSON.stringify(f)};\n\nexport default t;`,
+          {
+            trailingComma: 'all',
+            singleQuote: true,
+            parser: 'typescript',
+          }
+        );
+        fs.writeFileSync(
+          `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
+          formatted,
+          'utf8'
+        );
+      }
+    });
+  });
+};
+
+const runner = async () => {
+  // await runShips();
+  await runUpgrades();
+};
+
 runner();
 
 declare global {
@@ -134,13 +208,22 @@ String.prototype.replaceAll = function (search: string, replacement: string) {
   return target.replace(new RegExp(search, 'g'), replacement);
 };
 String.prototype.trimName = function () {
-  return this.replaceAll('•', '')
+  return this.toLowerCase()
+    .replaceAll('•', '')
     .replaceAll('“', '')
     .replaceAll('”', '')
     .replaceAll('’', '')
     .replaceAll("'", '')
     .replaceAll('"', '')
     .replaceAll('–', '-')
+    .replaceAll('(cyborg)', '')
+    .replaceAll('(open)', '')
+    .replaceAll('(perfected)', '')
+    .replaceAll('(open)', '')
+    .replaceAll('(closed)', '')
+    .replaceAll('(erratic)', '')
+    .replaceAll('(active)', '')
+    .replaceAll('(inactive)', '')
     .trim();
 };
 

@@ -34,8 +34,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -73,6 +74,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -108,8 +110,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['First Order'] }, { baseSizes: ['Large'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -143,13 +146,11 @@ const t: UpgradeBase[] = [
         ffg: 463,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 4, '1': 5, '2': 6, '3': 7, '4': 8, '5': 9, '6': 10 },
-    },
+    cost: { value: 6 },
     restrictions: [{ baseSizes: ['Small'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -186,6 +187,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -220,8 +222,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -257,8 +260,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     restrictions: [{ factions: ['First Order'] }, { action: { type: 'Lock' } }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -297,6 +301,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],
+    extended: true,
   },
   {
     xws: 'automatedtargetpriority',
@@ -334,6 +339,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ initiative: { max: 3 } }],
+    extended: true,
   },
   {
     xws: 'sensorbuoysuite',
@@ -374,6 +380,7 @@ const t: UpgradeBase[] = [
       { baseSizes: ['Medium', 'Large'] },
       { factions: ['First Order'] },
     ],
+    extended: true,
   },
   {
     limited: 0,
@@ -398,6 +405,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
+    extended: true,
   },
 ];
 

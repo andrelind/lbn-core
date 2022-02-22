@@ -112,6 +112,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['alphaclassstarwing'] }],
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -289,6 +290,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['alphaclassstarwing'] }],
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -386,13 +388,11 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 6, '1': 6, '2': 10, '3': 14, '4': 17, '5': 20, '6': 24 },
-    },
+    cost: { value: null },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
-    standard: true,
+    standard: false,
     epic: true,
+    extended: false,
   },
   {
     limited: 0,
@@ -426,13 +426,11 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg',
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 2, '1': 2, '2': 3, '3': 4, '4': 5, '5': 6, '6': 7 },
-    },
+    cost: { value: 0 },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -630,7 +628,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'alpha3bbesh',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         ability: {
@@ -659,6 +657,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['nimbusclassvwing'] }],
+    extended: true,
   },
   {
     xws: 'interceptbooster',
@@ -770,6 +769,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['tierbheavy'] }],
+    extended: true,
   },
   {
     xws: 'targetassistmgk300',
@@ -814,6 +814,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['tierbheavy'] }],
+    extended: true,
   },
   {
     xws: 'repulsorliftstabilizers',
@@ -909,6 +910,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 0 },
     restrictions: [{ chassis: ['nimbusclassvwing'] }],
+    extended: true,
   },
   {
     xws: 'sensitivecontrols',
@@ -943,6 +945,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['tieininterceptor', 'tievnsilencer'] }],
+    extended: true,
   },
   {
     xws: 'tiedefenderelite',
@@ -980,6 +983,7 @@ const t: UpgradeBase[] = [
       { factions: ['Galactic Empire'] },
       { chassis: ['tieddefender'] },
     ],
+    extended: true,
   },
   {
     xws: 'vectoredcannonsrz1',
@@ -1052,6 +1056,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     standarized: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -1101,6 +1106,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['tiewiwhispermodifiedinterceptor'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
 ];
 

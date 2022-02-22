@@ -35,8 +35,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     restrictions: [{ action: { type: 'Focus' } }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -72,8 +73,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -114,6 +116,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -149,10 +152,11 @@ const t: UpgradeBase[] = [
         ffg: 232,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 6 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -189,8 +193,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -228,13 +233,11 @@ const t: UpgradeBase[] = [
         ffg: 234,
       },
     ],
-    cost: {
-      variable: 'size',
-      values: { Small: 2, Medium: 3, Large: 4, Huge: 5 },
-    },
+    cost: { value: 2 },
     restrictions: [{ action: { type: 'Barrel Roll', difficulty: 'Red' } }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -272,6 +275,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['First Order'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -307,8 +311,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -339,8 +344,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -376,6 +382,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -404,10 +411,11 @@ const t: UpgradeBase[] = [
         ffg: 237,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 7 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -443,8 +451,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -479,8 +488,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -515,8 +525,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -553,6 +564,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -590,6 +602,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Galactic Empire'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -625,8 +638,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ action: { type: 'Reload' } }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -664,6 +678,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -701,12 +716,10 @@ const t: UpgradeBase[] = [
         ffg: 245,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 2, '1': 4, '2': 6, '3': 8, '4': 10, '5': 12, '6': 14 },
-    },
-    standard: false,
+    cost: { value: 8 },
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -740,12 +753,10 @@ const t: UpgradeBase[] = [
         ffg: 246,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 3, '1': 3, '2': 3, '3': 3, '4': 3, '5': 4, '6': 5 },
-    },
-    standard: false,
+    cost: { value: 5 },
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -780,8 +791,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'treacherous',
@@ -820,6 +832,7 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ factions: ['Separatist Alliance'] }],
     cost: { value: 2 },
+    extended: true,
   },
   {
     xws: 'dedicated',
@@ -860,6 +873,7 @@ const t: UpgradeBase[] = [
       { 'non-limited': true },
     ],
     cost: { value: 1 },
+    extended: true,
   },
   {
     xws: 'ensnare',
@@ -893,13 +907,11 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     restrictions: [{ chassis: ['nantexclassstarfighter'] }],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 19, '1': 19, '2': 19, '3': 19, '4': 19, '5': 21, '6': 24 },
-    },
+    cost: { value: 10 },
+    extended: true,
   },
   {
     xws: 'graviticdeflection',
@@ -937,6 +949,7 @@ const t: UpgradeBase[] = [
     epic: true,
     cost: { value: 4 },
     restrictions: [{ chassis: ['nantexclassstarfighter'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -979,10 +992,8 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: {
-      variable: 'size',
-      values: { Small: 7, Medium: 8, Large: 9, Huge: 10 },
-    },
+    cost: { value: 9 },
+    extended: true,
   },
   {
     limited: 0,
@@ -1080,6 +1091,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
+    extended: true,
   },
   {
     xws: 'ionlimiteroverride',
@@ -1113,6 +1125,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ keywords: ['TIE'] }],
+    extended: true,
   },
   {
     xws: 'margsablclosure',
@@ -1146,6 +1159,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
+    extended: true,
   },
   {
     xws: 'starbirdslash',
@@ -1179,6 +1193,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['rz1awing', 'rz2awing'] }],
+    extended: true,
   },
   {
     xws: 'backwardstailslide',
@@ -1212,6 +1227,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['t65xwing', 't70xwing'] }],
+    extended: true,
   },
   {
     xws: 'cutthroat',
@@ -1245,6 +1261,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
+    extended: true,
   },
   {
     xws: 'tierfonbellyrun',
@@ -1278,6 +1295,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ keywords: ['Y-wing'] }],
+    extended: true,
   },
   {
     xws: 'disciplined',
@@ -1311,6 +1329,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Empire'] }],
+    extended: true,
   },
   {
     xws: 'hopeful',
@@ -1344,6 +1363,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Rebel Alliance'] }],
+    extended: true,
   },
   {
     xws: 'interloperturn',
@@ -1374,9 +1394,10 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/1ae514eedd2e4129b311b69c4174e5f6.jpg',
       },
     ],
-    standard: true,
+    standard: false,
     epic: true,
     restrictions: [{ chassis: ['tieddefender'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -1399,6 +1420,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ keywords: ['TIE'] }, { action: { type: 'Reload' } }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -1419,10 +1441,11 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
-    cost: { value: 0 },
+    cost: { value: 3 },
     restrictions: [{ keywords: ['Mandalorian'] }],
+    extended: true,
   },
 ];
 

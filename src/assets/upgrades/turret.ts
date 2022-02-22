@@ -38,6 +38,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -85,6 +86,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     standard: true,
     epic: true,
+    extended: true,
   },
 ];
 

@@ -30,8 +30,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -62,8 +63,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -98,9 +100,10 @@ const t: UpgradeBase[] = [
         ffg: 282,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 3, '1': 3, '2': 5, '3': 8 } },
+    cost: { value: 6 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -130,10 +133,11 @@ const t: UpgradeBase[] = [
         ffg: 324,
       },
     ],
-    cost: { variable: 'agility', values: { '0': 4, '1': 6, '2': 8, '3': 10 } },
+    cost: { value: 8 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -170,6 +174,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -207,6 +212,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ baseSizes: ['Small'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -242,8 +248,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -277,6 +284,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -310,6 +318,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -338,6 +347,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -369,8 +379,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -401,8 +412,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -432,13 +444,11 @@ const t: UpgradeBase[] = [
         ffg: 479,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 1, '1': 2, '2': 3, '3': 4, '4': 5, '5': 6, '6': 7 },
-    },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -472,13 +482,11 @@ const t: UpgradeBase[] = [
         ffg: 480,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6 },
-    },
+    cost: { value: 6 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -509,8 +517,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'r4pastromech',
@@ -546,9 +555,10 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 2 },
+    extended: true,
   },
   {
     xws: 'r4p17',
@@ -579,9 +589,10 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 5 },
+    extended: true,
   },
   {
     xws: 'r4p44',
@@ -614,6 +625,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     cost: { value: 3 },
+    extended: true,
   },
   {
     limited: 1,
@@ -643,9 +655,10 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 3 },
+    extended: true,
   },
   {
     limited: 1,
@@ -678,6 +691,7 @@ const t: UpgradeBase[] = [
     standard: false,
     epic: true,
     cost: { value: 6 },
+    extended: true,
   },
   {
     limited: 1,
@@ -771,6 +785,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     cost: { value: 5 },
+    extended: true,
   },
   {
     xws: 'r2d2-republic',
@@ -857,6 +872,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Resistance'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -890,6 +906,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
   },
   {
     limited: 1,
@@ -919,6 +936,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
   },
   {
     xws: 'r4b11',
@@ -941,6 +959,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -961,6 +980,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -989,12 +1009,13 @@ const t: UpgradeBase[] = [
         ],
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [
       { action: { type: 'Rotate Arc' } },
       { factions: ['Resistance'] },
     ],
     epic: true,
+    extended: true,
   },
 ];
 

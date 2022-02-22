@@ -41,8 +41,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -86,6 +87,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -127,8 +129,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -170,8 +173,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -213,8 +217,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -259,6 +264,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -299,10 +305,11 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg',
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     restrictions: [{ action: { type: 'Reload' } }],
     cost: { value: 8 },
+    extended: true,
   },
   {
     limited: 0,
@@ -345,7 +352,8 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    cost: { value: 7 },
+    cost: { value: 5 },
+    extended: true,
   },
   {
     limited: 0,
@@ -386,9 +394,10 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    standard: false,
+    standard: true,
     epic: true,
     cost: { value: 4 },
+    extended: true,
   },
   {
     xws: 'concussionbombs',
@@ -432,6 +441,7 @@ const t: UpgradeBase[] = [
     limited: 0,
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -475,6 +485,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
+    extended: true,
   },
 ];
 

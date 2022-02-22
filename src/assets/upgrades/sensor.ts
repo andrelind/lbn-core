@@ -33,12 +33,10 @@ const t: UpgradeBase[] = [
         ffg: 252,
       },
     ],
-    cost: {
-      variable: 'size',
-      values: { Small: 13, Medium: 11, Large: 9, Huge: 200 },
-    },
+    cost: { value: 12 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -73,9 +71,10 @@ const t: UpgradeBase[] = [
         ffg: 253,
       },
     ],
-    cost: { value: 6 },
-    standard: false,
+    cost: { value: 9 },
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -112,6 +111,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -146,8 +146,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -182,12 +183,10 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 4, '1': 4, '2': 4, '3': 4, '4': 5, '5': 6, '6': 7 },
-    },
+    cost: { value: 5 },
     standard: true,
     epic: true,
+    extended: true,
   },
 ];
 

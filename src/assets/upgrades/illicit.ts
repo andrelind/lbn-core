@@ -36,8 +36,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -75,6 +76,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -111,6 +113,7 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -145,8 +148,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -180,12 +184,10 @@ const t: UpgradeBase[] = [
         ffg: 290,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6 },
-    },
+    cost: { value: 8 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -229,6 +231,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ baseSizes: ['Medium', 'Large'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -262,10 +265,11 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: { value: 1 },
-    standard: false,
+    cost: { value: 4 },
+    standard: true,
     epic: true,
     restrictions: [{ action: { type: 'SLAM' } }],
+    extended: true,
   },
   {
     limited: 1,
@@ -415,6 +419,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 3 },
+    extended: true,
   },
   {
     limited: 1,
@@ -434,8 +439,9 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Scum and Villainy', 'Resistance'] }],
-    cost: { value: 7 },
+    cost: { value: 5 },
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -458,6 +464,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     epic: true,
+    extended: true,
   },
 ];
 

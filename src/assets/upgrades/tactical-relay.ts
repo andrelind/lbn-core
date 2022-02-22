@@ -35,6 +35,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     cost: { value: 10 },
+    extended: true,
   },
   {
     xws: 'tv94',
@@ -65,8 +66,9 @@ const t: UpgradeBase[] = [
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
     cost: { value: 5 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'k2b4',
@@ -96,9 +98,10 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    cost: { value: 5 },
+    cost: { value: 6 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'ta175',
@@ -128,9 +131,10 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    standard: false,
+    standard: true,
     epic: true,
-    cost: { value: 11 },
+    cost: { value: 10 },
+    extended: true,
   },
   {
     xws: 'kalani',
@@ -167,6 +171,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Separatist Alliance'] }],
+    extended: true,
   },
 ];
 

@@ -41,8 +41,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -86,6 +87,7 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -127,8 +129,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 0 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -172,6 +175,7 @@ const t: UpgradeBase[] = [
     cost: { value: 4 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -212,8 +216,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 4 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'underslungblastercannon',
@@ -260,6 +265,7 @@ const t: UpgradeBase[] = [
       { factions: ['Resistance', 'Rebel Alliance'] },
       { chassis: ['t65xwing', 't70xwing'] },
     ],
+    extended: true,
   },
   {
     xws: 'syncedlasercannons',
@@ -303,6 +309,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
+    extended: true,
   },
 ];
 

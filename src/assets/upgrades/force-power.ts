@@ -36,6 +36,7 @@ const t: UpgradeBase[] = [
     cost: { value: 3 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -72,6 +73,7 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -103,6 +105,7 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -136,13 +139,11 @@ const t: UpgradeBase[] = [
         ffg: 251,
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 4, '1': 4, '2': 4, '3': 8, '4': 16, '5': 24, '6': 32 },
-    },
+    cost: { value: 24 },
     restrictions: [{ baseSizes: ['Small'] }],
     standard: false,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -177,8 +178,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -210,6 +212,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ sides: ['dark'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -244,8 +247,9 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 1 },
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'battlemeditation',
@@ -282,13 +286,11 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg',
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 3, '1': 3, '2': 3, '3': 3, '4': 4, '5': 6, '6': 8 },
-    },
+    cost: { value: 6 },
     restrictions: [{ factions: ['Galactic Republic'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'foresight',
@@ -332,6 +334,7 @@ const t: UpgradeBase[] = [
     cost: { value: 5 },
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     xws: 'precognitivereflexes',
@@ -365,13 +368,11 @@ const t: UpgradeBase[] = [
         type: 'Force Power',
       },
     ],
-    cost: {
-      variable: 'initiative',
-      values: { '0': 3, '1': 3, '2': 3, '3': 4, '4': 7, '5': 10, '6': 13 },
-    },
+    cost: { value: 15 },
     standard: false,
     epic: true,
     restrictions: [{ baseSizes: ['Small'] }],
+    extended: true,
   },
   {
     xws: 'patience',
@@ -400,6 +401,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ sides: ['light'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -433,6 +435,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [{ baseSizes: ['Small'] }, { action: { type: 'Boost' } }],
+    extended: true,
   },
   {
     limited: 0,
@@ -453,6 +456,7 @@ const t: UpgradeBase[] = [
     cost: { value: 1 },
     epic: true,
     restrictions: [{ sides: ['light'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -473,6 +477,7 @@ const t: UpgradeBase[] = [
     cost: { value: 6 },
     epic: true,
     restrictions: [{ sides: ['dark'] }],
+    extended: true,
   },
   {
     limited: 0,
@@ -492,6 +497,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     epic: true,
+    extended: true,
   },
 ];
 
