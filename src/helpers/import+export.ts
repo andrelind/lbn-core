@@ -313,7 +313,7 @@ export const importFromQR = (data: any, skipParse: boolean = false) => {
     delete validatedJson.points;
     validatedJson.faction = getFaction(json.faction);
     validatedJson.ships = validatedJson.ships || [];
-    validatedJson.format = validatedJson.format || 'Hyperspace';
+    validatedJson.format = validatedJson.format || 'Standard';
     // console.log('validatedJson', validatedJson);
     return validatedJson;
   } catch (error) {

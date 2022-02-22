@@ -59,7 +59,7 @@ export const shipTypeOptions = (
       switch (squadron.format) {
         case 'Extended':
           return s.size !== 'Huge';
-        case 'Hyperspace':
+        case 'Standard':
           return s.pilots.filter((p) => p.standard).length > 0;
         case 'Epic':
           return s.pilots.filter((p) => p.epic).length > 0;
@@ -85,7 +85,7 @@ export const shipTypeOptions = (
         switch (squadron.format) {
           case 'Extended':
             return true;
-          case 'Hyperspace':
+          case 'Standard':
             return p.standard;
           case 'Epic':
             return p.epic;
@@ -110,7 +110,7 @@ export const pilotOptions = (
       switch (format) {
         case 'Extended':
           return true;
-        case 'Hyperspace':
+        case 'Standard':
           return p.standard;
         case 'Epic':
           return p.epic;
@@ -205,7 +205,7 @@ export const upgradesForSlot = (
       switch (squadron.format) {
         case 'Extended':
           return true;
-        case 'Hyperspace':
+        case 'Standard':
           return u.standard;
         case 'Epic':
           return u.epic;

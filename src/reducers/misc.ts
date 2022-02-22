@@ -37,7 +37,7 @@ export default function onAction(
       return {
         ...state,
         defaultFormat:
-          state.defaultFormat === 'Hyperspace' ? 'Extended' : 'Hyperspace',
+          state.defaultFormat === 'Standard' ? 'Extended' : 'Standard',
       };
     }
     case SET_VERSION:

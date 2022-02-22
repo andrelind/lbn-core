@@ -109,7 +109,7 @@ export const deserialize = (o: string, uid?: string): SquadronXWS => {
     cost: parseInt(cost),
     faction: ffgXws.factions[faction],
     favourite: false,
-    format: parseInt(format) === 1 ? 'Hyperspace' : 'Extended',
+    format: parseInt(format) === 1 ? 'Standard' : 'Extended',
     pilots: pilots.map((p: any) => {
       const [ship, name, ...upgrades] = p;
       const parsedUpgrades: { [key in SlotKey]?: string[] } = {};

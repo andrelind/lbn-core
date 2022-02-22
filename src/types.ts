@@ -83,7 +83,7 @@ export type FactionKey =
   | 'galacticrepublic'
   | 'separatistalliance';
 
-export type Format = 'Extended' | 'Hyperspace' | 'Epic';
+export type Format = 'Extended' | 'Standard' | 'Epic';
 
 export type Pilot = {
   name: Translation;

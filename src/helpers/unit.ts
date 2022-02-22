@@ -73,7 +73,7 @@ export const loadSquadron = (xws?: SquadronXWS): Squadron | undefined => {
     name: xws.name || '',
     cost: xws.cost || 0,
     faction: xws.faction,
-    format: xws.format || 'Hyperspace',
+    format: xws.format || 'Standard',
     favourite: xws.favourite || false,
     wins: xws.wins || 0,
     losses: xws.losses || 0,

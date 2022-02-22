@@ -30,7 +30,7 @@ export const sourceKeys: SourceKey[] = [
   'Additional Upgrades',
 ];
 
-export const formats: Format[] = ['Hyperspace', 'Extended', 'Epic'];
+export const formats: Format[] = ['Standard', 'Extended', 'Epic'];
 
 export const allSlots: Slot[] = [
   'Astromech',

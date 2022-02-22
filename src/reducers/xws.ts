@@ -147,17 +147,17 @@ export default function onAction(
 
         const edit = { ...squadron };
         switch (edit.format) {
-          case 'Hyperspace':
+          case 'Standard':
             edit.format = 'Extended';
             break;
           case 'Extended':
             edit.format = 'Epic';
             break;
           case 'Epic':
-            edit.format = 'Hyperspace';
+            edit.format = 'Standard';
             break;
           default:
-            edit.format = 'Hyperspace';
+            edit.format = 'Standard';
             break;
         }
         edit.version = bumpMinor(edit.version || '2.0.0');
