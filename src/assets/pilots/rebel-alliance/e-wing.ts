@@ -91,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 59,
+      cost: 7,
       xws: 'corranhorn',
       ability: {
         en:
@@ -120,6 +120,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_50.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Gavin Darklighter' },
@@ -131,7 +133,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 55,
+      cost: 6,
       xws: 'gavindarklighter',
       ability: {
         en:
@@ -160,6 +162,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_51.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: {
@@ -170,7 +174,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 48,
+      cost: 6,
       xws: 'knavesquadronescort',
       text: {
         en:
@@ -192,6 +196,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_53.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -202,7 +208,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 51,
+      cost: 6,
       xws: 'roguesquadronescort',
       text: {
         en:
@@ -231,6 +237,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_52.png',
       },
+      loadout: 12,
+      extended: true,
     },
   ],
 };

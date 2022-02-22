@@ -56,7 +56,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 42,
+      cost: 5,
       xws: 'bladesquadronveteran',
       text: {
         en:
@@ -88,6 +88,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -98,7 +100,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'bluesquadronpilot',
       text: {
         en:
@@ -136,6 +138,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Braylen Stramm' },
@@ -147,7 +151,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 52,
+      cost: 5,
       xws: 'braylenstramm',
       ability: {
         en:
@@ -179,6 +183,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'Ten Numb' },
@@ -190,7 +196,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 49,
+      cost: 5,
       xws: 'tennumb',
       ability: {
         en:
@@ -222,6 +228,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Gina Moonsong' },
@@ -233,7 +241,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 45,
+      cost: 4,
       xws: 'ginamoonsong',
       ability: {
         en:
@@ -265,6 +273,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg',
+      loadout: 11,
+      extended: true,
     },
     {
       xws: 'herasyndulla-asf01bwing',
@@ -275,7 +285,7 @@ const t: ShipType = {
         es: 'Jefe Fénix',
         fr: 'Leader Phoenix',
       },
-      cost: 48,
+      cost: 8,
       initiative: 6,
       limited: 1,
       ability: {
@@ -300,10 +310,12 @@ const t: ShipType = {
       ],
       standard: false,
       epic: true,
-      keywords: ['B-wing', 'Spectre'],
+      keywords: ['Freighter', 'Spectre'],
       ffg: 878,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       xws: 'netrempollard',
@@ -314,7 +326,7 @@ const t: ShipType = {
         es: 'Jefe Daga',
         fr: 'Leader Dague',
       },
-      cost: 43,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -337,12 +349,14 @@ const t: ShipType = {
         'Title',
         'Configuration',
       ],
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['B-wing'],
       ffg: 879,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg',
+      loadout: 11,
+      extended: true,
     },
   ],
 };

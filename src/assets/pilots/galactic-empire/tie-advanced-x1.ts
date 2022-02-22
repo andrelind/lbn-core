@@ -83,7 +83,7 @@ const t: ShipType = {
       caption: { en: 'Black Leader', de: 'Schwarz Eins', es: 'Jefe Negro' },
       initiative: 6,
       limited: 1,
-      cost: 66,
+      cost: 11,
       xws: 'darthvader',
       ability: {
         en:
@@ -107,13 +107,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
       ffg: 93,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: { en: 'Maarek Stele' },
@@ -125,7 +127,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 44,
+      cost: 5,
       xws: 'maarekstele',
       ability: {
         en:
@@ -141,13 +143,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
       ffg: 94,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_94.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: {
@@ -158,7 +162,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 39,
+      cost: 3,
       xws: 'stormsquadronace',
       text: {
         en:
@@ -181,6 +185,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_97.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -191,7 +197,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 36,
+      cost: 3,
       xws: 'tempestsquadronpilot',
       text: {
         en:
@@ -221,6 +227,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_98.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Ved Foslo' },
@@ -232,7 +240,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 4,
       xws: 'vedfoslo',
       ability: {
         en:
@@ -255,6 +263,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_95.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Zertik Strom' },
@@ -266,7 +276,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 40,
+      cost: 3,
       xws: 'zertikstrom',
       ability: {
         en:
@@ -282,13 +292,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
       ffg: 96,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_96.png',
       },
+      loadout: 6,
+      extended: true,
     },
   ],
 };

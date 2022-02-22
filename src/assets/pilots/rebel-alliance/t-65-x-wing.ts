@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 47,
+      cost: 5,
       xws: 'biggsdarklighter',
       ability: {
         en:
@@ -70,13 +70,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg',
       ffg: 7,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -87,7 +89,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 38,
+      cost: 4,
       xws: 'bluesquadronescort',
       text: {
         en:
@@ -117,6 +119,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_11.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -127,7 +131,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 38,
+      cost: 4,
       xws: 'cavernangelszealot',
       text: {
         en:
@@ -149,13 +153,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
       ffg: 12,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -171,7 +177,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 42,
+      cost: 4,
       xws: 'edriotwotubes',
       ability: {
         en:
@@ -200,6 +206,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Garven Dreis' },
@@ -241,7 +249,7 @@ const t: ShipType = {
       caption: { en: 'Red Six', de: 'Rot Sechs', es: 'Rojo Seis' },
       initiative: 4,
       limited: 1,
-      cost: 44,
+      cost: 4,
       xws: 'jekporkins',
       ability: {
         en:
@@ -270,6 +278,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_5.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Kullbee Sperado' },
@@ -281,7 +291,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 4,
       xws: 'kullbeesperado',
       ability: {
         en:
@@ -304,13 +314,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg',
       ffg: 6,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Leevan Tenza' },
@@ -322,7 +334,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 41,
+      cost: 4,
       xws: 'leevantenza',
       ability: {
         en:
@@ -352,6 +364,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Luke Skywalker' },
@@ -363,7 +377,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 60,
+      cost: 7,
       xws: 'lukeskywalker',
       ability: {
         en:
@@ -405,6 +419,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_2.png',
       },
+      loadout: 28,
+      extended: true,
     },
     {
       name: {
@@ -415,7 +431,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 40,
+      cost: 4,
       xws: 'redsquadronveteran',
       text: {
         en:
@@ -444,6 +460,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_10.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: 'Thane Kyrell' },
@@ -455,7 +473,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 46,
+      cost: 4,
       xws: 'thanekyrell',
       ability: {
         en:
@@ -484,6 +502,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_3.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Wedge Antilles' },

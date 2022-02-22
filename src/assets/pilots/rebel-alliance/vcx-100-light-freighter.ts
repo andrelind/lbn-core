@@ -78,7 +78,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-3', es: 'Espectro-3' },
       initiative: 2,
       limited: 1,
-      cost: 66,
+      cost: 8,
       xws: 'chopper',
       ability: {
         en:
@@ -108,13 +108,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
       ffg: 75,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_75.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'Hera Syndulla' },
@@ -206,7 +208,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 68,
+      cost: 7,
       xws: 'lothalrebel',
       text: {
         en:
@@ -231,13 +233,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
       ffg: 76,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_76.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Alexsandr Kallus' },
@@ -268,7 +272,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, si el atacante ha modificado algún dado de ataque, puedes tirar 1 dado de defensa adicional.',
       },
-      cost: 68,
+      cost: 8,
       ffg: 631,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
@@ -277,6 +281,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f78c33b746f35f6848708327178dec80.png',
       },
+      loadout: 16,
+      extended: true,
     },
   ],
 };

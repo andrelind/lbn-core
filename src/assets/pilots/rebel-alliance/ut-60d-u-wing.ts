@@ -53,7 +53,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 46,
+      cost: 5,
       xws: 'benthictwotubes',
       ability: {
         en:
@@ -76,13 +76,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
       ffg: 58,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: {
@@ -93,7 +95,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 43,
+      cost: 5,
       xws: 'bluesquadronscout',
       text: {
         en:
@@ -109,12 +111,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
       ffg: 60,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Bodhi Rook' },
@@ -126,7 +130,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 48,
+      cost: 5,
       xws: 'bodhirook',
       ability: {
         en:
@@ -149,12 +153,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
       ffg: 54,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Cassian Andor' },
@@ -166,7 +172,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 51,
+      cost: 5,
       xws: 'cassianandor',
       ability: {
         en:
@@ -189,12 +195,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
       ffg: 56,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_56.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Heff Tobber' },
@@ -206,7 +214,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 44,
+      cost: 5,
       xws: 'hefftobber',
       ability: {
         en:
@@ -229,12 +237,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
       ffg: 59,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_59.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Magva Yarro' },
@@ -246,7 +256,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 50,
+      cost: 5,
       xws: 'magvayarro',
       ability: {
         en:
@@ -270,13 +280,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
       ffg: 57,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_57.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -287,7 +299,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 43,
+      cost: 5,
       xws: 'partisanrenegade',
       text: {
         en:
@@ -310,13 +322,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
       ffg: 61,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Saw Gerrera' },
@@ -328,7 +342,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 52,
+      cost: 6,
       xws: 'sawgerrera',
       ability: {
         en:
@@ -359,13 +373,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
       ffg: 55,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Partisan'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_55.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: 'K-2SO' },
@@ -377,7 +393,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 46,
+      cost: 5,
       xws: 'k2so',
       ability: {
         en: 'After you gain a stress token, gain 1 calculate token.',
@@ -402,7 +418,7 @@ const t: ShipType = {
         'Configuration',
       ],
       ffg: 629,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Droid'],
       image: {
@@ -411,6 +427,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg',
+      loadout: 10,
+      extended: true,
     },
   ],
 };

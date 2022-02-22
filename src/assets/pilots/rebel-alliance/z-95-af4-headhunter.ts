@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 35,
+      cost: 3,
       xws: 'airencracken',
       ability: {
         en:
@@ -68,12 +68,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
       ffg: 27,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_27.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: {
@@ -84,7 +86,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 22,
+      cost: 3,
       xws: 'banditsquadronpilot',
       text: {
         en:
@@ -100,12 +102,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
       ffg: 30,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_30.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant Blount', es: 'Teniente Blount' },
@@ -117,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 2,
       xws: 'lieutenantblount',
       ability: {
         en:
@@ -133,12 +137,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
       ffg: 28,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_28.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -149,7 +155,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 23,
+      cost: 3,
       xws: 'talasquadronpilot',
       text: {
         en:
@@ -165,12 +171,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
       ffg: 29,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_29.png',
       },
+      loadout: 4,
+      extended: true,
     },
   ],
 };

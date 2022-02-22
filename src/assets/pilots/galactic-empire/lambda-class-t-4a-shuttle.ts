@@ -50,7 +50,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 47,
+      cost: 6,
       xws: 'captainkagi',
       ability: {
         en:
@@ -72,6 +72,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_142.png',
       },
+      loadout: 22,
+      extended: true,
     },
     {
       name: { en: 'Colonel Jendon', es: 'Coronel Jendon' },
@@ -83,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 49,
+      cost: 6,
       xws: 'coloneljendon',
       ability: {
         en:
@@ -106,6 +108,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_143.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant Sai', es: 'Teniente Sai' },
@@ -117,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 46,
+      cost: 5,
       xws: 'lieutenantsai',
       ability: {
         en:
@@ -139,6 +143,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -149,7 +155,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 41,
+      cost: 5,
       xws: 'omicrongrouppilot',
       text: {
         en:
@@ -171,6 +177,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_145.png',
       },
+      loadout: 8,
+      extended: true,
     },
   ],
 };

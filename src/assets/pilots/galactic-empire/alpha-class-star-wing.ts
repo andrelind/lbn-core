@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 33,
+      cost: 4,
       xws: 'lieutenantkarsabi',
       ability: {
         en:
@@ -81,6 +81,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_136.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Major Vynder', es: 'Mayor Vynder' },
@@ -92,7 +94,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 40,
+      cost: 6,
       xws: 'majorvynder',
       ability: {
         en:
@@ -121,6 +123,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_135.png',
       },
+      loadout: 25,
+      extended: true,
     },
     {
       name: {
@@ -131,7 +135,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 32,
+      cost: 4,
       xws: 'nusquadronpilot',
       text: {
         en:
@@ -153,6 +157,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_138.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: {
@@ -163,7 +169,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 34,
+      cost: 4,
       xws: 'rhosquadronpilot',
       text: {
         en:
@@ -192,6 +198,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_137.png',
       },
+      loadout: 9,
+      extended: true,
     },
   ],
 };

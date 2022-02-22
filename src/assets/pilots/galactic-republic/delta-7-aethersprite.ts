@@ -96,7 +96,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 36,
+      cost: 6,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 515,
       artwork:
@@ -106,6 +106,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Obi-Wan Kenobi' },
@@ -129,9 +131,9 @@ const t: ShipType = {
           'Después de que una nave aliada que tengas a alcance 0-2 gaste una ficha de Concentración, puedes gastar 1 [Force]. Si lo haces, esa nave recibe 1 ficha de Concentración.',
       },
       force: { value: 3, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 47,
+      cost: 5,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 511,
       artwork:
@@ -141,6 +143,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Plo Koon' },
@@ -164,9 +168,9 @@ const t: ShipType = {
           'Al comienzo de la fase de Enfrentamiento, puedes gastar 1 [Force] y elegir otra nave aliada que tengas a alcance 0-2. Si lo haces, puedes transferir 1 ficha verde a esa nave o transferir una ficha naranja de esa nave a ti mismo.',
       },
       force: { value: 2, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 43,
+      cost: 7,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 513,
       artwork:
@@ -176,6 +180,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Saesee Tiin' },
@@ -201,7 +207,7 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: false,
       epic: true,
-      cost: 40,
+      cost: 6,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 514,
       artwork:
@@ -211,6 +217,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Mace Windu' },
@@ -233,9 +241,9 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra roja, recuperas 1 [Force].',
       },
       force: { value: 3, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 44,
+      cost: 6,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 512,
       artwork:
@@ -245,6 +253,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Anakin Skywalker' },
@@ -303,9 +313,9 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra, puedes elegir una nave aliada que tengas a alcance 0-1 y gastar 1 [Force]. Esa nave puede realizar una acción, incluso aunque esté bajo tensión.',
       },
       force: { value: 2, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 41,
+      cost: 6,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 510,
       artwork:
@@ -315,6 +325,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Barriss Offee' },
@@ -338,9 +350,9 @@ const t: ShipType = {
           'Mientras una nave aliada que tienes a alcance 0-2 efectúa un ataque, si el defensor está situado en el [Bullseye Arc] del atacante, puedes gastar 1 [Force] para cambiar 1 resultado [Focus] por un resultado [Hit] o 1 resultado [Hit] por un resultado [Critical Hit].',
       },
       force: { value: 1, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 36,
+      cost: 5,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 509,
       artwork:
@@ -350,6 +362,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Luminara Unduli' },
@@ -373,9 +387,9 @@ const t: ShipType = {
           'Mientras una nave aliada que tienes a alcance 0-2 se defiende, si esa nave no está en el [Bullseye Arc] del atacante, puedes gastar 1 [Force]. Si lo haces, cambia 1 resultado [Critical Hit] por un resultado [Hit] o 1 resultado [Hit] por un resultado [Focus].',
       },
       force: { value: 2, recovers: 1, side: ['light'] },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 40,
+      cost: 6,
       slots: ['Astromech', 'Modification', 'Force Power', 'Configuration'],
       ffg: 508,
       artwork:
@@ -385,6 +399,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
   ffg: 61,

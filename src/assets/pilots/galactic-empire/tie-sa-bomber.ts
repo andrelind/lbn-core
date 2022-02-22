@@ -87,7 +87,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 32,
+      cost: 4,
       xws: 'deathfire',
       ability: {
         en:
@@ -118,6 +118,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_110.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: 'Captain Jonus', es: 'Capitán Jonus' },
@@ -129,7 +131,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 45,
+      cost: 5,
       xws: 'captainjonus',
       ability: {
         en:
@@ -161,6 +163,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_108.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -171,7 +175,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 30,
+      cost: 4,
       xws: 'gammasquadronace',
       text: {
         en:
@@ -203,6 +207,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_111.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Major Rhymer', es: 'Mayor Rhymer' },
@@ -214,7 +220,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 37,
+      cost: 5,
       xws: 'majorrhymer',
       ability: {
         en:
@@ -246,6 +252,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_109.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: {
@@ -255,7 +263,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 27,
+      cost: 3,
       xws: 'scimitarsquadronpilot',
       text: {
         en:
@@ -286,6 +294,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_112.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Tomax Bren' },
@@ -297,7 +307,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 35,
+      cost: 4,
       xws: 'tomaxbren',
       ability: {
         en:
@@ -329,6 +339,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_107.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
 };

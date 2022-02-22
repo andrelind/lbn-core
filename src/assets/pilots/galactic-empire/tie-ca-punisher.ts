@@ -57,7 +57,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 6,
       xws: 'deathrain',
       ability: {
         en: 'After you drop or launch a device, you may perform an action.',
@@ -88,6 +88,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png',
       },
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: '"Redline"', de: '„Rote Linie"', es: '"Velocidad Terminal"' },
@@ -99,7 +101,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 51,
+      cost: 7,
       xws: 'redline',
       ability: {
         en:
@@ -131,6 +133,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png',
       },
+      loadout: 25,
+      extended: true,
     },
     {
       name: {
@@ -141,7 +145,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 35,
+      cost: 5,
       xws: 'cutlasssquadronpilot',
       text: {
         en:
@@ -173,6 +177,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png',
       },
+      loadout: 6,
+      extended: true,
     },
   ],
 };

@@ -59,7 +59,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 71,
+      cost: 8,
       xws: 'captainoicunn',
       ability: {
         en: 'You can perform primary attacks at range 0.',
@@ -81,12 +81,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg',
       ffg: 146,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_146.png',
       },
+      loadout: 25,
+      extended: true,
     },
     {
       name: {
@@ -97,7 +99,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 67,
+      cost: 8,
       xws: 'patrolleader',
       text: {
         en:
@@ -128,6 +130,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_148.png',
       },
+      loadout: 22,
+      extended: true,
     },
     {
       name: {
@@ -144,7 +148,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 75,
+      cost: 9,
       xws: 'rearadmiralchiraneau',
       ability: {
         en:
@@ -170,12 +174,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg',
       ffg: 147,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_147.png',
       },
+      loadout: 35,
+      extended: true,
     },
     {
       name: { en: 'Morna Kee' },
@@ -187,7 +193,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 73,
+      cost: 8,
       xws: 'mornakee',
       ability: {
         en:
@@ -211,7 +217,7 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      standard: false,
+      standard: true,
       epic: true,
       ffg: 634,
       image: {
@@ -220,6 +226,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg',
+      loadout: 20,
+      extended: true,
     },
   ],
 };

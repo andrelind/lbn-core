@@ -53,7 +53,7 @@ const t: ShipType = {
       xws: 'hawk',
       ffg: 660,
       name: { en: '"Hawk"', de: '„Hawk"' },
-      cost: 51,
+      cost: 5,
       limited: 1,
       initiative: 4,
       caption: {
@@ -90,12 +90,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/14be5b23859dff4b6213511eb97e4e5b.jpg',
+      loadout: 23,
+      extended: true,
     },
     {
       xws: 'hound',
       ffg: 662,
       name: { en: '"Hound"', de: '„Hound"' },
-      cost: 48,
+      cost: 5,
       limited: 1,
       initiative: 2,
       caption: {
@@ -132,12 +134,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a88730785b8495c24b1711278ed18934.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       xws: 'warthog',
       ffg: 661,
       name: { en: '"Warthog"', de: '„Warthog"' },
-      cost: 52,
+      cost: 6,
       limited: 1,
       initiative: 3,
       caption: {
@@ -174,6 +178,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f1866068850a0c806bfbe03c8bba2d07.jpg',
+      loadout: 18,
+      extended: true,
     },
     {
       name: {
@@ -195,7 +201,7 @@ const t: ShipType = {
         es:
           'Tan bien capacitada para las ofensivas espaciales como para los combates atmosféricos, la cañonera LAAT/i transporta tropas de la República a los frentes de batalla en planetas asediados por los separatistas.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       slots: [
         'Missile',
@@ -206,7 +212,7 @@ const t: ShipType = {
         'Gunner',
         'Gunner',
       ],
-      cost: 47,
+      cost: 5,
       ffg: 663,
       keywords: ['Clone'],
       image: {
@@ -215,6 +221,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b8538000c5745f53f79e9b6650e6deec.jpg',
+      loadout: 7,
+      extended: true,
     },
   ],
   ffg: 74,

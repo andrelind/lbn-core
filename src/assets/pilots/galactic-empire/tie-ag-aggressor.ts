@@ -54,7 +54,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 28,
+      cost: 4,
       xws: 'doubleedge',
       ability: {
         en:
@@ -84,6 +84,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       name: { en: 'Lieutenant Kestal', es: 'Teniente Kestal' },
@@ -95,7 +97,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 29,
+      cost: 5,
       xws: 'lieutenantkestal',
       ability: {
         en:
@@ -125,6 +127,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png',
       },
+      loadout: 19,
+      extended: true,
     },
     {
       name: {
@@ -135,7 +139,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 28,
+      cost: 4,
       xws: 'onyxsquadronscout',
       text: {
         en:
@@ -165,6 +169,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -175,7 +181,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 26,
+      cost: 4,
       xws: 'sienarspecialist',
       text: {
         en:
@@ -198,6 +204,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png',
       },
+      loadout: 8,
+      extended: true,
     },
   ],
 };

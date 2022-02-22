@@ -83,7 +83,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 32,
+      cost: 3,
       xws: 'alphasquadronpilot',
       text: {
         en:
@@ -99,13 +99,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -116,7 +118,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 36,
+      cost: 4,
       xws: 'sabersquadronace',
       text: {
         en:
@@ -132,13 +134,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png',
       },
+      loadout: 7,
+      extended: true,
     },
     {
       name: { en: 'Soontir Fel' },
@@ -150,7 +154,7 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 53,
+      cost: 6,
       xws: 'soontirfel',
       ability: {
         en:
@@ -173,6 +177,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Turr Phennir' },
@@ -184,7 +190,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 42,
+      cost: 4,
       xws: 'turrphennir',
       ability: {
         en:
@@ -207,6 +213,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       xws: 'cienaree',
@@ -217,7 +225,7 @@ const t: ShipType = {
         es: 'Mira a través de mis ojos',
         fr: 'Regarde À Travers Mes Yeux',
       },
-      cost: 48,
+      cost: 5,
       initiative: 6,
       limited: 1,
       ability: {
@@ -237,6 +245,8 @@ const t: ShipType = {
       ffg: 889,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -307,7 +317,7 @@ const t: ShipType = {
         es: 'Superintentende de Skystrike',
         fr: 'Superviseur de Skystrike',
       },
-      cost: 43,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability: {
@@ -327,6 +337,8 @@ const t: ShipType = {
       ffg: 891,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       xws: 'lieutenantlorrir',
@@ -337,7 +349,7 @@ const t: ShipType = {
         es: 'Réquiem por Brentaal',
         fr: 'Requiem pour Brentaal',
       },
-      cost: 39,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability: {
@@ -357,6 +369,8 @@ const t: ShipType = {
       ffg: 893,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'nashwindrider',
@@ -367,7 +381,7 @@ const t: ShipType = {
         es: 'Fanático de Alderaan',
         fr: 'Zélote Alderaanien',
       },
-      cost: 41,
+      cost: 4,
       initiative: 2,
       limited: 1,
       ability: {
@@ -388,6 +402,8 @@ const t: ShipType = {
       ffg: 894,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
+      loadout: 6,
+      extended: true,
     },
   ],
 };

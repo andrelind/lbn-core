@@ -50,7 +50,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 44,
+      cost: 5,
       xws: 'kashyyykdefender',
       text: {
         en:
@@ -72,6 +72,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Lowhhrick' },
@@ -83,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 50,
+      cost: 5,
       xws: 'lowhhrick',
       ability: {
         en:
@@ -105,6 +107,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Wullffwarro' },
@@ -116,7 +120,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 53,
+      cost: 5,
       xws: 'wullffwarro',
       ability: {
         en:
@@ -138,6 +142,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png',
       },
+      loadout: 11,
+      extended: true,
     },
   ],
 };

@@ -52,7 +52,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 41,
+      cost: 4,
       xws: 'howlrunner',
       ability: {
         en:
@@ -75,6 +75,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -90,7 +92,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 28,
+      cost: 3,
       xws: 'maulermithel',
       ability: {
         en:
@@ -113,6 +115,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_80.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -128,7 +132,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 23,
+      cost: 2,
       xws: 'nightbeast',
       ability: {
         en:
@@ -151,6 +155,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_88.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: {
@@ -166,7 +172,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 28,
+      cost: 3,
       xws: 'scourgeskutu',
       ability: {
         en:
@@ -189,6 +195,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_82.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: '"Wampa"', de: '„Wampa"' },
@@ -200,7 +208,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 28,
+      cost: 3,
       xws: 'wampa',
       ability: {
         en:
@@ -224,6 +232,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -234,7 +244,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 22,
+      cost: 3,
       xws: 'academypilot',
       text: {
         en:
@@ -257,13 +267,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
       ffg: 92,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_92.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -315,7 +327,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 27,
+      cost: 3,
       xws: 'delmeeko',
       ability: {
         en:
@@ -338,6 +350,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_85.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Gideon Hask' },
@@ -383,7 +397,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 40,
+      cost: 4,
       xws: 'idenversio',
       ability: {
         en:
@@ -407,6 +421,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -417,7 +433,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 23,
+      cost: 2,
       xws: 'obsidiansquadronpilot',
       text: {
         en:
@@ -440,13 +456,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
       ffg: 91,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_91.png',
       },
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: 'Seyn Marana' },
@@ -458,7 +476,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 27,
+      cost: 3,
       xws: 'seynmarana',
       ability: {
         en:
@@ -481,6 +499,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       name: { en: 'Valen Rudor' },
@@ -492,7 +512,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 24,
+      cost: 3,
       xws: 'valenrudor',
       ability: {
         en:
@@ -515,8 +535,9 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png',
       },
+      loadout: 8,
+      extended: true,
     },
-
     {
       name: { en: 'ISB Jingoist' },
       caption: { en: 'Heartless Enforcer' },
@@ -534,9 +555,11 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png',
       keywords: ['TIE'],
-      cost: 0,
-      standard: false,
+      cost: 3,
+      standard: true,
       epic: true,
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Moff Gideon' },
@@ -556,9 +579,11 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
       keywords: ['TIE'],
-      cost: 0,
-      standard: false,
+      cost: 4,
+      standard: true,
       epic: true,
+      loadout: 11,
+      extended: true,
     },
   ],
 };

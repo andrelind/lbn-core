@@ -44,71 +44,72 @@ const runShips = async () => {
 
   wb.worksheets.forEach((ws) => {
     ws.eachRow((row) => {
-      if (row.cellCount === 8) {
-        if (
-          row.getCell(2).toString() === '[object Object]' ||
-          row.getCell(1).toString() === 'Pilot Name'
-        ) {
-          // console.log(row.getCell(1).toString());
-          return;
-        }
+      if (
+        // row.getCell(2).toString() === '[object Object]' ||
+        row.getCell(1).toString() === 'Pilot Name'
+      ) {
+        // console.log(row.getCell(1).toString());
+        return;
+      }
 
-        const pilotName = row.getCell(1).toString().replaceAll('•', '');
-        const subtitle = row.getCell(2).toString();
-        const cost = row.getCell(3).toString();
-        const loadout = row.getCell(4).toString();
-        const upgrades = row.getCell(5).toString();
-        const keywords = row
-          .getCell(6)
-          .toString()
-          .split(',')
-          .map((s) => s.trim());
-        const std = row.getCell(7).toString();
-        const ext = row.getCell(8).toString();
+      const pilotName = row.getCell(1).text.replaceAll('•', '');
+      const subtitle = row.getCell(2).text;
+      const cost = row.getCell(3).text;
+      const loadout = row.getCell(4).text;
+      const upgrades = row.getCell(5).text;
+      const keywords = row
+        .getCell(6)
+        .text.split(',')
+        .map((s) => s.trim());
+      const std = row.getCell(7).text;
+      const ext = row.getCell(8).text;
 
-        const shipAndPilot = findShipAndPilot(pilotName, subtitle);
-        if (!shipAndPilot) {
+      const shipAndPilot = findShipAndPilot(pilotName, subtitle);
+      if (!shipAndPilot || !cost) {
+        if (subtitle !== '[object Object]') {
           console.log(
             `Not found: ${pilotName} ${subtitle} ${cost} ${loadout} ${upgrades} ${keywords} ${std} ${ext}`
           );
-          return;
         }
-        const { ship, pilot } = shipAndPilot;
+        return;
+      }
 
-        pilot.cost = parseInt(cost, 10);
-        pilot.loadout = parseInt(loadout, 10);
-        pilot.keywords =
-          keywords.length > 0 && keywords[0] !== '' ? keywords : undefined;
-        pilot.standard = std === 'Yes' ? true : false;
-        pilot.extended = ext === 'Yes' ? true : false;
-        pilot.epic = true;
+      const { ship, pilot } = shipAndPilot;
+      // console.log(pilotName, ship.name.en, pilot.name.en);
 
-        factionShips[ship.faction][ship.xws].pilots[
-          ship.pilots.indexOf(pilot)
-        ] = pilot;
+      pilot.cost = parseInt(cost, 10);
+      pilot.loadout = parseInt(loadout, 10);
+      pilot.keywords =
+        keywords.length > 0 && keywords[0] !== '' ? keywords : undefined;
+      pilot.standard = std === 'Yes' ? true : false;
+      pilot.extended = ext === 'Yes' ? true : false;
+      pilot.epic = true;
 
-        const header =
-          'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
-        try {
-          const formatted = prettier.format(
-            `${header}${JSON.stringify(ship)};\n\nexport default t;`,
-            {
-              trailingComma: 'all',
-              singleQuote: true,
-              parser: 'typescript',
-            }
-          );
-          fs.writeFileSync(
-            `./src/assets/pilots/${getName(ship.faction)}/${getName(
-              ship.name.en
-            )}.ts`,
-            formatted,
-            'utf8'
-          );
-        } catch (error) {
-          console.error(`Could not save ${pilot.xws}`, error);
-          // console.error(`Could not save ${pilot.xws}`, JSON.stringify(ship));
-        }
+      factionShips[ship.faction][ship.xws].pilots[
+        ship.pilots.indexOf(pilot)
+      ] = pilot;
+
+      const header =
+        'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
+      try {
+        const formatted = prettier.format(
+          `${header}${JSON.stringify(ship)};\n\nexport default t;`,
+          {
+            trailingComma: 'all',
+            singleQuote: true,
+            parser: 'typescript',
+          }
+        );
+        fs.writeFileSync(
+          `./src/assets/pilots/${getName(ship.faction)}/${getName(
+            ship.name.en
+          )}.ts`,
+          formatted,
+          'utf8'
+        );
+      } catch (error) {
+        console.error(`Could not save ${pilot.xws}`, error);
+        // console.error(`Could not save ${pilot.xws}`, JSON.stringify(ship));
       }
     });
   });
@@ -152,7 +153,7 @@ const runUpgrades = async () => {
           return;
         }
 
-        upgrade.cost = { value: cost };
+        upgrade.cost = cost === null ? { value: 0 } : { value: cost };
         upgrade.standard = std === 'Yes' ? true : false;
         upgrade.extended = ext === 'Yes' ? true : false;
         upgrade.epic = true;
@@ -184,7 +185,7 @@ const runUpgrades = async () => {
 };
 
 const runner = async () => {
-  // await runShips();
+  await runShips();
   await runUpgrades();
 };
 

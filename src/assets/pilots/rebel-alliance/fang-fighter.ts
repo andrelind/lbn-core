@@ -95,9 +95,11 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/bodicavenj.png',
       keywords: ['Mandalorian'],
-      cost: 0,
+      cost: 6,
       epic: true,
-      standard: false,
+      standard: true,
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Dirk Ullodin' },
@@ -116,9 +118,11 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dirkullodin.png',
       keywords: ['Mandalorian'],
-      cost: 0,
+      cost: 5,
       epic: true,
-      standard: false,
+      standard: true,
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Clan Wren Volunteer' },
@@ -138,9 +142,11 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/clanwrenvolunteer.png',
       keywords: ['Mandalorian'],
-      cost: 0,
+      cost: 5,
       epic: true,
-      standard: false,
+      standard: true,
+      loadout: 10,
+      extended: true,
     },
   ],
 };

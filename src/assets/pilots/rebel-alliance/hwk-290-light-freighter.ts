@@ -61,7 +61,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 41,
+      cost: 6,
       xws: 'janors',
       ability: {
         en:
@@ -84,13 +84,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
       ffg: 42,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_42.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Kyle Katarn' },
@@ -102,7 +104,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 31,
+      cost: 6,
       xws: 'kylekatarn',
       ability: {
         en:
@@ -125,13 +127,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
       ffg: 43,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_43.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -142,7 +146,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 29,
+      cost: 4,
       xws: 'rebelscout',
       text: {
         en:
@@ -158,13 +162,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
       ffg: 45,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Roark Garnet' },
@@ -176,7 +182,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 38,
+      cost: 6,
       xws: 'roarkgarnet',
       ability: {
         en:
@@ -199,13 +205,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
       ffg: 44,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_44.png',
       },
+      loadout: 15,
+      extended: true,
     },
   ],
 };

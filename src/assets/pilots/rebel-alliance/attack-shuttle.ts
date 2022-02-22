@@ -74,7 +74,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-4', es: 'Espectro-4' },
       initiative: 2,
       limited: 1,
-      cost: 33,
+      cost: 3,
       xws: 'zeborrelios',
       ability: {
         en:
@@ -90,20 +90,22 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
       ffg: 37,
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Spectre'],
+      keywords: ['TIE', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Ezra Bridger' },
       caption: { en: 'Spectre-6', es: 'Espectro-6' },
       initiative: 3,
       limited: 1,
-      cost: 40,
+      cost: 3,
       xws: 'ezrabridger',
       ability: {
         en:
@@ -120,13 +122,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
       ffg: 36,
-      standard: false,
+      standard: true,
       epic: true,
-      keywords: ['Light Side', 'Spectre'],
+      keywords: ['Light Side', 'Spectre', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Hera Syndulla' },

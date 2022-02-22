@@ -83,7 +83,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 72,
+      cost: 8,
       xws: 'leebo',
       ability: {
         en:
@@ -119,6 +119,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'Dash Rendar' },
@@ -130,7 +132,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 79,
+      cost: 10,
       xws: 'dashrendar',
       ability: {
         en: 'While you move, you ignore obstacles.',
@@ -158,6 +160,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png',
       },
+      loadout: 22,
+      extended: true,
     },
     {
       name: {
@@ -168,7 +172,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 72,
+      cost: 8,
       xws: 'wildspacefringer',
       text: {
         en:
@@ -191,6 +195,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
 };

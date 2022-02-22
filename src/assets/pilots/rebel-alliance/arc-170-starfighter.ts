@@ -47,7 +47,7 @@ const t: ShipType = {
       caption: { en: 'Red Leader', de: 'Rot Eins', es: 'Jefe Rojo' },
       initiative: 4,
       limited: 1,
-      cost: 49,
+      cost: 5,
       xws: 'garvendreis',
       ability: {
         en:
@@ -70,12 +70,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
       ffg: 66,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_66.png',
       },
+      loadout: 10,
+      keywords: ['X-wing'],
+      extended: true,
     },
     {
       name: { en: 'Ibtisam' },
@@ -87,7 +90,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 45,
+      cost: 4,
       xws: 'ibtisam',
       ability: {
         en:
@@ -110,12 +113,14 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
       ffg: 68,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_68.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Norra Wexley' },
@@ -127,7 +132,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 53,
+      cost: 5,
       xws: 'norrawexley',
       ability: {
         en:
@@ -150,12 +155,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
       ffg: 65,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_65.png',
       },
+      loadout: 18,
+      keywords: ['Y-wing'],
+      extended: true,
     },
     {
       name: { en: 'Shara Bey' },
@@ -167,7 +175,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 50,
+      cost: 3,
       xws: 'sharabey',
       ability: {
         en:
@@ -190,12 +198,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',
       ffg: 67,
-      standard: false,
+      standard: true,
       epic: true,
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_67.png',
       },
+      loadout: 7,
+      keywords: ['A-wing'],
+      extended: true,
     },
   ],
 };

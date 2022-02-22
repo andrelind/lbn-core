@@ -87,7 +87,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 81,
+      cost: 8,
       xws: 'colonelvessery',
       ability: {
         en:
@@ -103,13 +103,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
       ffg: 123,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_123.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -126,7 +128,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 79,
+      cost: 8,
       xws: 'countessryad',
       ability: {
         en:
@@ -142,13 +144,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
       ffg: 124,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_124.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -159,7 +163,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 67,
+      cost: 7,
       xws: 'deltasquadronpilot',
       text: {
         en:
@@ -182,6 +186,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_126.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: {
@@ -192,7 +198,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 73,
+      cost: 7,
       xws: 'onyxsquadronace',
       text: {
         en:
@@ -215,6 +221,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_125.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Rexler Brath' },
@@ -226,7 +234,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 78,
+      cost: 8,
       xws: 'rexlerbrath',
       ability: {
         en:
@@ -242,13 +250,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
       ffg: 122,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_122.png',
       },
+      loadout: 13,
+      extended: true,
     },
     {
       xws: 'vultskerris',
@@ -259,7 +269,7 @@ const t: ShipType = {
         es: 'As arrogante',
         fr: 'As Arrogant',
       },
-      cost: 77,
+      cost: 4,
       initiative: 5,
       limited: 1,
       ability: {
@@ -273,12 +283,14 @@ const t: ShipType = {
           'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 887,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg',
+      loadout: 6,
+      extended: true,
     },
     {
       xws: 'darthvader-tieddefender',
@@ -320,7 +332,7 @@ const t: ShipType = {
         es: 'Reemplazo de confianza',
         fr: 'Remplaçant Fiable',
       },
-      cost: 73,
+      cost: 7,
       initiative: 3,
       limited: 1,
       ability: {
@@ -334,12 +346,14 @@ const t: ShipType = {
           "Tant qu'un autre vaisseau allié à portée 0-1 défend, avant l'étape « Neutraliser les résultats », si vous êtes dans l'arc d'attaque et n'êtes pas ionisé, vous pouvez gagner 1 marqueur ionique pour annuler 1 résultat [Hit].",
       },
       slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       ffg: 888,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg',
+      loadout: 12,
+      extended: true,
     },
   ],
 };

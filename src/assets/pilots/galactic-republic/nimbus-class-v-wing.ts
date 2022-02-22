@@ -72,18 +72,19 @@ const t: ShipType = {
         fr:
           'Pendant la phase de système, vous pouvez choisir un objet que vous avez verrouillé, situé à portée 1-3. Un autre vaisseau allié à portée 1-3 peut verrouiller cet objet.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      cost: 31,
+      cost: 3,
       ffg: 791,
-      keywords: ['TIE'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/bf/0e/bf0e3b50-3f36-4940-953b-f0a2d9f2b9b9/swz80_ship_tarkin.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/02fb0df2a559b8bc66fd475442dbe8df.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       xws: 'oddball-nimbusclassvwing',
@@ -120,7 +121,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       caption: { en: 'CT-4981' },
-      standard: false,
+      standard: true,
       ability: {
         en:
           "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
@@ -132,16 +133,18 @@ const t: ShipType = {
           'Tant que vous défendez ou effectuez une attaque, si la direction de votre manœuvre révélée est la même que celle du vaisseau ennemi, vous pouvez changer 1 des résultats [Focus] du vaisseau ennemi en un résultat vierge.',
       },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      cost: 32,
+      cost: 2,
       epic: true,
       ffg: 789,
-      keywords: ['Clone', 'TIE'],
+      keywords: ['Clone'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
+      loadout: 0,
+      extended: true,
     },
     {
       name: { en: '"Klick"', de: '„Klick"' },
@@ -149,7 +152,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       caption: { en: 'GC-1000' },
-      standard: false,
+      standard: true,
       ability: {
         en:
           'While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied.',
@@ -161,16 +164,18 @@ const t: ShipType = {
           "Tant qu'un vaisseau que vous avez verrouillé, situé à portée 1-3, défend ou effectue une attaque, vous pouvez dépenser 1 [Charge] pour empêcher l'application des bonus de portée.",
       },
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      cost: 31,
+      cost: 3,
       epic: true,
       ffg: 790,
-      keywords: ['Clone', 'TIE'],
+      keywords: ['Clone'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -194,16 +199,18 @@ const t: ShipType = {
       },
       standard: true,
       slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
-      cost: 28,
+      cost: 3,
       epic: true,
       ffg: 792,
-      keywords: ['Clone', 'TIE'],
+      keywords: ['Clone'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/c0/b0/c0b03f12-cff6-43af-99df-6ddf61fd471a/swz80_ship_shadow-escort.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a9dd9a8a65facfae13018bb0d1aad602.jpg',
+      loadout: 3,
+      extended: true,
     },
     {
       name: {
@@ -227,16 +234,17 @@ const t: ShipType = {
       },
       standard: true,
       slots: ['Astromech', 'Modification', 'Configuration'],
-      cost: 26,
+      cost: 3,
       epic: true,
       ffg: 793,
-      keywords: ['TIE'],
       image: {
         en:
           'https://images-cdn.fantasyflightgames.com/filer_public/a1/27/a127938a-aecc-48eb-ba09-622781e84084/swz80_ship_volunteer.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/963d472b274bb777fdc9be15527e28f1.jpg',
+      loadout: 4,
+      extended: true,
     },
   ],
   ffg: 71,

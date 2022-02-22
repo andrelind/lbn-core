@@ -85,7 +85,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 51,
+      cost: 6,
       xws: 'echo',
       ability: {
         en:
@@ -108,6 +108,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_132.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: { en: '"Whisper"', de: '„Geflüster"', es: '"Susurro"' },
@@ -119,7 +121,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 60,
+      cost: 7,
       xws: 'whisper',
       ability: {
         en: 'After you perform an attack that hits, gain 1 evade token.',
@@ -141,6 +143,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_131.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: {
@@ -151,7 +155,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 43,
+      cost: 5,
       xws: 'imdaartestpilot',
       text: {
         en:
@@ -174,6 +178,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_134.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -184,7 +190,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 0,
-      cost: 49,
+      cost: 6,
       xws: 'sigmasquadronace',
       text: {
         en:
@@ -207,6 +213,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_133.png',
       },
+      loadout: 9,
+      extended: true,
     },
   ],
 };

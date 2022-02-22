@@ -51,6 +51,8 @@ const t: ShipType = {
       standard: false,
       epic: true,
       ffg: 787,
+      loadout: 0,
+      extended: false,
     },
   ],
 };

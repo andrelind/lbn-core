@@ -130,7 +130,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 44,
+      cost: 5,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 557,
       image: {
@@ -139,6 +139,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg',
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: 'Padmé Amidala' },
@@ -163,7 +165,7 @@ const t: ShipType = {
         es:
           'Mientras una nave enemiga en tu [Front Arc] se defiende o efectúa un ataque, esa nave sólo puede modificar 1 resultado [Focus] (los otros resultados siguen pudiendo ser modificados).',
       },
-      cost: 43,
+      cost: 5,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 559,
       image: {
@@ -172,6 +174,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg',
+      loadout: 22,
+      extended: true,
     },
     {
       name: { en: 'Dineé Ellberger' },
@@ -190,7 +194,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 36,
+      cost: 3,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 560,
       caption: {
@@ -205,6 +209,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg',
+      loadout: 9,
+      extended: true,
     },
     {
       name: {
@@ -226,9 +232,9 @@ const t: ShipType = {
         es:
           'Los pilotos voluntarios de la Fuerza de Seguridad Real de Naboo están entregados a la protección de la gente y los ideales de su mundo natal, y están plenamente convencidos de que su Reina sólo los envía a combatir cuando todas las demás opciones han fracasado.',
       },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 33,
+      cost: 4,
       slots: ['Sensor', 'Torpedo', 'Astromech'],
       ffg: 562,
       image: {
@@ -237,6 +243,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4e1a2195431b026de73c90f8ce5f7c20.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -261,7 +269,7 @@ const t: ShipType = {
       conditions: ['decoyed'],
       standard: true,
       epic: true,
-      cost: 41,
+      cost: 3,
       slots: ['Sensor', 'Torpedo', 'Astromech'],
       ffg: 561,
       caption: {
@@ -276,6 +284,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg',
+      loadout: 10,
+      extended: true,
     },
   ],
   ffg: 66,

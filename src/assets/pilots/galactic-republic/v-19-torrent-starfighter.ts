@@ -68,7 +68,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 29,
+      cost: 5,
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 517,
       artwork:
@@ -78,6 +78,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
@@ -126,7 +128,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 27,
+      cost: 4,
       slots: ['Missile', 'Modification'],
       ffg: 519,
       artwork:
@@ -136,6 +138,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/8ae255235c0c1d3892344fb43fcab773.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: '"Axe"', de: '„Axe"' },
@@ -160,7 +164,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 28,
+      cost: 4,
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 518,
       artwork:
@@ -170,6 +174,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: '"Tucker"', de: '„Tucker"' },
@@ -194,7 +200,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      cost: 26,
+      cost: 4,
       slots: ['Missile', 'Modification'],
       ffg: 520,
       artwork:
@@ -204,6 +210,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/a457cc2ab3038736cb37541ad94b9b34.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -225,9 +233,9 @@ const t: ShipType = {
         es:
           'Los pilotos clon de élite del Escuadrón Azul están entrenados para volar en sus V-19 acompañando a pilotos jedi, y suelen prestar apoyo a comandantes famosos como Anakin Skywalker y Ahsoka Tano.',
       },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 26,
+      cost: 4,
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 521,
       artwork:
@@ -237,6 +245,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/77b2dfdca20865d8d667c41539a7356e.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: {
@@ -258,9 +268,9 @@ const t: ShipType = {
         es:
           'El caza estelar V-19 Torrente fue diseñado para ser una nave ligera que sirviera de escolta para los ágiles interceptores Delta-7 pilotados por caballeros jedi, y posee un perfil de vuelo único para desempeñar este cometido.',
       },
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 25,
+      cost: 4,
       slots: ['Missile', 'Modification'],
       ffg: 522,
       artwork:
@@ -270,6 +280,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/ed881318b45485a197e514b2d13e178c.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
   ffg: 62,

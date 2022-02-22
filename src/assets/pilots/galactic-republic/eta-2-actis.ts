@@ -119,7 +119,7 @@ const t: ShipType = {
       xws: 'aaylasecura',
       ffg: 783,
       name: { en: 'Aayla Secura' },
-      cost: 48,
+      cost: 5,
       limited: 1,
       initiative: 5,
       caption: {
@@ -149,6 +149,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a2171b5544ebfd56e22775efa9b73fc4.jpg',
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: 'Shaak Ti' },
@@ -174,7 +176,7 @@ const t: ShipType = {
           "Au début de la phase de dénouement, vous pouvez dépenser n'importe quel nombre de [Force] pour choisir autant de vaisseaux alliés à portée 0-2. Chaque vaisseau choisi ne retire pas 1 marqueur de concentration ou d'évasion lors de cette phase de dénouement.",
       },
       slots: ['Talent', 'Force Power', 'Astromech', 'Modification'],
-      cost: 43,
+      cost: 5,
       epic: true,
       ffg: 784,
       keywords: ['Jedi', 'Light Side'],
@@ -184,6 +186,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -205,10 +209,10 @@ const t: ShipType = {
         fr:
           "Alors que la Guerre des Clones fait des ravages dans les rangs de l'Ordre Jedi, ceux qui restent assument de plus grandes responsabilités dans la Grande Armée de la République.",
       },
-      standard: false,
+      standard: true,
       force: { value: 2, recovers: 1, side: ['light'] },
       slots: ['Force Power', 'Astromech', 'Modification'],
-      cost: 41,
+      cost: 5,
       epic: true,
       ffg: 786,
       keywords: ['Jedi', 'Light Side'],
@@ -218,6 +222,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/b6b83d1e5f47b832018274f35339492a.jpg',
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Yoda' },
@@ -243,7 +249,7 @@ const t: ShipType = {
           "Après qu'un autre vaisseau allié à portée 0-3 a dépensé au moins 1 [Force], vous pouvez dépenser 1 [Force]. Dans ce cas, cet autre vaisseau allié récupère 1 [Force].",
       },
       slots: ['Force Power', 'Force Power', 'Astromech', 'Modification'],
-      cost: 45,
+      cost: 5,
       epic: true,
       ffg: 785,
       keywords: ['Jedi', 'Light Side'],
@@ -253,6 +259,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg',
+      loadout: 12,
+      extended: true,
     },
   ],
   ffg: 76,

@@ -79,7 +79,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 42,
+      cost: 5,
       xws: 'vizier',
       ability: {
         en:
@@ -102,6 +102,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_115.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -117,7 +119,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 47,
+      cost: 5,
       xws: 'captainferoph',
       ability: {
         en:
@@ -140,6 +142,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_114.png',
       },
+      loadout: 9,
+      extended: true,
     },
     {
       name: { en: 'Major Vermeil' },
@@ -151,7 +155,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 49,
+      cost: 5,
       xws: 'majorvermeil',
       ability: {
         en:
@@ -174,6 +178,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_113.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -184,7 +190,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 39,
+      cost: 5,
       xws: 'scarifbasepilot',
       text: {
         en:
@@ -207,13 +213,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
       ffg: 116,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_116.png',
       },
+      loadout: 8,
+      extended: true,
     },
   ],
 };

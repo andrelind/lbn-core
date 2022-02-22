@@ -90,7 +90,7 @@ const t: ShipType = {
         es:
           'El Escuadrón Sombra ha prestado servicio desde los primeros días de las Guerras Clon, obteniendo célebres victorias en Kadavo y contra la nave insignia de Grievous, el Malevolencia.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       slots: [
         'Talent',
@@ -101,7 +101,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 31,
+      cost: 4,
       ffg: 602,
       keywords: ['Clone', 'Y-wing'],
       image: {
@@ -110,6 +110,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/84e5bef1597b232a20e52e1aa28a4c7e.jpg',
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Anakin Skywalker' },
@@ -138,7 +140,7 @@ const t: ShipType = {
         'Gunner',
         'Force Power',
       ],
-      cost: 50,
+      cost: 5,
       ffg: 596,
       caption: {
         en: 'Hero of the Republic',
@@ -146,13 +148,15 @@ const t: ShipType = {
         fr: 'Héros de la République',
         es: 'Héroe de la República',
       },
-      keywords: ['Jedi', 'Light Side', 'Y-wing'],
+      keywords: ['Light Side'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/c7c979a7d90961d2e3afe377a71285df.png',
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       name: { en: 'R2-D2' },
@@ -186,7 +190,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 31,
+      cost: 4,
       ffg: 600,
       caption: {
         en: 'Bucket of Bolts',
@@ -201,6 +205,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/90c3f9aac7f44e4a6a860c81f93aae99.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -270,7 +276,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 41,
+      cost: 5,
       ffg: 598,
       caption: {
         en: 'Shadow Two',
@@ -285,6 +291,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8d8b63edff7a5e9969ca61ebb4456837.jpg',
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: '"Broadside"' },
@@ -312,7 +320,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 36,
+      cost: 5,
       ffg: 599,
       caption: {
         en: 'Shadow Three',
@@ -327,6 +335,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d34e3bcb51d765f9dd12a9fc266e7ad9.jpg',
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: '"Goji"' },
@@ -353,7 +363,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 29,
+      cost: 4,
       ffg: 601,
       caption: {
         en: 'Payload Specialist',
@@ -368,6 +378,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/026f989543c030d7c8e6757a9aab7a68.jpg',
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -389,7 +401,7 @@ const t: ShipType = {
         es:
           'En la batalla de Geonosis, el Escuadrón Rojo proporcionó una cobertura indispensable a las cañoneras LAAT desplegadas para ocupar la superficie.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       slots: [
         'Turret',
@@ -399,7 +411,7 @@ const t: ShipType = {
         'Modification',
         'Gunner',
       ],
-      cost: 30,
+      cost: 4,
       ffg: 603,
       keywords: ['Clone', 'Y-wing'],
       image: {
@@ -408,6 +420,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e91e0d3a30e85c878f7493360d1b668f.jpg',
+      loadout: 6,
+      extended: true,
     },
   ],
   ffg: 68,

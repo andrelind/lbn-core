@@ -47,7 +47,7 @@ const t: ShipType = {
       caption: { en: 'Gold Leader', de: 'Gold Eins', es: 'Jefe Oro' },
       initiative: 4,
       limited: 1,
-      cost: 40,
+      cost: 4,
       xws: 'dutchvander',
       ability: {
         en:
@@ -78,6 +78,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_14.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: { en: 'Evaan Verlaine' },
@@ -89,7 +91,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 34,
+      cost: 4,
       xws: 'evaanverlaine',
       ability: {
         en:
@@ -120,6 +122,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_16.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: {
@@ -130,7 +134,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 31,
+      cost: 4,
       xws: 'goldsquadronveteran',
       text: {
         en:
@@ -168,6 +172,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_17.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -178,7 +184,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 29,
+      cost: 4,
       xws: 'graysquadronbomber',
       text: {
         en:
@@ -208,13 +214,15 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_18.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Horton Salm' },
       caption: { en: 'Gray Leader', de: 'Grau Eins', es: 'Jefe Gris' },
       initiative: 4,
       limited: 1,
-      cost: 36,
+      cost: 4,
       xws: 'hortonsalm',
       ability: {
         en:
@@ -245,6 +253,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_15.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: { en: 'Norra Wexley' },

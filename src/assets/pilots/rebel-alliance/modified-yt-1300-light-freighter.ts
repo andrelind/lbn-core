@@ -188,7 +188,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 67,
+      cost: 7,
       xws: 'outerrimsmuggler',
       text: {
         en:
@@ -212,13 +212,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
       ffg: 72,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_72.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: { en: 'Leia Organa' },
@@ -254,15 +256,17 @@ const t: ShipType = {
         es:
           'Después de que una nave aliada ejecute completamente una maniobra roja, si se halla a alcance 0-3 de ti, puedes gastar 1 [Force]. Si lo haces, esa nave recibe 1 ficha de Concentración o recupera 1 [Force].',
       },
-      cost: 77,
+      cost: 8,
       ffg: 630,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
-      keywords: ['Freighter', 'YT-1300'],
+      keywords: ['Freighter', 'YT-1300', 'Light Side'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png',
       },
+      loadout: 20,
+      extended: true,
     },
   ],
 };

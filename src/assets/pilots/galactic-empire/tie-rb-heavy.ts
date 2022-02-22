@@ -62,7 +62,7 @@ const t: ShipType = {
         es: 'Cadete de la Academia de Carida',
         fr: "Cadet de l'Académie Carida",
       },
-      cost: 34,
+      cost: 5,
       initiative: 1,
       limited: 0,
       slots: [
@@ -92,6 +92,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg',
+      loadout: 8,
+      extended: true,
     },
     {
       xws: 'onyxsquadronsentry',
@@ -101,7 +103,7 @@ const t: ShipType = {
         es: 'Centinela del Escuadrón Ónice',
         fr: "Sentinelle de l'Escadron Onyx",
       },
-      cost: 35,
+      cost: 5,
       initiative: 3,
       limited: 0,
       slots: [
@@ -132,6 +134,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg',
+      loadout: 7,
+      extended: true,
     },
     {
       xws: 'rampage',
@@ -142,7 +146,7 @@ const t: ShipType = {
         es: 'Perseguidor implacable',
         fr: 'Poursuivant Implacable',
       },
-      cost: 38,
+      cost: 5,
       initiative: 4,
       limited: 1,
       ability: {
@@ -163,7 +167,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      standard: false,
+      standard: true,
       epic: true,
       ffg: 693,
       keywords: ['TIE'],
@@ -173,6 +177,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg',
+      loadout: 14,
+      extended: true,
     },
     {
       name: { en: 'Lyttan Dree' },
@@ -190,7 +196,7 @@ const t: ShipType = {
         fr:
           "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque, si vous êtes dans le [Left Arc] ou [Right Arc] du défenseur, l'attaquant peut relancer 1 dé d'attaque.",
       },
-      standard: false,
+      standard: true,
       epic: true,
       slots: [
         'Cannon',
@@ -199,7 +205,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      cost: 36,
+      cost: 4,
       ffg: 694,
       keywords: ['TIE'],
       image: {
@@ -208,6 +214,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
+      loadout: 10,
+      extended: true,
     },
   ],
   ffg: 72,

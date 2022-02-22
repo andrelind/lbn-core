@@ -49,7 +49,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 1,
-      cost: 43,
+      cost: 5,
       xws: 'esegetuketu',
       ability: {
         en:
@@ -80,6 +80,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_63.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: 'Miranda Doni' },
@@ -91,7 +93,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 40,
+      cost: 5,
       xws: 'mirandadoni',
       ability: {
         en:
@@ -122,6 +124,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_62.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: {
@@ -132,7 +136,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 0,
-      cost: 38,
+      cost: 5,
       xws: 'wardensquadronpilot',
       text: {
         en:
@@ -163,6 +167,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_64.png',
       },
+      loadout: 7,
+      extended: true,
     },
   ],
 };

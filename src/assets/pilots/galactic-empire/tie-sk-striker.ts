@@ -77,7 +77,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 41,
+      cost: 5,
       xws: 'countdown',
       ability: {
         en:
@@ -93,13 +93,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
       ffg: 118,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_118.png',
       },
+      loadout: 15,
+      extended: true,
     },
     {
       name: { en: '"Duchess"', de: '„Herzogin"', es: '"Duquesa"' },
@@ -111,7 +113,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 44,
+      cost: 5,
       xws: 'duchess',
       ability: {
         en:
@@ -127,13 +129,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
       ffg: 117,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_117.png',
       },
+      loadout: 10,
+      extended: true,
     },
     {
       name: { en: '"Pure Sabacc"', de: '„Voller Sabacc"', es: '"Sabacc Puro"' },
@@ -145,7 +149,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 42,
+      cost: 4,
       xws: 'puresabacc',
       ability: {
         en:
@@ -161,13 +165,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
       ffg: 119,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_119.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: {
@@ -178,7 +184,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 34,
+      cost: 4,
       xws: 'blacksquadronscout',
       text: {
         en:
@@ -201,6 +207,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_120.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: {
@@ -211,7 +219,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 32,
+      cost: 4,
       xws: 'planetarysentinel',
       text: {
         en:
@@ -234,6 +242,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_121.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: '"Vagabond"', de: '„Vagabond"', es: '"Vagabundo"' },
@@ -245,7 +255,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 32,
+      cost: 4,
       xws: 'vagabond',
       ability: {
         en:
@@ -258,7 +268,7 @@ const t: ShipType = {
           'Después de que ejecutes completamente una maniobra utilizando tus Alerones adaptativos, si no estás bajo tensión, puedes soltar 1 dispositivo.',
       },
       slots: ['Talent', 'Gunner', 'Device', 'Modification'],
-      standard: false,
+      standard: true,
       epic: true,
       ffg: 633,
       keywords: ['TIE'],
@@ -268,6 +278,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg',
+      loadout: 10,
+      extended: true,
     },
   ],
 };

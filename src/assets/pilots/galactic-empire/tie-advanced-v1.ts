@@ -64,7 +64,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 31,
+      cost: 4,
       xws: 'baronoftheempire',
       text: {
         en:
@@ -87,6 +87,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png',
       },
+      loadout: 2,
+      extended: true,
     },
     {
       name: {
@@ -103,7 +105,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 52,
+      cost: 6,
       xws: 'grandinquisitor',
       ability: {
         en:
@@ -120,19 +122,21 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
       ffg: 99,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_99.png',
       },
+      loadout: 17,
+      extended: true,
     },
     {
       name: { en: 'Inquisitor', fr: 'Inquisiteur', es: 'Inquisidor' },
       initiative: 3,
       limited: 0,
-      cost: 39,
+      cost: 4,
       xws: 'inquisitor',
       text: {
         en:
@@ -156,6 +160,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_102.png',
       },
+      loadout: 5,
+      extended: true,
     },
     {
       name: {
@@ -172,7 +178,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 43,
+      cost: 5,
       xws: 'seventhsister',
       ability: {
         en:
@@ -189,13 +195,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
       ffg: 100,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_100.png',
       },
+      loadout: 11,
+      extended: true,
     },
     {
       name: {
@@ -212,7 +220,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 44,
+      cost: 5,
       xws: 'fifthbrother',
       ability: {
         en:
@@ -226,7 +234,7 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: ['Force Power', 'Sensor', 'Missile'],
-      standard: false,
+      standard: true,
       epic: true,
       ffg: 632,
       keywords: ['Dark Side', 'TIE'],
@@ -236,6 +244,8 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg',
+      loadout: 10,
+      extended: true,
     },
   ],
 };

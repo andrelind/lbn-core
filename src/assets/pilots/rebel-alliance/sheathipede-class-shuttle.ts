@@ -103,7 +103,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 1,
-      cost: 32,
+      cost: 3,
       xws: 'ap5',
       ability: {
         en:
@@ -123,13 +123,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
       ffg: 41,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Droid', 'Spectre'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Ezra Bridger' },

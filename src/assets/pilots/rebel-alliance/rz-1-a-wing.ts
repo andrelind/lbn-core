@@ -77,7 +77,7 @@ const t: ShipType = {
       caption: { en: 'Green Leader', de: 'Grün Eins', es: 'Jefe Verde' },
       initiative: 3,
       limited: 1,
-      cost: 32,
+      cost: 3,
       xws: 'arvelcrynyd',
       ability: {
         en:
@@ -100,6 +100,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_20.png',
       },
+      loadout: 6,
+      extended: true,
     },
     {
       name: {
@@ -110,7 +112,7 @@ const t: ShipType = {
       },
       initiative: 3,
       limited: 0,
-      cost: 30,
+      cost: 3,
       xws: 'greensquadronpilot',
       text: {
         en:
@@ -126,13 +128,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_21.png',
       },
+      loadout: 4,
+      extended: true,
     },
     {
       name: { en: 'Jake Farrell' },
@@ -144,7 +148,7 @@ const t: ShipType = {
       },
       initiative: 4,
       limited: 1,
-      cost: 34,
+      cost: 4,
       xws: 'jakefarrell',
       ability: {
         en:
@@ -167,6 +171,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_19.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -177,7 +183,7 @@ const t: ShipType = {
       },
       initiative: 1,
       limited: 0,
-      cost: 28,
+      cost: 3,
       xws: 'phoenixsquadronpilot',
       text: {
         en:
@@ -193,13 +199,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['A-wing'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_22.png',
       },
+      loadout: 3,
+      extended: true,
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -210,7 +218,7 @@ const t: ShipType = {
         es: 'Piloto prometedor',
         fr: 'Pilote Prometteur',
       },
-      cost: 35,
+      cost: 6,
       initiative: 4,
       limited: 1,
       ability: {
@@ -226,10 +234,12 @@ const t: ShipType = {
       slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
-      keywords: ['A-wing'],
+      keywords: ['X-wing'],
       ffg: 883,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
+      loadout: 20,
+      extended: true,
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -351,7 +361,7 @@ const t: ShipType = {
       xws: 'derekklivian',
       name: { en: 'Derek Klivian' },
       caption: { en: 'Hobbie' },
-      cost: 30,
+      cost: 2,
       initiative: 3,
       limited: 1,
       ability: {
@@ -371,6 +381,8 @@ const t: ShipType = {
       ffg: 884,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg',
+      loadout: 0,
+      extended: true,
     },
   ],
 };

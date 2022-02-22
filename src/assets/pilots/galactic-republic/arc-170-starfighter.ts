@@ -63,9 +63,9 @@ const t: ShipType = {
           'Mientras una nave aliada que tienes a alcance 1-2 en tu [Left Arc] or [Right Arc] efectúa un ataque principal, esa nave puede volver a tirar 1 dado de ataque.',
       },
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
-      standard: false,
+      standard: true,
       epic: true,
-      cost: 53,
+      cost: 6,
       ffg: 526,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
@@ -74,11 +74,13 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png',
       },
+      loadout: 18,
+      extended: true,
     },
     {
       name: { en: '"Jag"', de: '„Jag"' },
       xws: 'jag',
-      cost: 47,
+      cost: 5,
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
       ffg: 525,
       caption: { en: 'CT-55/11-9009' },
@@ -96,18 +98,20 @@ const t: ShipType = {
         es:
           'Después de que una nave aliada que tengas a alcance 1-2 en tu [Left Arc] o [Right Arc] se defienda, puedes obtener un Blanco fijado sobre el atacante.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Clone'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
       },
+      loadout: 14,
+      extended: true,
     },
     {
       name: { en: '"Odd Ball"', de: '„Odd Ball"' },
       xws: 'oddball-arc170starfighter',
-      cost: 48,
+      cost: 5,
       slots: [
         'Talent',
         'Torpedo',
@@ -132,18 +136,20 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra roja o realices una acción roja, si hay una nave enemiga en tu [Bullseye Arc], puedes obtener un Blanco fijado sobre esa nave.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Clone'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
       },
+      loadout: 16,
+      extended: true,
     },
     {
       name: { en: '"Wolffe"', de: '„Wolffe"' },
       xws: 'wolffe',
-      cost: 49,
+      cost: 5,
       slots: [
         'Talent',
         'Torpedo',
@@ -169,13 +175,15 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal [Front Arc], puedes gastar 1 [Charge] para volver a tirar 1 dado de ataque. Mientras efectúas un ataque principal [Rear Arc], puedes recuperar 1 [Charge] para tirar 1 dado de ataque adicional.',
       },
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Clone'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
       },
+      loadout: 12,
+      extended: true,
     },
     {
       name: {
@@ -185,7 +193,7 @@ const t: ShipType = {
         es: 'Piloto del Batallón 104',
       },
       xws: '104thbattalionpilot',
-      cost: 42,
+      cost: 5,
       slots: ['Torpedo', 'Crew', 'Astromech', 'Modification', 'Gunner'],
       ffg: 528,
       initiative: 2,
@@ -209,6 +217,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: {
@@ -218,7 +228,7 @@ const t: ShipType = {
         es: 'Veterano del Escuadrón Siete',
       },
       xws: 'squadsevenveteran',
-      cost: 44,
+      cost: 5,
       slots: [
         'Talent',
         'Torpedo',
@@ -249,6 +259,8 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/0e0fb59b2806b41214275255986965f2.png',
       },
+      loadout: 10,
+      extended: true,
     },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',

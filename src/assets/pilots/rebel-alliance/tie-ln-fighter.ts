@@ -81,7 +81,7 @@ const t: ShipType = {
       },
       initiative: 2,
       limited: 1,
-      cost: 26,
+      cost: 3,
       xws: 'captainrex',
       ability: {
         en:
@@ -98,13 +98,15 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
       ffg: 48,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Clone', 'TIE'],
       image: {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png',
       },
+      loadout: 8,
+      extended: true,
     },
     {
       name: { en: 'Ezra Bridger' },
