@@ -1264,6 +1264,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -2280,8 +2281,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 14 },
     restrictions: [{ factions: ['Galactic Republic', 'Separatist Alliance'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 1,
@@ -2840,11 +2842,12 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],
+    extended: true,
   },
   {
     xws: 'commandermalarus',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 3 },
     sides: [
       {
         ffg: 684,
@@ -2903,6 +2906,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],
+    extended: true,
   },
   {
     xws: 'commanderpyre',

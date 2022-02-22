@@ -2,7 +2,7 @@ import * as ExcelJS from 'exceljs';
 import fs, { promises } from 'fs';
 import factionShips from '../../src/assets/pilots';
 import upgradesAssets from '../../src/assets/upgrades';
-import { factions } from '../../src/helpers/enums';
+import { factions, slotKeys } from '../../src/helpers/enums';
 import { keyFromSlot, slotFromKey } from '../../src/helpers/convert';
 import prettier from 'prettier';
 import { Slot } from '../../src/types';
@@ -133,7 +133,7 @@ const runUpgrades = async () => {
   wb.worksheets.forEach((ws) => {
     ws.eachRow((row) => {
       if (row.cellCount === 6 && row.getCell(1).text !== 'Upgrade Name') {
-        const name = row.getCell(1).text.replaceAll('•', '');
+        const name = row.getCell(1).text.replaceAll('•', '').split('/')[0];
         const upgradeType = row.getCell(2).text;
         const cost = parseInt(row.getCell(3).text);
         const std = row.getCell(5).toString();
@@ -161,26 +161,28 @@ const runUpgrades = async () => {
         const key = keyFromSlot(type as Slot);
 
         upgradesAssets[key][upgradesAssets[key].indexOf(upgrade)] = upgrade;
-
-        const f = upgradesAssets[key];
-
-        const header =
-          'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
-        const formatted = prettier.format(
-          `${header}${JSON.stringify(f)};\n\nexport default t;`,
-          {
-            trailingComma: 'all',
-            singleQuote: true,
-            parser: 'typescript',
-          }
-        );
-        fs.writeFileSync(
-          `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
-          formatted,
-          'utf8'
-        );
       }
     });
+  });
+
+  slotKeys.forEach((key) => {
+    const f = upgradesAssets[key];
+
+    const header =
+      'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
+    const formatted = prettier.format(
+      `${header}${JSON.stringify(f)};\n\nexport default t;`,
+      {
+        trailingComma: 'all',
+        singleQuote: true,
+        parser: 'typescript',
+      }
+    );
+    fs.writeFileSync(
+      `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
+      formatted,
+      'utf8'
+    );
   });
 };
 

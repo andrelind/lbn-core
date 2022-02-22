@@ -71,6 +71,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['t70xwing'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -171,8 +172,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 0 },
     restrictions: [{ chassis: ['ut60duwing'] }],
-    standard: false,
+    standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -252,6 +254,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['t65xwing'] }],
     standard: true,
     epic: true,
+    extended: true,
   },
   {
     limited: 0,
@@ -355,6 +358,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     cost: { value: 0 },
+    extended: true,
   },
   {
     limited: 0,
@@ -388,7 +392,7 @@ const t: UpgradeBase[] = [
         },
       },
     ],
-    cost: { value: null },
+    cost: { value: 0 },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
     standard: false,
     epic: true,
@@ -624,6 +628,7 @@ const t: UpgradeBase[] = [
     epic: true,
     cost: { value: 0 },
     restrictions: [{ chassis: ['asf01bwing'] }],
+    extended: true,
   },
   {
     xws: 'alpha3bbesh',
@@ -662,7 +667,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'interceptbooster',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         ability: {
@@ -725,6 +730,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['droidtrifighter'] }],
+    extended: true,
   },
   {
     xws: 'maneuverassistmgk300',

@@ -1054,6 +1054,7 @@ const t: UpgradeBase[] = [
     epic: true,
     cost: { value: 2 },
     restrictions: [{ factions: ['First Order'] }],
+    extended: true,
   },
   {
     xws: 'deadeyeshot',
