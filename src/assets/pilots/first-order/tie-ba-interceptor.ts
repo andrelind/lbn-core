@@ -100,7 +100,14 @@ const t: ShipType = {
         es:
           'Durante la fase de Sistemas, puedes elegir 1 nave enemiga situada en tu [Bullseye Arc]. Esa nave recibe 1 ficha de Merma o de Sobresfuerzo a tu elección.',
       },
-      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Tech',
+        'Missile',
+        'Modification',
+        'Modification',
+      ],
       standard: true,
       epic: true,
       ffg: 624,
@@ -136,7 +143,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, debes transferir 1 de tus fichas a otra nave aliada que tengas a alcance 0-2.',
       },
-      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification', 'Modification'],
       standard: true,
       epic: true,
       ffg: 625,
@@ -172,7 +179,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si hay alguna nave dañada aliada con el defensor situada a alcance 0-1 del defensor, éste no puede gastar fichas de Concentración o de Cálculos.',
       },
-      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
+      slots: ['Talent', 'Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 626,

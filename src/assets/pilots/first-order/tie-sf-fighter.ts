@@ -115,7 +115,7 @@ const t: ShipType = {
         es:
           'Después de que pierdas un escudo, puedes gastar 1 [Charge]. Si lo haces, puedes efectuar un ataque principal adicional.',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Talent', 'Talent', 'Sensor', 'Tech', 'Gunner', 'Modification'],
       charges: { value: 1, recovers: 1 },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
@@ -152,7 +152,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal [Single Turret Arc], si el defensor está en tu [Rear Arc], tira 1 dado adicional.',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Talent', 'Missile', 'Sensor', 'Tech', 'Gunner', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
       ffg: 407,
@@ -187,7 +187,7 @@ const t: ShipType = {
         es:
           'El TIE/sf es un caza estelar muy versátil provisto de armamento especializado y sistemas experimentales para operaciones de largo alcance llevadas a cabo por las Fuerzas Especiales de la Primera Orden.',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
       ffg: 408,
@@ -222,7 +222,7 @@ const t: ShipType = {
         es:
           'Humillados por su fracaso, los pilotos restantes de la base Starkiller están ansiosos por demostrar su valía mientras persiguen a la Resistencia.',
       },
-      slots: ['Sensor', 'Missile', 'Modification', 'Gunner', 'Tech'],
+      slots: ['Talent', 'Sensor', 'Tech', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
       ffg: 409,
@@ -242,7 +242,15 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'lieutenantlehuse',
-      slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Tech',
+        'Missile',
+        'Missile',
+        'Gunner',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg',
       ffg: 641,
@@ -282,7 +290,15 @@ const t: ShipType = {
       limited: 1,
       cost: 4,
       xws: 'captainphasma',
-      slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Tech',
+        'Missile',
+        'Gunner',
+        'Modification',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg',
       standard: true,

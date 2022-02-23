@@ -63,7 +63,7 @@ const t: ShipType = {
         es:
           'Respetables o dignos de confianza son palabras que ni siquiera los demás criminales utilizarían para referirse a la banda de contrabandistas y piratas liderada por Kath Scarlet que opera desde los planetas gemelos Talus y Tralus.',
       },
-      slots: ['Missile', 'Illicit', 'Modification'],
+      slots: ['Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
       ffg: 173,

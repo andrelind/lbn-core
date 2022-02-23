@@ -62,11 +62,12 @@ const t: ShipType = {
       cost: 6,
       slots: [
         'Talent',
+        'Talent',
         'Tech',
+        'Torpedo',
         'Torpedo',
         'Missile',
         'Gunner',
-        'Device',
         'Device',
         'Modification',
       ],
@@ -93,11 +94,11 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Tech',
-        'Torpedo',
         'Missile',
         'Gunner',
         'Device',
         'Device',
+        'Modification',
         'Modification',
       ],
       ability: {
@@ -151,8 +152,8 @@ const t: ShipType = {
       standard: true,
       cost: 4,
       slots: [
+        'Talent',
         'Tech',
-        'Torpedo',
         'Missile',
         'Gunner',
         'Device',
@@ -180,7 +181,6 @@ const t: ShipType = {
       standard: true,
       cost: 4,
       slots: [
-        'Talent',
         'Tech',
         'Torpedo',
         'Missile',
@@ -208,15 +208,7 @@ const t: ShipType = {
       limited: 0,
       standard: true,
       cost: 4,
-      slots: [
-        'Tech',
-        'Torpedo',
-        'Missile',
-        'Gunner',
-        'Device',
-        'Device',
-        'Modification',
-      ],
+      slots: ['Tech', 'Tech', 'Missile', 'Device', 'Device', 'Modification'],
       text: {
         en:
           'Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.',

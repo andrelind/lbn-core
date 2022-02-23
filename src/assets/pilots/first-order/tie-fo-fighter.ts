@@ -68,7 +68,14 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c6a43d25d22d4112dd7e968cab4eb3d5.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Missile',
+        'Tech',
+        'Modification',
+        'Modification',
+      ],
       ffg: 397,
       standard: true,
       epic: true,
@@ -104,7 +111,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d9cfa6aacc29d55a47aaa0d9f75d362e.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Modification'],
       charges: { value: 2, recovers: 0 },
       ffg: 452,
       standard: true,
@@ -141,7 +148,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/dd225b2dab46b921e622dca6d799591f.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Tech', 'Modification'],
       ffg: 398,
       standard: true,
       epic: true,
@@ -177,7 +184,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Talent', 'Talent', 'Tech', 'Cannon', 'Modification'],
       ffg: 399,
       standard: true,
       epic: true,
@@ -208,7 +215,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/31ad38b2fc0d39f37ad82e1c70f62135.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Tech', 'Modification'],
       ffg: 400,
       standard: true,
       epic: true,
@@ -243,7 +250,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4e5010f7b60902288dac36bf646dcde9.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Modification', 'Modification'],
       ffg: 403,
       standard: true,
       epic: true,
@@ -279,7 +286,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg',
-      slots: ['Talent', 'Modification', 'Tech'],
+      slots: ['Modification', 'Tech'],
       ffg: 401,
       standard: true,
       epic: true,
@@ -385,7 +392,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/610cb198e4cda75aab0207841c6e4a87.jpg',
-      slots: ['Modification', 'Tech'],
+      slots: ['Tech', 'Tech'],
       ffg: 405,
       standard: true,
       epic: true,
@@ -421,7 +428,7 @@ const t: ShipType = {
         es:
           'Después de que una nave que tengas a alcance 1-2 reciba una ficha roja o naranja, si no tienes a esa nave fijada como blanco, puedes obtener un Blanco fijado sobre esa nave.',
       },
-      slots: ['Modification', 'Tech'],
+      slots: [],
       ffg: 454,
       standard: true,
       epic: true,
@@ -456,7 +463,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/eb788d9622d096c6d96c96cf20dc1939.jpg',
-      slots: ['Modification', 'Tech'],
+      slots: ['Talent', 'Talent', 'Tech', 'Tech'],
       ffg: 402,
       standard: true,
       epic: true,

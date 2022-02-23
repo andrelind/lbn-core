@@ -70,6 +70,7 @@ const t: ShipType = {
       cost: 7,
       slots: [
         'Force Power',
+        'Force Power',
         'Talent',
         'Missile',
         'Tech',
@@ -97,7 +98,7 @@ const t: ShipType = {
       limited: 1,
       standard: true,
       cost: 5,
-      slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Tech', 'Tech', 'Configuration'],
       ability: {
         en:
           'After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.',
@@ -119,7 +120,7 @@ const t: ShipType = {
       text: { en: '???' },
       standard: true,
       cost: 4,
-      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Tech', 'Configuration'],
       ffg: 921,
       artwork: '???',
       keywords: ['TIE'],
@@ -166,7 +167,7 @@ const t: ShipType = {
       },
       standard: true,
       cost: 4,
-      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 923,
       artwork: '???',
       keywords: ['TIE'],
