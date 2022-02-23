@@ -39,6 +39,7 @@ const t: ShipType = {
   ability: {
     name: 'Weapon Hardpoint',
     text: 'You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade.',
+    slotOptions: ['Cannon', 'Torpedo', 'Missile'],
   },
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Scyk.png',
   pilots: [

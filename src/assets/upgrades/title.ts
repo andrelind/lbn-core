@@ -412,9 +412,9 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
-    standard: true,
-    epic: true,
-    extended: true,
+    standard: false,
+    epic: false,
+    extended: false,
   },
   {
     limited: 1,
@@ -1012,6 +1012,7 @@ const t: UpgradeBase[] = [
     xws: 'slavei-swz82',
     standard: true,
     epic: true,
+    extended: true,
     sides: [
       {
         ability:
@@ -1027,7 +1028,7 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy', 'Separatist Alliance'] },
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
-    cost: { value: 3 },
+    cost: { value: 0 },
   },
   {
     xws: 'b6bladewingprototype',

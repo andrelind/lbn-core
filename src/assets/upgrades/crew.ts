@@ -777,7 +777,7 @@ const t: UpgradeBase[] = [
         ffg: 312,
       },
     ],
-    cost: { value: 16 },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,

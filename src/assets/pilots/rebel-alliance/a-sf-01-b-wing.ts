@@ -116,7 +116,7 @@ const t: ShipType = {
         'Sensor',
         'Cannon',
         'Cannon',
-        'Missile',
+        'Torpedo',
         'Device',
         'Modification',
         'Configuration',

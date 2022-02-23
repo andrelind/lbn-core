@@ -123,7 +123,7 @@ const t: ShipType = {
         'Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.',
       standard: true,
       epic: true,
-      slots: ['Tech', 'Crew', 'Astromech', 'Astromech'],
+      slots: ['Cannon', 'Crew', 'Astromech', 'Astromech'],
       cost: 4,
       ffg: 572,
       loadout: 6,

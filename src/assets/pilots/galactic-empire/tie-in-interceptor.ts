@@ -85,7 +85,13 @@ const t: ShipType = {
       xws: 'soontirfel',
       ability:
         'At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.',
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       ffg: 103,
       standard: true,
       epic: true,

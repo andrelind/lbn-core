@@ -63,7 +63,8 @@ const t: ShipType = {
       xws: 'chewbacca-scavengedyt1300',
       ability:
         'After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.',
-      cost: 60,
+      cost: 7,
+      loadout: 18,
       slots: [
         'Talent',
         'Talent',

@@ -39,6 +39,7 @@ const t: ShipType = {
   ability: {
     name: 'Weapon Hardpoint',
     text: 'You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade.',
+    slotOptions: ['Cannon', 'Torpedo', 'Missile'],
   },
   icon:
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_X-wing-T70.png',
@@ -191,7 +192,8 @@ const t: ShipType = {
       xws: 'karekun',
       ability:
         'While you boost, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
-      cost: 47,
+      cost: 5,
+      loadout: 13,
       slots: [
         'Talent',
         'Tech',
@@ -310,7 +312,8 @@ const t: ShipType = {
       xws: 'temminwexley-swz68',
       name: 'Temmin Wexley',
       caption: 'Black Two',
-      cost: 53,
+      cost: 6,
+      loadout: 14,
       initiative: 4,
       limited: 1,
       ability:
@@ -359,7 +362,8 @@ const t: ShipType = {
       limited: 1,
       caption: 'Hopeful Hero',
       standard: true,
-      cost: 47,
+      cost: 5,
+      loadout: 10,
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ability:
         "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",

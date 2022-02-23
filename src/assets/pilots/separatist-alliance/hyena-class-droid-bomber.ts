@@ -56,7 +56,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Torpedo', 'Missile', 'Modification', 'Configuration'],
+      slots: ['Torpedo', 'Device', 'Modification', 'Configuration'],
       ffg: 568,
       keywords: ['Droid'],
       loadout: 6,
