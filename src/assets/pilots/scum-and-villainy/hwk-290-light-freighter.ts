@@ -74,15 +74,7 @@ const t: ShipType = {
           'Después de que una nave enemiga que tengas a alcance 0-3 reciba al menos 1 ficha de Iones, puedes gastar 3 [Charge]. Si lo haces, esa nave recibe 2 fichas de Iones adicionales.',
       },
       charges: { value: 3, recovers: 1 },
-      slots: [
-        'Talent',
-        'Crew',
-        'Device',
-        'Illicit',
-        'Modification',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Talent', 'Crew', 'Device', 'Illicit', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
       ffg: 174,
@@ -161,14 +153,7 @@ const t: ShipType = {
         es:
           'Aunque su capacidad de carga es limitada en comparación con la de otros cargueros ligeros, el pequeño y veloz HWK-290 es una de las naves favoritas de los contrabandistas especializados en el transporte discreto de mercancías valiosas.',
       },
-      slots: [
-        'Crew',
-        'Device',
-        'Illicit',
-        'Modification',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Device', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
       ffg: 177,
@@ -204,14 +189,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave que tengas en tu arco de fuego. Si lo haces, en esta ronda esa nave interviene con Iniciativa 0 en vez de su valor de Iniciativa normal.',
       },
-      slots: [
-        'Crew',
-        'Device',
-        'Illicit',
-        'Modification',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
       ffg: 176,
@@ -244,7 +222,6 @@ const t: ShipType = {
         'Illicit',
         'Modification',
         'Modification',
-        'Title',
       ],
       standard: true,
       epic: true,
@@ -295,7 +272,6 @@ const t: ShipType = {
         'Illicit',
         'Modification',
         'Modification',
-        'Title',
       ],
       standard: true,
       epic: true,
@@ -335,7 +311,6 @@ const t: ShipType = {
         'Illicit',
         'Modification',
         'Modification',
-        'Title',
       ],
       standard: true,
       epic: true,

@@ -104,7 +104,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, si el alcance de ataque es 1, puedes tirar 1 dado adicional.',
       },
-      slots: ['Talent', 'Torpedo'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
       ffg: 155,
@@ -173,7 +173,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra roja, recibes 2 fichas de Concentración.',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
       ffg: 158,
@@ -214,7 +214,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave enemiga que tengas a alcance 1. Si lo haces y estás en su [Front Arc], esa nave retira todas sus fichas verdes.',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
       ffg: 156,
@@ -249,7 +249,7 @@ const t: ShipType = {
         es:
           'Los ases del Escuadrón Calavera prefieren los estilos de vuelo agresivos con los que gracias al diseño de ala pivotante de sus naves disfrutan de una agilidad insuperable mientras persiguen a sus presas.',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Torpedo', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
       ffg: 159,
@@ -284,7 +284,7 @@ const t: ShipType = {
         es:
           'Los pilotos del caza Colmillo mandaloriano deben dominar el Envite de Concordia, una maniobra que se vale de la estilizada silueta del vehículo para efectuar mortíferos asaltos frontales.',
       },
-      slots: ['Torpedo', 'Modification'],
+      slots: ['Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
       ffg: 160,
@@ -311,7 +311,7 @@ const t: ShipType = {
         en:
           'https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png',
       ffg: 159,

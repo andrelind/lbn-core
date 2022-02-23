@@ -266,7 +266,7 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-1 se defiende, esa nave puede volver a tirar 1 de sus dados.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent', 'Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg',
       ffg: 183,
@@ -335,7 +335,7 @@ const t: ShipType = {
         es:
           "La derrota de Talonbane Cobra, el as del Sol negro, a manos de los contrabandistas Car'das cambió el curso de la batalla de la estación Punto Tansarii. A los supervivientes de ese enfrentamiento se les respeta en todo el sector.",
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg',
       ffg: 189,

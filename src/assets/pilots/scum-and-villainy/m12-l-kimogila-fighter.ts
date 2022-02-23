@@ -94,14 +94,7 @@ const t: ShipType = {
         es:
           'Muchos pilotos veteranos al servicio de los kajidics hutt y otras entidades criminales eligen el caza M12-L Kimogila tanto por su potencia de fuego como por su temible reputación.',
       },
-      slots: [
-        'Talent',
-        'Torpedo',
-        'Missile',
-        'Astromech',
-        'Illicit',
-        'Modification',
-      ],
+      slots: ['Missile'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
       ffg: 209,

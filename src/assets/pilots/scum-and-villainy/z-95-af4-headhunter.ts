@@ -97,7 +97,7 @@ const t: ShipType = {
         es:
           'El vasto e influyente sindicato del crimen Sol Negro siempre tiene alguna tarea para pilotos con talento que no tengan escrúpulos respecto a cómo se ganan su salario.',
       },
-      slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
+      slots: ['Missile', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
       ffg: 172,
@@ -168,7 +168,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, si no tienes ninguna otra nave aliada a alcance 0-2, tira 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
       ffg: 169,
@@ -207,7 +207,7 @@ const t: ShipType = {
         es:
           'Sólo puedes desplegarte mediante el despliegue de emergencia, y posees el nombre, Iniciativa, capacidad especial de piloto y [Charge] de nave del Diente de Perro aliado que ha sido destruido.',
       },
-      slots: ['Missile', 'Illicit', 'Modification'],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
       ffg: 171,
@@ -242,7 +242,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, después del paso de "Neutralizar resultados", puedes gastar 1 resultado [Critical Hit] para añadir 2 resultados [Hit].',
       },
-      slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
+      slots: ['Talent', 'Talent', 'Missile', 'Illicit', 'Modification'],
       standard: true,
       epic: true,
       ffg: 635,

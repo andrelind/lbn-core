@@ -69,10 +69,10 @@ const t: ShipType = {
         'Missile',
         'Crew',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
         'Title',
-        'Gunner',
       ],
       alt: [
         {
@@ -122,10 +122,9 @@ const t: ShipType = {
         'Missile',
         'Crew',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
-        'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
@@ -169,10 +168,9 @@ const t: ShipType = {
         'Missile',
         'Crew',
         'Crew',
+        'Gunner',
         'Illicit',
         'Modification',
-        'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
@@ -208,16 +206,7 @@ const t: ShipType = {
         es:
           'El espacioso diseño de triple cubierta del YV-666 lo convierte en un vehículo muy popular entre cazarrecompensas y esclavistas, quienes suelen modificar una de las cubiertas para dedicarla por entero al transporte de prisioneros.',
       },
-      slots: [
-        'Cannon',
-        'Missile',
-        'Crew',
-        'Crew',
-        'Illicit',
-        'Modification',
-        'Title',
-        'Gunner',
-      ],
+      slots: ['Cannon', 'Missile', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
       ffg: 213,

@@ -100,7 +100,7 @@ const t: ShipType = {
         es:
           'Si vas a soltar un dispositivo, en vez de eso puedes lanzarlo utilizando una plantilla (1 [Straight]).',
       },
-      slots: ['Talent', 'Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
+      slots: ['Talent', 'Tech', 'Device', 'Device', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
       ffg: 161,
@@ -134,7 +134,7 @@ const t: ShipType = {
         es:
           'El remolcador espacial cuatrimotor para transferencia de carga, conocido popularmente como "saltador quad", es tan ágil en el espacio como en la atmósfera, lo que lo hace popular entre contrabandistas y exploradores por igual.',
       },
-      slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
+      slots: ['Device', 'Illicit', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
       ffg: 164,
@@ -169,7 +169,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, puedes considerar tu valor de Agilidad como si fuera igual a la velocidad de la maniobra que has ejecutado en esta ronda.',
       },
-      slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
+      slots: ['Tech', 'Crew', 'Device', 'Illicit', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
       ffg: 162,
@@ -205,7 +205,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, si tienes una o más naves a alcance 0, tú y toda otra nave que tengas a alcance 0 recibís 1 ficha de Campo de tracción.',
       },
-      slots: ['Crew', 'Device', 'Illicit', 'Modification', 'Tech'],
+      slots: ['Tech', 'Crew', 'Device', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
       ffg: 163,

@@ -87,7 +87,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
-      slots: ['Talent', 'Modification'],
+      slots: [],
       ffg: 442,
       standard: true,
       epic: true,
@@ -128,7 +128,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification'],
       ffg: 443,
       standard: true,
       epic: true,
@@ -169,7 +169,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       ffg: 441,
       standard: true,
       epic: true,
@@ -204,7 +204,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
-      slots: ['Talent', 'Modification'],
+      slots: [],
       ffg: 445,
       standard: true,
       epic: true,
@@ -245,7 +245,7 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
-      slots: ['Modification'],
+      slots: ['Missile', 'Modification'],
       ffg: 444,
       standard: true,
       epic: true,
@@ -280,7 +280,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
-      slots: ['Modification'],
+      slots: [],
       ffg: 446,
       standard: true,
       epic: true,

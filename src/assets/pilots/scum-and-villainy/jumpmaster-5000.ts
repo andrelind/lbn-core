@@ -67,15 +67,7 @@ const t: ShipType = {
         es:
           'Diseñado para el reconocimiento de largo alcance y el trazado de nuevas rutas hiperespaciales, el escasamente armado Saltador Maestro 5000 suele ser ampliamente reacondicionado con mejoras personalizadas.',
       },
-      slots: [
-        'Cannon',
-        'Torpedo',
-        'Crew',
-        'Gunner',
-        'Illicit',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Cannon', 'Torpedo', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
       ffg: 217,
@@ -217,7 +209,6 @@ const t: ShipType = {
         'Gunner',
         'Illicit',
         'Modification',
-        'Title',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
@@ -253,15 +244,7 @@ const t: ShipType = {
         es:
           'Después de que te conviertas en el defensor, si el atacante no se halla en tu [Single Turret Arc], debes reorientar tu indicador [Single Turret Arc] hacia un arco normal en el que esté situado tu atacante.',
       },
-      slots: [
-        'Cannon',
-        'Torpedo',
-        'Crew',
-        'Gunner',
-        'Illicit',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Cannon', 'Torpedo', 'Crew', 'Gunner', 'Illicit', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg',
       standard: true,

@@ -69,12 +69,12 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: [
+        'Force Power',
+        'Talent',
         'Crew',
         'Illicit',
         'Illicit',
         'Modification',
-        'Title',
-        'Force Power',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
@@ -182,7 +182,7 @@ const t: ShipType = {
         es:
           'Los sindicatos criminales complementan las letales habilidades de sus agentes más leales proporcionándoles la mejor tecnología disponible, como la rápida y formidable nave de persecución clase Lancero.',
       },
-      slots: ['Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
+      slots: ['Illicit', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
       ffg: 221,

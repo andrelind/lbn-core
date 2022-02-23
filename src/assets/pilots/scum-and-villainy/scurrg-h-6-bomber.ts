@@ -69,11 +69,11 @@ const t: ShipType = {
         'Talent',
         'Turret',
         'Crew',
+        'Gunner',
         'Device',
         'Device',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
@@ -108,15 +108,7 @@ const t: ShipType = {
         es:
           'El Colectivo de Diseño de Nubia enfatizó la versatilidad en combate al crear el bombardero Scurrg H-6, dotándolo de potentes escudos y un variado arsenal de armas destructoras.',
       },
-      slots: [
-        'Turret',
-        'Crew',
-        'Device',
-        'Device',
-        'Modification',
-        'Title',
-        'Gunner',
-      ],
+      slots: ['Turret', 'Gunner', 'Device', 'Device'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
       ffg: 206,
@@ -154,11 +146,10 @@ const t: ShipType = {
         'Talent',
         'Turret',
         'Crew',
+        'Gunner',
         'Device',
         'Device',
         'Modification',
-        'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',

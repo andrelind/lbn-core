@@ -106,7 +106,7 @@ const t: ShipType = {
         es:
           'Los legendarios buscadores de Gand rinden culto a las arremolinadas nieblas de su planeta natal y utilizan presagios, augurios y rituales místicos para hallar a su presa.',
       },
-      slots: ['Sensor', 'Crew', 'Illicit', 'Modification', 'Title'],
+      slots: ['Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
       ffg: 203,

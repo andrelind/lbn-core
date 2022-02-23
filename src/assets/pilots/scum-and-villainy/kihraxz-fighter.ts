@@ -63,14 +63,7 @@ const t: ShipType = {
         es:
           'El caza de asalto Kihraxz fue desarrollado expresamente para el sindicato criminal del Sol Negro, cuyos cotizadísimos ases estelares exigían naves ágiles y potentes que estuvieran a la altura de sus habilidades.',
       },
-      slots: [
-        'Talent',
-        'Missile',
-        'Illicit',
-        'Illicit',
-        'Modification',
-        'Modification',
-      ],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
       ffg: 195,
@@ -139,7 +132,7 @@ const t: ShipType = {
         es:
           'El diseño del caza Kihraxz está basado en el del popular caza estelar Ala-X de Incom, pero los numerosos accesorios y modificaciones disponibles para su personalización propician una amplia diversidad de modelos.',
       },
-      slots: ['Missile', 'Illicit', 'Illicit', 'Modification', 'Modification'],
+      slots: ['Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
       ffg: 196,

@@ -103,7 +103,7 @@ const t: ShipType = {
         es:
           'Aunque los asesinatos se pueden ejecutar mediante un disparo en la oscuridad o añadiendo alguna sustancia letal a una bebida, la visión de una lanzadera cayendo del cielo envuelta en llamas envía un tipo de mensaje muy distinto.',
       },
-      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Tech'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
       ffg: 181,
@@ -137,7 +137,7 @@ const t: ShipType = {
         es:
           'El mismísimo príncipe Xizor colaboró con Motores Mandal en el diseño de la plataforma de ataque clase Víbora Estelar, uno de los cazas estelares más formidables de la galaxia.',
       },
-      slots: ['Tech', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Tech'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
       ffg: 182,
@@ -172,7 +172,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra, puedes recibir 1 ficha de Tensión para girar tu nave 90˚ sobre sí misma.',
       },
-      slots: ['Talent', 'Tech', 'Torpedo', 'Modification', 'Title'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
       ffg: 179,

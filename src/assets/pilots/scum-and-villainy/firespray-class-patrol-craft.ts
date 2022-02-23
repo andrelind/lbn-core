@@ -56,7 +56,7 @@ const t: ShipType = {
       },
       initiative: 5,
       limited: 1,
-      cost: 7,
+      cost: 10,
       xws: 'bobafett',
       ability: {
         en:
@@ -72,6 +72,7 @@ const t: ShipType = {
         'Talent',
         'Cannon',
         'Missile',
+        'Crew',
         'Device',
         'Illicit',
         'Modification',
@@ -95,7 +96,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_149.png',
       },
-      loadout: 16,
+      loadout: 22,
       extended: true,
     },
     {
@@ -119,15 +120,7 @@ const t: ShipType = {
         fr:
           "La sinistre réputation du Patrouilleur de Classe Firespray a pour origine les chasseurs de primes Jango Fett et Boba Fett, qui modifièrent leur appareil avec d'innombrables armes terrifiantes.",
       },
-      slots: [
-        'Cannon',
-        'Missile',
-        'Crew',
-        'Device',
-        'Illicit',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Cannon', 'Missile', 'Device', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
       ffg: 154,
@@ -298,6 +291,7 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
+        'Cannon',
         'Cannon',
         'Missile',
         'Crew',
