@@ -3,6 +3,7 @@ import arc170starfighter from './arc-170-starfighter';
 import btlbywing from './btl-b-y-wing';
 import cr90corelliancorvette from './cr90-corellian-corvette';
 import delta7aethersprite from './delta-7-aethersprite';
+import delta7baethersprite from './delta-7b-aethersprite';
 import eta2actis from './eta-2-actis';
 import laatigunship from './laat-i-gunship';
 import nabooroyaln1starfighter from './naboo-royal-n-1-starfighter';
@@ -16,6 +17,7 @@ const ships: { [s: string]: ShipType } = {
   btlbywing,
   cr90corelliancorvette,
   delta7aethersprite,
+  delta7baethersprite,
   gauntletfighter,
   nabooroyaln1starfighter,
   v19torrentstarfighter,

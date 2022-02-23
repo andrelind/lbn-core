@@ -1,12 +1,8 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Delta-7 Aethersprite',
-    fr: 'Aethersprite Delta-7',
-    es: 'Delta-7 Duende del Éter',
-  },
-  xws: 'delta7aethersprite',
+  name: { en: 'Delta-7B Aethersprite' },
+  xws: 'delta7baethersprite',
   size: 'Small',
   dial: [
     '1TW',
@@ -30,7 +26,7 @@ const t: ShipType = {
   ],
   faction: 'Galactic Republic',
   stats: [
-    { arc: 'Front Arc', type: 'attack', value: 3 },
+    { arc: 'Front Arc', type: 'attack', value: 2 },
     { type: 'agility', value: 3 },
     { type: 'hull', value: 3 },
     { type: 'shields', value: 1 },
@@ -96,8 +92,8 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 4,
-      slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
+      cost: 6,
+      slots: ['Force Power', 'Astromech', 'Modification'],
       ffg: 515,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
@@ -106,7 +102,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
       },
-      loadout: 3,
+      loadout: 8,
       extended: true,
     },
     {
@@ -133,13 +129,12 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 5,
+      cost: 7,
       slots: [
         'Force Power',
         'Force Power',
         'Missile',
         'Astromech',
-        'Configuration',
         'Modification',
       ],
       ffg: 511,
@@ -150,7 +145,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png',
       },
-      loadout: 10,
+      loadout: 12,
       extended: true,
     },
     {
@@ -177,15 +172,8 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 5,
-      slots: [
-        'Force Power',
-        'Talent',
-        'Missile',
-        'Astromech',
-        'Configuration',
-        'Modification',
-      ],
+      cost: 7,
+      slots: ['Force Power', 'Talent', 'Missile', 'Astromech', 'Modification'],
       ffg: 513,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
@@ -221,8 +209,8 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: false,
       epic: true,
-      cost: 4,
-      slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
+      cost: 6,
+      slots: ['Force Power', 'Astromech', 'Modification'],
       ffg: 514,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
@@ -231,7 +219,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
       },
-      loadout: 8,
+      loadout: 9,
       extended: true,
     },
     {
@@ -257,14 +245,8 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 4,
-      slots: [
-        'Force Power',
-        'Force Power',
-        'Astromech',
-        'Configuration',
-        'Modification',
-      ],
+      cost: 6,
+      slots: ['Force Power', 'Force Power', 'Astromech', 'Modification'],
       ffg: 512,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
@@ -273,7 +255,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
       },
-      loadout: 7,
+      loadout: 8,
       extended: true,
     },
     {
@@ -300,14 +282,13 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
-      loadout: 10,
+      cost: 8,
+      loadout: 15,
       slots: [
         'Force Power',
         'Force Power',
         'Missile',
         'Astromech',
-        'Configuration',
         'Modification',
       ],
       ffg: 507,
@@ -344,8 +325,8 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 4,
-      slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
+      cost: 6,
+      slots: ['Force Power', 'Astromech', 'Modification'],
       ffg: 510,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
@@ -354,7 +335,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
       },
-      loadout: 9,
+      loadout: 10,
       extended: true,
     },
     {
@@ -381,14 +362,8 @@ const t: ShipType = {
       force: { value: 1, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 3,
-      slots: [
-        'Force Power',
-        'Missile',
-        'Astromech',
-        'Configuration',
-        'Modification',
-      ],
+      cost: 6,
+      slots: ['Force Power', 'Missile', 'Astromech', 'Modification'],
       ffg: 509,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
@@ -424,8 +399,8 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 4,
-      slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
+      cost: 6,
+      slots: ['Force Power', 'Astromech', 'Modification'],
       ffg: 508,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
