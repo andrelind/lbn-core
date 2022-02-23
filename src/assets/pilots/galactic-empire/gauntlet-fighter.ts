@@ -100,7 +100,6 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
-      caption: '',
     },
   ],
 };

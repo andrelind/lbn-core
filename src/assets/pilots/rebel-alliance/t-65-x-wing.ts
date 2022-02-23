@@ -277,7 +277,7 @@ const t: ShipType = {
         'Configuration',
       ],
       ffg: 1,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
     },

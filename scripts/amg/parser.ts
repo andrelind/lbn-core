@@ -80,22 +80,16 @@ const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
   return shipsAndPilots[0];
 };
 
-// @ts-ignore
 const runShips = async () => {
   const wbLoader = new ExcelJS.Workbook();
   const file = await promises.readFile('./scripts/amg/ship_points.xlsx');
   const wb = await wbLoader.xlsx.load(file);
-  // Read lists
 
   let shipName = '';
 
   wb.worksheets.forEach((ws) => {
     ws.eachRow((row) => {
-      if (
-        // row.getCell(2).toString() === '[object Object]' ||
-        row.getCell(1).toString() === 'Pilot Name'
-      ) {
-        // console.log(row.getCell(1).toString());
+      if (row.getCell(1).toString() === 'Pilot Name') {
         return;
       }
 
@@ -118,17 +112,14 @@ const runShips = async () => {
             `Not found: ${pilotName} ${subtitle} ${cost} ${loadout} ${upgrades} ${keywords} ${std} ${ext}`
           );
         } else {
-          shipName = pilotName;
+          shipName = pilotName.substring(0, pilotName.indexOf('(')).trim();
         }
         return;
       }
 
       const { ship, pilot } = shipAndPilot;
-      // console.log(pilotName, ship.name.en, pilot.name.en);
 
-      // @ts-ignore
       pilot.name = pilotName;
-      // @ts-ignore
       pilot.caption = subtitle;
 
       pilot.cost = parseInt(cost, 10);
@@ -138,23 +129,6 @@ const runShips = async () => {
       pilot.standard = std === 'Yes' ? true : false;
       pilot.extended = ext === 'Yes' ? true : false;
       pilot.epic = true;
-
-      if (ship.ability && typeof ship.ability.name !== 'string') {
-        // @ts-ignore
-        ship.ability.name = ship.ability.name.en;
-        // @ts-ignore
-        ship.ability.text = ship.ability.text.en;
-        ship.ability.slotOptions = undefined;
-      }
-      if (pilot.ability && typeof pilot.ability !== 'string') {
-        // @ts-ignore
-        pilot.ability = pilot.ability.en;
-      }
-
-      if (pilot.text && typeof pilot.text !== 'string') {
-        // @ts-ignore
-        pilot.text = pilot.text.en;
-      }
 
       factionShips[ship.faction][ship.xws].pilots[
         ship.pilots.indexOf(pilot)
@@ -173,7 +147,6 @@ const runShips = async () => {
         );
         fs.writeFileSync(
           `./src/assets/pilots/${getName(ship.faction)}/${getName(
-            // @ts-ignore
             ship.name
           )}.ts`,
           formatted,
