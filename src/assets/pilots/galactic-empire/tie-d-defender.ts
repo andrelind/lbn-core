@@ -140,7 +140,14 @@ const t: ShipType = {
         es:
           'Mientras vas a ejecutar una maniobra [Straight], puedes incrementar la dificultad de la maniobra. Si lo haces, ejecútala como si fuera una maniobra [Koiogran Turn].',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Sensor',
+        'Cannon',
+        'Missile',
+        'Configuration',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
       ffg: 124,
@@ -175,7 +182,7 @@ const t: ShipType = {
         es:
           'Además de sus lanzamisiles y seis cañones láser montados en las alas, el formidable Defensor TIE está equipado con escudos deflectores y un hiperimpulsor.',
       },
-      slots: ['Sensor', 'Cannon', 'Missile', 'Configuration'],
+      slots: ['Sensor', 'Cannon', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
       ffg: 126,
@@ -246,7 +253,14 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque que impacte, si estás evadiéndote, expón 1 de las cartas de Daño del defensor.',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Cannon',
+        'Missile',
+        'Missile',
+        'Configuration',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
       ffg: 122,
@@ -282,7 +296,14 @@ const t: ShipType = {
         fr:
           'Action : gagnez 1 marqueur de contrainte pour récupérer 1 [Charge]. Avant de vous engager, vous pouvez dépenser 1 [Charge] pour effectuer une action.',
       },
-      slots: ['Talent', 'Sensor', 'Cannon', 'Missile', 'Configuration'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Sensor',
+        'Cannon',
+        'Missile',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -315,7 +336,7 @@ const t: ShipType = {
           'Vous ne pouvez pas dépenser de [Force] sauf lorsque vous attaquez. Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Force] pour changer 1 résultat vierge en un résultat [Hit].',
       },
       force: { value: 3, recovers: 1, side: ['dark'] },
-      slots: ['Force Power', 'Cannon', 'Missile', 'Configuration'],
+      slots: ['Force Power', 'Tech', 'Cannon', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],

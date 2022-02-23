@@ -68,16 +68,7 @@ const t: ShipType = {
         es:
           'El Ala-B dispone de un sistema único de giroestabilización que rota alrededor de la carlinga para mantener al piloto siempre en la misma posición durante el vuelo.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Cannon',
-        'Cannon',
-        'Torpedo',
-        'Modification',
-        'Title',
-        'Configuration',
-      ],
+      slots: ['Sensor', 'Cannon', 'Cannon', 'Torpedo', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
       ffg: 25,
@@ -112,15 +103,7 @@ const t: ShipType = {
         es:
           'Gracias a sus sistemas de armamento pesado y sus resistentes escudos deflectores, el Ala-B se ha consolidado como uno de los cazas de asalto más innovadores de la Alianza Rebelde.',
       },
-      slots: [
-        'Sensor',
-        'Cannon',
-        'Cannon',
-        'Torpedo',
-        'Modification',
-        'Title',
-        'Configuration',
-      ],
+      slots: ['Sensor', 'Cannon', 'Cannon', 'Device', 'Configuration'],
       alt: [
         {
           image:
@@ -169,8 +152,8 @@ const t: ShipType = {
         'Cannon',
         'Cannon',
         'Torpedo',
+        'Device',
         'Modification',
-        'Title',
         'Configuration',
       ],
       artwork:
@@ -213,9 +196,9 @@ const t: ShipType = {
         'Sensor',
         'Cannon',
         'Cannon',
-        'Torpedo',
+        'Missile',
+        'Device',
         'Modification',
-        'Title',
         'Configuration',
       ],
       artwork:
@@ -259,8 +242,8 @@ const t: ShipType = {
         'Cannon',
         'Cannon',
         'Torpedo',
+        'Device',
         'Modification',
-        'Title',
         'Configuration',
       ],
       standard: true,
@@ -304,6 +287,8 @@ const t: ShipType = {
         'Cannon',
         'Cannon',
         'Torpedo',
+        'Missile',
+        'Device',
         'Modification',
         'Title',
         'Configuration',
@@ -344,9 +329,9 @@ const t: ShipType = {
         'Sensor',
         'Cannon',
         'Cannon',
-        'Torpedo',
+        'Missile',
+        'Device',
         'Modification',
-        'Title',
         'Configuration',
       ],
       standard: true,

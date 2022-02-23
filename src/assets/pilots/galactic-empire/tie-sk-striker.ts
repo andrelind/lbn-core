@@ -89,7 +89,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, después del paso de "Neutralizar los resultados", puedes sufrir 1 de daño [Hit] y recibir 1 ficha de Tensión. Si lo haces, anula todos los resultados de los dados.',
       },
-      slots: ['Talent', 'Device', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Talent', 'Device', 'Modification', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
       ffg: 118,
@@ -125,7 +125,14 @@ const t: ShipType = {
         es:
           'Puedes elegir no utilizar tus alerones adaptativos. Puedes utilizar tus alerones adaptativos incluso aunque estés bajo tensión.',
       },
-      slots: ['Talent', 'Device', 'Modification', 'Gunner'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Device',
+        'Modification',
+        'Modification',
+        'Gunner',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
       ffg: 117,
@@ -161,7 +168,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si tienes 1 o menos cartas de Daño, puedes tirar 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Device', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Device', 'Modification', 'Modification', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
       ffg: 119,
@@ -196,7 +203,7 @@ const t: ShipType = {
         es:
           'Estas naves atmosféricas fuertemente armadas obtienen una mayor velocidad y maniobrabilidad gracias a sus alas móviles especialmente diseñadas.',
       },
-      slots: ['Talent', 'Device', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Device', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg',
       ffg: 120,
@@ -267,7 +274,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra utilizando tus Alerones adaptativos, si no estás bajo tensión, puedes soltar 1 dispositivo.',
       },
-      slots: ['Talent', 'Gunner', 'Device', 'Modification'],
+      slots: ['Talent', 'Gunner', 'Device', 'Device', 'Modification'],
       standard: true,
       epic: true,
       ffg: 633,

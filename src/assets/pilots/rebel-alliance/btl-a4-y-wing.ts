@@ -62,11 +62,11 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Turret',
-        'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
+        'Device',
         'Modification',
-        'Missile',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
@@ -107,10 +107,11 @@ const t: ShipType = {
         'Talent',
         'Turret',
         'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
         'Modification',
-        'Missile',
+        'Modification',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
@@ -146,15 +147,7 @@ const t: ShipType = {
         es:
           'Bajo el mando de Jon "Dutch" Vander, el Escuadrón Oro desempeñó un papel esencial en las batallas de Scarif y Yavin.',
       },
-      slots: [
-        'Talent',
-        'Turret',
-        'Torpedo',
-        'Astromech',
-        'Device',
-        'Modification',
-        'Missile',
-      ],
+      slots: ['Turret', 'Missile', 'Modification'],
       alt: [
         {
           image:
@@ -196,14 +189,7 @@ const t: ShipType = {
         es:
           'Mucho después de que los Alas-Y dejaran de ser utilizados por el Imperio Galáctico, su resistencia, fiabilidad y potente armamento contribuyeron a asegurar su permanencia en la flota rebelde.',
       },
-      slots: [
-        'Turret',
-        'Torpedo',
-        'Astromech',
-        'Device',
-        'Modification',
-        'Missile',
-      ],
+      slots: ['Device', 'Missile', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
       ffg: 18,
@@ -238,10 +224,10 @@ const t: ShipType = {
         'Talent',
         'Turret',
         'Torpedo',
+        'Missile',
         'Astromech',
         'Device',
         'Modification',
-        'Missile',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
@@ -285,7 +271,6 @@ const t: ShipType = {
         'Astromech',
         'Device',
         'Modification',
-        'Missile',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',

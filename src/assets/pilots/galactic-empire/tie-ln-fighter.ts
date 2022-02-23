@@ -64,7 +64,13 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-1 efectúa un ataque principal, esa nave puede volver a tirar 1 dado de ataque.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Modification',
+        'Modification',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
       ffg: 81,
@@ -104,7 +110,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque a alcance de ataque 1, tira 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
       ffg: 80,
@@ -144,7 +150,7 @@ const t: ShipType = {
         es:
           'Después de que ejecutes completamente una maniobra azul, puedes realizar una acción [Focus].',
       },
-      slots: ['Modification'],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
       ffg: 88,
@@ -184,7 +190,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque contra un defensor situado en tu [Bullseye Arc], tira 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
       ffg: 82,
@@ -221,7 +227,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque, puedes gastar 1 [Charge] para tirar 1 dado de ataque adicional. Después de que te defiendas, pierdes 1 [Charge].',
       },
       charges: { value: 1, recovers: 1 },
-      slots: ['Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
       ffg: 89,
@@ -341,7 +347,7 @@ const t: ShipType = {
         es:
           'Mientras una nave aliada que tienes a alcance 0-2 se defiende contra un atacante dañado, el defensor puede volver a tirar 1 dado de defensa.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
       ffg: 85,
@@ -377,7 +383,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque contra un defensor dañado, tira 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
       ffg: 84,
@@ -414,7 +420,14 @@ const t: ShipType = {
           'Antes de que un caza TIE/ln aliado que tengas a alcance 0 -1 vaya a sufrir 1 o más de daño, puedes gastar 1 [Charge]. Si lo haces, impides ese daño.',
       },
       charges: { value: 1, recovers: 0 },
-      slots: ['Talent', 'Modification'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Cannon',
+        'Torpedo',
+        'Missile',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
       ffg: 83,
@@ -456,7 +469,7 @@ const t: ShipType = {
           source: 'X-Wing Second Edition Launch Party',
         },
       ],
-      slots: ['Modification'],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
       ffg: 91,
@@ -492,7 +505,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, puedes gastar 1 resultado [Critical Hit]. Si lo haces, inflige 1 carta de Daño boca abajo al defensor, y luego anula tus resultados restantes.',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Talent'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
       ffg: 86,
@@ -555,7 +568,7 @@ const t: ShipType = {
       image: {
         en: 'https://infinitearenas.com/xw2/images/pilots/isbjingoist.png',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Illicit', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png',
       keywords: ['TIE'],
@@ -579,7 +592,7 @@ const t: ShipType = {
       image: {
         en: 'https://infinitearenas.com/xw2/images/pilots/moffgideon.png',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Missile', 'Illicit', 'Illicit', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
       keywords: ['TIE'],

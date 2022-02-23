@@ -101,12 +101,11 @@ const t: ShipType = {
       },
       slots: [
         'Torpedo',
+        'Torpedo',
         'Missile',
-        'Missile',
-        'Device',
+        'Gunner',
         'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg',
@@ -148,10 +147,10 @@ const t: ShipType = {
         'Torpedo',
         'Missile',
         'Missile',
+        'Gunner',
         'Device',
         'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg',
@@ -187,16 +186,7 @@ const t: ShipType = {
         es:
           'Aunque no son tan veloces ni maniobrables como el modelo TIE/ln, el compartimento de munición incorporado a los bombarderos TIE les permite acarrear suficiente potencia de fuego para destruir prácticamente cualquier objetivo enemigo.',
       },
-      slots: [
-        'Talent',
-        'Torpedo',
-        'Missile',
-        'Missile',
-        'Device',
-        'Device',
-        'Modification',
-        'Gunner',
-      ],
+      slots: ['Torpedo', 'Gunner', 'Device', 'Device', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg',
       ffg: 111,
@@ -237,10 +227,9 @@ const t: ShipType = {
         'Torpedo',
         'Missile',
         'Missile',
-        'Device',
+        'Gunner',
         'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg',
@@ -275,15 +264,7 @@ const t: ShipType = {
         es:
           'El TIE/sa es excepcionalmente ágil para tratarse de un bombardero, lo que le permite localizar y destruir un blanco minimizando los daños colaterales en la zona circundante.',
       },
-      slots: [
-        'Torpedo',
-        'Missile',
-        'Missile',
-        'Device',
-        'Device',
-        'Modification',
-        'Gunner',
-      ],
+      slots: ['Missile', 'Gunner', 'Device', 'Device', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg',
       ffg: 112,
@@ -321,13 +302,13 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Torpedo',
+        'Talent',
         'Missile',
         'Missile',
+        'Gunner',
         'Device',
         'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg',

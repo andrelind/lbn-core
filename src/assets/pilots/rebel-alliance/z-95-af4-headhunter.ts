@@ -64,7 +64,7 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque, puedes elegir 1 nave aliada que tengas a alcance 1. Esa nave puede realizar una acción, considerándola de color rojo.',
       },
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
       ffg: 27,
@@ -133,7 +133,7 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque principal, si hay al menos 1 otra nave aliada situada a alcance 0-1 del defensor, puedes tirar 1 dado de ataque adicional.',
       },
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: [],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
       ffg: 28,
@@ -167,7 +167,7 @@ const t: ShipType = {
         es:
           'La serie AF4 es la última en una larga serie de diseños de Cazacabezas. Barata y relativamente duradera, es muy apreciada por organizaciones independientes como la Alianza Rebelde.',
       },
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
       ffg: 29,

@@ -97,7 +97,7 @@ const t: ShipType = {
         es:
           'Mientras desactivas el camuflaje, debes utilizar la plantilla (2 [Bank Left]) o (2 [Bank Right]) en vez de la plantilla (2 [Straight]).',
       },
-      slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Talent', 'Sensor', 'Modification', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
       ffg: 132,
@@ -132,7 +132,7 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque que impacte, recibes 1 ficha de Evasión.',
       },
-      slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Sensor', 'Gunner', 'Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
       ffg: 131,

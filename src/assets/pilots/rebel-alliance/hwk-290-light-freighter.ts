@@ -77,6 +77,7 @@ const t: ShipType = {
         'Talent',
         'Crew',
         'Device',
+        'Device',
         'Modification',
         'Modification',
         'Title',
@@ -116,14 +117,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Enfrentamiento, puedes transferir 1 de tus fichas de Concentración a una nave aliada situada en tu arco de fuego.',
       },
-      slots: [
-        'Talent',
-        'Crew',
-        'Device',
-        'Modification',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Talent', 'Talent', 'Crew', 'Device', 'Modification', 'Title'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
       ffg: 43,
@@ -158,7 +152,7 @@ const t: ShipType = {
         es:
           'Diseñadas por la Corporación de Ingeniería Corelliana para que se parecieran a un pájaro en vuelo, las naves de la serie HWK son unos magníficos transportes. La velocidad y robustez del HWK-290 hacen que suela ser empleado por agentes rebeldes como base móvil de operaciones.',
       },
-      slots: ['Crew', 'Device', 'Modification', 'Modification', 'Title'],
+      slots: ['Device', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
       ffg: 45,

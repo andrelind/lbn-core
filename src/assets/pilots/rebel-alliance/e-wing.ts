@@ -105,8 +105,9 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Sensor',
         'Tech',
+        'Sensor',
+        'Sensor',
         'Torpedo',
         'Astromech',
         'Modification',
@@ -147,8 +148,8 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Sensor',
         'Tech',
+        'Sensor',
         'Torpedo',
         'Astromech',
         'Modification',
@@ -186,7 +187,7 @@ const t: ShipType = {
         es:
           'Diseñados para combinar las mejores prestaciones de las series Ala-X y Ala-A, el Ala-E supera a ambos modelos en velocidad, maniobrabilidad y potencia de fuego.',
       },
-      slots: ['Sensor', 'Tech', 'Torpedo', 'Astromech', 'Modification'],
+      slots: ['Sensor', 'Tech', 'Astromech', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg',
       ffg: 53,
@@ -220,14 +221,7 @@ const t: ShipType = {
         es:
           'Los pilotos de élite del Escuadrón Pícaro se cuentan entre los mejores de la Alianza Rebelde.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Tech',
-        'Torpedo',
-        'Astromech',
-        'Modification',
-      ],
+      slots: ['Sensor', 'Torpedo', 'Astromech', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg',
       ffg: 52,

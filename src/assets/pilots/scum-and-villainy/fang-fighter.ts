@@ -91,7 +91,8 @@ const t: ShipType = {
       },
       initiative: 6,
       limited: 1,
-      cost: 68,
+      cost: 7,
+      loadout: 12,
       xws: 'fennrau',
       ability: {
         en:

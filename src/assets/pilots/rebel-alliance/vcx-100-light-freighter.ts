@@ -101,9 +101,9 @@ const t: ShipType = {
         'Torpedo',
         'Crew',
         'Crew',
+        'Gunner',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
@@ -123,7 +123,8 @@ const t: ShipType = {
       caption: { en: 'Spectre-2', es: 'Espectro-2' },
       initiative: 5,
       limited: 1,
-      cost: 69,
+      cost: 8,
+      loadout: 20,
       xws: 'herasyndulla-vcx100lightfreighter',
       ability: {
         en:
@@ -142,9 +143,9 @@ const t: ShipType = {
         'Torpedo',
         'Crew',
         'Crew',
+        'Gunner',
         'Modification',
         'Title',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
@@ -162,7 +163,7 @@ const t: ShipType = {
       caption: { en: 'Spectre-1', es: 'Espectro-1' },
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 9,
       xws: 'kananjarrus',
       ability: {
         en:
@@ -176,15 +177,15 @@ const t: ShipType = {
       },
       force: { value: 2, recovers: 1, side: ['light'] },
       slots: [
+        'Force Power',
         'Sensor',
         'Turret',
         'Torpedo',
         'Crew',
         'Crew',
+        'Gunner',
         'Modification',
         'Title',
-        'Gunner',
-        'Force Power',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
@@ -196,7 +197,7 @@ const t: ShipType = {
         en:
           'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png',
       },
-      loadout: 10,
+      loadout: 20,
       extended: true,
     },
     {
@@ -220,16 +221,7 @@ const t: ShipType = {
         es:
           'Otro exitoso diseño de carguero de la Corporación de Ingeniería Corelliana, el VCX-100 es más grande que la ubicua serie YT, por lo que dispone de más espacio para la tripulación y la instalación de mejoras personalizadas.',
       },
-      slots: [
-        'Sensor',
-        'Turret',
-        'Torpedo',
-        'Crew',
-        'Crew',
-        'Modification',
-        'Title',
-        'Gunner',
-      ],
+      slots: ['Turret', 'Torpedo', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
       ffg: 76,

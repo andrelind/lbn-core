@@ -71,8 +71,8 @@ const t: ShipType = {
         'Turret',
         'Missile',
         'Missile',
-        'Modification',
         'Gunner',
+        'Modification',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
@@ -114,8 +114,9 @@ const t: ShipType = {
         'Turret',
         'Missile',
         'Missile',
-        'Modification',
         'Gunner',
+        'Modification',
+        'Modification',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
@@ -151,14 +152,7 @@ const t: ShipType = {
         es:
           'Diseñado para enfrentamientos prolongados, el TIE/ag se asigna casi siempre a pilotos de élite entrenados para saber aprovechar al máximo tanto su particular complemento de armas como su maniobrabilidad.',
       },
-      slots: [
-        'Talent',
-        'Turret',
-        'Missile',
-        'Missile',
-        'Modification',
-        'Gunner',
-      ],
+      slots: ['Talent', 'Turret', 'Missile', 'Gunner'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
       ffg: 129,
@@ -193,7 +187,7 @@ const t: ShipType = {
         es:
           'Durante el desarrollo del TIE Agresor, Sistemas de Flota Sienar antepuso las prestaciones y la versatilidad a la mera eficiencia en costes.',
       },
-      slots: ['Turret', 'Missile', 'Missile', 'Modification', 'Gunner'],
+      slots: ['Turret', 'Missile', 'Gunner', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
       ffg: 130,

@@ -118,7 +118,7 @@ const t: ShipType = {
           'Mientras te defiendes a alcance de ataque 1, puedes gastar 1 [Force] para evitar la aplicación del modificador por alcance 1. Mientras efectúas un ataque contra un defensor que tienes a alcance de ataque 2−3, puedes gastar 1 [Force] para aplicar el modificador por alcance 1.',
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
-      slots: ['Sensor', 'Missile', 'Force Power'],
+      slots: ['Force Power', 'Force Power', 'Talent', 'Sensor', 'Missile'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
       ffg: 99,
@@ -149,7 +149,7 @@ const t: ShipType = {
           'A los temidos inquisidores se les concede un gran nivel de autonomía y acceso a la tecnología más moderna del Imperio, como el prototipo de TIE avanzado v1.',
       },
       force: { value: 1, recovers: 1, side: ['dark'] },
-      slots: ['Sensor', 'Missile', 'Force Power'],
+      slots: ['Force Power', 'Sensor'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
       ffg: 102,
@@ -191,7 +191,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque principal, antes del paso de "Neutralizar los resultados", puedes gastar 2 [Force] para anular 1 resultado [Evade].',
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
-      slots: ['Sensor', 'Missile', 'Force Power'],
+      slots: ['Force Power', 'Talent', 'Sensor', 'Missile'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
       ffg: 100,
@@ -233,7 +233,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque, después del paso de "Neutralizar resultados", si el ataque impacta, puedes gastar 2 [Force] para añadir 1 resultado [Critical Hit] .',
       },
       force: { value: 2, recovers: 1, side: ['dark'] },
-      slots: ['Force Power', 'Sensor', 'Missile'],
+      slots: ['Force Power', 'Talent', 'Sensor', 'Cannon'],
       standard: true,
       epic: true,
       ffg: 632,

@@ -66,6 +66,7 @@ const t: ShipType = {
           'Después de que realices una acción [Focus], puedes transferir 1 de tus fichas de Concentración a una nave aliada que tengas a alcance 1-2.',
       },
       slots: [
+        'Talent',
         'Sensor',
         'Crew',
         'Crew',
@@ -107,7 +108,7 @@ const t: ShipType = {
         es:
           'Empleado para desplegar tropas bajo el amparo de la oscuridad o en el fragor de la batalla, el UT-60D Ala-U proporciona a la Alianza Rebelde el transporte de tropas veloz y resistente que tanto necesitan.',
       },
-      slots: ['Sensor', 'Crew', 'Crew', 'Modification', 'Configuration'],
+      slots: ['Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
       ffg: 60,
@@ -142,14 +143,7 @@ const t: ShipType = {
         es:
           'Las naves aliadas son capaces de obtener Blancos fijados sobre objetos que estén situados a alcance 0-3 de cualquier nave aliada.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Crew',
-        'Crew',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Sensor', 'Crew', 'Crew', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
       ffg: 54,
@@ -184,14 +178,7 @@ const t: ShipType = {
         es:
           'Al comienzo de la fase de Activación, puedes elegir 1 nave aliada que tengas a alcance 1-3. Si lo haces, esa nave retira 1 ficha de Tensión.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Crew',
-        'Crew',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Sensor', 'Crew', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
       ffg: 56,
@@ -311,14 +298,7 @@ const t: ShipType = {
         es:
           'Los partisanos de Saw Gerrera se fundaron originalmente durante las Guerras Clon para hacer frente a las fuerzas separatistas en Onderon, pero decidieron proseguir su lucha contra la tiranía galáctica cuando el Imperio se hizo con el poder.',
       },
-      slots: [
-        'Sensor',
-        'Crew',
-        'Crew',
-        'Illicit',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Illicit', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
       ffg: 61,
@@ -409,14 +389,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Lock' },
         { difficulty: 'Red', type: 'Coordinate' },
       ],
-      slots: [
-        'Talent',
-        'Sensor',
-        'Crew',
-        'Crew',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Sensor', 'Crew', 'Crew', 'Modification', 'Configuration'],
       ffg: 629,
       standard: true,
       epic: true,

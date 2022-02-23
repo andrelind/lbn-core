@@ -98,7 +98,7 @@ const t: ShipType = {
           'Al comienzo de la fase de Activación, puedes gastar 1 [Charge]. Si lo haces, mientras las naves aliadas obtienen Blancos fijados en esta ronda, deben obtener Blancos fijados más allá de alcance 3 en vez de a alcance 0−3.',
       },
       charges: { value: 2, recovers: 0 },
-      slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
+      slots: ['Sensor', 'Cannon', 'Cannon', 'Crew', 'Modification', 'Title'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg',
       ffg: 143,
@@ -167,7 +167,7 @@ const t: ShipType = {
         es:
           'Célebre por su peculiar diseño de tres alas, la lanzadera clase Lambda desempeñó una función crítica como transporte utilitario ligero en la Armada Imperial.',
       },
-      slots: ['Sensor', 'Cannon', 'Crew', 'Crew', 'Modification', 'Title'],
+      slots: ['Sensor', 'Cannon', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg',
       ffg: 145,

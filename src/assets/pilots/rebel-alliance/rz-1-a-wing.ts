@@ -89,7 +89,7 @@ const t: ShipType = {
         es:
           'Eres capaz de efectuar ataques principales a alcance 0. Si una acción [Boost] tuya va a fracasar debido a que te solapas con otra nave, en vez de eso resuélvela como si estuvieras ejecutando parcialmente una maniobra.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
       ffg: 20,
@@ -124,7 +124,7 @@ const t: ShipType = {
         es:
           'Debido a la sensibilidad de sus mandos y su elevada capacidad de maniobra, sólo los mejores pilotos se sientan en la carlinga de un Ala-A.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
       ffg: 21,
@@ -160,7 +160,7 @@ const t: ShipType = {
         es:
           'Después de que realices una acción [Barrel Roll] o [Boost], puedes elegir una nave aliada que tengas a alcance 0-1. Esa nave puede realizar una acción [Focus].',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
       ffg: 19,
@@ -195,7 +195,7 @@ const t: ShipType = {
         es:
           'Bajo el mando del comandante Jun Sato, los valerosos pero inexpertos pilotos del Escuadrón Fénix se enfrentan al Imperio Galáctico teniéndolo todo en su contra.',
       },
-      slots: ['Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
       ffg: 22,
@@ -231,7 +231,7 @@ const t: ShipType = {
         fr:
           'Tant que vous effectuez une attaque principale, si le défenseur est dans votre [Front Arc], il lance 1 dé de défense en moins.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing'],
@@ -263,7 +263,15 @@ const t: ShipType = {
         fr:
           "Tant que vous défendez ou effectuez une attaque, si la portée d'attaque est de 1 et que vous êtes dans le [Front Arc] du vaisseau ennemi, vous pouvez changer 1 de vos résultats en un résultat [Evade] ou [Hit].",
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Torpedo',
+        'Missile',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
@@ -295,7 +303,14 @@ const t: ShipType = {
         fr:
           "Tant qu'un autre vaisseau allié à portée 1-2 défend ou effectue une attaque, vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau.",
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       keywords: ['A-wing', 'Spectre'],
@@ -323,7 +338,14 @@ const t: ShipType = {
           "Après avoir entièrement exécuté une manœuvre, vous pouvez choisir un vaisseau allié à portée 1-2 et dépenser 2 [Force]. Ce vaisseau peut effectuer une action, même s'il est stressé.",
       },
       force: { value: 3, side: ['light'], recovers: 1 },
-      slots: ['Force Power', 'Force Power', 'Missile', 'Configuration'],
+      slots: [
+        'Force Power',
+        'Force Power',
+        'Talent',
+        'Missile',
+        'Modification',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       keywords: ['A-wing', 'Light Side'],
@@ -355,7 +377,7 @@ const t: ShipType = {
         fr:
           'Tant que vous défendez ou effectuez une attaque principale, vous pouvez dépenser 1 verrouillage que vous avez sur le vaisseau ennemi pour ajouter 1 résultat [Focus] aux résultats de vos dés.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing'],
@@ -382,7 +404,7 @@ const t: ShipType = {
         fr:
           'Après avoir verrouillé ou avoir dépensé un verrouillage, vous pouvez vous retirer 1 marqueur rouge.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Configuration'],
+      slots: ['Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing'],

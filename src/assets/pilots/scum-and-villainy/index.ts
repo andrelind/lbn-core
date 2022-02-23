@@ -20,6 +20,7 @@ import starviperclassattackplatform from './starviper-class-attack-platform';
 import yv666lightfreighter from './yv-666-light-freighter';
 import z95af4headhunter from './z-95-af4-headhunter';
 import tridentclassassaultship from './trident-class-assault-ship';
+import gauntletfighter from './gauntlet-fighter';
 
 const ships: { [s: string]: ShipType } = {
   aggressorassaultfighter,
@@ -29,6 +30,7 @@ const ships: { [s: string]: ShipType } = {
   escapecraft,
   fangfighter,
   firesprayclasspatrolcraft,
+  gauntletfighter,
   g1astarfighter,
   hwk290lightfreighter,
   jumpmaster5000,

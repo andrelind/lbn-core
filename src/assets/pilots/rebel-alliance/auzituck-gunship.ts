@@ -62,7 +62,7 @@ const t: ShipType = {
         es:
           'Equipada con tres cañones láser dobles Sureggi de amplio alcance, la cañonera Auzituck sirve como un potente elemento disuasorio ante las actividades esclavistas en el sistema Kashyyyk.',
       },
-      slots: ['Crew', 'Crew', 'Modification'],
+      slots: ['Crew', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
       ffg: 33,

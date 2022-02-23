@@ -16,9 +16,11 @@ import tiesabomber from './tie-sa-bomber';
 import tieskstriker from './tie-sk-striker';
 import vt49decimator from './vt-49-decimator';
 import tierbheavy from './tie-rb-heavy';
+import gauntletfighter from './gauntlet-fighter';
 
 const ships: { [s: string]: ShipType } = {
   alphaclassstarwing,
+  gauntletfighter,
   gozanticlasscruiser,
   lambdaclasst4ashuttle,
   raiderclasscorvette,

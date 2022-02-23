@@ -65,11 +65,10 @@ const t: ShipType = {
         'Torpedo',
         'Missile',
         'Missile',
+        'Gunner',
         'Crew',
         'Device',
-        'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg',
@@ -108,12 +107,11 @@ const t: ShipType = {
       slots: [
         'Torpedo',
         'Missile',
-        'Missile',
+        'Gunner',
         'Crew',
         'Device',
         'Device',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg',
@@ -148,16 +146,7 @@ const t: ShipType = {
         es:
           'El Ala-K de Koensayr está provisto de un avanzado motor de aceleración sublumínica y dieciocho ensamblajes, cualidades inéditas que le confieren una velocidad y potencia de fuego inigualables.',
       },
-      slots: [
-        'Torpedo',
-        'Missile',
-        'Missile',
-        'Crew',
-        'Device',
-        'Device',
-        'Modification',
-        'Gunner',
-      ],
+      slots: ['Torpedo', 'Missile', 'Gunner', 'Device', 'Device'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg',
       ffg: 64,

@@ -61,11 +61,13 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Torpedo',
+        'Cannon',
+        'Missile',
         'Crew',
+        'Crew',
+        'Gunner',
         'Astromech',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
@@ -105,9 +107,10 @@ const t: ShipType = {
         'Talent',
         'Torpedo',
         'Crew',
+        'Crew',
+        'Gunner',
         'Astromech',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
@@ -147,9 +150,10 @@ const t: ShipType = {
         'Talent',
         'Torpedo',
         'Crew',
+        'Crew',
+        'Gunner',
         'Astromech',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
@@ -188,10 +192,12 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Torpedo',
+        'Missile',
         'Crew',
+        'Crew',
+        'Gunner',
         'Astromech',
         'Modification',
-        'Gunner',
       ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',

@@ -121,7 +121,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Calculate' },
         { difficulty: 'White', type: 'Coordinate' },
       ],
-      slots: ['Talent', 'Crew', 'Astromech', 'Modification', 'Title'],
+      slots: ['Crew', 'Astromech', 'Modification', 'Title'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
       ffg: 41,

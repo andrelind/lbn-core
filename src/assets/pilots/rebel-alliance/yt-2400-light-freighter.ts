@@ -145,7 +145,7 @@ const t: ShipType = {
         'Talent',
         'Missile',
         'Crew',
-        'Crew',
+        'Illicit',
         'Illicit',
         'Modification',
         'Title',
@@ -184,7 +184,7 @@ const t: ShipType = {
         es:
           'Aunque un carguero ligero YT-2400 recién salido de fábrica dispone de mucho espacio para la carga, a menudo se aprovecha ese espacio para instalar sistemas modificados de armamento y motores sobredimensionados.',
       },
-      slots: ['Missile', 'Crew', 'Crew', 'Illicit', 'Modification', 'Title'],
+      slots: ['Missile', 'Illicit'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
       ffg: 79,

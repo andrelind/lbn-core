@@ -64,14 +64,7 @@ const t: ShipType = {
         es:
           'Después de que recibas una ficha de Desarme, si no está bajo tensión, puedes recibir 1 ficha de Tensión para retirar 1 ficha de Desarme.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Torpedo',
-        'Missile',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg',
       ffg: 136,
@@ -106,14 +99,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, si estás desarmado, tira 1 dado de defensa adicional.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Torpedo',
-        'Missile',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Sensor', 'Torpedo', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg',
       ffg: 135,
@@ -147,7 +133,7 @@ const t: ShipType = {
         es:
           'Con un diseño inspirado en el de otras naves de Talleres Espaciales Cygnus, el Ala Estelar clase Alfa es un vehículo versátil asignado a unidades especializadas de la Armada Imperial que precisan un caza estelar capaz de desempeñar múltiples funciones.',
       },
-      slots: ['Sensor', 'Torpedo', 'Missile', 'Modification', 'Configuration'],
+      slots: ['Sensor', 'Cannon', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg',
       ffg: 138,
@@ -181,14 +167,7 @@ const t: ShipType = {
         es:
           'Los pilotos de élite del Escuadrón Rho infunden terror a la Rebelión debido a la devastadora eficacia con la que utilizan el Ala Estelar clase Alfa tanto en su configuración de asalto Xg-1 como en la de arsenal Os-1.',
       },
-      slots: [
-        'Talent',
-        'Sensor',
-        'Torpedo',
-        'Missile',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Sensor', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg',
       ffg: 137,

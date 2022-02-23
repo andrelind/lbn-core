@@ -68,7 +68,7 @@ const t: ShipType = {
         en:
           'https://infinitearenas.com/xw2/images/pilots/fennrau-rebel-fang.png',
       },
-      slots: ['Talent', 'Torpedo'],
+      slots: ['Talent', 'Torpedo', 'Modification', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-rebel-fang.png',
       standard: true,
@@ -91,7 +91,7 @@ const t: ShipType = {
       image: {
         en: 'https://infinitearenas.com/xw2/images/pilots/bodicavenj.png',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/bodicavenj.png',
       keywords: ['Mandalorian'],
@@ -114,7 +114,7 @@ const t: ShipType = {
       image: {
         en: 'https://infinitearenas.com/xw2/images/pilots/dirkullodin.png',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Torpedo', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dirkullodin.png',
       keywords: ['Mandalorian'],
@@ -138,7 +138,7 @@ const t: ShipType = {
         en:
           'https://infinitearenas.com/xw2/images/pilots/clanwrenvolunteer.png',
       },
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Torpedo', 'Modification', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/clanwrenvolunteer.png',
       keywords: ['Mandalorian'],

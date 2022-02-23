@@ -95,7 +95,7 @@ const t: ShipType = {
         es:
           'El diseño de Sistemas de Flota Sienar para el interceptor TIE incluye cuatro cañones láser montados en las alas, con lo que supera ampliamente en potencia de fuego a sus predecesores.',
       },
-      slots: ['Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
       ffg: 106,
@@ -130,7 +130,7 @@ const t: ShipType = {
         es:
           'Los pilotos del Escuadrón Sable liderado por el barón Soontir Fel se cuentan entre los mejores del Imperio. Sus interceptores TIE están decorados con las franjas rojas que señalan a los pilotos con al menos diez bajas confirmadas en combate.',
       },
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
       ffg: 105,
@@ -202,7 +202,13 @@ const t: ShipType = {
         es:
           'Después de que efectúes un ataque, puedes realizar una acción [Barrel Roll] o [Boost], incluso aunque estés bajo tensión.',
       },
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
       ffg: 104,
@@ -238,7 +244,7 @@ const t: ShipType = {
         fr:
           "Après que vous avez effectué une attaque, si le défenseur a été détruit, gagnez 1 marqueur de stress. Après qu'un vaisseau allié à portée 0-3 a été détruit, retirez 1 marqueur de stress.",
       },
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -365,7 +371,13 @@ const t: ShipType = {
         fr:
           'Tant que vous effectuez un tonneau, vous devez utiliser le gabarit ([Bank Left] ou [Bank Right]) à la place du gabarit ([Straight]).',
       },
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Modification',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -398,7 +410,7 @@ const t: ShipType = {
           "Pendant la phase d'engagement, après qu'un petit vaisseau allié à portée 0-3 a été détruit, s'il ne s'était pas déjà engagé à cette phase, vous pouvez dépenser 1 [Charge]. Dans ce cas, il s'engage à l'initiative actuelle.",
       },
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Missile', 'Modification', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],

@@ -9,12 +9,14 @@ import nabooroyaln1starfighter from './naboo-royal-n-1-starfighter';
 import nimbusclassvwing from './nimbus-class-v-wing';
 import syliureclasshyperspacering from './syliure-class-hyperspace-ring';
 import v19torrentstarfighter from './v-19-torrent-starfighter';
+import gauntletfighter from './gauntlet-fighter';
 
 const ships: { [s: string]: ShipType } = {
   arc170starfighter,
   btlbywing,
   cr90corelliancorvette,
   delta7aethersprite,
+  gauntletfighter,
   nabooroyaln1starfighter,
   v19torrentstarfighter,
   eta2actis,

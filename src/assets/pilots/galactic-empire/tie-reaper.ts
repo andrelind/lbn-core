@@ -131,7 +131,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes, si el atacante no tiene ninguna ficha verde, puedes cambiar 1 de tus resultados [Focus] o de cara vacía por un resultado [Evade].',
       },
-      slots: ['Talent', 'Crew', 'Crew', 'Modification'],
+      slots: ['Talent', 'Crew', 'Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg',
       ffg: 114,
@@ -209,7 +209,7 @@ const t: ShipType = {
           source: 'Season Two 2018',
         },
       ],
-      slots: ['Crew', 'Crew', 'Modification'],
+      slots: ['Crew', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
       ffg: 116,

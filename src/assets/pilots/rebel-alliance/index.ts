@@ -19,6 +19,7 @@ import vcx100lightfreighter from './vcx-100-light-freighter';
 import yt2400lightfreighter from './yt-2400-light-freighter';
 import z95af4headhunter from './z-95-af4-headhunter';
 import fangfighter from './fang-fighter';
+import gauntletfighter from './gauntlet-fighter';
 
 const ships: { [s: string]: ShipType } = {
   asf01bwing,
@@ -30,6 +31,7 @@ const ships: { [s: string]: ShipType } = {
   cr90corelliancorvette,
   ewing,
   fangfighter,
+  gauntletfighter,
   gr75mediumtransport,
   hwk290lightfreighter,
   modifiedyt1300lightfreighter,

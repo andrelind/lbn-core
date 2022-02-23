@@ -96,7 +96,7 @@ const t: ShipType = {
           'Después de que efectúes un ataque, asigna el Estado Fuego de supresión al defensor.',
       },
       conditions: ['suppressivefire'],
-      slots: ['Modification'],
+      slots: ['Talent', 'Talent', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
       ffg: 48,
@@ -128,7 +128,7 @@ const t: ShipType = {
           'Mientras te defiendes o efectúas un ataque, si estás bajo tensión, puedes gastar 1 [Force] para cambiar hasta 2 de tus resultados [Focus] por resultados [Evade] o [Hit].',
       },
       force: { value: 1, recovers: 1, side: ['light'] },
-      slots: ['Modification', 'Force Power'],
+      slots: ['Modification', 'Force Power', 'Crew'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
       ffg: 46,
@@ -159,7 +159,7 @@ const t: ShipType = {
         es:
           'Antes de que te actives, puedes realizar una acción [Barrel Roll] o [Boost].',
       },
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
       ffg: 47,

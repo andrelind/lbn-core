@@ -103,7 +103,15 @@ const t: ShipType = {
         },
       ],
       force: { value: 3, recovers: 1, side: ['dark'] },
-      slots: ['Sensor', 'Missile', 'Modification', 'Force Power'],
+      slots: [
+        'Force Power',
+        'Force Power',
+        'Tech',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
       ffg: 93,
@@ -139,7 +147,14 @@ const t: ShipType = {
         es:
           'Mientras efectúas un ataque, si al defensor se le va a infligir una carta de Daño boca arriba, en vez de eso roba 3 cartas de Daño, elige 1 de ellas a tu elección y descarta las otras.',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
       ffg: 94,
@@ -174,7 +189,7 @@ const t: ShipType = {
         es:
           'El caza TIE avanzado sólo se produjo en cantidades limitadas, pero los ingenieros de Sienar integraron muchas de sus prestaciones en el siguiente modelo TIE que desarrollaron: el interceptor TIE.',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
+      slots: ['Sensor', 'Missile', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg',
       ffg: 97,
@@ -216,7 +231,7 @@ const t: ShipType = {
           source: 'European and North American Championship 2018',
         },
       ],
-      slots: ['Sensor', 'Missile', 'Modification'],
+      slots: ['Sensor', 'Modification', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg',
       ffg: 98,
@@ -252,7 +267,14 @@ const t: ShipType = {
         es:
           'Mientras ejecutas una maniobra, en vez de esa maniobra puedes ejecutar otra que tenga su misma dirección y dificultad y cuya velocidad sea superior o inferior en 1 punto. Computadora de selección de blancos avanzada: Mientras efectúas un ataque principal contra un defensor que tienes fijado como blanco, tira 1 dado de ataque adicional y cambia 1 resultado [Hit] por un resultado [Critical Hit].',
       },
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+      ],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg',
       ffg: 95,
@@ -288,7 +310,7 @@ const t: ShipType = {
         es:
           'Durante la fase Final, puedes gastar un Blanco fijado que tengas sobre una nave enemiga para exponer 1 de las cartas de Daño de esa nave.',
       },
-      slots: ['Sensor', 'Missile', 'Modification'],
+      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
       ffg: 96,

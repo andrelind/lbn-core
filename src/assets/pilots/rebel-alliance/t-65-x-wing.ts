@@ -110,7 +110,7 @@ const t: ShipType = {
           source: 'X-Wing Second Edition Launch Party',
         },
       ],
-      slots: ['Torpedo', 'Astromech', 'Modification', 'Configuration'],
+      slots: ['Astromech', 'Configuration'],
       ffg: 11,
       standard: true,
       epic: true,
@@ -143,13 +143,7 @@ const t: ShipType = {
         es:
           'A diferencia de la mayoría de las células rebeldes, los partisanos de Saw Gerrera estaban dispuestos a utilizar métodos extremos para frustrar los planes del Imperio Galáctico, y así lo hicieron en brutales batallas que asolaron desde Geonosis a Jedha.',
       },
-      slots: [
-        'Torpedo',
-        'Astromech',
-        'Illicit',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Astromech', 'Illicit', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
       ffg: 12,
@@ -189,13 +183,7 @@ const t: ShipType = {
         es:
           'Antes de que te actives, si estás concentrado, puedes realizar una acción.',
       },
-      slots: [
-        'Torpedo',
-        'Astromech',
-        'Illicit',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Torpedo', 'Missile', 'Illicit', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg',
       ffg: 9,
@@ -263,13 +251,7 @@ const t: ShipType = {
         es:
           'Después de que recibas una ficha de Tensión, puedes tirar 1 dado de ataque para retirarla. Si sacas [Hit], sufres 1 de daño [Hit].',
       },
-      slots: [
-        'Talent',
-        'Torpedo',
-        'Astromech',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Torpedo', 'Astromech', 'Modification', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg',
       ffg: 5,
@@ -307,7 +289,7 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Torpedo',
+        'Missile',
         'Astromech',
         'Illicit',
         'Modification',
@@ -350,7 +332,7 @@ const t: ShipType = {
       },
       slots: [
         'Talent',
-        'Torpedo',
+        'Missile',
         'Astromech',
         'Illicit',
         'Modification',
@@ -405,10 +387,11 @@ const t: ShipType = {
         },
       ],
       slots: [
+        'Force Power',
+        'Talent',
         'Torpedo',
         'Astromech',
         'Modification',
-        'Force Power',
         'Configuration',
       ],
       artwork:
@@ -445,13 +428,7 @@ const t: ShipType = {
         es:
           'El Escuadrón Rojo fue creado como una unidad de cazas estelares de élite, y está compuesto por algunos de los mejores pilotos de la Alianza Rebelde.',
       },
-      slots: [
-        'Talent',
-        'Torpedo',
-        'Astromech',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Astromech', 'Configuration'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg',
       ffg: 10,
@@ -530,6 +507,7 @@ const t: ShipType = {
           'Mientras efectúas un ataque, el defensor tira 1 dado de defensa menos.',
       },
       slots: [
+        'Talent',
         'Talent',
         'Torpedo',
         'Astromech',
