@@ -6,14 +6,9 @@ const t: UpgradeBase[] = [
     xws: 'dorsalturret',
     sides: [
       {
-        title: {
-          en: 'Dorsal Turret',
-          de: 'Dorsaler Geschützturm',
-          fr: 'Tourelle Dorsale',
-          es: 'Torreta dorsal',
-        },
+        title: 'Dorsal Turret',
         type: 'Turret',
-        ability: { en: 'Attack', de: 'Angriff', es: 'Ataque', fr: 'Attaque' },
+        ability: 'Attack',
         slots: ['Turret'],
         attack: {
           arc: 'Single Turret Arc',
@@ -26,12 +21,6 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_31.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg',
         ffg: 260,
       },
     ],
@@ -45,27 +34,10 @@ const t: UpgradeBase[] = [
     xws: 'ioncannonturret',
     sides: [
       {
-        title: {
-          en: 'Ion Cannon Turret',
-          de: 'Ionengeschütz',
-          fr: 'Tourelle à Canons Ioniques',
-          es: 'Torreta de cañones de iones',
-        },
+        title: 'Ion Cannon Turret',
         type: 'Turret',
-        ability: {
-          en:
-            'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          de:
-            'Angriff: Falls dieser Angriff trifft, gib 1 [Hit]- oder [Critical Hit]-Ergebnis aus, um den Verteidiger 1 [Hit]-Schaden erleiden zu lassen. Alle übrigen [Hit]/[Critical Hit]-Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
-          es:
-            'Ataque: Si este ataque impacta, gasta 1 resultado [Hit] o [Critical Hit] para provocar que el defensor sufra 1 de daño [Hit]. Todos los resultados [Hit]/[Critical Hit] restantes infligen fichas de Iones en vez de daño.',
-          fr:
-            'Attaque : si cette attaque touche, dépensez 1 résultat [Hit] ou [Critical Hit] pour faire subir 1 dégât [Hit] au défenseur. Tous les résultats [Hit]/[Critical Hit] restants infligent des marqueurs ioniques au lieu des dégâts.',
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_32.png',
-        },
+        ability:
+          'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
         slots: ['Turret'],
         attack: {
           arc: 'Single Turret Arc',
@@ -78,8 +50,6 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg',
         ffg: 261,
       },
     ],

@@ -6,23 +6,10 @@ const t: UpgradeBase[] = [
     xws: 'advprotontorpedoes',
     sides: [
       {
-        title: {
-          en: 'Adv. Proton Torpedoes',
-          de: 'Verstärkte Protonentorpedos',
-          fr: 'Torpilles à Protons Avancées',
-          es: 'Torpedos de protones avanzados',
-        },
+        title: 'Adv. Proton Torpedoes',
         type: 'Torpedo',
-        ability: {
-          en:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          de:
-            'Angriff ([Lock]): Gib 1 [Charge] aus. Ändere 1 [Hit]-Ergebnis in ein [Critical Hit]-Ergebnis.',
-          es:
-            'Ataque ([Lock]): Gasta 1 [Charge]. Cambia 1 resultado [Hit] por un resultado [Critical Hit].',
-          fr:
-            'Attaque ([Lock]) : dépensez 1 [Charge]. Changez 1 résultat [Hit] en un résultat [Critical Hit].',
-        },
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
         slots: ['Torpedo'],
         charges: { value: 1, recovers: 0 },
         attack: {
@@ -32,12 +19,6 @@ const t: UpgradeBase[] = [
           maxrange: 1,
           ordnance: true,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_33.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg',
         ffg: 262,
       },
     ],
@@ -51,23 +32,10 @@ const t: UpgradeBase[] = [
     xws: 'iontorpedoes',
     sides: [
       {
-        title: {
-          en: 'Ion Torpedoes',
-          de: 'Ionentorpedos',
-          fr: 'Torpilles Ioniques',
-          es: 'Torpedos de iones',
-        },
+        title: 'Ion Torpedoes',
         type: 'Torpedo',
-        ability: {
-          en:
-            'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          de:
-            'Angriff ([Lock]): Gib 1 [Charge] aus. Falls dieser Angriff trifft, gib 1 [Hit]- oder [Critical Hit]-Ergebnis aus, um den Verteidiger 1 [Hit]-Schaden erleiden zu lassen. Alle übrigen [Hit]/[Critical Hit]-Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
-          es:
-            'Ataque ([Lock]): Gasta 1 [Charge]. Si este ataque impacta, gasta 1 resultado [Hit] o [Critical Hit] para provocar que el defensor sufra 1 de daño [Hit]. Todos los resultados [Hit]/[Critical Hit] restantes infligen fichas de Iones en vez de daño.',
-          fr:
-            'Attaque ([Lock]) : dépensez 1 [Charge]. Si cette attaque touche, dépensez 1 résultat [Hit] ou [Critical Hit] pour faire subir 1 dégât [Hit] au défenseur. Tous les résultats [Hit]/[Critical Hit] restants infligent des marqueurs ioniques au lieu des dégâts.',
-        },
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
         slots: ['Torpedo'],
         charges: { value: 2, recovers: 0 },
         attack: {
@@ -77,12 +45,6 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_34.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg',
         ffg: 263,
       },
     ],
@@ -96,27 +58,10 @@ const t: UpgradeBase[] = [
     xws: 'protontorpedoes',
     sides: [
       {
-        title: {
-          en: 'Proton Torpedoes',
-          de: 'Protonentorpedos',
-          fr: 'Torpilles à Protons',
-          es: 'Torpedos de protones',
-        },
+        title: 'Proton Torpedoes',
         type: 'Torpedo',
-        ability: {
-          en:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          de:
-            'Angriff ([Lock]): Gib 1 [Charge] aus. Ändere 1 [Hit]-Ergebnis in ein [Critical Hit]-Ergebnis.',
-          es:
-            'Ataque ([Lock]): Gasta 1 [Charge]. Cambia 1 resultado [Hit] por un resultado [Critical Hit].',
-          fr:
-            'Attaque ([Lock]) : dépensez 1 [Charge]. Changez 1 résultat [Hit] en un résultat [Critical Hit].',
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_35.png',
-        },
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
         slots: ['Torpedo'],
         charges: { value: 2, recovers: 0 },
         attack: {
@@ -126,8 +71,6 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: true,
         },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg',
         ffg: 264,
       },
     ],
@@ -141,22 +84,9 @@ const t: UpgradeBase[] = [
     xws: 'plasmatorpedoes',
     sides: [
       {
-        ability: {
-          en:
-            'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.',
-          de:
-            'Angriff ([Lock]): Gib 1 [Charge] aus. Während des Schrittes „Ergebnisse neutralisieren" werden [Critical Hit] -Ergebnisse vor [Hit] -Ergebnissen negiert. Nachdem dieser Angriff getroffen hat, verliert der Verteidiger 1 Schild.',
-          es:
-            'Ataque ([Lock]): Gasta 1 [Charge]. Durante el paso de "Neutralizar resultados", los resultados [Critical Hit] son anulados antes que los resultados [Hit] . Después de que este ataque impacte, el defensor pierde 1 escudo.',
-          fr:
-            "Attaque ([Lock]) : dépensez 1 [Charge]. Lors de l'étape « Neutraliser les résultats », les résultats [Critical Hit] sont annulés avant les résultats [Hit]. Après que cette attaque a touché, le défenseur perd 1 bouclier.",
-        },
-        title: {
-          en: 'Plasma Torpedoes',
-          de: 'Plasmatorpedos',
-          fr: 'Torpilles à Plasma',
-          es: 'Torpedos de plasma',
-        },
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.',
+        title: 'Plasma Torpedoes',
         type: 'Torpedo',
         slots: ['Torpedo'],
         charges: { value: 2, recovers: 0 },
@@ -168,12 +98,6 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 579,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/4123de29aa73a40eca130e1e75d9353b.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/60fb85c3782c235904678bac8a106150.png',
-        },
       },
     ],
     cost: { value: 7 },
@@ -187,14 +111,10 @@ const t: UpgradeBase[] = [
     cost: { value: 8 },
     sides: [
       {
-        title: { en: 'Tracking Torpedoes', de: 'Zielsuch-Torpedos' },
+        title: 'Tracking Torpedoes',
         type: 'Torpedo',
-        ability: {
-          en:
-            'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the ([Bank Left] 3], ([Straight] 4], and ([Bank Right] 3] templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
-          de:
-            'Während der Systemphase darfst du bis zu 3 [Charge] ausgeben, um ebenso viele Zielsuchtorpedos unter Verwendung der ([Bank Left] 3]-, ([Straight] 4]- und ([Bank Right] 3]-Schablonen zu starten. Jedes Gerät muss eine andere Schablone verwenden. Dann darf jedes Gerät ein Objekt als Ziel erfassen, das du als Ziel erfasst hast, wobei es Reichweiten­beschränkungen ignoriert.',
-        },
+        ability:
+          'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the ([Bank Left] 3], ([Straight] 4], and ([Bank Right] 3] templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
         slots: ['Torpedo'],
         ffg: 941,
       },

@@ -7,6 +7,46 @@ import { keyFromSlot, slotFromKey } from '../../src/helpers/convert';
 import prettier from 'prettier';
 import { Slot } from '../../src/types';
 
+declare global {
+  interface String {
+    // @ts-ignore
+    replaceAll: (search: string, replacement: string) => string;
+    trimName: () => string;
+  }
+}
+// @ts-ignore
+String.prototype.replaceAll = function (search: string, replacement: string) {
+  const target = this;
+  return target.replace(new RegExp(search, 'g'), replacement);
+};
+// @ts-ignore
+String.prototype.replaceAll = function (search: string, replacement: string) {
+  const target = this;
+  return target.replace(new RegExp(search, 'g'), replacement);
+};
+String.prototype.trimName = function () {
+  return this.toLowerCase()
+    .replaceAll('•', '')
+    .replaceAll('“', '')
+    .replaceAll('”', '')
+    .replaceAll('’', '')
+    .replaceAll("'", '')
+    .replaceAll('"', '')
+    .replaceAll('–', '-')
+    .replaceAll('(cyborg)', '')
+    .replaceAll('(open)', '')
+    .replaceAll('(perfected)', '')
+    .replaceAll('(open)', '')
+    .replaceAll('(closed)', '')
+    .replaceAll('(erratic)', '')
+    .replaceAll('(active)', '')
+    .replaceAll('(inactive)', '')
+    .trim();
+};
+
+export const getName = (f: string) =>
+  f.toLowerCase().replaceAll(' ', '-').replaceAll('/', '-');
+
 const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
   const shipsAndPilots = factions
     .map((f) => {
@@ -150,7 +190,7 @@ const runShips = async () => {
 const findUpgrade = (name: string, type: string) => {
   const key = keyFromSlot(type as Slot);
   const up = upgradesAssets[key].find(
-    (u) => u.sides[0].title.en.trimName() === name.trimName()
+    (u) => u.sides[0].title.trimName() === name.trimName()
   );
 
   return up;
@@ -224,43 +264,3 @@ const runner = async () => {
 };
 
 runner();
-
-declare global {
-  interface String {
-    // @ts-ignore
-    replaceAll: (search: string, replacement: string) => string;
-    trimName: () => string;
-  }
-}
-// @ts-ignore
-String.prototype.replaceAll = function (search: string, replacement: string) {
-  const target = this;
-  return target.replace(new RegExp(search, 'g'), replacement);
-};
-// @ts-ignore
-String.prototype.replaceAll = function (search: string, replacement: string) {
-  const target = this;
-  return target.replace(new RegExp(search, 'g'), replacement);
-};
-String.prototype.trimName = function () {
-  return this.toLowerCase()
-    .replaceAll('•', '')
-    .replaceAll('“', '')
-    .replaceAll('”', '')
-    .replaceAll('’', '')
-    .replaceAll("'", '')
-    .replaceAll('"', '')
-    .replaceAll('–', '-')
-    .replaceAll('(cyborg)', '')
-    .replaceAll('(open)', '')
-    .replaceAll('(perfected)', '')
-    .replaceAll('(open)', '')
-    .replaceAll('(closed)', '')
-    .replaceAll('(erratic)', '')
-    .replaceAll('(active)', '')
-    .replaceAll('(inactive)', '')
-    .trim();
-};
-
-export const getName = (f: string) =>
-  f.toLowerCase().replaceAll(' ', '-').replaceAll('/', '-');

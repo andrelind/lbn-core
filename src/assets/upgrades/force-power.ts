@@ -6,30 +6,11 @@ const t: UpgradeBase[] = [
     xws: 'heightenedperception',
     sides: [
       {
-        title: {
-          en: 'Heightened Perception',
-          de: 'Geschärfte Sinne',
-          fr: 'Perception Renforcée',
-          es: 'Percepción agudizada',
-        },
+        title: 'Heightened Perception',
         type: 'Force Power',
-        ability: {
-          en:
-            'At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.',
-          de:
-            'Zu Beginn der Kampfphase darfst du 1 [Force] ausgeben. Falls du das tust, kämpfe in dieser Phase bei Initiative 7 anstatt bei deinem normalen Initiativwert.',
-          es:
-            'Al comienzo de la fase de Enfrentamiento, puedes gastar 1 [Force]. Si lo haces, en esta fase intervienes con Iniciativa 7 en vez de tu valor de Iniciativa normal.',
-          fr:
-            "Au début de la phase d'engagement, vous pouvez dépenser 1 [Force]. Dans ce cas, pendant cette phase, engagez-vous à l'initiative 7 au lieu de le faire à votre valeur d'initiative standard.",
-        },
+        ability:
+          'At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg',
         ffg: 248,
       },
     ],
@@ -43,30 +24,11 @@ const t: UpgradeBase[] = [
     xws: 'instinctiveaim',
     sides: [
       {
-        title: {
-          en: 'Instinctive Aim',
-          de: 'Instinktives Zielen',
-          fr: 'Visée Instinctive',
-          es: 'Puntería instintiva',
-        },
+        title: 'Instinctive Aim',
         type: 'Force Power',
-        ability: {
-          en:
-            'While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.',
-          de:
-            'Solange du einen Spezialangriff durchführst, darfst du 1 [Force] ausgeben, um die [Focus]- oder [Lock]-Voraussetzung zu ignorieren.',
-          es:
-            'Mientras efectúas un ataque especial, puedes gastar 1 [Force] para ignorar el requisito [Focus] o [Lock].',
-          fr:
-            'Tant que vous effectuez une attaque spéciale, vous pouvez dépenser 1 [Force] pour ignorer le prérequis [Focus] ou [Lock].',
-        },
+        ability:
+          'While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg',
         ffg: 249,
       },
     ],
@@ -80,25 +42,11 @@ const t: UpgradeBase[] = [
     xws: 'sense',
     sides: [
       {
-        title: { en: 'Sense', de: 'Gespür', fr: 'Sens', es: 'Sentir' },
+        title: 'Sense',
         type: 'Force Power',
-        ability: {
-          en:
-            'During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.',
-          de:
-            'Während der Systemphase darfst du 1 Schiff in Reichweite 0-1 wählen und sein Rad ansehen. Falls du 1 [Force] ausgibst, darfst du stattdessen ein Schiff in Reichweite 0-3 wählen.',
-          es:
-            'Durante la fase de Sistemas, puedes elegir 1 nave que tengas a alcance 0-1 y mirar su selector de maniobras. Si gastas 1 [Force], en vez de eso puedes elegir una nave que tengas a alcance 0-3.',
-          fr:
-            'Pendant la phase de système, vous pouvez choisir 1 vaisseau à portée 0-1 et regarder son cadran. Si vous dépensez 1 [Force], vous pouvez choisir un vaisseau à portée 0-3 à la place.',
-        },
+        ability:
+          'During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg',
         ffg: 250,
       },
     ],
@@ -112,30 +60,11 @@ const t: UpgradeBase[] = [
     xws: 'supernaturalreflexes',
     sides: [
       {
-        title: {
-          en: 'Supernatural Reflexes',
-          de: 'Übernatürliche Reflexe',
-          fr: 'Réflexes Surnaturels',
-          es: 'Reflejos sobrenaturales',
-        },
+        title: 'Supernatural Reflexes',
         type: 'Force Power',
-        ability: {
-          en:
-            'Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.',
-          de:
-            'Bevor du aktiviert wirst, darfst du 1 [Force] ausgeben, um eine [Barrel Roll]- oder [Boost]-Aktion durchzuführen. Dann, falls du eine Aktion durchgeführt hast, die nicht in deiner Aktionsleiste ist, erleide 1 [Hit]-Schaden.',
-          es:
-            'Antes de que te actives, puedes gastar 1 [Force] para realizar una acción [Barrel Roll] o [Boost]. Luego, si la acción que has realizado no figura en tu barra de acciones, sufres 1 de daño [Hit].',
-          fr:
-            "Avant votre activation, vous pouvez dépenser 1 [Force] pour effectuer une action [Barrel Roll] ou [Boost]. Puis, si vous avez effectué une action qui n'est pas dans votre barre d'action, subissez 1 dégât [Hit].",
-        },
+        ability:
+          'Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg',
         ffg: 251,
       },
     ],
@@ -150,31 +79,12 @@ const t: UpgradeBase[] = [
     xws: 'brilliantevasion',
     sides: [
       {
-        title: {
-          en: 'Brilliant Evasion',
-          de: 'Brilliantes Ausweichmanöver',
-          fr: 'As de la Manœuvre',
-          es: 'Evasión impecable',
-        },
+        title: 'Brilliant Evasion',
         type: 'Force Power',
-        ability: {
-          en:
-            "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
-          de:
-            'Solange du verteidigst, falls du nicht im [Bullseye Arc] des Angreifers bist, darfst du 1 [Force] ausgeben, um 2 deiner [Focus]-Ergebnisse in [Evade] -Ergebnisse ändern.',
-          es:
-            'Mientras te defiendes, si no estás situado en el [Bullseye Arc] del atacante, puedes gastar 1 [Force] para cambiar 2 de tus resultados [Focus] por resultados [Evade] .',
-          fr:
-            "Tant que vous défendez, si vous n'êtes pas dans le [Bullseye Arc] de l'attaquant, vous pouvez dépenser 1 [Force] pour changer 2 de vos résultats [Focus] en résultats [Evade].",
-        },
+        ability:
+          "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/24b175ad35d035f33a35056b0d1d7a36.png',
-        },
         ffg: 536,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg',
       },
     ],
     cost: { value: 2 },
@@ -187,24 +97,11 @@ const t: UpgradeBase[] = [
     xws: 'hate',
     sides: [
       {
-        title: { en: 'Hate', de: 'Hass', fr: 'Haine', es: 'Odio' },
+        title: 'Hate',
         type: 'Force Power',
-        ability: {
-          en: 'After you suffer 1 or more damage, recover that many [Force].',
-          de:
-            'Nachdem du 1 oder mehr Schaden erlitten hast, stelle ebenso viele [Force] wieder her.',
-          es:
-            'Después de que sufras 1 o más de daño, recuperas esa misma cantidad de [Force].',
-          fr:
-            'Après avoir subi 1 ou plusieurs dégâts, récupérez autant de [Force].',
-        },
+        ability:
+          'After you suffer 1 or more damage, recover that many [Force].',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg',
         ffg: 489,
       },
     ],
@@ -219,30 +116,11 @@ const t: UpgradeBase[] = [
     xws: 'predictiveshot',
     sides: [
       {
-        title: {
-          en: 'Predictive Shot',
-          de: 'Vorausschauender Schuss',
-          fr: 'Tir Prophétique',
-          es: 'Tiro predictivo',
-        },
+        title: 'Predictive Shot',
         type: 'Force Power',
-        ability: {
-          en:
-            'After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.',
-          de:
-            'Nachdem du einen Angriff deklariert hast, falls der Verteidiger in deinem [Bullseye Arc] ist, darfst du 1 [Force] ausgeben. Falls du das tust, kann der Verteidiger während des Schrittes „Verteidigungswürfel werfen" nicht mehr Verteidigungswürfel werfen als die Anzahl deiner [Hit]/[Critical Hit]-Ergebnisse.',
-          es:
-            'Después de que declares un ataque, si el defensor está en tu [Bullseye Arc], puedes gastar 1 [Force]. Si lo haces, durante el paso de "Tirar dados de defensa", el defensor no puede tirar más dados de defensa que la cantidad total de tus resultados [Hit]/[Critical Hit].',
-          fr:
-            "Après avoir déclaré une attaque, si le défenseur est dans votre [Bullseye Arc], vous pouvez dépenser 1 [Force]. Dans ce cas, lors de l'étape « Lancez les dés de défense », le défenseur ne peut pas lancer plus de dés de défense que le nombre de vos résultats [Hit]/[Critical Hit].",
-        },
+        ability:
+          'After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.',
         slots: ['Force Power'],
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/53ceabb0e2e66e61c077145475b18dab.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/e0100c63b2753daf68a9d3948824b086.png',
-        },
         ffg: 490,
       },
     ],
@@ -256,34 +134,15 @@ const t: UpgradeBase[] = [
     limited: 0,
     sides: [
       {
-        title: {
-          en: 'Battle Meditation',
-          de: 'Kampfmeditation',
-          fr: 'Méditation de Bataille',
-          es: 'Meditación de batalla',
-        },
+        title: 'Battle Meditation',
         type: 'Force Power',
-        ability: {
-          en:
-            'You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.',
-          de:
-            'Du kannst keine limitierten Schiffe koordinieren. Solange du eine violette [Coordinate]-Aktion durchführst, darfst du 1 zusätzliches befreundetes nicht-limitiertes Schiff desselben Typs koordinieren. Beide Schiffe müssen dieselbe Aktion durchführen.',
-          es:
-            'No puedes coordinar naves limitadas. Mientras realizas una acción [Coordinate] violeta, puedes coordinar 1 nave aliada que no sea limitada adicional del mismo tipo. Ambas naves deben realizar la misma acción.',
-          fr:
-            'Vous ne pouvez pas coordonner des vaisseaux limités. Tant que vous effectuez une action [Coordinate] violette, vous pouvez coordonner 1 vaisseau allié non-limité supplémentaire du même type. Les deux vaisseaux doivent effectuer la même action.',
-        },
+        ability:
+          'You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.',
         slots: ['Force Power'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/d0641df31a0fc40c501055dcd34094f6.png',
-        },
         grants: [
           { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
         ],
         ffg: 545,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg',
       },
     ],
     cost: { value: 6 },
@@ -298,28 +157,9 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ffg: 613,
-        title: {
-          en: 'Foresight',
-          de: 'Vorausahnung',
-          fr: 'Clairvoyance',
-          es: 'Intuición premonitoria',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/87b83856576c1d4b7f3036d6008863f6.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/12c948b9a0fe9f619ecda00f9fdcc437.png',
-        },
-        ability: {
-          en:
-            'After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.',
-          de:
-            'Nachdem ein feindliches Schiff ein Manöver ausgeführt hat, darfst du 1 [Force] ausgeben, um diesen Angriff als Bonusangriff gegen es durchzuführen. Angriff: Du darfst 1 [Focus] -Ergebnis in ein [Hit] -Ergebnis ändern; anderweitig können deine Würfel nicht modifiziert werden.',
-          es:
-            'Después de que una nave enemiga ejecute una maniobra, puedes gastar 1 [Force] para efectuar este ataque contra esa nave como un ataque adicional. Ataque: Puedes cambiar 1 resultado [Focus] por un resultado [Hit] ; tus dados no pueden ser modificados de ninguna otra manera.',
-          fr:
-            "Après qu'un vaisseau ennemi a exécuté une manœuvre, vous pouvez dépenser 1 [Force] pour effectuer cette attaque contre lui en tant qu'attaque bonus. Attaque : vous pouvez changer\n1 résultat [Focus] en un résultat [Hit] ; vos dés ne peuvent pas être modifiés autrement.",
-        },
+        title: 'Foresight',
+        ability:
+          'After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.',
         slots: ['Force Power'],
         type: 'Force Power',
         attack: {
@@ -342,28 +182,9 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ffg: 614,
-        title: {
-          en: 'Precognitive Reflexes',
-          de: 'Hellseherische Reflexe',
-          fr: 'Réflexes Prémonitoires',
-          es: 'Reflejos precognitivos',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/7c139cebc9475051506c5b79a98f465a.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/931c84c3e1b3afe5d078f6b3dd4f677a.png',
-        },
-        ability: {
-          en:
-            'After you reveal your dial, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.',
-          de:
-            'Nachdem du dein Rad aufgedeckt hast, darfst du 1 [Force] ausgeben, um eine [Barrel Roll] oder [Boost] -Aktion durchzuführen. Dann, falls du eine Aktion durchgeführt hast, die nicht in deiner Aktionsleiste ist, erhalte 1 Anstrengungsmarker. Falls du das tust, kannst du während deiner Aktivierung keine weitere Aktion durchführen.',
-          es:
-            'Después de que reveles tu selector, puedes gastar 1 [Force] para realizar una acción [Barrel Roll] o [Boost] . Luego, si has realizado una acción que no figura en tu barra de acciones, recibes 1 ficha de Sobresfuerzo. Si haces esto, no puedes realizar ninguna otra acción durante tu activación.',
-          fr:
-            "Après avoir révélé votre cadran, vous pouvez dépenser 1 [Force] pour effectuer une action [Barrel Roll] ou [Boost]. Puis, si vous avez effectué une action qui n'est pas dans votre barre d'action, gagnez 1 marqueur de contrainte. Si vous agissez ainsi, vous ne pouvez pas effectuer d'autre action pendant votre activation.",
-        },
+        title: 'Precognitive Reflexes',
+        ability:
+          'After you reveal your dial, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.',
         slots: ['Force Power'],
         type: 'Force Power',
       },
@@ -380,22 +201,12 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        ability: {
-          en:
-            'At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].',
-          de:
-            'Zu Beginn der Kampfphase, falls ein feindliches Schiff in deinem [Front Arc] ist, darfst du 1 Erschöpfungsmarker erhalten, um 1 [Force] wiederherzustellen.',
-          es:
-            'Al comienzo de la fase de Enfrentamiento, si hay alguna nave enemiga situada en tu [Front Arc], puedes recibir 1 ficha de Merma para recuperar 1 [Force].',
-          fr:
-            "Au début de la phase d'engagement, s'il y a un vaisseau ennemi dans votre [Front Arc], vous pouvez gagner 1 marqueur d'épuisement pour récupérer 1 [Force].",
-        },
-        title: { en: 'Patience', de: 'Geduld', es: 'Paciencia' },
+        ability:
+          'At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].',
+        title: 'Patience',
         type: 'Force Power',
         slots: ['Force Power'],
         ffg: 849,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/905d768c07c386930b14d1d5f7e74ba4.jpg',
       },
     ],
     standard: true,
@@ -410,27 +221,12 @@ const t: UpgradeBase[] = [
     epic: true,
     sides: [
       {
-        ability: {
-          en:
-            'While you perform a [Boost] action, you may spend 1 [Force] to use the turn ([Turn Left] or [Turn Right]) template instead.',
-          de:
-            'Solange du eine [Boost]-Aktion durchführst, darfst du 1  [Force]ausgeben, um stattdessen die ([Turn Left] oder [Turn Right])-Schablone zu verwenden.',
-          es:
-            'Mientras realizas una acción [Boost] , puedes gastar 1 [Force] para usar la plantilla de giro ([Turn Left] o [Turn Right]) en vez de las normales para esta acción.',
-          fr:
-            'Tant que vous effectuez une action [Boost], vous pouvez dépenser 1 [Force] pour utiliser le gabarit de virage ([Turn Left] ou [Turn Right]) à la place.',
-        },
-        title: {
-          en: 'Extreme Maneuvers',
-          de: 'Extreme Manöver',
-          es: 'Maniobras extremas',
-          fr: 'Manœuvres Extrêmes',
-        },
+        ability:
+          'While you perform a [Boost] action, you may spend 1 [Force] to use the turn ([Turn Left] or [Turn Right]) template instead.',
+        title: 'Extreme Maneuvers',
         type: 'Force Power',
         slots: ['Force Power'],
         ffg: 848,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/9fde6e000d6e1d9dd28e3ffb301b9c04.jpg',
       },
     ],
     cost: { value: 5 },
@@ -443,11 +239,9 @@ const t: UpgradeBase[] = [
     standard: true,
     sides: [
       {
-        ability: {
-          en:
-            'Before another friendly ship at range 0-2 would be dealt a faceup Pilot or Crew damage card, you may spend 1 [Force]. If you do, that damage card is discarded instead, and you are dealt 1 facedown damage card. Then, if you have 2 or more damage cards, recover 2 [Force].',
-        },
-        title: { en: 'Compassion' },
+        ability:
+          'Before another friendly ship at range 0-2 would be dealt a faceup Pilot or Crew damage card, you may spend 1 [Force]. If you do, that damage card is discarded instead, and you are dealt 1 facedown damage card. Then, if you have 2 or more damage cards, recover 2 [Force].',
+        title: 'Compassion',
         type: 'Force Power',
         slots: ['Force Power'],
         ffg: 934,
@@ -464,11 +258,9 @@ const t: UpgradeBase[] = [
     standard: true,
     sides: [
       {
-        ability: {
-          en:
-            'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
-        },
-        title: { en: 'Malice' },
+        ability:
+          'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
+        title: 'Malice',
         type: 'Force Power',
         slots: ['Force Power'],
         ffg: 935,
@@ -485,11 +277,9 @@ const t: UpgradeBase[] = [
     standard: true,
     sides: [
       {
-        ability: {
-          en:
-            'While you perform an attack, if the attack is obstructed by an obstacle or the defender is at range 0 of an obstacle, you may spend 1 [Force] to add 1 [Focus] result.',
-        },
-        title: { en: 'Shattering Shot' },
+        ability:
+          'While you perform an attack, if the attack is obstructed by an obstacle or the defender is at range 0 of an obstacle, you may spend 1 [Force] to add 1 [Focus] result.',
+        title: 'Shattering Shot',
         type: 'Force Power',
         slots: ['Force Power'],
         ffg: 936,

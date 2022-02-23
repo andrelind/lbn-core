@@ -6,23 +6,10 @@ const t: UpgradeBase[] = [
     xws: 'heavylasercannon',
     sides: [
       {
-        title: {
-          en: 'Heavy Laser Cannon',
-          de: 'Schwere Laserkanone',
-          fr: 'Canon Laser Lourd',
-          es: 'Cañón láser pesado',
-        },
+        title: 'Heavy Laser Cannon',
         type: 'Cannon',
-        ability: {
-          en:
-            'Attack: After the Modify Attack Dice step, change all [Critical Hit] results to [Hit] results.',
-          de:
-            'Angriff: Nach dem Schritt „Angriffswürfel modifizieren", ändere alle [Critical Hit]-Ergebnisse in [Hit]-Ergebnisse.',
-          es:
-            'Ataque: Después del paso de "Modificar dados de ataque", cambia todos tus resultados [Critical Hit] por resultados [Hit].',
-          fr:
-            "Attaque : après l'étape « Modifier les dés d'attaque », changez tous les résultats [Critical Hit] en résultats [Hit].",
-        },
+        ability:
+          'Attack: After the Modify Attack Dice step, change all [Critical Hit] results to [Hit] results.',
         slots: ['Cannon'],
         attack: {
           arc: 'Bullseye Arc',
@@ -31,12 +18,6 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_27.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg',
         ffg: 256,
       },
     ],
@@ -50,23 +31,10 @@ const t: UpgradeBase[] = [
     xws: 'ioncannon',
     sides: [
       {
-        title: {
-          en: 'Ion Cannon',
-          de: 'Ionenkanone',
-          fr: 'Canon Ionique',
-          es: 'Cañón de iones',
-        },
+        title: 'Ion Cannon',
         type: 'Cannon',
-        ability: {
-          en:
-            'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          de:
-            'Angriff: Falls dieser Angriff trifft, gib 1 [Hit]- oder [Critical Hit]-Ergebnis aus, um den Verteidiger 1 [Hit]-Schaden erleiden zu lassen. Alle übrigen [Hit]/[Critical Hit]-Ergebnisse fügen Ionenmarker anstatt Schaden zu.',
-          es:
-            'Ataque: Si este ataque impacta, gasta 1 resultado [Hit] o [Critical Hit] para provocar que el defensor sufra 1 de daño [Hit]. Todos los resultados [Hit]/[Critical Hit] restantes infligen fichas de Iones en vez de daño.',
-          fr:
-            'Attaque : si cette attaque touche, dépensez 1 résultat [Hit] ou [Critical Hit] pour faire subir 1 dégât [Hit] au défenseur. Tous les résultats [Hit]/[Critical Hit] restants infligent des marqueurs ioniques au lieu des dégâts.',
-        },
+        ability:
+          'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
         slots: ['Cannon'],
         attack: {
           arc: 'Front Arc',
@@ -75,12 +43,6 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_28.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg',
         ffg: 257,
       },
     ],
@@ -94,23 +56,10 @@ const t: UpgradeBase[] = [
     xws: 'jammingbeam',
     sides: [
       {
-        title: {
-          en: 'Jamming Beam',
-          de: 'Störstrahl',
-          fr: 'Rayon de Brouillage',
-          es: 'Haz de interferencias',
-        },
+        title: 'Jamming Beam',
         type: 'Cannon',
-        ability: {
-          en:
-            'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam tokens instead of damage.',
-          de:
-            'Angriff: Falls dieser Angriff trifft, fügen alle [Hit]/[Critical Hit]-Ergebnisse Störsignalmarker anstatt Schaden zu.',
-          es:
-            'Ataque: Si este ataque impacta, todos los resultados [Hit]/[Critical Hit] infligen fichas de Interferencia en vez de daño.',
-          fr:
-            'Attaque : si cette attaque touche, tous les résultats [Hit]/[Critical Hit] infligent des marqueurs de brouillage au lieu des dégâts.',
-        },
+        ability:
+          'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam tokens instead of damage.',
         slots: ['Cannon'],
         attack: {
           arc: 'Front Arc',
@@ -119,12 +68,6 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_29.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg',
         ffg: 258,
       },
     ],
@@ -138,23 +81,10 @@ const t: UpgradeBase[] = [
     xws: 'tractorbeam',
     sides: [
       {
-        title: {
-          en: 'Tractor Beam',
-          de: 'Fangstrahl',
-          fr: 'Rayon Tracteur',
-          es: 'Proyector de campo de tracción',
-        },
+        title: 'Tractor Beam',
         type: 'Cannon',
-        ability: {
-          en:
-            'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor tokens instead of damage.',
-          de:
-            'Angriff: Falls dieser Angriff trifft, fügen alle [Hit]/[Critical Hit]-Ergebnisse Fangstrahlmarker anstatt Schaden zu.',
-          es:
-            'Ataque: Si este ataque impacta, todos los resultados [Hit]/[Critical Hit] infligen fichas de Campo de tracción en vez de daño.',
-          fr:
-            'Attaque : si cette attaque touche, tous les résultats [Hit]/[Critical Hit] infligent des marqueurs de rayon tracteur au lieu des dégâts.',
-        },
+        ability:
+          'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor tokens instead of damage.',
         slots: ['Cannon'],
         attack: {
           arc: 'Front Arc',
@@ -163,12 +93,6 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_30.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg',
         ffg: 259,
       },
     ],
@@ -182,21 +106,9 @@ const t: UpgradeBase[] = [
     xws: 'autoblasters',
     sides: [
       {
-        ability: {
-          en:
-            "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
-          de:
-            'Angriff: Falls der Verteidiger in deinem [Bullseye Arc] ist, wirf 1 zusätzlichen Würfel. Während des Schrittes „Ergebnisse neutralisieren", falls du nicht im [Front Arc] des Verteidigers bist, negieren [Evade] -Ergebnisse keine [Critical Hit] -Ergebnisse.',
-          es:
-            'Ataque: Si el defensor está en tu [Bullseye Arc], tiras 1 dado adicional. Durante el paso de "Neutralizar resultados", si no estás en el [Front Arc] del defensor, los resultados [Evade] no anulan los resultados [Critical Hit] .',
-          fr:
-            "Attaque : si le défenseur est dans votre [Bullseye Arc], lancez 1 dé supplémentaire. Lors de l'étape « Neutraliser les résultats », si vous n'êtes pas dans le [Front Arc] du défenseur, les résultats [Evade] n'annulent pas les résultats [Critical Hit].",
-        },
-        title: {
-          en: 'Autoblasters',
-          de: 'Autoblaster',
-          es: 'Cañones bláster automáticos',
-        },
+        ability:
+          "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
+        title: 'Autoblasters',
         type: 'Cannon',
         slots: ['Cannon'],
         attack: {
@@ -207,12 +119,6 @@ const t: UpgradeBase[] = [
           ordnance: false,
         },
         ffg: 578,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png',
-        },
       },
     ],
     cost: { value: 4 },
@@ -226,22 +132,9 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     sides: [
       {
-        ability: {
-          en:
-            'After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending a lock for the default effect.',
-          de:
-            'Nachdem ein feindliches Schiff ein Manöver ausgeführt hat, darfst du diesen Angriff als Bonusangriff gegen jenes Schiff durchführen. Angriff ([Lock]): Deine Würfel können nur modifiziert werden, indem du eine Zielerfassung für den Standardeffekt ausgibst.',
-          es:
-            'Después de que una nave enemiga ejecute una maniobra, puedes efectuar este ataque contra esa nave como un ataque adicional. Ataque ([Lock]):Tus dados sólo pueden ser modificados por el gasto de un Blanco fijado para su efecto normal.',
-          fr:
-            "Après qu'un vaisseau ennemi a exécuté une manœuvre, vous pouvez effectuer cette attaque contre lui en tant qu'attaque bonus. Attaque ([Lock]) : vos dés ne peuvent être modifiés qu'en dépensant un verrouillage pour l'effet par défaut.",
-        },
-        title: {
-          en: 'Underslung Blaster Cannon',
-          de: 'Unterbaute Blasterkanone',
-          es: 'Cañón bláster inferior',
-          fr: 'Canon Blaster Suspendu',
-        },
+        ability:
+          'After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending a lock for the default effect.',
+        title: 'Underslung Blaster Cannon',
         type: 'Cannon',
         slots: ['Cannon'],
         attack: {
@@ -255,8 +148,6 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 718,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg',
       },
     ],
     standard: true,
@@ -274,12 +165,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ffg: 674,
-        title: {
-          en: 'Synced Laser Cannons',
-          de: 'Synchronisierte Laserkanonen',
-          fr: 'Canons Laser Synchronisés',
-          es: 'Cañones láser sincronizados',
-        },
+        title: 'Synced Laser Cannons',
         type: 'Cannon',
         slots: ['Cannon', 'Cannon'],
         attack: {
@@ -289,22 +175,8 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png',
-        },
-        ability: {
-          en:
-            'Attack: If you are calculating, the defender does not apply the range bonus.',
-          de:
-            'Angriff: Falls du berechnend bist, wendet der Verteidiger den Reichweitenbonus nicht an.',
-          fr:
-            "Attaque : si vous êtes calculateur, le défenseur n'applique pas le bonus de portée.",
-          es:
-            'Ataque: Si estás calculando, el defensor no aplica el modificador por alcance.',
-        },
+        ability:
+          'Attack: If you are calculating, the defender does not apply the range bonus.',
       },
     ],
     standard: true,

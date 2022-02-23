@@ -6,26 +6,12 @@ const t: UpgradeBase[] = [
     xws: 'kraken',
     sides: [
       {
-        title: { en: 'Kraken' },
+        title: 'Kraken',
         type: 'Tactical Relay',
-        ability: {
-          en:
-            'During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.',
-          de:
-            'Während der Endphase darfst du bis zu 3 befreundete Schiffe in Reichweite 0-3 wählen. Falls du das tust, entfernt jedes dieser Schiffe 1 Berechnungsmarker nicht.',
-          es:
-            'Durante la fase Final, puedes elegir hasta 3 naves aliadas que tengas a alcance 0-3. Si lo haces, cada una de esas naves no retira 1 ficha de Cálculos.',
-          fr:
-            "Pendant la phase de dénouement, vous pouvez choisir jusqu'à 3 vaisseaux alliés à portée 0-3. Dans ce cas, chacun de ces vaisseaux ne retire pas 1 marqueur de calcul.",
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/47dae8a3ecd27a48f3dc35aff03a1a75.png',
-        },
+        ability:
+          'During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.',
         slots: ['Tactical Relay'],
         ffg: 531,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg',
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
@@ -42,26 +28,12 @@ const t: UpgradeBase[] = [
     limited: 1,
     sides: [
       {
-        title: { en: 'TV-94' },
+        title: 'TV-94',
         type: 'Tactical Relay',
-        ability: {
-          en:
-            'While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.',
-          de:
-            'Solange ein befreundetes Schiff in Reichweite 0-3 einen Primärangriff gegen einen Verteidiger in seinem [Bullseye Arc] durchführt, falls 2 oder weniger Angriffswürfel vorhanden sind, darf es 1 Berechnungsmarker ausgeben, um 1 [Hit] - Ergebnis hinzuzufügen.',
-          es:
-            'Mientras una nave aliada que tienes a alcance 0-3 efectúa un ataque principal contra un defensor situado en su [Bullseye Arc], si hay 2 o menos dados de ataque, la nave aliada puede gastar 1 ficha de Cálculos para añadir 1 resultado [Hit] .',
-          fr:
-            "Tant qu'un vaisseau allié à portée 0-3 effectue une attaque principale contre un défenseur situé dans son [Bullseye Arc], s'il y a 2 dés d'attaque ou moins, il peut dépenser 1 marqueur de calcul pour ajouter 1 résultat [Hit].",
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/633a34a139c912116c1b034fc2765484.png',
-        },
+        ability:
+          'While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.',
         slots: ['Tactical Relay'],
         ffg: 530,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/f6177b6339e425fff560af884596a83b.jpg',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -75,26 +47,12 @@ const t: UpgradeBase[] = [
     limited: 1,
     sides: [
       {
-        title: { en: 'K2-B4' },
+        title: 'K2-B4',
         type: 'Tactical Relay',
-        ability: {
-          en:
-            'While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.',
-          de:
-            'Solange ein befreundetes Schiff in Reichweite 0-3 verteidigt, darf es 1 Berechnungsmarker ausgeben. Falls es das tut, füge 1 [Evade]-Ergebnis hinzu, es sei denn, der Angreifer entscheidet sich dafür, 1 Anstrengungsmarker zu erhalten.',
-          es:
-            'Mientras una nave aliada que tienes a alcance 0-3 se defiende, esa nave puede gastar 1 ficha de Cálculos. Si lo hace, añade 1 resultado [Evade] a menos que el atacante elija recibir 1 ficha de Sobresfuerzo.',
-          fr:
-            "Tant qu'un vaisseau allié à portée 0-3 défend, il peut dépenser 1 marqueur de calcul. Dans ce cas, ajoutez 1 résultat [Evade] sauf si l'attaquant choisit de gagner 1 marqueur de contrainte.",
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/2178079ef9488899e51e927b2e136572.png',
-        },
+        ability:
+          'While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.',
         slots: ['Tactical Relay'],
         ffg: 537,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/fa9a0b38a079ec78b6db330c2ffc9b0a.jpg',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -108,26 +66,12 @@ const t: UpgradeBase[] = [
     limited: 1,
     sides: [
       {
-        title: { en: 'TA-175' },
+        title: 'TA-175',
         type: 'Tactical Relay',
-        ability: {
-          en:
-            'After a friendly ship at range 0-3 with [Calculate] on its action bar is destroyed, each friendly ship at range 0-3 with [Calculate] in its action bar gains 1 calculate token.',
-          de:
-            'Nachdem ein befreundetes Schiff in Reichweite 0-3 mit [Calculate] in seiner Aktionsleiste zerstört worden ist, erhält jedes befreundete Schiff in Reichweite 0-3 mit [Calculate] in seiner Aktionsleiste 1 Berechnungsmarker.',
-          es:
-            'Después de que una nave aliada que tengas a alcance 0-3 con [Calculate] en su barra de acciones sea destruida, toda nave aliada que tengas a alcance 0-3 con [Calculate] en su barra de acciones recibe 1 ficha de Cálculos.',
-          fr:
-            "Après qu'un vaisseau allié à portée 0-3 avec [Calculate] dans sa barre d'action a été détruit, chaque vaisseau allié à portée 0-3 avec [Calculate] dans sa barre d'action gagne 1 marqueur de calcul.",
-        },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/d71e07aa3147c6fe943bd0c8131a0096.png',
-        },
+        ability:
+          'After a friendly ship at range 0-3 with [Calculate] on its action bar is destroyed, each friendly ship at range 0-3 with [Calculate] in its action bar gains 1 calculate token.',
         slots: ['Tactical Relay'],
         ffg: 590,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -143,25 +87,11 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ffg: 682,
-        title: { en: 'Kalani' },
+        title: 'Kalani',
         type: 'Tactical Relay',
         slots: ['Tactical Relay'],
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/f7d014b30966a8e308aad5d1336d50dd.png',
-        },
-        ability: {
-          en:
-            'After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.',
-          de:
-            'Nachdem ein feindliches Schiff ein Manöver ausgeführt hat, falls es im [Bullseye Arc] eines befreundeten Schiffes in Reichweite 0-3 ist, darfst du 1 [Charge] ausgeben. Falls du das tust, erfasst jenes befreundete Schiff jenes feindliche Schiff als Ziel, dann erhält es 1 Stressmarker.',
-          fr:
-            "Après qu'un vaisseau ennemi a exécuté une manœuvre, s'il est dans le [Bullseye Arc] d'un vaisseau allié à portée 0-3, vous pouvez dépenser 1 [Charge]. Dans ce cas, ce vaisseau allié verrouille ce vaisseau ennemi, puis gagne 1 marqueur de stress.",
-          es:
-            'Después de que una nave enemiga ejecute una maniobra, si está situada en el [Bullseye Arc] de una nave aliada que tienes a alcance 0-3, puedes gastar 1 [Charge]. Si lo haces, esa nave aliada obtiene un Blanco fijado sobre esa nave enemiga, y luego recibe 1 ficha de Tensión.',
-        },
+        ability:
+          'After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.',
         charges: { value: 3, recovers: 3 },
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },

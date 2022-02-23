@@ -1,14 +1,7 @@
 import { v4 as uuid } from 'uuid';
 import xwsMap from '../assets/ffg-xws';
 import upgradeData from '../assets/upgrades';
-import {
-  Faction,
-  FactionKey,
-  SlotKey,
-  Squadron,
-  SquadronXWS,
-  Translation,
-} from '../types';
+import { Faction, FactionKey, SlotKey, Squadron, SquadronXWS } from '../types';
 import { xwsFromSquadron } from './convert';
 import { slotKeys } from './enums';
 import { getFactionKey, serialize } from './serializer';
@@ -245,10 +238,7 @@ export const exportAsXws = (squadron: Squadron) => {
   return JSON.stringify(e);
 };
 
-export const exportAsText = (
-  squadron: Squadron,
-  t: (translation?: Translation) => string
-) => {
+export const exportAsText = (squadron: Squadron) => {
   let text = `${squadron.name}\n`;
 
   squadron.ships.map((ship) => {
@@ -258,7 +248,7 @@ export const exportAsText = (
       const up = ship.upgrades && ship.upgrades[key];
       if (up) {
         up.forEach((u) => {
-          text += `\n(${u.finalCost}) ${cleanText(t(u.sides[0].title))}`;
+          text += `\n(${u.finalCost}) ${cleanText(u.sides[0].title)}`;
         });
       }
     });
@@ -269,10 +259,7 @@ export const exportAsText = (
   return text;
 };
 
-export const exportAsTTS = (
-  squadron: Squadron,
-  t: (translation?: Translation) => string
-) => {
+export const exportAsTTS = (squadron: Squadron) => {
   let text = '';
 
   squadron.ships.map((ship) => {
@@ -282,7 +269,7 @@ export const exportAsTTS = (
       const up = ship.upgrades && ship.upgrades[key];
       if (up) {
         up.forEach((u) => {
-          text += ` + ${cleanText(t(u.sides[0].title))}`;
+          text += ` + ${cleanText(u.sides[0].title)}`;
         });
       }
     });

@@ -6,30 +6,11 @@ const t: UpgradeBase[] = [
     xws: 'advancedsensors',
     sides: [
       {
-        title: {
-          en: 'Advanced Sensors',
-          de: 'Verbesserte Sensoren',
-          fr: 'Senseurs Avancés',
-          es: 'Sensores avanzados',
-        },
+        title: 'Advanced Sensors',
         type: 'Sensor',
-        ability: {
-          en:
-            'After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.',
-          de:
-            'Nachdem du dein Rad aufgedeckt hast, darfst du 1 Aktion durchführen. Falls du das tust, kannst du während deiner Aktivierung keine weitere Aktion durchführen.',
-          es:
-            'Después de que reveles tu selector, puedes realizar 1 acción. Si lo haces, no puedes realizar otra acción durante tu activación.',
-          fr:
-            "Après avoir révélé votre cadran, vous pouvez effectuer 1 action. Dans ce cas, vous ne pouvez pas effectuer d'autre action pendant votre activation.",
-        },
+        ability:
+          'After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.',
         slots: ['Sensor'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_23.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg',
         ffg: 252,
       },
     ],
@@ -43,31 +24,12 @@ const t: UpgradeBase[] = [
     xws: 'collisiondetector',
     sides: [
       {
-        title: {
-          en: 'Collision Detector',
-          de: 'Kollisionssensor',
-          fr: 'Détecteur Anti-Collision',
-          es: 'Detector de colisiones',
-        },
+        title: 'Collision Detector',
         type: 'Sensor',
-        ability: {
-          en:
-            'While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.',
-          de:
-            'Solange du Schub gibst oder eineFassrolle fliegst, kannst du dichdurch Hindernisse hindurch­bewegen und sie überschneiden. Nachdem du dich durch ein Hindernis hindurchbewegt oder es überschnitten hast, darfst du 1 [Charge] ausgeben, um seine Effekte bis zum Ende der Runde zu ignorieren.',
-          es:
-            'Mientras realizas un impulso o un tonel volado, eres capaz de moverte pasando a través de obstáculos y solaparte con ellos. Después de que pases a través de un obstáculo o te solapes con uno, puedes gastar 1 [Charge] para ignorar sus efectos hasta el final de la ronda.',
-          fr:
-            "Tant que vous accélérez ou que vous effectuez un tonneau, vous pouvez vous déplacer à travers ou chevaucher les obstacles. Après vous être déplacé à travers ou avoir chevauché un obstacle, vous pouvez dépenser 1 [Charge] pour ignorer ses effets jusqu'à la fin du round.",
-        },
+        ability:
+          'While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.',
         slots: ['Sensor'],
         charges: { value: 2, recovers: 0 },
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_24.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg',
         ffg: 253,
       },
     ],
@@ -81,30 +43,11 @@ const t: UpgradeBase[] = [
     xws: 'firecontrolsystem',
     sides: [
       {
-        title: {
-          en: 'Fire-Control System',
-          de: 'Feuerkontrollsystem',
-          fr: 'Système de Commande de Tir',
-          es: 'Sistema de control de disparo',
-        },
+        title: 'Fire-Control System',
         type: 'Sensor',
-        ability: {
-          en:
-            'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
-          de:
-            'Solange du einen Angriff durchführst, falls du den Verteidiger als Ziel erfasst hast, darfst du 1 Angriffswürfel neu werfen. Falls du das tust, kannst du während dieses Angriffs deine Zielerfassung nicht ausgeben.',
-          es:
-            'Mientras efectúas un ataque, si tienes al defensor fijado como blanco, puedes volver a tirar 1 dado de ataque. Si lo haces, no puedes gastar tu Blanco fijado durante este ataque.',
-          fr:
-            "Tant que vous effectuez une attaque, si vous avez un verrouillage sur le défenseur, vous pouvez relancer 1 dé d'attaque. Dans ce cas, vous ne pouvez pas dépenser votre marqueur de verrouillage pendant cette attaque.",
-        },
+        ability:
+          'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
         slots: ['Sensor'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_25.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg',
         ffg: 254,
       },
     ],
@@ -118,30 +61,11 @@ const t: UpgradeBase[] = [
     xws: 'trajectorysimulator',
     sides: [
       {
-        title: {
-          en: 'Trajectory Simulator',
-          de: 'Flugbahnsimulator',
-          fr: 'Simulateur de Trajectoire',
-          es: 'Simulador de trayectorias',
-        },
+        title: 'Trajectory Simulator',
         type: 'Sensor',
-        ability: {
-          en:
-            'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
-          de:
-            'Während der Systemphase, falls du eine Bombe abwerfen oder starten würdest, darfst du sie stattdessen unter Verwendung der (5 [Straight])-Schablone starten.',
-          es:
-            'Durante la fase de Sistemas, si vas a soltar o lanzar una bomba, puedes lanzarla utilizando la plantilla (5 [Straight]) en vez de la plantilla habitual.',
-          fr:
-            'Pendant la phase de système, si vous êtes censé larguer ou lancer une bombe, vous pouvez la lancer en utilisant le gabarit (5 [Straight]) à la place.',
-        },
+        ability:
+          'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
         slots: ['Sensor'],
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_26.png',
-        },
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg',
         ffg: 255,
       },
     ],
@@ -155,32 +79,13 @@ const t: UpgradeBase[] = [
     xws: 'passivesensors',
     sides: [
       {
-        ability: {
-          en:
-            'Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.',
-          de:
-            'Aktion: Gib 1 [Charge] aus. Du kannst diese Aktion nur in deinem Schritt „Aktionen durchführen" durchführen. Solange deine [Charge] inaktiv ist, kannst du nicht koordiniert werden. Bevor du kämpfst, falls deine [Charge] inaktiv ist, darfst du eine [Calculate] oder [Lock]-Aktion durchführen.',
-          es:
-            'Acción: Gasta 1 [Charge]. Sólo puedes realizar esta acción en tu paso de "Realizar una acción". Mientras tu [Charge] está inactivam, no puedes ser coordinado. Antes de que intervengas, si tu [Charge] está inactiva, puedes realizar una acción [Calculate] o [Lock].',
-          fr:
-            'Action : dépensez 1 [Charge]. Vous ne pouvez effectuer cette action que lors de votre étape « Effectuer une action ». Tant que votre [Charge] est inactive, vous ne pouvez pas être coordonné. Avant de vous engager, si votre [Charge] est inactive, vous pouvez effectuer une action [Calculate] ou [Lock].',
-        },
-        title: {
-          en: 'Passive Sensors',
-          de: 'Passive Sensoren',
-          fr: 'Senseurs Passifs',
-          es: 'Sensores pasivos',
-        },
+        ability:
+          'Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.',
+        title: 'Passive Sensors',
         type: 'Sensor',
         slots: ['Sensor'],
         charges: { value: 1, recovers: 1 },
         ffg: 577,
-        artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg',
-        image: {
-          en:
-            'https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png',
-        },
       },
     ],
     cost: { value: 5 },

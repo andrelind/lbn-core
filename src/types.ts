@@ -7,19 +7,6 @@ export type Action = {
   };
 };
 
-export type Language = 'de' | 'en' | 'es' | 'fr';
-
-export type Translation = {
-  en: string;
-  de?: string;
-  es?: string;
-  fr?: string;
-  it?: string;
-  pl?: string;
-  pt?: string;
-  zh?: string;
-};
-
 export type ActionType =
   | 'Barrel Roll'
   | 'Boost'
@@ -318,14 +305,12 @@ export type UpgradeCost =
 
 export type UpgradeSide = {
   ffg: number;
-  title: Translation;
+  title: string;
   type: Slot;
-  ability?: Translation;
-  text?: Translation;
+  ability?: string;
+  text?: string;
   slots: Slot[];
   actions?: Action[];
-  image?: Translation;
-  artwork?: string;
   attack?: {
     arc: Arc;
     value: number;
