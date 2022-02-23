@@ -75,7 +75,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 5,
-      slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
+      slots: ['Talent', 'Missile', 'Title', 'Modification', 'Modification'],
       ffg: 492,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg',
@@ -110,7 +110,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 4,
-      slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
+      slots: ['Talent', 'Tactical Relay', 'Modification', 'Modification'],
       ffg: 493,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg',
@@ -158,7 +158,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 4,
-      slots: ['Modification', 'Title', 'Tactical Relay'],
+      slots: ['Tactical Relay', 'Modification'],
       ffg: 496,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
@@ -194,7 +194,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 5,
-      slots: ['Modification', 'Title', 'Tactical Relay'],
+      slots: ['Tactical Relay', 'Modification', 'Modification'],
       ffg: 494,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg',
@@ -214,7 +214,7 @@ const t: ShipType = {
       },
       xws: 'skakoanace',
       cost: 4,
-      slots: ['Talent', 'Modification', 'Title', 'Tactical Relay'],
+      slots: ['Talent', 'Modification', 'Modification'],
       ffg: 495,
       initiative: 3,
       limited: 0,

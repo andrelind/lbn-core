@@ -99,7 +99,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
+      slots: ['Torpedo', 'Missile', 'Modification', 'Configuration'],
       ffg: 568,
       keywords: ['Droid'],
       image: {
@@ -140,7 +140,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Sensor', 'Device', 'Device', 'Modification', 'Configuration'],
+      slots: ['Device', 'Device', 'Modification', 'Configuration'],
       ffg: 565,
       keywords: ['Droid'],
       image: {
@@ -252,7 +252,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Torpedo', 'Missile', 'Device', 'Modification', 'Configuration'],
+      slots: ['Missile', 'Device', 'Modification', 'Configuration'],
       ffg: 567,
       keywords: ['Droid'],
       image: {

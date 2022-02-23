@@ -123,7 +123,7 @@ const t: ShipType = {
       },
       standard: true,
       epic: true,
-      slots: ['Talent', 'Talent'],
+      slots: ['Talent', 'Talent', 'Talent', 'Modification'],
       cost: 6,
       ffg: 604,
       caption: {

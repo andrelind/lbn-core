@@ -97,7 +97,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 2,
-      slots: ['Missile', 'Modification', 'Configuration'],
+      slots: ['Modification', 'Configuration'],
       ffg: 498,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/df075613c4c3dbe7803df6bfa5082262.jpg',
@@ -138,7 +138,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Missile', 'Modification', 'Configuration'],
+      slots: ['Cannon', 'Modification', 'Configuration'],
       ffg: 500,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/fab82de87d230b77a5e4b2360ea9af93.jpg',
@@ -179,7 +179,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Missile', 'Modification', 'Configuration'],
+      slots: ['Missile', 'Modification', 'Modification', 'Configuration'],
       ffg: 502,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/18cdc19a9627a38d0ec2783ccd5cb183.jpg',
@@ -215,7 +215,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 3,
-      slots: ['Missile', 'Modification', 'Configuration'],
+      slots: ['Missile', 'Modification', 'Modification', 'Configuration'],
       ffg: 499,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
