@@ -57,7 +57,7 @@ const t: ShipType = {
         es:
           'Durante la fase de Sistemas, puedes realizar una acción [Barrel Roll] roja o una acción [Boost] roja.',
       },
-      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
+      slots: ['Tech', 'Tech', 'Crew', 'Modification'],
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
         { difficulty: 'Red', type: 'Lock' },
@@ -105,7 +105,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, puedes volver a tirar hasta 1 de tus dados por cada otra nave aliada situada en el arco de ataque.',
       },
-      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
+      slots: ['Talent', 'Tech', 'Crew', 'Modification', 'Modification'],
       cost: 3,
       ffg: 574,
       image: {
@@ -165,7 +165,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, puedes añadir 1 resultado de cara vacía, o puedes recibir 1 ficha de Sobresfuerzo para añadir 1 resultado de Concentración en vez de uno de cara vacía.',
       },
-      slots: ['Talent', 'Tech', 'Crew', 'Modification'],
+      slots: ['Talent', 'Talent', 'Tech', 'Crew', 'Modification'],
       cost: 4,
       ffg: 575,
       caption: {

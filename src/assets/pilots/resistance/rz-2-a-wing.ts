@@ -137,7 +137,7 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Talent', 'Talent', 'Tech', 'Torpedo', 'Modification'],
       ffg: 436,
       standard: true,
       epic: true,
@@ -173,7 +173,15 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg',
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: [
+        'Talent',
+        'Talent',
+        'Tech',
+        'Tech',
+        'Missile',
+        'Modification',
+        'Modification',
+      ],
       ffg: 438,
       standard: true,
       epic: true,
@@ -204,7 +212,7 @@ const t: ShipType = {
       },
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg',
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       ffg: 437,
       standard: true,
       epic: true,
@@ -236,7 +244,7 @@ const t: ShipType = {
         es:
           'Años de modificaciones improvisadas acabaron siendo elementos de serie del diseño del RZ-2, pero para los pilotos más osados, las mejoras en la fiabilidad de la nave no son más que un incentivo para buscar nuevos límites a sus prestaciones.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Talent', 'Tech'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg',
       ffg: 439,
@@ -271,7 +279,7 @@ const t: ShipType = {
         es:
           'Jóvenes de toda la galaxia han crecido escuchando heroicos relatos de la Guerra Civil Galáctica, y muchos de ellos aprendieron a pilotar en las mismas carlingas en las que sus padres combatieron al Imperio.',
       },
-      slots: ['Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Tech'],
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg',
       ffg: 440,
@@ -302,7 +310,7 @@ const t: ShipType = {
           'Después de que te defiendas o efectúes un ataque, puedes gastar 1 [Charge] para recibir 1 ficha de Concentración o de Evasión.',
       },
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Talent', 'Tech', 'Missile'],
+      slots: ['Talent', 'Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 638,
@@ -338,7 +346,7 @@ const t: ShipType = {
         es:
           'Mientras te defiendes o efectúas un ataque, si la nave enemiga se halla en el [Single Turret Arc] de otra nave aliada, puedes gastar 1 ficha de Concentración de esa nave aliada para cambiar 1 de tus resultados [Focus] por un resultado [Evade] o [Hit] .',
       },
-      slots: ['Talent', 'Tech', 'Missile'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 639,
@@ -380,7 +388,7 @@ const t: ShipType = {
         fr:
           "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque principale, si vous êtes dans le [Bullseye Arc] du défenseur, ce dernier lance 1 dé de défense en moins.",
       },
-      slots: ['Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 704,
@@ -416,7 +424,7 @@ const t: ShipType = {
         fr:
           'Après avoir partiellement exécuté une manœuvre, vous pouvez gagner 1 marqueur de contrainte pour pivoter de 90° ou 180°.',
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Talent', 'Tech', 'Cannon', 'Modification'],
       standard: true,
       epic: true,
       ffg: 703,
@@ -452,7 +460,7 @@ const t: ShipType = {
         fr:
           "Après que vous avez défendu à portée d'attaque 1, si l'attaquant a modifié ses dés, il gagne un marqueur d'épuisement.",
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 702,
@@ -488,7 +496,7 @@ const t: ShipType = {
         fr:
           "Après avoir effectué une action [Boost], vous pouvez transférer 1 marqueur d'évasion à un vaisseau allié à portée 1.",
       },
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 701,
