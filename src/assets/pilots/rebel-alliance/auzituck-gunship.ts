@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Auzituck Gunship',
-    de: 'Auzituck-Kanonenboot',
-    fr: 'Canonnière Auzituck',
-    es: 'Cañonera Auzituck',
-  },
+  name: 'Auzituck Gunship',
   xws: 'auzituckgunship',
   ffg: 6,
   size: 'Small',
@@ -42,106 +37,50 @@ const t: ShipType = {
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Auzituck.png',
   pilots: [
     {
-      name: {
-        en: 'Kashyyyk Defender',
-        de: 'Verteidiger von Kashyyyk',
-        fr: 'Défenseur de Kashyyyk',
-        es: 'Defensor de Kashyyyk',
-      },
+      name: 'Kashyyyk Defender',
       initiative: 1,
       limited: 0,
       cost: 5,
       xws: 'kashyyykdefender',
-      text: {
-        en:
-          'Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.',
-        de:
-          'Mit seinen drei weitreichenden Sureggi-Zwillingslaserkanonen soll das Auzituck-Kanonenboot Sklavenjäger im Kashyyyk-System abschrecken.',
-        fr:
-          'Équipée de trois canons laser jumelés Sureggi longue portée, la canonnière Auzituck donnait du fil à retordre aux esclavagistes dans le système de Kashyyyk.',
-        es:
-          'Equipada con tres cañones láser dobles Sureggi de amplio alcance, la cañonera Auzituck sirve como un potente elemento disuasorio ante las actividades esclavistas en el sistema Kashyyyk.',
-      },
+      text:
+        'Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.',
       slots: ['Crew', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
       ffg: 33,
       standard: false,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Lowhhrick' },
-      caption: {
-        en: 'Escaped Gladiator',
-        de: 'Entflohener Gladiator',
-        fr: 'Gladiateur Rescapé',
-        es: 'Gladiador fugado',
-      },
+      name: 'Lowhhrick',
+      caption: 'Escaped Gladiator',
       initiative: 3,
       limited: 1,
       cost: 5,
       xws: 'lowhhrick',
-      ability: {
-        en:
-          'After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.',
-        de:
-          'Nachdem ein befreundetes Schiff in Reichweite 0-1 zum Verteidiger geworden ist, darfst du 1 Verstärkungsmarker ausgeben. Falls du das tust, erhält jenes Schiff 1 Ausweichmarker.',
-        fr:
-          "Après qu'un vaisseau allié à portée 0-1 est devenu le défenseur, vous pouvez dépenser 1 marqueur de renforcement. Dans ce cas, le vaisseau défenseur gagne 1 marqueur d'évasion.",
-        es:
-          'Después de que una nave aliada que tengas a alcance 0-1 se convierta en el defensor, puedes gastar 1 ficha de Refuerzo. Si lo haces, esa nave recibe 1 ficha de Evasión.',
-      },
+      ability:
+        'After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.',
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg',
       ffg: 32,
       standard: false,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png',
-      },
       loadout: 10,
       extended: true,
     },
     {
-      name: { en: 'Wullffwarro' },
-      caption: {
-        en: 'Wookiee Chief',
-        de: 'Wookiee-Häuptling',
-        fr: 'Chef Wookie',
-        es: 'Caudillo wookiee',
-      },
+      name: 'Wullffwarro',
+      caption: 'Wookiee Chief',
       initiative: 4,
       limited: 1,
       cost: 5,
       xws: 'wullffwarro',
-      ability: {
-        en:
-          'While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.',
-        de:
-          'Solange du einen Primärangriff durchführst, falls du beschädigt bist, darfst du 1 zusätzlichen Angriffswürfel werfen.',
-        fr:
-          "Tant que vous effectuez une attaque principale, si vous êtes endommagé, vous pouvez lancer 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras efectúas un ataque principal, si estás dañado, puedes tirar 1 dado de ataque adicional.',
-      },
+      ability:
+        'While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.',
       slots: ['Talent', 'Crew', 'Crew', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg',
       ffg: 31,
       standard: false,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png',
-      },
       loadout: 11,
       extended: true,
     },

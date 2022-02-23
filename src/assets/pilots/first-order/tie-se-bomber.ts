@@ -1,7 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: { en: 'TIE/se Bomber' },
+  name: 'TIE/se Bomber',
   xws: 'tiesebomber',
   size: 'Small',
   ffg: 87,
@@ -48,13 +48,13 @@ const t: ShipType = {
     },
   ],
   ability: {
-    name: { en: 'Pursuit Thrusters' },
-    text: { en: 'During the System Phase, you may perform a [Boost] action' },
+    name: 'Pursuit Thrusters',
+    text: 'During the System Phase, you may perform a [Boost] action',
   },
   icon: '???',
   pilots: [
     {
-      name: { en: '"Breach"' },
+      name: '“Breach”',
       xws: 'breach',
       initiative: 5,
       limited: 1,
@@ -71,21 +71,17 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      ability: {
-        en:
-          'After you fully execute a maneuver or perform a [Boost] action, if you moved through an enemy ship, you may acquire a lock on that ship.',
-      },
+      ability:
+        'After you fully execute a maneuver or perform a [Boost] action, if you moved through an enemy ship, you may acquire a lock on that ship.',
       ffg: 913,
-      artwork: '???',
-      caption: { en: 'Ordnance Expert' },
+      caption: 'Ordnance Expert',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 20,
       extended: true,
     },
     {
-      name: { en: '"Scorch"' },
+      name: '“Scorch”',
       xws: 'scorch-tiesebomber',
       initiative: 4,
       limited: 1,
@@ -101,21 +97,17 @@ const t: ShipType = {
         'Modification',
         'Modification',
       ],
-      ability: {
-        en:
-          'While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.',
-      },
+      ability:
+        'While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.',
       ffg: 914,
-      artwork: '???',
-      caption: { en: 'Jad Bean' },
+      caption: 'Jad Bean',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 10,
       extended: true,
     },
     {
-      name: { en: '"Dread"' },
+      name: '“Dread”',
       xws: 'dread',
       initiative: 3,
       limited: 1,
@@ -130,22 +122,18 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      text: { en: '???' },
+      text: '???',
       ffg: 915,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
-      caption: { en: 'Devotee of Devastation' },
-      ability: {
-        en:
-          'After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.',
-      },
+      caption: 'Devotee of Devastation',
+      ability:
+        'After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.',
       loadout: 12,
       extended: true,
     },
     {
-      name: { en: '"Grudge"' },
+      name: '“Grudge”',
       xws: 'grudge',
       initiative: 2,
       limited: 1,
@@ -160,21 +148,17 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      ability: {
-        en:
-          'While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice.',
-      },
+      ability:
+        'While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice.',
       ffg: 916,
-      artwork: '???',
-      caption: { en: 'Hateful Harrier' },
+      caption: 'Hateful Harrier',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 15,
       extended: true,
     },
     {
-      name: { en: 'First Order Cadet' },
+      name: 'First Order Cadet',
       xws: 'firstordercadet',
       initiative: 3,
       limited: 0,
@@ -189,37 +173,31 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      text: {
-        en:
-          'The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.',
-      },
+      text:
+        'The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.',
       ffg: 917,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 7,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Sienar-Jaemus Test Pilot' },
+      name: 'Sienar-Jaemus Test Pilot',
       xws: 'sienarjaemustestpilot',
       initiative: 2,
       limited: 0,
       standard: true,
       cost: 4,
       slots: ['Tech', 'Tech', 'Missile', 'Device', 'Device', 'Modification'],
-      text: {
-        en:
-          'Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.',
-      },
+      text:
+        'Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.',
       ffg: 918,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 8,
       extended: true,
+      caption: '',
     },
   ],
 };

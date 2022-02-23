@@ -1,7 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: { en: 'BTA-NR2 Y-Wing' },
+  name: 'BTA-NR2 Y-Wing',
   xws: 'btanr2ywing',
   size: 'Small',
   ffg: 86,
@@ -37,15 +37,13 @@ const t: ShipType = {
   ],
   icon: '???',
   ability: {
-    name: { en: 'Intuitive Interface' },
-    text: {
-      en:
-        'After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action.',
-    },
+    name: 'Intuitive Interface',
+    text:
+      'After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action.',
   },
   pilots: [
     {
-      name: { en: 'Zorii Bliss' },
+      name: 'Zorii Bliss',
       xws: 'zoriibliss',
       initiative: 5,
       limited: 1,
@@ -62,21 +60,17 @@ const t: ShipType = {
         'Illicit',
         'Configuration',
       ],
-      ability: {
-        en:
-          'After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.',
-      },
+      ability:
+        'After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.',
       charges: { value: 1, recovers: 1 },
-      artwork: '???',
-      caption: { en: 'Corsair of Kijimi' },
+      caption: 'Corsair of Kijimi',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 20,
       extended: true,
     },
     {
-      name: { en: 'Teza Nasz' },
+      name: 'Teza Nasz',
       xws: 'tezanasz',
       initiative: 4,
       limited: 1,
@@ -93,21 +87,17 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      ability: {
-        en:
-          'While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ([Left Arc] and [Right Arc]), the attacker may reroll 1 attack die.',
-      },
+      ability:
+        'While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ([Left Arc] and [Right Arc]), the attacker may reroll 1 attack die.',
       ffg: 904,
-      artwork: '???',
-      caption: { en: 'Old Soldier' },
+      caption: 'Old Soldier',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 11,
       extended: true,
     },
     {
-      name: { en: 'Wilsa Teshlo' },
+      name: 'Wilsa Teshlo',
       xws: 'wilsateshlo',
       initiative: 4,
       limited: 1,
@@ -124,22 +114,18 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      text: { en: '???' },
+      text: '???',
       ffg: 905,
-      artwork: '???',
       epic: true,
-      image: { en: '???' },
-      caption: { en: 'Veiled Sorority Privateer' },
-      ability: {
-        en:
-          'After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].',
-      },
+      caption: 'Veiled Sorority Privateer',
+      ability:
+        'After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].',
       keywords: ['Y-wing'],
       loadout: 8,
       extended: true,
     },
     {
-      name: { en: 'Shasa Zaro' },
+      name: 'Shasa Zaro',
       xws: 'shasazaro',
       initiative: 3,
       limited: 1,
@@ -156,21 +142,17 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      ability: {
-        en:
-          'After you defend, you may choose a friendly ship in your [Full Rear Arc] at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.',
-      },
+      ability:
+        'After you defend, you may choose a friendly ship in your [Full Rear Arc] at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.',
       ffg: 906,
-      artwork: '???',
-      caption: { en: 'Artistic Ace' },
+      caption: 'Artistic Ace',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
     },
     {
-      name: { en: 'Lega Fossang' },
+      name: 'Lega Fossang',
       xws: 'legafossang',
       initiative: 3,
       limited: 1,
@@ -186,21 +168,17 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      ability: {
-        en:
-          'While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.',
-      },
+      ability:
+        'While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.',
       ffg: 907,
-      artwork: '???',
-      caption: { en: 'Hero of Humbarine' },
+      caption: 'Hero of Humbarine',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 13,
       extended: true,
     },
     {
-      name: { en: 'Aftab Ackbar' },
+      name: 'Aftab Ackbar',
       xws: 'aftabackbar',
       initiative: 2,
       limited: 1,
@@ -217,22 +195,18 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      text: { en: '???' },
+      text: '???',
       ffg: 908,
-      artwork: '???',
       epic: true,
-      image: { en: '???' },
-      caption: { en: 'Junior' },
-      ability: {
-        en:
-          'After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.',
-      },
+      caption: '“Junior”',
+      ability:
+        'After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.',
       keywords: ['Y-wing'],
       loadout: 12,
       extended: true,
     },
     {
-      name: { en: 'Corus Kapellim' },
+      name: 'Corus Kapellim',
       xws: 'coruskapellim',
       initiative: 1,
       limited: 1,
@@ -248,22 +222,18 @@ const t: ShipType = {
         'Illicit',
         'Configuration',
       ],
-      text: { en: '???' },
+      text: '???',
       ffg: 909,
-      artwork: '???',
       epic: true,
-      image: { en: '???' },
-      caption: { en: 'Gentleman Flyer' },
-      ability: {
-        en:
-          'Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.',
-      },
+      caption: '“Gentleman Flyer”',
+      ability:
+        'Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.',
       keywords: ['Y-wing'],
       loadout: 14,
       extended: true,
     },
     {
-      name: { en: "C'ai Threnalli" },
+      name: 'C’ai Threnalli',
       xws: 'caithrenalli-btanr2ywing',
       initiative: 2,
       limited: 1,
@@ -280,21 +250,17 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      ability: {
-        en:
-          'After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.',
-      },
+      ability:
+        'After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.',
       ffg: 910,
-      artwork: '???',
-      image: { en: '???' },
-      caption: { en: 'Tenacious Survivor' },
+      caption: 'Tenacious Survivor',
       keywords: ['Y-wing'],
       epic: true,
       loadout: 9,
       extended: true,
     },
     {
-      name: { en: 'New Republic Patrol' },
+      name: 'New Republic Patrol',
       xws: 'newrepublicpatrol',
       initiative: 3,
       limited: 0,
@@ -310,20 +276,17 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      text: {
-        en:
-          'Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.',
-      },
+      text:
+        'Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.',
       ffg: 911,
-      artwork: '???',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Kijimi Spice Runner' },
+      name: 'Kijimi Spice Runner',
       xws: 'kijimispicerunner',
       initiative: 2,
       limited: 0,
@@ -339,17 +302,14 @@ const t: ShipType = {
         'Illicit',
         'Configuration',
       ],
-      text: {
-        en:
-          'Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final Order at the Battle of Exegol.',
-      },
+      text:
+        'Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final Order at the Battle of Exegol.',
       ffg: 912,
-      artwork: '???',
       epic: true,
-      image: { en: '???' },
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
+      caption: '',
     },
   ],
 };

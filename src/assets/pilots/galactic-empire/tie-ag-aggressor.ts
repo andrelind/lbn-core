@@ -1,11 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'TIE/ag Aggressor',
-    de: 'TIE/ag-Aggressor',
-    es: 'TIE/ag Agresor',
-  },
+  name: 'TIE/ag Aggressor',
   xws: 'tieagaggressor',
   ffg: 29,
   size: 'Small',
@@ -46,26 +42,14 @@ const t: ShipType = {
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png',
   pilots: [
     {
-      name: { en: '"Double Edge"', de: '„Doppelklinge"', es: '"Doble Filo"' },
-      caption: {
-        en: 'Contingency Planner',
-        de: 'Notfallplaner',
-        es: 'Planificador de contingencias',
-      },
+      name: '“Double Edge”',
+      caption: 'Contingency Planner',
       initiative: 2,
       limited: 1,
       cost: 4,
       xws: 'doubleedge',
-      ability: {
-        en:
-          'After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.',
-        de:
-          'Nachdem du einen [Turret]- oder [Missile]-Angriff durchgeführt hast, der verfehlt hat, darfst du unter Verwendung einer anderen Waffe einen Bonusangriff durchführen.',
-        fr:
-          'Après avoir effectué une attaque [Turret] ou [Missile] ratée, vous pouvez effectuer une attaque bonus en utilisant une arme différente.',
-        es:
-          'Después de que efectúes un ataque [Turret] o [Missile] que falle, puedes realizar un ataque adicional utilizando un arma diferente.',
-      },
+      ability:
+        'After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.',
       slots: [
         'Talent',
         'Turret',
@@ -74,41 +58,22 @@ const t: ShipType = {
         'Gunner',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
       ffg: 128,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png',
-      },
       loadout: 13,
       extended: true,
     },
     {
-      name: { en: 'Lieutenant Kestal', es: 'Teniente Kestal' },
-      caption: {
-        en: 'Innate Deadeye',
-        de: 'Geborener Meisterschütze',
-        fr: "Tireur d'Élite Inné",
-        es: 'Artillero nato',
-      },
+      name: 'Lieutenant Kestal',
+      caption: 'Innate Deadeye',
       initiative: 4,
       limited: 1,
       cost: 5,
       xws: 'lieutenantkestal',
-      ability: {
-        en:
-          "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
-        de:
-          'Solange du einen Angriff durchführst, nachdem der Verteidiger Verteidigungswürfel geworfen hat, darfst du 1 Fokusmarker ausgeben, um alle Leerseiten/[Focus]-Ergebnisse des Verteidigers zu negieren.',
-        fr:
-          'Tant que vous effectuez une attaque, après que le défenseur a lancé les dés de défense, vous pouvez dépenser 1 marqueur de concentration pour annuler tous les résultats Vierge/[Focus] du défenseur.',
-        es:
-          'Mientras efectúas un ataque, después de que el defensor tire los dados de defensa, puedes gastar 1 ficha de Concentración para anular todos los resultados de cara vacía/[Focus] del defensor.',
-      },
+      ability:
+        "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
       slots: [
         'Talent',
         'Turret',
@@ -118,88 +83,46 @@ const t: ShipType = {
         'Modification',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
       ffg: 127,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png',
-      },
       loadout: 19,
       extended: true,
     },
     {
-      name: {
-        en: 'Onyx Squadron Scout',
-        de: 'Aufklärer der Onyx-Staffel',
-        fr: "Éclaireur de l'Escadron Onyx",
-        es: 'Explorador del Escuadrón Ónice',
-      },
+      name: 'Onyx Squadron Scout',
       initiative: 3,
       limited: 0,
       cost: 4,
       xws: 'onyxsquadronscout',
-      text: {
-        en:
-          'Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.',
-        de:
-          'Der für den Langzeiteinsatz konzipierte TIE/ag wird in erster Linie von Elitepiloten geflogen, die das Potential des schwer bewaffneten und wendigen Jägers voll ausschöpfen können.',
-        fr:
-          "Conçu pour les engagements de longue haleine, le TIE/ag est habituellement confié aux pilotes d'élite entraînés pour tirer le meilleur parti de son armement et de sa manœuvrabilité.",
-        es:
-          'Diseñado para enfrentamientos prolongados, el TIE/ag se asigna casi siempre a pilotos de élite entrenados para saber aprovechar al máximo tanto su particular complemento de armas como su maniobrabilidad.',
-      },
+      text:
+        'Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.',
       slots: ['Talent', 'Turret', 'Missile', 'Gunner'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
       ffg: 129,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png',
-      },
       loadout: 12,
       extended: true,
+      caption: '',
     },
     {
-      name: {
-        en: 'Sienar Specialist',
-        de: 'Experte von Sienar',
-        fr: 'Spécialiste Sienar',
-        es: 'Especialista de Sienar',
-      },
+      name: 'Sienar Specialist',
       initiative: 2,
       limited: 0,
       cost: 4,
       xws: 'sienarspecialist',
-      text: {
-        en:
-          'During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.',
-        de:
-          'Bei der Entwicklung des TIE-Aggressors setzte Sienar Flottensysteme mehr auf Vielseitigkeit und Leistung als auf reine Kosteneffizienz.',
-        fr:
-          "Lors du développement du TIE Aggressor, Sienar Fleet Systems accorda d'avantage d'importance aux performances et à la polyvalence qu'à la maîtrise des coûts.",
-        es:
-          'Durante el desarrollo del TIE Agresor, Sistemas de Flota Sienar antepuso las prestaciones y la versatilidad a la mera eficiencia en costes.',
-      },
+      text:
+        'During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.',
       slots: ['Turret', 'Missile', 'Gunner', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
       ffg: 130,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png',
-      },
       loadout: 8,
       extended: true,
+      caption: '',
     },
   ],
 };

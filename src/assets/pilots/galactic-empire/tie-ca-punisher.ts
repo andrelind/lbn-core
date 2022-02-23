@@ -1,11 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'TIE/ca Punisher',
-    de: 'TIE/ca-Vergelter',
-    es: 'Castigador TIE/ca',
-  },
+  name: 'TIE/ca Punisher',
   xws: 'tiecapunisher',
   ffg: 20,
   size: 'Medium',
@@ -48,26 +44,13 @@ const t: ShipType = {
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png',
   pilots: [
     {
-      name: { en: '"Deathrain"', de: '„Todesregen"', es: '"Lluvia de Muerte"' },
-      caption: {
-        en: 'Dexterous Bombardier',
-        de: 'Geschickter Bombenschütze',
-        fr: 'Bombardier Adroit',
-        es: 'Bombardero avezado',
-      },
+      name: '“Deathrain”',
+      caption: 'Dexterous Bombardier',
       initiative: 4,
       limited: 1,
       cost: 6,
       xws: 'deathrain',
-      ability: {
-        en: 'After you drop or launch a device, you may perform an action.',
-        de:
-          'Nachdem du ein Gerät abgeworfen oder gestartet hast, darfst du eine Aktion durchführen.',
-        fr:
-          'Après avoir largué ou lancé un engin, vous pouvez effectuer une action.',
-        es:
-          'Después de que sueltes o lances un dispositivo, puedes realizar una acción.',
-      },
+      ability: 'After you drop or launch a device, you may perform an action.',
       slots: [
         'Talent',
         'Sensor',
@@ -78,41 +61,22 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg',
       ffg: 140,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png',
-      },
       loadout: 20,
       extended: true,
     },
     {
-      name: { en: '"Redline"', de: '„Rote Linie"', es: '"Velocidad Terminal"' },
-      caption: {
-        en: 'Adrenaline Junkie',
-        de: 'Adrenalinjunkie',
-        fr: "Drogué à l'Adrénaline",
-        es: 'Adicto a la adrenalina',
-      },
+      name: '“Redline”',
+      caption: 'Adrenaline Junkie',
       initiative: 5,
       limited: 1,
       cost: 7,
       xws: 'redline',
-      ability: {
-        en:
-          'You can maintain up to 2 locks. After you perform an action, you may acquire a lock.',
-        de:
-          'Du kannst bis zu 2 Zielerfassungen aufrechterhalten. Nachdem du eine Aktion durchgeführt hast, darfst du ein Ziel erfassen.',
-        fr:
-          "Vous pouvez maintenir jusqu'à 2 cibles verrouillées. Après avoir effectué une action, vous pouvez verrouiller une cible.",
-        es:
-          'Puedes mantener hasta 2 Blancos fijados. Después de que realices una acción, puedes obtener un Blanco fijado.',
-      },
+      ability:
+        'You can maintain up to 2 locks. After you perform an action, you may acquire a lock.',
       slots: [
         'Sensor',
         'Torpedo',
@@ -123,40 +87,21 @@ const t: ShipType = {
         'Modification',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg',
       ffg: 139,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png',
-      },
       loadout: 25,
       extended: true,
     },
     {
-      name: {
-        en: 'Cutlass Squadron Pilot',
-        de: 'Pilot der Entermesser-Staffel',
-        fr: "Pilote de l'Escadron Cutlass",
-        es: 'Piloto del Escuadrón Alfanje',
-      },
+      name: 'Cutlass Squadron Pilot',
       initiative: 2,
       limited: 0,
       cost: 5,
       xws: 'cutlasssquadronpilot',
-      text: {
-        en:
-          "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
-        de:
-          'Das Konzept des TIE-Vergelters basiert auf dem erfolgreichen TIE-Bomber und ergänzt ihn um Schilde, einen zweiten Bombenabwurfschacht sowie drei weitere Munitionskapseln, die jeweils mit einem Zwillings-Ionenantrieb ausgerüstet sind.',
-        fr:
-          "Le TIE Punisher a été conçu après le bombardier TIE, qui connut un grand succès. Il est pourvu de boucliers, d'une seconde trappe de largage et de trois nacelles d'artillerie supplémentaires, toutes équipées de moteurs ioniques jumelés.",
-        es:
-          'El diseño del Castigador TIE se basa en el éxito del bombardero TIE, incorporando escudos deflectores, un segundo juego de compuertas para lanzar bombas y tres compartimentos de munición adicionales, cada uno de ellos equipado con un motor iónico doble.',
-      },
+      text:
+        "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       slots: [
         'Sensor',
         'Torpedo',
@@ -165,18 +110,13 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg',
       ffg: 141,
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
   ],
 };

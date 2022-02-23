@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Attack Shuttle',
-    de: 'Jagdshuttle',
-    fr: "Navette d'Attaque",
-    es: 'Lanzadera de ataque',
-  },
+  name: 'Attack Shuttle',
   xws: 'attackshuttle',
   ffg: 32,
   size: 'Small',
@@ -46,151 +41,79 @@ const t: ShipType = {
     },
   ],
   ability: {
-    name: {
-      en: 'Locked and Loaded',
-      de: 'Geladen und entsichert',
-      es: 'Armas preparadas',
-      pl: 'Gotowy do akcji',
-      zh: 'Locked and Loaded',
-    },
-    text: {
-      en:
-        'While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.',
-      de:
-        'Solange du angedockt bist, nachdem dein Trägerschiff einen [Front Arc]-Primärangriff oder [Turret]-Angriff durchgeführt hat, darf es einen Bonus-[Rear Arc]-Primärangriff durchführen.',
-      es:
-        'Mientras estás acoplado, después de que tu nave nodriza efectúe un ataque principal [Front Arc] o [Turret], puede efectuar un ataque principal [Rear Arc] adicional.',
-      pl:
-        'Jeżeli statek, do którego jesteś zadokowany, wykona atak podstawowy [Front Arc] albo [Turret], może po nim wykonać dodatkowy atak podstawowy [Rear Arc].',
-      zh:
-        'While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.',
-    },
+    name: 'Locked and Loaded',
+    text:
+      'While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.',
   },
   icon:
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_AttackShuttle.png',
   pilots: [
     {
-      name: { en: '"Zeb" Orrelios', de: '„Zeb" Orrelios' },
-      caption: { en: 'Spectre-4', es: 'Espectro-4' },
+      name: '“Zeb” Orrelios',
+      caption: 'Spectre-4',
       initiative: 2,
       limited: 1,
       cost: 3,
       xws: 'zeborrelios',
-      ability: {
-        en:
-          'While you defend, [Critical Hit] results are neutralized before [Hit] results.',
-        de:
-          'Solange du verteidigst, werden [Critical Hit]-Ergebnisse neutralisiert, bevor [Hit]-Ergebnisse neutralisiert werden.',
-        fr:
-          'Tant que vous défendez, les résultats [Critical Hit] sont neutralisés avant les résultats [Hit]. Chargé et Prêt à Tirer : tant que vous êtes arrimé, après que votre vaisseau porteur a effectué une attaque principale [Front Arc] ou [Turret], il peut effectuer une attaque principale [Rear Arc] bonus.',
-        es:
-          'Mientras te defiendes, los resultados [Critical Hit] se neutralizan antes que los resultados [Hit].',
-      },
+      ability:
+        'While you defend, [Critical Hit] results are neutralized before [Hit] results.',
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
       ffg: 37,
       standard: false,
       epic: true,
       keywords: ['Spectre'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png',
-      },
       loadout: 10,
       extended: true,
     },
     {
-      name: { en: 'Ezra Bridger' },
-      caption: { en: 'Spectre-6', es: 'Espectro-6' },
+      name: 'Ezra Bridger',
+      caption: 'Spectre-6',
       initiative: 3,
       limited: 1,
       cost: 4,
       xws: 'ezrabridger',
-      ability: {
-        en:
-          'While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.',
-        de:
-          'Solange du verteidigst oder einen Angriff durchführst, falls du gestresst bist, darfst du 1 [Force] ausgeben, um bis zu 2 deiner [Focus]-Ergebnisse in [Evade]- oder [Hit]-Ergebnisse zu ändern.',
-        fr:
-          "Tant que vous défendez ou effectuez une attaque, si vous êtes stressé, vous pouvez dépenser 1 [Force] pour changer jusqu'à 2 de vos résultats [Focus] en résultats [Evade] ou [Hit]. Chargé et Prêt à Tirer : tant que vous êtes arrimé, après que votre vaisseau porteur a effectué une attaque principale [Front Arc] ou [Turret], il peut effectuer une attaque principale [Rear Arc] bonus.",
-        es:
-          'Mientras te defiendes o efectúas un ataque, si estás bajo tensión, puedes gastar 1 [Force] para cambiar hasta 2 de tus resultados [Focus] por resultados [Evade] o [Hit].',
-      },
+      ability:
+        'While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.',
       force: { value: 1, recovers: 1, side: ['light'] },
       slots: ['Turret', 'Crew', 'Modification', 'Title', 'Force Power'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
       ffg: 36,
       standard: false,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png',
-      },
       loadout: 7,
       extended: true,
     },
     {
-      name: { en: 'Hera Syndulla' },
-      caption: { en: 'Spectre-2', es: 'Espectro-2' },
+      name: 'Hera Syndulla',
+      caption: 'Spectre-2',
       initiative: 5,
       limited: 1,
       cost: 4,
       xws: 'herasyndulla',
-      ability: {
-        en:
-          'After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.',
-        de:
-          'Nachdem du ein rotes oder blaues Manöver aufgedeckt hast, darfst du dein Rad auf ein anderes Manöver derselben Schwierigkeit einstellen.',
-        fr:
-          'Après avoir révélé une manœuvre bleue ou rouge, vous pouvez régler votre cadran sur une autre manœuvre de même difficulté. Chargé et Prêt à Tirer : tant que vous êtes arrimé, après que votre vaisseau porteur a effectué une attaque principale [Front Arc] ou [Turret], il peut effectuer une attaque principale [Rear Arc] bonus.',
-        es:
-          'Después de que reveles una maniobra de color rojo o azul, puedes establecer en tu selector otra maniobra con esa misma dificultad.',
-      },
+      ability:
+        'After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.',
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
       ffg: 34,
       standard: false,
       epic: true,
       keywords: ['Spectre'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_34.png',
-      },
       loadout: 9,
       extended: true,
     },
     {
-      name: { en: 'Sabine Wren' },
-      caption: { en: 'Spectre-5', es: 'Espectro-5' },
+      name: 'Sabine Wren',
+      caption: 'Spectre-5',
       initiative: 3,
       limited: 1,
       cost: 4,
       xws: 'sabinewren',
-      ability: {
-        en:
-          'Before you activate, you may perform a [Barrel Roll] or [Boost] action.',
-        de:
-          'Bevor du aktiviert wirst, darfst du eine [Barrel Roll]- oder [Boost]-Aktion durchführen.',
-        fr:
-          'Avant votre activation, vous pouvez effectuer une action [Barrel Roll] ou [Boost]. Chargé et Prêt à Tirer : tant que vous êtes arrimé, après que votre vaisseau porteur a effectué une attaque principale [Front Arc] ou [Turret], il peut effectuer une attaque principale [Rear Arc] bonus.',
-        es:
-          'Antes de que te actives, puedes realizar una maniobra [Barrel Roll] o [Boost].',
-      },
+      ability:
+        'Before you activate, you may perform a [Barrel Roll] or [Boost] action.',
       slots: ['Talent', 'Turret', 'Crew', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
       ffg: 35,
       standard: false,
       epic: true,
       keywords: ['Mandalorian', 'Spectre'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png',
-      },
       loadout: 6,
       extended: true,
     },

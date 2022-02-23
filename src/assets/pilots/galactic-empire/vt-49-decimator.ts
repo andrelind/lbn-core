@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'VT-49 Decimator',
-    de: 'VT-49-Decimator',
-    fr: 'Décimateur VT-49',
-    es: 'VT-49 Diezmador',
-  },
+  name: 'VT-49 Decimator',
   xws: 'vt49decimator',
   ffg: 28,
   size: 'Large',
@@ -46,27 +41,13 @@ const t: ShipType = {
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png',
   pilots: [
     {
-      name: {
-        en: 'Captain Oicunn',
-        fr: 'Capitaine Oicunn',
-        es: 'Capitán Oicunn',
-      },
-      caption: {
-        en: 'Inspired Tactician',
-        de: 'Genialer Taktiker',
-        fr: 'Tacticien Inspiré',
-        es: 'Estratega inspirado',
-      },
+      name: 'Captain Oicunn',
+      caption: 'Inspired Tactician',
       initiative: 3,
       limited: 1,
       cost: 8,
       xws: 'captainoicunn',
-      ability: {
-        en: 'You can perform primary attacks at range 0.',
-        de: 'Du kannst Primärangriffe in Reichweite 0 durchführen.',
-        fr: 'Vous pouvez effectuer vos attaques principales à portée 0.',
-        es: 'Eres capaz de efectuar ataques principales a alcance 0.',
-      },
+      ability: 'You can perform primary attacks at range 0.',
       slots: [
         'Talent',
         'Talent',
@@ -78,79 +59,37 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg',
       ffg: 146,
       standard: true,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_146.png',
-      },
       loadout: 25,
       extended: true,
     },
     {
-      name: {
-        en: 'Patrol Leader',
-        de: 'Patrouillenführer',
-        fr: 'Chef de Patrouille',
-        es: 'Jefe de Patrulla',
-      },
+      name: 'Patrol Leader',
       initiative: 2,
       limited: 0,
       cost: 8,
       xws: 'patrolleader',
-      text: {
-        en:
-          'To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.',
-        de:
-          'Das Kommando über einen VT-49-Decimator zu erhalten, gilt unter imperialen Flottenoffizieren der mittleren Rangebenen als äußerst erstrebenswertes Ziel.',
-        fr:
-          "Recevoir le commandement d'un Décimateur VT-49 est une promotion de taille pour un officier moyen de la Marine Impériale.",
-        es:
-          'Recibir el mando de un VT-49 Diezmador se considera un importante ascenso para los oficiales regulares de la Armada Imperial.',
-      },
+      text:
+        'To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.',
       slots: ['Torpedo', 'Crew', 'Gunner', 'Device', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg',
       ffg: 148,
       standard: true,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_148.png',
-      },
       loadout: 22,
       extended: true,
+      caption: '',
     },
     {
-      name: {
-        en: 'Rear Admiral Chiraneau',
-        de: 'Konteradmiral Chiraneau',
-        fr: 'Vice-Amiral Chiraneau',
-        es: 'Contralmirante Chiraneau',
-      },
-      caption: {
-        en: 'Advisor to Admiral Piett',
-        de: 'Berater von Admiral Piett',
-        fr: "Conseiller de l'Amiral Piett",
-        es: 'Asesor del almirante Piett',
-      },
+      name: 'Rear Admiral Chiraneau',
+      caption: 'Advisor to Admiral Piett',
       initiative: 5,
       limited: 1,
       cost: 9,
       xws: 'rearadmiralchiraneau',
-      ability: {
-        en:
-          'While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.',
-        de:
-          'Solange du einen Angriff durchführst, falls du verstärkt bist und der Verteidiger in dem [Full Front Arc] oder [Full Rear Arc] ist, der zu deinem Verstärkungsmarker passt, darfst du 1 deiner [Focus]-Ergebnisse in ein [Critical Hit]-Ergebnis ändern.',
-        fr:
-          "Tant que vous effectuez une attaque, si vous êtes renforcé et si le défenseur est dans l'arc [Full Front Arc] ou [Full Rear Arc] correspondant à votre marqueur de renforcement, vous pouvez changer 1 de vos résultats [Focus] en un résultat [Critical Hit].",
-        es:
-          'Mientras efectúas un ataque, si estás reforzado y el defensor está en el [Full Front Arc] o [Full Rear Arc] que coincide con el de tu ficha de Refuerzo, puedes cambiar 1 de tus resultados [Focus] por un resultado [Critical Hit].',
-      },
+      ability:
+        'While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.',
       slots: [
         'Talent',
         'Torpedo',
@@ -162,40 +101,21 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg',
       ffg: 147,
       standard: true,
       epic: true,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_147.png',
-      },
       loadout: 35,
       extended: true,
     },
     {
-      name: { en: 'Morna Kee' },
-      caption: {
-        en: 'Determined Attaché',
-        de: 'Willensstarke Attachée',
-        fr: 'Attachée Déterminée',
-        es: 'Agregada militar pertinaz',
-      },
+      name: 'Morna Kee',
+      caption: 'Determined Attaché',
       initiative: 4,
       limited: 1,
       cost: 8,
       xws: 'mornakee',
-      ability: {
-        en:
-          'During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.',
-        de:
-          'Während der Endphase darfst du 1 [Charge] ausgeben, um 1 deiner Verstärkungsmarker auf deinen anderen vollen Winkel umzudre-hen, anstatt ihn zu entfernen.',
-        fr:
-          'Pendant la phase de dénouement, vous pouvez dépenser 1 [Charge] pour retourner 1 de vos marqueurs de renforcement vers votre autre arc entier au lieu de le retirer.',
-        es:
-          'Durante la fase Final, pueds gastar 1 [Charge] para trasladar 1 de tus fichas de Refuerzo a tu otro arco completo en vez de retirarla.',
-      },
+      ability:
+        'During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.',
       charges: { value: 3, recovers: 0 },
       slots: [
         'Talent',
@@ -211,12 +131,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 634,
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/5a913f54447ec375ccc1403769438f81.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg',
       loadout: 20,
       extended: true,
     },

@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Sith Infiltrator',
-    de: 'Sith-Infiltrator',
-    fr: 'Infiltrateur Sith',
-    es: 'Infiltrador Sith',
-  },
+  name: 'Sith Infiltrator',
   xws: 'sithinfiltrator',
   size: 'Large',
   dial: [
@@ -44,27 +39,14 @@ const t: ShipType = {
   ],
   pilots: [
     {
-      name: { en: 'Darth Maul', fr: 'Dark Maul' },
-      caption: {
-        en: 'Sith Assassin',
-        de: "Sidious' Schüler",
-        fr: 'Assassin Sith',
-        es: 'Asesino sith',
-      },
+      name: 'Darth Maul',
+      caption: 'Sith Assassin',
       initiative: 5,
       limited: 1,
       xws: 'darthmaul',
       force: { value: 3, recovers: 1, side: ['dark'] },
-      ability: {
-        en:
-          'After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.',
-        de:
-          'Nachdem du einen Angriff durchgeführt hast, darfst du 2 [Force] ausgeben, um einen Bonus-Primärangriff gegen ein anderes Ziel durchzuführen. Falls dein Angriff verfehlt hat, darfst du jenen Bonus- Primärangriff stattdessen gegen dasselbe Ziel durchführen.',
-        fr:
-          'Après avoir effectué une attaque, vous pouvez dépenser 2 [Force] pour effectuer une attaque principale bonus contre une cible différente. Si votre attaque était ratée, vous pouvez effectuer cette attaque principale bonus contre la même cible à la place.',
-        es:
-          'Después de que efectúes un ataque, puedes gastar 2 [Force] para efectuar un ataque principal adicional contra un objetivo diferente. Si tu primer ataque falló, puedes optar por efectuar este ataque principal adicional contra ese mismo objetivo.',
-      },
+      ability:
+        'After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.',
       standard: true,
       epic: true,
       cost: 8,
@@ -81,33 +63,19 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 503,
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
       keywords: ['Dark Side', 'Sith'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png',
-      },
       loadout: 20,
       extended: true,
     },
     {
-      name: { en: 'Count Dooku', fr: 'Comte Dooku' },
-      caption: { en: 'Darth Tyranus', fr: 'Dark Tyranus' },
+      name: 'Count Dooku',
+      caption: 'Darth Tyranus',
       initiative: 3,
       limited: 1,
       xws: 'countdooku',
       force: { value: 3, recovers: 1, side: ['dark'] },
-      ability: {
-        en:
-          'After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.',
-        de:
-          'Nachdem du verteidigt hast, falls der Angreifer in deinem Feuerwinkel ist, darfst du 1 [Force] ausgeben, um 1 deiner blauen oder roten Marker zu entfernen. Nachdem du einen Angriff durchgeführt hast, der getroffen hat, darfst du 1 [Force] ausgeben, um eine Aktion durchzuführen.',
-        fr:
-          "Après avoir défendu, si l'attaquant est dans votre arc de tir, vous pouvez dépenser 1 [Force] pour retirer 1 de vos marqueurs bleus ou rouges. Après avoir effectué une attaque qui touche, vous pouvez dépenser 1 [Force] pour effectuer une action.",
-        es:
-          'Después de que te defiendas, si el atacante está situado en tu arco de fuego, puedes gastar 1 [Force] para retirar 1 de tus fichas azules o rojas. Después de que efectúes un ataque que impacte, puedes gastar 1 [Force] para realizar una acción.',
-      },
+      ability:
+        'After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.',
       standard: true,
       epic: true,
       cost: 8,
@@ -123,62 +91,33 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 504,
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
       keywords: ['Dark Side', 'Sith'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png',
-      },
       loadout: 24,
       extended: true,
     },
     {
-      name: {
-        en: 'Dark Courier',
-        de: 'Dunkler Bote',
-        fr: 'Messager Noir',
-        es: 'Mensajero oscuro',
-      },
+      name: 'Dark Courier',
       initiative: 2,
       limited: 0,
       xws: 'darkcourier',
-      text: {
-        en:
-          'The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.',
-        de:
-          'Die Scimitar war ein stark modifiziertes Raumschiff, ausgestattet mit Tarntechnologie und modernen Überwachungsgeräten für Infiltrations und Personenbeseitigungseinsätze.',
-        fr:
-          "Le Scimitar est un appareil lourdement modifié, équipé de technologies furtives et de dispositifs de surveillance avancés, afin de mener des missions d'infiltration et d'assassinat.",
-        es:
-          'La nave que recibía el nombre de Cimitarra contaba con todo tipo de modificaciones y había sido equipada con tecnologías de sigilo y avanzados dispositivos de vigilancia para misiones de infiltración y asesinato.',
-      },
+      text:
+        'The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.',
       standard: true,
       epic: true,
       cost: 6,
       slots: ['Torpedo', 'Cannon', 'Device', 'Modification'],
       ffg: 506,
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg',
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: '0-66' },
+      name: '0-66',
       xws: '066',
       cost: 6,
       slots: ['Talent', 'Torpedo', 'Cannon', 'Crew', 'Device', 'Modification'],
       ffg: 505,
-      caption: {
-        en: 'Sinister Automaton',
-        de: 'Niederträchtiger Roboter',
-        fr: 'Automate Sinistre',
-        es: 'Autómata siniestro',
-      },
+      caption: 'Sinister Automaton',
       initiative: 3,
       limited: 1,
       shipActions: [
@@ -186,25 +125,11 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Lock' },
         { difficulty: 'Red', type: 'Barrel Roll' },
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
-      ability: {
-        en:
-          'After you defend, you may spend 1 calculate token to perform an action.',
-        de:
-          'Nachdem du verteidigt hast, darfst du 1 Berechnungsmarker ausgeben, um eine Aktion durchzuführen.',
-        fr:
-          'Après avoir défendu, vous pouvez dépenser 1 marqueur de calcul pour effectuer une action.',
-        es:
-          'Después de que te defiendas, puedes gastar 1 ficha de Cálculos para realizar una acción.',
-      },
+      ability:
+        'After you defend, you may spend 1 calculate token to perform an action.',
       standard: true,
       epic: true,
       keywords: ['Droid'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',
-      },
       loadout: 11,
       extended: true,
     },

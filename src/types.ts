@@ -86,22 +86,20 @@ export type FactionKey =
 export type Format = 'Extended' | 'Standard' | 'Epic';
 
 export type Pilot = {
-  name: Translation;
-  caption?: Translation;
+  name: string;
+  caption?: string;
   xws: string;
   cost: number;
   loadout?: number;
   initiative: number;
   limited: number;
-  ability?: Translation;
+  ability?: string;
   shipAbility?: {
-    name: Translation;
-    text: Translation;
+    name: string;
+    text: string;
     slotOptions?: Slot[];
   };
-  text?: Translation;
-  image?: Translation;
-  artwork?: string;
+  text?: string;
   slots: Slot[];
   conditions?: string[];
   shipActions?: Action[];
@@ -114,7 +112,6 @@ export type Pilot = {
   epic: boolean;
   limitWarning?: boolean;
   ffg?: number;
-  alt?: { image: string; source: string }[];
   engagement?: number;
   keywords?: string[];
 };
@@ -155,7 +152,7 @@ export type ShipType = ShipBase & {
 };
 
 export type ShipBase = {
-  name: Translation;
+  name: string;
   xws: string;
   size: Size;
   dial: string[];
@@ -163,8 +160,8 @@ export type ShipBase = {
   stats: Stat[];
   actions: Action[];
   ability?: {
-    name: Translation;
-    text: Translation;
+    name: string;
+    text: string;
     slotOptions?: Slot[];
   };
   available?: number;

@@ -1,9 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Gauntlet Fighter',
-  },
+  name: 'Gauntlet Fighter',
   xws: 'gauntletfighter',
   size: 'Large',
   dial: [
@@ -39,11 +37,9 @@ const t: ShipType = {
   pilots: [
     {
       xws: 'captainhark',
-      name: { en: 'Captain Hark' },
-      ability: {
-        en:
-          'After you reveal a (0 [Stop]) maneuver, if you are equipped with Swivel Wings (Down), you must execute a (1 [Left Bank]) or (1 [Right Bank]) sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).',
-      },
+      name: 'Captain Hark',
+      ability:
+        'After you reveal a (0 [Stop]) maneuver, if you are equipped with Swivel Wings (Down), you must execute a (1 [Left Bank]) or (1 [Right Bank]) sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).',
       cost: 7,
       loadout: 15,
       initiative: 2,
@@ -60,10 +56,11 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Obedient Underling',
     },
     {
       xws: 'garsaxon',
-      name: { en: 'Gar Saxon' },
+      name: 'Gar Saxon',
       cost: 8,
       loadout: 20,
       initiative: 3,
@@ -81,10 +78,11 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Treacherous Viceroy',
     },
     {
       xws: 'imperialsupercommando',
-      name: { en: 'Imperial Super Commando' },
+      name: 'Imperial Super Commando',
       cost: 7,
       loadout: 10,
       initiative: 2,
@@ -102,6 +100,7 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: '',
     },
   ],
 };

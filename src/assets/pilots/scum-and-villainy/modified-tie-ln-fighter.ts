@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Modified TIE/ln Fighter',
-    de: 'Modifizierter TIE/ln-Jäger',
-    fr: 'Chasseur TIE/ln modifié',
-    es: 'Caza TIE/ln modificado',
-  },
+  name: 'Modified TIE/ln Fighter',
   xws: 'modifiedtielnfighter',
   ffg: 56,
   size: 'Small',
@@ -39,258 +34,115 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
   ability: {
-    name: {
-      en: 'Notched Stabilizers',
-      de: 'Stabilisatorkerbe',
-      fr: 'Stabilisateurs Crantés',
-      es: 'Estabilizadores recortados',
-      it: 'Stabilizzatori Ridotti',
-      pl: 'Profilowane stabilizatory',
-      pt: 'Notched Stabilizers',
-      zh: 'Notched Stabilizers',
-    },
-    text: {
-      en: 'While you move, you ignore asteroids.',
-      de: 'Solange du dich bewegst, ignorierst du Asteroiden.',
-      fr: 'tant que vous vous déplacez, ignorez les astéroïdes..',
-      es: 'Mientras te mueves, ignoras los asteroides.',
-      it: 'Mentre ti muovi, ignori gli asteroid',
-      pl: 'Gdy wykonujesz ruch, ignorujesz asteroidy.',
-      pt: 'While you move, you ignore asteroids.',
-      zh: 'While you move, you ignore asteroids.',
-    },
+    name: 'Notched Stabilizers',
+    text: 'While you move, you ignore asteroids.',
   },
   icon:
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png',
   pilots: [
     {
-      name: { en: 'Ahhav' },
-      caption: {
-        en: 'Vengeful Survivor',
-        de: 'Rachsüchtiger Überlebender',
-        fr: 'Survivant Revanchard',
-        es: 'Superviviente vengativo',
-      },
+      name: 'Ahhav',
+      caption: 'Vengeful Survivor',
       initiative: 3,
       limited: 1,
       cost: 2,
       xws: 'ahhav',
-      ability: {
-        en:
-          'While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.',
-        de:
-          'Solange du verteidigst oder einen Angriff durchführst, falls das feindliche Schiff eine größere Größenkategorie hat als du, wirf 1 zusätzlichen Würfel.',
-        fr:
-          'Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi a une taille supérieure à la vôtre, lancez 1 dé supplémentaire.',
-        es:
-          'Mientras te defiendes o efectúas un ataque, tira 1 dado adicional si la nave enemiga es de un tamaño más grande que el tuyo.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
+      ability:
+        'While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.',
       slots: [],
       ffg: 442,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png',
-      },
       loadout: 0,
       extended: true,
     },
     {
-      name: {
-        en: 'Captain Seevor',
-        fr: 'Capitaine Seevor',
-        es: 'Capitán Seevor',
-      },
-      caption: {
-        en: 'Noisy Nuisance',
-        de: 'Wandelnde Lärmbelästigung',
-        fr: 'Patron Autoritaire',
-        es: 'Molestia ruidosa',
-      },
+      name: 'Captain Seevor',
+      caption: 'Noisy Nuisance',
       initiative: 3,
       limited: 1,
       cost: 4,
       xws: 'captainseevor',
-      ability: {
-        en:
-          "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
-        de:
-          'Solange du verteidigst oder einen Angriff durchführst, bevor die Angriffswürfel geworfen werden, falls du nicht im [Bullseye Arc] des feindlichen Schiffes bist, darfst du 1 [Charge] ausgeben. Falls du das tust, erhält das feindliche Schiff 1 Störsignalmarker.',
-        fr:
-          "Tant que vous défendez ou effectuez une attaque, avant de lancer les dés d'attaque, si vous n'êtes pas dans le [Bullseye Arc] du vaisseau ennemi, vous pouvez dépenser 1 [Charge]. Dans ce cas, le vaisseau ennemi gagne 1 marqueur de brouillage.",
-        es:
-          'Mientras te defiendes o efectúas un ataque, antes de que se tiren los dados de ataque, si no estás situado en el [Bullseye Arc] de la nave enemiga, puedes gastar 1 [Charge]. Si lo haces, la nave enemiga recibe 1 ficha de Interferencia.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg',
+      ability:
+        "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 443,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png',
-      },
       loadout: 10,
       extended: true,
     },
     {
-      name: {
-        en: 'Foreman Proach',
-        de: 'Vorarbeiter Proach',
-        fr: 'Contremaître Proach',
-        es: 'Capataz Proach',
-      },
-      caption: {
-        en: 'Slave Driver',
-        de: 'Sklaventreiber',
-        fr: 'Esclavagiste',
-        es: 'Supervisor de esclavos',
-      },
+      name: 'Foreman Proach',
+      caption: 'Slave Driver',
       initiative: 4,
       limited: 1,
       cost: 3,
       xws: 'foremanproach',
-      ability: {
-        en:
-          'Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.',
-        de:
-          'Bevor du kämpfst, darfst du 1 feindliches Schiff in deinem [Bullseye Arc] in Reichweite 1-2 wählen und 1 Entwaffnet-Marker erhalten. Falls du das tust, erhält jenes Schiff 1 Fangstrahlmarker.',
-        fr:
-          'Avant de vous engager, vous pouvez choisir 1 vaisseau ennemi dans votre [Bullseye Arc] à portée 1-2 et gagner 1 marqueur de désarmement. Dans ce cas, ce vaisseau ennemi gagne 1 marqueur de rayon tracteur.',
-        es:
-          'Antes de que intervengas, puedes elegir 1 nave enemiga que tengas a alcance 1-2 y esté situada en tu [Bullseye Arc] y recibir 1 ficha de Desarme. Si lo haces, esa nave recibe 1 ficha de Campo de tracción.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
+      ability:
+        'Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.',
       slots: ['Talent', 'Talent', 'Modification'],
       ffg: 441,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png',
-      },
       loadout: 9,
       extended: true,
     },
     {
-      name: {
-        en: 'Mining Guild Surveyor',
-        de: 'Rohstoffsucher \nder Minengilde',
-        fr: 'Prospecteur de la Guilde Minière',
-        es: 'Inspector del Gremio Minero',
-      },
+      name: 'Mining Guild Surveyor',
       initiative: 2,
       limited: 0,
       cost: 3,
       xws: 'miningguildsurveyor',
-      text: {
-        en:
-          'With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.',
-        de:
-          'Da die Bauprojekte des Imperiums unglaubliche Mengen an Rohmaterial verschlingen, sucht die Minengilde aggressiv nach Vorkommen von Doonium-Erz und beutet neu entdeckte Adern auf Batonn, Lothal und Umbara gnadenlos aus.',
-        fr:
-          'Les projets impériaux consommant de plus en plus de matières premières, la Guilde Minière exploite avidement les gisements de minerai de doonium récemment mis au jour sur des planètes telles que Batonn, Lothal ou Umbara.',
-        es:
-          'Con los proyectos de construcción imperiales consumiendo materias primas a un ritmo sin precedentes, el Gremio Minero explota implacablemente los yacimientos de doonio recién descubiertos en mundos como Batonn, Lothal y Umbara.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
+      text:
+        'With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.',
       slots: [],
       ffg: 445,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png',
-      },
       loadout: 0,
       extended: true,
+      caption: '',
     },
     {
-      name: {
-        en: 'Overseer Yushyn',
-        de: 'Raffineriebetreiber Yushyn',
-        fr: 'Superviseur Yushyn',
-        es: 'Supervisor Yushyn',
-      },
-      caption: {
-        en: 'Overbearing Boss',
-        de: 'Autoritärer Vorgesetzter',
-        es: 'Jefe despótico',
-      },
+      name: 'Overseer Yushyn',
+      caption: 'Overbearing Boss',
       initiative: 2,
       limited: 1,
       cost: 3,
       xws: 'overseeryushyn',
-      ability: {
-        en:
-          'Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.',
-        de:
-          'Bevor ein befreundetes Schiff in Reichweite 1 einen Entwaffnet-Marker erhalten würde, falls jenes Schiff nicht gestresst ist, darfst du 1 [Charge] ausgeben. Falls du das tust, erhält jenes Schiff stattdessen 1 Stressmarker.',
-        fr:
-          "Avant qu'un vaisseau allié à portée 1 ne gagne un marqueur de désarmement, si ce vaisseau allié n'est pas stressé, vous pouvez dépenser 1 [Charge]. Dans ce cas, le vaisseau allié gagne 1 marqueur de stress à la place.",
-        es:
-          'Antes de que una nave aliada que tengas a alcance 1 vaya a recibir una ficha de Desarme, si esa nave no está bajo tensión, puedes gastar 1 [Charge]. Si lo haces, esa nave recibe 1 ficha de Tensión en vez de la ficha de Desarme.',
-      },
+      ability:
+        'Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.',
       charges: { value: 1, recovers: 1 },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
       slots: ['Missile', 'Modification'],
       ffg: 444,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png',
-      },
       loadout: 6,
       extended: true,
     },
     {
-      name: {
-        en: 'Mining Guild Sentry',
-        de: 'Wachposten \nder Minengilde',
-        fr: 'Guetteur de la Guilde Minière',
-        es: 'Centinela del Gremio Minero',
-      },
+      name: 'Mining Guild Sentry',
       initiative: 1,
       limited: 0,
       cost: 3,
       xws: 'miningguildsentry',
-      text: {
-        en:
-          'As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.',
-        de:
-          'Im Rahmen ihrer Kooperation mit dem Imperium erhält die Minengilde modifizierte TIE/ln-Jäger zum Schutz ihrer Anlagen. Aus den Stabilisatoren dieser Schiffe wurden Solarzellen entfernt, um das Sichtfeld des Piloten zu vergrößern. Darüber hinaus profitieren die Firmenpiloten von einem deutlich umfangreicheren Lebenserhaltungssystem.',
-        fr:
-          "Dans le cadre de ses accords avec l'Empire, la Guilde Minière a obtenu des chasseurs TIE/ln modifiés pour protéger ses installations. Le retrait de deux panneaux solaires améliore la vision périphérique de l'appareil et l'ajout d'un équipement de survie perfectionné est très prisé des pilotes de la corporation.",
-        es:
-          'Como parte de su acuerdo con el Imperio, el Gremio Minero recibe cazas TIE/ln modificados para la protección de sus operaciones. A estos cazas se les han retirado varios paneles solares de sus estabilizadores para mejorar la visibilidad, y poseen sistemas de soporte vital más completos para mayor confort de sus pilotos corporativos.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
+      text:
+        'As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.',
       slots: [],
       ffg: 446,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png',
-      },
       loadout: 0,
       extended: true,
+      caption: '',
     },
   ],
 };

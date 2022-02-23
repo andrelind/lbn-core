@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Lancer-class Pursuit Craft',
-    de: 'Jagdschiff der Lanzen-Klasse',
-    fr: 'Appareil de Poursuite de Classe Lancer',
-    es: 'Nave de persecución clase Lancero',
-  },
+  name: 'Lancer-class Pursuit Craft',
   xws: 'lancerclasspursuitcraft',
   ffg: 42,
   size: 'Large',
@@ -46,27 +41,14 @@ const t: ShipType = {
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_ShadowCaster.png',
   pilots: [
     {
-      name: { en: 'Asajj Ventress' },
-      caption: {
-        en: 'Force of Her Own',
-        de: 'Eine Macht für sich',
-        fr: 'Sa Force à Elle',
-        es: 'Ejército de un solo individuo',
-      },
+      name: 'Asajj Ventress',
+      caption: 'Force of Her Own',
       initiative: 4,
       limited: 1,
       cost: 8,
       xws: 'asajjventress',
-      ability: {
-        en:
-          'At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force]. If you do, that ship gains 1 stress token unless it removes 1 green token.',
-        de:
-          'Zu Beginn der Kampfphase darfst du 1 feindliches Schiff in deinem [Single Turret Arc] in Reichweite 0-2 wählen und 1 [Force] ausgeben. Falls du das tust, erhält jenes Schiff 1 Stressmarker, es sei denn, es entfernt 1 grünen Marker.',
-        fr:
-          "Au début de la phase d'engagement, vous pouvez choisir 1 vaisseau ennemi dans votre [Single Turret Arc] à portée 0-2 et dépenser 1 [Force]. Dans ce cas, ce vaisseau gagne 1 marqueur de stress sauf s'il retire 1 marqueur vert.",
-        es:
-          'Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave enemiga que esté situada en tu [Single Turret Arc] a alcance 0-2 y gastar 1 ficha [Force]. Si lo haces, esa nave recibe 1 ficha de Tensión a menos que retire 1 ficha verde.',
-      },
+      ability:
+        'At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force]. If you do, that ship gains 1 stress token unless it removes 1 green token.',
       force: { value: 2, recovers: 1, side: ['dark'] },
       slots: [
         'Force Power',
@@ -76,125 +58,63 @@ const t: ShipType = {
         'Illicit',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
       ffg: 219,
       standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Dark Side'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_219.png',
-      },
       loadout: 20,
       extended: true,
     },
     {
-      name: { en: 'Ketsu Onyo' },
-      caption: {
-        en: 'Black Sun Contractor',
-        de: 'Kopfgeldjägerin der Schwarzen Sonne',
-        fr: 'Entrepreneur du Soleil Noir',
-        es: 'Agente del Sol Negro',
-      },
+      name: 'Ketsu Onyo',
+      caption: 'Black Sun Contractor',
       initiative: 5,
       limited: 1,
       cost: 7,
       xws: 'ketsuonyo',
-      ability: {
-        en:
-          'At the start of the Engagement Phase, you may choose 1 ship in both your [Front Arc] and [Single Turret Arc] at range 0-1. If you do, that ship gains 1 tractor token.',
-        de:
-          'Zu Beginn der Kampfphase darfst du 1 Schiff wählen, das sowohl in deinem [Front Arc] als auch in deinem [Single Turret Arc] und in Reichweite 0-1 ist. Falls du das tust, erhält jenes Schiff 1 Fangstrahlmarker.',
-        fr:
-          "Au début de la phase d'engagement, vous pouvez choisir 1 vaisseau à portée 0-1 qui est à la fois dans votre [Front Arc] et dans votre [Single Turret Arc]. Dans ce cas, ce vaisseau gagne 1 marqueur de rayon tracteur.",
-        es:
-          'Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave que esté situada tanto en tu [Front Arc] como en tu [Single Turret Arc] y tengas a alcance 0-1. Si lo haces, esa nave recibe 1 ficha de Campo de tracción.',
-      },
+      ability:
+        'At the start of the Engagement Phase, you may choose 1 ship in both your [Front Arc] and [Single Turret Arc] at range 0-1. If you do, that ship gains 1 tractor token.',
       slots: ['Talent', 'Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg',
       ffg: 218,
       standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_218.png',
-      },
       loadout: 15,
       extended: true,
     },
     {
-      name: { en: 'Sabine Wren' },
-      caption: {
-        en: 'Artistic Saboteur',
-        de: 'Künstlerisch begabte Saboteurin',
-        fr: 'Saboteuse Artistique',
-        es: 'Saboteadora artística',
-      },
+      name: 'Sabine Wren',
+      caption: 'Artistic Saboteur',
       initiative: 3,
       limited: 1,
       cost: 6,
       xws: 'sabinewren-lancerclasspursuitcraft',
-      ability: {
-        en:
-          'While you defend, if the attacker is in your [Single Turret Arc] at range 0-2, you may add 1 [Focus] result to your dice results.',
-        de:
-          'Solange du verteidigst, falls der Angreifer in deinem [Single Turret Arc] in Reichweite 0-2 ist, darfst du 1 [Focus]-Ergebnis zu deinen Würfelergebnissen hinzufügen.',
-        fr:
-          "Tant que vous défendez, si l'attaquant est dans votre [Single Turret Arc] à portée 0-2, vous pouvez ajouter 1 résultat [Focus] aux résultat de vos dés.",
-        es:
-          'Mientras te defiendes, si el atacante está situado en tu [Single Turret Arc] a alcance 0-2, puedes añadir 1 resultado [Focus] a tus resultados de dados.',
-      },
+      ability:
+        'While you defend, if the attacker is in your [Single Turret Arc] at range 0-2, you may add 1 [Focus] result to your dice results.',
       slots: ['Talent', 'Crew', 'Illicit', 'Illicit', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg',
       ffg: 220,
       standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_220.png',
-      },
       loadout: 9,
       extended: true,
     },
     {
-      name: {
-        en: 'Shadowport Hunter',
-        de: 'Schattenhafen-Jäger',
-        fr: 'Chasseur des Ports Fantômes',
-        es: 'Cazador de puerto clandestino',
-      },
+      name: 'Shadowport Hunter',
       initiative: 2,
       limited: 0,
       cost: 6,
       xws: 'shadowporthunter',
-      text: {
-        en:
-          'Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft.',
-        de:
-          'Verbrechersyndikate fördern die mörderischen Talente ihrer treuen Geschäftspartner, indem sie sie mit der besten Technologie auf dem Markt ausstatten, beispielsweise mit dem schnellen und vorzüglichen Jagdschiff der Lanzen-Klasse.',
-        fr:
-          'Les organisations criminelles confient à leurs agents loyaux des vaisseaux disposant de la meilleure technologie possible, comme le véloce et redoutable Appareil de Poursuite de Classe Lancer, afin de renforcer leurs aptitudes létales.',
-        es:
-          'Los sindicatos criminales complementan las letales habilidades de sus agentes más leales proporcionándoles la mejor tecnología disponible, como la rápida y formidable nave de persecución clase Lancero.',
-      },
+      text:
+        'Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft.',
       slots: ['Illicit', 'Illicit'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
       ffg: 221,
       standard: false,
       epic: true,
       keywords: ['Bounty Hunter'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_221.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
   ],
 };

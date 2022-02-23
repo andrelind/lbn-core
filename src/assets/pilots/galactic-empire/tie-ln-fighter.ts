@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'TIE/ln Fighter',
-    de: 'TIE/ln-Jäger',
-    fr: 'Chasseur TIE/ln',
-    es: 'Caza TIE/ln',
-  },
+  name: 'TIE/ln Fighter',
   xws: 'tielnfighter',
   ffg: 11,
   size: 'Small',
@@ -43,27 +38,14 @@ const t: ShipType = {
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png',
   pilots: [
     {
-      name: { en: '"Howlrunner"', de: '„Howlrunner"', es: '"Aullador Veloz"' },
-      caption: {
-        en: 'Obsidian Leader',
-        de: 'Obsidian Eins',
-        fr: 'Leader Obsidian',
-        es: 'Jefe Obsidiana',
-      },
+      name: '“Howlrunner”',
+      caption: 'Obsidian Leader',
       initiative: 5,
       limited: 1,
       cost: 4,
       xws: 'howlrunner',
-      ability: {
-        en:
-          'While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.',
-        de:
-          'Solange ein befreundetes Schiff in Reichweite 0-1 einen Primärangriff durchführt, darf jenes Schiff 1 Angriffswürfel neu werfen.',
-        fr:
-          "Tant qu'un vaisseau allié à portée 0-1 effectue une attaque principale, il peut relancer 1 dé d'attaque.",
-        es:
-          'Mientras una nave aliada que tienes a alcance 0-1 efectúa un ataque principal, esa nave puede volver a tirar 1 dado de ataque.',
-      },
+      ability:
+        'While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.',
       slots: [
         'Talent',
         'Talent',
@@ -71,354 +53,159 @@ const t: ShipType = {
         'Modification',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
       ffg: 81,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png',
-      },
       loadout: 6,
       extended: true,
     },
     {
-      name: {
-        en: '"Mauler" Mithel',
-        de: '„Mauler" Mithel',
-        es: '"Mutilador" Mithel',
-      },
-      caption: {
-        en: 'Black Two',
-        de: 'Schwarz Zwei',
-        fr: 'Black Deux',
-        es: 'Negro Dos',
-      },
+      name: '“Mauler” Mithel',
+      caption: 'Black Two',
       initiative: 5,
       limited: 1,
       cost: 3,
       xws: 'maulermithel',
-      ability: {
-        en:
-          'While you perform an attack at attack range 1, roll 1 additional attack die.',
-        de:
-          'Solange du einen Angriff in Angriffsreichweite 1 durchführst, wirf 1 zusätzlichen Angriffswürfel.',
-        fr:
-          "Tant que vous effectuez une attaque à portée d'attaque 1, lancez 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras efectúas un ataque a alcance de ataque 1, tira 1 dado de ataque adicional.',
-      },
+      ability:
+        'While you perform an attack at attack range 1, roll 1 additional attack die.',
       slots: ['Talent', 'Talent', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
       ffg: 80,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_80.png',
-      },
       loadout: 3,
       extended: true,
     },
     {
-      name: {
-        en: '"Night Beast"',
-        de: '„Nachtbestie"',
-        es: '"Bestia Nocturna"',
-      },
-      caption: {
-        en: 'Obsidian Two',
-        de: 'Obsidian Zwei',
-        fr: 'Obsidian Deux',
-        es: 'Obsidiana Dos',
-      },
+      name: '“Night Beast”',
+      caption: 'Obsidian Two',
       initiative: 2,
       limited: 1,
       cost: 2,
       xws: 'nightbeast',
-      ability: {
-        en:
-          'After you fully execute a blue maneuver, you may perform a [Focus] action.',
-        de:
-          'Nachdem du ein blaues Manöver vollständig ausgeführt hast, darfst du eine [Focus]-Aktion durchführen.',
-        fr:
-          'Après avoir entièrement exécuté une manœuvre bleue, vous pouvez effectuer une action [Focus].',
-        es:
-          'Después de que ejecutes completamente una maniobra azul, puedes realizar una acción [Focus].',
-      },
+      ability:
+        'After you fully execute a blue maneuver, you may perform a [Focus] action.',
       slots: [],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
       ffg: 88,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_88.png',
-      },
       loadout: 0,
       extended: true,
     },
     {
-      name: {
-        en: '"Scourge" Skutu',
-        de: '„Geißel" Skutu',
-        es: '"Azote" Skutu',
-      },
-      caption: {
-        en: 'Seasoned Veteran',
-        de: 'Kampferprobter Veteran',
-        fr: 'Vétéran Chevronné',
-        es: 'Veterano curtido',
-      },
+      name: '“Scourge” Skutu',
+      caption: 'Seasoned Veteran',
       initiative: 5,
       limited: 1,
       cost: 3,
       xws: 'scourgeskutu',
-      ability: {
-        en:
-          'While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.',
-        de:
-          'Solange du einen Angriff gegen einen Verteidiger in deinem [Bullseye Arc] durchführst, wirf 1 zusätzlichen Angriffswürfel.',
-        fr:
-          "Tant que vous effectuez une attaque contre un défenseur dans votre [Bullseye Arc], lancez 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras efectúas un ataque contra un defensor situado en tu [Bullseye Arc], tira 1 dado de ataque adicional.',
-      },
+      ability:
+        'While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.',
       slots: ['Talent', 'Talent', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
       ffg: 82,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_82.png',
-      },
       loadout: 3,
       extended: true,
     },
     {
-      name: { en: '"Wampa"', de: '„Wampa"' },
-      caption: {
-        en: 'Black Eleven',
-        de: 'Schwarz Elf',
-        fr: 'Black Onze',
-        es: 'Negro Once',
-      },
+      name: '“Wampa”',
+      caption: 'Black Eleven',
       initiative: 1,
       limited: 1,
       cost: 3,
       xws: 'wampa',
-      ability: {
-        en:
-          'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].',
-        de:
-          'Solange du einen Angriff durchführst, darfst du 1 [Charge] ausgeben, um 1 zusätzlichen Angriffswürfel zu werfen. Nach dem Verteidigen, verliere 1 [Charge].',
-        fr:
-          "Tant que vous effectuez une attaque, vous pouvez dépenser 1 [Charge] pour lancer 1 dé d'attaque supplémentaire Après avoir défendu, perdez 1 [Charge].",
-        es:
-          'Mientras efectúas un ataque, puedes gastar 1 [Charge] para tirar 1 dado de ataque adicional. Después de que te defiendas, pierdes 1 [Charge].',
-      },
+      ability:
+        'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].',
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Talent', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
       ffg: 89,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png',
-      },
       loadout: 4,
       extended: true,
     },
     {
-      name: {
-        en: 'Academy Pilot',
-        de: 'Pilot der Akademie',
-        fr: "Pilote de l'Académie",
-        es: 'Piloto de la Academia',
-      },
+      name: 'Academy Pilot',
       initiative: 1,
       limited: 0,
       cost: 3,
       xws: 'academypilot',
-      text: {
-        en:
-          'The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.',
-        de:
-          'Was Sternenjäger betrifft, setzt das Galaktische Imperium hauptsächlich auf den schnellen und wendigen TIE/ln von Sienar Flottensysteme und lässt ihn in erstaunlicher Stückzahl produzieren.',
-        fr:
-          "Produit en masse, rapide et maniable, le TIE/ln développé par Sienar Fleet Systems est le principal chasseur de l'Empire Galactique.",
-        es:
-          'El Imperio Galáctico utiliza como principal caza estelar de combate el rápido y ágil TIE/ln diseñado por Sistemas de Flota Sienar y producido en cantidades asombrosas por las fábricas imperiales.',
-      },
-      alt: [
-        {
-          image:
-            'https://images-cdn.fantasyflightgames.com/filer_public/c9/4e/c94efa45-9cf7-4167-8e41-50d27d300f12/op066-academy-pilot.png',
-          source: 'X-Wing Second Edition Launch Party',
-        },
-      ],
+      text:
+        'The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.',
       slots: ['Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
       ffg: 92,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_92.png',
-      },
       loadout: 3,
       extended: true,
+      caption: '',
     },
     {
-      name: {
-        en: 'Black Squadron Ace',
-        de: 'Fliegerass der schwarzen Staffel',
-        fr: "As de l'Escadron Noir",
-        es: 'As del Escuadrón Negro',
-      },
+      name: 'Black Squadron Ace',
       initiative: 3,
       limited: 0,
       cost: 3,
       xws: 'blacksquadronace',
-      text: {
-        en:
-          'The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.',
-        de:
-          'In der Schlacht von Yavin begleiteten die Elite­-piloten der schwarzen Staffel mit ihren TIE/ln-Jägern Darth Vader auf seinem vernichtenden Schlag gegen die Rebellion.',
-        fr:
-          "Au cours de la Bataille de Yavin, les pilotes d'élite des chasseurs TIE/ln de l'Escadron Noir escortèrent Dark Vador lors d'une attaque dévastatrice contre les forces Rebelles.",
-        es:
-          'Durante la batalla de Yavin, los selectos pilotos de TIE/ln del Escuadrón Negro efectuaron junto a Darth Vader un devastador ataque contra las fuerzas de la Alianza Rebelde.',
-      },
+      text:
+        'The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.',
       slots: ['Talent', 'Modification'],
-      alt: [
-        {
-          image:
-            'https://images-cdn.fantasyflightgames.com/filer_public/fe/2b/fe2b0b19-b983-4665-aa8a-769fc2e03f64/op086-obsidian-squadron-pilot.png',
-          source: 'Gen Con Indy 2018',
-        },
-      ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
       ffg: 90,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_90.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Del Meeko' },
-      caption: {
-        en: 'Inferno Three',
-        de: 'Inferno Drei',
-        fr: 'Inferno Trois',
-        es: 'Infernal Tres',
-      },
+      name: 'Del Meeko',
+      caption: 'Inferno Three',
       initiative: 4,
       limited: 1,
       cost: 3,
       xws: 'delmeeko',
-      ability: {
-        en:
-          'While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.',
-        de:
-          'Solange ein befreundetes Schiff in Reichweite 0-2 gegen einen beschädigten Angreifer verteidigt, darf der Verteidiger 1 Verteidigungswürfel neu werfen.',
-        fr:
-          "Tant qu'un vaisseau allié à portée 0-2 défend contre un attaquant endommagé, le défenseur peut relancer 1 dé de défense.",
-        es:
-          'Mientras una nave aliada que tienes a alcance 0-2 se defiende contra un atacante dañado, el defensor puede volver a tirar 1 dado de defensa.',
-      },
+      ability:
+        'While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.',
       slots: ['Talent', 'Talent', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
       ffg: 85,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_85.png',
-      },
       loadout: 4,
       extended: true,
     },
     {
-      name: { en: 'Gideon Hask' },
-      caption: {
-        en: 'Inferno Two',
-        de: 'Inferno Zwei',
-        fr: 'Inferno Deux',
-        es: 'Infernal Dos',
-      },
+      name: 'Gideon Hask',
+      caption: 'Inferno Two',
       initiative: 4,
       limited: 1,
       cost: 3,
       xws: 'gideonhask',
-      ability: {
-        en:
-          'While you perform an attack against a damaged defender, roll 1 additional attack die.',
-        de:
-          'Solange du einen Angriff gegen einen beschädigten Verteidiger durchführst, wirf 1 zusätzlichen Angriffswürfel.',
-        fr:
-          "Tant que vous effectuez une attaque contre un défenseur endommagé, lancez 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras efectúas un ataque contra un defensor dañado, tira 1 dado de ataque adicional.',
-      },
+      ability:
+        'While you perform an attack against a damaged defender, roll 1 additional attack die.',
       slots: ['Talent', 'Talent'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
       ffg: 84,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_84.png',
-      },
       loadout: 3,
       extended: true,
     },
     {
-      name: { en: 'Iden Versio' },
-      caption: {
-        en: 'Inferno Leader',
-        de: 'Inferno Eins',
-        fr: 'Leader Inferno',
-        es: 'Jefe Infernal',
-      },
+      name: 'Iden Versio',
+      caption: 'Inferno Leader',
       initiative: 4,
       limited: 1,
       cost: 4,
       xws: 'idenversio',
-      ability: {
-        en:
-          'Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.',
-        de:
-          'Bevor ein befreundeter TIE/ln-Jäger in Reichweite 0-1 1 oder mehr Schaden erleiden würde, darfst du 1 [Charge] ausgeben. Falls du das tust, verhindere jenen Schaden.',
-        fr:
-          "Avant qu'un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 [Charge]. Dans ce cas, prévenez ce dégât.",
-        es:
-          'Antes de que un caza TIE/ln aliado que tengas a alcance 0 -1 vaya a sufrir 1 o más de daño, puedes gastar 1 [Charge]. Si lo haces, impides ese daño.',
-      },
+      ability:
+        'Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.',
       charges: { value: 1, recovers: 0 },
       slots: [
         'Talent',
@@ -428,149 +215,73 @@ const t: ShipType = {
         'Missile',
         'Modification',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
       ffg: 83,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png',
-      },
       loadout: 8,
       extended: true,
     },
     {
-      name: {
-        en: 'Obsidian Squadron Pilot',
-        de: 'Pilot der Obsidian-Staffel',
-        fr: "Pilote de l'Escadron Obsidian",
-        es: 'Piloto del Escuadrón Obsidiana',
-      },
+      name: 'Obsidian Squadron Pilot',
       initiative: 2,
       limited: 0,
       cost: 2,
       xws: 'obsidiansquadronpilot',
-      text: {
-        en:
-          "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
-        de:
-          'Der Zwillingsionenantrieb des TIE-Jägers war auf Geschwindigkeit optimiert und machte den TIE/ln zu einem der wendigsten Raumschiffe, die je in Massen produziert wurden.',
-        fr:
-          'Le moteur ionique jumelé des chasseurs TIE a été conçu pour la vitesse, ce qui classe ces derniers parmi les vaisseaux les plus maniables jamais produits.',
-        es:
-          'El sistema de motor iónico doble del caza TIE fue diseñado para dotarlo de una gran velocidad; gracias a él, el TIE/ln es una de las naves estelares más maniobrables que se hayan llegado a producir en masa.',
-      },
-      alt: [
-        {
-          image:
-            'https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png',
-          source: 'X-Wing Second Edition Launch Party',
-        },
-      ],
+      text:
+        "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
       slots: [],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
       ffg: 91,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_91.png',
-      },
       loadout: 0,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Seyn Marana' },
-      caption: {
-        en: 'Inferno Four',
-        de: 'Inferno Vier',
-        fr: 'Inferno Quatre',
-        es: 'Infernal Cuatro',
-      },
+      name: 'Seyn Marana',
+      caption: 'Inferno Four',
       initiative: 4,
       limited: 1,
       cost: 3,
       xws: 'seynmarana',
-      ability: {
-        en:
-          'While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.',
-        de:
-          'Solange du einen Angriff durchführst, darfst du 1 [Critical Hit]-Ergebnis ausgeben. Falls du das tust, teile dem Verteidiger 1 verdeckte Schadenskarte zu, dann negiere deine übrigen Ergebnisse.',
-        fr:
-          'Tant que vous effectuez une attaque, vous pouvez dépenser 1 résultat [Critical Hit]. Dans ce cas, attribuez 1 carte de dégât face cachée au défenseur, puis annuler vos résultats restants.',
-        es:
-          'Mientras efectúas un ataque, puedes gastar 1 resultado [Critical Hit]. Si lo haces, inflige 1 carta de Daño boca abajo al defensor, y luego anula tus resultados restantes.',
-      },
+      ability:
+        'While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.',
       slots: ['Talent', 'Talent'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
       ffg: 86,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png',
-      },
       loadout: 3,
       extended: true,
     },
     {
-      name: { en: 'Valen Rudor' },
-      caption: {
-        en: 'Braggadocious Baron',
-        de: 'Angeberischer Baron',
-        fr: 'Baron Orgueilleux',
-        es: 'Barón presuntuoso',
-      },
+      name: 'Valen Rudor',
+      caption: 'Braggadocious Baron',
       initiative: 3,
       limited: 1,
       cost: 3,
       xws: 'valenrudor',
-      ability: {
-        en:
-          'After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.',
-        de:
-          'Nachdem ein befreundetes Schiff in Reichweite 0-1 verteidigt hat (nachdem ggf. Schaden abgehandelt worden ist), darfst du eine Aktion durchführen.',
-        fr:
-          "Après qu'un vaisseau allié à portée 0-1 a défendu (après la résolution des dégâts, s'il y en a), vous pouvez effectuer une action.",
-        es:
-          'Después de que una nave aliada que tengas a alcance 0-1 se defienda (después de resolver el daño, si lo hay), puedes realizar una acción.',
-      },
+      ability:
+        'After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.',
       slots: ['Talent', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg',
       ffg: 87,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png',
-      },
       loadout: 8,
       extended: true,
     },
     {
-      name: { en: 'ISB Jingoist' },
-      caption: { en: 'Heartless Enforcer' },
+      name: 'ISB Jingoist',
+      caption: 'Heartless Enforcer',
       initiative: 4,
       limited: 2,
       xws: 'isbjingoist',
-      ability: {
-        en:
-          'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
-      },
-      image: {
-        en: 'https://infinitearenas.com/xw2/images/pilots/isbjingoist.png',
-      },
+      ability:
+        'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
       slots: ['Talent', 'Illicit', 'Modification'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png',
       keywords: ['TIE'],
       cost: 3,
       standard: true,
@@ -579,22 +290,15 @@ const t: ShipType = {
       extended: true,
     },
     {
-      name: { en: 'Moff Gideon' },
-      caption: { en: 'Ruthless Remnant Leader' },
+      name: 'Moff Gideon',
+      caption: 'Ruthless Remnant Leader',
       initiative: 4,
       limited: 1,
       xws: 'moffgideon',
       charges: { value: 2, recovers: 1 },
-      ability: {
-        en:
-          'While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.',
-      },
-      image: {
-        en: 'https://infinitearenas.com/xw2/images/pilots/moffgideon.png',
-      },
+      ability:
+        'While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.',
       slots: ['Talent', 'Missile', 'Illicit', 'Illicit', 'Modification'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
       keywords: ['TIE'],
       cost: 4,
       standard: true,

@@ -1,9 +1,8 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'Gauntlet Fighter',
-  },
+  name: 'Gauntlet Fighter',
+
   xws: 'gauntletfighter',
   size: 'Large',
   dial: [

@@ -12,17 +12,18 @@ const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
     .map((f) => {
       const ships = Object.keys(factionShips[f])
         .map((key) => {
-          if (factionShips[f][key].name.en.trimName() !== shipName.trimName()) {
+          const ship = factionShips[f][key];
+          if (ship.name.trimName() !== shipName.trimName()) {
             return;
           }
 
           const pilots = factionShips[f][key].pilots;
 
           const pilot = pilots.find(
-            (p) => p.name.en.trimName() === name.trimName()
+            (p) => p.name.trimName() === name.trimName()
           );
           if (pilot) {
-            return { ship: factionShips[f][key], pilot };
+            return { ship, pilot };
           }
         })
         .filter((x) => x);
@@ -33,7 +34,7 @@ const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
 
   if (shipsAndPilots.length > 1) {
     return shipsAndPilots.find(
-      (p) => p?.pilot?.caption?.en.trimName === subtitle.trimName
+      (p) => p?.pilot?.caption?.trimName() === subtitle.trimName()
     );
   }
   return shipsAndPilots[0];
@@ -85,6 +86,11 @@ const runShips = async () => {
       const { ship, pilot } = shipAndPilot;
       // console.log(pilotName, ship.name.en, pilot.name.en);
 
+      // @ts-ignore
+      pilot.name = pilotName;
+      // @ts-ignore
+      pilot.caption = subtitle;
+
       pilot.cost = parseInt(cost, 10);
       pilot.loadout = parseInt(loadout, 10);
       pilot.keywords =
@@ -92,6 +98,23 @@ const runShips = async () => {
       pilot.standard = std === 'Yes' ? true : false;
       pilot.extended = ext === 'Yes' ? true : false;
       pilot.epic = true;
+
+      if (ship.ability && typeof ship.ability.name !== 'string') {
+        // @ts-ignore
+        ship.ability.name = ship.ability.name.en;
+        // @ts-ignore
+        ship.ability.text = ship.ability.text.en;
+        ship.ability.slotOptions = undefined;
+      }
+      if (pilot.ability && typeof pilot.ability !== 'string') {
+        // @ts-ignore
+        pilot.ability = pilot.ability.en;
+      }
+
+      if (pilot.text && typeof pilot.text !== 'string') {
+        // @ts-ignore
+        pilot.text = pilot.text.en;
+      }
 
       factionShips[ship.faction][ship.xws].pilots[
         ship.pilots.indexOf(pilot)
@@ -110,7 +133,8 @@ const runShips = async () => {
         );
         fs.writeFileSync(
           `./src/assets/pilots/${getName(ship.faction)}/${getName(
-            ship.name.en
+            // @ts-ignore
+            ship.name
           )}.ts`,
           formatted,
           'utf8'

@@ -269,6 +269,7 @@ const shipMap: { [s: string]: string } = {
   customizedyt1300lightfreighter: '\u0057',
   droidtrifighter: '\u002b',
   delta7aethersprite: '\u005c',
+  delta7baethersprite: '\u005c',
   escapecraft: '\u0058',
   eta2actis: '\u002d',
   ewing: '\u0065',

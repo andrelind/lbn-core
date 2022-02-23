@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'C-ROC Cruiser',
-    de: 'C-ROC-Kreuzer',
-    es: 'Crucero C-ROC',
-    fr: 'Croiseur C-ROC',
-  },
+  name: 'C-ROC Cruiser',
   xws: 'croccruiser',
   size: 'Huge',
   dial: [
@@ -41,30 +36,17 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Jam' },
   ],
   ability: {
-    name: { en: 'Overdrive Burners' },
-    text: {
-      en:
-        'While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die.',
-    },
+    name: 'Overdrive Burners',
+    text:
+      'While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die.',
   },
   pilots: [
     {
-      name: {
-        en: 'Syndicate Smugglers',
-        de: 'Schmuggler \ndes Syndikats',
-        es: 'Contrabandistas del sindicato',
-        fr: 'Contrebandiers du Syndicat',
-      },
-      text: {
-        en:
-          'Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.',
-        de:
-          'Schiffe wie der C-ROC-Kreuzer erlauben kriminelle Operationen überall im Outer Rim, bei denen Massen an illegalen Waren transportiert werden, oder Machtdemonstrationen, um kleine Kolonien zu unterdrücken.',
-        es:
-          'Navíos como el crucero C-ROC permiten a las organizaciones criminales del Borde Exterior transportar cantidades ingentes de materiales ilícitos o efectuar demostraciones de fuerza para intimidar a pequeñas colonias.',
-        fr:
-          'Des vaisseaux comme le croiseur C-ROC facilitent les opérations criminelles à travers la Bordure Extérieure, en déplaçant de grandes quantités de matériels illicites ou en faisant étalage de leur puissance pour forcer les petites colonies à coopérer.',
-      },
+      name: 'Syndicate Smugglers',
+
+      text:
+        'Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.',
+
       initiative: 7,
       engagement: 1,
       limited: 0,
@@ -85,8 +67,6 @@ const t: ShipType = {
       standard: false,
       epic: true,
       ffg: 713,
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/17ae9e44f24e0a38ba81f4523857c4f0.jpg',
     },
   ],
   ffg: 82,

@@ -252,7 +252,7 @@ export const exportAsText = (
   let text = `${squadron.name}\n`;
 
   squadron.ships.map((ship) => {
-    text += `\n(${ship.pilot.cost}) ${t(ship.pilot.name)} [${t(ship.name)}]`;
+    text += `\n(${ship.pilot.cost}) ${ship.pilot.name} [${ship.name}]`;
 
     slotKeys.forEach((key) => {
       const up = ship.upgrades && ship.upgrades[key];
@@ -276,7 +276,7 @@ export const exportAsTTS = (
   let text = '';
 
   squadron.ships.map((ship) => {
-    text += t(ship.pilot.name);
+    text += ship.pilot.name;
 
     slotKeys.forEach((key) => {
       const up = ship.upgrades && ship.upgrades[key];

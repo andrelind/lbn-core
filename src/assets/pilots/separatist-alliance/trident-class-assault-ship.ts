@@ -1,7 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: { en: 'Trident-class Assault Ship' },
+  name: 'Trident-class Assault Ship',
   xws: 'tridentclassassaultship',
   size: 'Huge',
   dial: [],
@@ -22,7 +22,7 @@ const t: ShipType = {
   pilots: [
     {
       xws: 'colicoiddestroyer',
-      name: { en: 'Colicoid Destroyer' },
+      name: 'Colicoid Destroyer',
       cost: 85,
       initiative: 8,
       limited: 0,
@@ -41,10 +41,8 @@ const t: ShipType = {
       standard: false,
       epic: true,
       ffg: 949,
-      text: {
-        en:
-          'Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear though the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.',
-      },
+      text:
+        'Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear though the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.',
     },
   ],
 };

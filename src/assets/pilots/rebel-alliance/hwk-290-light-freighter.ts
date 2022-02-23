@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'HWK-290 Light Freighter',
-    de: 'Leichter HWK-290-Frachter',
-    fr: 'Cargo léger HWK-290',
-    es: 'Carguero ligero HWK-290',
-  },
+  name: 'HWK-290 Light Freighter',
   xws: 'hwk290lightfreighter',
   ffg: 34,
   size: 'Small',
@@ -52,27 +47,14 @@ const t: ShipType = {
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_HWK-290.png',
   pilots: [
     {
-      name: { en: 'Jan Ors' },
-      caption: {
-        en: 'Espionage Expert',
-        de: 'Spionageexpertin',
-        fr: 'Experte en Espionnage',
-        es: 'Experta en espionaje',
-      },
+      name: 'Jan Ors',
+      caption: 'Espionage Expert',
       initiative: 5,
       limited: 1,
       cost: 6,
       xws: 'janors',
-      ability: {
-        en:
-          'While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.',
-        de:
-          'Solange ein befreundetes Schiff in deinem Feuerwinkel einen Primärangriff durchführt, falls du nicht gestresst bist, darfst du 1 Stressmarker erhalten. Falls du das tust, darf jenes Schiff 1 zusätzlichen Angriffswürfel werfen.',
-        fr:
-          "Tant qu'un vaisseau allié situé dans votre arc de tir effectue une attaque principale, si vous n'êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau peut lancer 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras una nave aliada situada en tu arco de fuego efectúa un ataque principal, si no estás bajo tensión, puedes recibir 1 ficha de Tensión. Si lo haces, esa nave aliada puede tirar 1 dado de ataque adicional.',
-      },
+      ability:
+        'While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.',
       slots: [
         'Talent',
         'Crew',
@@ -82,112 +64,56 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
       ffg: 42,
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_42.png',
-      },
       loadout: 10,
       extended: true,
     },
     {
-      name: { en: 'Kyle Katarn' },
-      caption: {
-        en: 'Relentless Operative',
-        de: 'Unbeugsamer Agent',
-        fr: 'Agent Implacable',
-        es: 'Operativo incansable',
-      },
+      name: 'Kyle Katarn',
+      caption: 'Relentless Operative',
       initiative: 3,
       limited: 1,
       cost: 6,
       xws: 'kylekatarn',
-      ability: {
-        en:
-          'At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.',
-        de:
-          'Zu Beginn der Kampfphase darfst du 1 deiner Fokusmarker auf ein befreundetes Schiff in deinem Feuerwinkel transferieren.',
-        fr:
-          "Au début de la phase d'engagement, vous pouvez transférer 1 de vos marqueurs de concentration à un vaisseau allié situé dans votre arc de tir.",
-        es:
-          'Al comienzo de la fase de Enfrentamiento, puedes transferir 1 de tus fichas de Concentración a una nave aliada situada en tu arco de fuego.',
-      },
+      ability:
+        'At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.',
       slots: ['Talent', 'Talent', 'Crew', 'Device', 'Modification', 'Title'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
       ffg: 43,
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_43.png',
-      },
       loadout: 12,
       extended: true,
     },
     {
-      name: {
-        en: 'Rebel Scout',
-        de: 'Rebellen-Aufklärer',
-        fr: 'Éclaireur Rebelle',
-        es: 'Explorador rebelde',
-      },
+      name: 'Rebel Scout',
       initiative: 2,
       limited: 0,
       cost: 4,
       xws: 'rebelscout',
-      text: {
-        en:
-          'Designed to look like a bird in flight by the Corellian Engineering Corporation, "hawk" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.',
-        de:
-          'Ein Vogel mit ausgebreiteten Schwingen diente der Corellianischen Ingenieursgesellschaft als Vorbild für das Design der „Hawk"-Serie, einer Reihe von erstklassigen Transportschiffen. Der flinke und robuste HWK-290 wird oft von Rebellenagenten als mobile Operationsbasis eingesetzt.',
-        fr:
-          "Conçue par la Corporation Technique Corellienne et inspirée d'un oiseau en vol, la série « hawk » a produit d'excellents cargos légers. Rapide et résistant, le HWK-290 est souvent utilisé par les agents Rebelles en tant que base mobile d'opérations.",
-        es:
-          'Diseñadas por la Corporación de Ingeniería Corelliana para que se parecieran a un pájaro en vuelo, las naves de la serie HWK son unos magníficos transportes. La velocidad y robustez del HWK-290 hacen que suela ser empleado por agentes rebeldes como base móvil de operaciones.',
-      },
+      text:
+        'Designed to look like a bird in flight by the Corellian Engineering Corporation, "hawk" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.',
       slots: ['Device', 'Modification'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
       ffg: 45,
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png',
-      },
       loadout: 6,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Roark Garnet' },
-      caption: {
-        en: 'Good-Hearted Smuggler',
-        de: 'Gutherziger Schmuggler',
-        fr: 'Contrebandier au Grand Cœur',
-        es: 'Contrabandista de buen corazón',
-      },
+      name: 'Roark Garnet',
+      caption: 'Good-Hearted Smuggler',
       initiative: 4,
       limited: 1,
       cost: 6,
       xws: 'roarkgarnet',
-      ability: {
-        en:
-          'At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.',
-        de:
-          'Zu Beginn der Kampfphase darfst du 1 Schiff in deinem Feuerwinkel wählen. Falls du das tust, kämpft es in dieser Phase bei Initiative 7 anstatt bei seiner normalen Initiative.',
-        fr:
-          "Au début de la phase d'engagement, vous pouvez choisir 1 vaisseau situé dans votre arc de tir. Dans ce cas, pendant cette phase, il s'engage à l'initiative 7 au lieu de le faire à sa valeur d'initiative standard.",
-        es:
-          'Al comienzo de la fase de Enfrentamiento, puedes elegir 1 nave que esté situada en tu arco de fuego. Si lo haces, en esta fase esa nave interviene con Iniciativa 7 en vez de su valor de Iniciativa normal.',
-      },
+      ability:
+        'At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.',
       slots: [
         'Talent',
         'Crew',
@@ -196,16 +122,10 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
       ffg: 44,
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_44.png',
-      },
       loadout: 15,
       extended: true,
     },

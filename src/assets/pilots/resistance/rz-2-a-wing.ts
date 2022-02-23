@@ -1,12 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: {
-    en: 'RZ-2 A-wing',
-    de: 'RZ-2-A-Flügler',
-    fr: 'A-wing RZ-2',
-    es: 'RZ-2 Ala-A',
-  },
+  name: 'RZ-2 A-wing',
   xws: 'rz2awing',
   ffg: 54,
   size: 'Small',
@@ -44,135 +39,57 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Boost' },
   ],
   ability: {
-    name: {
-      en: 'Refined Gyrostabilizers',
-      de: 'Optimierte Gyrostabilisatoren',
-      fr: 'Gyrostabilisateurs Perfectionnés',
-      es: 'Giroestabilizadores perfeccionados',
-      it: 'Girostabilizzatori Affinati',
-      pl: 'Udoskonalone żyrostabilizatory',
-      pt: 'Refined Gyrostabilizers',
-      zh: 'Refined Gyrostabilizers',
-    },
-    text: {
-      en:
-        'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
-      de:
-        'Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc] oder [Rear Arc] rotieren. Nachdem du eine Aktion durchgeführt hast, darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen.',
-      fr:
-        'vous pouvez pivoter votre indicateur [Single Turret Arc] uniquement vers votre [Front Arc] ou [Rear Arc].Après avoir effectué une action, vous pouvez effectuer une action [Boost] rouge ou [Rotate Arc] rouge..',
-      es:
-        'Eres capaz de reorientar tu indicador [Single Turret Arc], pero sólo hacia tu [Front Arc] o [Rear Arc]. Después de que realices una acción, puedes realizar una acción [Boost] roja o [Rotate Arc] roja.',
-      it:
-        "Puoi ruotare il tuo segnalatore [Single Turret Arc] solo sui tuoi [Front Arc] o [Rear Arc]. Dopo che hai effettuato un'azione, puoi effettuare 1 azione [Boost] o [Rotate Arc] rossa.",
-      pl:
-        'Możesz obracać swój wskaźnik [Single Turret Arc] tylko na twoją [Front Arc] albo [Rear Arc]. Gdy wykonasz akcję, możesz wykonać czerwoną akcję [Boost] albo czerwoną akcję [Rotate Arc].',
-      pt:
-        'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
-      zh:
-        'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
-    },
+    name: 'Refined Gyrostabilizers',
+    text:
+      'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
   },
   icon:
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png',
   pilots: [
     {
-      name: { en: "L'ulo L'ampar" },
-      caption: {
-        en: 'Luminous Mentor',
-        de: 'Strahlender Mentor',
-        fr: 'Mentor Éclairé',
-        es: 'Mentor luminoso',
-      },
+      name: 'L’ulo L’ampar',
+      caption: 'Luminous Mentor',
       initiative: 5,
       limited: 1,
       cost: 5,
       xws: 'lulolampar',
-      ability: {
-        en:
-          'While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.',
-        de:
-          'Solange du verteidigst oder einen Primärangriff durchführst, falls du gestresst bist, musst du 1 Verteidigungswürfel weniger oder 1 zusätzlichen Angriffswürfel werfen.',
-        fr:
-          "Tant que vous défendez ou effectuez une attaque principale, si vous êtes stressé, vous devez lancer 1 dé de défense en moins ou 1 dé d'attaque supplémentaire.",
-        es:
-          'Mientras te defiendes o efectúas un ataque principal, si estás bajo tensión, debes tirar 1 dado de defensa menos o 1 dado de ataque adicional.',
-      },
+      ability:
+        'While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.',
       slots: ['Talent', 'Talent', 'Missile', 'Tech'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg',
       ffg: 435,
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png',
-      },
       loadout: 16,
       extended: true,
     },
     {
-      name: { en: 'Tallissan Lintra' },
-      caption: {
-        en: 'Deadly Approach',
-        de: 'Tödliches Vorgehen',
-        fr: 'Démarche Mortelle',
-        es: 'Aproximación letal',
-      },
+      name: 'Tallissan Lintra',
+      caption: 'Deadly Approach',
       initiative: 5,
       limited: 1,
       cost: 5,
       xws: 'tallissanlintra',
-      ability: {
-        en:
-          'While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.',
-        de:
-          'Solange ein feindliches Schiff in deinem [Bullseye Arc] einen Angriff durchführt, darfst du 1 [Charge] ausgeben. Falls du das tust, wirft der Verteidiger 1 zusätzlichen Würfel.',
-        fr:
-          "Tant qu'un vaisseau ennemi dans votre [Bullseye Arc] effectue une attaque, vous pouvez dépenser 1 [Charge]. Dans ce cas, le défenseur lance 1 dé supplémentaire.",
-        es:
-          'Mientras una nave enemiga situada en tu [Bullseye Arc] efectúa un ataque, puedes gastar 1 [Charge]. Si lo haces, el defensor tira 1 dado adicional.',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg',
+      ability:
+        'While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.',
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Talent', 'Talent', 'Tech', 'Torpedo', 'Modification'],
       ffg: 436,
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/72cb6c4e50b0ad24af0bb84ce0aa53f0.png',
-      },
       loadout: 12,
       extended: true,
     },
     {
-      name: { en: 'Zari Bangel' },
-      caption: {
-        en: 'Aerial Exhibitionist',
-        de: 'Flugschau-Pilotin',
-        fr: 'Exhibitionniste Aérien',
-        es: 'Experta en vuelo acrobático',
-      },
+      name: 'Zari Bangel',
+      caption: 'Aerial Exhibitionist',
       initiative: 3,
       limited: 1,
       cost: 5,
       xws: 'zaribangel',
-      ability: {
-        en:
-          'You do not skip your Perform Action step after you partially execute a maneuver.',
-        de:
-          'Du überspringst deinen Schritt „Aktion durchführen" nicht, nachdem du ein Manöver teilweise ausgeführt hast. .',
-        fr:
-          'Vous ne sautez pas votre étape « Effectuer une action » après avoir partiellement exécuté une manœuvre.',
-        es:
-          'Después de que ejecutes parcialmente una maniobra, no omites tu paso de "Realizar una acción".',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg',
+      ability:
+        'You do not skip your Perform Action step after you partially execute a maneuver.',
       slots: [
         'Talent',
         'Talent',
@@ -186,327 +103,160 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png',
-      },
       loadout: 11,
       extended: true,
     },
     {
-      name: { en: 'Greer Sonnel' },
-      caption: { en: 'Kothan Si' },
+      name: 'Greer Sonnel',
+      caption: 'Kothan Si',
       initiative: 4,
       limited: 1,
       cost: 4,
       xws: 'greersonnel',
-      ability: {
-        en:
-          'After you fully execute a maneuver, you may rotate your [Single Turret Arc].',
-        de:
-          'Nachdem du ein Manöver vollständig ausgeführt hast, darfst du deinen [Single Turret Arc] rotieren.',
-        fr:
-          'Après avoir entièrement exécuté une manœuvre, vous pouvez pivoter votre [Single Turret Arc].',
-        es:
-          'Después de que ejecutes completamente una maniobra, puedes reorientar tu [Single Turret Arc].',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg',
+      ability:
+        'After you fully execute a maneuver, you may rotate your [Single Turret Arc].',
       slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       ffg: 437,
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png',
-      },
       loadout: 7,
       extended: true,
     },
     {
-      name: {
-        en: 'Green Squadron Expert',
-        de: 'Elitepilot der \ngrünen Staffel',
-        es: 'Experto del Escuadrón Verde',
-      },
+      name: 'Green Squadron Expert',
       initiative: 3,
       limited: 0,
       cost: 4,
       xws: 'greensquadronexpert',
-      text: {
-        en:
-          "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
-        de:
-          'Viele langjährig bewährte Modifikationen wurden in die Serienausstattung des RZ-2 übernommen. Für waghalsige Piloten ist die höhere Stabilität des Jägers nur ein Anreiz, noch weiter an seine Grenzen zu gehen.',
-        fr:
-          "Le RZ-2 intègre en série les modifications apportées au fil des ans à son prédécesseur. Les pilotes les plus audacieux considèrent que la meilleure fiabilité de ce modèle les autorise à repousser encore plus les limites de l'appareil.",
-        es:
-          'Años de modificaciones improvisadas acabaron siendo elementos de serie del diseño del RZ-2, pero para los pilotos más osados, las mejoras en la fiabilidad de la nave no son más que un incentivo para buscar nuevos límites a sus prestaciones.',
-      },
+      text:
+        "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       slots: ['Talent', 'Talent', 'Tech'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg',
       ffg: 439,
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png',
-      },
       loadout: 2,
       extended: true,
+      caption: '',
     },
     {
-      name: {
-        en: 'Blue Squadron Recruit',
-        de: 'Rekrut der \nblauen Staffel',
-        fr: "Recrue de l'Escadron Bleu",
-        es: 'Recluta del Escuadrón Azul',
-      },
+      name: 'Blue Squadron Recruit',
       initiative: 1,
       limited: 0,
       cost: 4,
       xws: 'bluesquadronrecruit',
-      text: {
-        en:
-          'Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.',
-        de:
-          'Überall in der Galaxis wachsen junge Leute mit Geschichten über die Helden des Galaktischen Bürgerkriegs auf. Viele lernen das Fliegen in den Cockpits, in denen ihre Eltern einst das Imperium bekämpften.',
-        fr:
-          "Toute une génération a grandi avec des récits d'exploits héroïques lors de la Guerre Civile Galactique, et nombreux sont ceux qui ont appris à piloter dans les mêmes cockpits qui avaient accueilli leurs parents dans leur combat contre l'Empire.",
-        es:
-          'Jóvenes de toda la galaxia han crecido escuchando heroicos relatos de la Guerra Civil Galáctica, y muchos de ellos aprendieron a pilotar en las mismas carlingas en las que sus padres combatieron al Imperio.',
-      },
+      text:
+        'Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.',
       slots: ['Talent', 'Tech'],
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg',
       ffg: 440,
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png',
-      },
       loadout: 4,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Zizi Tlo' },
+      name: 'Zizi Tlo',
       initiative: 5,
       limited: 1,
       cost: 5,
       xws: 'zizitlo',
-      ability: {
-        en:
-          'After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.',
-        de:
-          'Nachdem du verteidigt oder einen Angriff durchgeführt hast, darfst du 1 [Charge] ausgeben, um 1 Fokus- oder Ausweichmarker zu erhalten.',
-        fr:
-          "Après avoir défendu ou effectué une attaque, vous pouvez dépenser 1 [Charge] pour gagner 1 marqueur de concentration ou d'évasion.",
-        es:
-          'Después de que te defiendas o efectúes un ataque, puedes gastar 1 [Charge] para recibir 1 ficha de Concentración o de Evasión.',
-      },
+      ability:
+        'After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.',
       charges: { value: 1, recovers: 1 },
       slots: ['Talent', 'Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 638,
-      caption: {
-        en: 'Committed to the Cause',
-        de: 'Engagierte Widerstandskämpferin',
-        fr: 'Dévoué à la Cause',
-        es: 'Comprometida con la causa',
-      },
+      caption: 'Committed to the Cause',
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg',
       loadout: 15,
       extended: true,
     },
     {
-      name: { en: 'Ronith Blario' },
+      name: 'Ronith Blario',
       initiative: 2,
       limited: 1,
       cost: 4,
       xws: 'ronithblario',
-      ability: {
-        en:
-          "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
-        de:
-          'Solange du verteidigst oder einen Angriff durchführst, falls das feindliche Schiff im [Single Turret Arc] eines anderen befreundeten Schiffes ist, darfst du 1 Fokusmarker jenes befreundeten Schiffes ausgeben, um 1 deiner [Focus]-Ergebnisse in ein [Evade]- oder [Hit]-Ergebnis zu ändern.',
-        fr:
-          "Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi est dans l' [Single Turret Arc] d'un autre vaisseau allié, vous pouvez dépenser 1 marqueur de concentration de ce vaisseau allié pour changer 1 de vos résultats [Focus] en un résultat [Evade] ou [Hit].",
-        es:
-          'Mientras te defiendes o efectúas un ataque, si la nave enemiga se halla en el [Single Turret Arc] de otra nave aliada, puedes gastar 1 ficha de Concentración de esa nave aliada para cambiar 1 de tus resultados [Focus] por un resultado [Evade] o [Hit] .',
-      },
+      ability:
+        "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
       slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 639,
-      caption: {
-        en: 'Reckless Rookie',
-        de: 'Unerfahrener Draufgänger',
-        fr: 'Débutant Inconscient',
-        es: 'Novato temerario',
-      },
+      caption: 'Reckless Rookie',
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg',
       loadout: 8,
       extended: true,
     },
     {
       xws: 'merlcobben',
-      name: { en: 'Merl Cobben' },
-      caption: {
-        en: 'Distracting Daredevil',
-        de: 'Verwirrender Draufgänger',
-        es: 'Osado señuelo',
-        fr: 'Perturbateur Casse-Cou',
-      },
+      name: 'Merl Cobben',
+      caption: 'Distracting Daredevil',
       cost: 3,
       initiative: 1,
       limited: 1,
-      ability: {
-        en:
-          "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
-        de:
-          'Solange ein befreundetes Schiff in Reichweite 0-2 einen Primärangriff durchführt, falls du im [Bullseye Arc] des Verteidigers bist, wirft der Verteidiger 1 Verteidigungswürfel weniger. Optimierte Gyrostabilisatoren: Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc]- oder [Rear Arc] rotieren. Nachdem du eine Aktion durchgeführt hast, darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen.',
-        es:
-          'Mientras una nave aliada que tienes a alcance 0-2 efectúa un ataque principal, si estás situado en el [Bullseye Arc] del defensor, ese defensor tira 1 dado de defensa menos.',
-        fr:
-          "Tant qu'un vaisseau allié à portée 0-2 effectue une attaque principale, si vous êtes dans le [Bullseye Arc] du défenseur, ce dernier lance 1 dé de défense en moins.",
-      },
+      ability:
+        "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
       slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 704,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://images-cdn.fantasyflightgames.com/filer_public/18/3e/183ed99b-c562-4db5-9377-daf4661dfac9/swz68_merl-cobben.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg',
       loadout: 7,
       extended: true,
     },
     {
       xws: 'suralindajavos',
-      name: { en: 'Suralinda Javos' },
-      caption: {
-        en: 'Inquisitive Journalist',
-        de: 'Neugierige Journalistin',
-        es: 'Periodista inquisitiva',
-        fr: 'Journaliste Curieuse',
-      },
+      name: 'Suralinda Javos',
+      caption: 'Inquisitive Journalist',
       cost: 4,
       initiative: 3,
       limited: 1,
-      ability: {
-        en:
-          'After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.',
-        de:
-          'Nachdem du ein Manöver teilweise ausgeführt hast, darfst du 1 Anstrengungsmarker erhalten, um dich um 90˚ oder 180˚ zu drehen. Optimierte Gyrostabilisatoren: Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc]- oder [Rear Arc] rotieren. Nachdem du eine Aktion durchgeführt hast, darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen.',
-        es:
-          'Después de que ejecutes parcialmente una maniobra puedes recibir 1 ficha de Sobresfuerzo para girarte 90˚ o 180˚.',
-        fr:
-          'Après avoir partiellement exécuté une manœuvre, vous pouvez gagner 1 marqueur de contrainte pour pivoter de 90° ou 180°.',
-      },
+      ability:
+        'After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.',
       slots: ['Talent', 'Talent', 'Tech', 'Cannon', 'Modification'],
       standard: true,
       epic: true,
       ffg: 703,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://images-cdn.fantasyflightgames.com/filer_public/e1/64/e1644adc-8d8a-4408-90a1-621e0dd4b0c6/swz68_suralinda-javos.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg',
       loadout: 10,
       extended: true,
     },
     {
       xws: 'wrobietyce',
-      name: { en: 'Wrobie Tyce', es: 'Tyce Wrobie', fr: 'Tyce Wrobie' },
-      caption: {
-        en: 'Dynamic Aerialist',
-        de: 'Dynamische Luftakrobatin',
-        es: 'Artista de las acrobacias',
-        fr: 'Acrobate Dynamique',
-      },
+      name: 'Wrobie Tyce',
+      caption: 'Dynamic Aerialist',
       cost: 4,
       initiative: 4,
       limited: 1,
-      ability: {
-        en:
-          'After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.',
-        de:
-          'Nachdem du in Angriffsreichweite 1 verteidigt hast, falls der Angreifer seine Würfel modifiziert hat, erhält der Angreifer 1 Erschöpfungsmarker. Optimierte Gyrostabilisatoren: Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc]- oder [Rear Arc] rotieren. Nachdem du eine Aktion durchgeführt hast, darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen.',
-        es:
-          'Después de que te defiendas a alcance de ataque 1, si el atacante ha modificado sus dados, ese atacante recibe 1 ficha de Merma.',
-        fr:
-          "Après que vous avez défendu à portée d'attaque 1, si l'attaquant a modifié ses dés, il gagne un marqueur d'épuisement.",
-      },
+      ability:
+        'After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.',
       slots: ['Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 702,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://images-cdn.fantasyflightgames.com/filer_public/d3/66/d3669149-00da-4abf-9e08-9655e10db166/swz68_wrobie-tyce.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg',
       loadout: 7,
       extended: true,
     },
     {
-      name: { en: 'Seftin Vanik', es: 'Vanik Septin', fr: 'Vanik Septin' },
-      caption: {
-        en: 'Skillful Wingmate',
-        de: 'Geschickter Flügelmann',
-        es: 'Hábil compañero de ala',
-        fr: 'Ailier Compétent',
-      },
+      name: 'Seftin Vanik',
+      caption: 'Skillful Wingmate',
       initiative: 5,
       limited: 1,
       cost: 4,
       xws: 'seftinvanik',
-      ability: {
-        en:
-          'After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.',
-        de:
-          'Nachdem du eine [Boost]-Aktion durchgeführt hast, darfst du 1 Ausweichmarker auf ein befreundetes Schiff in Reichweite 1 transferieren. Optimierte Gyrostabilisatoren: Du kannst deinen [Single Turret Arc]-Anzeiger nur auf deinen [Front Arc]- oder [Rear Arc] rotieren. Nachdem du eine Aktion durchgeführt hast, darfst du eine rote [Boost]- oder eine rote [Rotate Arc]-Aktion durchführen.',
-        es:
-          'Después de que realices una acción [Boost], puedes transferir 1 ficha de Evasión a una nave aliada que tengas a alcance 1.',
-        fr:
-          "Après avoir effectué une action [Boost], vous pouvez transférer 1 marqueur d'évasion à un vaisseau allié à portée 1.",
-      },
+      ability:
+        'After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.',
       slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 701,
       keywords: ['A-wing'],
-      image: {
-        en:
-          'https://images-cdn.fantasyflightgames.com/filer_public/73/ef/73ef0cdc-deb6-451d-a76c-0b3d9ef147ec/swz68_seftin-vanik.png',
-      },
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg',
       loadout: 5,
       extended: true,
     },

@@ -48,7 +48,6 @@ type TypeC = (s: string) => string;
 
 export const shipTypeOptions = (
   squadron: Squadron,
-  t: TypeT,
   collection: CollectionState,
   showUnavailable: boolean,
   needle?: string
@@ -76,9 +75,9 @@ export const shipTypeOptions = (
       if (!needle) {
         return true;
       }
-      return t(p.name).toLowerCase().indexOf(needle.toLowerCase()) >= 0;
+      return p.name.toLowerCase().indexOf(needle.toLowerCase()) >= 0;
     })
-    .sort((a, b) => a.name.en.localeCompare(b.name.en))
+    .sort((a, b) => a.name.localeCompare(b.name))
     .map((s) => ({
       ...s,
       pilots: s.pilots.filter((p: Pilot) => {
@@ -97,7 +96,6 @@ export const pilotOptions = (
   faction: Faction,
   format: Format,
   shipXws: string,
-  t: TypeT,
   needle?: string
 ): Pilot[] => {
   const ship = Object.keys(pilotData[faction])
@@ -122,9 +120,9 @@ export const pilotOptions = (
           return true;
         }
         return (
-          t(p.name).toLowerCase().indexOf(needle.toLowerCase()) >= 0 ||
+          p.name.toLowerCase().indexOf(needle.toLowerCase()) >= 0 ||
           (p.ability &&
-            t(p.ability).toLowerCase().indexOf(needle.toLowerCase()) >= 0)
+            p.ability.toLowerCase().indexOf(needle.toLowerCase()) >= 0)
         );
       })
       .sort((a, b) => {
@@ -137,7 +135,7 @@ export const pilotOptions = (
         } else if (a.cost > b.cost) {
           return -1;
         }
-        return a.name.en.toLowerCase().localeCompare(b.name.en.toLowerCase());
+        return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
       });
   }
   return [];

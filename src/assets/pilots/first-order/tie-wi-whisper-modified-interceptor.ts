@@ -1,7 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: { en: 'TIE/wi Whisper Modified Interceptor' },
+  name: 'TIE/wi Whisper Modified Interceptor',
   xws: 'tiewiwhispermodifiedinterceptor',
   size: 'Small',
   ffg: 88,
@@ -53,16 +53,14 @@ const t: ShipType = {
     },
   ],
   ability: {
-    name: { en: 'Heavy Weapon Turret' },
-    text: {
-      en:
-        'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You <strong>must</strong> treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]',
-    },
+    name: 'Heavy Weapon Turret',
+    text:
+      'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You <strong>must</strong> treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]',
   },
   icon: '???',
   pilots: [
     {
-      name: { en: 'Kylo Ren' },
+      name: 'Kylo Ren',
       xws: 'kyloren-tiewiwhispermodifiedinterceptor',
       initiative: 5,
       limited: 1,
@@ -77,124 +75,102 @@ const t: ShipType = {
         'Tech',
         'Configuration',
       ],
-      ability: {
-        en:
-          'Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.',
-      },
+      ability:
+        'Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.',
       ffg: 919,
-      artwork: '???',
-      caption: { en: 'Supreme Leader of the First Order' },
+      caption: 'Supreme Leader of the First Order',
       keywords: ['Dark Side', 'Light Side', 'TIE'],
       force: { value: 3, recovers: 1, side: ['dark', 'light'] },
       epic: true,
-      image: { en: '???' },
       loadout: 18,
       extended: true,
     },
     {
-      name: { en: '"Wrath"' },
+      name: '“Wrath”',
       xws: 'wrath',
       initiative: 5,
       limited: 1,
       standard: true,
       cost: 5,
       slots: ['Talent', 'Talent', 'Tech', 'Tech', 'Configuration'],
-      ability: {
-        en:
-          'After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.',
-      },
+      ability:
+        'After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.',
       ffg: 920,
-      artwork: '???',
-      caption: { en: 'Herald of Destruction' },
+      caption: 'Herald of Destruction',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 15,
       extended: true,
     },
     {
-      name: { en: '"Nightfall"' },
+      name: '“Nightfall”',
       xws: 'nightfall',
       initiative: 4,
       limited: 1,
-      text: { en: '???' },
+      text: '???',
       standard: true,
       cost: 4,
       slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Tech', 'Configuration'],
       ffg: 921,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
-      caption: { en: '709th Legion Veteran' },
-      ability: {
-        en:
-          'After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.',
-      },
+      caption: '709th Legion Veteran',
+      ability:
+        'After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.',
       loadout: 10,
       extended: true,
     },
     {
-      name: { en: '"Whirlwind"' },
+      name: '“Whirlwind”',
       xws: 'whirlwind',
       initiative: 3,
       limited: 1,
-      text: { en: '???' },
+      text: '???',
       standard: true,
       cost: 4,
       slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 922,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
-      caption: { en: 'Reap What You Sow' },
-      ability: {
-        en:
-          'Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].',
-      },
+      caption: 'Reap What You Sow',
+      ability:
+        'Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].',
       loadout: 12,
       extended: true,
     },
     {
-      name: { en: '709th Legion Ace' },
+      name: '709th Legion Ace',
       xws: '709thlegionace',
       initiative: 4,
       limited: 0,
-      text: {
-        en:
-          "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
-      },
+      text:
+        "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
       standard: true,
       cost: 4,
       slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 923,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 10,
       extended: true,
+      caption: '',
     },
     {
-      name: { en: 'Red Fury Zealot' },
+      name: 'Red Fury Zealot',
       xws: 'redfuryzealot',
       initiative: 2,
       limited: 0,
-      text: {
-        en:
-          'Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.',
-      },
+      text:
+        'Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.',
       standard: true,
       cost: 4,
       slots: ['Talent', 'Missile', 'Tech', 'Tech', 'Configuration'],
       ffg: 924,
-      artwork: '???',
       keywords: ['TIE'],
       epic: true,
-      image: { en: '???' },
       loadout: 3,
       extended: true,
+      caption: '',
     },
   ],
 };

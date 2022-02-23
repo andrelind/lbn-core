@@ -1,7 +1,7 @@
 import { ShipType } from '../../../types';
 
 const t: ShipType = {
-  name: { en: 'Trident-class Assault Ship' },
+  name: 'Trident-class Assault Ship',
   xws: 'tridentclassassaultship',
   size: 'Huge',
   dial: [],
@@ -23,7 +23,7 @@ const t: ShipType = {
     {
       xws: 'lawlesspirates',
       ffg: 950,
-      name: { en: 'Lawless Pirates' },
+      name: 'Lawless Pirates',
       cost: 85,
       limited: 0,
       initiative: 8,
@@ -41,10 +41,8 @@ const t: ShipType = {
       ],
       standard: false,
       epic: true,
-      text: {
-        en:
-          'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',
-      },
+      text:
+        'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',
     },
   ],
 };
