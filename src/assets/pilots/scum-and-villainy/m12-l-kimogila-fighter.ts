@@ -57,7 +57,6 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       name: 'Dalan Oberos',

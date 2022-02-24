@@ -41,6 +41,9 @@ String.prototype.trimName = function () {
     .replaceAll('(erratic)', '')
     .replaceAll('(active)', '')
     .replaceAll('(inactive)', '')
+    .replaceAll('-', '')
+    .replaceAll(' ', '')
+    .replaceAll('é', 'e')
     .trim();
 };
 
@@ -72,13 +75,21 @@ const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
     .reduce((a, c) => [...a, ...c], [])
     .filter((x) => x);
 
-  if (shipsAndPilots.length > 1) {
+  if (shipsAndPilots.length > 1 && subtitle?.length > 0) {
     return shipsAndPilots.find(
       (p) => p?.pilot?.caption?.trimName() === subtitle.trimName()
     );
   }
   return shipsAndPilots[0];
 };
+
+const blacklist = [
+  'IMPERIAL',
+  'REBEL',
+  'REPUBLIC',
+  'Ship Points Document',
+  'Effective Date: 03/01/2022',
+];
 
 const runShips = async () => {
   const wbLoader = new ExcelJS.Workbook();
@@ -93,11 +104,11 @@ const runShips = async () => {
         return;
       }
 
-      const pilotName = row.getCell(1).text.replaceAll('•', '');
+      let pilotName = row.getCell(1).text.replaceAll('•', '');
       const subtitle = row.getCell(2).text;
       const cost = row.getCell(3).text;
       const loadout = row.getCell(4).text;
-      const upgrades = row.getCell(5).text;
+      // const upgrades = row.getCell(5).text;
       const keywords = row
         .getCell(6)
         .text.split(',')
@@ -105,22 +116,40 @@ const runShips = async () => {
       const std = row.getCell(7).text;
       const ext = row.getCell(8).text;
 
+      for (const bl of blacklist) {
+        if (pilotName.indexOf(bl) >= 0) {
+          return;
+        }
+      }
+
+      if (subtitle === '[object Object]') {
+        shipName = pilotName.replace(' (continued)', '');
+
+        if (shipName === 'Scavenged YT-1300 Light Freighter') {
+          shipName = 'Scavenged YT-1300';
+        } else if (shipName === 'Xi-class shuttle') {
+          shipName = 'Xi-class Light Shuttle';
+        }
+        return;
+      }
+      if (pilotName === 'Nimi Chereen') {
+        pilotName = 'Nimi Chireen';
+      } else if (pilotName === 'Shadow Collective Operative') {
+        pilotName = 'Shadow Collective Operator';
+      }
+
       const shipAndPilot = findShipAndPilot(shipName, pilotName, subtitle);
       if (!shipAndPilot || !cost) {
-        if (subtitle !== '[object Object]') {
-          console.log(
-            `Not found: ${pilotName} ${subtitle} ${cost} ${loadout} ${upgrades} ${keywords} ${std} ${ext}`
-          );
-        } else {
-          shipName = pilotName.substring(0, pilotName.indexOf('(')).trim();
-        }
+        console.log(
+          `Not found: '${shipName}' '${pilotName}' '${subtitle}' ${cost} ${loadout} ${keywords} ${std} ${ext}`
+        );
         return;
       }
 
       const { ship, pilot } = shipAndPilot;
 
       pilot.name = pilotName;
-      pilot.caption = subtitle;
+      pilot.caption = subtitle?.length > 0 ? subtitle : undefined;
 
       pilot.cost = parseInt(cost, 10);
       pilot.loadout = parseInt(loadout, 10);
@@ -193,7 +222,7 @@ const runUpgrades = async () => {
         }
 
         const upgrade = findUpgrade(name, type);
-        if (!upgrade) {
+        if (!upgrade || name === 'Delta-7B') {
           console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
           return;
         }

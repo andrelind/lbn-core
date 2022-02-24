@@ -52,7 +52,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Drea Renthal',
@@ -95,7 +94,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Kavil',
@@ -188,7 +186,6 @@ const t: ShipType = {
         'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       xws: 'padric',
@@ -231,7 +228,6 @@ const t: ShipType = {
         "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
 };

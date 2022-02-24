@@ -113,7 +113,6 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 7,
       extended: true,
-      caption: '',
     },
   ],
 };

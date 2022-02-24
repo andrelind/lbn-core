@@ -107,7 +107,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
-      caption: '',
     },
     {
       name: 'Overseer Yushyn',
@@ -142,7 +141,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
-      caption: '',
     },
   ],
 };

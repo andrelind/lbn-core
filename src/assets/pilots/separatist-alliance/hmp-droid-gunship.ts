@@ -85,7 +85,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       xws: 'geonosianprototype',
@@ -169,7 +168,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 75,

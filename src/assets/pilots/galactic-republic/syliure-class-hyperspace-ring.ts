@@ -30,7 +30,6 @@ const t: ShipType = {
       ffg: 787,
       loadout: 0,
       extended: false,
-      caption: '',
     },
   ],
 };

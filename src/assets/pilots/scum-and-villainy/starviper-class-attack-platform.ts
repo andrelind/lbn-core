@@ -66,7 +66,6 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Black Sun Enforcer',
@@ -82,7 +81,6 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Dalan Oberos',

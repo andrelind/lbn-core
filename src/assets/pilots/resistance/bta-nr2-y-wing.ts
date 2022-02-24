@@ -283,7 +283,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
-      caption: '',
     },
     {
       name: 'Kijimi Spice Runner',
@@ -309,7 +308,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
 };

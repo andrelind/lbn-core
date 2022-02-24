@@ -138,7 +138,6 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Yoda',

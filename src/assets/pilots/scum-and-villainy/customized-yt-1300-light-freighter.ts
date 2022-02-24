@@ -63,7 +63,6 @@ const t: ShipType = {
       keywords: ['Freighter', 'YT-1300'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Han Solo',

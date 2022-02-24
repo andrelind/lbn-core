@@ -50,7 +50,6 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Lowhhrick',

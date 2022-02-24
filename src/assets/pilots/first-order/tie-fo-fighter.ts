@@ -147,7 +147,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: '“Muse”',
@@ -198,7 +197,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       name: 'Epsilon Squadron Cadet',
@@ -215,7 +213,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 2,
       extended: true,
-      caption: '',
     },
     {
       name: 'Lieutenant Rivas',

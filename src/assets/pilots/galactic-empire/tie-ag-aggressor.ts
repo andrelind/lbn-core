@@ -105,7 +105,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sienar Specialist',
@@ -122,7 +121,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
-      caption: '',
     },
   ],
 };

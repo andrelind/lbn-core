@@ -152,7 +152,6 @@ const t: ShipType = {
       ability:
         "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results.",
       keywords: ['TIE'],
-
       loadout: 18,
       extended: true,
     },

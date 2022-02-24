@@ -83,7 +83,6 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Emon Azzameen',

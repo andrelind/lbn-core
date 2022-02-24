@@ -158,7 +158,6 @@ const t: ShipType = {
       ],
       ability:
         'After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].',
-
       cost: 8,
       ffg: 630,
       keywords: ['Freighter', 'YT-1300', 'Light Side'],

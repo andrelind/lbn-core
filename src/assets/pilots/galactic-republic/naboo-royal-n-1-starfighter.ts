@@ -122,7 +122,6 @@ const t: ShipType = {
       ffg: 562,
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'Naboo Handmaiden',

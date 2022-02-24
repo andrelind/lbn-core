@@ -114,7 +114,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 2,
       extended: true,
-      caption: '',
     },
     {
       name: 'Tempest Squadron Pilot',
@@ -131,7 +130,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Ved Foslo',

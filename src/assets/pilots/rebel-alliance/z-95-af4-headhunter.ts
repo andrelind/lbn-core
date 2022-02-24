@@ -67,7 +67,6 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: 'Lieutenant Blount',
@@ -99,7 +98,6 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
 };

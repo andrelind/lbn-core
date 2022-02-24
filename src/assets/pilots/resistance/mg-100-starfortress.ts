@@ -60,7 +60,6 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
-      caption: '',
     },
     {
       name: 'Cat',

@@ -143,7 +143,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 7,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 74,

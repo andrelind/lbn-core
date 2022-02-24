@@ -180,7 +180,6 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sienar-Jaemus Test Pilot',
@@ -197,7 +196,6 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      caption: '',
     },
   ],
 };

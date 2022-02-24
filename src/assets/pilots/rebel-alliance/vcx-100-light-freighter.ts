@@ -96,9 +96,10 @@ const t: ShipType = {
         'Title',
       ],
       ffg: 73,
-      standard: true,
+      standard: false,
       epic: true,
       keywords: ['Freighter', 'Spectre'],
+      extended: true,
     },
     {
       name: 'Kanan Jarrus',
@@ -121,12 +122,10 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-
       ffg: 74,
       standard: true,
       epic: true,
-      keywords: ['Jedi', 'Light Side', 'Freighter'],
-
+      keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
       loadout: 20,
       extended: true,
     },
@@ -138,9 +137,7 @@ const t: ShipType = {
       xws: 'lothalrebel',
       text:
         'Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.',
-
       slots: ['Turret', 'Torpedo', 'Gunner'],
-
       ffg: 76,
       standard: true,
       epic: true,

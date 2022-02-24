@@ -57,7 +57,6 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Blue Squadron Pilot',
@@ -74,7 +73,6 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Braylen Stramm',

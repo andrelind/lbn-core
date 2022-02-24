@@ -93,7 +93,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sigma Squadron Ace',
@@ -110,7 +109,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
-      caption: '',
     },
   ],
 };

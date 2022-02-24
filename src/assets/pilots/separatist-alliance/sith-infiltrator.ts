@@ -109,7 +109,6 @@ const t: ShipType = {
       ffg: 506,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: '0-66',

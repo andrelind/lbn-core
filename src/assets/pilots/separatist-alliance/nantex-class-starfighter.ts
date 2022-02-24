@@ -56,7 +56,6 @@ const t: ShipType = {
       ffg: 609,
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sun Fac',
@@ -136,7 +135,6 @@ const t: ShipType = {
       xws: 'petranakiarenaace',
       loadout: 6,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 67,

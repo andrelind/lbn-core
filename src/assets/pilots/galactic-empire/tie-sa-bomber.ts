@@ -112,7 +112,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       name: 'Major Rhymer',
@@ -154,7 +153,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Tomax Bren',

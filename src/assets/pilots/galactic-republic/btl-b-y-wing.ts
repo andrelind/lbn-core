@@ -62,7 +62,6 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Anakin Skywalker',
@@ -238,7 +237,6 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 68,

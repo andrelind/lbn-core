@@ -2,7 +2,6 @@ import { ShipType } from '../../../types';
 
 const t: ShipType = {
   name: 'Gauntlet Fighter',
-
   xws: 'gauntletfighter',
   size: 'Large',
   dial: [
@@ -62,7 +61,8 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Mandalorian'],
+      keywords: ['Dark Side'],
+      caption: 'Lord of the Shadow Collective',
     },
     {
       xws: 'rookkast',
@@ -87,6 +87,7 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Stoic Super Commando',
     },
     {
       xws: 'shadowcollectiveoperator',

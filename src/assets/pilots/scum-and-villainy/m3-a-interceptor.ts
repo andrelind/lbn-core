@@ -57,7 +57,6 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Genesis Red',
@@ -170,7 +169,6 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'G4R-G0R V/M',

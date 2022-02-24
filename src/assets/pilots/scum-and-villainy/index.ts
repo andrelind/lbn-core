@@ -21,6 +21,7 @@ import yv666lightfreighter from './yv-666-light-freighter';
 import z95af4headhunter from './z-95-af4-headhunter';
 import tridentclassassaultship from './trident-class-assault-ship';
 import gauntletfighter from './gauntlet-fighter';
+import st70assaultship from './st-70-assault-ship';
 
 const ships: { [s: string]: ShipType } = {
   aggressorassaultfighter,
@@ -42,6 +43,7 @@ const ships: { [s: string]: ShipType } = {
   quadrijettransferspacetug,
   scurrgh6bomber,
   starviperclassattackplatform,
+  st70assaultship,
   yv666lightfreighter,
   z95af4headhunter,
   tridentclassassaultship,

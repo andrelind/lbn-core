@@ -267,7 +267,6 @@ const t: ShipType = {
       xws: 'wedgeantilles',
       ability:
         'While you perform an attack, the defender rolls 1 fewer defense die.',
-
       slots: [
         'Talent',
         'Talent',
@@ -280,6 +279,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
+      extended: true,
     },
   ],
 };

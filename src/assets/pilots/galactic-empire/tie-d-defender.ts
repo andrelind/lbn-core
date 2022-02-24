@@ -103,7 +103,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Onyx Squadron Ace',
@@ -120,7 +119,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Rexler Brath',

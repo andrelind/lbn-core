@@ -51,7 +51,6 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
-      caption: '',
     },
     {
       name: 'Captain Jostero',
@@ -83,7 +82,6 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: 'Graz',

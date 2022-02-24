@@ -115,7 +115,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: 'Planetary Sentinel',
@@ -132,7 +131,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: '“Vagabond”',

@@ -117,7 +117,6 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
-      caption: '',
     },
     {
       name: 'Rogue Squadron Escort',
@@ -133,7 +132,6 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      caption: '',
     },
   ],
 };

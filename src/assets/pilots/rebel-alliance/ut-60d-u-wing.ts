@@ -73,7 +73,6 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Bodhi Rook',
@@ -170,7 +169,6 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Saw Gerrera',

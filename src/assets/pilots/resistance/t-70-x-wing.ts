@@ -46,14 +46,13 @@ const t: ShipType = {
   pilots: [
     {
       name: 'Poe Dameron',
-      caption: 'Trigger-Happy Flyboy',
+      caption: 'Resistance Commander',
       initiative: 6,
       limited: 1,
       xws: 'poedameron',
       ability:
         'After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.',
-
-      cost: 7,
+      cost: 6,
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',
@@ -69,7 +68,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 25,
+      loadout: 12,
       extended: true,
     },
     {
@@ -140,9 +139,10 @@ const t: ShipType = {
       loadout: 10,
       slots: ['Talent', 'Tech', 'Astromech', 'Modification', 'Configuration'],
       ffg: 451,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['X-wing'],
+      extended: true,
     },
     {
       name: 'Ello Asty',
@@ -185,7 +185,7 @@ const t: ShipType = {
       extended: true,
     },
     {
-      name: 'Kare Kun',
+      name: 'Karé Kun',
       caption: 'Woman of Action',
       initiative: 4,
       limited: 1,
@@ -206,6 +206,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
+      extended: true,
     },
     {
       name: 'Lieutenant Bastian',
@@ -370,6 +371,7 @@ const t: ShipType = {
       epic: true,
       ffg: 700,
       keywords: ['X-wing'],
+      extended: true,
     },
   ],
 };

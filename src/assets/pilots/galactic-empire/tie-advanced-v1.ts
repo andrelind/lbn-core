@@ -66,7 +66,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 2,
       extended: true,
-      caption: '',
     },
     {
       name: 'Grand Inquisitor',
@@ -102,7 +101,6 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: 'Seventh Sister',

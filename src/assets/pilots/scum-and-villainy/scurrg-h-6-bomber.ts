@@ -77,7 +77,6 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sol Sixxa',

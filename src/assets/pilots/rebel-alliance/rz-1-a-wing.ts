@@ -76,7 +76,6 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Jake Farrell',
@@ -110,7 +109,6 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       xws: 'wedgeantilles-rz1awing',

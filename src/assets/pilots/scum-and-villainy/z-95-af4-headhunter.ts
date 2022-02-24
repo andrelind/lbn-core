@@ -46,7 +46,6 @@ const t: ShipType = {
       text:
         "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.",
       slots: ['Illicit'],
-
       ffg: 173,
       standard: true,
       epic: true,

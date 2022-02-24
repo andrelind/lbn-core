@@ -135,7 +135,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       name: 'Colicoid Interceptor',
@@ -152,7 +151,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 77,

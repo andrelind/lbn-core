@@ -134,7 +134,6 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       name: 'Zealous Recruit',
@@ -151,7 +150,6 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       name: 'Mandalorian Royal Guard',

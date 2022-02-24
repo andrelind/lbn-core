@@ -153,7 +153,6 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       name: 'Red Fury Zealot',
@@ -170,7 +169,6 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
-      caption: '',
     },
   ],
 };

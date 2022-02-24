@@ -171,6 +171,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 890,
+      extended: true,
     },
     {
       xws: 'commandantgoran',

@@ -2,7 +2,6 @@ import { ShipType } from '../../../types';
 
 const t: ShipType = {
   name: 'Gauntlet Fighter',
-
   xws: 'gauntletfighter',
   size: 'Large',
   dial: [
@@ -38,7 +37,7 @@ const t: ShipType = {
   pilots: [
     {
       xws: 'chopper',
-      name: 'Chopper',
+      name: '"Chopper"',
       ability:
         'At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.',
       cost: 7,
@@ -57,7 +56,8 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Mandalorian'],
+      keywords: ['Droid', 'Spec- tre'],
+      caption: 'Spectre-3',
     },
     {
       xws: 'ezrabridger',
@@ -85,11 +85,12 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Mandalorian'],
+      keywords: ['Light Side', 'Spectre'],
+      caption: 'Spectre-6',
     },
     {
-      xws: 'mandalorianresistancepilot',
-      name: 'Mandalorian Resistance Pilot ',
+      xws: 'mandalorianresistancefighter',
+      name: 'Mandalorian Resistance Fighter',
       cost: 7,
       loadout: 10,
       initiative: 2,
@@ -106,6 +107,7 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Clan Loyalist',
     },
   ],
 };

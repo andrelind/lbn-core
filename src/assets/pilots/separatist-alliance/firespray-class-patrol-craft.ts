@@ -133,7 +133,6 @@ const t: ShipType = {
       ffg: 803,
       loadout: 7,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 10,

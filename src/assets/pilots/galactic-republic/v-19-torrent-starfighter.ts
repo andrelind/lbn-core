@@ -140,7 +140,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
     {
       name: 'Gold Squadron Trooper',
@@ -157,7 +156,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 62,

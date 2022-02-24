@@ -107,7 +107,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: 'Captain Sear',
@@ -139,7 +138,6 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 58,

@@ -138,7 +138,6 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 2,
       extended: true,
-      caption: '',
     },
     {
       name: 'Blue Squadron Recruit',
@@ -155,7 +154,6 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Zizi Tlo',

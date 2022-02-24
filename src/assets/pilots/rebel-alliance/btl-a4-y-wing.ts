@@ -103,7 +103,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Gray Squadron Bomber',
@@ -120,7 +119,6 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'Horton Salm',

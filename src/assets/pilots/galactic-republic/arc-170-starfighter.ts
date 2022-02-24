@@ -152,7 +152,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'Squad Seven Veteran',
@@ -169,7 +168,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 10,
       extended: true,
-      caption: '',
     },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',

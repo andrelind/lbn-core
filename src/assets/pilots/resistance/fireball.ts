@@ -59,7 +59,6 @@ const t: ShipType = {
         'Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.',
       loadout: 2,
       extended: true,
-      caption: '',
     },
     {
       name: 'Jarek Yeager',

@@ -140,7 +140,6 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       name: 'Loyalist Volunteer',
@@ -156,7 +155,6 @@ const t: ShipType = {
       ffg: 793,
       loadout: 4,
       extended: true,
-      caption: '',
     },
   ],
   ffg: 71,

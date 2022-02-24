@@ -78,9 +78,10 @@ const t: ShipType = {
         'Title',
       ],
       ffg: 429,
-      standard: false,
+      standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      extended: true,
     },
     {
       name: 'Han Solo',
@@ -90,7 +91,7 @@ const t: ShipType = {
       xws: 'hansolo-scavengedyt1300',
       ability:
         'Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.',
-      cost: 62,
+      cost: 6,
       slots: [
         'Talent',
         'Missile',
@@ -106,6 +107,8 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
+      loadout: 15,
+      extended: true,
     },
     {
       name: 'Rey',

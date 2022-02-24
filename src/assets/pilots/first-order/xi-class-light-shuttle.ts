@@ -82,6 +82,7 @@ const t: ShipType = {
       epic: true,
       ability:
         'While a friendly ship at range 0-2 performs a primary attack, before the Modify Dice step, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
+      extended: true,
     },
     {
       xws: 'firstordercourier',

@@ -59,7 +59,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 0,
       extended: true,
-      caption: '',
     },
     {
       name: 'Precise Hunter',
@@ -127,7 +126,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'DFS-311',

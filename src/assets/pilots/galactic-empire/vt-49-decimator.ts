@@ -79,7 +79,6 @@ const t: ShipType = {
       epic: true,
       loadout: 22,
       extended: true,
-      caption: '',
     },
     {
       name: 'Rear Admiral Chiraneau',

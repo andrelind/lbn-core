@@ -96,7 +96,6 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      caption: '',
     },
   ],
 };

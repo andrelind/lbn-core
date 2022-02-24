@@ -60,7 +60,6 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 8,
       extended: true,
-      caption: '',
     },
     {
       name: 'Obi-Wan Kenobi',

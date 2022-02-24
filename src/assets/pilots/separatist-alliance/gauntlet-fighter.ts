@@ -36,8 +36,9 @@ const t: ShipType = {
   ],
   pilots: [
     {
-      xws: 'bokatankryze',
+      xws: 'bokatankryze-separatist',
       name: 'Bo-Katan Kryze',
+      caption: "Vizsla's Lieutenant",
       ability:
         'Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.',
       cost: 7,
@@ -83,6 +84,7 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Leader of Death Watch',
     },
     {
       xws: 'deathwatchwarrior',
@@ -103,6 +105,7 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      caption: 'Fanatical Adherent',
     },
   ],
 };

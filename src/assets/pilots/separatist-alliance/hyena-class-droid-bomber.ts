@@ -61,7 +61,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Bombardment Drone',
@@ -129,7 +128,6 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'DBS-32C',

@@ -104,7 +104,6 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Torkil Mux',

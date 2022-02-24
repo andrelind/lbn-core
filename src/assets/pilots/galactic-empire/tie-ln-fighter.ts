@@ -144,7 +144,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
-      caption: '',
     },
     {
       name: 'Black Squadron Ace',
@@ -161,7 +160,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
     {
       name: 'Del Meeko',
@@ -237,7 +235,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
-      caption: '',
     },
     {
       name: 'Seyn Marana',

@@ -74,7 +74,6 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      caption: '',
     },
     {
       name: 'Sarco Plank',

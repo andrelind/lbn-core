@@ -96,7 +96,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: '“Recoil”',
@@ -147,7 +146,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
-      caption: '',
     },
     {
       name: '“Rush”',

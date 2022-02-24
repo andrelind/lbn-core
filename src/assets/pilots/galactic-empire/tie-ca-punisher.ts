@@ -116,7 +116,6 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      caption: '',
     },
   ],
 };
