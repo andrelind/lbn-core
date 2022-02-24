@@ -1,35 +1,35 @@
 Arguments: 
-  /usr/local/Cellar/node@12/12.22.6/bin/node /usr/local/bin/yarn publish
+  /usr/local/Cellar/node/17.5.0/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /Users/andrelind/.rbenv/shims:/usr/local/sbin:/usr/local/opt/node@12/bin:/usr/local/opt/ruby/bin:/usr/local/opt/node@10/bin:/Users/andrelind/.poetry/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/andrelind/.rbenv/shims
+  /Users/andrelind/.rbenv/shims:/usr/local/sbin:/usr/local/opt/node@12/bin:/usr/local/opt/ruby/bin:/usr/local/opt/node@10/bin:/Users/andrelind/.poetry/bin:/Users/andrelind/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/andrelind/.rbenv/shims
 
 Yarn version: 
-  1.22.11
+  1.22.17
 
 Node version: 
-  12.22.6
+  17.5.0
 
 Platform: 
   darwin x64
 
 Trace: 
   Error: canceled
-      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137023:13)
-      at Interface.emit (events.js:314:20)
-      at Interface._ttyWrite (readline.js:868:16)
-      at ReadStream.onkeypress (readline.js:205:10)
-      at ReadStream.emit (events.js:314:20)
-      at emitKeys (internal/readline/utils.js:335:14)
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:526:28)
+      at Interface.[_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1104:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:269:20)
+      at ReadStream.emit (node:events:526:28)
+      at emitKeys (node:internal/readline/utils:358:14)
       at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1137:36)
-      at ReadStream.emit (events.js:314:20)
-      at addChunk (_stream_readable.js:297:12)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:526:28)
+      at addChunk (node:internal/streams/readable:324:12)
 
 npm manifest: 
   {
     "name": "lbn-core",
-    "version": "1.0.113",
+    "version": "1.0.139",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
@@ -38,7 +38,8 @@ npm manifest:
       "prepublish": "rm -rf dist && yarn tsc",
       "update:xwing": "ts-node ./scripts/xwing-data/merge.ts",
       "update:ffg": "ts-node ./scripts/ffg/scrape.ts",
-      "update:sirjorj": "ts-node ./scripts/sirjorj/merge.ts"
+      "update:sirjorj": "ts-node ./scripts/sirjorj/merge.ts",
+      "ml:train": "yarn ts-node scripts/ML/create_pilot_csv.ts; python3 scripts/ML/train_lit.py; yarn ts-node scripts/ML/update_predictions.ts; cp scripts/ML/plot_data.json ../web/public/static/plot_data.json"
     },
     "devDependencies": {
       "@types/async-csv": "^2.1.1",

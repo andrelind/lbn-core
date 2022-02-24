@@ -424,6 +424,7 @@ const t: UpgradeBase[] = [
       },
     ],
     extended: true,
+    restrictions: [{ keywords: ['Mandalorian'] }],
   },
   {
     limited: 0,
@@ -443,6 +444,7 @@ const t: UpgradeBase[] = [
       },
     ],
     extended: true,
+    restrictions: [{ keywords: ['Mandalorian'] }],
   },
 ];
 
