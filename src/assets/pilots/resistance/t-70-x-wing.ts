@@ -46,13 +46,13 @@ const t: ShipType = {
   pilots: [
     {
       name: 'Poe Dameron',
-      caption: 'Resistance Commander',
+      caption: 'Trigger-Happy Flyboy',
       initiative: 6,
       limited: 1,
       xws: 'poedameron',
       ability:
         'After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.',
-      cost: 6,
+      cost: 7,
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',
@@ -68,7 +68,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 12,
+      loadout: 25,
       extended: true,
     },
     {
@@ -95,6 +95,7 @@ const t: ShipType = {
       epic: true,
       ffg: 697,
       keywords: ['X-wing'],
+      extended: true,
     },
     {
       name: 'Blue Squadron Rookie',
@@ -331,6 +332,7 @@ const t: ShipType = {
       epic: true,
       ffg: 698,
       keywords: ['X-wing'],
+      extended: true,
     },
     {
       xws: 'caithrenalli',

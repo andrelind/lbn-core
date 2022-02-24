@@ -62,6 +62,17 @@ const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
 
           const pilots = factionShips[f][key].pilots;
 
+          if (subtitle?.length > 0) {
+            const pilot = pilots.find(
+              (p) =>
+                p.name.trimName() === name.trimName() &&
+                p.caption?.trimName() === subtitle.trimName()
+            );
+            if (pilot) {
+              return { ship, pilot };
+            }
+          }
+
           const pilot = pilots.find(
             (p) => p.name.trimName() === name.trimName()
           );
