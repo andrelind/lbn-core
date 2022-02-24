@@ -1130,6 +1130,53 @@ const t: UpgradeBase[] = [
       { chassis: ['tridentclassassaultship'] },
     ],
   },
+  {
+    xws: 'nightbrother',
+    limited: 0,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability:
+          'After you reveal a non-blue maneuver, if you are stressed, you may spend 2 [Charge] to gain 1 focus or evade token.',
+        charges: { value: 2, recovers: 1 },
+        title: 'Nightbrother',
+        type: 'Title',
+        slots: ['Title', 'Modification'],
+        ffg: -1,
+      },
+    ],
+    standarized: true,
+    standard: true,
+    epic: true,
+    restrictions: [
+      { chassis: ['gauntletfighter'] },
+      { factions: ['Rebel Alliance', 'Scum and Villainy'] },
+    ],
+  },
+  {
+    xws: 'gauntlet',
+    limited: 0,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability:
+          'During the System Phase, you may spend 1 [Charge] to repair 1 faceup <strong>Ship</strong> damage card.',
+        charges: { value: 2, recovers: 0 },
+        title: 'Gauntlet',
+        grants: [{ slot: 'Crew', value: 1 }],
+        type: 'Title',
+        slots: ['Title', 'Modification'],
+        ffg: -1,
+      },
+    ],
+    standarized: true,
+    standard: true,
+    epic: true,
+    restrictions: [
+      { chassis: ['gauntletfighter'] },
+      { factions: ['Galactic Republic', 'Separatist Alliance'] },
+    ],
+  },
 ];
 
 export default t;

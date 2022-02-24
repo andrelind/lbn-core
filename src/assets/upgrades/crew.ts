@@ -1874,6 +1874,209 @@ const t: UpgradeBase[] = [
     ],
     extended: true,
   },
+  {
+    xws: 'captainhark',
+    limited: 1,
+    cost: { value: 3 },
+    sides: [
+      {
+        ability:
+          'After you fully execute a red maneuver, if you are not focused, you may spend 1 [Charge] to gain 1 focus token.',
+        title: 'Captain Hark',
+        type: 'Crew',
+        slots: ['Crew'],
+        charges: { value: 2, recovers: 0 },
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }],
+    extended: true,
+  },
+  {
+    xws: 'garsaxon',
+    limited: 1,
+    cost: { value: 8 },
+    sides: [
+      {
+        ability:
+          'While a friendly ship at range 1-3 with an initiative of 4 or lower performs an attack against a defender you have locked, the attacker may change 1 [Focus] result to a [Hit] result.',
+        title: 'Gar Saxon',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }],
+    extended: true,
+  },
+  {
+    xws: 'thechild',
+    limited: 1,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'Setup: After placing forces, choose an opponent; they assign the <strong>Merciless Pursuit</strong> condition to two of their ships. Your [Force] lose the recurring icon. After you defend, if you suffered damage during that attack, recover 1 [Force].',
+        title: 'The Child',
+        force: { value: 2, recovers: 0, side: ['light'] },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [
+      { factions: ['Galactic Empire', 'Scum and Villainy', 'Rebel Alliance'] },
+    ],
+    extended: true,
+  },
+  {
+    xws: 'bokatankryze',
+    limited: 1,
+    cost: { value: 8 },
+    sides: [
+      {
+        ability:
+          'While you perform an attack, if you are at range 0-1 of the defender, you may reroll 1 attack die.',
+        title: 'Bo-Katan Kryze',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Empire', 'Separatist Alliance'] }],
+    extended: true,
+  },
+  {
+    xws: 'bokatankryze-rebel-scum',
+    limited: 1,
+    cost: { value: 4 },
+    sides: [
+      {
+        ability:
+          'After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token.',
+        title: 'Bo-Katan Kryze',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Rebel Alliance', 'Scum and Villainy'] }],
+    extended: true,
+  },
+  {
+    xws: 'fennrau',
+    limited: 1,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
+        title: 'Fenn Rau',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Rebel Alliance', 'Scum and Villainy'] }],
+    extended: true,
+  },
+  {
+    xws: 'ursawren',
+    limited: 1,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'You can maintain up to 2 locks. Each lock must be on a different object.\n\nAfter a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship.',
+        title: 'Ursa Wren',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Rebel Alliance'] }],
+    extended: true,
+  },
+  {
+    xws: 'tristanwren',
+    limited: 1,
+    cost: { value: 2 },
+    sides: [
+      {
+        ability:
+          'While a friendy unit at range 0-3 performs a [Ordnance] attack, you may spend 1 [Charge]. If you do, the attacker may change 1 [Hit] result to a [Critical Hit] result.',
+        title: 'Tristan Wren',
+        charges: { value: 1, recovers: 1 },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { character: ['garsaxon'] },
+    ],
+    extended: true,
+  },
+  {
+    xws: 'clanwrencommandoteam',
+    limited: 1,
+    cost: { value: 7 },
+    sides: [
+      {
+        ability:
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using the front or rear guides. \n\nThis card's [Charge] cannot be recovered.",
+        title: 'Clan Wren Commando Team',
+        charges: { value: 2, recovers: 0 },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [
+      { factions: ['Rebel Alliance'] },
+      { baseSizes: ['Medium', 'Large', 'Huge'] },
+    ],
+    extended: true,
+  },
+  {
+    xws: 'clanwrencommandos',
+    limited: 1,
+    cost: { value: 9 },
+    sides: [
+      {
+        ability:
+          'After you fully execute a maneuver, you may spend 1 [Force] to choose 1 friendly ship in your [Full Rear Arc] at range 1-2. If you do, that ship may perform a red [Focus] action, even while stressed.',
+        title: 'Ahsoka Tano',
+        force: { value: 1, recovers: 1, side: ['light'] },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic', 'Scum and Villainy'] }],
+    extended: true,
+  },
 ];
 
 export default t;

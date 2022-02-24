@@ -629,6 +629,33 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    xws: 'swivelwing',
+    limited: 0,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability:
+          'After you execute a (0 [Stop]) maneuver, you may rotate your ship 90º or 180º. If you do, you <strong>must</strong> flip this card.',
+        title: 'Swivel Wing (Down)',
+        type: 'Configuration',
+        slots: ['Configuration'],
+        ffg: -1,
+      },
+      {
+        ability:
+          'While you defend, roll 1 fewer defense die.\n\nAfter you fully execute a non-stationary [Stop] maneuver, you may flip this card.',
+        title: 'Swivel Wing (Up)',
+        type: 'Configuration',
+        slots: ['Configuration'],
+        ffg: -1,
+      },
+    ],
+    standarized: true,
+    standard: true,
+    epic: true,
+    restrictions: [{ chassis: ['gauntletfighter'] }],
+  },
 ];
 
 export default t;

@@ -766,6 +766,24 @@ const t: UpgradeBase[] = [
     restrictions: [{ keywords: ['Mandalorian'] }],
     extended: true,
   },
+  {
+    limited: 0,
+    xws: 'enduring',
+    sides: [
+      {
+        title: 'Enduring',
+        type: 'Talent',
+        ability:
+          "While you defend, if you are not in the attacker's [Bullseye Arc], [Critical Hit] results are neutralized before [Hit] results. \n\nAfter you suffer [Critical Hit] damage, you may perform a [Claculat] or [Focus] action on your action bar, even while stressed, treating that action as red.",
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    cost: { value: 2 },
+    extended: true,
+  },
 ];
 
 export default t;

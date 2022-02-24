@@ -571,6 +571,66 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    xws: 'migsmayfeld',
+    limited: 1,
+    cost: { value: 5 },
+    sides: [
+      {
+        ability:
+          'After you perform a [Front Arc] attack, you may perform a [Rear Arc] or [Single Turret Arc] attack as a bonus attack against a different target with 1 or more red or orange tokens.',
+        title: 'Migs Mayfeld',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [
+      { factions: ['Galactic Empire', 'Scum and Villainy', 'Rebel Alliance'] },
+    ],
+    extended: true,
+  },
+  {
+    xws: 'tibersaxon',
+    limited: 1,
+    cost: { value: 4 },
+    sides: [
+      {
+        ability:
+          'After you perform an attack at attack range 1-2 that hits, if the defender has no faceup damage cards, you may spend 1 or more [Charge]. For each [Charge] you spend, the defender gains 1 strain token.',
+        title: 'Tiber Saxon',
+        charges: { value: 2, recovers: 1 },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Empire'] }],
+    extended: true,
+  },
+  {
+    xws: 'ursawren',
+    limited: 1,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'After you acquire a lock on an enemy unit beyond range 2, if there are no friendly units at range 0-1 of the locked unit, gain 1 calculate token.',
+        title: 'Ursa Wren',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic', 'Separatist Alliance'] }],
+    extended: true,
+  },
 ];
 
 export default t;
