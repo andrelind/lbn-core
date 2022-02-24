@@ -438,7 +438,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'r2d2-republic',
     limited: 1,
-    cost: { variable: 'agility', values: { '0': 4, '1': 6, '2': 8, '3': 10 } },
+    cost: { value: 8 },
     sides: [
       {
         ability:

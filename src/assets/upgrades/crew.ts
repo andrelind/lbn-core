@@ -253,7 +253,7 @@ const t: UpgradeBase[] = [
         ffg: 306,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 3 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -741,7 +741,8 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    standard: false,
+    standard: true,
+    extended: true,
     epic: true,
   },
   {
@@ -1792,8 +1793,6 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'jangofett',
-    standard: true,
-    epic: true,
     sides: [
       {
         ability:
@@ -1804,8 +1803,10 @@ const t: UpgradeBase[] = [
         ffg: 854,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 3 },
     restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
+    standard: true,
+    epic: true,
     extended: true,
   },
   {
