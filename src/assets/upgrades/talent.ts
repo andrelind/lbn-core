@@ -784,6 +784,30 @@ const t: UpgradeBase[] = [
     cost: { value: 2 },
     extended: true,
   },
+  {
+    limited: 1,
+    xws: 'notorious',
+    sides: [
+      {
+        title: 'Notorious',
+        type: 'Talent',
+        ability:
+          'After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, the attacker gains 1 strain token. While you perform an attack, if the defender is strained, you may reroll 1 blank result.',
+        charges: { value: 2, recovers: 1 },
+        slots: ['Talent'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 2 },
+    restrictions: [
+      {
+        equipped: ['Illicit'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
 ];
 
 export default t;
