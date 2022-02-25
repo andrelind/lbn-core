@@ -34,7 +34,7 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
 
     ship = {
       ...rest,
-      name: { en: shipData.name },
+      name: shipData.name,
       pilots: [],
     };
   }
@@ -52,30 +52,24 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
     if (!local) {
       local = {
         ...pilot,
-        name: { en: pilot.name },
+        name: pilot.name,
         caption: undefined,
         ability: undefined,
         shipAbility: undefined,
         text: undefined,
-        image: undefined,
+        standard: true,
         epic: true,
       };
     }
 
-    if (pilot.image) {
-      local.image = { en: pilot.image };
-    }
-    if (pilot.artwork) {
-      local.artwork = pilot.artwork;
-    }
     if (pilot.caption) {
-      local.caption = { ...local.caption, en: pilot.caption };
+      local.caption = pilot.caption;
     }
     if (pilot.text) {
-      local.text = { ...local.text, en: pilot.text };
+      local.text = pilot.text;
     }
     if (pilot.ability) {
-      local.ability = { ...local.ability, en: pilot.ability };
+      local.ability = pilot.ability;
     }
 
     local.initiative = pilot.initiative;
@@ -83,7 +77,7 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
     local.cost = pilot.cost;
     local.keywords = pilot.keywords;
     local.slots = pilot.slots;
-    local.standard = pilot.standard;
+    // local.standard = pilot.standard;
 
     return local;
   });
@@ -113,12 +107,12 @@ const processUpgrade = (key: SlotKey, data: XWDUpgrade) => {
   if (!upgrade) {
     upgrade = {
       ...rest,
+      standard: true,
       sides: rest.sides.map((s) => ({
         ...s,
-        title: { en: s.title },
-        ability: s.ability ? { en: s.ability } : undefined,
-        text: s.text ? { en: s.text } : undefined,
-        image: s.image ? { en: s.image } : undefined,
+        title: s.title,
+        ability: s.ability,
+        text: s.text,
         force: s.force ? { ...s.force, side: ['light', 'dark'] } : undefined,
         grants: s.grants
           ? s.grants.map((g) => {
@@ -178,12 +172,9 @@ const processUpgrade = (key: SlotKey, data: XWDUpgrade) => {
   } else if (upgrade) {
     upgrade.sides = rest.sides.map((s, i) => ({
       ...s,
-      title: { ...upgrade!.sides[i]?.title, en: s.title },
-      ability: s.ability
-        ? { ...upgrade!.sides[i]?.ability, en: s.ability }
-        : undefined,
-      text: s.text ? { ...upgrade!.sides[i]?.text, en: s.text } : undefined,
-      image: s.image ? { ...upgrade!.sides[i]?.image, en: s.image } : undefined,
+      title: s.title,
+      ability: s.ability,
+      text: s.text,
       force: s.force ? { ...upgrade!.sides[i]?.force, ...s.force } : undefined,
       grants: s.grants
         ? s.grants.map((g) => {
