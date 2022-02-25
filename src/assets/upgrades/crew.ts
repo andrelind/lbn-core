@@ -2077,6 +2077,39 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Galactic Republic', 'Scum and Villainy'] }],
     extended: true,
   },
+  {
+    xws: 'ig11',
+    limited: 1,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'Setup: Equip this side face up.\nBefore you would be dealt a faceup damage card, you <strong>must</strong> place one fuse marker on this card and gain 1 calculate token instead. Then, if there are 2 fuse markers on this card, flip it',
+        title: 'IG-11',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+        ],
+        ffg: -1,
+      },
+      {
+        ability:
+          'During the End Phase, remove 1 fuse marker from this card. Then if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Critical Hit] damage.\n\nAction: Place 1 fuse marker on this card.',
+        title: 'IG-11 (Anti-Capture Protocol)',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
+        ],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Scum and Villainy'] }],
+    extended: true,
+  },
 ];
 
 export default t;

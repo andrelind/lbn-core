@@ -36,7 +36,7 @@ const t: ShipType = {
   ],
   pilots: [
     {
-      xws: 'chopper',
+      xws: 'chopper-gauntletfighter',
       name: '"Chopper"',
       ability:
         'At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.',
@@ -60,7 +60,7 @@ const t: ShipType = {
       caption: 'Spectre-3',
     },
     {
-      xws: 'ezrabridger',
+      xws: 'ezrabridger-gauntletfighter',
       name: 'Ezra Bridger',
       cost: 7,
       loadout: 16,
@@ -89,8 +89,8 @@ const t: ShipType = {
       caption: 'Spectre-6',
     },
     {
-      xws: 'mandalorianresistancefighter',
-      name: 'Mandalorian Resistance Fighter',
+      xws: 'mandalorianresistancepilot',
+      name: 'Mandalorian Resistance Pilot',
       cost: 7,
       loadout: 10,
       initiative: 2,

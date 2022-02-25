@@ -446,6 +446,29 @@ const t: UpgradeBase[] = [
     extended: true,
     restrictions: [{ keywords: ['Mandalorian'] }],
   },
+  {
+    limited: 0,
+    xws: 'burnoutthrusters',
+    standard: true,
+    epic: true,
+    cost: { value: 6 },
+    sides: [
+      {
+        ability:
+          'After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 deplete token to remove 1 disarm token. \n\nIf your [Charge] is inactive, you cannot perform the [SLAM] action.',
+        title: 'Burnout Thrusters',
+        charges: { value: 1, recovers: 0 },
+        type: 'Modification',
+        slots: ['Modification'],
+        ffg: -1,
+      },
+    ],
+    extended: true,
+    restrictions: [
+      { factions: ['Scum and Villainy', 'Resistance'] },
+      { baseSizes: ['Small', 'Medium'] },
+    ],
+  },
 ];
 
 export default t;

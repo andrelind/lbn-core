@@ -251,6 +251,26 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    xws: 'trackingfob',
+    limited: 3,
+    sides: [
+      {
+        ability:
+          'Setup: After placing forces, choose an opponent: they assign the <strong>Marked for Elimination</strong> condition to 1 of their ships. They must assign it to a limited ship, if able. \n\nYou ignore range restrictions while acquireing locks on the ship with the <strong>Marked for Elimination</strong> condition.',
+        title: 'Overtuned Modulators',
+        type: 'Illicit',
+        slots: ['Illicit'],
+        charges: { value: 1, recovers: 0 },
+        ffg: 931,
+      },
+    ],
+    cost: { value: 4 },
+    restrictions: [{ keywords: ['Bounty Hunter'] }],
+    standard: true,
+    epic: true,
+    extended: true,
+  },
 ];
 
 export default t;
