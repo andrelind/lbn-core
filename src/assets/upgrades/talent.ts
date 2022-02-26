@@ -799,11 +799,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 2 },
-    restrictions: [
-      {
-        equipped: ['Illicit'],
-      },
-    ],
+    restrictions: [{ equipped: ['Illicit'] }],
     standard: true,
     extended: true,
     epic: true,

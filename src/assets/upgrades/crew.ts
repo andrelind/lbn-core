@@ -1476,7 +1476,7 @@ const t: UpgradeBase[] = [
         ],
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 6 },
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -2028,10 +2028,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [
-      { factions: ['Rebel Alliance'] },
-      { character: ['garsaxon'] },
-    ],
+    restrictions: [{ factions: ['Rebel Alliance'], character: ['garsaxon'] }],
     extended: true,
   },
   {
@@ -2108,6 +2105,136 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
+    extended: true,
+  },
+  {
+    xws: 'satinekryze',
+    limited: 1,
+    cost: { value: 10 },
+    sides: [
+      {
+        ability:
+          'At the start of the Engagement Phase, you may spend 2 [Charge]. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus tokken or to gain 1 disarm token and 1 evade token.',
+        title: 'Satine Kryze',
+        charges: { value: 2, recovers: 1 },
+        type: 'Crew',
+        slots: ['Crew'],
+
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
+  },
+  {
+    xws: 'primeministeralmec',
+    limited: 1,
+    cost: { value: 10 },
+    sides: [
+      {
+        ability:
+          'Setup: Equip this side faceup. \n\nAfter a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token.\n\nDuring the End Phase, iif you have 2 or more stress tokens, flip this card.',
+        title: 'Prime Minister Almec',
+        type: 'Crew',
+        slots: ['Crew'],
+
+        ffg: -1,
+      },
+      {
+        ability:
+          'After a friendly ship at range 0-2 fully executes a maneuver, that ship may perform a [Calculate] or [Focus] action on its action bar, even while stressed.',
+        title: "Almec, Maul's Puppet ",
+        type: 'Crew',
+        slots: ['Crew'],
+
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic', 'Scum and Villainy'] }],
+    extended: true,
+  },
+  {
+    xws: 'korkiekryze',
+    limited: 1,
+    cost: { value: 5 },
+    sides: [
+      {
+        ability:
+          'After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Rear Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.',
+        title: 'Korkie Kryze',
+        type: 'Crew',
+        slots: ['Crew'],
+
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
+  },
+  {
+    xws: 'obiwankenobi-crew',
+    limited: 1,
+    cost: { value: 11 },
+    sides: [
+      {
+        ability:
+          'After a friendly ship at range 0-2 spends a focus or evade token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+        title: 'Obi-Wan Kenobi',
+        force: { value: 1, recovers: 1, side: ['light'] },
+        type: 'Crew',
+        slots: ['Crew'],
+
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
+  },
+  {
+    xws: 'savageopress',
+    limited: 1,
+    cost: { value: 10 },
+    sides: [
+      {
+        ability:
+          'After a friendly ship in your [Front Arc] at range 1-2 gains a stress of strain token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+        title: 'Savage Opress',
+        force: { value: 1, recovers: 1, side: ['dark'] },
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance', 'Scum and Villainy'] }],
+    extended: true,
+  },
+  {
+    xws: 'talmerrik',
+    limited: 1,
+    cost: { value: 10 },
+    sides: [
+      {
+        ability:
+          'Setup: Before placing forces, choose 1 enemy ship and assign the <strong>False Friend</strong> condition to it. \n\nAction: If the <strong>False Friend</strong> condition is not assigned to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.',
+        title: 'Tal Merrik',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Separatist Alliance'] }],
     extended: true,
   },
 ];

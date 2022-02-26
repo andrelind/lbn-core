@@ -1152,6 +1152,7 @@ const t: UpgradeBase[] = [
       { chassis: ['gauntletfighter'] },
       { factions: ['Rebel Alliance', 'Scum and Villainy'] },
     ],
+    extended: true,
   },
   {
     xws: 'gauntlet',
@@ -1176,6 +1177,7 @@ const t: UpgradeBase[] = [
       { chassis: ['gauntletfighter'] },
       { factions: ['Galactic Republic', 'Separatist Alliance'] },
     ],
+    extended: true,
   },
 ];
 

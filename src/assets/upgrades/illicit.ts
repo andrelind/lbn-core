@@ -258,7 +258,7 @@ const t: UpgradeBase[] = [
       {
         ability:
           'Setup: After placing forces, choose an opponent: they assign the <strong>Marked for Elimination</strong> condition to 1 of their ships. They must assign it to a limited ship, if able. \n\nYou ignore range restrictions while acquireing locks on the ship with the <strong>Marked for Elimination</strong> condition.',
-        title: 'Overtuned Modulators',
+        title: 'Tracking Fob',
         type: 'Illicit',
         slots: ['Illicit'],
         charges: { value: 1, recovers: 0 },

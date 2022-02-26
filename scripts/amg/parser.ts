@@ -120,7 +120,7 @@ const runShips = async () => {
       const cost = row.getCell(3).text;
       const loadout = row.getCell(4).text;
       // const upgrades = row.getCell(5).text;
-      const keywords = row
+      let keywords = row
         .getCell(6)
         .text.split(',')
         .map((s) => s.trim());
@@ -147,6 +147,10 @@ const runShips = async () => {
         pilotName = 'Nimi Chireen';
       } else if (pilotName === 'Shadow Collective Operative') {
         pilotName = 'Shadow Collective Operator';
+      }
+
+      if (shipName === 'Nimbus-class V-wing') {
+        keywords = [...keywords, 'TIE'];
       }
 
       const shipAndPilot = findShipAndPilot(shipName, pilotName, subtitle);
