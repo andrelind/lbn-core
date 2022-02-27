@@ -42,7 +42,7 @@ export const t: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      ships: { delta7aethersprite: 1 },
+      ships: { delta7aethersprite: 1, delta7baethersprite: 1 },
       pilots: {
         anakinskywalker: 1,
         ahsokatano: 1,
@@ -67,7 +67,11 @@ export const t: Source[] = [
     wave: 3,
     released: true,
     contents: {
-      ships: { delta7aethersprite: 1, v19torrentstarfighter: 2 },
+      ships: {
+        delta7aethersprite: 1,
+        delta7baethersprite: 1,
+        v19torrentstarfighter: 2,
+      },
       pilots: {
         obiwankenobi: 1,
         oddball: 1,

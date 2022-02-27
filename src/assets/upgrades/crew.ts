@@ -2237,6 +2237,30 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance'] }],
     extended: true,
   },
+  {
+    xws: 'maul-crew',
+    limited: 1,
+    cost: { value: 10 },
+    sides: [
+      {
+        ability:
+          'Setup: Before placing forces, choose 1 enemy ship and assign the <strong>False Friend</strong> condition to it. \n\nAction: If the <strong>False Friend</strong> condition is not assigned to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.',
+        title: 'Maul',
+        force: { value: 1, recovers: 1, side: ['dark'] },
+        grants: [
+          { action: { type: 'Coordinate', difficulty: 'Purple' }, value: 1 },
+          { slot: 'Illicit', value: 1 },
+        ],
+        type: 'Crew',
+        slots: ['Crew', 'Crew'],
+        ffg: -1,
+      },
+    ],
+    standard: true,
+    epic: true,
+    restrictions: [{ factions: ['Scum and Villainy'] }],
+    extended: true,
+  },
 ];
 
 export default t;

@@ -1139,6 +1139,7 @@ const t: UpgradeBase[] = [
         ability:
           'After you reveal a non-blue maneuver, if you are stressed, you may spend 2 [Charge] to gain 1 focus or evade token.',
         charges: { value: 2, recovers: 1 },
+        grants: [{ slot: 'Crew', value: 1 }],
         title: 'Nightbrother',
         type: 'Title',
         slots: ['Title', 'Modification'],
@@ -1164,7 +1165,6 @@ const t: UpgradeBase[] = [
           'During the System Phase, you may spend 1 [Charge] to repair 1 faceup <strong>Ship</strong> damage card.',
         charges: { value: 2, recovers: 0 },
         title: 'Gauntlet',
-        grants: [{ slot: 'Crew', value: 1 }],
         type: 'Title',
         slots: ['Title', 'Modification'],
         ffg: -1,

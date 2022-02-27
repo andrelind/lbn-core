@@ -458,6 +458,7 @@ const t: UpgradeBase[] = [
           'After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 deplete token to remove 1 disarm token. \n\nIf your [Charge] is inactive, you cannot perform the [SLAM] action.',
         title: 'Burnout Thrusters',
         charges: { value: 1, recovers: 0 },
+        grants: [{ action: { type: 'SLAM', difficulty: 'White' }, value: 1 }],
         type: 'Modification',
         slots: ['Modification'],
         ffg: -1,

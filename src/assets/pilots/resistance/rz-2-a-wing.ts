@@ -55,7 +55,7 @@ const t: ShipType = {
       xws: 'lulolampar',
       ability:
         'While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.',
-      slots: ['Talent', 'Talent', 'Missile', 'Tech'],
+      slots: ['Talent', 'Talent', 'Tech', 'Modification'],
       ffg: 435,
       standard: true,
       epic: true,
