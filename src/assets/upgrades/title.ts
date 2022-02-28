@@ -1164,6 +1164,7 @@ const t: UpgradeBase[] = [
         ability:
           'During the System Phase, you may spend 1 [Charge] to repair 1 faceup <strong>Ship</strong> damage card.',
         charges: { value: 2, recovers: 0 },
+        grants: [{ slot: 'Crew', value: 1 }],
         title: 'Gauntlet',
         type: 'Title',
         slots: ['Title', 'Modification'],
@@ -1177,6 +1178,37 @@ const t: UpgradeBase[] = [
       { chassis: ['gauntletfighter'] },
       { factions: ['Galactic Republic', 'Separatist Alliance'] },
     ],
+    extended: true,
+  },
+  {
+    xws: 'razorcrest',
+    limited: 0,
+    cost: { value: 0 },
+    sides: [
+      {
+        ability:
+          'Setup: Place 1 non-limited [Illicit] upgrade facedown under this card. \n\nDuring the System Phase, you may reveal that [Illicit] upgrade and equip it as if it were equipped at Setup (without paying its points cost).',
+        charges: { value: 2, recovers: 0 },
+        grants: [
+          {
+            action: {
+              type: 'Evade',
+              difficulty: 'White',
+              linked: { type: 'Barrel Roll', difficulty: 'Red' },
+            },
+            value: 1,
+          },
+        ],
+        title: 'Razor Crest',
+        type: 'Title',
+        slots: ['Title'],
+        ffg: -1,
+      },
+    ],
+    standarized: true,
+    standard: true,
+    epic: true,
+    restrictions: [{ chassis: ['st70assaultship'] }],
     extended: true,
   },
 ];

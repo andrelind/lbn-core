@@ -1179,7 +1179,7 @@ const t: UpgradeBase[] = [
         ffg: 472,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     epic: true,
@@ -2131,7 +2131,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'primeministeralmec',
     limited: 1,
-    cost: { value: 10 },
+    cost: { value: 9 },
     sides: [
       {
         ability:

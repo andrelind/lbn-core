@@ -256,8 +256,6 @@ const t: UpgradeBase[] = [
   {
     limited: 0,
     xws: 'thermaldetonators',
-    standard: true,
-    epic: true,
     sides: [
       {
         ability:
@@ -276,7 +274,28 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 5 },
+    standard: true,
     extended: true,
+    epic: true,
+  },
+  {
+    limited: 0,
+    xws: 'blazerbomb',
+    sides: [
+      {
+        ability:
+          'During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb using the (1 [Straight]) template.',
+        title: 'Blazer Bomb',
+        type: 'Device',
+        slots: ['Device'],
+        charges: { value: 1, recovers: 0 },
+        ffg: 864,
+      },
+    ],
+    cost: { value: 4 },
+    standard: true,
+    extended: true,
+    epic: true,
   },
 ];
 

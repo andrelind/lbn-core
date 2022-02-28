@@ -60,7 +60,7 @@ const t: ShipType = {
       xws: 'fennrau-rebel-fang',
       ability:
         'Before a friendly ship at range 1-2 engages, if there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
-      slots: ['Talent', 'Torpedo', 'Modification', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
       standard: true,
       keywords: ['Mandalorian'],
       cost: 6,

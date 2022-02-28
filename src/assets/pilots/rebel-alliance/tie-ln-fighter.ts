@@ -46,7 +46,7 @@ const t: ShipType = {
       xws: 'zeborrelios-tielnfighter',
       ability:
         'While you defend, [Critical Hit] results are neutralized before [Hit] results.',
-      slots: ['Modification'],
+      slots: ['Crew', 'Modification'],
       ffg: 49,
       standard: true,
       epic: true,

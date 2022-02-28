@@ -271,6 +271,33 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    xws: 'hotshottailblaster',
+    limited: 0,
+    sides: [
+      {
+        ability:
+          'This attack can be performed at range 0.\n\nAttack: Spend 1 [Charge]',
+        title: 'Hotshot Tail Blaster',
+        charges: { value: 2, recovers: 0 },
+        attack: {
+          arc: 'Rear Arc',
+          value: 2,
+          minrange: 0,
+          maxrange: 1,
+          ordnance: true,
+        },
+        type: 'Illicit',
+        slots: ['Illicit'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 2 },
+    restrictions: [{ baseSizes: ['Medium', 'Large'] }],
+    standard: true,
+    epic: true,
+    extended: true,
+  },
 ];
 
 export default t;
