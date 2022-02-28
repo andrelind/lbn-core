@@ -2056,7 +2056,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'clanwrencommandos',
+    xws: 'ahsokatano-crew',
     limited: 1,
     cost: { value: 9 },
     sides: [
@@ -2261,6 +2261,69 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ factions: ['Scum and Villainy'] }],
     extended: true,
+  },
+  {
+    limited: 1,
+    xws: 'greefkarga',
+    sides: [
+      {
+        ability:
+          'You can coordinate allied ships as if they were friendly ships. After you coordinate a ship, it may acquire a lock on an object you have locked.',
+        title: 'Greef Karga',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          { action: { type: 'Coordinate', difficulty: 'Red' }, value: 1 },
+        ],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 6 },
+    restrictions: [{ factions: ['Scum and Villainy'] }],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'kuiil',
+    standard: false,
+    extended: true,
+    epic: true,
+    sides: [
+      {
+        ability:
+          'Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.',
+        title: 'Kuiil',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 4 },
+    restrictions: [{ factions: ['Scum and Villainy'] }],
+  },
+  {
+    limited: 1,
+    xws: 'pelimotto',
+    sides: [
+      {
+        ability:
+          'During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. After you repair a faceup Ship damage card, you may roll 1 attack die. On a [Hit] result, repair another faceup Ship damage card. On a [Critical Hit] result, expose 1 damage card.',
+        title: 'Peli Motto',
+        type: 'Crew',
+        slots: ['Crew'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 3 },
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { baseSizes: ['Medium', 'Large'] },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
   },
 ];
 
