@@ -200,8 +200,8 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
     restrictions: [{ chassis: ['delta7aethersprite'] }],
     standard: false,
-    epic: true,
     extended: false,
+    epic: false,
   },
   {
     limited: 0,

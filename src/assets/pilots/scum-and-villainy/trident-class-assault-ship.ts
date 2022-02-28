@@ -40,6 +40,7 @@ const t: ShipType = {
         'Command',
       ],
       standard: false,
+      extended: false,
       epic: true,
       text:
         'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',

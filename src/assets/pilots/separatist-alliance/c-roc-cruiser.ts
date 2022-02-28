@@ -63,6 +63,7 @@ const t: ShipType = {
         'Configuration',
       ],
       standard: false,
+      extended: false,
       epic: true,
       ffg: 714,
     },

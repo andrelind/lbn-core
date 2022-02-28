@@ -95,7 +95,7 @@ export type Pilot = {
   sides?: Side[];
   available?: number;
   standard: boolean;
-  extended?: boolean;
+  extended: boolean;
   epic: boolean;
   limitWarning?: boolean;
   ffg?: number;

@@ -39,6 +39,7 @@ const t: ShipType = {
         'Command',
       ],
       standard: false,
+      extended: false,
       epic: true,
       ffg: 949,
       text:

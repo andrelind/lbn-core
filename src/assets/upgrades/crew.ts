@@ -826,6 +826,7 @@ const t: UpgradeBase[] = [
           'ezrabridger',
           'ezrabridger-sheathipedeclassshuttle',
           'ezrabridger-tielnfighter',
+          'ezrabridger-gauntletfighter',
         ],
       },
     ],
