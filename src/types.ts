@@ -276,6 +276,7 @@ export type UpgradeBase = {
   extended?: boolean;
   epic: boolean;
   standarized?: boolean;
+  keywords?: string[];
 };
 
 export type Upgrade = UpgradeBase & {

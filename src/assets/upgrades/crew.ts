@@ -56,7 +56,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       {
         factions: ['Scum and Villainy'],
-        character: ['darthvader', 'darthvader-tieddefender'],
+        keywords: ['Darth Vader'],
       },
     ],
     standard: true,
@@ -822,12 +822,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       {
         factions: ['Scum and Villainy'],
-        character: [
-          'ezrabridger',
-          'ezrabridger-sheathipedeclassshuttle',
-          'ezrabridger-tielnfighter',
-          'ezrabridger-gauntletfighter',
-        ],
+        keywords: ['Ezra Bridger'],
       },
     ],
     standard: true,

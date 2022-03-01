@@ -85,7 +85,7 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Light Side', 'Spectre'],
+      keywords: ['Light Side', 'Spectre', 'Ezra Bridger'],
       caption: 'Spectre-6',
     },
     {

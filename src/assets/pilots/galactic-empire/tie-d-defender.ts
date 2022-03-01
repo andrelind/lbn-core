@@ -181,7 +181,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Tech', 'Cannon', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
-      keywords: ['Dark Side', 'Sith', 'TIE'],
+      keywords: ['Dark Side', 'Sith', 'TIE', 'Darth Vader'],
       ffg: 886,
       loadout: 14,
       extended: true,

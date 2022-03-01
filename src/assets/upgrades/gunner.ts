@@ -36,9 +36,10 @@ const t: UpgradeBase[] = [
     restrictions: [
       {
         factions: ['Scum and Villainy'],
-        character: ['darthvader', 'darthvader-tieddefender'],
+        keywords: ['Darth Vader'],
       },
     ],
+    keywords: ['Darth Vader'],
     standard: true,
     epic: true,
     extended: true,
@@ -115,6 +116,7 @@ const t: UpgradeBase[] = [
         ffg: 320,
       },
     ],
+    keywords: ['Ezra Bridger'],
     cost: { value: 10 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
