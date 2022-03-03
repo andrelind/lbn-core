@@ -466,7 +466,7 @@ const t: UpgradeBase[] = [
     ],
     extended: true,
     restrictions: [
-      { factions: ['Scum and Villainy', 'Resistance'] },
+      { factions: ['Scum and Villainy'] },
       { baseSizes: ['Small', 'Medium'] },
     ],
   },

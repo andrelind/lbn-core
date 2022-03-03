@@ -65,7 +65,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       extended: true,
-      keywords: ['Mandalorian'],
+      keywords: ['Mandalorian', 'Bounty Hunter'],
     },
     {
       xws: 'q90',

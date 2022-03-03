@@ -77,7 +77,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      keywords: ['Mandalorian'],
+      keywords: ['Mandalorian', 'Gar Saxon'],
       caption: 'Treacherous Viceroy',
     },
     {

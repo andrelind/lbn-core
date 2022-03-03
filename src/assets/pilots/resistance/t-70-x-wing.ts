@@ -296,7 +296,6 @@ const t: ShipType = {
       cost: 5,
       slots: [
         'Talent',
-        'Talent',
         'Tech',
         'Astromech',
         'Modification',
@@ -343,14 +342,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Tech',
-        'Astromech',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Tech', 'Astromech', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       ffg: 699,

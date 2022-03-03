@@ -771,7 +771,7 @@ const t: UpgradeBase[] = [
         title: 'Enduring',
         type: 'Talent',
         ability:
-          "While you defend, if you are not in the attacker's [Bullseye Arc], [Critical Hit] results are neutralized before [Hit] results. \n\nAfter you suffer [Critical Hit] damage, you may perform a [Claculat] or [Focus] action on your action bar, even while stressed, treating that action as red.",
+          "While you defend, if you are not in the attacker's [Bullseye Arc], [Critical Hit] results are neutralized before [Hit] results. \n\nAfter you suffer [Critical Hit] damage, you may perform a [Calculate] or [Focus] action on your action bar, even while stressed, treating that action as red.",
         slots: ['Talent'],
         ffg: -1,
       },

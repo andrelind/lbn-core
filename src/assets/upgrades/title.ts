@@ -413,8 +413,8 @@ const t: UpgradeBase[] = [
       { chassis: ['firesprayclasspatrolcraft'] },
     ],
     standard: false,
-    epic: false,
-    extended: false,
+    extended: true,
+    epic: true,
   },
   {
     limited: 1,

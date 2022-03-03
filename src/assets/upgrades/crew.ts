@@ -274,7 +274,8 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
-    standard: false,
+    standard: true,
+    extended: true,
     epic: true,
   },
   {
@@ -781,8 +782,8 @@ const t: UpgradeBase[] = [
     cost: { value: 7 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
-    epic: true,
     extended: true,
+    epic: true,
   },
   {
     limited: 1,
@@ -1178,6 +1179,7 @@ const t: UpgradeBase[] = [
     cost: { value: 7 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
+    extended: true,
     epic: true,
   },
   {
@@ -1432,6 +1434,7 @@ const t: UpgradeBase[] = [
     cost: { value: 16 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
+    extended: true,
     epic: true,
   },
   {
@@ -1904,6 +1907,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    keywords: ['Gar Saxon'],
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Empire'] }],
@@ -1947,7 +1951,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Empire', 'Separatist Alliance'] }],
+    restrictions: [{ factions: ['Galactic Republic', 'Separatist Alliance'] }],
     extended: true,
   },
   {
@@ -2024,7 +2028,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [{ factions: ['Rebel Alliance'], character: ['garsaxon'] }],
+    restrictions: [{ factions: ['Rebel Alliance'], keywords: ['Gar Saxon'] }],
     extended: true,
   },
   {
@@ -2201,7 +2205,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'After a friendly ship in your [Front Arc] at range 1-2 gains a stress of strain token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+          'After a friendly ship in your [Front Arc] at range 1-2 gains a stress or strain token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
         title: 'Savage Opress',
         force: { value: 1, recovers: 1, side: ['dark'] },
         type: 'Crew',
@@ -2282,9 +2286,6 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'kuiil',
-    standard: false,
-    extended: true,
-    epic: true,
     sides: [
       {
         ability:
@@ -2297,6 +2298,9 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
+    standard: true,
+    extended: true,
+    epic: true,
   },
   {
     limited: 1,

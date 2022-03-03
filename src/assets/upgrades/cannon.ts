@@ -150,13 +150,10 @@ const t: UpgradeBase[] = [
         ffg: 718,
       },
     ],
+    restrictions: [{ factions: ['Resistance'] }, { chassis: ['t70xwing'] }],
     standard: true,
-    epic: true,
-    restrictions: [
-      { factions: ['Resistance', 'Rebel Alliance'] },
-      { chassis: ['t65xwing', 't70xwing'] },
-    ],
     extended: true,
+    epic: true,
   },
   {
     xws: 'syncedlasercannons',
