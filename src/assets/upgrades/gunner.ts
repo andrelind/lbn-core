@@ -39,7 +39,6 @@ const t: UpgradeBase[] = [
         keywords: ['Darth Vader'],
       },
     ],
-    keywords: ['Darth Vader'],
     standard: true,
     epic: true,
     extended: true,
