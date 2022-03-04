@@ -74,6 +74,7 @@ const t: ShipType = {
         'Tech',
         'Tech',
         'Configuration',
+        'Modification',
       ],
       ability:
         'Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.',

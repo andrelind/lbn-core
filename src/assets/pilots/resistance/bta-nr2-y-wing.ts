@@ -162,6 +162,7 @@ const t: ShipType = {
         'Talent',
         'Tech',
         'Turret',
+        'Missile',
         'Astromech',
         'Device',
         'Modification',

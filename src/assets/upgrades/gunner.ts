@@ -614,7 +614,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'ursawren',
+    xws: 'ursawren-gunner',
     limited: 1,
     cost: { value: 6 },
     sides: [
@@ -631,6 +631,29 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ factions: ['Galactic Republic', 'Separatist Alliance'] }],
     extended: true,
+  },
+  {
+    limited: 1,
+    xws: 'garsaxon-gunner',
+    sides: [
+      {
+        title: 'Gar Saxon',
+        type: 'Gunner',
+        ability:
+          'While you perform the [Lock] action, you can only choose an object in your [Front Arc] or [Rear Arc]. While you perform a primary attack, if the defender is in your [Front Arc] or [Rear Arc], you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.',
+        slots: ['Gunner'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 9 },
+    restrictions: [
+      { baseSizes: ['Large', 'Huge'] },
+      { factions: ['Scum and Villainy'] },
+    ],
+    keywords: ['Gar Saxon'],
+    standard: true,
+    extended: true,
+    epic: true,
   },
 ];
 

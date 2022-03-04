@@ -441,7 +441,10 @@ const t: UpgradeBase[] = [
       },
     ],
     epic: true,
-    restrictions: [{ factions: ['Galactic Republic'] }],
+    restrictions: [
+      { factions: ['Galactic Republic'] },
+      { keywords: ['Clone'] },
+    ],
     cost: { value: 1 },
     standard: true,
     extended: true,

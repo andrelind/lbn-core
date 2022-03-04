@@ -176,7 +176,7 @@ const t: UpgradeBase[] = [
         ffg: 304,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -1875,7 +1875,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'captainhark',
+    xws: 'captainhark-crew',
     limited: 1,
     cost: { value: 3 },
     sides: [
@@ -1895,7 +1895,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'garsaxon',
+    xws: 'garsaxon-crew',
     limited: 1,
     cost: { value: 8 },
     sides: [
@@ -1909,9 +1909,9 @@ const t: UpgradeBase[] = [
       },
     ],
     keywords: ['Gar Saxon'],
+    restrictions: [{ factions: ['Galactic Empire'] }],
     standard: true,
     epic: true,
-    restrictions: [{ factions: ['Galactic Empire'] }],
     extended: true,
   },
   {
@@ -1937,7 +1937,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'bokatankryze',
+    xws: 'bokatankryze-crew',
     limited: 1,
     cost: { value: 8 },
     sides: [
@@ -1975,7 +1975,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'fennrau',
+    xws: 'fennrau-crew',
     limited: 1,
     cost: { value: 6 },
     sides: [
@@ -2047,13 +2047,129 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    standard: true,
-    epic: true,
     restrictions: [
       { factions: ['Rebel Alliance'] },
       { baseSizes: ['Medium', 'Large', 'Huge'] },
     ],
+    standard: true,
+    epic: true,
     extended: true,
+  },
+  {
+    limited: 1,
+    xws: 'niteowlcommandoteam',
+    sides: [
+      {
+        title: 'Nite Owl Commando Team',
+        type: 'Crew',
+        ability:
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        slots: ['Crew', 'Crew'],
+        charges: { value: 2, recovers: 0 },
+        device: {
+          name: 'Nite Owl Commandos',
+          type: 'Remote',
+          effect:
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 7 },
+    restrictions: [
+      { factions: ['Galactic Republic'] },
+      { baseSizes: ['Medium', 'Large', 'Huge'] },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'imperialsupercommandoteam',
+    sides: [
+      {
+        title: 'Imperial Super Commando Team',
+        type: 'Crew',
+        ability:
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        slots: ['Crew', 'Crew'],
+        charges: { value: 2, recovers: 0 },
+        device: {
+          name: 'Imperial Super Commandos',
+          type: 'Remote',
+          effect:
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 7 },
+    restrictions: [
+      { factions: ['Galactic Empire'] },
+      { baseSizes: ['Medium', 'Large', 'Huge'] },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'mandaloriansupercommandoteam',
+    sides: [
+      {
+        title: 'Mandalorian Super Commando Team',
+        type: 'Crew',
+        ability:
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        slots: ['Crew', 'Crew'],
+        charges: { value: 2, recovers: 0 },
+        device: {
+          name: 'Mandalorian Super Commandos',
+          type: 'Remote',
+          effect:
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 7 },
+    restrictions: [
+      { factions: ['Scum and Villainy'] },
+      { baseSizes: ['Medium', 'Large', 'Huge'] },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'deathwatchcommandoteam',
+    sides: [
+      {
+        title: 'Death Watch Commando Team',
+        type: 'Crew',
+        ability:
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        slots: ['Crew', 'Crew'],
+        charges: { value: 2, recovers: 0 },
+        device: {
+          name: 'Death Watch Commandos',
+          type: 'Remote',
+          effect:
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 7 },
+    restrictions: [
+      { factions: ['Separatist Alliance'] },
+      { baseSizes: ['Medium', 'Large', 'Huge'] },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
   },
   {
     xws: 'ahsokatano-crew',
@@ -2244,8 +2360,7 @@ const t: UpgradeBase[] = [
     cost: { value: 10 },
     sides: [
       {
-        ability:
-          'Setup: Before placing forces, choose 1 enemy ship and assign the <strong>False Friend</strong> condition to it. \n\nAction: If the <strong>False Friend</strong> condition is not assigned to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.',
+        ability: 'Add [Illicit] slot.',
         title: 'Maul',
         force: { value: 1, recovers: 1, side: ['dark'] },
         grants: [
@@ -2257,9 +2372,9 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
-    restrictions: [{ factions: ['Scum and Villainy'] }],
     extended: true,
   },
   {
@@ -2321,6 +2436,56 @@ const t: UpgradeBase[] = [
       { factions: ['Scum and Villainy'] },
       { baseSizes: ['Medium', 'Large'] },
     ],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'previzsla-crew',
+    sides: [
+      {
+        ability:
+          'While you perform a [Coordinate] action, you can choose a friendly [Crew] remote instead of another friendly ship. Instead of performing an action, that remote relocates forward using a [1 [Turn Left]], [1 [Turn Right]], or [2 [Straight]] template.',
+        title: 'Pre Vizsla',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          {
+            action: { type: 'Coordinate', difficulty: 'White' },
+            value: 1,
+          },
+        ],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 10 },
+    restrictions: [{ factions: ['Scum and Villainy', 'Separatist Alliance'] }],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'rookkast-crew',
+    sides: [
+      {
+        ability:
+          'After you perform a red action, you may gain 1 strain token. While you perform an attack, if you are strained, you may change 1 of your blank or [Focus] results to a result.',
+        title: 'Rook Kast',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          {
+            action: { type: 'Lock', difficulty: 'Red' },
+            value: 1,
+          },
+        ],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 11 },
+    restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     extended: true,
     epic: true,
