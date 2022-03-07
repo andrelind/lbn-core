@@ -470,6 +470,29 @@ const t: UpgradeBase[] = [
       { baseSizes: ['Small', 'Medium'] },
     ],
   },
+  {
+    limited: 0,
+    xws: 'dropseatbay',
+    sides: [
+      {
+        ability:
+          "If you would drop a [Crew] remote using a straight [[Straight]] template, you may use a bank [[Bank Left] or [Bank Right]] template of the same speed instead and can align that template's middle line with the hashmark on your ship's left or right side instead of your rear guides. Remove [Device] slot. Add 2 [Crew] slots.",
+        title: 'Drop-Seat bay',
+        type: 'Modification',
+        grants: [
+          { slot: 'Crew', value: 2 },
+          { slot: 'Device', value: -1 },
+        ],
+        slots: ['Modification'],
+        ffg: -1,
+      },
+    ],
+    restrictions: [{ chassis: ['gauntletfighter'] }],
+    cost: { value: 1 },
+    standard: true,
+    extended: true,
+    epic: true,
+  },
 ];
 
 export default t;

@@ -460,6 +460,33 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'razorcrestexpansionpack',
+    name: 'Razor Crest Expansion Pack',
+    wave: 11,
+    released: true,
+    contents: {
+      ships: { st70assaultship: 1 },
+      pilots: {
+        themandalorian: 1,
+        q90: 1,
+        outerrimenforcer: 1,
+        guildbountyhunter: 1,
+      },
+      upgrades: {
+        razorcrest: 1,
+        mercilesspursuit: 1,
+        thechild: 1,
+        greefkarga: 1,
+        kuiil: 1,
+        pelimotto: 1,
+        migsmayfeld: 1,
+        hotshottailblaster: 1,
+        overtunedmodulators: 1,
+      },
+    },
+  },
 ];
 
 export default t;

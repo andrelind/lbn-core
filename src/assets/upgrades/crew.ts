@@ -1219,7 +1219,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 4 },
     restrictions: [{ factions: ['Resistance'] }],
-    standard: false,
+    standard: true,
     epic: true,
   },
   {
@@ -1875,7 +1875,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'captainhark-crew',
+    xws: 'captainhark',
     limited: 1,
     cost: { value: 3 },
     sides: [
@@ -1895,7 +1895,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'garsaxon-crew',
+    xws: 'garsaxon',
     limited: 1,
     cost: { value: 8 },
     sides: [
@@ -1937,7 +1937,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'bokatankryze-crew',
+    xws: 'bokatankryze',
     limited: 1,
     cost: { value: 8 },
     sides: [
@@ -2033,14 +2033,14 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'clanwrencommandoteam',
+    xws: 'clanwrencommandos',
     limited: 1,
     cost: { value: 7 },
     sides: [
       {
         ability:
           "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using the front or rear guides. \n\nThis card's [Charge] cannot be recovered.",
-        title: 'Clan Wren Commando Team',
+        title: 'Clan Wren Commandos',
         charges: { value: 2, recovers: 0 },
         type: 'Crew',
         slots: ['Crew'],
@@ -2086,10 +2086,10 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'imperialsupercommandoteam',
+    xws: 'imperialsupercommandos',
     sides: [
       {
-        title: 'Imperial Super Commando Team',
+        title: 'Imperial Super Commandos',
         type: 'Crew',
         ability:
           "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
@@ -2115,10 +2115,10 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'mandaloriansupercommandoteam',
+    xws: 'mandaloriansupercommandos',
     sides: [
       {
-        title: 'Mandalorian Super Commando Team',
+        title: 'Mandalorian Super Commandos',
         type: 'Crew',
         ability:
           "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
@@ -2144,10 +2144,10 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'deathwatchcommandoteam',
+    xws: 'deathwatchcommandos',
     sides: [
       {
-        title: 'Death Watch Commando Team',
+        title: 'Death Watch Commandos',
         type: 'Crew',
         ability:
           "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
@@ -2261,7 +2261,7 @@ const t: UpgradeBase[] = [
       },
       {
         ability:
-          'After a friendly ship at range 0-2 fully executes a maneuver, that ship may perform a [Calculate] or [Focus] action on its action bar, even while stressed.',
+          'After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a [Calculate] or [Focus] action on its action bar, even while stressed.',
         title: "Almec, Maul's Puppet ",
         type: 'Crew',
         slots: ['Crew'],
@@ -2295,7 +2295,7 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'obiwankenobi-crew',
+    xws: 'obiwankenobi',
     limited: 1,
     cost: { value: 11 },
     sides: [
@@ -2442,7 +2442,7 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'previzsla-crew',
+    xws: 'previzsla',
     sides: [
       {
         ability:
@@ -2467,7 +2467,7 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'rookkast-crew',
+    xws: 'rookkast',
     sides: [
       {
         ability:
