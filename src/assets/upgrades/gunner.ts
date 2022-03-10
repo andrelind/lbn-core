@@ -175,7 +175,7 @@ const t: UpgradeBase[] = [
         ffg: 321,
       },
     ],
-    cost: { value: 9 },
+    cost: { value: 10 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -224,7 +224,7 @@ const t: UpgradeBase[] = [
         title: 'Luke Skywalker',
         type: 'Gunner',
         ability:
-          'At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Single Turret Arc] indicator.',
+          'At the start of the Engagement Phase, you may spend 1 [Force] and gain 1 deplete token to rotate your [Single Turret Arc] indicator.',
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         ffg: 322,
@@ -588,9 +588,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [
-      { factions: ['Galactic Empire', 'Scum and Villainy', 'Rebel Alliance'] },
-    ],
+    restrictions: [{ factions: ['Galactic Empire', 'Scum and Villainy'] }],
     extended: true,
   },
   {

@@ -181,7 +181,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       ability:
-        'After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.',
+        'At the start of the Engagement Phase, choose a ship at range 0-3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token',
       slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       standard: true,
       epic: true,

@@ -85,7 +85,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       ability:
-        'You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.',
+        'While you perform an attack at attack range 1, you <strong>must</strong> roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.',
       standard: true,
       epic: true,
       cost: 4,

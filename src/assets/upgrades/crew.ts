@@ -28,7 +28,7 @@ const t: UpgradeBase[] = [
         title: '"Zeb" Orrelios',
         type: 'Crew',
         ability:
-          'You can perform primary attacks at range 0. Enemy ships at range 0 can perform primary attacks against you.',
+          'While you perform an attack at attack range 0, you may spend focus tokens for their default effect to modify results. While defending at attack range 0, the attacker may spend focus tokens for their default effect to modify results.',
         slots: ['Crew'],
         ffg: 318,
       },
@@ -1284,7 +1284,7 @@ const t: UpgradeBase[] = [
         title: 'Count Dooku',
         type: 'Crew',
         ability:
-          'Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.',
+          'During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.',
         force: { value: 1, recovers: 1, side: ['dark'] },
         slots: ['Crew'],
         ffg: 539,
@@ -1421,7 +1421,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.',
+          'After a friendly ship reveals a non 0 [Stop], you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.',
         title: 'Leia Organa',
         type: 'Crew',
         slots: ['Crew', 'Crew'],
@@ -2057,7 +2057,7 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 1,
-    xws: 'niteowlcommandoteam',
+    xws: 'niteowlcommandos',
     sides: [
       {
         title: 'Nite Owl Commando Team',

@@ -39,7 +39,7 @@ const t: ShipType = {
   ability: {
     name: 'Pinpoint Tractor Array',
     text:
-      'You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action.',
+      'You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action.',
   },
   pilots: [
     {

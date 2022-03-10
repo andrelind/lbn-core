@@ -27,7 +27,7 @@ const t: UpgradeBase[] = [
         title: 'Ferrosphere Paint',
         type: 'Tech',
         ability:
-          "After an enemy ship locks you, if you are not in that ship's [Bullseye Arc], that ship gains 1 stress token.",
+          "After an enemy ship locks you, if you are not in that ship's [Bullseye Arc], that ship gains 1 stress token unless it chooses to break its lock.",
         slots: ['Tech'],
         ffg: 488,
       },

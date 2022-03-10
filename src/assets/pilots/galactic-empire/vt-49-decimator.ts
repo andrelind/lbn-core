@@ -47,7 +47,8 @@ const t: ShipType = {
       limited: 1,
       cost: 8,
       xws: 'captainoicunn',
-      ability: 'You can perform primary attacks at range 0.',
+      ability:
+        'While you perform an attack at attack range 0, treat it as an attack at attack range 1.',
       slots: [
         'Talent',
         'Talent',

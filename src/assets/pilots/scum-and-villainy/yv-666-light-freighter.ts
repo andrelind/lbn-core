@@ -81,6 +81,7 @@ const t: ShipType = {
         'Gunner',
         'Illicit',
         'Modification',
+        'Title',
       ],
       ffg: 212,
       standard: true,

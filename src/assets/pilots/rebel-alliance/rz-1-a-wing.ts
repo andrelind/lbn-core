@@ -52,7 +52,7 @@ const t: ShipType = {
       cost: 3,
       xws: 'arvelcrynyd',
       ability:
-        'You can perform primary attacks at range 0. If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.',
+        'If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.\n\nWhile you perform an attack at attack range 0, treat it as an attack at attack range 1.',
       slots: ['Modification', 'Configuration'],
       ffg: 20,
       standard: true,

@@ -545,6 +545,25 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Scum and Villainy'] }],
     epic: true,
   },
+  {
+    limited: 0,
+    xws: 'combatboardingtube',
+    sides: [
+      {
+        ability:
+          'During the System Phase, if you would drop a [Crew] remote and there is an enemy medium, large, or huge ship at range 0-1 in your [Rear Arc], you may place that device in the play area in your [Rear Arc] at range 0-1 so that it is at range 0 of that enemy ship instead. Then, that enemy ship gains 1 deplete, strain, or stress token of your choice.',
+        title: 'Combat Boarding Tube',
+        type: 'Command',
+        slots: ['Command', 'Configuration'],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 1 },
+    restrictions: [{ chassis: ['gauntletfighter'] }],
+    standard: false,
+    extended: false,
+    epic: true,
+  },
 ];
 
 export default t;
