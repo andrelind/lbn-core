@@ -435,7 +435,7 @@ export const t: Source[] = [
   },
   {
     ffg: -1,
-    xws: 'gauntletfighterexpansionpack',
+    xws: 'gauntletfighterexpansionpackrebel',
     name: 'Gauntlet Fighter Expansion Pack',
     wave: 11,
     released: true,
