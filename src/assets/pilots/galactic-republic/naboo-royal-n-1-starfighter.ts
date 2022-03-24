@@ -99,14 +99,14 @@ const t: ShipType = {
       limited: 1,
       ability:
         "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
-      standard: true,
-      epic: true,
       cost: 3,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 560,
       caption: 'Bravo Five',
       loadout: 9,
+      standard: true,
       extended: true,
+      epic: true,
     },
     {
       name: 'Bravo Flight Officer',

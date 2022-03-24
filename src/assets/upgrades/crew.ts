@@ -56,7 +56,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       {
         factions: ['Scum and Villainy'],
-        keywords: ['Darth Vader'],
+        character: ['Darth Vader'],
       },
     ],
     standard: true,
@@ -334,7 +334,6 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Galactic Empire'] }],
-    keywords: ['Darth Vader'],
     cost: { value: 14 },
     standard: true,
     extended: true,
@@ -824,7 +823,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       {
         factions: ['Scum and Villainy'],
-        keywords: ['Ezra Bridger'],
+        character: ['Ezra Bridger'],
       },
     ],
     standard: true,
@@ -1909,7 +1908,6 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    keywords: ['Gar Saxon'],
     restrictions: [{ factions: ['Galactic Empire'] }],
     standard: true,
     epic: true,
@@ -2030,7 +2028,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [{ factions: ['Rebel Alliance'], keywords: ['Gar Saxon'] }],
+    restrictions: [{ factions: ['Rebel Alliance'], character: ['Gar Saxon'] }],
     extended: true,
   },
   {
@@ -2064,14 +2062,14 @@ const t: UpgradeBase[] = [
         title: 'Nite Owl Commando Team',
         type: 'Crew',
         ability:
-          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         slots: ['Crew', 'Crew'],
         charges: { value: 2, recovers: 0 },
         device: {
           name: 'Nite Owl Commandos',
           type: 'Remote',
           effect:
-            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a (1 [Turn Left]), (2 [Straight]) or (1 [Turn Right]) template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
         },
         ffg: -1,
       },
@@ -2093,14 +2091,14 @@ const t: UpgradeBase[] = [
         title: 'Imperial Super Commandos',
         type: 'Crew',
         ability:
-          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         slots: ['Crew', 'Crew'],
         charges: { value: 2, recovers: 0 },
         device: {
           name: 'Imperial Super Commandos',
           type: 'Remote',
           effect:
-            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a (1 [Turn Left]), (2 [Straight]) or (1 [Turn Right]) template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
         },
         ffg: -1,
       },
@@ -2122,14 +2120,14 @@ const t: UpgradeBase[] = [
         title: 'Mandalorian Super Commandos',
         type: 'Crew',
         ability:
-          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         slots: ['Crew', 'Crew'],
         charges: { value: 2, recovers: 0 },
         device: {
           name: 'Mandalorian Super Commandos',
           type: 'Remote',
           effect:
-            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a (1 [Turn Left]), (2 [Straight]) or (1 [Turn Right]) template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
         },
         ffg: -1,
       },
@@ -2151,14 +2149,14 @@ const t: UpgradeBase[] = [
         title: 'Death Watch Commandos',
         type: 'Crew',
         ability:
-          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+          "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the (1 [Straight]) template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         slots: ['Crew', 'Crew'],
         charges: { value: 2, recovers: 0 },
         device: {
           name: 'Death Watch Commandos',
           type: 'Remote',
           effect:
-            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
+            'After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a (1 [Turn Left]), (2 [Straight]) or (1 [Turn Right]) template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.',
         },
         ffg: -1,
       },
@@ -2282,7 +2280,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Rear Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.',
+          'After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Front Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.',
         title: 'Korkie Kryze',
         type: 'Crew',
         slots: ['Crew'],
@@ -2447,7 +2445,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'While you perform a [Coordinate] action, you can choose a friendly [Crew] remote instead of another friendly ship. Instead of performing an action, that remote relocates forward using a [1 [Turn Left]], [1 [Turn Right]], or [2 [Straight]] template.',
+          'While you perform a [Coordinate] action, you can choose a friendly [Crew] remote instead of another friendly ship. Instead of performing an action, that remote relocates forward using a (1 [Turn Left]), (1 [Turn Right]), or (2 [Straight]) template.',
         title: 'Pre Vizsla',
         type: 'Crew',
         slots: ['Crew'],
@@ -2486,6 +2484,31 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 11 },
+    restrictions: [{ factions: ['Scum and Villainy'] }],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'themandalorian',
+    sides: [
+      {
+        ability:
+          'During the End Phase, if you did not defend this round, recover 1 non-recurring [Force], if able.',
+        title: 'The Mandalorian',
+        type: 'Crew',
+        slots: ['Crew'],
+        grants: [
+          {
+            action: { type: 'Reinforce', difficulty: 'White' },
+            value: 1,
+          },
+        ],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 2 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     extended: true,

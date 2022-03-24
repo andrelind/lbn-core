@@ -655,9 +655,10 @@ const t: UpgradeBase[] = [
       },
     ],
     standarized: true,
-    standard: true,
-    epic: true,
     restrictions: [{ chassis: ['gauntletfighter'] }],
+    standard: true,
+    extended: true,
+    epic: true,
   },
 ];
 

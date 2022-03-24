@@ -95,7 +95,7 @@ const t: ShipType = {
       ffg: 39,
       standard: true,
       epic: true,
-      keywords: ['Light Side', 'Spectre', 'Ezra Bridger'],
+      keywords: ['Light Side', 'Spectre'],
       loadout: 11,
       extended: true,
     },

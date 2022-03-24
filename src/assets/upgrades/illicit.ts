@@ -84,7 +84,7 @@ const t: UpgradeBase[] = [
         title: 'Inertial Dampeners',
         type: 'Illicit',
         ability:
-          'Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.',
+          'Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white (0 [Stop]) instead of the maneuver you revealed, then gain 1 stress token.',
         slots: ['Illicit'],
         ffg: 290,
       },

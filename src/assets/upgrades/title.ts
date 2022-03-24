@@ -1188,7 +1188,6 @@ const t: UpgradeBase[] = [
       {
         ability:
           'Setup: Place 1 non-limited [Illicit] upgrade facedown under this card. \n\nDuring the System Phase, you may reveal that [Illicit] upgrade and equip it as if it were equipped at Setup (without paying its points cost).',
-        charges: { value: 2, recovers: 0 },
         grants: [
           {
             action: {

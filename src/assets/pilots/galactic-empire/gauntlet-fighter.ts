@@ -61,6 +61,9 @@ const t: ShipType = {
     {
       xws: 'garsaxon',
       name: 'Gar Saxon',
+      ability:
+        "While a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
+      charges: { value: 2, recovers: 1 },
       cost: 8,
       loadout: 20,
       initiative: 3,
@@ -77,7 +80,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      keywords: ['Mandalorian', 'Gar Saxon'],
+      keywords: ['Mandalorian'],
       caption: 'Treacherous Viceroy',
     },
     {

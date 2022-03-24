@@ -71,7 +71,7 @@ const t: ShipType = {
       ffg: 93,
       standard: true,
       epic: true,
-      keywords: ['Dark Side', 'Sith', 'TIE', 'Darth Vader'],
+      keywords: ['Dark Side', 'Sith', 'TIE'],
       loadout: 22,
       extended: true,
     },

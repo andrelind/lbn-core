@@ -480,8 +480,7 @@ const t: UpgradeBase[] = [
         title: 'Drop-Seat bay',
         type: 'Modification',
         grants: [
-          { slot: 'Crew', value: 1 },
-          { slot: 'Crew', value: 1 },
+          { slot: 'Crew', value: 2 },
           { slot: 'Device', value: -1 },
         ],
         slots: ['Modification'],

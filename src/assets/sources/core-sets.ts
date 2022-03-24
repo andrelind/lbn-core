@@ -192,6 +192,33 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'gauntletfighterexpansionpack',
+    name: 'Gauntlet Fighter Expansion Pack',
+    wave: 11,
+    released: true,
+    contents: {
+      ships: { gauntletfighter: 1 },
+      pilots: {
+        maul: 1,
+        bokatankryze: 1,
+        'bokatankryze-separatist': 1,
+        previzsla: 1,
+        rookkast: 1,
+        deathwatchwarrior: 1,
+        niteowlliberator: 1,
+        shadowcollectiveoperator: 1,
+      },
+      upgrades: {
+        clanwrencommandos: 1,
+        imperialsupercommandos: 1,
+        niteowlcommandos: 1,
+        deathwatchcommandos: 1,
+        mandaloriansupercommandos: 1,
+      },
+    },
+  },
 ];
 
 export default t;
