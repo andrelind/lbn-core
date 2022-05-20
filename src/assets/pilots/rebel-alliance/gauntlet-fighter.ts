@@ -56,7 +56,7 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Droid', 'Spec- tre'],
+      keywords: ['Droid', 'Spectre'],
       caption: 'Spectre-3',
     },
     {

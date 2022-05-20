@@ -54,10 +54,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 5 },
     restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: ['Darth Vader'],
-      },
+      { factions: ['Scum and Villainy'], character: ['Darth Vader'] },
     ],
     standard: true,
     epic: true,
@@ -97,7 +94,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 16 },
     restrictions: [{ factions: ['Galactic Empire'] }],
-    standard: true,
+    standard: false,
     epic: true,
     extended: true,
   },
@@ -134,7 +131,7 @@ const t: UpgradeBase[] = [
         ffg: 303,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -821,10 +818,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 10 },
     restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: ['Ezra Bridger'],
-      },
+      { factions: ['Scum and Villainy'], character: ['Ezra Bridger'] },
     ],
     standard: true,
     epic: true,
@@ -998,7 +992,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 3 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
-    standard: true,
+    standard: false,
     epic: true,
     extended: true,
   },
@@ -1480,6 +1474,7 @@ const t: UpgradeBase[] = [
     standard: true,
     epic: true,
     restrictions: [{ factions: ['Galactic Republic'] }],
+    extended: true,
   },
   {
     limited: 1,
@@ -1615,7 +1610,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'commandermalarus',
     limited: 1,
-    cost: { value: 3 },
+    cost: { value: 2 },
     sides: [
       {
         ffg: 684,
@@ -1653,7 +1648,7 @@ const t: UpgradeBase[] = [
           'Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die.',
       },
     ],
-    standard: true,
+    standard: false,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],
     extended: true,
@@ -1897,7 +1892,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'garsaxon',
     limited: 1,
-    cost: { value: 8 },
+    cost: { value: 6 },
     sides: [
       {
         ability:
@@ -1916,7 +1911,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'thechild',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 7 },
     sides: [
       {
         ability:
@@ -1938,7 +1933,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'bokatankryze',
     limited: 1,
-    cost: { value: 8 },
+    cost: { value: 6 },
     sides: [
       {
         ability:
@@ -1976,7 +1971,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'fennrau-crew',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 4 },
     sides: [
       {
         ability:
@@ -2235,7 +2230,6 @@ const t: UpgradeBase[] = [
         charges: { value: 2, recovers: 1 },
         type: 'Crew',
         slots: ['Crew'],
-
         ffg: -1,
       },
     ],
@@ -2255,7 +2249,6 @@ const t: UpgradeBase[] = [
         title: 'Prime Minister Almec',
         type: 'Crew',
         slots: ['Crew'],
-
         ffg: -1,
       },
       {
@@ -2264,7 +2257,6 @@ const t: UpgradeBase[] = [
         title: "Almec, Maul's Puppet ",
         type: 'Crew',
         slots: ['Crew'],
-
         ffg: -1,
       },
     ],
@@ -2284,7 +2276,6 @@ const t: UpgradeBase[] = [
         title: 'Korkie Kryze',
         type: 'Crew',
         slots: ['Crew'],
-
         ffg: -1,
       },
     ],
@@ -2305,7 +2296,6 @@ const t: UpgradeBase[] = [
         force: { value: 1, recovers: 1, side: ['light'] },
         type: 'Crew',
         slots: ['Crew'],
-
         ffg: -1,
       },
     ],
@@ -2337,7 +2327,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'talmerrik',
     limited: 1,
-    cost: { value: 10 },
+    cost: { value: 7 },
     sides: [
       {
         ability:
@@ -2450,10 +2440,7 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         slots: ['Crew'],
         grants: [
-          {
-            action: { type: 'Coordinate', difficulty: 'White' },
-            value: 1,
-          },
+          { action: { type: 'Coordinate', difficulty: 'White' }, value: 1 },
         ],
         ffg: -1,
       },
@@ -2474,12 +2461,7 @@ const t: UpgradeBase[] = [
         title: 'Rook Kast',
         type: 'Crew',
         slots: ['Crew'],
-        grants: [
-          {
-            action: { type: 'Lock', difficulty: 'Red' },
-            value: 1,
-          },
-        ],
+        grants: [{ action: { type: 'Lock', difficulty: 'Red' }, value: 1 }],
         ffg: -1,
       },
     ],
@@ -2500,10 +2482,7 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         slots: ['Crew'],
         grants: [
-          {
-            action: { type: 'Reinforce', difficulty: 'White' },
-            value: 1,
-          },
+          { action: { type: 'Reinforce', difficulty: 'White' }, value: 1 },
         ],
         ffg: -1,
       },

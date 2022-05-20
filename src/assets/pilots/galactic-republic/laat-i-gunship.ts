@@ -65,7 +65,7 @@ const t: ShipType = {
       ability:
         'At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.',
       keywords: ['Clone'],
-      loadout: 23,
+      loadout: 20,
       extended: true,
     },
     {
@@ -91,7 +91,7 @@ const t: ShipType = {
       ability:
         'After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.',
       keywords: ['Clone'],
-      loadout: 14,
+      loadout: 23,
       extended: true,
     },
     {

@@ -100,7 +100,7 @@ const t: ShipType = {
       caption: 'Callous Corsair',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'kavil',
       ability:
         'While you perform a non-[Front Arc] attack, roll 1 additional attack die.',
@@ -125,7 +125,7 @@ const t: ShipType = {
       xws: 'leemakai',
       name: 'Leema Kai',
       caption: 'Opportunity Knocks',
-      cost: 5,
+      cost: 4,
       initiative: 5,
       limited: 1,
       ability:
@@ -150,7 +150,7 @@ const t: ShipType = {
       xws: 'arlizhadrassian',
       name: 'Arliz Hadrassian',
       caption: 'Crimson Blade',
-      cost: 5,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability:
@@ -226,7 +226,7 @@ const t: ShipType = {
       ffg: 902,
       text:
         "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
-      loadout: 4,
+      loadout: 5,
       extended: true,
     },
   ],

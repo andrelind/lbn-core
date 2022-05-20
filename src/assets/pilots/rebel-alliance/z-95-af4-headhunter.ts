@@ -73,7 +73,7 @@ const t: ShipType = {
       caption: 'Team Player',
       initiative: 4,
       limited: 1,
-      cost: 2,
+      cost: 3,
       xws: 'lieutenantblount',
       ability:
         'While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die.',
@@ -81,7 +81,7 @@ const t: ShipType = {
       ffg: 28,
       standard: true,
       epic: true,
-      loadout: 0,
+      loadout: 6,
       extended: true,
     },
     {

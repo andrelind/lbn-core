@@ -47,7 +47,7 @@ const t: ShipType = {
       caption: 'Death Defier',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'countdown',
       ability:
         'While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.',
@@ -56,7 +56,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 15,
+      loadout: 8,
       extended: true,
     },
     {
@@ -80,7 +80,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 10,
+      loadout: 15,
       extended: true,
     },
     {
@@ -97,7 +97,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 11,
+      loadout: 7,
       extended: true,
     },
     {

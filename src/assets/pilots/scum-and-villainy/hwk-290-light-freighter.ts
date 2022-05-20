@@ -51,7 +51,7 @@ const t: ShipType = {
       caption: 'Outer Rim Mercenary',
       initiative: 4,
       limited: 1,
-      cost: 3,
+      cost: 5,
       xws: 'dacebonearm',
       ability:
         'After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.',
@@ -61,7 +61,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 9,
+      loadout: 14,
       extended: true,
     },
     {
@@ -69,7 +69,7 @@ const t: ShipType = {
       caption: 'Tethan Resister',
       initiative: 3,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'palobgodalhi',
       ability:
         'At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.',
@@ -86,7 +86,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 12,
+      loadout: 10,
       extended: true,
     },
     {

@@ -65,7 +65,7 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       cost: 6,
       epic: true,
-      loadout: 12,
+      loadout: 16,
       extended: true,
     },
     {
@@ -78,10 +78,10 @@ const t: ShipType = {
         'After another friendly ship defends, if you are not depleted, you may perform a bonus primary attack against the attacker. If you do, after performing that attack, gain 1 deplete token.',
       slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
       keywords: ['Mandalorian'],
-      cost: 6,
+      cost: 5,
       epic: true,
       standard: true,
-      loadout: 15,
+      loadout: 6,
       extended: true,
     },
     {
@@ -97,7 +97,7 @@ const t: ShipType = {
       cost: 5,
       epic: true,
       standard: true,
-      loadout: 12,
+      loadout: 10,
       extended: true,
     },
     {

@@ -213,7 +213,7 @@ const t: UpgradeBase[] = [
         ffg: 237,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 6 },
     restrictions: [{ baseSizes: ['Small', 'Medium'] }],
     standard: true,
     epic: true,
@@ -269,7 +269,7 @@ const t: UpgradeBase[] = [
         ffg: 240,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 12 },
     standard: true,
     epic: true,
     extended: true,
@@ -366,7 +366,7 @@ const t: UpgradeBase[] = [
         ffg: 245,
       },
     ],
-    cost: { value: 8 },
+    cost: { value: 6 },
     standard: true,
     epic: true,
     extended: true,
@@ -655,7 +655,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'tierfonbellyrun',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         ability:
@@ -782,7 +782,7 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    cost: { value: 2 },
+    cost: { value: 5 },
     extended: true,
   },
   {

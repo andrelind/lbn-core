@@ -194,7 +194,7 @@ const t: ShipType = {
       xws: 'merlcobben',
       name: 'Merl Cobben',
       caption: 'Distracting Daredevil',
-      cost: 3,
+      cost: 4,
       initiative: 1,
       limited: 1,
       ability:

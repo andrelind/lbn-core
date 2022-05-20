@@ -71,7 +71,7 @@ const t: UpgradeBase[] = [
         ffg: 289,
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 4 },
     standard: true,
     epic: true,
     extended: true,

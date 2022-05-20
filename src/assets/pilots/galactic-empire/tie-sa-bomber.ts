@@ -135,14 +135,14 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      loadout: 20,
+      loadout: 12,
       extended: true,
     },
     {
       name: 'Scimitar Squadron Pilot',
       initiative: 2,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'scimitarsquadronpilot',
       text:
         'The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.',
@@ -151,7 +151,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      loadout: 4,
+      loadout: 6,
       extended: true,
     },
     {

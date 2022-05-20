@@ -42,7 +42,7 @@ const t: ShipType = {
       caption: 'Brash Noble',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'lieutenantkarsabi',
       ability:
         'After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.',
@@ -66,14 +66,14 @@ const t: ShipType = {
       ffg: 135,
       standard: false,
       epic: true,
-      loadout: 25,
+      loadout: 21,
       extended: true,
     },
     {
       name: 'Nu Squadron Pilot',
       initiative: 2,
       limited: 0,
-      cost: 4,
+      cost: 5,
       xws: 'nusquadronpilot',
       text:
         'With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.',
@@ -88,7 +88,7 @@ const t: ShipType = {
       name: 'Rho Squadron Pilot',
       initiative: 3,
       limited: 0,
-      cost: 4,
+      cost: 5,
       xws: 'rhosquadronpilot',
       text:
         'The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect.',

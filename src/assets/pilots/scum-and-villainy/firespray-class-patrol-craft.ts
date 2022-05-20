@@ -46,7 +46,7 @@ const t: ShipType = {
       caption: 'Notorious Bounty Hunter',
       initiative: 5,
       limited: 1,
-      cost: 10,
+      cost: 9,
       xws: 'bobafett',
       ability:
         'While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.',
@@ -81,7 +81,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 6,
+      loadout: 10,
       extended: true,
     },
     {
@@ -106,7 +106,7 @@ const t: ShipType = {
       ffg: 150,
       standard: true,
       epic: true,
-      loadout: 12,
+      loadout: 17,
       extended: true,
     },
     {
@@ -131,7 +131,7 @@ const t: ShipType = {
       ffg: 151,
       standard: true,
       epic: true,
-      loadout: 13,
+      loadout: 18,
       extended: true,
     },
     {
@@ -157,7 +157,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 11,
+      loadout: 16,
       extended: true,
     },
     {
@@ -165,7 +165,7 @@ const t: ShipType = {
       caption: 'Imperial Deserter',
       initiative: 3,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'krassistrelix',
       ability:
         'You can perform [Front Arc] special attacks from your [Rear Arc]. While you perform a special attack, you may reroll 1 attack die.',

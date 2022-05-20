@@ -77,7 +77,7 @@ const t: ShipType = {
       ffg: 452,
       standard: true,
       epic: true,
-      loadout: 4,
+      loadout: 5,
       extended: true,
       keywords: ['TIE'],
     },
@@ -95,7 +95,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 3,
+      loadout: 8,
       extended: true,
     },
     {
@@ -129,7 +129,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 3,
+      loadout: 8,
       extended: true,
     },
     {
@@ -179,7 +179,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 4,
+      loadout: 5,
       extended: true,
     },
     {
@@ -219,7 +219,7 @@ const t: ShipType = {
       caption: 'Inconvenient Witness',
       initiative: 1,
       limited: 1,
-      cost: 2,
+      cost: 3,
       xws: 'lieutenantrivas',
       ability:
         'After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.',
@@ -228,7 +228,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
+      loadout: 4,
       extended: true,
     },
     {
@@ -244,7 +244,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 5,
       extended: true,
     },
   ],

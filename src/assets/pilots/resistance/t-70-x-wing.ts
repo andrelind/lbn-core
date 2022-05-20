@@ -76,7 +76,7 @@ const t: ShipType = {
       name: 'Poe Dameron',
       caption: 'Resistance Commander',
       cost: 6,
-      loadout: 12,
+      loadout: 19,
       initiative: 6,
       limited: 1,
       charges: { value: 2, recovers: 1 },
@@ -153,7 +153,7 @@ const t: ShipType = {
       xws: 'elloasty',
       ability:
         'After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right]) maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
-      cost: 6,
+      cost: 5,
       slots: [
         'Talent',
         'Talent',
@@ -166,7 +166,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 14,
+      loadout: 11,
       extended: true,
     },
     {
@@ -182,7 +182,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 12,
+      loadout: 9,
       extended: true,
     },
     {
@@ -194,7 +194,7 @@ const t: ShipType = {
       ability:
         'While you boost, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
       cost: 5,
-      loadout: 13,
+      loadout: 10,
       slots: [
         'Talent',
         'Tech',
@@ -234,7 +234,7 @@ const t: ShipType = {
       xws: 'niennunb',
       ability:
         'After you gain a stress token, if there is an enemy ship in your [Front Arc] at range 0-1, you may remove that stress token.',
-      cost: 6,
+      cost: 5,
       slots: [
         'Talent',
         'Tech',
@@ -247,7 +247,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 13,
+      loadout: 10,
       extended: true,
     },
     {
@@ -258,13 +258,13 @@ const t: ShipType = {
       xws: 'jaycristubbs',
       ability:
         'After you fully execute a blue maneuver, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.',
-      cost: 4,
+      cost: 5,
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ffg: 450,
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 8,
+      loadout: 13,
       extended: true,
     },
     {
@@ -275,14 +275,14 @@ const t: ShipType = {
       xws: 'jessikapava',
       ability:
         'While you defend or perform an attack, you may spend 1 [Charge] or 1 non-recurring [Charge] from your equipped [Astromech] upgrade to reroll up to 1 of your dice for each other friendly ship at range 0-1.',
-      cost: 6,
+      cost: 5,
       charges: { value: 1, recovers: 1 },
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ffg: 423,
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 16,
+      loadout: 11,
       extended: true,
     },
     {
@@ -306,7 +306,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 13,
+      loadout: 11,
       extended: true,
     },
     {
@@ -314,7 +314,7 @@ const t: ShipType = {
       name: 'Temmin Wexley',
       caption: 'Black Two',
       cost: 6,
-      loadout: 14,
+      loadout: 17,
       initiative: 4,
       limited: 1,
       ability:
@@ -337,7 +337,7 @@ const t: ShipType = {
       xws: 'caithrenalli',
       name: 'C’ai Threnalli',
       caption: 'Tenacious Survivor',
-      cost: 4,
+      cost: 5,
       initiative: 4,
       limited: 1,
       ability:
@@ -347,7 +347,7 @@ const t: ShipType = {
       epic: true,
       ffg: 699,
       keywords: ['X-wing'],
-      loadout: 7,
+      loadout: 13,
       extended: true,
     },
     {

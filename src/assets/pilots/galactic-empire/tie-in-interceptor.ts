@@ -48,7 +48,7 @@ const t: ShipType = {
       name: 'Alpha Squadron Pilot',
       initiative: 1,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'alphasquadronpilot',
       text:
         'Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.',
@@ -73,7 +73,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 7,
+      loadout: 3,
       extended: true,
     },
     {
@@ -96,7 +96,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 12,
+      loadout: 15,
       extended: true,
     },
     {
@@ -153,7 +153,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 892,
-      loadout: 8,
+      loadout: 12,
       extended: true,
     },
     {
@@ -210,7 +210,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 893,
-      loadout: 10,
+      loadout: 6,
       extended: true,
     },
     {

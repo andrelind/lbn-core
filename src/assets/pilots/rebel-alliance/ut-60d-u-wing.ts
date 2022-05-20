@@ -175,7 +175,7 @@ const t: ShipType = {
       caption: 'Obsessive Outlaw',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'sawgerrera',
       ability:
         'While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.',

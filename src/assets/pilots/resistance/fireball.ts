@@ -57,7 +57,7 @@ const t: ShipType = {
       ffg: 623,
       text:
         'Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.',
-      loadout: 2,
+      loadout: 5,
       extended: true,
     },
     {
@@ -82,7 +82,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 620,
-      loadout: 6,
+      loadout: 9,
       extended: true,
     },
     {
@@ -106,7 +106,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 621,
-      loadout: 10,
+      loadout: 14,
       extended: true,
     },
     {
@@ -123,13 +123,13 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Barrel Roll' },
         { difficulty: 'White', type: 'SLAM' },
       ],
-      cost: 2,
+      cost: 3,
       slots: [],
       standard: true,
       epic: true,
       ffg: 622,
       keywords: ['Droid'],
-      loadout: 0,
+      loadout: 8,
       extended: true,
     },
   ],

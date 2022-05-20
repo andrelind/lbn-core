@@ -78,7 +78,7 @@ const t: ShipType = {
         'After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.',
       standard: true,
       epic: true,
-      cost: 8,
+      cost: 7,
       slots: [
         'Force Power',
         'Torpedo',
@@ -107,7 +107,7 @@ const t: ShipType = {
       cost: 6,
       slots: ['Torpedo', 'Cannon', 'Device', 'Modification'],
       ffg: 506,
-      loadout: 6,
+      loadout: 9,
       extended: true,
     },
     {
@@ -129,7 +129,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Droid'],
-      loadout: 11,
+      loadout: 16,
       extended: true,
     },
   ],

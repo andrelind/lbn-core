@@ -81,7 +81,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 8,
+      loadout: 11,
       extended: true,
     },
     {
@@ -89,7 +89,7 @@ const t: ShipType = {
       caption: 'Hunt Saboteur',
       initiative: 4,
       limited: 1,
-      cost: 2,
+      cost: 3,
       xws: 'ndrusuhlak',
       ability:
         'While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.',
@@ -97,7 +97,7 @@ const t: ShipType = {
       ffg: 169,
       standard: true,
       epic: true,
-      loadout: 0,
+      loadout: 7,
       extended: true,
     },
     {
@@ -130,7 +130,7 @@ const t: ShipType = {
       epic: true,
       ffg: 635,
       keywords: ['Bounty Hunter'],
-      loadout: 8,
+      loadout: 10,
       extended: true,
     },
   ],

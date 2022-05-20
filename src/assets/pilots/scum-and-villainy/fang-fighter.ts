@@ -58,7 +58,7 @@ const t: ShipType = {
       initiative: 6,
       limited: 1,
       cost: 7,
-      loadout: 12,
+      loadout: 18,
       xws: 'fennrau',
       ability:
         'While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.',
@@ -91,7 +91,7 @@ const t: ShipType = {
       caption: 'Skilled Commando',
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'kadsolus',
       ability: 'After you fully execute a red maneuver, gain 2 focus tokens.',
       slots: ['Talent', 'Modification'],
@@ -99,7 +99,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 4,
+      loadout: 12,
       extended: true,
     },
     {
@@ -132,7 +132,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 10,
+      loadout: 6,
       extended: true,
     },
     {
@@ -148,7 +148,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 10,
+      loadout: 8,
       extended: true,
     },
     {

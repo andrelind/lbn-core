@@ -58,14 +58,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      loadout: 6,
+      loadout: 5,
       extended: true,
     },
     {
       name: 'Green Squadron Pilot',
       initiative: 3,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'greensquadronpilot',
       text:
         'Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.',
@@ -98,7 +98,7 @@ const t: ShipType = {
       name: 'Phoenix Squadron Pilot',
       initiative: 1,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'phoenixsquadronpilot',
       text:
         'Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.',
@@ -149,7 +149,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
       ffg: 885,
-      loadout: 15,
+      loadout: 11,
       extended: true,
     },
     {
@@ -180,7 +180,7 @@ const t: ShipType = {
       xws: 'ahsokatano-rz1awing',
       name: 'Ahsoka Tano',
       caption: 'Fulcrum',
-      cost: 6,
+      cost: 5,
       initiative: 5,
       limited: 1,
       ability:
@@ -198,14 +198,14 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing', 'Light Side'],
       ffg: 881,
-      loadout: 20,
+      loadout: 12,
       extended: true,
     },
     {
       xws: 'sharabey-rz1awing',
       name: 'Shara Bey',
       caption: 'Green Four',
-      cost: 3,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability:
@@ -222,7 +222,7 @@ const t: ShipType = {
       xws: 'derekklivian',
       name: 'Derek Klivian',
       caption: 'Hobbie',
-      cost: 2,
+      cost: 3,
       initiative: 3,
       limited: 1,
       ability:
@@ -232,7 +232,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing'],
       ffg: 884,
-      loadout: 0,
+      loadout: 6,
       extended: true,
     },
   ],

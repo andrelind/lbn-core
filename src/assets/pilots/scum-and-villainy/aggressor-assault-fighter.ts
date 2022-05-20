@@ -126,7 +126,7 @@ const t: ShipType = {
       caption: 'Deadly Device',
       initiative: 4,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'ig88d',
       ability:
         "While you execute a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver, you may use another template of the same speed instead: either the turn ([Turn Left] or [Turn Right]) of the same direction or the straight ([Straight]) template.",
@@ -144,7 +144,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['Bounty Hunter', 'Droid'],
-      loadout: 16,
+      loadout: 13,
       extended: true,
     },
   ],

@@ -47,7 +47,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       cost: 7,
-      loadout: 28,
+      loadout: 20,
       ability:
         'While you defend or perform an attack, if you are in the [Front Arc] at range 1-2 of 2 or more enemy ship, you may change 1 of you blank results to a [Focus] result.',
       slots: [
@@ -73,7 +73,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       cost: 6,
-      loadout: 20,
+      loadout: 16,
       ability:
         'After you fully execute an advanced maneuver, you may perform a [Calculate] or [Barrel Roll] action, even while stressed. If you do, gain 1 strain token.',
       shipActions: [

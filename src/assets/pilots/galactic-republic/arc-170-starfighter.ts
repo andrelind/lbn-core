@@ -89,7 +89,7 @@ const t: ShipType = {
     {
       name: '“Odd Ball”',
       xws: 'oddball-arc170starfighter',
-      cost: 6,
+      cost: 5,
       slots: [
         'Talent',
         'Sensor',
@@ -109,7 +109,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 22,
+      loadout: 15,
       extended: true,
     },
     {

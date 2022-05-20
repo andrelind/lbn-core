@@ -34,10 +34,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [
-      {
-        factions: ['Scum and Villainy'],
-        character: ['Darth Vader'],
-      },
+      { factions: ['Scum and Villainy'], character: ['Darth Vader'] },
     ],
     standard: true,
     epic: true,
@@ -230,7 +227,7 @@ const t: UpgradeBase[] = [
         ffg: 322,
       },
     ],
-    cost: { value: 16 },
+    cost: { value: 12 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -267,7 +264,7 @@ const t: UpgradeBase[] = [
         ffg: 470,
       },
     ],
-    cost: { value: 9 },
+    cost: { value: 5 },
     restrictions: [
       { factions: ['First Order'] },
       { chassis: ['tiesffighter'] },
@@ -289,7 +286,7 @@ const t: UpgradeBase[] = [
         ffg: 280,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 3 },
     restrictions: [{ arcs: ['Rear Arc'] }],
     standard: true,
     epic: true,
@@ -308,7 +305,7 @@ const t: UpgradeBase[] = [
         ffg: 281,
       },
     ],
-    cost: { value: 8 },
+    cost: { value: 5 },
     restrictions: [{ action: { type: 'Rotate Arc' } }],
     standard: true,
     epic: true,
@@ -434,7 +431,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'bobafett-gunner',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 2 },
     sides: [
       {
         ability:
@@ -575,7 +572,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'migsmayfeld',
     limited: 1,
-    cost: { value: 5 },
+    cost: { value: 4 },
     sides: [
       {
         ability:
@@ -614,7 +611,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'ursawren-gunner',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 4 },
     sides: [
       {
         ability:

@@ -42,7 +42,7 @@ const t: ShipType = {
       ability:
         'Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.',
       cost: 7,
-      loadout: 24,
+      loadout: 20,
       initiative: 4,
       limited: 1,
       standard: true,

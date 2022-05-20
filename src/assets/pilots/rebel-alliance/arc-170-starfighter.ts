@@ -67,7 +67,7 @@ const t: ShipType = {
       caption: 'Survivor of Endor',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'ibtisam',
       ability:
         'After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [Hit] or [Critical Hit] result, remove 1 stress token.',
@@ -83,7 +83,7 @@ const t: ShipType = {
       ffg: 68,
       standard: true,
       epic: true,
-      loadout: 8,
+      loadout: 14,
       extended: true,
     },
     {

@@ -48,7 +48,7 @@ const t: ShipType = {
       caption: 'Spectre-4',
       initiative: 2,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'zeborrelios-sheathipedeclassshuttle',
       ability:
         'While you defend, [Critical Hit] results are neutralized before [Hit] results.',
@@ -57,7 +57,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Spectre'],
-      loadout: 8,
+      loadout: 11,
       extended: true,
     },
     {
@@ -65,7 +65,7 @@ const t: ShipType = {
       caption: 'Escaped Analyst Droid',
       initiative: 1,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'ap5',
       ability:
         'While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.',
@@ -78,7 +78,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Droid', 'Spectre'],
-      loadout: 8,
+      loadout: 4,
       extended: true,
     },
     {
@@ -96,7 +96,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Light Side', 'Spectre'],
-      loadout: 11,
+      loadout: 6,
       extended: true,
     },
     {
@@ -104,7 +104,7 @@ const t: ShipType = {
       caption: 'Reluctant Rebel',
       initiative: 6,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'fennrau-sheathipedeclassshuttle',
       ability:
         'Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.',
@@ -113,7 +113,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian', 'Spectre'],
-      loadout: 15,
+      loadout: 9,
       extended: true,
     },
   ],

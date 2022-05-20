@@ -58,7 +58,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Astromech', 'Modification'],
       ffg: 515,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 8,
+      loadout: 3,
       extended: true,
     },
     {
@@ -82,7 +82,7 @@ const t: ShipType = {
       ],
       ffg: 511,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 12,
+      loadout: 15,
       extended: true,
     },
     {
@@ -100,7 +100,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Talent', 'Missile', 'Astromech', 'Modification'],
       ffg: 513,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 12,
+      loadout: 17,
       extended: true,
     },
     {
@@ -149,7 +149,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 8,
+      cost: 7,
       loadout: 15,
       slots: [
         'Force Power',

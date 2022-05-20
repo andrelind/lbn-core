@@ -66,7 +66,7 @@ const t: ShipType = {
       caption: 'Corsair of Kijimi',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 20,
+      loadout: 24,
       extended: true,
     },
     {
@@ -93,7 +93,7 @@ const t: ShipType = {
       caption: 'Old Soldier',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 11,
+      loadout: 17,
       extended: true,
     },
     {
@@ -121,7 +121,7 @@ const t: ShipType = {
       ability:
         'After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].',
       keywords: ['Y-wing'],
-      loadout: 8,
+      loadout: 14,
       extended: true,
     },
     {
@@ -148,7 +148,7 @@ const t: ShipType = {
       caption: 'Artistic Ace',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 7,
+      loadout: 13,
       extended: true,
     },
     {
@@ -175,7 +175,7 @@ const t: ShipType = {
       caption: 'Hero of Humbarine',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 13,
+      loadout: 19,
       extended: true,
     },
     {
@@ -203,7 +203,7 @@ const t: ShipType = {
       ability:
         'After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.',
       keywords: ['Y-wing'],
-      loadout: 12,
+      loadout: 18,
       extended: true,
     },
     {
@@ -230,7 +230,7 @@ const t: ShipType = {
       ability:
         'Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.',
       keywords: ['Y-wing'],
-      loadout: 14,
+      loadout: 20,
       extended: true,
     },
     {
@@ -257,7 +257,7 @@ const t: ShipType = {
       caption: 'Tenacious Survivor',
       keywords: ['Y-wing'],
       epic: true,
-      loadout: 9,
+      loadout: 15,
       extended: true,
     },
     {

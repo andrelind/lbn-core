@@ -49,7 +49,7 @@ const t: ShipType = {
       caption: 'Ruthless Tactician',
       initiative: 2,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'vizier',
       ability:
         'After you fully execute a speed 1 maneuver using your Adaptive Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.',
@@ -58,7 +58,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 14,
+      loadout: 12,
       extended: true,
     },
     {
@@ -66,7 +66,7 @@ const t: ShipType = {
       caption: 'Imperial Courier',
       initiative: 3,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'captainferoph',
       ability:
         'While you defend, if the attacker does not have any green tokens, you may change 1 of your blank or [Focus] results to an [Evade] result.',
@@ -92,14 +92,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 16,
       extended: true,
     },
     {
       name: 'Scarif Base Pilot',
       initiative: 1,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'scarifbasepilot',
       text:
         "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif.",
@@ -108,7 +108,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 6,
       extended: true,
     },
   ],

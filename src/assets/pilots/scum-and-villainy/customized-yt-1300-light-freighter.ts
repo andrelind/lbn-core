@@ -69,7 +69,7 @@ const t: ShipType = {
       caption: 'The Corellian Kid',
       initiative: 6,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'hansolo',
       ability:
         'While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.',
@@ -87,7 +87,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter', 'YT-1300'],
-      loadout: 24,
+      loadout: 20,
       extended: true,
     },
     {

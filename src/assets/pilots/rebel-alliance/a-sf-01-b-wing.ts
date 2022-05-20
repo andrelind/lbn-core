@@ -97,7 +97,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      loadout: 18,
+      loadout: 12,
       extended: true,
     },
     {
@@ -123,7 +123,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      loadout: 20,
+      loadout: 14,
       extended: true,
     },
     {
@@ -131,7 +131,7 @@ const t: ShipType = {
       caption: 'Insubordinate Ace',
       initiative: 5,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'ginamoonsong',
       ability:
         'At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.',
@@ -149,7 +149,7 @@ const t: ShipType = {
       epic: true,
       ffg: 628,
       keywords: ['B-wing'],
-      loadout: 11,
+      loadout: 16,
       extended: true,
     },
     {
@@ -177,14 +177,14 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing', 'Spectre'],
       ffg: 878,
-      loadout: 27,
+      loadout: 20,
       extended: true,
     },
     {
       xws: 'netrempollard',
       name: 'Netrem Pollard',
       caption: 'Dagger Leader',
-      cost: 4,
+      cost: 5,
       initiative: 3,
       limited: 1,
       ability:
@@ -203,7 +203,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing'],
       ffg: 879,
-      loadout: 11,
+      loadout: 18,
       extended: true,
     },
   ],

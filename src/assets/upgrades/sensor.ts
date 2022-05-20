@@ -70,7 +70,7 @@ const t: UpgradeBase[] = [
       },
     ],
     cost: { value: 6 },
-    standard: true,
+    standard: false,
     epic: true,
     extended: true,
   },

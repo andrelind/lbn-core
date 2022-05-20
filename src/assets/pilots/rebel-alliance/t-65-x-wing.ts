@@ -53,14 +53,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 12,
+      loadout: 18,
       extended: true,
     },
     {
       name: 'Blue Squadron Escort',
       initiative: 2,
       limited: 0,
-      cost: 4,
+      cost: 5,
       xws: 'bluesquadronescort',
       text:
         'Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.',
@@ -76,7 +76,7 @@ const t: ShipType = {
       name: 'Cavern Angels Zealot',
       initiative: 1,
       limited: 0,
-      cost: 4,
+      cost: 5,
       xws: 'cavernangelszealot',
       text:
         "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
@@ -102,7 +102,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
-      loadout: 7,
+      loadout: 10,
       extended: true,
     },
     {
@@ -125,7 +125,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 10,
+      loadout: 16,
       extended: true,
     },
     {
@@ -133,7 +133,7 @@ const t: ShipType = {
       caption: 'Red Six',
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'jekporkins',
       ability:
         'After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.',
@@ -142,7 +142,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 7,
+      loadout: 15,
       extended: true,
     },
     {
@@ -166,7 +166,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
-      loadout: 6,
+      loadout: 7,
       extended: true,
     },
     {
@@ -190,7 +190,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Partisan', 'X-wing'],
-      loadout: 6,
+      loadout: 8,
       extended: true,
     },
     {
@@ -198,7 +198,7 @@ const t: ShipType = {
       caption: 'Red Five',
       initiative: 5,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'lukeskywalker',
       ability:
         'After you become the defender (before dice are rolled), you may recover 1 [Force].',
@@ -215,14 +215,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Light Side', 'X-wing'],
-      loadout: 28,
+      loadout: 22,
       extended: true,
     },
     {
       name: 'Red Squadron Veteran',
       initiative: 3,
       limited: 0,
-      cost: 4,
+      cost: 5,
       xws: 'redsquadronveteran',
       text:
         'Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.',
@@ -239,7 +239,7 @@ const t: ShipType = {
       caption: 'Corona Four',
       initiative: 5,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'thanekyrell',
       ability:
         "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
@@ -254,7 +254,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 7,
+      loadout: 14,
       extended: true,
     },
     {
@@ -263,7 +263,7 @@ const t: ShipType = {
       initiative: 6,
       limited: 1,
       cost: 6,
-      loadout: 20,
+      loadout: 18,
       xws: 'wedgeantilles',
       ability:
         'While you perform an attack, the defender rolls 1 fewer defense die.',

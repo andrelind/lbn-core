@@ -77,7 +77,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
-    cost: { value: 10 },
+    cost: { value: 8 },
     extended: true,
   },
   {

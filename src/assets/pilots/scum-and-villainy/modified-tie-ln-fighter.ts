@@ -45,7 +45,7 @@ const t: ShipType = {
       caption: 'Vengeful Survivor',
       initiative: 3,
       limited: 1,
-      cost: 2,
+      cost: 3,
       xws: 'ahhav',
       ability:
         'While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.',
@@ -54,7 +54,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
+      loadout: 8,
       extended: true,
     },
     {
@@ -89,7 +89,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 9,
+      loadout: 6,
       extended: true,
     },
     {
@@ -105,7 +105,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
+      loadout: 1,
       extended: true,
     },
     {
@@ -123,7 +123,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 7,
       extended: true,
     },
     {
@@ -139,7 +139,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
+      loadout: 3,
       extended: true,
     },
   ],

@@ -47,7 +47,7 @@ const t: ShipType = {
       name: 'Cartel Spacer',
       initiative: 1,
       limited: 0,
-      cost: 4,
+      cost: 3,
       xws: 'cartelspacer',
       text:
         'MandalMotors\' M3-A "Scyk" Interceptor is purchased in large quantities by the Hutt Cartel and the Car\'das smugglers due to its low cost and customizability.',
@@ -55,7 +55,7 @@ const t: ShipType = {
       ffg: 190,
       standard: true,
       epic: true,
-      loadout: 6,
+      loadout: 4,
       extended: true,
     },
     {
@@ -63,7 +63,7 @@ const t: ShipType = {
       caption: 'Tansarii Point Crime Lord',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'genesisred',
       ability:
         'After you acquire a lock, you must remove all of your focus and evade tokens. Then, gain the same number of focus and evade tokens that the locked ship has.',
@@ -71,7 +71,7 @@ const t: ShipType = {
       ffg: 184,
       standard: true,
       epic: true,
-      loadout: 20,
+      loadout: 14,
       extended: true,
     },
     {
@@ -79,7 +79,7 @@ const t: ShipType = {
       caption: 'Tansarii Point Boss',
       initiative: 2,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'inaldra',
       ability:
         'While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.',
@@ -87,7 +87,7 @@ const t: ShipType = {
       ffg: 187,
       standard: true,
       epic: true,
-      loadout: 10,
+      loadout: 6,
       extended: true,
     },
     {
@@ -95,7 +95,7 @@ const t: ShipType = {
       caption: 'Car’das Enforcer',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'laetinashera',
       ability:
         'After you defend or perform an attack, if the attack missed, gain 1 evade token.',
@@ -103,7 +103,7 @@ const t: ShipType = {
       ffg: 185,
       standard: true,
       epic: true,
-      loadout: 10,
+      loadout: 7,
       extended: true,
     },
     {
@@ -111,7 +111,7 @@ const t: ShipType = {
       caption: 'Fortune Seeker',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'quinnjast',
       ability:
         'At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.',
@@ -120,7 +120,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 11,
+      loadout: 7,
       extended: true,
     },
     {
@@ -128,7 +128,7 @@ const t: ShipType = {
       caption: 'Flight Instructor',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'serissu',
       ability:
         'While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.',
@@ -136,7 +136,7 @@ const t: ShipType = {
       ffg: 183,
       standard: true,
       epic: true,
-      loadout: 18,
+      loadout: 12,
       extended: true,
     },
     {
@@ -144,7 +144,7 @@ const t: ShipType = {
       caption: 'Incurable Optimist',
       initiative: 1,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'sunnybounder',
       ability:
         'While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.',
@@ -152,14 +152,14 @@ const t: ShipType = {
       ffg: 188,
       standard: true,
       epic: true,
-      loadout: 10,
+      loadout: 5,
       extended: true,
     },
     {
       name: 'Tansarii Point Veteran',
       initiative: 3,
       limited: 0,
-      cost: 4,
+      cost: 3,
       xws: 'tansariipointveteran',
       text:
         "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
@@ -167,7 +167,7 @@ const t: ShipType = {
       ffg: 189,
       standard: true,
       epic: true,
-      loadout: 8,
+      loadout: 3,
       extended: true,
     },
     {
@@ -180,7 +180,7 @@ const t: ShipType = {
       slots: ['Modification'],
       ability:
         'After you defend, each other ship at range 0 suffers 1 [Critical Hit] damage.',
-      cost: 4,
+      cost: 3,
       ffg: 636,
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
@@ -190,7 +190,7 @@ const t: ShipType = {
       ],
       epic: true,
       keywords: ['Droid'],
-      loadout: 11,
+      loadout: 6,
       extended: true,
     },
   ],

@@ -77,7 +77,7 @@ const t: ShipType = {
       caption: 'Trick of the Light',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'holo',
       ability:
         'At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.',

@@ -65,7 +65,7 @@ const t: ShipType = {
         "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result.",
       ffg: 794,
       keywords: ['Droid'],
-      loadout: 10,
+      loadout: 12,
       extended: true,
     },
     {
@@ -78,7 +78,7 @@ const t: ShipType = {
       ability:
         "During the System Phase, you may spend your lock on a ship to look at that ship's dial.",
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
-      cost: 5,
+      cost: 4,
       epic: true,
       ffg: 796,
       keywords: ['Droid'],
@@ -96,7 +96,7 @@ const t: ShipType = {
         'Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship.',
       slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
       conditions: ['fearfulprey'],
-      cost: 5,
+      cost: 4,
       epic: true,
       ffg: 797,
       keywords: ['Droid'],
@@ -117,7 +117,7 @@ const t: ShipType = {
       epic: true,
       ffg: 795,
       keywords: ['Droid'],
-      loadout: 12,
+      loadout: 14,
       extended: true,
     },
     {

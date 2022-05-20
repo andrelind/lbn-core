@@ -59,7 +59,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       standard: true,
-      cost: 6,
+      cost: 5,
       slots: [
         'Talent',
         'Talent',
@@ -77,7 +77,7 @@ const t: ShipType = {
       caption: 'Ordnance Expert',
       keywords: ['TIE'],
       epic: true,
-      loadout: 20,
+      loadout: 18,
       extended: true,
     },
     {

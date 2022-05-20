@@ -1033,7 +1033,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'b6bladewingprototype',
     limited: 1,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         ability: 'Add [Gunner] slot.',

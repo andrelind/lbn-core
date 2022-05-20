@@ -52,7 +52,7 @@ const t: ShipType = {
       caption: 'Contemplative Commander',
       initiative: 4,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'colonelvessery',
       ability:
         'While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.',
@@ -69,7 +69,7 @@ const t: ShipType = {
       caption: 'Cutthroat Politico',
       initiative: 4,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'countessryad',
       ability:
         'While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.',
@@ -125,7 +125,7 @@ const t: ShipType = {
       caption: 'Onyx Leader',
       initiative: 5,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'rexlerbrath',
       ability:
         "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
@@ -148,7 +148,7 @@ const t: ShipType = {
       xws: 'vultskerris',
       name: 'Vult Skerris',
       caption: 'Arrogant Ace',
-      cost: 8,
+      cost: 7,
       initiative: 5,
       limited: 1,
       ability:
@@ -172,7 +172,7 @@ const t: ShipType = {
       xws: 'darthvader-tieddefender',
       name: 'Darth Vader',
       caption: 'Dark Lord of the Sith',
-      cost: 11,
+      cost: 9,
       initiative: 6,
       limited: 1,
       ability:
@@ -200,7 +200,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 888,
-      loadout: 12,
+      loadout: 15,
       extended: true,
     },
   ],

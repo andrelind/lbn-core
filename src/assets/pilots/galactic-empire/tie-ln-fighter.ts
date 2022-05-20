@@ -57,7 +57,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 8,
       extended: true,
     },
     {
@@ -74,7 +74,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 3,
+      loadout: 4,
       extended: true,
     },
     {
@@ -82,7 +82,7 @@ const t: ShipType = {
       caption: 'Obsidian Two',
       initiative: 2,
       limited: 1,
-      cost: 2,
+      cost: 3,
       xws: 'nightbeast',
       ability:
         'After you fully execute a blue maneuver, you may perform a [Focus] action.',
@@ -91,7 +91,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
+      loadout: 4,
       extended: true,
     },
     {
@@ -116,7 +116,7 @@ const t: ShipType = {
       caption: 'Black Eleven',
       initiative: 1,
       limited: 1,
-      cost: 3,
+      cost: 2,
       xws: 'wampa',
       ability:
         'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].',
@@ -126,14 +126,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 4,
+      loadout: 2,
       extended: true,
     },
     {
       name: 'Academy Pilot',
       initiative: 1,
       limited: 0,
-      cost: 3,
+      cost: 2,
       xws: 'academypilot',
       text:
         'The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.',
@@ -149,7 +149,7 @@ const t: ShipType = {
       name: 'Black Squadron Ace',
       initiative: 3,
       limited: 0,
-      cost: 3,
+      cost: 2,
       xws: 'blacksquadronace',
       text:
         'The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.',
@@ -158,7 +158,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 2,
       extended: true,
     },
     {
@@ -175,7 +175,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 4,
+      loadout: 6,
       extended: true,
     },
     {
@@ -192,7 +192,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 3,
+      loadout: 8,
       extended: true,
     },
     {
@@ -200,7 +200,7 @@ const t: ShipType = {
       caption: 'Inferno Leader',
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'idenversio',
       ability:
         'Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.',
@@ -250,7 +250,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 3,
+      loadout: 8,
       extended: true,
     },
     {
@@ -258,7 +258,7 @@ const t: ShipType = {
       caption: 'Braggadocious Baron',
       initiative: 3,
       limited: 1,
-      cost: 3,
+      cost: 2,
       xws: 'valenrudor',
       ability:
         'After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.',
@@ -267,7 +267,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 1,
       extended: true,
     },
     {
@@ -280,10 +280,10 @@ const t: ShipType = {
         'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
       slots: ['Talent', 'Illicit', 'Modification'],
       keywords: ['TIE'],
-      cost: 3,
+      cost: 2,
       standard: true,
       epic: true,
-      loadout: 4,
+      loadout: 3,
       extended: true,
     },
     {
@@ -297,10 +297,10 @@ const t: ShipType = {
         'While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.',
       slots: ['Talent', 'Missile', 'Illicit', 'Illicit', 'Modification'],
       keywords: ['TIE'],
-      cost: 4,
+      cost: 3,
       standard: true,
       epic: true,
-      loadout: 11,
+      loadout: 8,
       extended: true,
     },
   ],

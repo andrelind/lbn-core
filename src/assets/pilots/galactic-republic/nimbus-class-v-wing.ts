@@ -63,10 +63,9 @@ const t: ShipType = {
         'Modification',
         'Configuration',
       ],
-      keywords: ['TIE'],
       cost: 3,
       ffg: 791,
-      loadout: 10,
+      loadout: 8,
       extended: true,
     },
     {
@@ -102,11 +101,11 @@ const t: ShipType = {
       ability:
         "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
       slots: ['Configuration'],
-      cost: 2,
+      cost: 3,
       epic: true,
       ffg: 789,
       keywords: ['Clone', 'TIE'],
-      loadout: 0,
+      loadout: 11,
       extended: true,
     },
     {
@@ -151,7 +150,6 @@ const t: ShipType = {
         'The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.',
       standard: true,
       slots: ['Modification', 'Configuration'],
-      keywords: ['Clone', 'TIE'],
       cost: 3,
       epic: true,
       ffg: 793,

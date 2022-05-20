@@ -45,7 +45,7 @@ const t: ShipType = {
       caption: 'Inspired Tactician',
       initiative: 3,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'captainoicunn',
       ability:
         'While you perform an attack at attack range 0, treat it as an attack at attack range 1.',
@@ -63,14 +63,14 @@ const t: ShipType = {
       ffg: 146,
       standard: true,
       epic: true,
-      loadout: 25,
+      loadout: 19,
       extended: true,
     },
     {
       name: 'Patrol Leader',
       initiative: 2,
       limited: 0,
-      cost: 8,
+      cost: 7,
       xws: 'patrolleader',
       text:
         'To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.',
@@ -78,7 +78,7 @@ const t: ShipType = {
       ffg: 148,
       standard: true,
       epic: true,
-      loadout: 22,
+      loadout: 12,
       extended: true,
     },
     {
@@ -86,7 +86,7 @@ const t: ShipType = {
       caption: 'Advisor to Admiral Piett',
       initiative: 5,
       limited: 1,
-      cost: 9,
+      cost: 8,
       xws: 'rearadmiralchiraneau',
       ability:
         'While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.',
@@ -104,7 +104,7 @@ const t: ShipType = {
       ffg: 147,
       standard: true,
       epic: true,
-      loadout: 35,
+      loadout: 26,
       extended: true,
     },
     {
@@ -112,7 +112,7 @@ const t: ShipType = {
       caption: 'Determined Attaché',
       initiative: 4,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'mornakee',
       ability:
         'During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.',
@@ -131,7 +131,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 634,
-      loadout: 20,
+      loadout: 22,
       extended: true,
     },
   ],

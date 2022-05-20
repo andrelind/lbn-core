@@ -93,7 +93,7 @@ const t: ShipType = {
       caption: 'Graceful Aruzan',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'manaroo',
       ability:
         'At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.',
@@ -111,7 +111,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 9,
+      loadout: 15,
       extended: true,
     },
     {

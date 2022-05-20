@@ -414,7 +414,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'targetassistmgk300',
     limited: 0,
-    cost: { value: 1 },
+    cost: { value: 0 },
     sides: [
       {
         ability:
@@ -579,7 +579,7 @@ const t: UpgradeBase[] = [
         ffg: 929,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 10 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
     standard: true,
     epic: true,

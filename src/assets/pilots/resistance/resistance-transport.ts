@@ -111,7 +111,7 @@ const t: ShipType = {
       cost: 5,
       ffg: 571,
       caption: 'Insubordinate Insurgent',
-      loadout: 16,
+      loadout: 20,
       extended: true,
     },
     {

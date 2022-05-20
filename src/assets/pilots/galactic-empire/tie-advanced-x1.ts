@@ -54,7 +54,7 @@ const t: ShipType = {
       caption: 'Black Leader',
       initiative: 6,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'darthvader',
       ability:
         'After you perform an action, you may spend 1 [Force] to perform an action.',
@@ -72,7 +72,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
-      loadout: 22,
+      loadout: 21,
       extended: true,
     },
     {
@@ -96,14 +96,14 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 18,
+      loadout: 14,
       extended: true,
     },
     {
       name: 'Storm Squadron Ace',
       initiative: 3,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'stormsquadronace',
       text:
         'The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.',
@@ -119,7 +119,7 @@ const t: ShipType = {
       name: 'Tempest Squadron Pilot',
       initiative: 2,
       limited: 0,
-      cost: 3,
+      cost: 4,
       xws: 'tempestsquadronpilot',
       text:
         'The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.',
@@ -152,7 +152,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      loadout: 11,
+      loadout: 8,
       extended: true,
     },
     {
@@ -160,7 +160,7 @@ const t: ShipType = {
       caption: 'Pitiless Administrator',
       initiative: 3,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'zertikstrom',
       ability:
         "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",

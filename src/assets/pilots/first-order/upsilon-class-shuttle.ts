@@ -48,7 +48,7 @@ const t: ShipType = {
       caption: 'Hypercomms Specialist',
       initiative: 2,
       limited: 1,
-      cost: 9,
+      cost: 8,
       xws: 'lieutenantdormitz',
       ability:
         'Setup: After you are placed, friendly small ships can be placed anywhere in the play area at range 0-2 of you.',
@@ -166,7 +166,7 @@ const t: ShipType = {
       ffg: 411,
       standard: false,
       epic: true,
-      loadout: 15,
+      loadout: 17,
       extended: true,
     },
     {

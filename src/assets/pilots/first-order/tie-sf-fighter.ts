@@ -78,7 +78,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 20,
+      loadout: 25,
       extended: true,
     },
     {

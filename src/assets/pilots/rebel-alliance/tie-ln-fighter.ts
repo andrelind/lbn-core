@@ -51,7 +51,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE', 'Spectre'],
-      loadout: 6,
+      loadout: 8,
       extended: true,
     },
     {
@@ -87,7 +87,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
-      loadout: 8,
+      loadout: 6,
       extended: true,
     },
     {

@@ -65,7 +65,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       standard: true,
-      cost: 7,
+      cost: 6,
       slots: [
         'Force Power',
         'Force Power',
