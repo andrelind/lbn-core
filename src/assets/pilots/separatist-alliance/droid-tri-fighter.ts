@@ -58,7 +58,14 @@ const t: ShipType = {
       xws: 'dist81',
       standard: true,
       epic: true,
-      slots: ['Talent', 'Sensor', 'Cannon', 'Modification', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Cannon',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       cost: 4,
       caption: 'Clever Circuits',
       ability:

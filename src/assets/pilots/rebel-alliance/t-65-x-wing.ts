@@ -154,13 +154,7 @@ const t: ShipType = {
       xws: 'kullbeesperado',
       ability:
         'After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.',
-      slots: [
-        'Talent',
-        'Missile',
-        'Astromech',
-        'Illicit',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Missile', 'Astromech', 'Illicit', 'Configuration'],
       ffg: 6,
       standard: true,
       epic: true,
@@ -177,13 +171,7 @@ const t: ShipType = {
       xws: 'leevantenza',
       ability:
         'After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.',
-      slots: [
-        'Talent',
-        'Missile',
-        'Astromech',
-        'Illicit',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Missile', 'Astromech', 'Illicit', 'Configuration'],
       ffg: 8,
       standard: true,
       epic: true,
@@ -241,12 +229,7 @@ const t: ShipType = {
       xws: 'thanekyrell',
       ability:
         "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
-      slots: [
-        'Talent',
-        'Torpedo',
-        'Astromech',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Torpedo', 'Astromech', 'Configuration'],
       ffg: 3,
       standard: true,
       epic: true,

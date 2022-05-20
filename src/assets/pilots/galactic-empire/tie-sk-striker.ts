@@ -68,13 +68,7 @@ const t: ShipType = {
       xws: 'duchess',
       ability:
         'You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Gunner',
-        'Device',
-        'Modification'
-      ],
+      slots: ['Talent', 'Talent', 'Gunner', 'Device', 'Modification'],
       ffg: 117,
       standard: true,
       epic: true,
@@ -91,7 +85,7 @@ const t: ShipType = {
       xws: 'puresabacc',
       ability:
         'While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.',
-      slots: ['Talent', 'Gunner', 'Device', 'Modification',],
+      slots: ['Talent', 'Gunner', 'Device', 'Modification'],
       ffg: 119,
       standard: true,
       epic: true,

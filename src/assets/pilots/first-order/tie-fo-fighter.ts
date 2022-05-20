@@ -206,7 +206,7 @@ const t: ShipType = {
       xws: 'epsilonsquadroncadet',
       text:
         "Trained from childhood aboard Resurgent-class Star Destroyers in deep space, many First Order TIE pilots have never even set foot on a planet's surface.",
-      slots: ['Tech',],
+      slots: ['Tech'],
       ffg: 405,
       standard: true,
       epic: true,

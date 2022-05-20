@@ -86,7 +86,7 @@ const t: ShipType = {
       xws: 'nightbeast',
       ability:
         'After you fully execute a blue maneuver, you may perform a [Focus] action.',
-      slots: ['Talent', 'Talent',],
+      slots: ['Talent', 'Talent'],
       ffg: 88,
       standard: true,
       epic: true,
@@ -103,7 +103,7 @@ const t: ShipType = {
       xws: 'scourgeskutu',
       ability:
         'While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.',
-      slots: ['Talent',],
+      slots: ['Talent'],
       ffg: 82,
       standard: true,
       epic: true,
@@ -121,7 +121,7 @@ const t: ShipType = {
       ability:
         'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent',],
+      slots: ['Talent'],
       ffg: 89,
       standard: true,
       epic: true,
@@ -153,7 +153,7 @@ const t: ShipType = {
       xws: 'blacksquadronace',
       text:
         'The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.',
-      slots: ['Talent',],
+      slots: ['Talent'],
       ffg: 90,
       standard: true,
       epic: true,
@@ -205,13 +205,7 @@ const t: ShipType = {
       ability:
         'Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.',
       charges: { value: 1, recovers: 0 },
-      slots: [
-        'Talent',
-        'Talent',
-        'Cannon',
-        'Missile',
-        'Modification',
-      ],
+      slots: ['Talent', 'Talent', 'Cannon', 'Missile', 'Modification'],
       ffg: 83,
       standard: true,
       epic: true,
@@ -261,7 +255,7 @@ const t: ShipType = {
       xws: 'valenrudor',
       ability:
         'After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.',
-      slots: ['Talent',],
+      slots: ['Talent'],
       ffg: 87,
       standard: true,
       epic: true,
@@ -277,7 +271,7 @@ const t: ShipType = {
       xws: 'isbjingoist',
       ability:
         'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
-      slots: ['Illicit',],
+      slots: ['Illicit'],
       keywords: ['TIE'],
       cost: 2,
       standard: true,

@@ -85,13 +85,7 @@ const t: ShipType = {
       xws: 'maarekstele',
       ability:
         'While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Sensor',
-        'Missile',
-        'Modification',
-      ],
+      slots: ['Talent', 'Talent', 'Sensor', 'Missile', 'Modification'],
       ffg: 94,
       standard: true,
       epic: true,
@@ -140,12 +134,7 @@ const t: ShipType = {
       xws: 'vedfoslo',
       ability:
         'While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.',
-      slots: [
-        'Talent',
-        'Sensor',
-        'Missile',
-        'Modification',
-      ],
+      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
       ffg: 95,
       standard: false,
       epic: true,

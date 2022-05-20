@@ -85,12 +85,7 @@ const t: ShipType = {
       xws: 'soontirfel',
       ability:
         'At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Talent', 'Modification', 'Configuration'],
       ffg: 103,
       standard: true,
       epic: true,
@@ -107,12 +102,7 @@ const t: ShipType = {
       xws: 'turrphennir',
       ability:
         'After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Talent', 'Modification', 'Configuration'],
       ffg: 104,
       standard: true,
       epic: true,
@@ -197,7 +187,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
-      slots: ['Talent', 'Modification', 'Configuration',],
+      slots: ['Talent', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],
