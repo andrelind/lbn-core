@@ -1,11 +1,6 @@
-import * as ExcelJS from 'exceljs';
-import fs, { promises } from 'fs';
-import factionShips from '../../src/assets/pilots';
-import upgradesAssets from '../../src/assets/upgrades';
-import { factions, slotKeys } from '../../src/helpers/enums';
-import { keyFromSlot, slotFromKey } from '../../src/helpers/convert';
-import prettier from 'prettier';
-import { Slot } from '../../src/types';
+import * as ExcelJS from "exceljs";
+import fs, { promises } from "fs";
+import prettier from "prettier";
 
 declare global {
   interface String {
@@ -17,113 +12,118 @@ declare global {
 // @ts-ignore
 String.prototype.replaceAll = function (search: string, replacement: string) {
   const target = this;
-  return target.replace(new RegExp(search, 'g'), replacement);
+  return target.replace(new RegExp(search, "g"), replacement);
 };
 // @ts-ignore
 String.prototype.replaceAll = function (search: string, replacement: string) {
   const target = this;
-  return target.replace(new RegExp(search, 'g'), replacement);
+  return target.replace(new RegExp(search, "g"), replacement);
 };
 String.prototype.trimName = function () {
   return this.toLowerCase()
-    .replaceAll('•', '')
-    .replaceAll('“', '')
-    .replaceAll('”', '')
-    .replaceAll('’', '')
-    .replaceAll("'", '')
-    .replaceAll('"', '')
-    .replaceAll('–', '-')
-    .replaceAll('(cyborg)', '')
-    .replaceAll('(open)', '')
-    .replaceAll('(perfected)', '')
-    .replaceAll('(open)', '')
-    .replaceAll('(closed)', '')
-    .replaceAll('(erratic)', '')
-    .replaceAll('(active)', '')
-    .replaceAll('(inactive)', '')
-    .replaceAll('-', '')
-    .replaceAll(' ', '')
-    .replaceAll('é', 'e')
+    .replaceAll("•", "")
+    .replaceAll("“", "")
+    .replaceAll("”", "")
+    .replaceAll("’", "")
+    .replaceAll("'", "")
+    .replaceAll('"', "")
+    .replaceAll("–", "-")
+    .replaceAll("(cyborg)", "")
+    .replaceAll("(open)", "")
+    .replaceAll("(perfected)", "")
+    .replaceAll("(open)", "")
+    .replaceAll("(closed)", "")
+    .replaceAll("(erratic)", "")
+    .replaceAll("(active)", "")
+    .replaceAll("(inactive)", "")
+    .replaceAll("-", "")
+    .replaceAll(" ", "")
+    .replaceAll("é", "e")
     .trim();
 };
 
 export const getName = (f: string) =>
-  f.toLowerCase().replaceAll(' ', '-').replaceAll('/', '-');
+  f
+    .toLowerCase()
+    .replaceAll(" ", "-")
+    .replaceAll("/", "-");
 
 const findShipAndPilot = (shipName: string, name: string, subtitle: string) => {
+  const factions = fs.readdirSync("./data/pilots");
   const shipsAndPilots = factions
-    .map((f) => {
-      const ships = Object.keys(factionShips[f])
-        .map((key) => {
-          const ship = factionShips[f][key];
+    .map(f => {
+      const ships = fs
+        .readdirSync(`./data/pilots/${f}`)
+        .map(j => {
+          const path = `./data/pilots/${f}/${j}`;
+          const file = fs.readFileSync(path).toString();
+          const ship = JSON.parse(file);
+
           if (ship.name.trimName() !== shipName.trimName()) {
             return;
           }
-
-          const pilots = factionShips[f][key].pilots;
-
+          const pilots = ship.pilots;
           if (subtitle?.length > 0) {
             const pilot = pilots.find(
-              (p) =>
+              (p: any) =>
                 p.name.trimName() === name.trimName() &&
                 p.caption?.trimName() === subtitle.trimName()
             );
             if (pilot) {
-              return { ship, pilot };
+              return { ship, pilot, path };
             }
           }
-
           const pilot = pilots.find(
-            (p) => p.name.trimName() === name.trimName()
+            (p: any) => p.name.trimName() === name.trimName()
           );
           if (pilot) {
-            return { ship, pilot };
+            return { ship, pilot, path };
           }
         })
-        .filter((x) => x);
+        .filter(x => x);
       return ships;
     })
     .reduce((a, c) => [...a, ...c], [])
-    .filter((x) => x);
+    .filter(x => x);
 
   if (shipsAndPilots.length > 1 && subtitle?.length > 0) {
     return shipsAndPilots.find(
-      (p) => p?.pilot?.caption?.trimName() === subtitle.trimName()
+      p => p?.pilot?.caption?.trimName() === subtitle.trimName()
     );
   }
   return shipsAndPilots[0];
 };
 
 const blacklist = [
-  'IMPERIAL',
-  'REBEL',
-  'REPUBLIC',
-  'Ship Points Document',
-  'Effective Date: 03/01/2022',
+  "IMPERIAL",
+  "REBEL",
+  "REPUBLIC",
+  "Ship Points Document",
+  "Effective Date: 03/01/2022"
 ];
 
 const runShips = async () => {
   const wbLoader = new ExcelJS.Workbook();
-  const file = await promises.readFile('./scripts/amg/ship_points.xlsx');
+  const file = await promises.readFile("./scripts/amg/ship_points.xlsx");
   const wb = await wbLoader.xlsx.load(file);
 
-  let shipName = '';
+  let shipName = "";
 
-  wb.worksheets.forEach((ws) => {
-    ws.eachRow((row) => {
-      if (row.getCell(1).toString() === 'Pilot Name') {
+  wb.worksheets.forEach(ws => {
+    ws.eachRow(row => {
+      if (row.getCell(1).toString() === "Pilot Name") {
         return;
       }
 
-      let pilotName = row.getCell(1).text.replaceAll('•', '');
+      let pilotName = row.getCell(1).text.replaceAll("•", "");
       const subtitle = row.getCell(2).text;
       const cost = row.getCell(3).text;
       const loadout = row.getCell(4).text;
       // const upgrades = row.getCell(5).text;
-      let keywords = row
+      const keywords = row
         .getCell(6)
-        .text.split(',')
-        .map((s) => s.trim());
+        .text.split(",")
+        .map(s => s.trim());
       const std = row.getCell(7).text;
       const ext = row.getCell(8).text;
 
@@ -133,24 +133,22 @@ const runShips = async () => {
         }
       }
 
-      if (subtitle === '[object Object]') {
-        shipName = pilotName.replace(' (continued)', '');
+      if (subtitle === "[object Object]") {
+        shipName = pilotName.replace(" (continued)", "");
 
-        if (shipName === 'Scavenged YT-1300 Light Freighter') {
-          shipName = 'Scavenged YT-1300';
-        } else if (shipName === 'Xi-class shuttle') {
-          shipName = 'Xi-class Light Shuttle';
+        if (shipName === "Scavenged YT-1300 Light Freighter") {
+          shipName = "Scavenged YT-1300";
+        } else if (shipName === "Xi-class shuttle") {
+          shipName = "Xi-class Light Shuttle";
+        } else if (shipName === "Upsilon-class shuttle") {
+          shipName = "Upsilon-class Command Shuttle";
         }
         return;
       }
-      if (pilotName === 'Nimi Chereen') {
-        pilotName = 'Nimi Chireen';
-      } else if (pilotName === 'Shadow Collective Operative') {
-        pilotName = 'Shadow Collective Operator';
-      }
-
-      if (shipName === 'Nimbus-class V-wing') {
-        keywords = [...keywords, 'TIE'];
+      if (pilotName === "Nimi Chereen") {
+        pilotName = "Nimi Chireen";
+      } else if (pilotName === "Shadow Collective Operative") {
+        pilotName = "Shadow Collective Operator";
       }
 
       const shipAndPilot = findShipAndPilot(shipName, pilotName, subtitle);
@@ -161,7 +159,7 @@ const runShips = async () => {
         return;
       }
 
-      const { ship, pilot } = shipAndPilot;
+      const { ship, pilot, path } = shipAndPilot;
 
       pilot.name = pilotName;
       pilot.caption = subtitle?.length > 0 ? subtitle : undefined;
@@ -169,33 +167,18 @@ const runShips = async () => {
       pilot.cost = parseInt(cost, 10);
       pilot.loadout = parseInt(loadout, 10);
       pilot.keywords =
-        keywords.length > 0 && keywords[0] !== '' ? keywords : undefined;
-      pilot.standard = std === 'Yes' ? true : false;
-      pilot.extended = ext === 'Yes' ? true : false;
+        keywords.length > 0 && keywords[0] !== "" ? keywords : undefined;
+      pilot.standard = std === "Yes" ? true : false;
+      pilot.extended = ext === "Yes" ? true : false;
       pilot.epic = true;
 
-      factionShips[ship.faction][ship.xws].pilots[
-        ship.pilots.indexOf(pilot)
-      ] = pilot;
-
-      const header =
-        'import  {ShipType} from "../../../types";\n\nconst t: ShipType = ';
       try {
-        const formatted = prettier.format(
-          `${header}${JSON.stringify(ship)};\n\nexport default t;`,
-          {
-            trailingComma: 'all',
-            singleQuote: true,
-            parser: 'typescript',
-          }
-        );
-        fs.writeFileSync(
-          `./src/assets/pilots/${getName(ship.faction)}/${getName(
-            ship.name
-          )}.ts`,
-          formatted,
-          'utf8'
-        );
+        const formatted = prettier.format(JSON.stringify(ship), {
+          trailingComma: "all",
+          singleQuote: true,
+          parser: "json"
+        });
+        fs.writeFileSync(path, formatted, "utf8");
       } catch (error) {
         console.error(`Could not save ${pilot.xws}`, error);
         // console.error(`Could not save ${pilot.xws}`, JSON.stringify(ship));
@@ -204,74 +187,108 @@ const runShips = async () => {
   });
 };
 
-const findUpgrade = (name: string, type: string) => {
-  const key = keyFromSlot(type as Slot);
-  const up = upgradesAssets[key].find(
-    (u) => u.sides[0].title.trimName() === name.trimName()
-  );
+const matchUpgrade = (name: string, faction: string, upgrade: any) => {
+  if (upgrade.sides[0].title.trimName() === name.trimName()) {
+    if (faction === 'Generic' || !('restrictions' in upgrade)) {
+      return true;
+    } else {
+      for (const r of upgrade.restrictions) {
+        if ('factions' in r) {
+          for (const f of r.factions) {
+            if (f === faction) {
+              return true;
+            }
+          }
+          return false;
+        }
+      }
+      return true;
+    }
+  }
+  return false;
+}
 
-  return up;
+const findUpgrade = (name: string, type: string, faction: string) => {
+  const path = `./data/upgrades/${type.toLowerCase()}.json`;
+  const file = fs.readFileSync(path).toString();
+  const upgrades = JSON.parse(file);
+
+  const upgrade = upgrades.find(
+    (u: any) => matchUpgrade(name, faction, u)
+  );
+  if (upgrade) {
+    return { upgrade, path, file: upgrades };
+  }
 };
 
 const runUpgrades = async () => {
   const wbLoader = new ExcelJS.Workbook();
-  const file = await promises.readFile('./scripts/amg/upgrade_points.xlsx');
+  const file = await promises.readFile("./scripts/amg/upgrade_points.xlsx");
   const wb = await wbLoader.xlsx.load(file);
   // Read lists
 
-  wb.worksheets.forEach((ws) => {
-    ws.eachRow((row) => {
-      if (row.cellCount === 6 && row.getCell(1).text !== 'Upgrade Name') {
-        const name = row.getCell(1).text.replaceAll('•', '').split('/')[0];
+  wb.worksheets.forEach(ws => {
+    let faction = ws.getCell('A2').text.toLowerCase();
+    if (faction === "separatist") {
+      faction = "Separatist Alliance";
+    } else if (faction === "republic") {
+      faction = "Galactic Republic";
+    } else if (faction === "imperial" || faction.startsWith("upgrade points document")) {
+      faction = "Galactic Empire";
+    } else if (faction === "rebel") {
+      faction = "Rebel Alliance";
+    } else if (faction === "scum and villainy") {
+      faction = "Scum and Villainy";
+    } else if (faction === "first order") {
+      faction = "First Order";
+    } else if (faction === "resistance") {
+      faction = "Resistance";
+    }
+    ws.eachRow(row => {
+      if (row.cellCount === 6 && row.getCell(1).text !== "Upgrade Name") {
+        const name = row
+          .getCell(1)
+          .text.replaceAll("•", "")
+          .split("/")[0];
         const upgradeType = row.getCell(2).text;
         const cost = parseInt(row.getCell(3).text);
         const std = row.getCell(5).toString();
         const ext = row.getCell(6).toString();
 
         let type = upgradeType
-          .substring(0, upgradeType.indexOf('('))
-          .split(',')
-          .map((s) => s.trim())[0];
-        if (type === 'Payload') {
-          type = 'Device';
+          .substring(0, upgradeType.indexOf("("))
+          .split(",")
+          .map(s => s.trim())[0];
+        if (type === "Payload") {
+          type = "Device";
+        } else if (type === "Force Power") {
+          type = "force-power";
+        } else if (type === "Tactical Relay") {
+          type = "tactical-relay";
         }
 
-        const upgrade = findUpgrade(name, type);
-        if (!upgrade || name === 'Delta-7B') {
+        const item = findUpgrade(name, type, faction);
+        if (!item || name === "Delta-7B") {
           console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
           return;
         }
 
+        const { upgrade, path, file } = item;
+
         upgrade.cost = cost === null ? { value: 0 } : { value: cost };
-        upgrade.standard = std === 'Yes' ? true : false;
-        upgrade.extended = ext === 'Yes' ? true : false;
+        upgrade.standard = std === "Yes" ? true : false;
+        upgrade.extended = ext === "Yes" ? true : false;
         upgrade.epic = true;
+        delete upgrade.hyperspace;
 
-        const key = keyFromSlot(type as Slot);
-
-        upgradesAssets[key][upgradesAssets[key].indexOf(upgrade)] = upgrade;
+        const formatted = prettier.format(JSON.stringify(file), {
+          trailingComma: "all",
+          singleQuote: true,
+          parser: "json"
+        });
+        fs.writeFileSync(path, formatted, "utf8");
       }
     });
-  });
-
-  slotKeys.forEach((key) => {
-    const f = upgradesAssets[key];
-
-    const header =
-      'import {UpgradeBase} from "../../types";\n\nconst t: UpgradeBase[] = ';
-    const formatted = prettier.format(
-      `${header}${JSON.stringify(f)};\n\nexport default t;`,
-      {
-        trailingComma: 'all',
-        singleQuote: true,
-        parser: 'typescript',
-      }
-    );
-    fs.writeFileSync(
-      `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
-      formatted,
-      'utf8'
-    );
   });
 };
 

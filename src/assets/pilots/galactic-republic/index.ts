@@ -11,6 +11,7 @@ import nimbusclassvwing from './nimbus-class-v-wing';
 import syliureclasshyperspacering from './syliure-class-hyperspace-ring';
 import v19torrentstarfighter from './v-19-torrent-starfighter';
 import gauntletfighter from './gauntlet-fighter';
+import clonez95headhunter from './clone-z-95-headhunter'
 
 const ships: { [s: string]: ShipType } = {
   arc170starfighter,
@@ -25,6 +26,7 @@ const ships: { [s: string]: ShipType } = {
   laatigunship,
   nimbusclassvwing,
   syliureclasshyperspacering,
+  clonez95headhunter
 };
 
 export default ships;

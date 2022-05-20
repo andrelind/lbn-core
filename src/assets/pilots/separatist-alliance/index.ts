@@ -10,6 +10,7 @@ import firesprayclasspatrolcraft from './firespray-class-patrol-craft';
 import hmpdroidgunship from './hmp-droid-gunship';
 import tridentclassassaultship from './trident-class-assault-ship';
 import gauntletfighter from './gauntlet-fighter';
+import rogueclassstarfighter from './rogue-class-starfighter'
 
 const ships: { [s: string]: ShipType } = {
   belbullab22starfighter,
@@ -23,6 +24,7 @@ const ships: { [s: string]: ShipType } = {
   hmpdroidgunship,
   tridentclassassaultship,
   gauntletfighter,
+  rogueclassstarfighter
 };
 
 export default ships;
