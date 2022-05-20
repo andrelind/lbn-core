@@ -93,7 +93,7 @@ const t: ShipType = {
       xws: 'ndrusuhlak',
       ability:
         'While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.',
-      slots: [],
+      slots: ['Talent', 'Missile', 'Missile', 'Illicit'],
       ffg: 169,
       standard: true,
       epic: true,

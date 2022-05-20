@@ -134,7 +134,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 4,
-      slots: ['Sensor', 'Torpedo', 'Astromech'],
+      slots: ['Sensor', 'Astromech', 'Modification'],
       ffg: 561,
       caption: 'Regal Ruse',
       loadout: 8,

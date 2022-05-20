@@ -77,7 +77,7 @@ const t: ShipType = {
       xws: 'lieutenantblount',
       ability:
         'While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die.',
-      slots: [],
+      slots: ['Talent', 'Talent', 'Modification'],
       ffg: 28,
       standard: true,
       epic: true,

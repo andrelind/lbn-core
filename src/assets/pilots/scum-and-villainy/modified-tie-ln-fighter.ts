@@ -49,7 +49,7 @@ const t: ShipType = {
       xws: 'ahhav',
       ability:
         'While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.',
-      slots: [],
+      slots: ['Talent', 'Illicit', 'Illicit', 'Modification'],
       ffg: 442,
       standard: true,
       epic: true,
@@ -67,7 +67,7 @@ const t: ShipType = {
       ability:
         "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Cannon', 'Missile', 'Modification'],
       ffg: 443,
       standard: true,
       epic: true,
@@ -118,7 +118,7 @@ const t: ShipType = {
       ability:
         'Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.',
       charges: { value: 1, recovers: 1 },
-      slots: ['Missile', 'Modification'],
+      slots: ['Talent', 'Modification'],
       ffg: 444,
       standard: true,
       epic: true,

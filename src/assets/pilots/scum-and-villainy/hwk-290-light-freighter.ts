@@ -56,7 +56,7 @@ const t: ShipType = {
       ability:
         'After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.',
       charges: { value: 3, recovers: 1 },
-      slots: ['Talent', 'Crew', 'Device', 'Illicit', 'Illicit', 'Modification'],
+      slots: ['Talent', 'Crew', 'Device', 'Illicit', 'Illicit', 'Modification', 'Title'],
       ffg: 174,
       standard: true,
       epic: true,

@@ -68,7 +68,7 @@ const t: ShipType = {
       xws: 'sabersquadronace',
       text:
         "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
-      slots: ['Talent', 'Missile', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Configuration'],
       ffg: 105,
       standard: true,
       epic: true,
@@ -88,7 +88,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Talent',
-        'Modification',
         'Modification',
         'Configuration',
       ],
@@ -111,7 +110,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Talent',
-        'Modification',
         'Modification',
         'Configuration',
       ],
@@ -148,7 +146,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'While you perform an attack against a damaged defender, roll 1 additional attack die.',
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -166,7 +164,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.',
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -182,7 +180,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'At the start of the Engagement Phase, choose a ship at range 0-3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token',
-      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -199,13 +197,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'While you barrel roll, you must use the ([Bank Left] or [Bank Right]) template instead of the ([Straight]) template.',
-      slots: [
-        'Talent',
-        'Modification',
-        'Modification',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Modification', 'Configuration',],
       standard: true,
       epic: true,
       keywords: ['TIE'],
@@ -223,7 +215,7 @@ const t: ShipType = {
       ability:
         'During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.',
       charges: { value: 1, recovers: 1 },
-      slots: ['Missile', 'Modification', 'Modification', 'Configuration'],
+      slots: ['Missile', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['TIE'],

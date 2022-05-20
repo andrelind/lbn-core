@@ -49,6 +49,7 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Turret',
+        'Torpedo',
         'Missile',
         'Astromech',
         'Device',

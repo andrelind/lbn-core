@@ -50,7 +50,7 @@ const t: ShipType = {
       xws: 'killer',
       ability:
         'While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice.',
-      slots: [],
+      slots: ['Talent', 'Talent', 'Sensor', 'Cannon', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -66,7 +66,7 @@ const t: ShipType = {
       xws: 'drift',
       ability:
         'While a friendly ship at range 0-1 performs an attack, if you have exactly 1 non-lock red token or exactly 1 orange token, that ship may reroll 1 attack die.',
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -82,7 +82,7 @@ const t: ShipType = {
       xws: 'boost',
       ability:
         'At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a [Boost] action.',
-      slots: [],
+      slots: ['Talent', 'Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -98,7 +98,7 @@ const t: ShipType = {
       xws: 'stub',
       ability:
         'While you defend, if the speed of your revealed maneuver is even, roll 1 additional defende die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.',
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -114,7 +114,7 @@ const t: ShipType = {
       xws: 'hawk-clonez95headhunter',
       ability:
         'At the start of the end phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.',
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Modification', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -131,7 +131,7 @@ const t: ShipType = {
       ability:
         'When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you may spend 2 [Charge] to execute it as a sideslip.',
       charges: { value: 2, recovers: 1 },
-      slots: [],
+      slots: ['Talent', 'Talent', 'Sensor', 'Modification', 'Modification'],
       standard: true,
       extended: true,
       epic: true,
@@ -147,7 +147,7 @@ const t: ShipType = {
       xws: 'warthog-clonez95headhunter',
       ability:
         'After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase.',
-      slots: [],
+      slots: ['Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,
       epic: true,

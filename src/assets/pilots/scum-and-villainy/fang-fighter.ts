@@ -78,7 +78,7 @@ const t: ShipType = {
       xws: 'joyrekkoff',
       ability:
         'While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.',
-      slots: ['Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Missile', 'Torpedo', 'Modification'],
       ffg: 157,
       standard: true,
       epic: true,
@@ -94,7 +94,7 @@ const t: ShipType = {
       cost: 5,
       xws: 'kadsolus',
       ability: 'After you fully execute a red maneuver, gain 2 focus tokens.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification'],
       ffg: 158,
       standard: true,
       epic: true,

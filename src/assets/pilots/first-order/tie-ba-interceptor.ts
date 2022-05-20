@@ -112,7 +112,7 @@ const t: ShipType = {
       limited: 0,
       cost: 5,
       xws: 'firstorderprovocateur',
-      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
+      slots: ['Talent', 'Tech', 'Modification'],
       standard: true,
       epic: true,
       ffg: 627,

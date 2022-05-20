@@ -100,7 +100,7 @@ const t: ShipType = {
       standard: true,
       ability:
         "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
-      slots: ['Configuration'],
+      slots: ['Talent', 'Astromech', 'Modification', 'Configuration'],
       cost: 3,
       epic: true,
       ffg: 789,

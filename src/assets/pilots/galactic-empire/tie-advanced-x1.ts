@@ -62,6 +62,7 @@ const t: ShipType = {
       slots: [
         'Force Power',
         'Force Power',
+        'Talent',
         'Tech',
         'Sensor',
         'Missile',
@@ -90,7 +91,6 @@ const t: ShipType = {
         'Sensor',
         'Missile',
         'Modification',
-        'Modification',
       ],
       ffg: 94,
       standard: true,
@@ -107,7 +107,7 @@ const t: ShipType = {
       xws: 'stormsquadronace',
       text:
         'The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.',
-      slots: ['Sensor', 'Missile', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification'],
       ffg: 97,
       standard: true,
       epic: true,
@@ -123,7 +123,7 @@ const t: ShipType = {
       xws: 'tempestsquadronpilot',
       text:
         'The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.',
-      slots: ['Sensor', 'Modification', 'Modification'],
+      slots: ['Sensor', 'Modification'],
       ffg: 98,
       standard: true,
       epic: true,
@@ -142,10 +142,8 @@ const t: ShipType = {
         'While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.',
       slots: [
         'Talent',
-        'Talent',
         'Sensor',
         'Missile',
-        'Modification',
         'Modification',
       ],
       ffg: 95,
@@ -164,7 +162,7 @@ const t: ShipType = {
       xws: 'zertikstrom',
       ability:
         "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification'],
+      slots: ['Sensor', 'Missile', 'Modification'],
       ffg: 96,
       standard: true,
       epic: true,

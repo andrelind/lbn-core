@@ -127,6 +127,7 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Cannon',
+        'Cannon',
         'Torpedo',
         'Crew',
         'Gunner',
@@ -148,7 +149,7 @@ const t: ShipType = {
       xws: 'nomlumb',
       ability:
         'After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.',
-      slots: ['Cannon', 'Torpedo', 'Crew', 'Gunner', 'Illicit', 'Modification'],
+      slots: ['Cannon', 'Cannon', 'Torpedo', 'Crew', 'Gunner', 'Illicit', 'Modification'],
       standard: true,
       epic: true,
       ffg: 637,

@@ -124,7 +124,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'SLAM' },
       ],
       cost: 3,
-      slots: [],
+      slots: ['Missile', 'Crew', 'Modification', 'Title'],
       standard: true,
       epic: true,
       ffg: 622,

@@ -90,7 +90,7 @@ const t: ShipType = {
       xws: 'scorch',
       ability:
         'While you perform a primary attack, if you are not stressed, you may gain 1 stress token to roll 1 additional attack die.',
-      slots: ['Talent', 'Tech', 'Tech', 'Modification'],
+      slots: ['Talent', 'Talent', 'Tech', 'Modification'],
       ffg: 398,
       standard: true,
       epic: true,
@@ -206,7 +206,7 @@ const t: ShipType = {
       xws: 'epsilonsquadroncadet',
       text:
         "Trained from childhood aboard Resurgent-class Star Destroyers in deep space, many First Order TIE pilots have never even set foot on a planet's surface.",
-      slots: ['Tech', 'Tech'],
+      slots: ['Tech',],
       ffg: 405,
       standard: true,
       epic: true,
@@ -223,7 +223,7 @@ const t: ShipType = {
       xws: 'lieutenantrivas',
       ability:
         'After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.',
-      slots: [],
+      slots: ['Talent', 'Tech', 'Modification'],
       ffg: 454,
       standard: true,
       epic: true,

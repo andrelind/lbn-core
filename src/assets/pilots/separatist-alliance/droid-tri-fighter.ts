@@ -58,7 +58,7 @@ const t: ShipType = {
       xws: 'dist81',
       standard: true,
       epic: true,
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Sensor', 'Cannon', 'Modification', 'Modification', 'Configuration'],
       cost: 4,
       caption: 'Clever Circuits',
       ability:
@@ -144,7 +144,7 @@ const t: ShipType = {
       text:
         'Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.',
       standard: true,
-      slots: ['Modification', 'Configuration'],
+      slots: ['Talent', 'Modification', 'Configuration'],
       cost: 4,
       epic: true,
       ffg: 799,

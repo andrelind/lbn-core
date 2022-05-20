@@ -53,7 +53,7 @@ const t: ShipType = {
       xws: 'arvelcrynyd',
       ability:
         'If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.\n\nWhile you perform an attack at attack range 0, treat it as an attack at attack range 1.',
-      slots: ['Modification', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Configuration'],
       ffg: 20,
       standard: true,
       epic: true,
@@ -119,7 +119,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.',
-      slots: ['Talent', 'Talent', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Talent', 'Missile', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing'],

@@ -69,7 +69,7 @@ const t: ShipType = {
       xws: 'maulermithel',
       ability:
         'While you perform an attack at attack range 1, roll 1 additional attack die.',
-      slots: ['Talent', 'Talent', 'Modification'],
+      slots: ['Talent', 'Modification'],
       ffg: 80,
       standard: true,
       epic: true,
@@ -86,7 +86,7 @@ const t: ShipType = {
       xws: 'nightbeast',
       ability:
         'After you fully execute a blue maneuver, you may perform a [Focus] action.',
-      slots: [],
+      slots: ['Talent', 'Talent',],
       ffg: 88,
       standard: true,
       epic: true,
@@ -103,7 +103,7 @@ const t: ShipType = {
       xws: 'scourgeskutu',
       ability:
         'While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.',
-      slots: ['Talent', 'Talent', 'Modification'],
+      slots: ['Talent',],
       ffg: 82,
       standard: true,
       epic: true,
@@ -121,7 +121,7 @@ const t: ShipType = {
       ability:
         'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Talent', 'Modification'],
+      slots: ['Talent',],
       ffg: 89,
       standard: true,
       epic: true,
@@ -153,7 +153,7 @@ const t: ShipType = {
       xws: 'blacksquadronace',
       text:
         'The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent',],
       ffg: 90,
       standard: true,
       epic: true,
@@ -170,7 +170,7 @@ const t: ShipType = {
       xws: 'delmeeko',
       ability:
         'While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.',
-      slots: ['Talent', 'Talent', 'Modification'],
+      slots: ['Talent', 'Cannon'],
       ffg: 85,
       standard: true,
       epic: true,
@@ -187,7 +187,7 @@ const t: ShipType = {
       xws: 'gideonhask',
       ability:
         'While you perform an attack against a damaged defender, roll 1 additional attack die.',
-      slots: ['Talent', 'Talent'],
+      slots: ['Talent', 'Talent', 'Missile', 'Modification'],
       ffg: 84,
       standard: true,
       epic: true,
@@ -209,7 +209,6 @@ const t: ShipType = {
         'Talent',
         'Talent',
         'Cannon',
-        'Torpedo',
         'Missile',
         'Modification',
       ],
@@ -245,7 +244,7 @@ const t: ShipType = {
       xws: 'seynmarana',
       ability:
         'While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.',
-      slots: ['Talent', 'Talent'],
+      slots: ['Talent', 'Modification'],
       ffg: 86,
       standard: true,
       epic: true,
@@ -262,7 +261,7 @@ const t: ShipType = {
       xws: 'valenrudor',
       ability:
         'After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent',],
       ffg: 87,
       standard: true,
       epic: true,
@@ -278,7 +277,7 @@ const t: ShipType = {
       xws: 'isbjingoist',
       ability:
         'Before you engage, you may choose 1 enemy ship in your [Front Arc] at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token.',
-      slots: ['Talent', 'Illicit', 'Modification'],
+      slots: ['Illicit',],
       keywords: ['TIE'],
       cost: 2,
       standard: true,

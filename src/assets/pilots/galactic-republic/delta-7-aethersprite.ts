@@ -76,9 +76,10 @@ const t: ShipType = {
       slots: [
         'Force Power',
         'Force Power',
-        'Missile',
+        'Talent',
         'Astromech',
         'Configuration',
+        'Modification',
         'Modification',
       ],
       ffg: 511,
@@ -101,7 +102,6 @@ const t: ShipType = {
       slots: [
         'Force Power',
         'Talent',
-        'Missile',
         'Astromech',
         'Configuration',
         'Modification',
@@ -168,7 +168,7 @@ const t: ShipType = {
       slots: [
         'Force Power',
         'Force Power',
-        'Missile',
+        'Talent',
         'Astromech',
         'Configuration',
         'Modification',
@@ -209,7 +209,6 @@ const t: ShipType = {
       cost: 4,
       slots: [
         'Force Power',
-        'Missile',
         'Astromech',
         'Configuration',
         'Modification',
