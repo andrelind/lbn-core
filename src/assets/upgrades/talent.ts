@@ -756,6 +756,7 @@ const t: UpgradeBase[] = [
         type: 'Talent',
         ability:
           'Before you engage, if you are not focused and there is an enemy ship in your [Front Arc] at range 1, you may spend 1 [Charge] to perform a red [Focus] action. After you perform an attack, if the defender is destroyed, recover 1 [Charge].',
+        charges: { value: 1, recovers: 0 },
         slots: ['Talent'],
         ffg: -1,
       },

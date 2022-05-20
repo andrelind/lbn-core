@@ -134,7 +134,7 @@ const t: ShipType = {
         'Talent',
         'Missile',
         'Crew',
-        'Crew',
+        'Illicit',
         'Illicit',
         'Modification',
         'Title',
