@@ -25,7 +25,7 @@ const t: ShipType = {
         '5FW',
         '5KR',
     ],
-    faction: 'Scum and Villainy',
+    faction: 'Separatist Alliance',
     stats: [
         { arc: 'Front Arc', type: 'attack', value: 2 },
         { type: 'agility', value: 2 },
