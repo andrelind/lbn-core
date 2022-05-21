@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node@12/12.22.12/bin/node /usr/local/bin/yarn publish
+  /usr/local/Cellar/node/18.0.0/bin/node /usr/local/bin/yarn add --dev @types/pdfreader
 
 PATH: 
   /Users/andrelind/.rbenv/shims:/usr/local/sbin:/usr/local/opt/node@12/bin:/usr/local/opt/ruby/bin:/usr/local/opt/node@10/bin:/Users/andrelind/.poetry/bin:/Users/andrelind/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/andrelind/.rbenv/shims
@@ -8,28 +8,28 @@ Yarn version:
   1.22.18
 
 Node version: 
-  12.22.12
+  18.0.0
 
 Platform: 
   darwin x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137143:13)
-      at Interface.emit (events.js:314:20)
-      at Interface._ttyWrite (readline.js:868:16)
-      at ReadStream.onkeypress (readline.js:205:10)
-      at ReadStream.emit (events.js:314:20)
-      at emitKeys (internal/readline/utils.js:335:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1137:36)
-      at ReadStream.emit (events.js:314:20)
-      at addChunk (_stream_readable.js:297:12)
+  Error: https://registry.yarnpkg.com/@types%2fpdfreader: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
     "name": "lbn-core",
-    "version": "1.0.170",
+    "version": "1.0.172",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
@@ -56,6 +56,7 @@ npm manifest:
       "jsonfile": "^6.1.0",
       "node-fetch": "^2.6.1",
       "ora": "^5.4.1",
+      "pdfreader": "^2.0.0",
       "prettier": "^2.2.1",
       "ts-node": "^9.1.1",
       "typescript": "^4.1.2"
@@ -145,6 +146,11 @@ Lockfile:
     version "8.3.0"
     resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.0.tgz#215c231dff736d5ba92410e6d602050cce7e273f"
     integrity sha512-eQ9qFW/fhfGJF8WKHGEHZEyVWfZxrT+6CLIJGBcZPfxUh/+BnEj+UCGYMlr9qZuX/2AltsvwrGqp0LhEW8D0zQ==
+  
+  "@xmldom/xmldom@^0.7.5":
+    version "0.7.5"
+    resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.5.tgz#09fa51e356d07d0be200642b0e4f91d8e6dd408d"
+    integrity sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==
   
   ansi-regex@^5.0.0:
     version "5.0.0"
@@ -779,6 +785,20 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
     integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  
+  pdf2json@2.0.1:
+    version "2.0.1"
+    resolved "https://registry.yarnpkg.com/pdf2json/-/pdf2json-2.0.1.tgz#72e691e0eacb5fe54d2f77d929097a3cf5974f89"
+    integrity sha512-gj1kZOV2cA+bHyyZiwNU8AVduT4L+7dQODtJZRev7/23TZ0Mz5ILVLsaCLX2p7A8cdBYyDq6zXEBUBvtXgpIZg==
+    dependencies:
+      "@xmldom/xmldom" "^0.7.5"
+  
+  pdfreader@^2.0.0:
+    version "2.0.0"
+    resolved "https://registry.yarnpkg.com/pdfreader/-/pdfreader-2.0.0.tgz#e65ee5e237c48ea41d68f6132579465f85b86712"
+    integrity sha512-ieCZ89yl1cb8olOhzMsSJgRJ+mR6tTwG/AGy9nWXzFPhzGgQA76Qh7CCWk6QTE3V30z2Hre1EVagzIjhNERYGw==
+    dependencies:
+      pdf2json "2.0.1"
   
   prettier@^2.2.1:
     version "2.2.1"
