@@ -119,9 +119,9 @@ const t: ShipType = {
       ffg: 186,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 7,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Serissu',

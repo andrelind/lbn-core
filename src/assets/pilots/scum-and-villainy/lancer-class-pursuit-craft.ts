@@ -61,9 +61,9 @@ const t: ShipType = {
       ffg: 219,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter', 'Dark Side'],
       loadout: 20,
       extended: true,
+      keywords: ['Bounty Hunter', 'Dark Side'],
     },
     {
       name: 'Ketsu Onyo',
@@ -78,9 +78,9 @@ const t: ShipType = {
       ffg: 218,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter', 'Mandalorian'],
       loadout: 15,
       extended: true,
+      keywords: ['Bounty Hunter', 'Mandalorian'],
     },
     {
       name: 'Sabine Wren',
@@ -95,9 +95,9 @@ const t: ShipType = {
       ffg: 220,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter', 'Mandalorian'],
       loadout: 9,
       extended: true,
+      keywords: ['Bounty Hunter', 'Mandalorian'],
     },
     {
       name: 'Shadowport Hunter',

@@ -59,9 +59,9 @@ const t: ShipType = {
       ffg: 210,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter', 'Freighter'],
       loadout: 22,
       extended: true,
+      keywords: ['Bounty Hunter', 'Freighter'],
     },
     {
       name: 'Latts Razzi',
@@ -86,9 +86,9 @@ const t: ShipType = {
       ffg: 212,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter', 'Freighter'],
       loadout: 16,
       extended: true,
+      keywords: ['Bounty Hunter', 'Freighter'],
     },
     {
       name: 'Moralo Eval',

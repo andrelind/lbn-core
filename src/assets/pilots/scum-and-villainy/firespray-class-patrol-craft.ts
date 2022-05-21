@@ -80,9 +80,9 @@ const t: ShipType = {
       ffg: 154,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Emon Azzameen',
@@ -156,9 +156,9 @@ const t: ShipType = {
       ffg: 152,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 16,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Krassis Trelix',

@@ -86,9 +86,9 @@ const t: ShipType = {
       ffg: 46,
       standard: true,
       epic: true,
-      keywords: ['Light Side', 'Spectre', 'TIE'],
       loadout: 6,
       extended: true,
+      keywords: ['Light Side', 'Spectre', 'TIE'],
     },
     {
       name: 'Sabine Wren',
@@ -103,9 +103,9 @@ const t: ShipType = {
       ffg: 47,
       standard: true,
       epic: true,
-      keywords: ['Mandalorian', 'TIE', 'Spectre'],
       loadout: 7,
       extended: true,
+      keywords: ['Mandalorian', 'TIE', 'Spectre'],
     },
   ],
 };

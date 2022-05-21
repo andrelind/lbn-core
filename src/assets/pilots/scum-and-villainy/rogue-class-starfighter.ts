@@ -78,10 +78,10 @@ const t: ShipType = {
       ability:
         'After you perform an attack that hits, you may spend 2 [Charge] to transfer 1 of your non-lock red or orange tokens to the defender.',
       charges: { value: 2, recovers: 1 },
-      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Viktor Hel',
@@ -101,10 +101,10 @@ const t: ShipType = {
       ],
       ability:
         'After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token.',
-      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Nom Lumb',
@@ -125,10 +125,10 @@ const t: ShipType = {
       ],
       ability:
         "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Front Arc]. If you do, treat your initiative as equal to that ship's until the end of the round.",
-      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Outer Rim Hunter',

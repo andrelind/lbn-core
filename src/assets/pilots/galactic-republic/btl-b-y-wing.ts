@@ -85,9 +85,9 @@ const t: ShipType = {
       cost: 6,
       ffg: 596,
       caption: 'Hero of the Republic',
-      keywords: ['Jedi', 'Light Side', 'Y-wing'],
       loadout: 23,
       extended: true,
+      keywords: ['Jedi', 'Light Side', 'Y-wing'],
     },
     {
       name: 'R2-D2',

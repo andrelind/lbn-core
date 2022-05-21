@@ -95,9 +95,9 @@ const t: ShipType = {
       ffg: 179,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Guri',

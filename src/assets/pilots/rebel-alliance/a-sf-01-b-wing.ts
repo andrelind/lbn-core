@@ -175,10 +175,10 @@ const t: ShipType = {
       ],
       standard: true,
       epic: true,
-      keywords: ['B-wing', 'Spectre'],
       ffg: 878,
       loadout: 20,
       extended: true,
+      keywords: ['B-wing', 'Spectre'],
     },
     {
       xws: 'netrempollard',

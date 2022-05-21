@@ -72,9 +72,9 @@ const t: ShipType = {
       ffg: 93,
       standard: true,
       epic: true,
-      keywords: ['Dark Side', 'Sith', 'TIE'],
       loadout: 21,
       extended: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
     },
     {
       name: 'Maarek Stele',

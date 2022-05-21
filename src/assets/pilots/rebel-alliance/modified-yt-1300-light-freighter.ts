@@ -63,9 +63,9 @@ const t: ShipType = {
       ffg: 71,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 18,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Han Solo',
@@ -90,9 +90,9 @@ const t: ShipType = {
       ffg: 69,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 20,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Lando Calrissian',
@@ -133,9 +133,9 @@ const t: ShipType = {
       ffg: 72,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 6,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Leia Organa',
@@ -160,9 +160,9 @@ const t: ShipType = {
         'After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].',
       cost: 8,
       ffg: 630,
-      keywords: ['Freighter', 'YT-1300', 'Light Side'],
       loadout: 24,
       extended: true,
+      keywords: ['Freighter', 'YT-1300', 'Light Side'],
     },
   ],
 };

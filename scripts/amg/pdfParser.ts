@@ -179,7 +179,7 @@ const runShips = async () => {
                             continue;
                         }
 
-                        // if (item.str === '•Ciena Ree') {
+                        // if (item.str === '•Darth Vader') {
                         //     console.log({ item, lastX, lastY, })
                         // }
 
@@ -239,7 +239,7 @@ const runShips = async () => {
         const parts = t.split(',');
         if (parts.length < 5) {
             // console.log(t.trimName())
-            let n = parts.join('').trimName()
+            let n = parts.join('').trimName();
             if (n === 'scavengedyt1300lightfreighter') {
                 n = 'scavengedyt1300';
             } else if (n === 'xiclassshuttle') {
@@ -250,9 +250,9 @@ const runShips = async () => {
                 // console.log(t)
                 shipName = factionShips[faction][n].name;
             }
-            else {
-                console.log('Not found', n)
-            }
+            // else {
+            //     console.log('Not found', n)
+            // }
             continue;
         }
 
@@ -272,26 +272,39 @@ const runShips = async () => {
         const cost = parseInt(parts[start]);
         const loadout = parseInt(parts[start + 1]);
 
+        // Vader gets corrupted... oh, the irony :-P
+        if (name.includes('Darth Vader') && shipName === 'TIE/D Defender') {
+            const ups = [
+                parts[start + 2],
+                parts
+                    .slice(start + 3, parts.length - 5)
+                    .map((s) => s.replace('  ', ' ').trim())
+                    .join(''),
+            ].join('');
+            start += 2;
+            parts[start + 2] = ups;
+        }
         const upgrades: Slot[] = [];
         for (var i = 0; i < parts[start + 2].length; i++) {
             const s = getUpgradeFromText(parts[start + 2].charAt(i));
             if (s) {
                 upgrades.push(s);
-            } else {
-                console.log(name, subtitle);
             }
         }
 
         const keywords = parts
             .slice(start + 3, parts.length - 2)
             .map((s) => s.replace('  ', ' ').trim());
+        if (shipName === 'Nimbus-class V-wing') {
+            keywords.push('TIE')
+        }
         const standard = parts[parts.length - 2] === 'Yes' ? true : false;
         const extended = parts[parts.length - 1] === 'Yes' ? true : false;
 
         items.push({
             faction,
             shipName,
-            name: name.replaceAll('•', '').replaceAll('  ', ' ').trim(),
+            name,
             subtitle,
             cost,
             loadout,

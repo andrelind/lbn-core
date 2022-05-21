@@ -83,10 +83,10 @@ const t: ShipType = {
         text:
           'While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens.',
       },
-      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'IG-101',

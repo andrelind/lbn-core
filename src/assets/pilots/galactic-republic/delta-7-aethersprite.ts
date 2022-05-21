@@ -174,8 +174,8 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 507,
-      keywords: ['Jedi', 'Light Side'],
       extended: true,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: 'Ahsoka Tano',
@@ -191,9 +191,9 @@ const t: ShipType = {
       cost: 4,
       slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
       ffg: 510,
-      keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: 'Barriss Offee',
@@ -209,9 +209,9 @@ const t: ShipType = {
       cost: 4,
       slots: ['Force Power', 'Astromech', 'Configuration', 'Modification'],
       ffg: 509,
-      keywords: ['Jedi', 'Light Side'],
       loadout: 9,
       extended: true,
+      keywords: ['Jedi', 'Light Side'],
     },
     {
       name: 'Luminara Unduli',

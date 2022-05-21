@@ -80,9 +80,9 @@ const t: ShipType = {
       ffg: 170,
       standard: true,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 11,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'N’dru Suhlak',
@@ -129,9 +129,9 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 635,
-      keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

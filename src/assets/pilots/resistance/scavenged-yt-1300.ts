@@ -51,9 +51,9 @@ const t: ShipType = {
       ffg: 430,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 10,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Chewbacca',
@@ -80,8 +80,8 @@ const t: ShipType = {
       ffg: 429,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Han Solo',
@@ -106,9 +106,9 @@ const t: ShipType = {
       ffg: 427,
       standard: false,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 15,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Rey',

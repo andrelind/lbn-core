@@ -73,9 +73,9 @@ const t: ShipType = {
       ffg: 203,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 3,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Zuckuss',
@@ -90,9 +90,9 @@ const t: ShipType = {
       ffg: 202,
       standard: false,
       epic: true,
-      keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
   ],
 };

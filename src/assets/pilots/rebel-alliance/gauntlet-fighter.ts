@@ -56,8 +56,8 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Droid', 'Spectre'],
       caption: 'Spectre-3',
+      keywords: ['Droid', 'Spectre'],
     },
     {
       xws: 'ezrabridger-gauntletfighter',
@@ -85,8 +85,8 @@ const t: ShipType = {
         'Configuration',
         'Title',
       ],
-      keywords: ['Light Side', 'Spectre'],
       caption: 'Spectre-6',
+      keywords: ['Light Side', 'Spectre'],
     },
     {
       xws: 'mandalorianresistancepilot',

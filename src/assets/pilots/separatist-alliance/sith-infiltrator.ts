@@ -63,9 +63,9 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 503,
-      keywords: ['Dark Side', 'Sith'],
       loadout: 20,
       extended: true,
+      keywords: ['Dark Side', 'Sith'],
     },
     {
       name: 'Count Dooku',
@@ -91,9 +91,9 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 504,
-      keywords: ['Dark Side', 'Sith'],
       loadout: 24,
       extended: true,
+      keywords: ['Dark Side', 'Sith'],
     },
     {
       name: 'Dark Courier',

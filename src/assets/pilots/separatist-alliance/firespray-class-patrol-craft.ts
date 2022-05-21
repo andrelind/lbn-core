@@ -63,9 +63,9 @@ const t: ShipType = {
       ],
       cost: 8,
       ffg: 800,
-      keywords: ['Bounty Hunter'],
       loadout: 27,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       xws: 'zamwesell',
@@ -90,9 +90,9 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 801,
-      keywords: ['Bounty Hunter'],
       loadout: 22,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       xws: 'bobafett-separatistalliance',
@@ -115,9 +115,9 @@ const t: ShipType = {
       epic: true,
       ability:
         'While you defend, if there are no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result.',
-      keywords: ['Bounty Hunter'],
       loadout: 16,
       extended: true,
+      keywords: ['Bounty Hunter'],
     },
     {
       name: 'Separatist Racketeer',

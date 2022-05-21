@@ -79,9 +79,9 @@ const t: ShipType = {
       ffg: 36,
       standard: false,
       epic: true,
-      keywords: ['Light Side', 'Spectre'],
       loadout: 7,
       extended: true,
+      keywords: ['Light Side', 'Spectre'],
     },
     {
       name: 'Hera Syndulla',
@@ -113,9 +113,9 @@ const t: ShipType = {
       ffg: 35,
       standard: false,
       epic: true,
-      keywords: ['Mandalorian', 'Spectre'],
       loadout: 6,
       extended: true,
+      keywords: ['Mandalorian', 'Spectre'],
     },
   ],
 };

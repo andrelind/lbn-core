@@ -70,9 +70,9 @@ const t: ShipType = {
       ffg: 75,
       standard: true,
       epic: true,
-      keywords: ['Droid', 'Freighter', 'Spectre'],
       loadout: 18,
       extended: true,
+      keywords: ['Droid', 'Freighter', 'Spectre'],
     },
     {
       name: 'Hera Syndulla',
@@ -98,8 +98,8 @@ const t: ShipType = {
       ffg: 73,
       standard: false,
       epic: true,
-      keywords: ['Freighter', 'Spectre'],
       extended: true,
+      keywords: ['Freighter', 'Spectre'],
     },
     {
       name: 'Kanan Jarrus',
@@ -125,9 +125,9 @@ const t: ShipType = {
       ffg: 74,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
       loadout: 20,
       extended: true,
+      keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
     },
     {
       name: 'Lothal Rebel',
@@ -168,9 +168,9 @@ const t: ShipType = {
         'While you defend, if the attacker modified any attack dice, you may roll 1 additional defense die.',
       cost: 7,
       ffg: 631,
-      keywords: ['Freighter', 'Spectre'],
       loadout: 16,
       extended: true,
+      keywords: ['Freighter', 'Spectre'],
     },
   ],
 };

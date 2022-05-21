@@ -70,9 +70,9 @@ const t: ShipType = {
       ffg: 78,
       standard: false,
       epic: true,
-      keywords: ['Droid', 'Freighter'],
       loadout: 16,
       extended: true,
+      keywords: ['Droid', 'Freighter'],
     },
     {
       name: 'Dash Rendar',

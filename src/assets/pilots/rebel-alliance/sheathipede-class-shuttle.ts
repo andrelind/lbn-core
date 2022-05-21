@@ -77,9 +77,9 @@ const t: ShipType = {
       ffg: 41,
       standard: true,
       epic: true,
-      keywords: ['Droid', 'Spectre'],
       loadout: 4,
       extended: true,
+      keywords: ['Droid', 'Spectre'],
     },
     {
       name: 'Ezra Bridger',
@@ -95,9 +95,9 @@ const t: ShipType = {
       ffg: 39,
       standard: true,
       epic: true,
-      keywords: ['Light Side', 'Spectre'],
       loadout: 6,
       extended: true,
+      keywords: ['Light Side', 'Spectre'],
     },
     {
       name: 'Fenn Rau',
@@ -112,9 +112,9 @@ const t: ShipType = {
       ffg: 38,
       standard: true,
       epic: true,
-      keywords: ['Mandalorian', 'Spectre'],
       loadout: 9,
       extended: true,
+      keywords: ['Mandalorian', 'Spectre'],
     },
   ],
 };

@@ -52,9 +52,9 @@ const t: ShipType = {
       ffg: 225,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 6,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'Han Solo',
@@ -78,9 +78,9 @@ const t: ShipType = {
       ffg: 222,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 20,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
     {
       name: 'L3-37',
@@ -109,9 +109,9 @@ const t: ShipType = {
       ffg: 224,
       standard: true,
       epic: true,
-      keywords: ['Droid', 'Freighter', 'YT-1300'],
       loadout: 15,
       extended: true,
+      keywords: ['Droid', 'Freighter', 'YT-1300'],
     },
     {
       name: 'Lando Calrissian',
@@ -135,9 +135,9 @@ const t: ShipType = {
       ffg: 223,
       standard: true,
       epic: true,
-      keywords: ['Freighter', 'YT-1300'],
       loadout: 17,
       extended: true,
+      keywords: ['Freighter', 'YT-1300'],
     },
   ],
 };
