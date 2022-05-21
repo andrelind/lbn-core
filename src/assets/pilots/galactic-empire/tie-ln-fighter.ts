@@ -46,13 +46,7 @@ const t: ShipType = {
       xws: 'howlrunner',
       ability:
         'While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.',
-      slots: [
-        'Talent',
-        'Talent',
-        'Modification',
-        'Modification',
-        'Modification',
-      ],
+      slots: ['Talent', 'Talent', 'Modification'],
       ffg: 81,
       standard: true,
       epic: true,
@@ -69,7 +63,7 @@ const t: ShipType = {
       xws: 'maulermithel',
       ability:
         'While you perform an attack at attack range 1, roll 1 additional attack die.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Cannon'],
       ffg: 80,
       standard: true,
       epic: true,
@@ -225,7 +219,6 @@ const t: ShipType = {
       ffg: 91,
       standard: true,
       epic: true,
-      keywords: ['TIE'],
       loadout: 0,
       extended: true,
     },

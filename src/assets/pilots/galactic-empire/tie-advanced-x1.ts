@@ -101,7 +101,7 @@ const t: ShipType = {
       xws: 'stormsquadronace',
       text:
         'The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.',
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Sensor', 'Modification'],
       ffg: 97,
       standard: true,
       epic: true,

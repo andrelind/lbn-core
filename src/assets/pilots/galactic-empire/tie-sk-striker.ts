@@ -51,7 +51,7 @@ const t: ShipType = {
       xws: 'countdown',
       ability:
         'While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.',
-      slots: ['Talent', 'Talent', 'Device', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Talent', 'Gunner', 'Device', 'Modification'],
       ffg: 118,
       standard: true,
       epic: true,
@@ -101,7 +101,7 @@ const t: ShipType = {
       xws: 'blacksquadronscout',
       text:
         'These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.',
-      slots: ['Talent', 'Device', 'Gunner'],
+      slots: ['Talent', 'Gunner', 'Device'],
       ffg: 120,
       standard: true,
       epic: true,
@@ -117,7 +117,7 @@ const t: ShipType = {
       xws: 'planetarysentinel',
       text:
         'To protect its many military installations, the Empire requires a swift and vigilant defense force.',
-      slots: ['Device', 'Modification', 'Gunner'],
+      slots: ['Gunner', 'Device', 'Modification'],
       ffg: 121,
       standard: true,
       epic: true,

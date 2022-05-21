@@ -84,7 +84,14 @@ const t: ShipType = {
       standard: false,
       ability:
         "During the System Phase, you may spend your lock on a ship to look at that ship's dial.",
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       cost: 4,
       epic: true,
       ffg: 796,
@@ -101,7 +108,14 @@ const t: ShipType = {
       standard: true,
       ability:
         'Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship.',
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       conditions: ['fearfulprey'],
       cost: 4,
       epic: true,
@@ -119,7 +133,14 @@ const t: ShipType = {
       standard: true,
       ability:
         'At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.',
-      slots: ['Talent', 'Sensor', 'Missile', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Sensor',
+        'Missile',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       cost: 4,
       epic: true,
       ffg: 795,

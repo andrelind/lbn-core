@@ -90,7 +90,7 @@ const t: ShipType = {
       xws: 'backdraft',
       ability:
         'While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc], roll 1 additional die.',
-      slots: ['Talent', 'Missile', 'Sensor', 'Tech', 'Gunner', 'Modification'],
+      slots: ['Talent', 'Sensor', 'Tech', 'Missile', 'Gunner', 'Modification'],
       ffg: 407,
       standard: true,
       epic: true,

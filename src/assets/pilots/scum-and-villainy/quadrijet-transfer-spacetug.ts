@@ -68,7 +68,7 @@ const t: ShipType = {
       xws: 'jakkugunrunner',
       text:
         'The Quadrijet transfer spacetug, commonly called a "Quadjumper," is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.',
-      slots: ['Device', 'Illicit', 'Illicit'],
+      slots: ['Device', 'Illicit'],
       ffg: 164,
       standard: false,
       epic: true,

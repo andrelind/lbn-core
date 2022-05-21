@@ -106,7 +106,7 @@ const t: ShipType = {
       cost: 5,
       ability:
         'While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].',
-      slots: ['Talent', 'Tech', 'Tech', 'Torpedo', 'Missile', 'Configuration'],
+      slots: ['Talent', 'Tech', 'Torpedo', 'Missile', 'Configuration'],
       ffg: 455,
       standard: true,
       epic: true,

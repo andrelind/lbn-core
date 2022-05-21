@@ -63,7 +63,6 @@ const t: ShipType = {
       ffg: 229,
       standard: true,
       epic: true,
-      keywords: ['Droid'],
       loadout: 0,
       extended: true,
     },

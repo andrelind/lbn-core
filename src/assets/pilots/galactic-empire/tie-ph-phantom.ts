@@ -54,7 +54,7 @@ const t: ShipType = {
       xws: 'echo',
       ability:
         'While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.',
-      slots: ['Talent', 'Talent', 'Sensor', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Talent', 'Sensor', 'Gunner', 'Modification'],
       ffg: 132,
       standard: false,
       epic: true,
@@ -86,7 +86,7 @@ const t: ShipType = {
       xws: 'imdaartestpilot',
       text:
         'The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.',
-      slots: ['Sensor', 'Modification', 'Gunner'],
+      slots: ['Sensor', 'Gunner', 'Modification'],
       ffg: 134,
       standard: false,
       epic: true,
@@ -102,7 +102,7 @@ const t: ShipType = {
       xws: 'sigmasquadronace',
       text:
         'Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.',
-      slots: ['Talent', 'Sensor', 'Modification', 'Gunner'],
+      slots: ['Talent', 'Sensor', 'Gunner', 'Modification'],
       ffg: 133,
       standard: false,
       epic: true,

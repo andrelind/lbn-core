@@ -45,7 +45,7 @@ const t: ShipType = {
       xws: 'blacksunace',
       text:
         'The Kihraxz assault fighter was developed specifically for the Black Sun crime syndicate, whose highly paid ace pilots demanded a nimble, powerful ship to match their skills.',
-      slots: [],
+      slots: ['Talent'],
       ffg: 195,
       standard: false,
       epic: true,

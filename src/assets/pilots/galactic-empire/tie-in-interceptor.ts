@@ -52,7 +52,7 @@ const t: ShipType = {
       xws: 'alphasquadronpilot',
       text:
         'Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.',
-      slots: ['Talent', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Configuration'],
       ffg: 106,
       standard: true,
       epic: true,

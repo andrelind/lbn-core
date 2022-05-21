@@ -60,7 +60,7 @@ const t: ShipType = {
       xws: 'blacksunsoldier',
       text:
         "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
-      slots: ['Missile', 'Illicit', 'Modification'],
+      slots: ['Modification', 'Illicit'],
       ffg: 172,
       standard: true,
       epic: true,

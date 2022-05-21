@@ -236,28 +236,36 @@ const runShips = async () => {
         }
 
         const t = dataItems[index];
-
         const parts = t.split(',');
         if (parts.length < 5) {
             // console.log(t.trimName())
-            if (factionShips[faction][parts.join('').trimName()]) {
+            let n = parts.join('').trimName()
+            if (n === 'scavengedyt1300lightfreighter') {
+                n = 'scavengedyt1300';
+            } else if (n === 'xiclassshuttle') {
+                n = 'xiclasslightshuttle';
+            }
+
+            if (factionShips[faction][n]) {
                 // console.log(t)
-                shipName = factionShips[faction][parts.join('').trimName()].name;
-                if (shipName === 'Scavenged YT-1300 Light Freighter') {
-                    shipName = 'Scavenged YT-1300';
-                } else if (shipName === 'Xi-class shuttle') {
-                    shipName = 'Xi-class Light Shuttle';
-                }
-            } else {
-                // console.log('Not found', parts.join('').trimName())
+                shipName = factionShips[faction][n].name;
+            }
+            else {
+                console.log('Not found', n)
             }
             continue;
         }
 
-        const name = parts[0];
+        let name = parts[0].replaceAll('•', '').replaceAll('  ', ' ').trim();
+        if (name === 'Nimi Chereen') {
+            name = 'Nimi Chireen';
+        } else if (name === 'Shadow Collective Operative') {
+            name = 'Shadow Collective Operator';
+        }
+
         let subtitle = '';
         let start = 1;
-        if (name.includes('•')) {
+        if (parts[0].includes('•')) {
             subtitle = parts[1];
             start = 2;
         }

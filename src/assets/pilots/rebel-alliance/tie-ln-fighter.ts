@@ -82,7 +82,7 @@ const t: ShipType = {
       ability:
         'While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.',
       force: { value: 1, recovers: 1, side: ['light'] },
-      slots: ['Modification', 'Force Power', 'Crew'],
+      slots: ['Force Power', 'Crew', 'Modification'],
       ffg: 46,
       standard: true,
       epic: true,

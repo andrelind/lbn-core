@@ -25,7 +25,6 @@ const t: ShipType = {
     '5FW',
     '5KR',
   ],
-
   faction: 'Scum and Villainy',
   stats: [
     { arc: 'Front Arc', type: 'attack', value: 2 },
@@ -126,14 +125,13 @@ const t: ShipType = {
       ],
       ability:
         "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Front Arc]. If you do, treat your initiative as equal to that ship's until the end of the round.",
-      keywords: [],
+      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,
     },
     {
       name: 'Outer Rim Hunter',
-      caption: '',
       initiative: 3,
       limited: 0,
       cost: 5,
@@ -142,7 +140,6 @@ const t: ShipType = {
       slots: ['Cannon', 'Cannon', 'Illicit', 'Modification'],
       text:
         'Due to its association with Cad Bane, the Rogue-class Starfighterhas found its way into the hands of other bounty hunters, especially those who operate in the lawless Outer Rim.',
-      keywords: ['Bounty Hunter'],
       standard: true,
       extended: true,
       epic: true,

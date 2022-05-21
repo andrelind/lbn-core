@@ -101,7 +101,7 @@ const t: ShipType = {
         'Illicit',
         'Illicit',
         'Modification',
-        'Title',
+        'Modification',
       ],
       ffg: 427,
       standard: false,

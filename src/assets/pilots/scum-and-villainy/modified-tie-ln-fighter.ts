@@ -100,7 +100,7 @@ const t: ShipType = {
       xws: 'miningguildsurveyor',
       text:
         'With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.',
-      slots: [],
+      slots: ['Talent'],
       ffg: 445,
       standard: true,
       epic: true,
@@ -134,7 +134,7 @@ const t: ShipType = {
       xws: 'miningguildsentry',
       text:
         'As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.',
-      slots: [],
+      slots: ['Illicit'],
       ffg: 446,
       standard: true,
       epic: true,

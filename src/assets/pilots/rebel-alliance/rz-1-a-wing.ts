@@ -136,15 +136,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
-      slots: [
-        'Talent',
-        'Talent',
-        'Torpedo',
-        'Missile',
-        'Modification',
-        'Modification',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Torpedo', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing', 'Mandalorian'],
@@ -227,7 +219,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'After you acquire or spend a lock, you may remove 1 red token from yourself.',
-      slots: ['Configuration'],
+      slots: ['Talent', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['A-wing'],

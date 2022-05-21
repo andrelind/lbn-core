@@ -157,7 +157,7 @@ const t: ShipType = {
       xws: 'muse',
       ability:
         'At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.',
-      slots: ['Modification', 'Tech'],
+      slots: ['Tech', 'Modification'],
       ffg: 401,
       standard: true,
       epic: true,
@@ -174,7 +174,7 @@ const t: ShipType = {
       xws: 'tn3465',
       ability:
         "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Critical Hit] damage to change 1 of the attacker's results to a [Critical Hit] result.",
-      slots: ['Modification', 'Tech'],
+      slots: ['Tech', 'Modification'],
       ffg: 453,
       standard: true,
       epic: true,
@@ -190,7 +190,7 @@ const t: ShipType = {
       xws: 'zetasquadronpilot',
       text:
         "Unhampered by a cumbersome galactic bureaucracy, technologies originally researched by the Empire's TIE Advanced program are now mass-produced on First Order starfighters. As a result, TIE/fo pilots enjoy higher survival rates than their predecessors in the Galactic Empire.",
-      slots: ['Modification', 'Tech'],
+      slots: ['Tech', 'Modification'],
       ffg: 404,
       standard: true,
       epic: true,

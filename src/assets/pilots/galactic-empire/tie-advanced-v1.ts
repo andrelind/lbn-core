@@ -112,7 +112,7 @@ const t: ShipType = {
       ability:
         'While you perform a primary attack, before the Neutralize Results step, you may spend 2 [Force] to cancel 1 [Evade] result.',
       force: { value: 2, recovers: 1, side: ['dark'] },
-      slots: ['Force Power', 'Talent', 'Sensor', 'Missile'],
+      slots: ['Force Power', 'Talent', 'Talent', 'Sensor', 'Missile'],
       ffg: 100,
       standard: true,
       epic: true,

@@ -115,7 +115,7 @@ const t: ShipType = {
       xws: 'greersonnel',
       ability:
         'After you fully execute a maneuver, you may rotate your [Single Turret Arc].',
-      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       ffg: 437,
       standard: true,
       epic: true,
@@ -199,7 +199,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
-      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 704,
@@ -233,7 +233,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.',
-      slots: ['Talent', 'Missile', 'Tech', 'Modification'],
+      slots: ['Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 702,
@@ -250,7 +250,7 @@ const t: ShipType = {
       xws: 'seftinvanik',
       ability:
         'After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.',
-      slots: ['Talent', 'Talent', 'Missile', 'Tech', 'Modification'],
+      slots: ['Talent', 'Talent', 'Tech', 'Missile', 'Modification'],
       standard: true,
       epic: true,
       ffg: 701,

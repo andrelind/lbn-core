@@ -198,12 +198,12 @@ const t: ShipType = {
         'After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.',
       slots: [
         'Talent',
+        'Tech',
         'Turret',
         'Torpedo',
         'Missile',
         'Astromech',
         'Device',
-        'Illicit',
         'Modification',
       ],
       standard: true,
