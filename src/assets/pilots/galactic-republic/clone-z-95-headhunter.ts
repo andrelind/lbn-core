@@ -38,6 +38,7 @@ const t: ShipType = {
     name: 'Versatile Frame',
     text:
       'You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver is blue, add white [Boost] to your action bar.',
+    slotOptions: ['Torpedo', 'Missile'],
   },
   pilots: [
     {
@@ -152,6 +153,26 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+    },
+    {
+      name: '"Knack"',
+      caption: 'Incautious Instructor',
+      initiative: 5,
+      limited: 1,
+      cost: 3,
+      loadout: 7,
+      xws: 'knack',
+      ability:
+        'After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.',
+      shipAbility: {
+        name: 'Versatile Frame',
+        text:
+          'You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver is blue, add white [Boost] to your action bar.',
+      },
+      slots: ['Talent', 'Talent', 'Sensor', 'Modification'],
+      standard: true,
+      extended: true,
+      epic: true,
     },
   ],
 };

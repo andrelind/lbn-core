@@ -39,7 +39,7 @@ const t: ShipType = {
   ability: {
     name: 'Adaptive Ailerons',
     text:
-      'Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver.',
+      'Before you reveal your dial, if you are not stressed, you may boost.',
   },
   icon:
     'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png',

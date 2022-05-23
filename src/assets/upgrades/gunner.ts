@@ -640,7 +640,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 9 },
+    cost: { value: 6 },
     restrictions: [
       { baseSizes: ['Large', 'Huge'] },
       { factions: ['Scum and Villainy'] },

@@ -73,7 +73,7 @@ const t: UpgradeBase[] = [
         ffg: 353,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
@@ -718,7 +718,7 @@ const t: UpgradeBase[] = [
         ffg: 385,
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 4 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
@@ -1994,7 +1994,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'You can maintain up to 2 locks. Each lock must be on a different object.\n\nAfter a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship.',
+          'You can maintain up to 2 locks. Each lock must be on a different object.\n\nAfter a friendly ship at range 0-3 is locked by an enemy ship, you may perform a [Lock] action.',
         title: 'Ursa Wren',
         type: 'Crew',
         slots: ['Crew'],
@@ -2241,7 +2241,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'primeministeralmec',
     limited: 1,
-    cost: { value: 9 },
+    cost: { value: 6 },
     sides: [
       {
         ability:
@@ -2465,7 +2465,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 11 },
+    cost: { value: 8 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     extended: true,

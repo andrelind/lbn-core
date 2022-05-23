@@ -261,7 +261,6 @@ const t: UpgradeBase[] = [
         title: 'Tracking Fob',
         type: 'Illicit',
         slots: ['Illicit'],
-        charges: { value: 1, recovers: 0 },
         ffg: 931,
       },
     ],

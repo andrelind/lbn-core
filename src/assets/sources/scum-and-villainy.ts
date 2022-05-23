@@ -457,6 +457,8 @@ export const t: Source[] = [
         hondoohnaka: 1,
         bounty: 1,
         initforthemoney: 1,
+        burnoutthrusters: 1,
+        themandalorian: 1,
       },
     },
   },

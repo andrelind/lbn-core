@@ -395,7 +395,7 @@ const t: UpgradeBase[] = [
         ffg: 618,
         title: 'C1-10P',
         ability:
-          'Setup: Equip this side faceup. After you execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During the End Phase, if this card has 0 active [Charge], flip it.',
+          'Setup: Equip this side faceup. After you fully execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During the End Phase, if this card has 0 active [Charge], flip it.',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
         type: 'Astromech',
