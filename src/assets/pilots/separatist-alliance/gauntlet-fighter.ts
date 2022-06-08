@@ -36,7 +36,7 @@ const t: ShipType = {
   ],
   pilots: [
     {
-      xws: 'bokatankryze-separatist',
+      xws: 'bokatankryze-separatistalliance',
       name: 'Bo-Katan Kryze',
       caption: "Vizsla's Lieutenant",
       ability:

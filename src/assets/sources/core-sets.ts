@@ -206,7 +206,7 @@ export const t: Source[] = [
         shadowcollectiveoperator: 1,
         bokatankryze: 1,
         niteowlliberator: 1,
-        'bokatankryze-separatist': 1,
+        'bokatankryze-separatistalliance': 1,
         previzsla: 1,
         deathwatchwarrior: 1,
         'ezrabridger-gauntletfighter': 1,

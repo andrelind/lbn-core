@@ -123,6 +123,32 @@ const t: UpgradeBase[] = [
     epic: true,
     restrictions: [{ baseSizes: ['Huge'] }],
   },
+  {
+    limited: 0,
+    xws: 'homingtorpedoes',
+    sides: [
+      {
+        title: 'Homing Torpedoes',
+        type: 'Torpedo',
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Critical Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.',
+        slots: ['Torpedo'],
+        charges: { value: 2, recovers: 0 },
+        attack: {
+          arc: 'Front Arc',
+          value: 4,
+          minrange: 1,
+          maxrange: 2,
+          ordnance: true,
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 5 },
+    standard: true,
+    extended: true,
+    epic: true,
+  },
 ];
 
 export default t;

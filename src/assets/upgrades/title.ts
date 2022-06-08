@@ -1210,6 +1210,29 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['st70assaultship'] }],
     extended: true,
   },
+  {
+    limited: 1,
+    xws: 'xanadublood',
+    sides: [
+      {
+        ability: 'Add [Crew] and [Device] slots.',
+        title: 'Xanadu Blood',
+        type: 'Title',
+        slots: ['Title'],
+        grants: [
+          { slot: 'Crew', value: 1 },
+          { slot: 'Device', value: 1 },
+          { action: { type: 'Cloak', difficulty: 'Red' }, value: 1 },
+        ],
+        ffg: -1,
+      },
+    ],
+    cost: { value: 0 },
+    restrictions: [{ chassis: ['rogueclassstarfighter'] }],
+    standard: true,
+    extended: true,
+    epic: true,
+  },
 ];
 
 export default t;

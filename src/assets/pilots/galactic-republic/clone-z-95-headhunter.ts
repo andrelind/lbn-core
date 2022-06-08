@@ -98,7 +98,7 @@ const t: ShipType = {
       loadout: 8,
       xws: 'stub',
       ability:
-        'While you defend, if the speed of your revealed maneuver is even, roll 1 additional defende die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.',
+        'While you defend, if the speed of your revealed maneuver is even, roll 1 additional defense die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.',
       slots: ['Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,
@@ -164,11 +164,6 @@ const t: ShipType = {
       xws: 'knack',
       ability:
         'After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.',
-      shipAbility: {
-        name: 'Versatile Frame',
-        text:
-          'You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver is blue, add white [Boost] to your action bar.',
-      },
       slots: ['Talent', 'Talent', 'Sensor', 'Modification'],
       standard: true,
       extended: true,

@@ -268,6 +268,27 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'clonez95headhunter',
+    name: 'Clone Z-95 Headhunter Expansion Pack',
+    wave: 11,
+    released: true,
+    contents: {
+      ships: { clonez95headhunter: 1 },
+      pilots: {
+        killer: 1,
+        drift: 1,
+        boost: 1,
+        stub: 1,
+        'hawk-clonez95headhunter': 1,
+        slider: 1,
+        'warthog-clonez95headhunter': 1,
+        knack: 1,
+      },
+      upgrades: {},
+    },
+  },
 ];
 
 export default t;

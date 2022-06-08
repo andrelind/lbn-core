@@ -301,6 +301,12 @@ export const cleanupUpgrades = (
     ) {
       // Weapon hardpoint, this is ok...
       count = 0;
+    } else if (
+      (slot === 'Torpedo' || slot === 'Missile') &&
+      ship.xws === 'clonez95headhunter'
+    ) {
+      // Weapon hardpoint, this is ok...
+      count = 0;
     }
 
     while (count < 0) {

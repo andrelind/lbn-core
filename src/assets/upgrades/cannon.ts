@@ -180,6 +180,32 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    limited: 0,
+    xws: 'protoncannons',
+    sides: [
+      {
+        ability:
+          'Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.',
+        charges: { value: 2, recovers: 1 },
+        title: 'Proton Cannons',
+        type: 'Cannon',
+        slots: ['Cannon', 'Cannon'],
+        attack: {
+          arc: 'Bullseye Arc',
+          value: 4,
+          minrange: 2,
+          maxrange: 3,
+          ordnance: false,
+        },
+        ffg: -1,
+      },
+    ],
+    cost: { value: 4 },
+    standard: true,
+    extended: true,
+    epic: true,
+  },
 ];
 
 export default t;
