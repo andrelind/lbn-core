@@ -236,6 +236,41 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'rogueclassstarfighter',
+    name: 'Rogue-class Starfighter Expansion Pack',
+    wave: 11,
+    released: true,
+    contents: {
+      ships: { rogueclassstarfighter: 1 },
+      pilots: {
+        'cadbane-separatistalliance': 1,
+        ig101: 1,
+        ig102: 1,
+        ig111: 1,
+        magnaguardexecutioner: 1,
+        magnaguardprotector: 1,
+        cadbane: 1,
+        'viktorhel-rogueclassstarfighter': 1,
+        'nomlumb-rogueclassstarfighter': 1,
+        outerrimhunter: 1,
+      },
+      upgrades: {
+        freelanceslicer: 1,
+        ioncannon: 1,
+        protoncannons: 2,
+        syncedlasercannons: 2,
+        trackingfob: 1,
+        overtunedmodulators: 1,
+        independentcalculations: 1,
+        blazerbomb: 1,
+        enduring: 2,
+        notorius: 2,
+        xanadublood: 1,
+      },
+    },
+  },
 ];
 
 export default t;
