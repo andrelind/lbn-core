@@ -239,7 +239,7 @@ const t: UpgradeBase[] = [
         title: 'BB-8',
         type: 'Astromech',
         ability:
-          'Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action.',
+          'During the System Phase, you may spend 1 [Charge] to perform a [Barrell Roll] or [Boost] action. ',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
         ffg: 479,
@@ -259,7 +259,7 @@ const t: UpgradeBase[] = [
         title: 'BB Astromech',
         type: 'Astromech',
         ability:
-          'Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action.',
+          'During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll] action.',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
         ffg: 480,
