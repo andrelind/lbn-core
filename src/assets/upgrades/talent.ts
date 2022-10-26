@@ -799,7 +799,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 5 },
     restrictions: [{ equipped: ['Illicit'] }],
     standard: true,
     extended: true,

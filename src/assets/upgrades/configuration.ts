@@ -579,11 +579,11 @@ const t: UpgradeBase[] = [
         ffg: 929,
       },
     ],
-    cost: { value: 10 },
+    cost: { value: 5 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
     standard: true,
     epic: true,
-    standarized: true,
+    // standarized: true,
     extended: true,
   },
   {

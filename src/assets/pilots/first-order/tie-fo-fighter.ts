@@ -77,7 +77,7 @@ const t: ShipType = {
       ffg: 452,
       standard: true,
       epic: true,
-      loadout: 5,
+      loadout: 4,
       extended: true,
       keywords: ['TIE'],
     },

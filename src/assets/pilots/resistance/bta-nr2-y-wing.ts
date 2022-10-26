@@ -65,7 +65,7 @@ const t: ShipType = {
       caption: 'Corsair of Kijimi',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 24,
+      // loadout: 19,
       extended: true,
     },
     {
@@ -91,7 +91,7 @@ const t: ShipType = {
       caption: 'Old Soldier',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 17,
+      loadout: 12,
       extended: true,
     },
     {
@@ -100,7 +100,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       standard: true,
-      cost: 3,
+      cost: 4,
       slots: [
         'Tech',
         'Turret',
@@ -118,7 +118,7 @@ const t: ShipType = {
       ability:
         'After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].',
       keywords: ['Y-wing'],
-      loadout: 14,
+      loadout: 12,
       extended: true,
     },
     {
@@ -127,7 +127,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       standard: true,
-      cost: 3,
+      cost: 4,
       slots: [
         'Talent',
         'Tech',
@@ -171,7 +171,7 @@ const t: ShipType = {
       caption: 'Hero of Humbarine',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 19,
+      loadout: 14,
       extended: true,
     },
     {
@@ -198,7 +198,7 @@ const t: ShipType = {
       ability:
         'After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.',
       keywords: ['Y-wing'],
-      loadout: 18,
+      loadout: 13,
       extended: true,
     },
     {
@@ -225,7 +225,7 @@ const t: ShipType = {
       ability:
         'Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.',
       keywords: ['Y-wing'],
-      loadout: 20,
+      loadout: 15,
       extended: true,
     },
     {
@@ -234,7 +234,7 @@ const t: ShipType = {
       initiative: 2,
       limited: 1,
       standard: true,
-      cost: 3,
+      cost: 4,
       slots: [
         'Talent',
         'Tech',
@@ -251,7 +251,7 @@ const t: ShipType = {
       caption: 'Tenacious Survivor',
       keywords: ['Y-wing'],
       epic: true,
-      loadout: 15,
+      loadout: 10,
       extended: true,
     },
     {
