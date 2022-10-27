@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_115.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_115.jpg',
     },
     {
       name: 'Captain Feroph',
@@ -77,6 +81,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_114.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg',
     },
     {
       name: 'Major Vermeil',
@@ -94,6 +102,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_113.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_113.jpg',
     },
     {
       name: 'Scarif Base Pilot',
@@ -110,6 +122,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_116.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
     },
   ],
 };

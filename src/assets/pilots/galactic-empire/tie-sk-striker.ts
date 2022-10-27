@@ -58,6 +58,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_118.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
     },
     {
       name: '“Duchess”',
@@ -75,6 +79,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_117.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
     },
     {
       name: '“Pure Sabacc”',
@@ -92,6 +100,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_119.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
     },
     {
       name: 'Black Squadron Scout',
@@ -108,6 +120,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_120.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg',
     },
     {
       name: 'Planetary Sentinel',
@@ -124,6 +140,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_121.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg',
     },
     {
       name: '“Vagabond”',
@@ -141,6 +161,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg',
     },
   ],
 };

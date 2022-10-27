@@ -56,6 +56,10 @@ const t: ShipType = {
       ffg: 609,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg',
     },
     {
       name: 'Sun Fac',
@@ -72,6 +76,10 @@ const t: ShipType = {
       caption: 'Archduke’s Enforcer',
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg',
     },
     {
       name: 'Berwer Kret',
@@ -88,6 +96,10 @@ const t: ShipType = {
       caption: 'Hive Guard Captain',
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg',
     },
     {
       name: 'Chertek',
@@ -104,6 +116,10 @@ const t: ShipType = {
       caption: 'Opportunistic Ace',
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg',
     },
     {
       name: 'Gorgol',
@@ -120,6 +136,10 @@ const t: ShipType = {
       caption: 'Handy Engineer',
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d2d0764f83a2740f407082e934986ff2.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg',
     },
     {
       name: 'Petranaki Arena Ace',
@@ -135,6 +155,10 @@ const t: ShipType = {
       xws: 'petranakiarenaace',
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg',
     },
   ],
   ffg: 67,

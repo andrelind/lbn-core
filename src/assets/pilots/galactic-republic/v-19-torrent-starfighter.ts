@@ -56,6 +56,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg',
     },
     {
       name: '“Odd Ball”',
@@ -73,6 +77,10 @@ const t: ShipType = {
       ffg: 516,
       keywords: ['Clone'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9ecf7600f20da9a9eff5d3e244934ccb.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2a20c8f88cf55b75df4909f74b0221a2.jpg',
     },
     {
       name: '“Swoop”',
@@ -90,6 +98,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/8ae255235c0c1d3892344fb43fcab773.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c8c96604a64fce6b953a8b4dc4ff86e6.jpg',
     },
     {
       name: '“Axe”',
@@ -107,6 +119,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg',
     },
     {
       name: '“Tucker”',
@@ -124,6 +140,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/a457cc2ab3038736cb37541ad94b9b34.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/0b24c3261656d83b685ac59e6dfb1817.jpg',
     },
     {
       name: 'Blue Squadron Protector',
@@ -140,6 +160,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/77b2dfdca20865d8d667c41539a7356e.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/74667d2878cb823d14035e91c8773816.jpg',
     },
     {
       name: 'Gold Squadron Trooper',
@@ -156,6 +180,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/ed881318b45485a197e514b2d13e178c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg',
     },
   ],
   ffg: 62,

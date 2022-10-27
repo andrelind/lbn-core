@@ -64,6 +64,10 @@ const t: ShipType = {
       keywords: ['Spectre'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_37.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
     },
     {
       name: 'Ezra Bridger',
@@ -82,6 +86,10 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Light Side', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_36.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
     },
     {
       name: 'Hera Syndulla',
@@ -99,6 +107,10 @@ const t: ShipType = {
       keywords: ['Spectre'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_34.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
     },
     {
       name: 'Sabine Wren',
@@ -116,6 +128,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Mandalorian', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_35.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
     },
   ],
 };

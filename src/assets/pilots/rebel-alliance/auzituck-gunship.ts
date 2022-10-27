@@ -50,6 +50,10 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_33.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
     },
     {
       name: 'Lowhhrick',
@@ -66,6 +70,10 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_32.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg',
     },
     {
       name: 'Wullffwarro',
@@ -82,6 +90,10 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_31.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg',
     },
   ],
 };

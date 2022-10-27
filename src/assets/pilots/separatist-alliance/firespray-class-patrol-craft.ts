@@ -66,6 +66,10 @@ const t: ShipType = {
       loadout: 27,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/d4/f0/d4f09efe-f07f-45ad-a82f-8fdc29ec8f75/swz82_a1_jango-fett.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b6d21423ce39d0a57330782ac9f37e24.jpg',
     },
     {
       xws: 'zamwesell',
@@ -93,6 +97,10 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/08/f3/08f343b7-9d01-4e1f-91d8-e6eca0eb4fe0/swz82_a1_zam-wessel.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/99cf31dd1b9dc66bb0bd9522aacea4ce.jpg',
     },
     {
       xws: 'bobafett-separatistalliance',
@@ -118,6 +126,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/17/5d/175d51c6-6a7a-4f59-b8c1-44417a746187/swz82_a1_boba-fett.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3b76c2f168aa5b6644c9d270200a3ef1.jpg',
     },
     {
       name: 'Separatist Racketeer',
@@ -133,6 +145,10 @@ const t: ShipType = {
       ffg: 803,
       loadout: 10,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/16/8c/168ca8f4-0015-44a3-9a7c-099caff70881/swz82_a1_separatist-racketeer.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/fd061204d3235827f2457d5be76cc18b.jpg',
     },
   ],
   ffg: 10,

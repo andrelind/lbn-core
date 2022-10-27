@@ -62,6 +62,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_14.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
     },
     {
       name: 'Evaan Verlaine',
@@ -88,6 +92,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_16.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
     },
     {
       name: 'Gold Squadron Veteran',
@@ -104,6 +112,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_17.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_17.jpg',
     },
     {
       name: 'Gray Squadron Bomber',
@@ -120,6 +132,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_18.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
     },
     {
       name: 'Horton Salm',
@@ -145,6 +161,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_15.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
     },
     {
       name: 'Norra Wexley',
@@ -169,6 +189,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_13.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',
     },
   ],
 };

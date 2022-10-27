@@ -30,7 +30,6 @@ const t: ShipType = {
       name: 'New Republic Volunteers',
       text:
         'In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.',
-
       initiative: 7,
       engagement: 1,
       limited: 0,
@@ -52,6 +51,8 @@ const t: ShipType = {
       ffg: 710,
       ability:
         'In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5c7cf19b2300729a88d9d58ca60ef3df.jpg',
     },
   ],
   ffg: 80,

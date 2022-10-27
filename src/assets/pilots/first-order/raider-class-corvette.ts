@@ -54,6 +54,8 @@ const t: ShipType = {
       extended: false,
       epic: true,
       ffg: 708,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b9a9671d88e370fd473ec5d87491ad65.jpg',
     },
   ],
   ffg: 79,

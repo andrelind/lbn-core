@@ -62,6 +62,10 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/fe59b8b8bd7ca5d4104030b50a30a299.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/84e5bef1597b232a20e52e1aa28a4c7e.jpg',
     },
     {
       name: 'Anakin Skywalker',
@@ -88,6 +92,10 @@ const t: ShipType = {
       loadout: 23,
       extended: true,
       keywords: ['Jedi', 'Light Side', 'Y-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c7c979a7d90961d2e3afe377a71285df.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg',
     },
     {
       name: 'R2-D2',
@@ -120,6 +128,10 @@ const t: ShipType = {
       keywords: ['Droid', 'Y-wing'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/b37b960f2e79ab5eb905bc3593de8961.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/90c3f9aac7f44e4a6a860c81f93aae99.jpg',
     },
     {
       name: '“Odd Ball”',
@@ -145,6 +157,10 @@ const t: ShipType = {
       ffg: 597,
       keywords: ['Clone', 'Y-wing'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/8f1d65004c763b48293d1324a49c563a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg',
     },
     {
       name: '“Matchstick”',
@@ -170,6 +186,10 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/6aa658fe4082ed67500d2ac92c7731a0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8d8b63edff7a5e9969ca61ebb4456837.jpg',
     },
     {
       name: '“Broadside”',
@@ -195,6 +215,10 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/1f0842573067d73acd7bb7589707ec4e.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d34e3bcb51d765f9dd12a9fc266e7ad9.jpg',
     },
     {
       name: '“Goji”',
@@ -221,6 +245,10 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3b34b6fc25db55b66654d355c7f514eb.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/026f989543c030d7c8e6757a9aab7a68.jpg',
     },
     {
       name: 'Red Squadron Bomber',
@@ -237,6 +265,10 @@ const t: ShipType = {
       keywords: ['Clone', 'Y-wing'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/692a1f1d4b5f5370dad7cacf2f19d699.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e91e0d3a30e85c878f7493360d1b668f.jpg',
     },
   ],
   ffg: 68,

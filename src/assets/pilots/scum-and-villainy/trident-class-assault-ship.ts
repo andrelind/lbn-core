@@ -44,8 +44,11 @@ const t: ShipType = {
       epic: true,
       text:
         'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/738e8fdd6aaf28620b67efda2e8f63f7.jpg',
     },
   ],
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Trident.png',
 };
 
 export default t;

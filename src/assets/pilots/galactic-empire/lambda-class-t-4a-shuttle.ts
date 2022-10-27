@@ -50,6 +50,10 @@ const t: ShipType = {
       epic: true,
       loadout: 22,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_142.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg',
     },
     {
       name: 'Colonel Jendon',
@@ -67,6 +71,10 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_143.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg',
     },
     {
       name: 'Lieutenant Sai',
@@ -83,6 +91,10 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_144.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg',
     },
     {
       name: 'Omicron Group Pilot',
@@ -98,6 +110,10 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_145.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg',
     },
   ],
 };

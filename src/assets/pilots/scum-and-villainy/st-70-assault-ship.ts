@@ -66,6 +66,9 @@ const t: ShipType = {
       epic: true,
       extended: true,
       keywords: ['Mandalorian', 'Bounty Hunter'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/themandalorian.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/themandalorian.png',
     },
     {
       xws: 'q90',
@@ -97,18 +100,8 @@ const t: ShipType = {
       extended: true,
       caption: 'Zero',
       keywords: ['Droid'],
-    },
-    {
-      xws: 'outerrimenforcer',
-      name: 'Outer Rim Enforcer',
-      initiative: 2,
-      limited: 0,
-      cost: 6,
-      loadout: 10,
-      slots: ['Crew', 'Gunner', 'Illicit', 'Modification', 'Modification'],
-      standard: true,
-      epic: true,
-      extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/q90.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/q90.png',
     },
     {
       xws: 'guildbountyhunter',
@@ -125,8 +118,29 @@ const t: ShipType = {
       extended: true,
       caption: 'Blaster for Hire',
       keywords: ['Bounty Hunter'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/guildbountyhunter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/guildbountyhunter.png',
+    },
+    {
+      xws: 'outerrimenforcer',
+      name: 'Outer Rim Enforcer',
+      initiative: 2,
+      limited: 0,
+      cost: 6,
+      loadout: 10,
+      slots: ['Crew', 'Gunner', 'Illicit', 'Modification', 'Modification'],
+      standard: true,
+      epic: true,
+      extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/outerrimenforcer.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

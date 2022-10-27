@@ -62,6 +62,10 @@ const t: ShipType = {
         'Title',
       ],
       keywords: ['Mandalorian'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/bokatankryze-galactic-republic.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-galactic-republic.png',
     },
     {
       xws: 'niteowlliberator',
@@ -83,6 +87,10 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Resolute Warrior',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/niteowlliberator.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/niteowlliberator.png',
     },
   ],
 };

@@ -67,6 +67,10 @@ const t: ShipType = {
       epic: true,
       loadout: 16,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/fennrau-rebel-fang.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-rebel-fang.png',
     },
     {
       name: 'Bodica Venj',
@@ -83,6 +87,9 @@ const t: ShipType = {
       standard: true,
       loadout: 6,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/bodicavenj.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bodicavenj.png',
     },
     {
       name: 'Dirk Ullodin',
@@ -99,6 +106,9 @@ const t: ShipType = {
       standard: true,
       loadout: 10,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/dirkullodin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dirkullodin.png',
     },
     {
       name: 'Clan Wren Volunteer',
@@ -115,6 +125,10 @@ const t: ShipType = {
       standard: true,
       loadout: 10,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/clanwrenvolunteer.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/clanwrenvolunteer.png',
     },
   ],
 };

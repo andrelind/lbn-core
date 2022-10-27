@@ -53,6 +53,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_81.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
     },
     {
       name: '“Mauler” Mithel',
@@ -70,6 +74,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_80.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
     },
     {
       name: '“Night Beast”',
@@ -87,6 +95,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_88.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
     },
     {
       name: '“Scourge” Skutu',
@@ -104,6 +116,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_82.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
     },
     {
       name: '“Wampa”',
@@ -122,6 +138,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_89.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
     },
     {
       name: 'Academy Pilot',
@@ -138,6 +158,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_92.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
     },
     {
       name: 'Black Squadron Ace',
@@ -154,6 +178,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_90.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
     },
     {
       name: 'Del Meeko',
@@ -171,6 +199,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_85.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
     },
     {
       name: 'Gideon Hask',
@@ -188,6 +220,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_84.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
     },
     {
       name: 'Iden Versio',
@@ -206,6 +242,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_83.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
     },
     {
       name: 'Obsidian Squadron Pilot',
@@ -221,6 +261,10 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_91.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
     },
     {
       name: 'Seyn Marana',
@@ -238,6 +282,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_86.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
     },
     {
       name: 'Valen Rudor',
@@ -255,6 +303,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_87.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg',
     },
     {
       name: 'ISB Jingoist',
@@ -271,6 +323,9 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/isbjingoist.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png',
     },
     {
       name: 'Moff Gideon',
@@ -288,6 +343,9 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/moffgideon.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
     },
   ],
 };

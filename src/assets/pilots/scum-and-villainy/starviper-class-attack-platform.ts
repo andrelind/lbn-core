@@ -66,6 +66,10 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_181.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
     },
     {
       name: 'Black Sun Enforcer',
@@ -81,6 +85,10 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_182.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
     },
     {
       name: 'Dalan Oberos',
@@ -98,6 +106,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_179.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
     },
     {
       name: 'Guri',
@@ -129,6 +141,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_178.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg',
     },
     {
       name: 'Prince Xizor',
@@ -145,6 +161,10 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_180.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg',
     },
   ],
 };

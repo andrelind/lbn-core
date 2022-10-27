@@ -59,6 +59,10 @@ const t: ShipType = {
       caption: 'Hero of Naboo',
       keywords: ['Light Side'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/21e28ea4e8784dce5a554a33888d8be0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d9180cc98a1a4384bb2a0e11efbf1311.jpg',
     },
     {
       name: 'Ric Olié',
@@ -75,6 +79,10 @@ const t: ShipType = {
       ffg: 557,
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg',
     },
     {
       name: 'Padmé Amidala',
@@ -91,6 +99,10 @@ const t: ShipType = {
       ffg: 559,
       loadout: 22,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg',
     },
     {
       name: 'Dineé Ellberger',
@@ -107,6 +119,10 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/06e0863851b95dba4874b211e05661cc.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg',
     },
     {
       name: 'Bravo Flight Officer',
@@ -122,6 +138,10 @@ const t: ShipType = {
       ffg: 562,
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/274db1f70ed4da939b9440837a30c39a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4e1a2195431b026de73c90f8ce5f7c20.jpg',
     },
     {
       name: 'Naboo Handmaiden',
@@ -139,6 +159,10 @@ const t: ShipType = {
       caption: 'Regal Ruse',
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg',
     },
   ],
   ffg: 66,

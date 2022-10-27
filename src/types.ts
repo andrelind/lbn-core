@@ -101,6 +101,28 @@ export type Pilot = {
   ffg?: number;
   engagement?: number;
   keywords?: string[];
+  image?: string;
+  artwork?: string;
+  standardLoadout?: boolean;
+  upgrades?: StandardUpgrade[];
+};
+
+export type StandardUpgrade = {
+  title: string;
+  slots: string[];
+  ability: string;
+  limited?: number;
+  charges?: {
+    value: number;
+    recovers: number;
+  };
+  attack?: {
+    arc: string;
+    value: number;
+    minrange: number;
+    maxrange: number;
+    ordnance: boolean;
+  };
 };
 
 export type Restrictions = {
@@ -312,6 +334,8 @@ export type UpgradeSide = {
   text?: string;
   slots: Slot[];
   actions?: Action[];
+  image?: string;
+  artwork?: string;
   attack?: {
     arc: Arc;
     value: number;

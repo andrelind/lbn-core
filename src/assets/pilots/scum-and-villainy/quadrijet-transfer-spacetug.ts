@@ -59,6 +59,10 @@ const t: ShipType = {
       epic: true,
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_161.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
     },
     {
       name: 'Jakku Gunrunner',
@@ -74,6 +78,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_164.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
     },
     {
       name: 'Sarco Plank',
@@ -91,6 +99,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_162.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
     },
     {
       name: 'Unkar Plutt',
@@ -107,6 +119,10 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_163.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
     },
   ],
 };

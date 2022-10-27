@@ -79,6 +79,9 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/breach.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/breach.png',
     },
     {
       name: '“Scorch”',
@@ -105,6 +108,10 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/scorch_tiesebomber.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/scorch-tiesebomber.png',
     },
     {
       name: '“Dread”',
@@ -131,6 +138,8 @@ const t: ShipType = {
         'After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.',
       loadout: 12,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/dread.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/dread.png',
     },
     {
       name: '“Grudge”',
@@ -156,6 +165,9 @@ const t: ShipType = {
       epic: true,
       loadout: 15,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/grudge.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/grudge.png',
     },
     {
       name: 'First Order Cadet',
@@ -180,6 +192,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/firstordercadet.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/firstordercadet.png',
     },
     {
       name: 'Sienar-Jaemus Test Pilot',
@@ -196,6 +211,10 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/sienarjaemustestpilot.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemustestpilot.png',
     },
   ],
 };

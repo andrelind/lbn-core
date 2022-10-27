@@ -71,6 +71,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_174.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
     },
     {
       name: 'Palob Godalhi',
@@ -96,6 +100,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_175.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
     },
     {
       name: 'Spice Runner',
@@ -112,6 +120,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_177.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
     },
     {
       name: 'Torkil Mux',
@@ -129,6 +141,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_176.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
     },
     {
       xws: 'gamutkey',
@@ -153,6 +169,8 @@ const t: ShipType = {
       ffg: 896,
       loadout: 8,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg',
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -178,6 +196,8 @@ const t: ShipType = {
       ffg: 897,
       loadout: 10,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg',
     },
     {
       xws: 'tapusk',
@@ -202,6 +222,8 @@ const t: ShipType = {
       loadout: 10,
       keywords: ['Freighter'],
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg',
     },
   ],
 };

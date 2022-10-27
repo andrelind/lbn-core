@@ -45,7 +45,6 @@ const t: ShipType = {
       name: 'Separatist Privateers',
       text:
         'The Separatist Alliance makes use of all manner of unsavory contacts in its fight against the Galactic Republic, including corsairs and criminal cartels.',
-
       initiative: 7,
       engagement: 1,
       limited: 0,
@@ -66,6 +65,8 @@ const t: ShipType = {
       extended: false,
       epic: true,
       ffg: 714,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/25a3457e2b32c661210524ff8b1fc785.jpg',
     },
   ],
   ffg: 82,

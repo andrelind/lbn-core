@@ -59,6 +59,10 @@ const t: ShipType = {
         'Setup: After placing forces, choose any number of your equipped [Illicit] upgrades and equip them to friendly TIE/fo or TIE/sf fighters. Each ship can be assigned only 1 [Illicit] this way. End of Game: Return all [Illicit] upgrades to their original ships.',
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/5526136f7923921bcaac3c5ee0af9b75.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ee4ceab2fd34a3ccd68c74652f21b782.jpg',
     },
     {
       xws: 'commandermalarus-xiclasslightshuttle',
@@ -83,6 +87,10 @@ const t: ShipType = {
       ability:
         'While a friendly ship at range 0-2 performs a primary attack, before the Modify Dice step, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9ab5691b7e1e7761cff3c6bd71b4257e.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9fc217ecda8e05095b2e4d5957a474ba.jpg',
     },
     {
       xws: 'firstordercourier',
@@ -98,6 +106,10 @@ const t: ShipType = {
         'The First Order lurks in many bases hidden in shadowy corners of the galaxy, slowly spreading its insidious influence.',
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/6f8c0773c75e4985a6d863256b726069.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/85aadb1aa3100fe7e92296ca0465f58b.jpg',
     },
     {
       xws: 'gideonhask-xiclasslightshuttle',
@@ -122,6 +134,10 @@ const t: ShipType = {
         'While you or a friendly small ship at range 0-2 performs a primary attack against a damaged defender, if the attacker rolled 2 or fewer attack dice, it may gain 1 strain token to roll 1 additional attack die.',
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/21d545f09d9d98f9713b80d5551c4e0b.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg',
     },
   ],
   ffg: 73,

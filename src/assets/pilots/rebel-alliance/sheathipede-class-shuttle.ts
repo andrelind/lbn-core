@@ -59,6 +59,10 @@ const t: ShipType = {
       keywords: ['Spectre'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_40.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg',
     },
     {
       name: 'AP-5',
@@ -80,6 +84,10 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       keywords: ['Droid', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_41.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
     },
     {
       name: 'Ezra Bridger',
@@ -98,6 +106,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Light Side', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_39.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg',
     },
     {
       name: 'Fenn Rau',
@@ -115,6 +127,10 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       keywords: ['Mandalorian', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
     },
   ],
 };

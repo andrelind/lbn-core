@@ -62,6 +62,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/43/2d/432db246-0a8d-42de-9711-a893c825b9b3/swz67_carida-cadet.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg',
     },
     {
       xws: 'onyxsquadronsentry',
@@ -78,6 +82,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 7,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/3d/7c/3d7ca1c1-9e57-4085-a9a6-e82a3d92c6df/swz67_onyx-sentry.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg',
     },
     {
       xws: 'rampage',
@@ -102,6 +110,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 16,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg',
     },
     {
       name: 'Lyttan Dree',
@@ -126,6 +138,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
     },
   ],
   ffg: 72,

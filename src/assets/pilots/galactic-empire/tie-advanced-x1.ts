@@ -75,6 +75,10 @@ const t: ShipType = {
       loadout: 21,
       extended: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_93.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
     },
     {
       name: 'Maarek Stele',
@@ -92,6 +96,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_94.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
     },
     {
       name: 'Storm Squadron Ace',
@@ -108,6 +116,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 2,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_97.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg',
     },
     {
       name: 'Tempest Squadron Pilot',
@@ -124,6 +136,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_98.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg',
     },
     {
       name: 'Ved Foslo',
@@ -141,6 +157,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_95.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg',
     },
     {
       name: 'Zertik Strom',
@@ -158,6 +178,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_96.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
     },
   ],
 };

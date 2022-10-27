@@ -67,6 +67,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_140.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg',
     },
     {
       name: '“Redline”',
@@ -93,6 +97,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 25,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_139.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg',
     },
     {
       name: 'Cutlass Squadron Pilot',
@@ -116,6 +124,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_141.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg',
     },
   ],
 };

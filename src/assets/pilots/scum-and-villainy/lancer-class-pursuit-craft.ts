@@ -64,6 +64,10 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Bounty Hunter', 'Dark Side'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_219.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
     },
     {
       name: 'Ketsu Onyo',
@@ -81,6 +85,10 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_218.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg',
     },
     {
       name: 'Sabine Wren',
@@ -98,6 +106,10 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_220.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg',
     },
     {
       name: 'Shadowport Hunter',
@@ -114,6 +126,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_221.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
     },
   ],
 };

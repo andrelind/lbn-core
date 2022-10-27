@@ -73,6 +73,10 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_75.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
     },
     {
       name: 'Hera Syndulla',
@@ -100,6 +104,10 @@ const t: ShipType = {
       epic: true,
       extended: true,
       keywords: ['Freighter', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_73.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
     },
     {
       name: 'Kanan Jarrus',
@@ -128,6 +136,10 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_74.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
     },
     {
       name: 'Lothal Rebel',
@@ -144,6 +156,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_76.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
     },
     {
       name: 'Alexsandr Kallus',
@@ -171,6 +187,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Freighter', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/f78c33b746f35f6848708327178dec80.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
     },
   ],
 };

@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 3,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/jediknight-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jediknight-delta7baethersprite.png',
     },
     {
       name: 'Obi-Wan Kenobi',
@@ -84,6 +88,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 15,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/obiwankenobi-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-delta7baethersprite.png',
     },
     {
       name: 'Plo Koon',
@@ -102,6 +110,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 17,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/plokoon-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/plokoon-delta7baethersprite.png',
     },
     {
       name: 'Saesee Tiin',
@@ -120,6 +132,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 9,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/saeseetiin-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/saeseetiin-delta7baethersprite.png',
     },
     {
       name: 'Mace Windu',
@@ -137,6 +153,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 8,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/macewindu-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/macewindu-delta7baethersprite.png',
     },
     {
       name: 'Anakin Skywalker',
@@ -161,6 +181,10 @@ const t: ShipType = {
       ffg: 507,
       keywords: ['Jedi', 'Light Side'],
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/anakinskywalker-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-delta7baethersprite.png',
     },
     {
       name: 'Ahsoka Tano',
@@ -179,6 +203,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 10,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/ahsokatano-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano-delta7baethersprite.png',
     },
     {
       name: 'Barriss Offee',
@@ -197,6 +225,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 10,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/barrissoffee-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/barrissoffee-delta7baethersprite.png',
     },
     {
       name: 'Luminara Unduli',
@@ -215,6 +247,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/luminaraunduli-delta7baethersprite.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/luminaraunduli-delta7baethersprite.png',
     },
   ],
   ffg: 61,

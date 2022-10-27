@@ -33,7 +33,6 @@ const t: ShipType = {
       name: 'Outer Rim Patrol',
       text:
         "The Raider-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance.",
-
       initiative: 8,
       engagement: 0,
       limited: 0,
@@ -56,6 +55,8 @@ const t: ShipType = {
       extended: false,
       epic: true,
       ffg: 707,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/bbcb9af1eb386d2855f34e7ffa730528.jpg',
     },
   ],
   ffg: 79,

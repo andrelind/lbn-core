@@ -53,6 +53,10 @@ const t: ShipType = {
       keywords: ['TIE', 'Spectre'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_49.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
     },
     {
       name: 'Captain Rex',
@@ -71,6 +75,10 @@ const t: ShipType = {
       keywords: ['Clone', 'TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_48.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
     },
     {
       name: 'Ezra Bridger',
@@ -89,6 +97,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_46.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
     },
     {
       name: 'Sabine Wren',
@@ -106,6 +118,10 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Mandalorian', 'TIE', 'Spectre'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_47.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
     },
   ],
 };

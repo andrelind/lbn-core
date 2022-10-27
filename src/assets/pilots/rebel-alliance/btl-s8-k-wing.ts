@@ -57,6 +57,10 @@ const t: ShipType = {
       epic: true,
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_63.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg',
     },
     {
       name: 'Miranda Doni',
@@ -81,6 +85,10 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_62.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg',
     },
     {
       name: 'Warden Squadron Pilot',
@@ -96,6 +104,10 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_64.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg',
     },
   ],
 };

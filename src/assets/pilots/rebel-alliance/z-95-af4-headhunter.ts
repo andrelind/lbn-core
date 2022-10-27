@@ -52,6 +52,10 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_27.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
     },
     {
       name: 'Bandit Squadron Pilot',
@@ -67,6 +71,10 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_30.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
     },
     {
       name: 'Lieutenant Blount',
@@ -83,6 +91,10 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_28.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
     },
     {
       name: 'Tala Squadron Pilot',
@@ -98,6 +110,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_29.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
     },
   ],
 };

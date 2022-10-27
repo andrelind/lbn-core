@@ -62,6 +62,10 @@ const t: ShipType = {
       epic: true,
       loadout: 17,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_204.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
     },
     {
       name: 'Lok Revenant',
@@ -77,6 +81,10 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_206.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
     },
     {
       name: 'Sol Sixxa',
@@ -101,6 +109,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_205.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',
     },
   ],
 };

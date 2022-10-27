@@ -55,6 +55,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_225.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg',
     },
     {
       name: 'Han Solo',
@@ -81,6 +85,10 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_222.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg',
     },
     {
       name: 'L3-37',
@@ -112,6 +120,10 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       keywords: ['Droid', 'Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_224.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg',
     },
     {
       name: 'Lando Calrissian',
@@ -138,6 +150,10 @@ const t: ShipType = {
       loadout: 17,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_223.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg',
     },
   ],
 };

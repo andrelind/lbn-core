@@ -60,6 +60,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_217.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
     },
     {
       name: 'Dengar',
@@ -87,6 +91,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 22,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_214.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg',
     },
     {
       name: 'Manaroo',
@@ -113,6 +121,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_215.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg',
     },
     {
       name: 'Tel Trevura',
@@ -139,6 +151,10 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_216.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
     },
     {
       name: 'Nom Lumb',
@@ -164,6 +180,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg',
     },
   ],
 };

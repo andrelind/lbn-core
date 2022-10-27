@@ -56,6 +56,9 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/killer.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/killer.png',
     },
     {
       name: '“Drift”',
@@ -72,6 +75,8 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/drift.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/drift.png',
     },
     {
       name: '“Boost”',
@@ -88,6 +93,8 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/boost.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/boost.png',
     },
     {
       name: '“Stub”',
@@ -104,6 +111,25 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/stub.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/stub.png',
+    },
+    {
+      name: '"Knack"',
+      caption: 'Incautious Instructor',
+      initiative: 5,
+      limited: 1,
+      cost: 3,
+      loadout: 7,
+      xws: 'knack',
+      ability:
+        'After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.',
+      slots: ['Talent', 'Talent', 'Sensor', 'Modification'],
+      standard: true,
+      extended: true,
+      epic: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/knack.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/knack.png',
     },
     {
       name: '“Hawk',
@@ -120,6 +146,42 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/hawk-clonez95headhunter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hawk-clonez95headhunter.png',
+    },
+    {
+      name: '7th Sky Corps Pilot',
+      initiative: 2,
+      limited: 0,
+      cost: 3,
+      loadout: 3,
+      xws: '7thskycorpspilot',
+      slots: ['Sensor', 'Modification'],
+      standard: true,
+      extended: true,
+      epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/7thskycorpspilot.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/7thskycorpspilot.png',
+    },
+    {
+      name: 'Reaper Squadron Scout',
+      initiative: 3,
+      limited: 0,
+      cost: 3,
+      loadout: 2,
+      xws: 'reapersquadronscout',
+      slots: ['Talent', 'Sensor'],
+      standard: true,
+      extended: true,
+      epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/reapersquadronscout.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/reapersquadronscout.png',
     },
     {
       name: '“Slider”',
@@ -137,6 +199,9 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/slider.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/slider.png',
     },
     {
       name: '“Warthog”',
@@ -153,47 +218,13 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Clone'],
-    },
-    {
-      name: '"Knack"',
-      caption: 'Incautious Instructor',
-      initiative: 5,
-      limited: 1,
-      cost: 3,
-      loadout: 7,
-      xws: 'knack',
-      ability:
-        'After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.',
-      slots: ['Talent', 'Talent', 'Sensor', 'Modification'],
-      standard: true,
-      extended: true,
-      epic: true,
-    },
-    {
-      name: '7th Sky Corps Pilot',
-      initiative: 2,
-      limited: 0,
-      cost: 3,
-      loadout: 3,
-      xws: '7thskycorpspilot',
-      slots: ['Sensor', 'Modification'],
-      standard: true,
-      extended: true,
-      epic: true,
-    },
-    {
-      name: 'Reaper Squadron Scout',
-      initiative: 3,
-      limited: 0,
-      cost: 3,
-      loadout: 2,
-      xws: 'reapersquadronscout',
-      slots: ['Talent', 'Sensor'],
-      standard: true,
-      extended: true,
-      epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/warthog-clonez95headhunter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/warthog-clonez95headhunter.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

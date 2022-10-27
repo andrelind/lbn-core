@@ -58,6 +58,10 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_58.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
     },
     {
       name: 'Blue Squadron Scout',
@@ -73,6 +77,10 @@ const t: ShipType = {
       epic: true,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_60.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
     },
     {
       name: 'Bodhi Rook',
@@ -89,6 +97,10 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_54.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
     },
     {
       name: 'Cassian Andor',
@@ -105,6 +117,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_56.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
     },
     {
       name: 'Heff Tobber',
@@ -128,6 +144,10 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_59.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
     },
     {
       name: 'Magva Yarro',
@@ -153,6 +173,10 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_57.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
     },
     {
       name: 'Partisan Renegade',
@@ -169,6 +193,10 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_61.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
     },
     {
       name: 'Saw Gerrera',
@@ -194,6 +222,10 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_55.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
     },
     {
       name: 'K-2SO',
@@ -215,6 +247,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c65da3d5378ec32bd024325dbd80b3d6.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg',
     },
   ],
 };

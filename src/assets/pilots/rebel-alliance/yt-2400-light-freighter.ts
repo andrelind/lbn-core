@@ -73,6 +73,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Droid', 'Freighter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_78.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
     },
     {
       name: 'Dash Rendar',
@@ -97,6 +101,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 22,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_77.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
     },
     {
       name: 'Wild Space Fringer',
@@ -113,6 +121,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_79.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
     },
   ],
 };

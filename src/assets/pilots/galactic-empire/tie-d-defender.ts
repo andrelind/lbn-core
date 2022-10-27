@@ -63,6 +63,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_123.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
     },
     {
       name: 'Countess Ryad',
@@ -87,6 +91,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_124.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
     },
     {
       name: 'Delta Squadron Pilot',
@@ -103,6 +111,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_126.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
     },
     {
       name: 'Onyx Squadron Ace',
@@ -119,6 +131,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_125.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
     },
     {
       name: 'Rexler Brath',
@@ -143,6 +159,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_122.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
     },
     {
       xws: 'vultskerris',
@@ -167,6 +187,8 @@ const t: ShipType = {
       ffg: 887,
       loadout: 13,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg',
     },
     {
       xws: 'darthvader-tieddefender',
@@ -192,6 +214,8 @@ const t: ShipType = {
       ffg: 886,
       loadout: 14,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg',
     },
     {
       xws: 'captaindobbs',
@@ -209,6 +233,8 @@ const t: ShipType = {
       ffg: 888,
       loadout: 15,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg',
     },
   ],
 };

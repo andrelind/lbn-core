@@ -66,6 +66,10 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Dark Side', 'Sith'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
     },
     {
       name: 'Count Dooku',
@@ -94,6 +98,10 @@ const t: ShipType = {
       loadout: 24,
       extended: true,
       keywords: ['Dark Side', 'Sith'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
     },
     {
       name: 'Dark Courier',
@@ -109,6 +117,10 @@ const t: ShipType = {
       ffg: 506,
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg',
     },
     {
       name: '0-66',
@@ -131,6 +143,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
     },
   ],
   ffg: 60,

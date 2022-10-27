@@ -57,6 +57,10 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_209.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
     },
     {
       name: 'Dalan Oberos',
@@ -82,6 +86,10 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_208.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg',
     },
     {
       name: 'Torani Kulda',
@@ -106,6 +114,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_207.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg',
     },
   ],
 };

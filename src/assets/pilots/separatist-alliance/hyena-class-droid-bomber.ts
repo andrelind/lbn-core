@@ -61,6 +61,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/749bdc89c3da6b8034154780959e9c34.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg',
     },
     {
       name: 'Bombardment Drone',
@@ -78,6 +82,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/099422de35fb5ad2c2d238237e7dfe2c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg',
     },
     {
       name: 'DBS-404',
@@ -95,6 +103,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3e647295c7237a5eb36b94d887eb8e56.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg',
     },
     {
       name: 'Baktoid Prototype',
@@ -112,6 +124,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/254bc7be63cc9f4e629198f8d45f2f9b.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg',
     },
     {
       name: 'Separatist Bomber',
@@ -128,6 +144,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/cf510ca885a5f85395542b9aa51fba73.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg',
     },
     {
       name: 'DBS-32C',
@@ -155,6 +175,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/1befc5619a02e2ea8b7bfb8df93471a1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg',
     },
   ],
   ffg: 64,

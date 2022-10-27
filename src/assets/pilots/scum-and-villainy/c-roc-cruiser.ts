@@ -43,10 +43,8 @@ const t: ShipType = {
   pilots: [
     {
       name: 'Syndicate Smugglers',
-
       text:
         'Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.',
-
       initiative: 7,
       engagement: 1,
       limited: 0,
@@ -68,6 +66,8 @@ const t: ShipType = {
       extended: false,
       epic: true,
       ffg: 713,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/17ae9e44f24e0a38ba81f4523857c4f0.jpg',
     },
   ],
   ffg: 82,

@@ -87,6 +87,10 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/cadbane-separatistalliance.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cadbane-separatistalliance.png',
     },
     {
       name: 'IG-101',
@@ -122,6 +126,8 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig101.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig101.png',
     },
     {
       name: 'MagnaGuard Executioner',
@@ -156,6 +162,10 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/magnaguardexecutioner.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/magnaguardexecutioner.png',
     },
     {
       name: 'MagnaGuard Protector',
@@ -191,6 +201,10 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/magnaguardprotector.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/magnaguardprotector.png',
     },
     {
       name: 'IG-102',
@@ -226,6 +240,8 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig102.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig102.png',
     },
     {
       name: 'IG-111',
@@ -261,8 +277,11 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig111.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig111.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

@@ -59,6 +59,10 @@ const t: ShipType = {
         'Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.',
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg',
     },
     {
       name: 'Jarek Yeager',
@@ -84,6 +88,10 @@ const t: ShipType = {
       ffg: 620,
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg',
     },
     {
       name: 'Kazuda Xiono',
@@ -108,6 +116,10 @@ const t: ShipType = {
       ffg: 621,
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg',
     },
     {
       name: 'R1-J5',
@@ -131,6 +143,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg',
     },
   ],
 };

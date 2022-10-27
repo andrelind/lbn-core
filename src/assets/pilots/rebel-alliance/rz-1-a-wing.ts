@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_20.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
     },
     {
       name: 'Green Squadron Pilot',
@@ -76,6 +80,10 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_21.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
     },
     {
       name: 'Jake Farrell',
@@ -93,6 +101,10 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_19.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
     },
     {
       name: 'Phoenix Squadron Pilot',
@@ -109,6 +121,10 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_22.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -126,6 +142,8 @@ const t: ShipType = {
       ffg: 883,
       loadout: 10,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -143,6 +161,8 @@ const t: ShipType = {
       loadout: 11,
       extended: true,
       keywords: ['A-wing', 'Mandalorian'],
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg',
     },
     {
       xws: 'herasyndulla-rz1awing',
@@ -167,6 +187,8 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       keywords: ['A-wing', 'Spectre'],
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg',
     },
     {
       xws: 'ahsokatano-rz1awing',
@@ -192,6 +214,8 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       keywords: ['A-wing', 'Light Side'],
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg',
     },
     {
       xws: 'sharabey-rz1awing',
@@ -209,6 +233,8 @@ const t: ShipType = {
       ffg: 882,
       loadout: 7,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg',
     },
     {
       xws: 'derekklivian',
@@ -226,6 +252,8 @@ const t: ShipType = {
       ffg: 884,
       loadout: 6,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg',
     },
   ],
 };

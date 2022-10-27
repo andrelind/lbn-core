@@ -54,6 +54,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/28411b84c1b15f0bfa9928f2206e44f5.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3e567923957881e9a4dbef46789c7fbf.jpg',
     },
     {
       name: 'Chewbacca',
@@ -82,6 +86,10 @@ const t: ShipType = {
       epic: true,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/209a8dece475a265aaf1b5318ba7f08a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c40ec30b7df138c4510b08f4f02d54b5.jpg',
     },
     {
       name: 'Han Solo',
@@ -109,6 +117,10 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/5816bd53c272ed50096e22ae1af2b38a.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/15263defc98e4a54d76ae9224534dacf.jpg',
     },
     {
       name: 'Rey',
@@ -137,6 +149,10 @@ const t: ShipType = {
       keywords: ['Freighter', 'Light Side', 'YT-1300'],
       loadout: 25,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/0ee7006e6cc51d8c08b784c9b770f1b0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1ff06aeff0d74773e9c9f3846b38b75d.jpg',
     },
   ],
 };

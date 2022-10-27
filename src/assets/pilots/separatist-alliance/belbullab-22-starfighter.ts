@@ -61,6 +61,10 @@ const t: ShipType = {
       ffg: 492,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg',
     },
     {
       name: 'Wat Tambor',
@@ -77,6 +81,10 @@ const t: ShipType = {
       ffg: 493,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg',
     },
     {
       name: 'Feethan Ottraw Autopilot',
@@ -107,6 +115,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/538c4833605af80b226da9e5f800e6ef.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
     },
     {
       name: 'Captain Sear',
@@ -123,6 +135,10 @@ const t: ShipType = {
       ffg: 494,
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg',
     },
     {
       name: 'Skakoan Ace',
@@ -138,6 +154,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg',
     },
   ],
   ffg: 58,

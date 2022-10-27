@@ -61,6 +61,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c5659b210e13b4e11fdd5f1396f2847c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/20308b5887fb20d6b8ecdb3ede0bede3.jpg',
     },
     {
       name: 'Kylo Ren',
@@ -80,6 +84,10 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg',
     },
     {
       name: 'First Order Test Pilot',
@@ -96,6 +104,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/568abbcd68bb174173da4e7ee92051e3.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/86349c032fc169cb2000d3db7c9fbef4.jpg',
     },
     {
       name: '“Recoil”',
@@ -113,6 +125,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/ab11858b2b9ac5c8bbfb2dc21023ba34.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c4590088696ecc687f5c0f004d1d97ab.jpg',
     },
     {
       name: '“Avenger”',
@@ -130,6 +146,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d90d3057ead18b5df5f6de55a199a4cd.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
     },
     {
       name: 'Sienar-Jaemus Engineer',
@@ -146,6 +166,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/8f7c4680fbc001169baf6538ab259e9b.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg',
     },
     {
       name: '“Rush”',
@@ -162,6 +186,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/886d715885da65bdf10ad7c68e4d0a93.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3b748daed26df2870694ab9dc679c5ee.jpg',
     },
   ],
 };

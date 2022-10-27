@@ -51,6 +51,10 @@ const t: ShipType = {
       epic: true,
       loadout: 2,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_173.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
     },
     {
       name: 'Black Sun Soldier',
@@ -66,6 +70,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_172.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
     },
     {
       name: 'Kaa’to Leeachos',
@@ -83,6 +91,10 @@ const t: ShipType = {
       loadout: 11,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_170.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg',
     },
     {
       name: 'N’dru Suhlak',
@@ -99,6 +111,10 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_169.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
     },
     {
       name: 'Nashtah Pup',
@@ -115,6 +131,10 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_171.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
     },
     {
       name: 'Bossk',
@@ -132,6 +152,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/13a94a5ed78d4629017a439fbf0906ea.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/48cf03ca0e16baf2f506829f20517b83.jpg',
     },
   ],
 };

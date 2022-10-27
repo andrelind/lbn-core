@@ -39,16 +39,18 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
     };
   }
 
-  const { pilots, dialCodes, ...rest } = shipData;
-  Object.keys(rest).forEach((key) => {
-    if (key !== 'name') {
-      // @ts-ignore
-      ship[key] = rest[key];
-    }
-  });
+  const { pilots } = shipData;
+  // const { pilots, dialCodes, ...rest } = shipData;
+  // Object.keys(rest).forEach((key) => {
+  //   if (key !== 'name') {
+  //     // @ts-ignore
+  //     ship[key] = rest[key];
+  //   }
+  // });
+  ship.icon = shipData.icon;
 
   ship.pilots = pilots.map((pilot: XWDPilot) => {
-    let local = ship.pilots.find((p) => p.xws === pilot.xws);
+    let local = ship.pilots.find((p) => p.xws === pilot.xws)!;
     if (!local) {
       local = {
         ...pilot,
@@ -58,26 +60,28 @@ const processShip = (faction: Faction, shipData: XWDShip) => {
         shipAbility: undefined,
         text: undefined,
         standard: true,
+        extended: true,
         epic: true,
       };
     }
 
-    if (pilot.caption) {
-      local.caption = pilot.caption;
-    }
-    if (pilot.text) {
-      local.text = pilot.text;
-    }
-    if (pilot.ability) {
-      local.ability = pilot.ability;
-    }
+    // if (pilot.caption) {
+    //   local.caption = pilot.caption;
+    // }
+    // if (pilot.text) {
+    //   local.text = pilot.text;
+    // }
+    // if (pilot.ability) {
+    //   local.ability = pilot.ability;
+    // }
 
-    local.initiative = pilot.initiative;
-    local.limited = pilot.limited;
-    local.cost = pilot.cost;
-    local.keywords = pilot.keywords;
-    local.slots = pilot.slots;
-    // local.standard = pilot.standard;
+    // local.initiative = pilot.initiative;
+    // local.limited = pilot.limited;
+    // local.cost = pilot.cost;
+    // local.keywords = pilot.keywords;
+    // local.slots = pilot.slots;
+    local.image = pilot.image;
+    local.artwork = pilot.artwork;
 
     return local;
   });

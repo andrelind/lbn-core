@@ -52,6 +52,10 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_136.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg',
     },
     {
       name: 'Major Vynder',
@@ -68,6 +72,10 @@ const t: ShipType = {
       epic: true,
       loadout: 21,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_135.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg',
     },
     {
       name: 'Nu Squadron Pilot',
@@ -83,6 +91,10 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_138.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg',
     },
     {
       name: 'Rho Squadron Pilot',
@@ -98,6 +110,10 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_137.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg',
     },
   ],
 };

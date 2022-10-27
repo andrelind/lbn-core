@@ -67,6 +67,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 22,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_149.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg',
     },
     {
       name: 'Bounty Hunter',
@@ -83,6 +87,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_154.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
     },
     {
       name: 'Emon Azzameen',
@@ -108,6 +116,10 @@ const t: ShipType = {
       epic: true,
       loadout: 17,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_150.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg',
     },
     {
       name: 'Kath Scarlet',
@@ -133,6 +145,10 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_151.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg',
     },
     {
       name: 'Koshka Frost',
@@ -159,6 +175,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_152.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg',
     },
     {
       name: 'Krassis Trelix',
@@ -185,6 +205,10 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_153.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
     },
   ],
 };

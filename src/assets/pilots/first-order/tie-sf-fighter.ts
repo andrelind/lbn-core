@@ -80,6 +80,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 25,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
     },
     {
       name: '“Backdraft”',
@@ -97,6 +101,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
     },
     {
       name: 'Omega Squadron Expert',
@@ -113,6 +121,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
     },
     {
       name: 'Zeta Squadron Survivor',
@@ -129,6 +141,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
     },
     {
       name: 'Lieutenant LeHuse',
@@ -154,6 +170,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg',
     },
     {
       name: 'Captain Phasma',
@@ -179,6 +199,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/7c0bc32446e17991aff226d0fcab7b19.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg',
     },
   ],
 };

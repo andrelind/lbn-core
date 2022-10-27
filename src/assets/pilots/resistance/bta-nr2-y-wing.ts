@@ -65,8 +65,10 @@ const t: ShipType = {
       caption: 'Corsair of Kijimi',
       epic: true,
       keywords: ['Y-wing'],
-      // loadout: 19,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/zoriibliss.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zoriibliss.png',
     },
     {
       name: 'Teza Nasz',
@@ -93,6 +95,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 12,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/tezanasz.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tezanasz.png',
     },
     {
       name: 'Wilsa Teshlo',
@@ -120,6 +125,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 12,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/wilsateshlo.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wilsateshlo.png',
     },
     {
       name: 'Shasa Zaro',
@@ -146,6 +154,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 13,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/shasazaro.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shasazaro.png',
     },
     {
       name: 'Lega Fossang',
@@ -173,6 +184,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 14,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/legafossang.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/legafossang.png',
     },
     {
       name: 'Aftab Ackbar',
@@ -200,6 +214,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 13,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/aftabackbar.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/aftabackbar.png',
     },
     {
       name: 'Corus Kapellim',
@@ -227,6 +244,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 15,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/coruskapellim.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/coruskapellim.png',
     },
     {
       name: 'C’ai Threnalli',
@@ -253,6 +273,10 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/caithrenalli-btanr2ywing.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/caithrenalli-btanr2ywing.png',
     },
     {
       name: 'New Republic Patrol',
@@ -277,6 +301,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/newrepublicpatrol.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/newrepublicpatrol.png',
     },
     {
       name: 'Kijimi Spice Runner',
@@ -301,6 +329,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/kijimispicerunner.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kijimispicerunner.png',
     },
   ],
 };

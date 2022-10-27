@@ -67,6 +67,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/e1fe9b6985d7c9960d634734abd9f9eb.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/14be5b23859dff4b6213511eb97e4e5b.jpg',
     },
     {
       xws: 'hound',
@@ -91,8 +95,11 @@ const t: ShipType = {
       ability:
         'After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.',
       keywords: ['Clone'],
-      // loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/2230c99fa815740b48c9350547e1c299.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a88730785b8495c24b1711278ed18934.jpg',
     },
     {
       xws: 'warthog',
@@ -119,6 +126,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/1a2d9bd52455f4da3de74de0d9a78380.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f1866068850a0c806bfbe03c8bba2d07.jpg',
     },
     {
       name: '212th Battalion Pilot',
@@ -143,6 +154,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/0967a5458478435b72971f7d972a8aaf.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b8538000c5745f53f79e9b6650e6deec.jpg',
     },
   ],
   ffg: 74,

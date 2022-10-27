@@ -59,6 +59,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 2,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_106.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
     },
     {
       name: 'Saber Squadron Ace',
@@ -75,6 +79,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_105.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
     },
     {
       name: 'Soontir Fel',
@@ -92,6 +100,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_103.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
     },
     {
       name: 'Turr Phennir',
@@ -109,6 +121,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_104.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
     },
     {
       xws: 'cienaree',
@@ -126,6 +142,8 @@ const t: ShipType = {
       ffg: 889,
       loadout: 10,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg',
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -143,6 +161,8 @@ const t: ShipType = {
       ffg: 892,
       loadout: 12,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg',
     },
     {
       xws: 'vultskerris-tieininterceptor',
@@ -160,6 +180,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       ffg: 890,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg',
     },
     {
       xws: 'commandantgoran',
@@ -177,6 +199,8 @@ const t: ShipType = {
       ffg: 891,
       loadout: 8,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg',
     },
     {
       xws: 'lieutenantlorrir',
@@ -194,6 +218,8 @@ const t: ShipType = {
       ffg: 893,
       loadout: 6,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg',
     },
     {
       xws: 'nashwindrider',
@@ -212,6 +238,8 @@ const t: ShipType = {
       ffg: 894,
       loadout: 6,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
     },
   ],
 };

@@ -51,6 +51,10 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_195.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
     },
     {
       name: 'Captain Jostero',
@@ -67,6 +71,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_194.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg',
     },
     {
       name: 'Cartel Marauder',
@@ -82,6 +90,10 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_196.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
     },
     {
       name: 'Graz',
@@ -106,6 +118,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_192.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg',
     },
     {
       name: 'Talonbane Cobra',
@@ -129,6 +145,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_191.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg',
     },
     {
       name: 'Viktor Hel',
@@ -153,6 +173,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_193.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg',
     },
   ],
 };

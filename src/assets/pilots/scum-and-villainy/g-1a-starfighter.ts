@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['Bounty Hunter', 'Droid'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_201.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg',
     },
     {
       name: 'Gand Findsman',
@@ -76,6 +80,10 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_203.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
     },
     {
       name: 'Zuckuss',
@@ -93,6 +101,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_202.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg',
     },
   ],
 };

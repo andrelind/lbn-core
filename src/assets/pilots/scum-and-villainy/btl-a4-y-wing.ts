@@ -52,6 +52,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_168.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg',
     },
     {
       name: 'Drea Renthal',
@@ -78,6 +82,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_166.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg',
     },
     {
       name: 'Hired Gun',
@@ -94,6 +102,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_167.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg',
     },
     {
       name: 'Kavil',
@@ -120,6 +132,10 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_165.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg',
     },
     {
       xws: 'leemakai',
@@ -145,6 +161,8 @@ const t: ShipType = {
       ffg: 898,
       loadout: 14,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg',
     },
     {
       xws: 'arlizhadrassian',
@@ -170,6 +188,8 @@ const t: ShipType = {
       ffg: 899,
       loadout: 13,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg',
     },
     {
       xws: 'amaxinewarrior',
@@ -186,6 +206,8 @@ const t: ShipType = {
         'Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.',
       loadout: 6,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg',
     },
     {
       xws: 'padric',
@@ -212,6 +234,8 @@ const t: ShipType = {
       ffg: 900,
       loadout: 10,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg',
     },
     {
       xws: 'jinatasecurityofficer',
@@ -228,6 +252,8 @@ const t: ShipType = {
         "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
       loadout: 5,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg',
     },
   ],
 };

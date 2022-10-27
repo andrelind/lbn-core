@@ -70,6 +70,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 25,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/14c504c0815213a66010c4013d9296ee.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg',
     },
     {
       xws: 'poedameron-swz68',
@@ -96,6 +100,10 @@ const t: ShipType = {
       ffg: 697,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/76/66/76668017-6298-4471-b1cc-d388d5fc11b8/swz68_poe-dameron.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ecefa0fae78bbecdcb598ff36d323d4d.jpg',
     },
     {
       name: 'Blue Squadron Rookie',
@@ -112,6 +120,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/a82a39a4c9baf883fbc6ae353abdd2ec.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg',
     },
     {
       name: 'Red Squadron Expert',
@@ -128,6 +140,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 2,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/58967d94cfef285c4df2fdbb77fd0502.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg',
     },
     {
       name: 'Black Squadron Ace',
@@ -144,6 +160,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d2b6a5166b3fd985df5d1941408b58e1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e75228d8174f7879c51157fdd9b26e61.jpg',
     },
     {
       name: 'Ello Asty',
@@ -168,6 +188,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/f77180ae05fd919a0dff2225380246a6.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ff73537d7ab2f063e7a510c05013269e.jpg',
     },
     {
       name: 'Joph Seastriker',
@@ -184,6 +208,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/df85f5b77e16363a05c8f68792440166.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b5b43d179b039649e764e6bd4f212a29.jpg',
     },
     {
       name: 'Karé Kun',
@@ -208,6 +236,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/6edb8ed4cbf882bf6dbe7a37b5981d85.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f121bc27f2b283258a65d348bcafe40d.jpg',
     },
     {
       name: 'Lieutenant Bastian',
@@ -225,6 +257,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3f43d6b3c6e87bde6a681e9d4421dec8.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg',
     },
     {
       name: 'Nien Nunb',
@@ -249,6 +285,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/00a3c393a33b33168bc61e47749e1474.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5daa441317975eb576396af36e852f74.jpg',
     },
     {
       name: 'Jaycris Tubbs',
@@ -266,6 +306,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg',
     },
     {
       name: 'Jessika Pava',
@@ -284,6 +328,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg',
     },
     {
       name: 'Temmin Wexley',
@@ -308,6 +356,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg',
     },
     {
       xws: 'temminwexley-swz68',
@@ -332,6 +384,10 @@ const t: ShipType = {
       ffg: 698,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/2c/81/2c81e32f-8c0d-4d26-a9b5-e6bfbe9dab0e/swz68_temmin-wexley.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/9ff6521bca10294ce8413081a1068ee0.jpg',
     },
     {
       xws: 'caithrenalli',
@@ -349,6 +405,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 13,
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/60/8a/608a4657-6612-417d-bd10-be587c2a208f/swz68_cai-threnalli.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b9ec74da0f0350bdc545aa068ff3f154.jpg',
     },
     {
       name: 'Nimi Chireen',
@@ -366,6 +426,10 @@ const t: ShipType = {
       ffg: 700,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/c1/0e/c10e3900-82d8-4bba-9b2b-9ed2f8ad826b/swz68_nimi-chireen.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg',
     },
   ],
 };

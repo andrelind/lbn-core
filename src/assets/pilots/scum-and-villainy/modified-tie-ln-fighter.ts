@@ -56,6 +56,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg',
     },
     {
       name: 'Captain Seevor',
@@ -74,6 +78,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg',
     },
     {
       name: 'Foreman Proach',
@@ -91,6 +99,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg',
     },
     {
       name: 'Mining Guild Surveyor',
@@ -107,6 +119,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 1,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg',
     },
     {
       name: 'Overseer Yushyn',
@@ -125,6 +141,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg',
     },
     {
       name: 'Mining Guild Sentry',
@@ -141,6 +161,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
     },
   ],
 };

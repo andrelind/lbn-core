@@ -62,6 +62,10 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_210.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg',
     },
     {
       name: 'Latts Razzi',
@@ -89,6 +93,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_212.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
     },
     {
       name: 'Moralo Eval',
@@ -116,6 +124,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_211.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
     },
     {
       name: 'Trandoshan Slaver',
@@ -132,6 +144,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_213.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
     },
   ],
 };

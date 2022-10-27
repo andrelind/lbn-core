@@ -44,8 +44,11 @@ const t: ShipType = {
       ffg: 949,
       text:
         'Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear though the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/84a0e86cd474679365d38ead7d6f19f0.jpg',
     },
   ],
+  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Trident.png',
 };
 
 export default t;

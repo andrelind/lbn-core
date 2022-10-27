@@ -58,6 +58,10 @@ const t: ShipType = {
       ],
       caption: 'Spectre-3',
       keywords: ['Droid', 'Spectre'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/chopper-gauntletfighter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/chopper-gauntletfighter.png',
     },
     {
       xws: 'ezrabridger-gauntletfighter',
@@ -87,6 +91,10 @@ const t: ShipType = {
       ],
       caption: 'Spectre-6',
       keywords: ['Light Side', 'Spectre'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/ezrabridger-gauntletfighter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-gauntletfighter.png',
     },
     {
       xws: 'mandalorianresistancepilot',
@@ -108,6 +116,10 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Clan Loyalist',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/mandalorianresistancepilot.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianresistancepilot.png',
     },
   ],
 };

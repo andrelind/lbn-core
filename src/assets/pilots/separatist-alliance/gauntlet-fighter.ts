@@ -61,6 +61,10 @@ const t: ShipType = {
         'Title',
       ],
       keywords: ['Mandalorian'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/bokatankryze-separatist-alliance.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-separatist-alliance.png',
     },
     {
       xws: 'previzsla',
@@ -85,6 +89,9 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Leader of Death Watch',
+      image: 'https://infinitearenas.com/xw2/images/pilots/previzsla.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/previzsla.png',
     },
     {
       xws: 'deathwatchwarrior',
@@ -106,6 +113,10 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Fanatical Adherent',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/deathwatchwarrior.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/deathwatchwarrior.png',
     },
   ],
 };

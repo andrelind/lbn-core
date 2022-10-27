@@ -79,6 +79,10 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_50.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg',
     },
     {
       name: 'Gavin Darklighter',
@@ -102,6 +106,10 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_51.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg',
     },
     {
       name: 'Knave Squadron Escort',
@@ -117,6 +125,10 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_53.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg',
     },
     {
       name: 'Rogue Squadron Escort',
@@ -132,6 +144,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_52.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg',
     },
   ],
 };

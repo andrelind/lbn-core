@@ -65,6 +65,10 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_229.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg',
     },
     {
       name: 'L3-37',
@@ -87,6 +91,10 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_228.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg',
     },
     {
       name: 'Lando Calrissian',
@@ -103,6 +111,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_226.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg',
     },
     {
       name: 'Outer Rim Pioneer',
@@ -119,6 +131,10 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_227.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg',
     },
   ],
 };

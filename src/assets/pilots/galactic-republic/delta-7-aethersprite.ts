@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
     },
     {
       name: 'Obi-Wan Kenobi',
@@ -86,6 +90,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg',
     },
     {
       name: 'Plo Koon',
@@ -110,6 +118,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
     },
     {
       name: 'Saesee Tiin',
@@ -128,6 +140,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
     },
     {
       name: 'Mace Windu',
@@ -151,6 +167,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
     },
     {
       name: 'Anakin Skywalker',
@@ -176,6 +196,10 @@ const t: ShipType = {
       ffg: 507,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg',
     },
     {
       name: 'Ahsoka Tano',
@@ -194,6 +218,10 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
     },
     {
       name: 'Barriss Offee',
@@ -212,6 +240,10 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
     },
     {
       name: 'Luminara Unduli',
@@ -230,6 +262,10 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
     },
   ],
   ffg: 61,

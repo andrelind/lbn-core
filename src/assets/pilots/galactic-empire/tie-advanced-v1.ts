@@ -66,6 +66,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_101.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg',
     },
     {
       name: 'Grand Inquisitor',
@@ -84,6 +88,10 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 17,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_99.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
     },
     {
       name: 'Inquisitor',
@@ -101,6 +109,10 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 5,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_102.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
     },
     {
       name: 'Seventh Sister',
@@ -119,6 +131,10 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_100.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
     },
     {
       name: 'Fifth Brother',
@@ -137,6 +153,10 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg',
     },
   ],
 };

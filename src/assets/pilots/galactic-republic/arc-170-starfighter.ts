@@ -60,6 +60,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
     },
     {
       name: '“Jag”',
@@ -85,6 +89,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
     },
     {
       name: '“Odd Ball”',
@@ -111,6 +119,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
     },
     {
       name: '“Wolffe”',
@@ -136,6 +148,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
     },
     {
       name: '104th Battalion Pilot',
@@ -152,6 +168,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg',
     },
     {
       name: 'Squad Seven Veteran',
@@ -168,6 +188,10 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/0e0fb59b2806b41214275255986965f2.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg',
     },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',

@@ -70,6 +70,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 10,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_42.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
     },
     {
       name: 'Kyle Katarn',
@@ -87,6 +91,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_43.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
     },
     {
       name: 'Rebel Scout',
@@ -103,6 +111,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_45.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
     },
     {
       name: 'Roark Garnet',
@@ -127,6 +139,10 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_44.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
     },
   ],
 };

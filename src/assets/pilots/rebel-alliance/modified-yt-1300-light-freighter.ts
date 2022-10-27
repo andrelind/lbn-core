@@ -66,6 +66,10 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_71.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg',
     },
     {
       name: 'Han Solo',
@@ -93,6 +97,10 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_69.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
     },
     {
       name: 'Lando Calrissian',
@@ -120,6 +128,10 @@ const t: ShipType = {
       loadout: 21,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_70.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg',
     },
     {
       name: 'Outer Rim Smuggler',
@@ -136,6 +148,10 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_72.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
     },
     {
       name: 'Leia Organa',
@@ -163,6 +179,10 @@ const t: ShipType = {
       loadout: 24,
       extended: true,
       keywords: ['Freighter', 'YT-1300', 'Light Side'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
     },
   ],
 };

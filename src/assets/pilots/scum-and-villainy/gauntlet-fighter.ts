@@ -63,6 +63,8 @@ const t: ShipType = {
       ],
       keywords: ['Dark Side'],
       caption: 'Lord of the Shadow Collective',
+      image: 'https://infinitearenas.com/xw2/images/pilots/maul.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/maul.png',
     },
     {
       xws: 'rookkast',
@@ -87,6 +89,9 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Stoic Super Commando',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rookkast.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rookkast.png',
     },
     {
       xws: 'shadowcollectiveoperator',
@@ -108,6 +113,10 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/shadowcollectiveoperator.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shadowcollectiveoperator.png',
     },
   ],
 };

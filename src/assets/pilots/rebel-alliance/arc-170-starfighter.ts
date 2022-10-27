@@ -61,6 +61,10 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_66.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
     },
     {
       name: 'Ibtisam',
@@ -85,6 +89,10 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_68.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
     },
     {
       name: 'Norra Wexley',
@@ -109,6 +117,10 @@ const t: ShipType = {
       epic: true,
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_65.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
     },
     {
       name: 'Shara Bey',
@@ -134,6 +146,10 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_67.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',
     },
   ],
 };

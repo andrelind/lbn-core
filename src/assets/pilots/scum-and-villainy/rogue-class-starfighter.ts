@@ -82,6 +82,9 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/cadbane.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cadbane.png',
     },
     {
       name: 'Viktor Hel',
@@ -105,6 +108,10 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/viktorhel-rogueclassstarfighter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/viktorhel-rogueclassstarfighter.png',
     },
     {
       name: 'Nom Lumb',
@@ -129,6 +136,10 @@ const t: ShipType = {
       extended: true,
       epic: true,
       keywords: ['Bounty Hunter'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/nomlumb-rogueclassstarfighter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb-rogueclassstarfighter.png',
     },
     {
       name: 'Outer Rim Hunter',
@@ -143,8 +154,12 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/outerrimhunter.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimhunter.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

@@ -30,8 +30,14 @@ const t: ShipType = {
       ffg: 787,
       loadout: 0,
       extended: false,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/transgalmegcontrollink.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/transgalmegcontrollink.png',
     },
   ],
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Syliure-class_Hyperspace_Ring.png',
 };
 
 export default t;

@@ -61,6 +61,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_132.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
     },
     {
       name: '“Whisper”',
@@ -77,6 +81,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_131.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
     },
     {
       name: 'Imdaar Test Pilot',
@@ -93,6 +101,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_134.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg',
     },
     {
       name: 'Sigma Squadron Ace',
@@ -109,6 +121,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_133.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg',
     },
   ],
 };

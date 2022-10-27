@@ -71,6 +71,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg',
     },
     {
       name: '“Holo”',
@@ -88,6 +92,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg',
     },
     {
       name: '“Ember”',
@@ -105,6 +113,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 7,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/4de956edddeacb92ef3e4f94e0a63db3.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg',
     },
     {
       name: 'First Order Provocateur',
@@ -121,6 +133,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/c834c2c4722b60e67292130d40c7ec19.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg',
     },
   ],
 };

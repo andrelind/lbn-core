@@ -68,6 +68,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['Mandalorian'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_155.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
     },
     {
       name: 'Joy Rekkoff',
@@ -85,6 +89,10 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 11,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_157.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg',
     },
     {
       name: 'Kad Solus',
@@ -101,6 +109,10 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_158.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
     },
     {
       name: 'Old Teroch',
@@ -118,6 +130,10 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_156.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
     },
     {
       name: 'Skull Squadron Pilot',
@@ -134,6 +150,10 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_159.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
     },
     {
       name: 'Zealous Recruit',
@@ -150,6 +170,10 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_160.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
     },
     {
       name: 'Mandalorian Royal Guard',
@@ -167,6 +191,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       caption: 'Selfless Protector',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png',
     },
   ],
 };

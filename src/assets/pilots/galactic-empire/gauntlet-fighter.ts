@@ -57,6 +57,9 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Obedient Underling',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainhark.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainhark.png',
     },
     {
       xws: 'garsaxon',
@@ -82,6 +85,9 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Treacherous Viceroy',
+      image:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/garsaxon.png',
+      artwork: 'https://infinitearenas.com/xw2/images/pilots/garsaxon.png',
     },
     {
       xws: 'imperialsupercommando',
@@ -103,6 +109,10 @@ const t: ShipType = {
         'Configuration',
       ],
       keywords: ['Mandalorian'],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/imperialsupercommando.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/imperialsupercommando.png',
     },
   ],
 };

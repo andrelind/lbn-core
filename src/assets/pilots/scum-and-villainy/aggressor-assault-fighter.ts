@@ -68,6 +68,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_197.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_197.jpg',
     },
     {
       name: 'IG-88B',
@@ -94,6 +98,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_198.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_198.jpg',
     },
     {
       name: 'IG-88C',
@@ -120,6 +128,10 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_199.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_199.jpg',
     },
     {
       name: 'IG-88D',
@@ -146,6 +158,10 @@ const t: ShipType = {
       loadout: 13,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_200.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_200.jpg',
     },
   ],
 };

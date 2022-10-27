@@ -85,6 +85,10 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/kyloren-tiewiwhispermodifiedinterceptor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kyloren-tiewiwhispermodifiedinterceptor.png',
     },
     {
       name: '“Wrath”',
@@ -102,6 +106,8 @@ const t: ShipType = {
       epic: true,
       loadout: 15,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/wrath.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/wrath.png',
     },
     {
       name: '“Nightfall”',
@@ -120,6 +126,9 @@ const t: ShipType = {
         'After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.',
       loadout: 10,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/nightfall.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nightfall.png',
     },
     {
       name: '“Whirlwind”',
@@ -138,6 +147,9 @@ const t: ShipType = {
         'Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].',
       loadout: 12,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/whirlwind.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/whirlwind.png',
     },
     {
       name: '709th Legion Ace',
@@ -154,6 +166,9 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/709thlegionace.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/709thlegionace.png',
     },
     {
       name: 'Red Fury Zealot',
@@ -170,6 +185,9 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
+      image: 'https://infinitearenas.com/xw2/images/pilots/redfuryzealot.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/redfuryzealot.png',
     },
   ],
 };

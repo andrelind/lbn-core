@@ -57,6 +57,10 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_25.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
     },
     {
       name: 'Blue Squadron Pilot',
@@ -73,6 +77,10 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_26.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg',
     },
     {
       name: 'Braylen Stramm',
@@ -99,6 +107,10 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_23.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
     },
     {
       name: 'Ten Numb',
@@ -125,6 +137,10 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_24.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
     },
     {
       name: 'Gina Moonsong',
@@ -151,6 +167,10 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg',
     },
     {
       xws: 'herasyndulla-asf01bwing',
@@ -179,6 +199,8 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['B-wing', 'Spectre'],
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg',
     },
     {
       xws: 'netrempollard',
@@ -205,6 +227,8 @@ const t: ShipType = {
       ffg: 879,
       loadout: 18,
       extended: true,
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg',
     },
   ],
 };

@@ -62,6 +62,10 @@ const t: ShipType = {
       caption: 'Evacuation Escort',
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/a9ae63785f4cadaa28a74858ff1d1bc4.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/27956dc3600e6e06bf26f9a981205410.jpg',
     },
     {
       name: 'Pammich Nerro Goode',
@@ -88,6 +92,10 @@ const t: ShipType = {
       ffg: 570,
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9d7dd5d0851911412dd5c86603a0ea91.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/e5f2e692fcaf63d513cd5c7c1294283e.jpg',
     },
     {
       name: 'Nodin Chavdri',
@@ -113,6 +121,10 @@ const t: ShipType = {
       caption: 'Insubordinate Insurgent',
       loadout: 20,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/9f41de269cb1ff091487554fb53b2374.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/b0179494a00c2538a4467793e722db3e.jpg',
     },
     {
       name: 'Logistics Division Pilot',
@@ -128,6 +140,10 @@ const t: ShipType = {
       ffg: 572,
       loadout: 6,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg',
     },
   ],
   ffg: 63,

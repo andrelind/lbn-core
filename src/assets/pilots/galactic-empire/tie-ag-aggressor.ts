@@ -64,6 +64,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 13,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_128.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
     },
     {
       name: 'Lieutenant Kestal',
@@ -89,6 +93,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 19,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_127.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
     },
     {
       name: 'Onyx Squadron Scout',
@@ -105,6 +113,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_129.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
     },
     {
       name: 'Sienar Specialist',
@@ -121,6 +133,10 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_130.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
     },
   ],
 };
