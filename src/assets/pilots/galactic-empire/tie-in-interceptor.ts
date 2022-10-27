@@ -241,6 +241,152 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
     },
+    {
+      xws: 'sigma4-battleofyavin',
+      name: 'Sigma 4',
+      cost: 4,
+      initiative: 4,
+      limited: 1,
+      ability:
+        'After you perform a [Barrel Roll] action, you may spend 1 [Charge] to perform a [Boost] action.',
+      charges: { value: 2, recovers: 0 },
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      loadout: 0,
+      extended: true,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Disciplined',
+          ability:
+            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Primed Thrusters',
+          ability:
+            'While you have 2 or fewer stress tokens, you can perform [Barrel Roll] and [Boost] actions even while stressed.',
+          slots: ['Tech'],
+        },
+      ],
+    },
+    {
+      xws: 'sigma5-battleofyavin',
+      name: 'Sigma 5',
+      cost: 4,
+      initiative: 4,
+      limited: 1,
+      ability:
+        'After you perform an attack that hits, you may spend 1 [Charge] to perform an [Evade] action.',
+      charges: { value: 2, recovers: 0 },
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      loadout: 0,
+      extended: true,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Sensor Jammer ',
+          ability:
+            "While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's results to a  result.",
+          slots: ['Sensor'],
+        },
+        {
+          title: 'Elusive',
+          ability:
+            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
+          slots: ['Talent'],
+          charges: { value: 1, recovers: 0 },
+        },
+      ],
+    },
+    {
+      xws: 'sigma6-battleofyavin',
+      name: 'Sigma 6',
+      cost: 4,
+      initiative: 4,
+      limited: 1,
+      ability:
+        'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Slam] action.',
+      charges: { value: 2, recovers: 0 },
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      loadout: 0,
+      extended: true,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Daredevil',
+          ability:
+            'While you perform a white [Boost] action, you may treat it as red to use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
+    {
+      xws: 'sigma7-battleofyavin',
+      name: 'Sigma 7',
+      cost: 4,
+      initiative: 4,
+      limited: 1,
+      ability:
+        'During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.',
+      charges: { value: 2, recovers: 0 },
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      loadout: 0,
+      extended: true,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Marksmanship',
+          ability:
+            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Fire-Control System',
+          ability:
+            'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
+          slots: ['Sensor'],
+        },
+      ],
+    },
   ],
 };
 

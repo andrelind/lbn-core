@@ -183,6 +183,44 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
     },
+    {
+      name: 'Darth Vader',
+      initiative: 6,
+      limited: 1,
+      cost: 8,
+      xws: 'darthvader-battleofyavin',
+      ability:
+        'While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
+      force: { value: 3, recovers: 1, side: ['dark'] },
+      slots: [],
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Marksmanship',
+          ability:
+            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Hate',
+          ability:
+            'After you suffer 1 or more damage, recover that many [Force].',
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
   ],
 };
 

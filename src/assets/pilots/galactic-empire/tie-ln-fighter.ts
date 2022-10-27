@@ -347,6 +347,138 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
     },
+    {
+      name: '“Mauler” Mithel',
+      initiative: 5,
+      limited: 1,
+      xws: 'maulermither-battleofyavin',
+      ability:
+        'While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.',
+      slots: [],
+      keywords: ['TIE'],
+      cost: 3,
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Predator',
+          ability:
+            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
+    {
+      name: '“Wampa”',
+      initiative: 1,
+      limited: 1,
+      xws: 'wampa-battleofyavin',
+      ability:
+        'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die.\n\nAfter defending, lose 1 [Charge].',
+      slots: [],
+      charges: { value: 1, recovers: 1 },
+      keywords: ['TIE'],
+      cost: 3,
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Elusive',
+          ability:
+            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
+          slots: ['Talent'],
+          charges: { value: 1, recovers: 0 },
+        },
+        {
+          title: 'Vengeful ',
+          ability:
+            'After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.',
+          slots: ['Talent'],
+        },
+      ],
+    },
+    {
+      name: 'Backstabber',
+      initiative: 5,
+      limited: 1,
+      xws: 'backstabber-battleofyavin',
+      ability:
+        'While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.',
+      slots: [],
+      charges: { value: 1, recovers: 1 },
+      keywords: ['TIE'],
+      cost: 4,
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Crack Shot',
+          ability:
+            'While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.',
+          slots: ['Talent'],
+          charges: { value: 1, recovers: 0 },
+        },
+        {
+          ability:
+            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
+          title: 'Disciplined',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
+    {
+      name: 'Dark Curse',
+      initiative: 6,
+      limited: 1,
+      xws: 'darkcurse-battleofyavin',
+      ability: "While you defend, the attacker's dice cannot be modified.",
+      slots: [],
+      keywords: ['TIE'],
+      cost: 4,
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Ruthless',
+          ability:
+            'While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          ability:
+            "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
+          title: 'Precision Ion Engines',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
   ],
 };
 
