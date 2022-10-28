@@ -275,7 +275,7 @@ export const t: Source[] = [
     wave: 11,
     released: true,
     contents: {
-      ships: { clonez95headhunter: 1 },
+      ships: { clonez95headhunter: 2 },
       pilots: {
         killer: 1,
         drift: 1,
@@ -289,7 +289,7 @@ export const t: Source[] = [
         reapersquadronscout: 2,
       },
       upgrades: {
-        advancedprotontorpedoes: 2,
+        advprotontorpedoes: 2,
         angleddeflectors: 2,
         enduring: 2,
         firecontrolsystem: 2,
