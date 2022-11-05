@@ -194,9 +194,8 @@ const t: ShipType = {
       epic: true,
       slots: [],
       ability:
-        'After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].',
+        'After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.',
       cost: 7,
-      loadout: 0,
       extended: true,
       keywords: ['Freighter', 'YT-1300', 'Light Side'],
       shipAbility: {

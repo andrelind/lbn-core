@@ -359,7 +359,6 @@ const t: ShipType = {
       cost: 3,
       standard: true,
       epic: true,
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -391,7 +390,6 @@ const t: ShipType = {
       cost: 3,
       standard: true,
       epic: true,
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -423,7 +421,6 @@ const t: ShipType = {
       cost: 4,
       standard: true,
       epic: true,
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -460,7 +457,6 @@ const t: ShipType = {
       cost: 4,
       standard: true,
       epic: true,
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [

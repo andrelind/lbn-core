@@ -211,7 +211,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -270,7 +269,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -326,7 +324,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [
@@ -382,7 +379,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 0,
       extended: true,
       standardLoadout: true,
       upgrades: [

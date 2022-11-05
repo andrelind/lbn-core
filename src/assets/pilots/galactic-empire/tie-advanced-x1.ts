@@ -187,7 +187,7 @@ const t: ShipType = {
       name: 'Darth Vader',
       initiative: 6,
       limited: 1,
-      cost: 8,
+      cost: 6,
       xws: 'darthvader-battleofyavin',
       ability:
         'While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
@@ -195,7 +195,6 @@ const t: ShipType = {
       slots: [],
       standard: true,
       epic: true,
-      loadout: 0,
       extended: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
       standardLoadout: true,

@@ -242,6 +242,47 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
     },
     {
+      name: 'Iden Versio',
+      caption: 'Battle of Yavin',
+      xws: 'idenversio-battleofyavin',
+      initiative: 4,
+      limited: 1,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      standard: true,
+      extended: true,
+      cost: 6,
+      charges: { value: 2, recovers: 1 },
+      slots: [],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Predator',
+
+          ability:
+            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Fanatic',
+          ability:
+            'While you perform a primary attack, if you are damaged, you may change 1 [Focus] result to a [Hit] result.',
+          slots: ['Talent'],
+        },
+      ],
+      ability:
+        'Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.',
+      keywords: ['TIE'],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/idenversio-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/idenversio-battleofyavin.png',
+      epic: true,
+    },
+    {
       xws: 'sigma4-battleofyavin',
       name: 'Sigma 4',
       cost: 4,
@@ -254,7 +295,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
       extended: true,
       shipAbility: {
         name: 'Sensitive Controls',
@@ -290,7 +330,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
       extended: true,
       shipAbility: {
         name: 'Sensitive Controls',
@@ -327,7 +366,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
       extended: true,
       shipAbility: {
         name: 'Sensitive Controls',
@@ -364,7 +402,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 0,
       extended: true,
       shipAbility: {
         name: 'Sensitive Controls',
