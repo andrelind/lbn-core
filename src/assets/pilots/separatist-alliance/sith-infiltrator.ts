@@ -148,6 +148,47 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
     },
+    {
+      name: 'Count Dooku',
+      xws: 'countdooku-siegeofcoruscant',
+      cost: 6,
+      slots: [],
+      caption: 'Siege of Coruscant',
+      initiative: 5,
+      limited: 1,
+      shipActions: [
+        { difficulty: 'White', type: 'Calculate' },
+        { difficulty: 'White', type: 'Lock' },
+        { difficulty: 'Red', type: 'Barrel Roll' },
+      ],
+      ability:
+        'During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.',
+      standard: true,
+      epic: true,
+      loadout: 0,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Malice',
+          ability:
+            'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Roiling Anger',
+          ability:
+            "At the start of the Engagement Phase, if you are in an enemy ship's [Front Arc], you may gain 1 strain to recover 1 [Force].",
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Scimitar',
+          ability:
+            'Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.',
+          slots: ['Title'],
+        },
+      ],
+    },
   ],
   ffg: 60,
   icon:

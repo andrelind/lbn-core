@@ -168,6 +168,142 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/5fb72145f183eeddd8d37ce1a4d114f7.jpg',
     },
+    {
+      name: 'DFS-081',
+      xws: 'dfs081-siegeofcoruscant',
+      initiative: 3,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      ability:
+        'While a friendly ship at range 0-1 defends, it may spend 1 calculate token to change all [Critical Hit] results to [Hit] results.',
+      standard: true,
+      epic: true,
+      cost: 2,
+      slots: [],
+      keywords: ['Droid'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Discord Missiles',
+          ability:
+            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
+          charges: { value: 1, recovers: 0 },
+          slots: ['Missile'],
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+    },
+    {
+      name: 'DFS-311',
+      xws: 'dfs311-siegeofcoruscant',
+      initiative: 1,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      ability:
+        'At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.',
+      standard: true,
+      epic: true,
+      cost: 3,
+      slots: [],
+      keywords: ['Droid'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Discord Missiles',
+          ability:
+            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
+          charges: { value: 1, recovers: 0 },
+          slots: ['Missile'],
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+    },
+    {
+      name: 'Haor Chall Prototype',
+      caption: 'Siege of Coruscant',
+      limited: 2,
+      initiative: 1,
+      xws: 'haorchallprototype-siegeofcoruscant',
+      ability:
+        'After an enemy ship in your [Bullseye Arc] at range 0-2 declares another friendly ship as the defender, you may perform a [Calculate] or [Lock] action.',
+      standard: true,
+      epic: true,
+      cost: 2,
+      slots: [],
+      keywords: ['Droid'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/91421be1f3bbbefd005c1b2682f0bc44.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/18cdc19a9627a38d0ec2783ccd5cb183.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Ion Missiles',
+          ability:
+            'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
+          slots: ['Missile'],
+          charges: { value: 3, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 3,
+            minrange: 2,
+            maxrange: 3,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+    },
   ],
   ffg: 59,
   icon:

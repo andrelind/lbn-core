@@ -193,6 +193,91 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg',
     },
+    {
+      name: '“Wolffe”',
+      xws: 'wolffe-siegeofcoruscant',
+      cost: 5,
+      slots: [],
+      caption: 'Siege of Coruscant',
+      initiative: 4,
+      limited: 1,
+      charges: { value: 1, recovers: 0 },
+      ability:
+        'While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.',
+      standard: true,
+      epic: true,
+      keywords: ['Clone'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Wolfpack',
+          ability:
+            'While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice.',
+          slots: ['Crew'],
+        },
+        {
+          title: 'Veteran Tail Gunner',
+          ability:
+            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
+          slots: ['Gunner'],
+        },
+        {
+          ability:
+            'While you barrel roll or boost, you can move through and overlap obstacles.',
+          title: 'Q7 Astromech',
+          slots: ['Astromech'],
+        },
+      ],
+    },
+    {
+      name: '“Odd Ball”',
+      xws: 'oddball-arc170starfighter-siegeofcoruscant',
+      cost: 5,
+      slots: [],
+      ffg: 523,
+      caption: 'Siege of Coruscant',
+      initiative: 5,
+      limited: 1,
+      ability:
+        'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
+      standard: true,
+      epic: true,
+      keywords: ['Clone'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Selfless',
+          ability:
+            'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Veteran Tail Gunner',
+          ability:
+            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
+          slots: ['Gunner'],
+        },
+        {
+          title: 'R4-P Astromech',
+          ability:
+            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
   ],
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',
 };

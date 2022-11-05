@@ -109,7 +109,7 @@ export type Pilot = {
 
 export type StandardUpgrade = {
   title: string;
-  slots: string[];
+  slots: Slot[];
   ability: string;
   limited?: number;
   charges?: {

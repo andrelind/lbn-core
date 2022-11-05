@@ -208,6 +208,144 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg',
     },
+    {
+      xws: 'anakinskywalker-eta2actis-siegeofcoruscant',
+      name: 'Anakin Skywalker',
+      cost: 6,
+      loadout: 0,
+      limited: 1,
+      initiative: 6,
+      caption: 'Siege of Coruscant',
+      slots: [],
+      standard: true,
+      force: { value: 3, recovers: 1, side: ['light', 'dark'] },
+      epic: true,
+      ability:
+        'After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.',
+      keywords: ['Dark Side', 'Jedi', 'Light Side'],
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/ef/ca/efcac3d6-868a-4e99-a872-3f2265e4983e/swz79_anakin-skywalker.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          ability:
+            'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
+          title: 'Malice',
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Ancillary Ion Weapons',
+          ability:
+            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
+          charges: { value: 2, recovers: 1 },
+          slots: ['Cannon'],
+        },
+        {
+          ability:
+            'After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.',
+          title: 'R2-D2',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
+    {
+      xws: 'obiwankenobi-eta2actis-siegeofcoruscant',
+      name: 'Obi-Wan Kenobi',
+      cost: 5,
+      loadout: 15,
+      limited: 1,
+      initiative: 5,
+      caption: 'Siege of Coruscant',
+      slots: [],
+      force: { value: 3, recovers: 1, side: ['light'] },
+      standard: true,
+      epic: true,
+      ability:
+        'After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+      keywords: ['Jedi', 'Light Side'],
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/2d/36/2d3610e5-ebc0-4448-8fb3-4b6dcc5f391a/swz79_obi-wan_kenobi.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          ability:
+            'At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].',
+          title: 'Patience',
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Ancillary Ion Weapons',
+          ability:
+            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
+          charges: { value: 2, recovers: 1 },
+          slots: ['Cannon'],
+        },
+        {
+          title: 'R4-P17',
+          ability:
+            'When you would be dealt a damage card, if you are not defending, you may spend 1 [Charge] and gain 1 strain to discard it instead.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Astromech'],
+        },
+      ],
+    },
+    {
+      name: 'Shaak Ti',
+      xws: 'shaakti-siegeofcoruscant',
+      initiative: 4,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      standard: true,
+      force: { value: 2, recovers: 1, side: ['light'] },
+      ability:
+        'At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.',
+      slots: [],
+      cost: 5,
+      epic: true,
+      keywords: ['Jedi', 'Light Side'],
+      loadout: 18,
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/fa/6a/fa6afe10-be85-46ee-93e6-0637b3ce34b0/swz79_shaak-ti.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Marksmanship',
+          ability:
+            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Brilliant Evasion',
+          ability:
+            "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
+          slots: ['Force Power'],
+        },
+        {
+          title: 'Ancillary Ion Weapons',
+          ability:
+            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
+          charges: { value: 2, recovers: 1 },
+          slots: ['Cannon'],
+        },
+        {
+          title: 'R4-P Astromech',
+          ability:
+            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
   ],
   ffg: 76,
   icon:

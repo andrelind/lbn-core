@@ -182,6 +182,100 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/963d472b274bb777fdc9be15527e28f1.jpg',
     },
+    {
+      name: '“Contrail”',
+      xws: 'contrail-siegeofcoruscant',
+      initiative: 5,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      standard: true,
+      ability:
+        "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
+      slots: [],
+      cost: 3,
+      epic: true,
+      ffg: 789,
+      keywords: ['Clone', 'TIE'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          ability:
+            'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
+          title: 'Ion Limiter Override',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Precise Astromech',
+          ability:
+            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Ion Bombs',
+          slots: ['Device'],
+          ability:
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the (1 [Straight]) template.',
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          ability:
+            'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
+          title: 'Alpha-3B "Besh"',
+          slots: ['Configuration'],
+        },
+      ],
+    },
+    {
+      name: '“Klick”',
+      xws: 'klick-siegeofcoruscant',
+      initiative: 4,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      standard: true,
+      ability:
+        'While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied.',
+      slots: [],
+      cost: 3,
+      epic: true,
+      ffg: 790,
+      keywords: ['Clone', 'TIE'],
+      loadout: 8,
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'R3 Astromech',
+          ability:
+            'You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [Lock] action, you may acquire a lock.',
+          slots: ['Astromech'],
+        },
+        {
+          ability:
+            "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
+          title: 'Precision Ion Engines',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          ability:
+            'While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.',
+          title: 'Alpha-3E "Esk"',
+          slots: ['Configuration'],
+          charges: { value: 2, recovers: 1 },
+        },
+      ],
+    },
   ],
   ffg: 71,
   icon:
