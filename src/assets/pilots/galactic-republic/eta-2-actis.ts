@@ -211,7 +211,7 @@ const t: ShipType = {
     {
       xws: 'anakinskywalker-eta2actis-siegeofcoruscant',
       name: 'Anakin Skywalker',
-      cost: 6,
+      cost: 5,
       loadout: 0,
       limited: 1,
       initiative: 6,
@@ -221,7 +221,7 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light', 'dark'] },
       epic: true,
       ability:
-        'After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.',
+        'After you or a friendly Obi-Wan Kenobi ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Barrel Roll] action.',
       keywords: ['Dark Side', 'Jedi', 'Light Side'],
       extended: true,
       image:
@@ -255,7 +255,7 @@ const t: ShipType = {
     {
       xws: 'obiwankenobi-eta2actis-siegeofcoruscant',
       name: 'Obi-Wan Kenobi',
-      cost: 5,
+      cost: 4,
       loadout: 15,
       limited: 1,
       initiative: 5,
@@ -265,7 +265,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ability:
-        'After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.',
+        'After you or a friendly Anakin Skywalker at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Boost] action.',
       keywords: ['Jedi', 'Light Side'],
       extended: true,
       image:

@@ -105,6 +105,7 @@ export type Pilot = {
   artwork?: string;
   standardLoadout?: boolean;
   upgrades?: StandardUpgrade[];
+  stats?: Stat[];
 };
 
 export type StandardUpgrade = {

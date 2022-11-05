@@ -204,6 +204,47 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a0b36a5320377ef6cb2611e4d0d39a6a.jpg',
     },
+    {
+      name: 'DIS-T81',
+      initiative: 4,
+      limited: 1,
+      xws: 'dist81-siegeofcoruscant',
+      standard: true,
+      epic: true,
+      slots: [],
+      cost: 4,
+      caption: 'Siege of Coruscant',
+      ability:
+        "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result.",
+      keywords: ['Droid'],
+      extended: true,
+      image:
+        'https://images-cdn.fantasyflightgames.com/filer_public/eb/3d/eb3db7f7-4707-4c09-ae41-6a74b669f4d1/swz81_dis-t81_cutout.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/dcb7fa7d662c724a28e03ddb3370da25.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Outmaneuver',
+          ability:
+            "While you perform a [Front Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+      ],
+    },
   ],
   ffg: 77,
   icon:

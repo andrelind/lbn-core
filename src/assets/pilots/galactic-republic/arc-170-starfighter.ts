@@ -196,7 +196,7 @@ const t: ShipType = {
     {
       name: '“Wolffe”',
       xws: 'wolffe-siegeofcoruscant',
-      cost: 5,
+      cost: 4,
       slots: [],
       caption: 'Siege of Coruscant',
       initiative: 4,
@@ -207,7 +207,6 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 0,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
@@ -245,16 +244,22 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       ability:
-        'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
+        'After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.',
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 0,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 3 },
+        { arc: 'Rear Arc', type: 'attack', value: 2 },
+        { type: 'agility', value: 1 },
+        { type: 'hull', value: 6 },
+        { type: 'shields', value: 4 },
+      ],
       standardLoadout: true,
       upgrades: [
         {
@@ -275,6 +280,47 @@ const t: ShipType = {
             'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
           slots: ['Astromech'],
           charges: { value: 2, recovers: 0 },
+        },
+      ],
+    },
+    {
+      name: '“Jag”',
+      xws: 'jag-siegeofcoruscant',
+      cost: 4,
+      slots: [],
+      caption: 'Siege of Coruscant',
+      initiative: 3,
+      limited: 1,
+      ability:
+        'After a friendly ship at range 0-2 in your [Left Arc] or [Right Arc] performs an attack, if you are not strained, you may acquire a lock on the defender.',
+      standard: true,
+      epic: true,
+      keywords: ['Clone'],
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Veteran Tail Gunner',
+          ability:
+            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
+          slots: ['Gunner'],
+        },
+        {
+          title: 'R4-P Astromech',
+          ability:
+            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Synchronized Console',
+          ability:
+            'After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.',
+          slots: ['Modification'],
         },
       ],
     },

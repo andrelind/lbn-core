@@ -180,6 +180,66 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg',
     },
+    {
+      name: 'DBS-32C',
+      xws: 'dbs32c-siegeofcoruscant',
+      caption: 'Siege of Coruscant',
+      limited: 1,
+      initiative: 3,
+      ability:
+        'At the start of the Engagement Phase, you may spend 1 calculate token to perform a [Coordinate] action. You cannot coordinate ships that do not have the Networked Calculations ship ability.',
+      shipActions: [
+        { difficulty: 'White', type: 'Calculate' },
+        { difficulty: 'White', type: 'Lock' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Lock' },
+        },
+        { difficulty: 'Red', type: 'Jam' },
+      ],
+      standard: true,
+      epic: true,
+      cost: 4,
+      slots: [],
+      keywords: ['Droid'],
+      loadout: 16,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/1befc5619a02e2ea8b7bfb8df93471a1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg',
+      standardLoadout: true,
+      upgrades: [
+        {
+          ability:
+            'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.',
+          title: 'Plasma Torpedoes',
+          slots: ['Torpedo'],
+          charges: { value: 2, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 3,
+            minrange: 2,
+            maxrange: 3,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+    },
   ],
   ffg: 64,
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Hyena.png',
