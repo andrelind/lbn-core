@@ -185,6 +185,112 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg',
     },
+    {
+      name: '“Kickback”',
+      caption: 'Sige of Coruscant',
+      xws: 'kickback-sigeofcoruscant',
+      initiative: 4,
+      limited: 1,
+      ability:
+        'After you perform a [Barrel Roll] action, you may perform a red [Lock] action. If you do, before you perfrom the [Lock] action, you may gain 1 strain to treat it as white.',
+      standard: true,
+      epic: true,
+      cost: 3,
+      slots: [],
+      keywords: ['Clone'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg',
+      shipAbility: {
+        name: 'Born for This',
+        text:
+          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
+      },
+      stats: [
+        { type: 'attack', arc: 'Front Arc', value: 2 },
+        { type: 'agility', value: 2 },
+        { type: 'hull', value: 6 },
+      ],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Diamond-Boron Missiles',
+          slots: ['Missile', 'Missile'],
+          ability:
+            "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
+          charges: { value: 3, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 3,
+            minrange: 2,
+            maxrange: 3,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Munitions Failsafe',
+          ability:
+            'While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.',
+          slots: ['Modification'],
+        },
+      ],
+    },
+    {
+      name: '“Axe”',
+      caption: 'Siege of Coruscant',
+      xws: 'axe-sigeofcoruscant',
+      initiative: 3,
+      limited: 1,
+      ability:
+        'After you perform an attack, you may choose another friendly ship with the <strong>Born for This</strong> ability at range 0-2 in your [Left Arc] or [Right Arc]. The chosen ship gains a lock on the defender.',
+      standard: true,
+      epic: true,
+      cost: 3,
+      slots: [],
+      keywords: ['Clone'],
+      loadout: 8,
+      extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg',
+      shipAbility: {
+        name: 'Born for This',
+        text:
+          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
+      },
+      stats: [
+        { type: 'attack', arc: 'Front Arc', value: 2 },
+        { type: 'agility', value: 2 },
+        { type: 'hull', value: 6 },
+      ],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Deadeye Shot',
+          slots: ['Talent'],
+          ability:
+            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may spend 1 [Hit] result or change 1 [Critical Hit] result to a [Hit] result. If you do, the defender exposes 1 of its damage cards.',
+        },
+        {
+          title: 'Barrage Rockets',
+          ability:
+            'Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.',
+          slots: ['Missile', 'Missile'],
+          charges: { value: 5, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 3,
+            minrange: 2,
+            maxrange: 3,
+            ordnance: true,
+          },
+        },
+      ],
+    },
   ],
   ffg: 62,
   icon:

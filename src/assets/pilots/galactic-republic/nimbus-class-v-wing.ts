@@ -202,6 +202,11 @@ const t: ShipType = {
         'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
+      shipAbility: {
+        name: 'Born for This',
+        text:
+          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
+      },
       standardLoadout: true,
       upgrades: [
         {
@@ -252,6 +257,17 @@ const t: ShipType = {
         'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
+      shipAbility: {
+        name: 'Born for This',
+        text:
+          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
+      },
+      stats: [
+        { type: 'attack', arc: 'Front Arc', value: 2 },
+        { type: 'agility', value: 3 },
+        { type: 'hull', value: 2 },
+        { type: 'shields', value: 3 },
+      ],
       standardLoadout: true,
       upgrades: [
         {
