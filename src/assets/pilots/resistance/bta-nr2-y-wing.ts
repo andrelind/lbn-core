@@ -63,6 +63,7 @@ const t: ShipType = {
         'After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.',
       charges: { value: 1, recovers: 1 },
       caption: 'Corsair of Kijimi',
+      loadout: 19,
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
