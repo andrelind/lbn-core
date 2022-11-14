@@ -209,7 +209,7 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg',
     },
     {
-      xws: 'anakinskywalker-eta2actis-siegeofcoruscant',
+      xws: 'anakinskywalker-siegeofcoruscant',
       name: 'Anakin Skywalker',
       cost: 5,
       loadout: 0,
@@ -253,7 +253,7 @@ const t: ShipType = {
       ],
     },
     {
-      xws: 'obiwankenobi-eta2actis-siegeofcoruscant',
+      xws: 'obiwankenobi-siegeofcoruscant',
       name: 'Obi-Wan Kenobi',
       cost: 4,
       loadout: 15,

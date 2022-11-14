@@ -187,7 +187,7 @@ const t: ShipType = {
     },
     {
       name: '“Kickback”',
-      caption: 'Sige of Coruscant',
+      caption: 'Siege of Coruscant',
       xws: 'kickback-sigeofcoruscant',
       initiative: 4,
       limited: 1,
@@ -248,7 +248,7 @@ const t: ShipType = {
         'After you perform an attack, you may choose another friendly ship with the <strong>Born for This</strong> ability at range 0-2 in your [Left Arc] or [Right Arc]. The chosen ship gains a lock on the defender.',
       standard: true,
       epic: true,
-      cost: 3,
+      cost: 4,
       slots: [],
       keywords: ['Clone'],
       loadout: 8,

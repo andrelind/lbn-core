@@ -236,7 +236,7 @@ const t: ShipType = {
     },
     {
       name: '“Odd Ball”',
-      xws: 'oddball-arc170starfighter-siegeofcoruscant',
+      xws: 'oddball-siegeofcoruscant',
       cost: 5,
       slots: [],
       ffg: 523,
