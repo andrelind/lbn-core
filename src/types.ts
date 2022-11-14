@@ -106,6 +106,7 @@ export type Pilot = {
   standardLoadout?: boolean;
   upgrades?: StandardUpgrade[];
   stats?: Stat[];
+  predictedCost?: number;
 };
 
 export type StandardUpgrade = {

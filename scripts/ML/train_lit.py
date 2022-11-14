@@ -12,7 +12,7 @@ import csv
 
 
 num_epochs = 1000
-input_size = 191
+input_size = 196
 h1_size = 125
 h2_size = 60
 h3_size = 20
@@ -115,7 +115,7 @@ model = LitAutoEncoder()
 
 if __name__ == "__main__":
     # training
-    trainer = pl.Trainer(max_epochs=num_epochs)
+    trainer = pl.Trainer(max_epochs=num_epochs, accelerator="mps")
     trainer.fit(model, train_loader, val_loader)
 
     orig = np.loadtxt('./scripts/ML/pilots_orig.csv', delimiter=",",

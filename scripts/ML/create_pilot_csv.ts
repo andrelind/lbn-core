@@ -34,8 +34,8 @@ const run = async () => {
     Object.keys(pilotData[f as Faction]).map((s) => {
       const ship: ShipType = pilotData[f as Faction][s];
       if (ship.size !== 'Huge') {
-        if (ship.ability && !abilitites.includes(ship.ability.name.en)) {
-          abilitites.push(ship.ability.name.en);
+        if (ship.ability && !abilitites.includes(ship.ability.name)) {
+          abilitites.push(ship.ability.name);
         }
 
         ship.pilots.forEach((pilot) => {
@@ -103,7 +103,7 @@ const run = async () => {
           }
 
           if (ship.ability) {
-            row[all.indexOf(ship.ability.name.en)] += 1;
+            row[all.indexOf(ship.ability.name)] += 1;
           }
 
           ship.stats.forEach((stat) => {

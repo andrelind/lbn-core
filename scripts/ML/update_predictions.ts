@@ -78,25 +78,25 @@ const run = async () => {
         // ships.push(shipType.xws);
         ship.pilots.forEach((pilot) => {
           const value = rows[i] as string[];
-          pilot.predictedCost = parseInt(value[0], 10);
+          pilot.predictedCost = parseFloat(value[0]);
 
           const row = sh.addRow([
-            ship.name.en,
-            pilot.name.en,
-            pilot.caption?.en,
+            ship.name,
+            pilot.name,
+            pilot.caption,
             pilot.cost,
             pilot.predictedCost,
             pilot.cost - pilot.predictedCost,
           ]);
 
           json.push({
-            name: pilot.name.en,
+            name: pilot.name,
             cost: pilot.cost,
             pred: pilot.predictedCost,
             color: colorForFaction(ship.faction),
             diff: pilot.cost - pilot.predictedCost,
             faction: ship.faction,
-            ship: ship.name.en,
+            ship: ship.name,
           });
 
           const val = row.getCell(6).value! as number;
