@@ -196,6 +196,20 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png',
     },
+    {
+      name: 'Tor Phun',
+      initiative: 3,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'torphun',
+      image: 'https://infinitearenas.com/xw2/images/pilots/torphun.png',
+      slots: [],
+      standard: true,
+      extended: true,
+      keywords: ['Mandalorian'],
+      epic: true,
+    },
   ],
 };
 

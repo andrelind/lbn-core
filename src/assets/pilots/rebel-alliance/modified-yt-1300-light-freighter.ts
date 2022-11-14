@@ -233,6 +233,9 @@ const t: ShipType = {
           slots: ['Configuration'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png',
+      artwork: '',
     },
   ],
 };

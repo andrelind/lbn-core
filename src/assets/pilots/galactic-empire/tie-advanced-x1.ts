@@ -219,6 +219,24 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png',
+    },
+    {
+      name: 'Juno Eclipse',
+      initiative: 5,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'junoeclipse',
+      image: 'https://infinitearenas.com/xw2/images/pilots/junoeclipse.png',
+      slots: [],
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
     },
   ],
 };

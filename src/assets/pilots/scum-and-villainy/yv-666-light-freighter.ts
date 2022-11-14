@@ -149,6 +149,21 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
     },
+    {
+      name: 'Doctor Aphra',
+      initiative: 3,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'doctoraphra',
+      image: 'https://infinitearenas.com/xw2/images/pilots/doctoraphra.png',
+      charges: { value: 3, recovers: 0 },
+      slots: [],
+      standard: true,
+      extended: true,
+      keywords: ['Freighter'],
+      epic: true,
+    },
   ],
 };
 

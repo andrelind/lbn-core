@@ -11,6 +11,10 @@ const t: UpgradeBase[] = [
         ability:
           'After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.',
         slots: ['Sensor'],
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_23.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg',
         ffg: 252,
       },
     ],
@@ -30,6 +34,10 @@ const t: UpgradeBase[] = [
           'While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.',
         slots: ['Sensor'],
         charges: { value: 2, recovers: 0 },
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_24.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg',
         ffg: 253,
       },
     ],
@@ -48,6 +56,10 @@ const t: UpgradeBase[] = [
         ability:
           'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
         slots: ['Sensor'],
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_25.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg',
         ffg: 254,
       },
     ],
@@ -66,6 +78,10 @@ const t: UpgradeBase[] = [
         ability:
           'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
         slots: ['Sensor'],
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_26.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg',
         ffg: 255,
       },
     ],
@@ -86,6 +102,10 @@ const t: UpgradeBase[] = [
         slots: ['Sensor'],
         charges: { value: 1, recovers: 1 },
         ffg: 577,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg',
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png',
       },
     ],
     cost: { value: 5 },

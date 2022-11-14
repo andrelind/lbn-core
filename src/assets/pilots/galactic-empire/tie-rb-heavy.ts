@@ -143,6 +143,23 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
     },
+    {
+      name: 'Flight Leader Ubbel',
+      cost: 0,
+      loadout: 0,
+      initiative: 5,
+      limited: 1,
+      slots: [],
+      xws: 'flightleaderubbel',
+      standard: true,
+      extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/flightleaderubbel.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
+      keywords: ['TIE'],
+      epic: true,
+    },
   ],
   ffg: 72,
   icon:

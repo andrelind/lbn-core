@@ -261,7 +261,6 @@ const t: ShipType = {
       upgrades: [
         {
           title: 'Predator',
-
           ability:
             'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
           slots: ['Talent'],
@@ -316,6 +315,10 @@ const t: ShipType = {
           slots: ['Tech'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sigma4-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sigma4.png',
     },
     {
       xws: 'sigma5-battleofyavin',
@@ -352,6 +355,10 @@ const t: ShipType = {
           charges: { value: 1, recovers: 0 },
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sigma5-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sigma5.png',
     },
     {
       xws: 'sigma6-battleofyavin',
@@ -388,6 +395,10 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sigma6-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sigma6.png',
     },
     {
       xws: 'sigma7-battleofyavin',
@@ -423,6 +434,25 @@ const t: ShipType = {
           slots: ['Sensor'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sigma7.png',
+    },
+    {
+      name: 'Second Sister',
+      xws: 'secondsister',
+      initiative: 4,
+      limited: 1,
+      standard: true,
+      extended: true,
+      cost: 0,
+      loadout: 0,
+      slots: [],
+      force: { value: 2, recovers: 1, side: ['dark'] },
+      keywords: ['TIE'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
+      epic: true,
     },
   ],
 };

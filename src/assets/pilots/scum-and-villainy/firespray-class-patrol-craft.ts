@@ -210,6 +210,19 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
     },
+    {
+      name: 'Hondo Ohnaka',
+      initiative: 1,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'hondoohnaka-firesprayclasspatrolcraft',
+      image: 'https://infinitearenas.com/xw2/images/pilots/hondoohnaka.png',
+      slots: [],
+      standard: true,
+      extended: true,
+      epic: true,
+    },
   ],
 };
 

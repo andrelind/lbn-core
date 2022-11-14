@@ -158,6 +158,20 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimhunter.png',
     },
+    {
+      name: 'Durge',
+      initiative: 5,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'durge',
+      slots: [],
+      image: 'https://infinitearenas.com/xw2/images/pilots/durge.png',
+      keywords: [],
+      standard: true,
+      extended: true,
+      epic: true,
+    },
   ],
   icon: '???',
 };

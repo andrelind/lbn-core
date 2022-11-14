@@ -18,6 +18,10 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_27.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg',
         ffg: 256,
       },
     ],
@@ -43,6 +47,10 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_28.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg',
         ffg: 257,
       },
     ],
@@ -68,6 +76,10 @@ const t: UpgradeBase[] = [
           maxrange: 2,
           ordnance: false,
         },
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_29.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg',
         ffg: 258,
       },
     ],
@@ -93,6 +105,10 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_30.png',
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg',
         ffg: 259,
       },
     ],
@@ -119,6 +135,10 @@ const t: UpgradeBase[] = [
           ordnance: false,
         },
         ffg: 578,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg',
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png',
       },
     ],
     cost: { value: 7 },
@@ -148,6 +168,8 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 718,
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg',
       },
     ],
     restrictions: [{ factions: ['Resistance'] }, { chassis: ['t70xwing'] }],
@@ -172,6 +194,10 @@ const t: UpgradeBase[] = [
           maxrange: 3,
           ordnance: false,
         },
+        artwork:
+          'https://squadbuilder.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg',
+        image:
+          'https://squadbuilder.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png',
         ability:
           'Attack: If you are calculating, the defender does not apply the range bonus.',
       },
@@ -187,6 +213,8 @@ const t: UpgradeBase[] = [
       {
         ability:
           'Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/protoncannons.png',
         charges: { value: 2, recovers: 1 },
         title: 'Proton Cannons',
         type: 'Cannon',

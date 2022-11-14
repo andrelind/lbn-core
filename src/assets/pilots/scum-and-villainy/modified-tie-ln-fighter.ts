@@ -166,6 +166,20 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg',
     },
+    {
+      name: 'Lapin',
+      initiative: 2,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'lapin',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lapin.png',
+      slots: [],
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
   ],
 };
 

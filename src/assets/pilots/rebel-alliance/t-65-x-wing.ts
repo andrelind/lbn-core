@@ -55,6 +55,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 18,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_7.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg',
     },
     {
       name: 'Blue Squadron Escort',
@@ -71,6 +75,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 4,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_11.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_11.jpg',
     },
     {
       name: 'Cavern Angels Zealot',
@@ -87,6 +95,10 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       keywords: ['Partisan', 'X-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_12.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg',
     },
     {
       name: 'Edrio Two Tubes',
@@ -104,6 +116,10 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Partisan', 'X-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_9.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg',
     },
     {
       name: 'Garven Dreis',
@@ -127,6 +143,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 16,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_4.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg',
     },
     {
       name: 'Jek Porkins',
@@ -144,6 +164,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 15,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_5.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg',
     },
     {
       name: 'Kullbee Sperado',
@@ -161,6 +185,10 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Partisan', 'X-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_6.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg',
     },
     {
       name: 'Leevan Tenza',
@@ -178,6 +206,10 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       keywords: ['Partisan', 'X-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_8.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg',
     },
     {
       name: 'Luke Skywalker',
@@ -203,6 +235,10 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Light Side', 'X-wing'],
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_2.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg',
     },
     {
       name: 'Red Squadron Veteran',
@@ -219,6 +255,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 3,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_10.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg',
     },
     {
       name: 'Thane Kyrell',
@@ -236,6 +276,10 @@ const t: ShipType = {
       keywords: ['X-wing'],
       loadout: 14,
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_3.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg',
     },
     {
       name: 'Wedge Antilles',
@@ -260,6 +304,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['X-wing'],
       extended: true,
+      image:
+        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_1.png',
+      artwork:
+        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg',
     },
     {
       name: 'Biggs Darklighter',
@@ -544,6 +592,38 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleofyavin.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png',
+      standard: true,
+      extended: true,
+      keywords: ['X-wing'],
+      epic: true,
+    },
+    {
+      name: 'Corran Horn',
+      initiative: 5,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'corranhorn-t65xwing',
+      slots: [],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png',
+      artwork: '',
+      standard: true,
+      extended: true,
+      keywords: ['X-wing'],
+      epic: true,
+    },
+    {
+      name: 'Wes Janson',
+      initiative: 5,
+      limited: 1,
+      cost: 0,
+      loadout: 0,
+      xws: 'wesjanson',
+      charges: { value: 1, recovers: 1 },
+      slots: [],
+      image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['X-wing'],

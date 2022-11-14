@@ -225,9 +225,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'Jedi', 'Light Side'],
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/ef/ca/efcac3d6-868a-4e99-a872-3f2265e4983e/swz79_anakin-skywalker.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/anakinskywalker-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -269,9 +269,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/2d/36/2d3610e5-ebc0-4448-8fb3-4b6dcc5f391a/swz79_obi-wan_kenobi.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/obiwankenobi-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -313,9 +313,9 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/fa/6a/fa6afe10-be85-46ee-93e6-0637b3ce34b0/swz79_shaak-ti.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shaakti-eta2actis.png',
       standardLoadout: true,
       upgrades: [
         {

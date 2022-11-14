@@ -85,9 +85,9 @@ const t: ShipType = {
       ],
       keywords: ['Mandalorian'],
       caption: 'Treacherous Viceroy',
-      image:
+      image: 'https://infinitearenas.com/xw2/images/pilots/garsaxon.png',
+      artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/garsaxon.png',
-      artwork: 'https://infinitearenas.com/xw2/images/pilots/garsaxon.png',
     },
     {
       xws: 'imperialsupercommando',
