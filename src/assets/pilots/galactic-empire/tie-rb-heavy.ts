@@ -145,12 +145,28 @@ const t: ShipType = {
     },
     {
       name: 'Flight Leader Ubbel',
-      cost: 0,
-      loadout: 0,
+      caption: 'Onyx Leader',
+      cost: 5,
+      loadout: 15,
       initiative: 5,
       limited: 1,
-      slots: [],
+      slots: [
+        'Talent',
+        'Cannon',
+        'Cannon',
+        'Gunner',
+        'Modification',
+        'Modification',
+        'Configuration',
+      ],
       xws: 'flightleaderubbel',
+      ability:
+        'After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.',
+      shipAbility: {
+        name: 'Rotating Cannons',
+        text:
+          'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc].',
+      },
       standard: true,
       extended: true,
       image:

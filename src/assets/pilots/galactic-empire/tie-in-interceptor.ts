@@ -444,11 +444,25 @@ const t: ShipType = {
       xws: 'secondsister',
       initiative: 4,
       limited: 1,
+      shipAbility: {
+        name: 'Autothrusters',
+        text:
+          'After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      caption: 'Manipulative Monster',
       standard: true,
       extended: true,
-      cost: 0,
-      loadout: 0,
-      slots: [],
+      cost: 5,
+      loadout: 14,
+      slots: [
+        'Force Power',
+        'Talent',
+        'Missile',
+        'Modification',
+        'Configuration',
+      ],
+      ability:
+        'While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force]. If you do, change all of your [Hit] results to [Critical Hit] results.',
       force: { value: 2, recovers: 1, side: ['dark'] },
       keywords: ['TIE'],
       image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',

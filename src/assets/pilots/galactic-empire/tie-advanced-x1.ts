@@ -226,13 +226,21 @@ const t: ShipType = {
     },
     {
       name: 'Juno Eclipse',
+      caption: "Corulag's Finest",
       initiative: 5,
       limited: 1,
-      cost: 0,
-      loadout: 0,
+      cost: 4,
+      loadout: 8,
       xws: 'junoeclipse',
+      ability:
+        'After you perform an action, you may perform a red [Boost] action.',
       image: 'https://infinitearenas.com/xw2/images/pilots/junoeclipse.png',
-      slots: [],
+      shipAbility: {
+        name: 'Advanced Targeting Computer',
+        text:
+          'While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result.',
+      },
+      slots: ['Talent', 'Tech', 'Sensor', 'Missile', 'Modification'],
       standard: true,
       extended: true,
       keywords: ['TIE'],

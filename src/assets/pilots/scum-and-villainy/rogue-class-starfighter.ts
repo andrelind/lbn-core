@@ -160,12 +160,27 @@ const t: ShipType = {
     },
     {
       name: 'Durge',
+      caption: 'Hard to Kill',
       initiative: 5,
       limited: 1,
-      cost: 0,
-      loadout: 0,
+      cost: 4,
+      loadout: 10,
       xws: 'durge',
-      slots: [],
+      slots: [
+        'Talent',
+        'Talent',
+        'Cannon',
+        'Cannon',
+        'Illicit',
+        'Modification',
+      ],
+      ability:
+        'While you defend, after the Neutralize Results step, if there are more [Hit]/[Critical Hit] results than your active shield, you may change 1 [Hit] result to a [Critical Hit] and cancel 1 [Hit] result.',
+      shipAbility: {
+        name: 'Dead to Rights',
+        text:
+          'While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens.',
+      },
       image: 'https://infinitearenas.com/xw2/images/pilots/durge.png',
       keywords: [],
       standard: true,
