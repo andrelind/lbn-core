@@ -164,6 +164,29 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg',
     },
+    {
+      name: 'Gavyn Sykes',
+      xws: 'gavynsykes',
+      caption: 'Bravo Six',
+      initiative: 3,
+      limited: 1,
+      shipAbility: {
+        name: 'Full Throttle',
+        text:
+          'After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.',
+      },
+      standard: true,
+      extended: true,
+      cost: 4,
+      loadout: 16,
+      slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech', 'Modification'],
+      ability:
+        "While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.",
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gavynsykes.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/gavynsykes.png',
+      epic: true,
+    },
   ],
   ffg: 66,
   icon:

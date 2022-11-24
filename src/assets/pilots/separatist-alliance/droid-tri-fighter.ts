@@ -205,23 +205,68 @@ const t: ShipType = {
         'https://squadbuilder.fantasyflightgames.com/card_art/a0b36a5320377ef6cb2611e4d0d39a6a.jpg',
     },
     {
+      name: 'DIS-347',
+      caption: 'Siege of Coruscant',
+      initiative: 3,
+      limited: 1,
+      cost: 4,
+      xws: 'dis347-siegeofcoruscant',
+      ability:
+        'At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.',
+      shipAbility: {
+        name: 'Networked Calculations',
+        text:
+          'While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result.',
+      },
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dis347-siegeofcoruscant.png',
+      slots: [],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Marksmanship',
+          ability:
+            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+      ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png',
+      standard: true,
+      extended: true,
+      keywords: ['Droid'],
+      epic: true,
+    },
+    {
       name: 'DIS-T81',
+      caption: 'Siege of Coruscant',
       initiative: 4,
       limited: 1,
+      cost: 5,
       xws: 'dist81-siegeofcoruscant',
-      standard: true,
-      epic: true,
-      slots: [],
-      cost: 4,
-      caption: 'Siege of Coruscant',
       ability:
-        "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result.",
-      keywords: ['Droid'],
-      extended: true,
+        'While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead.',
+      shipAbility: {
+        name: 'Networked Calculations',
+        text:
+          'While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result.',
+      },
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/eb/3d/eb3db7f7-4707-4c09-ae41-6a74b669f4d1/swz81_dis-t81_cutout.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/dcb7fa7d662c724a28e03ddb3370da25.jpg',
+        'https://infinitearenas.com/xw2/images/quickbuilds/dist81-siegeofcoruscant.png',
+      slots: [],
       standardLoadout: true,
       upgrades: [
         {
@@ -244,6 +289,97 @@ const t: ShipType = {
           slots: ['Modification'],
         },
       ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png',
+      standard: true,
+      extended: true,
+      keywords: ['Droid'],
+      epic: true,
+    },
+    {
+      name: 'Phlac-Arphocc Prototype',
+      caption: 'Siege of Coruscant',
+      initiative: 5,
+      limited: 2,
+      cost: 4,
+      xws: 'phlacarphoccprototype-siegeofcoruscant',
+      ability:
+        'At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain a calculate token',
+      shipAbility: {
+        name: 'Networked Calculations',
+        text:
+          'While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result.',
+      },
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/phlacarphoccprototype-siegeofcoruscant.png',
+      slots: [],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          ability:
+            'While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.',
+          title: 'Contingency Protocol',
+          slots: ['Modification'],
+        },
+      ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png',
+      standard: true,
+      extended: true,
+      keywords: ['Droid'],
+      epic: true,
+    },
+    {
+      name: 'Volan Das',
+      xws: 'volandas',
+      initiative: 5,
+      limited: 1,
+      shipAbility: {
+        name: 'Modified for Organics',
+        text:
+          'This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers.',
+      },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        { difficulty: 'White', type: 'Evade' },
+        { difficulty: 'White', type: 'Lock' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Evade' },
+        },
+        {
+          difficulty: 'White',
+          type: 'Boost',
+          linked: { difficulty: 'Red', type: 'Focus' },
+        },
+      ],
+      caption: 'Impatient Invader',
+      standard: true,
+      extended: true,
+      ability:
+        'After you fully execute a red maneuver, you may chose an enemy ship at range 1. The chosen ship gains 1 strain token and you may remove 1 stress token.',
+      cost: 4,
+      loadout: 12,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/volandas.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/volandas.png',
+      slots: ['Talent', 'Missile', 'Illicit', 'Modification'],
+      keywords: ['Bounty Hunter'],
+      epic: true,
     },
   ],
   ffg: 77,

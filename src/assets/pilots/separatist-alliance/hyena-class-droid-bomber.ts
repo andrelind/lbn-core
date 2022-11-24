@@ -240,6 +240,115 @@ const t: ShipType = {
         },
       ],
     },
+    {
+      name: 'DBS-404',
+      caption: 'Siege of Coruscant',
+      initiative: 4,
+      limited: 1,
+      cost: 3,
+      xws: 'dbs404-siegeofcoruscant',
+      ability:
+        'While you perform an attack at range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.',
+      shipAbility: {
+        name: 'Networked Calculations',
+        text:
+          'While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result.',
+      },
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dbs404-siegeofcoruscant.png',
+      slots: [],
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Adv. Proton Torpedoes',
+
+          ability:
+            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Torpedo'],
+          charges: { value: 1, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 5,
+            minrange: 1,
+            maxrange: 1,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png',
+      standard: true,
+      extended: true,
+      keywords: ['Droid'],
+      epic: true,
+    },
+    {
+      name: 'Baktoid Prototype',
+      caption: 'Siege of Coruscant',
+      initiative: 1,
+      limited: 2,
+      cost: 3,
+      xws: 'baktoidprototype-siegeofcoruscant',
+      ability:
+        'While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [Focus], [Calculate], or [Lock] requirement of that attack.',
+      shipAbility: {
+        name: 'Networked Calculations',
+        text:
+          'While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result.',
+      },
+      slots: [],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/baktoidprototype-siegeofcoruscant.png',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Homing Missiles',
+          ability:
+            'Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.',
+          slots: ['Missile'],
+          charges: { value: 2, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 4,
+            minrange: 2,
+            maxrange: 3,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Contingency Protocol',
+          ability:
+            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+          slots: ['Modification'],
+        },
+        {
+          title: 'Strut-Lock Override',
+          ability:
+            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+          charges: { value: 2, recovers: 0 },
+          slots: ['Configuration'],
+        },
+      ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png',
+      standard: true,
+      extended: true,
+      keywords: ['Droid'],
+      epic: true,
+    },
   ],
   ffg: 64,
   icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Hyena.png',

@@ -139,6 +139,33 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg',
     },
+    {
+      name: 'Agent Tierny',
+      caption: 'Persuasive Recruiter',
+      initiative: 3,
+      limited: 1,
+      xws: 'agenttierny',
+      ability:
+        'Setup: After placing forces, you must assign the Broken Trust condition to an enemy ship.',
+      conditions: ['brokentrust'],
+      standard: true,
+      extended: true,
+      cost: 5,
+      loadout: 15,
+      slots: [
+        'Talent',
+        'Talent',
+        'Tech',
+        'Crew',
+        'Crew',
+        'Modification',
+        'Modification',
+      ],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/agenttierny.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/agenttierny.png',
+      epic: true,
+    },
   ],
   ffg: 73,
   icon:

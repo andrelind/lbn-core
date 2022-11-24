@@ -216,6 +216,40 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemustestpilot.png',
     },
+    {
+      name: 'Jul Jerjerrod',
+      xws: 'juljerjerrod',
+      initiative: 4,
+      limited: 1,
+      shipAbility: {
+        name: 'Pursuit Thrusters',
+        text: 'During the System Phase, you may perform a [Boost] action.',
+      },
+      standard: true,
+      extended: true,
+      cost: 4,
+      loadout: 13,
+      slots: [
+        'Tech',
+        'Talent',
+        'Torpedo',
+        'Missile',
+        'Gunner',
+        'Device',
+        'Device',
+        'Modification',
+        'Modification',
+      ],
+      ability:
+        'After you perform a [Boost] action, you may spend 1 [Charge] to remove 1 non-lock red or orange token.',
+      charges: { value: 2, recovers: 0 },
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/juljerjerrod.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/juljerjerrod.png',
+      caption: 'Security Commander',
+      keywords: ['TIE'],
+      epic: true,
+    },
   ],
 };
 

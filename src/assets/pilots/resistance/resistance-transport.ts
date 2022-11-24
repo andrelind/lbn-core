@@ -145,6 +145,33 @@ const t: ShipType = {
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg',
     },
+    {
+      name: 'Taka Jamoreesa',
+      caption: 'Snograth Enthusiast',
+      xws: 'takajamoreesa',
+      initiative: 2,
+      limited: 1,
+      ability:
+        'After you jam, you must assign 1 jam token to another ship at range 0-1 of the jammed ship, if able.',
+      standard: true,
+      extended: true,
+      cost: 4,
+      loadout: 15,
+      slots: [
+        'Talent',
+        'Tech',
+        'Cannon',
+        'Cannon',
+        'Torpedo',
+        'Astromech',
+        'Illicit',
+        'Modification',
+      ],
+      image: 'https://infinitearenas.com/xw2/images/pilots/takajamoreesa.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/takajamoreesa.png',
+      epic: true,
+    },
   ],
   ffg: 63,
   icon:
