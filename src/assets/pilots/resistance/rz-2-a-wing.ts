@@ -60,7 +60,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      loadout: 16,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png',
@@ -72,7 +72,7 @@ const t: ShipType = {
       caption: 'Deadly Approach',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'tallissanlintra',
       ability:
         'While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.',
@@ -94,7 +94,7 @@ const t: ShipType = {
       caption: 'Aerial Exhibitionist',
       initiative: 3,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'zaribangel',
       ability:
         'You do not skip your Perform Action step after you partially execute a maneuver.',
@@ -226,7 +226,7 @@ const t: ShipType = {
       xws: 'merlcobben',
       name: 'Merl Cobben',
       caption: 'Distracting Daredevil',
-      cost: 4,
+      cost: 3,
       initiative: 1,
       limited: 1,
       ability:
@@ -236,7 +236,7 @@ const t: ShipType = {
       epic: true,
       ffg: 704,
       keywords: ['A-wing'],
-      loadout: 7,
+      loadout: 4,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/18/3e/183ed99b-c562-4db5-9377-daf4661dfac9/swz68_merl-cobben.png',
@@ -268,7 +268,7 @@ const t: ShipType = {
       xws: 'wrobietyce',
       name: 'Wrobie Tyce',
       caption: 'Dynamic Aerialist',
-      cost: 4,
+      cost: 3,
       initiative: 4,
       limited: 1,
       ability:
@@ -278,7 +278,7 @@ const t: ShipType = {
       epic: true,
       ffg: 702,
       keywords: ['A-wing'],
-      loadout: 7,
+      loadout: 4,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/d3/66/d3669149-00da-4abf-9e08-9655e10db166/swz68_wrobie-tyce.png',
@@ -299,7 +299,7 @@ const t: ShipType = {
       epic: true,
       ffg: 701,
       keywords: ['A-wing'],
-      loadout: 5,
+      loadout: 12,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/73/ef/73ef0cdc-deb6-451d-a76c-0b3d9ef147ec/swz68_seftin-vanik.png',
