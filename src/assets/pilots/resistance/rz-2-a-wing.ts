@@ -51,7 +51,7 @@ const t: ShipType = {
       caption: 'Luminous Mentor',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'lulolampar',
       ability:
         'While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.',

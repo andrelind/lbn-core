@@ -168,13 +168,20 @@ const t: ShipType = {
     },
     {
       name: 'Lapin',
+      caption: 'Stickler for Details',
       initiative: 2,
       limited: 1,
-      cost: 0,
-      loadout: 0,
+      cost: 3,
+      loadout: 7,
       xws: 'lapin',
+      ability:
+        "While you defend or perform an attack, if the enemy ship is stressed, that ship's dice cannot be modified.",
+      shipAbility: {
+        name: 'Notched Stabilizers',
+        text: 'While you move, you ignore asteroids.',
+      },
       image: 'https://infinitearenas.com/xw2/images/pilots/lapin.png',
-      slots: [],
+      slots: ['Talent', 'Cannon', 'Modification', 'Modification'],
       standard: true,
       extended: true,
       keywords: ['TIE'],
