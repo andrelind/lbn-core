@@ -269,6 +269,7 @@ const shipMap: { [s: string]: string } = {
   customizedyt1300lightfreighter: '\u0057',
   droidtrifighter: '\u002b',
   delta7aethersprite: '\u005c',
+  delta7baethersprite: '\u005c',
   escapecraft: '\u0058',
   eta2actis: '\u002d',
   ewing: '\u0065',
@@ -336,10 +337,10 @@ const shipMap: { [s: string]: string } = {
   yt2400lightfreighter: '\u006f',
   yv666lightfreighter: '\u0074',
   z95af4headhunter: '\u007a',
-  clonez95headhunter: '\u0084',
-  rogueclassstarfighter: '\u0085',
-  st70assaultship: '\u0086',
-  gauntletfighter: '\u0085',
+  clonez95headhunter: '}',
+  rogueclassstarfighter: '|',
+  st70assaultship: "'",
+  gauntletfighter: '6',
 
   // Additional
   cr90corelliancorvette: '2',

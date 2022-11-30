@@ -35,7 +35,6 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Barrel Roll' },
     { difficulty: 'Red', type: 'Boost' },
   ],
-  icon: '???',
   ability: {
     name: 'Intuitive Interface',
     text:

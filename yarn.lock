@@ -538,6 +538,14 @@ lazystream@^1.0.0:
   dependencies:
     readable-stream "^2.0.5"
 
+lbn-core@^1.0.203:
+  version "1.0.203"
+  resolved "https://registry.yarnpkg.com/lbn-core/-/lbn-core-1.0.203.tgz#5a7877a4f6044dcbd2d484d687eec551078a8f8b"
+  integrity sha512-ttbhKfHZbAbfBEMmElxITCJJzpaQUYmLTJymqAMMGBoc/fM/oCpYGEYpwM/6JTdmJFST9XFguCRSHWQ9qeq9nw==
+  dependencies:
+    redux "^4.0.5"
+    uuid "^8.3.1"
+
 lie@~3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"

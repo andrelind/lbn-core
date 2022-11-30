@@ -305,9 +305,9 @@ const t: ShipType = {
       standard: true,
       force: { value: 2, recovers: 1, side: ['light'] },
       ability:
-        'At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.',
+        'At the start of the End Phase, you may perfrom a purple [Coordinate] action, even while stressed. After you perform a [Coordinate] action, if the chosen ship has the Born for This ship ability, you may coordinate 1 additional ship.',
       slots: [],
-      cost: 5,
+      cost: 4,
       epic: true,
       keywords: ['Jedi', 'Light Side'],
       loadout: 18,

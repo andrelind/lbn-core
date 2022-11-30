@@ -200,7 +200,7 @@ const t: ShipType = {
       ],
       standard: true,
       epic: true,
-      cost: 4,
+      cost: 3,
       slots: [],
       keywords: ['Droid'],
       loadout: 16,
