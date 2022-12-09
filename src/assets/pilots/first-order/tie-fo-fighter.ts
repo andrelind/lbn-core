@@ -308,7 +308,7 @@ const t: ShipType = {
       image: 'https://infinitearenas.com/xw2/images/pilots/lieutenantgalek.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantgalek.png',
-      slots: ['Talent', 'Talent', 'Tech', 'Modification'],
+      slots: ['Talent', 'Talent', 'Cannon', 'Tech', 'Modification'],
       standard: true,
       extended: true,
       keywords: ['TIE'],

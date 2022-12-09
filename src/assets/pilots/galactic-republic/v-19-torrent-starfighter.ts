@@ -189,7 +189,7 @@ const t: ShipType = {
       name: '“Kickback”',
       caption: 'Siege of Coruscant',
       xws: 'kickback-sigeofcoruscant',
-      initiative: 4,
+      initiative: 5,
       limited: 1,
       ability:
         'After you perform a [Barrel Roll] action, you may perform a red [Lock] action. If you do, before you perfrom the [Lock] action, you may gain 1 strain to treat it as white.',
