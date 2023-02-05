@@ -1,35 +1,35 @@
 Arguments: 
-  /usr/local/Cellar/node/18.0.0/bin/node /usr/local/bin/yarn publish
+  /opt/homebrew/Cellar/node/19.5.0/bin/node /Users/andrelind/.cache/node/corepack/yarn/1.22.19/bin/yarn.js publish
 
 PATH: 
-  /Users/andrelind/.rbenv/shims:/usr/local/sbin:/usr/local/opt/node@12/bin:/usr/local/opt/ruby/bin:/usr/local/opt/node@10/bin:/Users/andrelind/.poetry/bin:/Users/andrelind/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/andrelind/.rbenv/shims
+  /Users/andrelind/.rvm/gems/ruby-2.7.5/bin:/Users/andrelind/.rvm/gems/ruby-2.7.5@global/bin:/Users/andrelind/.rvm/rubies/ruby-2.7.5/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/Caskroom/miniforge/base/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/andrelind/.rvm/bin
 
 Yarn version: 
-  1.22.18
+  1.22.19
 
 Node version: 
-  18.0.0
+  19.5.0
 
 Platform: 
-  darwin x64
+  darwin arm64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137143:13)
-      at Interface.emit (node:events:527:28)
-      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1123:18)
-      at ReadStream.onkeypress (node:internal/readline/interface:272:20)
-      at ReadStream.emit (node:events:527:28)
-      at emitKeys (node:internal/readline/utils:358:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
-      at ReadStream.emit (node:events:527:28)
-      at addChunk (node:internal/streams/readable:324:12)
+  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:andrelind: failed to authenticate: Could not authenticate andrelind: bad password
+      at params.callback [as _callback] (/Users/andrelind/.cache/node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at self.callback (/Users/andrelind/.cache/node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/Users/andrelind/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/Users/andrelind/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
     "name": "lbn-core",
-    "version": "1.0.173",
+    "version": "1.0.207",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
@@ -613,6 +613,14 @@ Lockfile:
     integrity sha1-9plf4PggOS9hOWvolGJAe7dxaOQ=
     dependencies:
       readable-stream "^2.0.5"
+  
+  lbn-core@^1.0.203:
+    version "1.0.203"
+    resolved "https://registry.yarnpkg.com/lbn-core/-/lbn-core-1.0.203.tgz#5a7877a4f6044dcbd2d484d687eec551078a8f8b"
+    integrity sha512-ttbhKfHZbAbfBEMmElxITCJJzpaQUYmLTJymqAMMGBoc/fM/oCpYGEYpwM/6JTdmJFST9XFguCRSHWQ9qeq9nw==
+    dependencies:
+      redux "^4.0.5"
+      uuid "^8.3.1"
   
   lie@~3.3.0:
     version "3.3.0"

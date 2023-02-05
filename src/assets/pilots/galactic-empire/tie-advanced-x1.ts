@@ -219,6 +219,12 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
       ],
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 2 },
+        { type: 'agility', value: 3 },
+        { type: 'hull', value: 3 },
+        { type: 'shields', value: 3 },
+      ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png',
       artwork:
