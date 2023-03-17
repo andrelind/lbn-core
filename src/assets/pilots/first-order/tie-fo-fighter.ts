@@ -321,7 +321,7 @@ const t: ShipType = {
       limited: 1,
       cost: 3,
       loadout: 8,
-      xws: 'dt798-tiefofighter',
+      xws: 'dt798',
       ability:
         'While you perform a primary attack, if you are not strained, you may gain 1 strain token to roll 1 additional die.',
       image:

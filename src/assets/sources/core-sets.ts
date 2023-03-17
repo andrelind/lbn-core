@@ -313,7 +313,7 @@ export const t: Source[] = [
         takajamoreesa: 1,
         lieutenantgalek: 1,
         juljerjerrod: 1,
-        'dt798-tiefofighter': 1,
+        dt798: 1,
         lingaava: 1,
         agenttierny: 1,
       },
