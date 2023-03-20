@@ -210,9 +210,9 @@ const t: ShipType = {
       standardLoadout: true,
       upgrades: [
         {
+          title: 'Ion Limiter Override',
           ability:
             'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
-          title: 'Ion Limiter Override',
           slots: ['Talent'],
         },
         {
@@ -230,9 +230,9 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
         {
+          title: 'Alpha-3B "Besh"',
           ability:
             'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
-          title: 'Alpha-3B "Besh"',
           slots: ['Configuration'],
         },
       ],

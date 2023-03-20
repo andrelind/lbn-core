@@ -188,7 +188,7 @@ const t: ShipType = {
     {
       name: '“Kickback”',
       caption: 'Siege of Coruscant',
-      xws: 'kickback-sigeofcoruscant',
+      xws: 'kickback-siegeofcoruscant',
       initiative: 5,
       limited: 1,
       ability:
@@ -241,7 +241,7 @@ const t: ShipType = {
     {
       name: '“Axe”',
       caption: 'Siege of Coruscant',
-      xws: 'axe-sigeofcoruscant',
+      xws: 'axe-siegeofcoruscant',
       initiative: 3,
       limited: 1,
       ability:
