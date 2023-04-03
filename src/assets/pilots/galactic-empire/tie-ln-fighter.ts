@@ -351,7 +351,7 @@ const t: ShipType = {
       name: '“Mauler” Mithel',
       initiative: 5,
       limited: 1,
-      xws: 'maulermither-battleofyavin',
+      xws: 'maulermithel-battleofyavin',
       ability:
         'While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.',
       slots: [],

@@ -301,7 +301,7 @@ export const t: Source[] = [
         secondsister: 1,
         magnatolvan: 1,
         yricaquell: 1,
-        'hondoohnaka-firesprayclasspatrolcraft': 1,
+        hondoohnaka: 1,
         torphun: 1,
         'durge-separatistalliance': 1,
         doctoraphra: 1,
