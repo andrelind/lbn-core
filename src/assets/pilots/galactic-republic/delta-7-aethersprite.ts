@@ -116,7 +116,7 @@ const t: ShipType = {
       ],
       ffg: 513,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 8,
+      loadout: 14,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png',

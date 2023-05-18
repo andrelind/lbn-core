@@ -65,7 +65,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 22,
+      loadout: 18,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_149.png',

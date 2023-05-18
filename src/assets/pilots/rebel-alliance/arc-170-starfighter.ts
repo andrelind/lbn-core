@@ -42,7 +42,7 @@ const t: ShipType = {
       caption: 'Red Leader',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'garvendreis',
       ability:
         'After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.',
@@ -59,7 +59,7 @@ const t: ShipType = {
       ffg: 66,
       standard: true,
       epic: true,
-      loadout: 11,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_66.png',
@@ -71,7 +71,7 @@ const t: ShipType = {
       caption: 'Survivor of Endor',
       initiative: 3,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'ibtisam',
       ability:
         'After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [Hit] or [Critical Hit] result, remove 1 stress token.',
@@ -87,7 +87,7 @@ const t: ShipType = {
       ffg: 68,
       standard: true,
       epic: true,
-      loadout: 14,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_68.png',
@@ -99,7 +99,7 @@ const t: ShipType = {
       caption: 'Gold Nine',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'norrawexley',
       ability:
         'While you defend, if there is an enemy ship at range 0-1, add 1 [Evade] result to your dice results.',
@@ -115,7 +115,7 @@ const t: ShipType = {
       ffg: 65,
       standard: true,
       epic: true,
-      loadout: 16,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_65.png',
@@ -127,7 +127,7 @@ const t: ShipType = {
       caption: 'Green Four',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'sharabey',
       ability:
         'While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.',
@@ -144,7 +144,7 @@ const t: ShipType = {
       ffg: 67,
       standard: true,
       epic: true,
-      loadout: 12,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_67.png',

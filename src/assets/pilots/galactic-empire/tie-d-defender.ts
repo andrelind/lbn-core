@@ -200,19 +200,12 @@ const t: ShipType = {
       ability:
         'You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.',
       force: { value: 3, recovers: 1, side: ['dark'] },
-      slots: [
-        'Force Power',
-        'Talent',
-        'Tech',
-        'Cannon',
-        'Missile',
-        'Configuration',
-      ],
+      slots: ['Force Power', 'Tech', 'Cannon', 'Missile', 'Configuration'],
       standard: true,
       epic: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
       ffg: 886,
-      loadout: 14,
+      loadout: 10,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg',

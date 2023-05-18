@@ -89,7 +89,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       standard: true,
-      cost: 4,
+      cost: 3,
       slots: [
         'Talent',
         'Tech',
@@ -106,7 +106,7 @@ const t: ShipType = {
       caption: 'Jad Bean',
       keywords: ['TIE'],
       epic: true,
-      loadout: 10,
+      loadout: 7,
       extended: true,
       image:
         'https://infinitearenas.com/xw2/images/pilots/scorch_tiesebomber.png',
@@ -119,7 +119,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       standard: true,
-      cost: 4,
+      cost: 3,
       slots: [
         'Tech',
         'Torpedo',
@@ -136,7 +136,7 @@ const t: ShipType = {
       caption: 'Devotee of Devastation',
       ability:
         'After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.',
-      loadout: 12,
+      loadout: 8,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/dread.png',
       artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/dread.png',

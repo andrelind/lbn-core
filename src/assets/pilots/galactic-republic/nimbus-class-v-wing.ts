@@ -77,7 +77,7 @@ const t: ShipType = {
       xws: 'oddball-nimbusclassvwing',
       ffg: 788,
       name: '“Odd Ball”',
-      cost: 4,
+      cost: 3,
       limited: 1,
       initiative: 5,
       caption: 'CC-2237',
@@ -93,7 +93,7 @@ const t: ShipType = {
       ability:
         'After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.',
       keywords: ['Clone', 'TIE'],
-      loadout: 12,
+      loadout: 9,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/8e/70/8e70bbf1-d0ca-4367-9e3a-4ad0186af71f/swz80_ship_odd-ball.png',
@@ -192,7 +192,7 @@ const t: ShipType = {
       ability:
         "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
       slots: [],
-      cost: 3,
+      cost: 4,
       epic: true,
       ffg: 789,
       keywords: ['Clone', 'TIE'],
@@ -247,7 +247,7 @@ const t: ShipType = {
       ability:
         'While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied.',
       slots: [],
-      cost: 3,
+      cost: 4,
       epic: true,
       ffg: 790,
       keywords: ['Clone', 'TIE'],

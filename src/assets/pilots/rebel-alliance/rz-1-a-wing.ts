@@ -99,7 +99,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['A-wing'],
-      loadout: 8,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_19.png',
@@ -130,7 +130,7 @@ const t: ShipType = {
       xws: 'wedgeantilles-rz1awing',
       name: 'Wedge Antilles',
       caption: 'Promising Pilot',
-      cost: 4,
+      cost: 3,
       initiative: 4,
       limited: 1,
       ability:
@@ -140,7 +140,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['A-wing'],
       ffg: 883,
-      loadout: 10,
+      loadout: 5,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
@@ -149,7 +149,7 @@ const t: ShipType = {
       xws: 'sabinewren-rz1awing',
       name: 'Sabine Wren',
       caption: 'Daughter of Mandalore',
-      cost: 4,
+      cost: 3,
       initiative: 3,
       limited: 1,
       ability:
@@ -158,7 +158,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 885,
-      loadout: 11,
+      loadout: 7,
       extended: true,
       keywords: ['A-wing', 'Mandalorian'],
       artwork:
@@ -168,7 +168,7 @@ const t: ShipType = {
       xws: 'herasyndulla-rz1awing',
       name: 'Hera Syndulla',
       caption: 'Phoenix Leader',
-      cost: 5,
+      cost: 4,
       initiative: 6,
       limited: 1,
       ability:
@@ -184,7 +184,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 880,
-      loadout: 14,
+      loadout: 5,
       extended: true,
       keywords: ['A-wing', 'Spectre'],
       artwork:

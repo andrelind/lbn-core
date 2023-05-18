@@ -47,7 +47,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       standard: true,
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Tech',
@@ -62,7 +62,7 @@ const t: ShipType = {
         'After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.',
       charges: { value: 1, recovers: 1 },
       caption: 'Corsair of Kijimi',
-      loadout: 19,
+      loadout: 11,
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
@@ -80,6 +80,7 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Tech',
+        'Missile',
         'Turret',
         'Astromech',
         'Device',
@@ -108,6 +109,7 @@ const t: ShipType = {
       cost: 4,
       slots: [
         'Tech',
+        'Missile',
         'Turret',
         'Astromech',
         'Device',
@@ -135,7 +137,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       standard: true,
-      cost: 4,
+      cost: 3,
       slots: [
         'Talent',
         'Tech',
@@ -152,7 +154,7 @@ const t: ShipType = {
       caption: 'Artistic Ace',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 13,
+      loadout: 9,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/shasazaro.png',
       artwork:
@@ -164,7 +166,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       standard: true,
-      cost: 4,
+      cost: 3,
       slots: [
         'Talent',
         'Tech',
@@ -182,7 +184,7 @@ const t: ShipType = {
       caption: 'Hero of Humbarine',
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 14,
+      loadout: 7,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/legafossang.png',
       artwork:
@@ -224,7 +226,7 @@ const t: ShipType = {
       initiative: 1,
       limited: 1,
       standard: true,
-      cost: 4,
+      cost: 3,
       slots: [
         'Tech',
         'Turret',
@@ -242,7 +244,7 @@ const t: ShipType = {
       ability:
         'Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.',
       keywords: ['Y-wing'],
-      loadout: 15,
+      loadout: 8,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/coruskapellim.png',
       artwork:

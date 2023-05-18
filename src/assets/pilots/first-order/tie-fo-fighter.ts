@@ -44,7 +44,7 @@ const t: ShipType = {
       caption: 'Omega Leader',
       initiative: 6,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'midnight',
       ability:
         "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.",
@@ -60,7 +60,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 15,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/c7994885b38757f92bdf3a98c37b3c96.png',
@@ -103,7 +103,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 6,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/9dd11d408bb869cb947663fc29622833.png',
@@ -301,7 +301,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       cost: 3,
-      loadout: 8,
+      loadout: 7,
       xws: 'lieutenantgalek',
       ability:
         'After another friendly ship at range 0-2 is destroyed, you may perform a [Coordinate] action, even while stressed. While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.',
@@ -320,7 +320,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       cost: 3,
-      loadout: 8,
+      loadout: 6,
       xws: 'dt798',
       ability:
         'While you perform a primary attack, if you are not strained, you may gain 1 strain token to roll 1 additional die.',

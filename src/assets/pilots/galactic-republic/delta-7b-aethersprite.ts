@@ -108,7 +108,7 @@ const t: ShipType = {
       slots: ['Force Power', 'Talent', 'Astromech', 'Modification'],
       ffg: 513,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 17,
+      loadout: 19,
       extended: true,
       image:
         'https://infinitearenas.com/xw2/images/pilots/plokoon-delta7baethersprite.png',

@@ -56,7 +56,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_118.png',
@@ -77,7 +77,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 15,
+      loadout: 18,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_117.png',
@@ -98,7 +98,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 7,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_119.png',
@@ -159,7 +159,7 @@ const t: ShipType = {
       epic: true,
       ffg: 633,
       keywords: ['TIE'],
-      loadout: 10,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png',

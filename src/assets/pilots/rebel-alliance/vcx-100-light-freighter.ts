@@ -48,7 +48,7 @@ const t: ShipType = {
       caption: 'Spectre-3',
       initiative: 2,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'chopper',
       ability:
         'At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.',
@@ -70,7 +70,7 @@ const t: ShipType = {
       ffg: 75,
       standard: true,
       epic: true,
-      loadout: 18,
+      loadout: 14,
       extended: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
       image:
@@ -114,7 +114,7 @@ const t: ShipType = {
       caption: 'Spectre-1',
       initiative: 3,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'kananjarrus',
       ability:
         'While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.',

@@ -49,7 +49,7 @@ const t: ShipType = {
       xws: 'dgs047',
       name: 'DGS-047',
       caption: 'Adaptive Intelligence',
-      cost: 5,
+      cost: 3,
       initiative: 1,
       limited: 1,
       ability:
@@ -67,7 +67,7 @@ const t: ShipType = {
       epic: true,
       ffg: 666,
       keywords: ['Droid'],
-      loadout: 14,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/49791d2bcd4e67bc66e97c83f17dad24.png',
@@ -77,7 +77,7 @@ const t: ShipType = {
     {
       xws: 'baktoiddrone',
       name: 'Baktoid Drone',
-      cost: 5,
+      cost: 4,
       initiative: 1,
       limited: 0,
       slots: ['Missile', 'Device', 'Modification', 'Configuration'],
@@ -87,7 +87,7 @@ const t: ShipType = {
       text:
         'A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.',
       keywords: ['Droid'],
-      loadout: 10,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/3af13c610ba1544ae93383b2c8b10f90.png',
@@ -98,7 +98,7 @@ const t: ShipType = {
       xws: 'geonosianprototype',
       name: 'Geonosian Prototype',
       caption: 'Devastation Protocols',
-      cost: 5,
+      cost: 4,
       initiative: 2,
       limited: 2,
       ability:
@@ -116,7 +116,7 @@ const t: ShipType = {
       epic: true,
       ffg: 668,
       keywords: ['Droid'],
-      loadout: 18,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/1352254ba28a6191adfdea1273cedb8d.png',
@@ -127,7 +127,7 @@ const t: ShipType = {
       xws: 'dgs286',
       name: 'DGS-286',
       caption: 'Ambush Protocols',
-      cost: 5,
+      cost: 3,
       initiative: 3,
       limited: 1,
       ability:
@@ -145,7 +145,7 @@ const t: ShipType = {
       epic: true,
       ffg: 664,
       keywords: ['Droid'],
-      loadout: 20,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/b0d0b99b3b18b330f2c37221fb2696f9.png',
@@ -166,7 +166,7 @@ const t: ShipType = {
       epic: true,
       ffg: 665,
       keywords: ['Droid'],
-      loadout: 7,
+      loadout: 15,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/41b07fdfd2fc8af5d662796905266c6a.png',
@@ -183,10 +183,10 @@ const t: ShipType = {
       standard: true,
       epic: true,
       slots: ['Missile', 'Missile', 'Device', 'Modification', 'Configuration'],
-      cost: 5,
+      cost: 4,
       ffg: 667,
       keywords: ['Droid'],
-      loadout: 8,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png',

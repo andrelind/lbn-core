@@ -76,7 +76,7 @@ const t: ShipType = {
       caption: 'Scoundrel for Hire',
       initiative: 6,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'hansolo-modifiedyt1300lightfreighter',
       ability:
         'After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.',
@@ -107,7 +107,7 @@ const t: ShipType = {
       caption: 'General of the Alliance',
       initiative: 5,
       limited: 1,
-      cost: 8,
+      cost: 7,
       xws: 'landocalrissian-modifiedyt1300lightfreighter',
       ability:
         'After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.',
@@ -174,7 +174,7 @@ const t: ShipType = {
       ],
       ability:
         'After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].',
-      cost: 8,
+      cost: 7,
       ffg: 630,
       loadout: 24,
       extended: true,

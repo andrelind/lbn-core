@@ -51,7 +51,7 @@ const t: ShipType = {
       caption: 'Outer Rim Mercenary',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'dacebonearm',
       ability:
         'After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.',
@@ -69,7 +69,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 14,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_174.png',
@@ -130,7 +130,7 @@ const t: ShipType = {
       caption: 'Mercenary Miner',
       initiative: 2,
       limited: 1,
-      cost: 4,
+      cost: 5,
       xws: 'torkilmux',
       ability:
         'At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.',
@@ -139,7 +139,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 10,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_176.png',
@@ -150,7 +150,7 @@ const t: ShipType = {
       xws: 'gamutkey',
       name: 'Gamut Key',
       caption: 'Collaborationist Governor',
-      cost: 3,
+      cost: 4,
       initiative: 3,
       limited: 1,
       slots: [
@@ -194,7 +194,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['Jedi', 'Light Side', 'Freighter'],
       ffg: 897,
-      loadout: 10,
+      loadout: 6,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg',

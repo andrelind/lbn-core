@@ -121,7 +121,7 @@ const t: ShipType = {
       caption: 'Contingency Plan',
       initiative: 0,
       limited: 1,
-      cost: 1,
+      cost: 2,
       xws: 'nashtahpup',
       ability:
         "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth.",

@@ -70,7 +70,7 @@ const t: ShipType = {
       caption: 'Vengeful Corellian',
       initiative: 6,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'dengar',
       ability:
         'After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.',
@@ -89,7 +89,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Bounty Hunter'],
-      loadout: 22,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_214.png',

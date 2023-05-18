@@ -75,7 +75,7 @@ const t: ShipType = {
       slots: ['Talent', 'Tech', 'Crew', 'Modification', 'Modification'],
       cost: 3,
       ffg: 574,
-      loadout: 8,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/1dbf7b355d60f5b3f278522eb702f99f.png',
@@ -113,10 +113,10 @@ const t: ShipType = {
       ability:
         'While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.',
       slots: ['Talent', 'Talent', 'Tech', 'Crew', 'Modification'],
-      cost: 3,
+      cost: 4,
       ffg: 575,
       caption: 'Big Deal',
-      loadout: 12,
+      loadout: 15,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/311d88e51a039b79e9a422ab3c475288.png',

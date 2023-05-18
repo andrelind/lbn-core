@@ -50,7 +50,7 @@ const t: ShipType = {
       ffg: 136,
       standard: false,
       epic: true,
-      loadout: 11,
+      loadout: 14,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_136.png',
@@ -62,7 +62,7 @@ const t: ShipType = {
       caption: 'Pragmatic Survivor',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'majorvynder',
       ability:
         'While you defend, if you are disarmed, roll 1 additional defense die.',
@@ -70,7 +70,7 @@ const t: ShipType = {
       ffg: 135,
       standard: false,
       epic: true,
-      loadout: 21,
+      loadout: 16,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_135.png',

@@ -49,7 +49,7 @@ const t: ShipType = {
         'After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.',
       standard: true,
       epic: true,
-      cost: 8,
+      cost: 7,
       slots: [
         'Force Power',
         'Force Power',
@@ -63,7 +63,7 @@ const t: ShipType = {
         'Modification',
       ],
       ffg: 503,
-      loadout: 20,
+      loadout: 19,
       extended: true,
       keywords: ['Dark Side', 'Sith'],
       image:
@@ -125,7 +125,7 @@ const t: ShipType = {
     {
       name: '0-66',
       xws: '066',
-      cost: 6,
+      cost: 5,
       slots: ['Talent', 'Torpedo', 'Cannon', 'Crew', 'Device', 'Modification'],
       ffg: 505,
       caption: 'Sinister Automaton',
@@ -141,7 +141,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Droid'],
-      loadout: 16,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',

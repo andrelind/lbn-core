@@ -91,7 +91,7 @@ const t: ShipType = {
       xws: 'rampage',
       name: '“Rampage”',
       caption: 'Implacable Pursuer',
-      cost: 5,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability:
@@ -108,7 +108,7 @@ const t: ShipType = {
       epic: true,
       ffg: 693,
       keywords: ['TIE'],
-      loadout: 16,
+      loadout: 10,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png',
@@ -147,7 +147,7 @@ const t: ShipType = {
       name: 'Flight Leader Ubbel',
       caption: 'Onyx Leader',
       cost: 5,
-      loadout: 15,
+      loadout: 12,
       initiative: 5,
       limited: 1,
       slots: [

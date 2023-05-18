@@ -58,7 +58,7 @@ const t: ShipType = {
       ffg: 434,
       standard: false,
       epic: true,
-      loadout: 11,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/6b6a3bb8049699e2d66fe09531e8bc00.png',
@@ -88,7 +88,7 @@ const t: ShipType = {
       ffg: 433,
       standard: false,
       epic: true,
-      loadout: 7,
+      loadout: 17,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/b386dc25736682ebc785b15551de903b.png',
@@ -117,7 +117,7 @@ const t: ShipType = {
       ffg: 448,
       standard: false,
       epic: true,
-      loadout: 14,
+      loadout: 18,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/0d494986a24e6c55efae066a43161b0d.png',
@@ -148,7 +148,7 @@ const t: ShipType = {
       ffg: 432,
       standard: false,
       epic: true,
-      loadout: 9,
+      loadout: 19,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/c9189c7e510b4d734d4d78c4f595010f.png',
@@ -178,7 +178,7 @@ const t: ShipType = {
       ffg: 447,
       standard: false,
       epic: true,
-      loadout: 14,
+      loadout: 22,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/f58fe0b57dc4a9c878627f0fea9cf1ef.png',
@@ -208,7 +208,7 @@ const t: ShipType = {
       ffg: 431,
       standard: false,
       epic: true,
-      loadout: 14,
+      loadout: 22,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/43d9a0555f719a4cbe1ffe905fd38c46.png',
@@ -238,7 +238,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       ffg: 640,
-      loadout: 15,
+      loadout: 23,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/fab73e7af97d9d6169f0f504b60d34c2.png',

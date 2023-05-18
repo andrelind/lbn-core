@@ -80,7 +80,7 @@ const t: ShipType = {
       caption: 'Relentless Operative',
       initiative: 3,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'kylekatarn',
       ability:
         'At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.',
@@ -89,7 +89,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 12,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_43.png',
@@ -121,7 +121,7 @@ const t: ShipType = {
       caption: 'Good-Hearted Smuggler',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'roarkgarnet',
       ability:
         'At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.',
@@ -137,7 +137,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Freighter'],
-      loadout: 15,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_44.png',

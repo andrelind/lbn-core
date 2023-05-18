@@ -192,12 +192,12 @@ const t: ShipType = {
       xws: 'delmeeko',
       ability:
         'While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.',
-      slots: ['Talent', 'Cannon'],
+      slots: ['Talent', 'Cannon', 'Modification'],
       ffg: 85,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_85.png',
@@ -218,7 +218,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_84.png',
@@ -230,7 +230,7 @@ const t: ShipType = {
       caption: 'Inferno Leader',
       initiative: 4,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'idenversio',
       ability:
         'Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.',
@@ -275,12 +275,12 @@ const t: ShipType = {
       xws: 'seynmarana',
       ability:
         'While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Cannon', 'Modification'],
       ffg: 86,
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 8,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_86.png',
@@ -338,7 +338,7 @@ const t: ShipType = {
         'While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 [Charge] and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token.',
       slots: ['Talent', 'Missile', 'Illicit', 'Illicit', 'Modification'],
       keywords: ['TIE'],
-      cost: 3,
+      cost: 4,
       standard: true,
       epic: true,
       loadout: 8,

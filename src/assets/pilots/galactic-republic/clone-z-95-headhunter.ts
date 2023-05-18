@@ -83,8 +83,8 @@ const t: ShipType = {
       caption: 'CT-4860',
       initiative: 3,
       limited: 1,
-      cost: 3,
-      loadout: 8,
+      cost: 2,
+      loadout: 3,
       xws: 'boost',
       ability:
         'At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a [Boost] action.',
@@ -188,8 +188,8 @@ const t: ShipType = {
       caption: 'Evasive Aviator',
       initiative: 4,
       limited: 1,
-      cost: 3,
-      loadout: 8,
+      cost: 2,
+      loadout: 3,
       xws: 'slider',
       ability:
         'When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you may spend 2 [Charge] to execute it as a sideslip.',

@@ -42,7 +42,7 @@ const t: ShipType = {
       caption: 'Intelligence Chief',
       initiative: 5,
       limited: 1,
-      cost: 3,
+      cost: 4,
       xws: 'airencracken',
       ability:
         'After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red.',
@@ -50,7 +50,7 @@ const t: ShipType = {
       ffg: 27,
       standard: true,
       epic: true,
-      loadout: 9,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_27.png',
@@ -89,7 +89,7 @@ const t: ShipType = {
       ffg: 28,
       standard: true,
       epic: true,
-      loadout: 6,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_28.png',

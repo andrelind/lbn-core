@@ -173,7 +173,7 @@ const t: ShipType = {
       xws: 'elloasty',
       ability:
         'After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right]) maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.',
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Talent',
@@ -186,7 +186,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 11,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/f77180ae05fd919a0dff2225380246a6.png',
@@ -206,7 +206,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 9,
+      loadout: 13,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/df85f5b77e16363a05c8f68792440166.png',
@@ -221,8 +221,8 @@ const t: ShipType = {
       xws: 'karekun',
       ability:
         'While you boost, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
-      cost: 5,
-      loadout: 10,
+      cost: 4,
+      loadout: 8,
       slots: [
         'Talent',
         'Tech',
@@ -255,7 +255,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 10,
+      loadout: 14,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/3f43d6b3c6e87bde6a681e9d4421dec8.png',
@@ -283,7 +283,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 10,
+      loadout: 16,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/00a3c393a33b33168bc61e47749e1474.png',
@@ -298,13 +298,13 @@ const t: ShipType = {
       xws: 'jaycristubbs',
       ability:
         'After you fully execute a blue maneuver, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.',
-      cost: 5,
+      cost: 4,
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ffg: 450,
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 13,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png',
@@ -319,14 +319,14 @@ const t: ShipType = {
       xws: 'jessikapava',
       ability:
         'While you defend or perform an attack, you may spend 1 [Charge] or 1 non-recurring [Charge] from your equipped [Astromech] upgrade to reroll up to 1 of your dice for each other friendly ship at range 0-1.',
-      cost: 5,
+      cost: 4,
       charges: { value: 1, recovers: 1 },
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ffg: 423,
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 11,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png',
@@ -354,7 +354,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 11,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png',
@@ -393,7 +393,7 @@ const t: ShipType = {
       xws: 'caithrenalli',
       name: 'C’ai Threnalli',
       caption: 'Tenacious Survivor',
-      cost: 5,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability:
@@ -403,7 +403,7 @@ const t: ShipType = {
       epic: true,
       ffg: 699,
       keywords: ['X-wing'],
-      loadout: 13,
+      loadout: 7,
       extended: true,
       image:
         'https://images-cdn.fantasyflightgames.com/filer_public/60/8a/608a4657-6612-417d-bd10-be587c2a208f/swz68_cai-threnalli.png',
@@ -417,8 +417,8 @@ const t: ShipType = {
       limited: 1,
       caption: 'Hopeful Hero',
       standard: true,
-      cost: 5,
-      loadout: 10,
+      cost: 4,
+      loadout: 9,
       slots: ['Tech', 'Astromech', 'Modification', 'Configuration'],
       ability:
         "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
@@ -443,8 +443,8 @@ const t: ShipType = {
       caption: 'Jade Leader',
       standard: true,
       extended: true,
-      cost: 5,
-      loadout: 13,
+      cost: 4,
+      loadout: 7,
       slots: [
         'Talent',
         'Tech',

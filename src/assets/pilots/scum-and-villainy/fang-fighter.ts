@@ -57,8 +57,8 @@ const t: ShipType = {
       caption: 'Skull Leader',
       initiative: 6,
       limited: 1,
-      cost: 7,
-      loadout: 18,
+      cost: 6,
+      loadout: 12,
       xws: 'fennrau',
       ability:
         'While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.',
@@ -78,7 +78,7 @@ const t: ShipType = {
       caption: 'Skull Squadron Ace',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'joyrekkoff',
       ability:
         'While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.',
@@ -87,7 +87,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 11,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_157.png',
@@ -99,7 +99,7 @@ const t: ShipType = {
       caption: 'Skilled Commando',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'kadsolus',
       ability: 'After you fully execute a red maneuver, gain 2 focus tokens.',
       slots: ['Talent', 'Missile', 'Modification'],
@@ -107,7 +107,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 12,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_158.png',
@@ -119,7 +119,7 @@ const t: ShipType = {
       caption: 'Mandalorian Mentor',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'oldteroch',
       ability:
         'At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [Front Arc], it removes all of its green tokens.',
@@ -128,7 +128,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 16,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_156.png',
@@ -139,7 +139,7 @@ const t: ShipType = {
       name: 'Skull Squadron Pilot',
       initiative: 4,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'skullsquadronpilot',
       text:
         "The aces of Skull Squadron favor an aggressive approach, using their craft's pivot wing technology to achieve unmatched agility in the pursuit of their quarry.",
@@ -159,7 +159,7 @@ const t: ShipType = {
       name: 'Zealous Recruit',
       initiative: 1,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'zealousrecruit',
       text:
         "Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships' narrow attack profile to execute deadly head-on charges.",
@@ -168,7 +168,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Mandalorian'],
-      loadout: 8,
+      loadout: 5,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_160.png',
@@ -185,10 +185,10 @@ const t: ShipType = {
       slots: ['Talent', 'Missile', 'Modification'],
       ffg: 159,
       keywords: ['Mandalorian'],
-      cost: 5,
+      cost: 4,
       standard: true,
       epic: true,
-      loadout: 10,
+      loadout: 7,
       extended: true,
       caption: 'Selfless Protector',
       image:
@@ -202,7 +202,7 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       cost: 4,
-      loadout: 7,
+      loadout: 11,
       xws: 'torphun',
       ability:
         'After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.',

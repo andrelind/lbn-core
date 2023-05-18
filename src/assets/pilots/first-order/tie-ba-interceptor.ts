@@ -53,7 +53,7 @@ const t: ShipType = {
       caption: 'Red Baron',
       initiative: 6,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'majorvonreg',
       ability:
         'During the System Phase, you may choose 1 enemy ship in your [Bullseye Arc]. That ship gains 1 deplete or strain token of your choice.',
@@ -69,7 +69,7 @@ const t: ShipType = {
       epic: true,
       ffg: 624,
       keywords: ['TIE'],
-      loadout: 18,
+      loadout: 14,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png',
@@ -122,7 +122,7 @@ const t: ShipType = {
       name: 'First Order Provocateur',
       initiative: 3,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'firstorderprovocateur',
       slots: ['Talent', 'Tech', 'Modification'],
       standard: true,

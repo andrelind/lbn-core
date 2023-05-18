@@ -50,7 +50,7 @@ const t: ShipType = {
       caption: 'Slippery Trickster',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'echo',
       ability:
         'While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.',
@@ -59,7 +59,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      loadout: 11,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_132.png',
@@ -71,7 +71,7 @@ const t: ShipType = {
       caption: 'Soft-Spoken Slayer',
       initiative: 5,
       limited: 1,
-      cost: 7,
+      cost: 5,
       xws: 'whisper',
       ability: 'After you perform an attack that hits, gain 1 evade token.',
       slots: ['Talent', 'Sensor', 'Gunner', 'Modification', 'Modification'],
@@ -79,7 +79,7 @@ const t: ShipType = {
       standard: false,
       epic: true,
       keywords: ['TIE'],
-      loadout: 15,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_131.png',

@@ -74,10 +74,10 @@ const t: ShipType = {
       caption: 'Bravo Leader',
       standard: true,
       epic: true,
-      cost: 5,
+      cost: 4,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 557,
-      loadout: 15,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png',
@@ -94,10 +94,10 @@ const t: ShipType = {
       epic: true,
       ability:
         'While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).',
-      cost: 5,
+      cost: 4,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 559,
-      loadout: 22,
+      loadout: 18,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png',

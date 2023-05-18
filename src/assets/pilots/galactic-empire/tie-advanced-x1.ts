@@ -85,7 +85,7 @@ const t: ShipType = {
       caption: 'Servant of the Empire',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'maarekstele',
       ability:
         'While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.',
@@ -94,7 +94,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 14,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_94.png',
@@ -176,7 +176,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 14,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_96.png',

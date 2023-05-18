@@ -63,7 +63,7 @@ const t: ShipType = {
       ],
       cost: 8,
       ffg: 800,
-      loadout: 27,
+      loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter'],
       image:
@@ -75,7 +75,7 @@ const t: ShipType = {
       xws: 'zamwesell',
       name: 'Zam Wesell',
       caption: 'Clawdite Changeling',
-      cost: 9,
+      cost: 8,
       initiative: 5,
       limited: 1,
       ability:
@@ -161,8 +161,8 @@ const t: ShipType = {
       ability:
         'Before you engage, you may spend 1 [Force] to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.',
       force: { value: 1, recovers: 1, side: ['dark'] },
-      cost: 8,
-      loadout: 18,
+      cost: 7,
+      loadout: 10,
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/aurrasing.png',
       image: 'https://infinitearenas.com/xw2/images/pilots/aurrasing.png',

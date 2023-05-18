@@ -64,7 +64,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       standard: true,
-      cost: 6,
+      cost: 5,
       slots: [
         'Force Power',
         'Force Power',
@@ -82,7 +82,7 @@ const t: ShipType = {
       keywords: ['Dark Side', 'Light Side', 'TIE'],
       force: { value: 3, recovers: 1, side: ['dark', 'light'] },
       epic: true,
-      loadout: 18,
+      loadout: 14,
       extended: true,
       image:
         'https://infinitearenas.com/xw2/images/pilots/kyloren-tiewiwhispermodifiedinterceptor.png',

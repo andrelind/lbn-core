@@ -41,8 +41,8 @@ const t: ShipType = {
       ability:
         'While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.',
       force: { side: ['dark'], value: 3, recovers: 1 },
-      cost: 9,
-      loadout: 20,
+      cost: 8,
+      loadout: 15,
       initiative: 5,
       limited: 1,
       standard: true,
@@ -70,7 +70,7 @@ const t: ShipType = {
       xws: 'rookkast',
       name: 'Rook Kast',
       cost: 7,
-      loadout: 18,
+      loadout: 14,
       initiative: 3,
       limited: 1,
       ability:

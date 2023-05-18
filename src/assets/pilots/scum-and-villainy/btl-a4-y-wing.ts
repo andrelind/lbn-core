@@ -62,7 +62,7 @@ const t: ShipType = {
       caption: 'Pirate Lord',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'drearenthal',
       ability:
         'While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.',
@@ -112,7 +112,7 @@ const t: ShipType = {
       caption: 'Callous Corsair',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'kavil',
       ability:
         'While you perform a non-[Front Arc] attack, roll 1 additional attack die.',
@@ -130,7 +130,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 18,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_165.png',
@@ -141,7 +141,7 @@ const t: ShipType = {
       xws: 'leemakai',
       name: 'Leema Kai',
       caption: 'Opportunity Knocks',
-      cost: 4,
+      cost: 3,
       initiative: 5,
       limited: 1,
       ability:
@@ -159,7 +159,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       ffg: 898,
-      loadout: 14,
+      loadout: 8,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg',
@@ -168,7 +168,7 @@ const t: ShipType = {
       xws: 'arlizhadrassian',
       name: 'Arliz Hadrassian',
       caption: 'Crimson Blade',
-      cost: 4,
+      cost: 3,
       initiative: 4,
       limited: 1,
       ability:
@@ -186,7 +186,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       ffg: 899,
-      loadout: 13,
+      loadout: 10,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg',

@@ -68,7 +68,7 @@ const t: ShipType = {
     {
       name: '“Jag”',
       xws: 'jag',
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Torpedo',
@@ -87,7 +87,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 14,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
@@ -97,7 +97,7 @@ const t: ShipType = {
     {
       name: '“Odd Ball”',
       xws: 'oddball-arc170starfighter',
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Sensor',
@@ -117,7 +117,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 15,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
@@ -127,7 +127,7 @@ const t: ShipType = {
     {
       name: '“Wolffe”',
       xws: 'wolffe',
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Torpedo',
@@ -146,7 +146,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Clone'],
-      loadout: 12,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
@@ -237,7 +237,7 @@ const t: ShipType = {
     {
       name: '“Odd Ball”',
       xws: 'oddball-siegeofcoruscant',
-      cost: 5,
+      cost: 4,
       slots: [],
       ffg: 523,
       caption: 'Siege of Coruscant',

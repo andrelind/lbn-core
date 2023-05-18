@@ -107,7 +107,7 @@ const t: ShipType = {
       caption: 'Spectre-5',
       initiative: 3,
       limited: 1,
-      cost: 3,
+      cost: 2,
       xws: 'sabinewren-tielnfighter',
       ability:
         'Before you activate, you may perform a [Barrel Roll] or [Boost] action.',
@@ -115,7 +115,7 @@ const t: ShipType = {
       ffg: 47,
       standard: true,
       epic: true,
-      loadout: 7,
+      loadout: 3,
       extended: true,
       keywords: ['Mandalorian', 'TIE', 'Spectre'],
       image:

@@ -46,7 +46,7 @@ const t: ShipType = {
       name: 'Blade Squadron Veteran',
       initiative: 3,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'bladesquadronveteran',
       text:
         "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
@@ -55,7 +55,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      loadout: 6,
+      loadout: 4,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_25.png',
@@ -66,7 +66,7 @@ const t: ShipType = {
       name: 'Blue Squadron Pilot',
       initiative: 2,
       limited: 0,
-      cost: 5,
+      cost: 4,
       xws: 'bluesquadronpilot',
       text:
         "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
@@ -75,7 +75,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      loadout: 6,
+      loadout: 4,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_26.png',
@@ -147,7 +147,7 @@ const t: ShipType = {
       caption: 'Insubordinate Ace',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'ginamoonsong',
       ability:
         'At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.',
@@ -165,7 +165,7 @@ const t: ShipType = {
       epic: true,
       ffg: 628,
       keywords: ['B-wing'],
-      loadout: 16,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png',
@@ -176,7 +176,7 @@ const t: ShipType = {
       xws: 'herasyndulla-asf01bwing',
       name: 'Hera Syndulla',
       caption: 'Phoenix Leader',
-      cost: 6,
+      cost: 5,
       initiative: 6,
       limited: 1,
       ability:
@@ -196,7 +196,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       ffg: 878,
-      loadout: 20,
+      loadout: 14,
       extended: true,
       keywords: ['B-wing', 'Spectre'],
       artwork:
@@ -206,7 +206,7 @@ const t: ShipType = {
       xws: 'netrempollard',
       name: 'Netrem Pollard',
       caption: 'Dagger Leader',
-      cost: 5,
+      cost: 4,
       initiative: 3,
       limited: 1,
       ability:
@@ -225,7 +225,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing'],
       ffg: 879,
-      loadout: 18,
+      loadout: 10,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg',

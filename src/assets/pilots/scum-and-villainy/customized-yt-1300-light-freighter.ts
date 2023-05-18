@@ -44,7 +44,7 @@ const t: ShipType = {
       name: 'Freighter Captain',
       initiative: 1,
       limited: 0,
-      cost: 6,
+      cost: 5,
       xws: 'freightercaptain',
       text:
         'Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.',
@@ -95,7 +95,7 @@ const t: ShipType = {
       caption: 'Droid Revolutionary',
       initiative: 2,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'l337',
       ability:
         'If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.',
@@ -117,7 +117,7 @@ const t: ShipType = {
       ffg: 224,
       standard: true,
       epic: true,
-      loadout: 15,
+      loadout: 9,
       extended: true,
       keywords: ['Droid', 'Freighter', 'YT-1300'],
       image:
@@ -130,7 +130,7 @@ const t: ShipType = {
       caption: 'Smooth-talking Gambler',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'landocalrissian',
       ability:
         'After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.',
@@ -147,7 +147,7 @@ const t: ShipType = {
       ffg: 223,
       standard: true,
       epic: true,
-      loadout: 17,
+      loadout: 10,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:

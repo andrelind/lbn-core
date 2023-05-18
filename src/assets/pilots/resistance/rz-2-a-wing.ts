@@ -194,7 +194,7 @@ const t: ShipType = {
       ffg: 638,
       caption: 'Committed to the Cause',
       keywords: ['A-wing'],
-      loadout: 15,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png',

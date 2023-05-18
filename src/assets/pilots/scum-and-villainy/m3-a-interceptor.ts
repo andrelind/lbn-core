@@ -71,7 +71,7 @@ const t: ShipType = {
       xws: 'genesisred',
       ability:
         'After you acquire a lock, you must remove all of your focus and evade tokens. Then, gain the same number of focus and evade tokens that the locked ship has.',
-      slots: ['Talent', 'Modification'],
+      slots: ['Talent', 'Illicit', 'Modification'],
       ffg: 184,
       standard: true,
       epic: true,
@@ -95,7 +95,7 @@ const t: ShipType = {
       ffg: 187,
       standard: true,
       epic: true,
-      loadout: 6,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_187.png',
@@ -115,7 +115,7 @@ const t: ShipType = {
       ffg: 185,
       standard: true,
       epic: true,
-      loadout: 7,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_185.png',
@@ -135,7 +135,7 @@ const t: ShipType = {
       ffg: 186,
       standard: true,
       epic: true,
-      loadout: 7,
+      loadout: 12,
       extended: true,
       keywords: ['Bounty Hunter'],
       image:
@@ -152,7 +152,7 @@ const t: ShipType = {
       xws: 'serissu',
       ability:
         'While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.',
-      slots: ['Talent', 'Talent', 'Modification', 'Modification'],
+      slots: ['Talent', 'Talent', 'Cannon', 'Modification', 'Modification'],
       ffg: 183,
       standard: true,
       epic: true,
@@ -222,7 +222,7 @@ const t: ShipType = {
       ],
       epic: true,
       keywords: ['Droid'],
-      loadout: 6,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png',

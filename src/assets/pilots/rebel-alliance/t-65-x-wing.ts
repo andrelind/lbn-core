@@ -232,7 +232,7 @@ const t: ShipType = {
       ffg: 2,
       standard: true,
       epic: true,
-      loadout: 22,
+      loadout: 24,
       extended: true,
       keywords: ['Light Side', 'X-wing'],
       image:
@@ -265,7 +265,7 @@ const t: ShipType = {
       caption: 'Corona Four',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'thanekyrell',
       ability:
         "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
@@ -274,7 +274,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['X-wing'],
-      loadout: 14,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_3.png',
@@ -286,8 +286,8 @@ const t: ShipType = {
       caption: 'Red Two',
       initiative: 6,
       limited: 1,
-      cost: 6,
-      loadout: 18,
+      cost: 5,
+      loadout: 9,
       xws: 'wedgeantilles',
       ability:
         'While you perform an attack, the defender rolls 1 fewer defense die.',
@@ -602,8 +602,8 @@ const t: ShipType = {
       caption: 'Rogue Nine',
       initiative: 5,
       limited: 1,
-      cost: 5,
-      loadout: 18,
+      cost: 4,
+      loadout: 9,
       xws: 'corranhorn-t65xwing',
       ability:
         'After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.',
@@ -629,7 +629,7 @@ const t: ShipType = {
       charges: { value: 1, recovers: 1 },
       slots: [
         'Talent',
-        'Torpedo',
+        'Missile',
         'Astromech',
         'Modification',
         'Configuration',

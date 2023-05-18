@@ -46,7 +46,7 @@ const t: ShipType = {
       xws: 'hawk',
       ffg: 660,
       name: '“Hawk”',
-      cost: 5,
+      cost: 6,
       limited: 1,
       initiative: 4,
       caption: 'Valkyrie 2929',
@@ -65,7 +65,7 @@ const t: ShipType = {
       ability:
         'At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.',
       keywords: ['Clone'],
-      loadout: 12,
+      loadout: 25,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/e1fe9b6985d7c9960d634734abd9f9eb.png',

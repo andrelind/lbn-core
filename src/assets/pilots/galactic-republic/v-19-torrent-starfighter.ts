@@ -248,7 +248,7 @@ const t: ShipType = {
         'After you perform an attack, you may choose another friendly ship with the <strong>Born for This</strong> ability at range 0-2 in your [Left Arc] or [Right Arc]. The chosen ship gains a lock on the defender.',
       standard: true,
       epic: true,
-      cost: 4,
+      cost: 3,
       slots: [],
       keywords: ['Clone'],
       loadout: 8,

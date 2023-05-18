@@ -62,8 +62,8 @@ const t: ShipType = {
       caption: 'Infamous Bounty Hunter',
       initiative: 4,
       limited: 1,
-      cost: 5,
-      loadout: 18,
+      cost: 4,
+      loadout: 13,
       xws: 'cadbane',
       slots: [
         'Talent',
@@ -91,8 +91,8 @@ const t: ShipType = {
       caption: 'Storied Bounty Hunter',
       initiative: 4,
       limited: 1,
-      cost: 5,
-      loadout: 16,
+      cost: 4,
+      loadout: 11,
       xws: 'viktorhel-rogueclassstarfighter',
       slots: [
         'Talent',
@@ -118,8 +118,8 @@ const t: ShipType = {
       caption: 'Laughing Bandit',
       initiative: 1,
       limited: 1,
-      cost: 5,
-      loadout: 19,
+      cost: 4,
+      loadout: 11,
       xws: 'nomlumb-rogueclassstarfighter',
       slots: [
         'Talent',
@@ -145,8 +145,8 @@ const t: ShipType = {
       name: 'Outer Rim Hunter',
       initiative: 3,
       limited: 0,
-      cost: 5,
-      loadout: 4,
+      cost: 4,
+      loadout: 5,
       xws: 'outerrimhunter',
       slots: ['Cannon', 'Cannon', 'Illicit', 'Modification'],
       text:

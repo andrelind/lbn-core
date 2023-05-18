@@ -41,7 +41,7 @@ const t: ShipType = {
       caption: 'Fearsome Hunter',
       initiative: 4,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'bossk',
       ability:
         'While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.',
@@ -59,7 +59,7 @@ const t: ShipType = {
       ffg: 210,
       standard: true,
       epic: true,
-      loadout: 22,
+      loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
       image:
@@ -90,7 +90,7 @@ const t: ShipType = {
       ffg: 212,
       standard: true,
       epic: true,
-      loadout: 16,
+      loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
       image:

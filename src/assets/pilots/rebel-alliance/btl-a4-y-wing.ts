@@ -72,7 +72,7 @@ const t: ShipType = {
       caption: 'Gold Three',
       initiative: 3,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'evaanverlaine',
       ability:
         'At the start of the Engagement Phase, you may spend 1 focus token to choose a friendly ship at range 0-1. If you do, that ship rolls 1 additional defense die while defending until the end of the round.',
@@ -90,7 +90,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 15,
+      loadout: 8,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_16.png',
@@ -142,7 +142,7 @@ const t: ShipType = {
       caption: 'Gray Leader',
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'hortonsalm',
       ability:
         'While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.',
@@ -159,7 +159,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Y-wing'],
-      loadout: 14,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_15.png',
@@ -178,7 +178,7 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Turret',
-        'Torpedo',
+        'Gunner',
         'Astromech',
         'Device',
         'Modification',

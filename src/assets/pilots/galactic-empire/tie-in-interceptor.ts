@@ -89,7 +89,7 @@ const t: ShipType = {
       caption: 'Ace of Legend',
       initiative: 6,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'soontirfel',
       ability:
         'At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.',
@@ -98,7 +98,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 15,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_103.png',
@@ -140,7 +140,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 889,
-      loadout: 10,
+      loadout: 14,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg',
@@ -149,7 +149,7 @@ const t: ShipType = {
       xws: 'gideonhask-tieininterceptor',
       name: 'Gideon Hask',
       caption: 'Inferno Two',
-      cost: 5,
+      cost: 4,
       initiative: 4,
       limited: 1,
       ability:
@@ -159,7 +159,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['TIE'],
       ffg: 892,
-      loadout: 12,
+      loadout: 7,
       extended: true,
       artwork:
         'https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg',
@@ -169,7 +169,7 @@ const t: ShipType = {
       name: 'Vult Skerris',
       caption: 'Arrogant Ace',
       cost: 4,
-      loadout: 6,
+      loadout: 9,
       initiative: 5,
       limited: 1,
       ability:
@@ -206,7 +206,7 @@ const t: ShipType = {
       xws: 'lieutenantlorrir',
       name: 'Lieutenant Lorrir',
       caption: 'Requiem for Brentaal',
-      cost: 4,
+      cost: 3,
       initiative: 3,
       limited: 1,
       ability:
@@ -254,7 +254,7 @@ const t: ShipType = {
       },
       standard: true,
       extended: true,
-      cost: 6,
+      cost: 5,
       charges: { value: 2, recovers: 1 },
       slots: [],
       standardLoadout: true,

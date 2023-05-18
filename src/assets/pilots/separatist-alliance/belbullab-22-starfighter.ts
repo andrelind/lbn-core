@@ -59,7 +59,7 @@ const t: ShipType = {
       cost: 5,
       slots: ['Talent', 'Missile', 'Title', 'Modification', 'Modification'],
       ffg: 492,
-      loadout: 12,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png',
@@ -79,7 +79,7 @@ const t: ShipType = {
       cost: 4,
       slots: ['Talent', 'Tactical Relay', 'Modification', 'Modification'],
       ffg: 493,
-      loadout: 7,
+      loadout: 9,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png',
@@ -133,7 +133,7 @@ const t: ShipType = {
       cost: 5,
       slots: ['Tactical Relay', 'Modification', 'Modification'],
       ffg: 494,
-      loadout: 15,
+      loadout: 17,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png',

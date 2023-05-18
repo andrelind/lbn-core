@@ -67,7 +67,7 @@ const t: ShipType = {
       xws: 'chewbacca-scavengedyt1300',
       ability:
         'After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.',
-      cost: 7,
+      cost: 6,
       loadout: 18,
       slots: [
         'Talent',
@@ -131,7 +131,7 @@ const t: ShipType = {
       ability:
         'While you defend or perform an attack, if the enemy ship is in your [Front Arc], you may spend 1 [Force] to change 1 of your blank results to an [Evade] or [Hit] result.',
       force: { value: 2, recovers: 1, side: ['light'] },
-      cost: 8,
+      cost: 7,
       slots: [
         'Force Power',
         'Talent',
@@ -198,7 +198,7 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-scavengedyt1300.png',
       charges: { value: 3, recovers: 1 },
-      cost: 8,
+      cost: 7,
       loadout: 20,
       slots: [
         'Talent',

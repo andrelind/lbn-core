@@ -68,7 +68,7 @@ const t: ShipType = {
       caption: 'Defiant Duelist',
       initiative: 6,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'quickdraw',
       ability:
         'After you lose a shield, you may spend 1 [Charge]. If you do, you may perform a bonus primary attack.',
@@ -78,7 +78,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 25,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png',
@@ -150,7 +150,7 @@ const t: ShipType = {
       name: 'Lieutenant LeHuse',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'lieutenantlehuse',
       slots: [
         'Talent',
@@ -168,7 +168,7 @@ const t: ShipType = {
       ability:
         "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results.",
       keywords: ['TIE'],
-      loadout: 18,
+      loadout: 7,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png',

@@ -51,7 +51,7 @@ const t: ShipType = {
       caption: 'Ill-Fated Test Pilot',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       ability:
         'While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.',
       slots: ['Talent', 'Tech', 'Tech', 'Torpedo', 'Missile', 'Configuration'],
@@ -59,7 +59,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 20,
+      loadout: 12,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/c5659b210e13b4e11fdd5f1396f2847c.png',
@@ -82,7 +82,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['Dark Side', 'TIE'],
-      loadout: 16,
+      loadout: 22,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png',
@@ -123,7 +123,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/ab11858b2b9ac5c8bbfb2dc21023ba34.png',
@@ -144,7 +144,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 6,
+      loadout: 10,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/d90d3057ead18b5df5f6de55a199a4cd.png',
@@ -184,7 +184,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 7,
+      loadout: 11,
       extended: true,
       image:
         'https://squadbuilder.fantasyflightgames.com/card_images/en/886d715885da65bdf10ad7c68e4d0a93.png',

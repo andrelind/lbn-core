@@ -61,7 +61,7 @@ const t: ShipType = {
       caption: 'Tenacious Investigator',
       initiative: 5,
       limited: 1,
-      cost: 7,
+      cost: 6,
       xws: 'corranhorn',
       ability:
         'At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.',
@@ -89,7 +89,7 @@ const t: ShipType = {
       caption: 'Bold Wingman',
       initiative: 4,
       limited: 1,
-      cost: 6,
+      cost: 5,
       xws: 'gavindarklighter',
       ability:
         'While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.',
@@ -115,7 +115,7 @@ const t: ShipType = {
       name: 'Knave Squadron Escort',
       initiative: 2,
       limited: 0,
-      cost: 6,
+      cost: 5,
       xws: 'knavesquadronescort',
       text:
         'Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.',
@@ -134,7 +134,7 @@ const t: ShipType = {
       name: 'Rogue Squadron Escort',
       initiative: 4,
       limited: 0,
-      cost: 6,
+      cost: 5,
       xws: 'roguesquadronescort',
       text:
         "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
