@@ -177,7 +177,7 @@ const t: UpgradeBase[] = [
           'https://squadbuilder.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png',
       },
     ],
-    cost: { value: 8 },
+    cost: { value: 6 },
     standard: true,
     epic: true,
     restrictions: [{ factions: ['First Order'] }],

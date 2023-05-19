@@ -20,7 +20,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
-    cost: { value: 10 },
+    cost: { value: 8 },
     extended: true,
   },
   {
@@ -37,7 +37,7 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    cost: { value: 5 },
+    cost: { value: 3 },
     standard: true,
     epic: true,
     extended: true,
@@ -56,7 +56,7 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
-    cost: { value: 6 },
+    cost: { value: 4 },
     standard: true,
     epic: true,
     extended: true,
@@ -77,13 +77,13 @@ const t: UpgradeBase[] = [
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
-    cost: { value: 8 },
+    cost: { value: 6 },
     extended: true,
   },
   {
     xws: 'kalani',
     limited: 1,
-    cost: { value: 5 },
+    cost: { value: 3 },
     sides: [
       {
         ffg: 682,

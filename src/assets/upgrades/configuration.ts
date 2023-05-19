@@ -326,7 +326,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'alpha3bbesh',
     limited: 0,
-    cost: { value: 0 },
+    cost: { value: 1 },
     sides: [
       {
         ability:
@@ -579,7 +579,7 @@ const t: UpgradeBase[] = [
         ffg: 929,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 2 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
     standard: true,
     epic: true,

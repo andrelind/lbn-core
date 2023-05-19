@@ -1132,7 +1132,7 @@ const t: UpgradeBase[] = [
   },
   {
     xws: 'nightbrother',
-    limited: 0,
+    limited: 1,
     cost: { value: 0 },
     sides: [
       {
@@ -1157,7 +1157,7 @@ const t: UpgradeBase[] = [
   },
   {
     xws: 'gauntlet',
-    limited: 0,
+    limited: 1,
     cost: { value: 0 },
     sides: [
       {

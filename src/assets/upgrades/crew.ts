@@ -73,7 +73,7 @@ const t: UpgradeBase[] = [
         ffg: 353,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 8 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
@@ -173,7 +173,7 @@ const t: UpgradeBase[] = [
         ffg: 304,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -331,7 +331,7 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ factions: ['Galactic Empire'] }],
-    cost: { value: 14 },
+    cost: { value: 12 },
     standard: true,
     extended: true,
     epic: true,
@@ -470,7 +470,7 @@ const t: UpgradeBase[] = [
         ffg: 342,
       },
     ],
-    cost: { value: 13 },
+    cost: { value: 15 },
     restrictions: [{ factions: ['Galactic Empire'] }],
     standard: true,
     epic: true,
@@ -612,7 +612,7 @@ const t: UpgradeBase[] = [
         ffg: 309,
       },
     ],
-    cost: { value: 5 },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Rebel Alliance'] }],
     standard: true,
     epic: true,
@@ -816,7 +816,7 @@ const t: UpgradeBase[] = [
         ffg: 361,
       },
     ],
-    cost: { value: 10 },
+    cost: { value: 12 },
     restrictions: [
       { factions: ['Scum and Villainy'], character: ['Ezra Bridger'] },
     ],
@@ -1067,7 +1067,7 @@ const t: UpgradeBase[] = [
         ffg: 469,
       },
     ],
-    cost: { value: 13 },
+    cost: { value: 10 },
     restrictions: [{ factions: ['First Order'] }],
     standard: false,
     epic: true,
@@ -1147,7 +1147,7 @@ const t: UpgradeBase[] = [
         ffg: 363,
       },
     ],
-    cost: { value: 2 },
+    cost: { value: 6 },
     restrictions: [{ factions: ['Scum and Villainy'] }],
     standard: true,
     epic: true,
@@ -1284,7 +1284,7 @@ const t: UpgradeBase[] = [
         ffg: 539,
       },
     ],
-    cost: { value: 14 },
+    cost: { value: 12 },
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
@@ -1304,7 +1304,7 @@ const t: UpgradeBase[] = [
         ffg: 540,
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 6 },
     restrictions: [{ factions: ['Separatist Alliance'] }],
     standard: true,
     epic: true,
@@ -1426,7 +1426,7 @@ const t: UpgradeBase[] = [
         ffg: 586,
       },
     ],
-    cost: { value: 16 },
+    cost: { value: 14 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     extended: true,
@@ -1553,7 +1553,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'aaylasecura',
     limited: 1,
-    cost: { value: 14 },
+    cost: { value: 12 },
     sides: [
       {
         ability:
@@ -1707,7 +1707,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'hondoohnaka',
     limited: 1,
-    cost: { value: 5 },
+    cost: { value: 8 },
     sides: [
       {
         ability:
@@ -1828,7 +1828,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'gamutkey',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 8 },
     sides: [
       {
         ability:
@@ -1971,7 +1971,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'fennrau-crew',
     limited: 1,
-    cost: { value: 4 },
+    cost: { value: 7 },
     sides: [
       {
         ability:
@@ -2029,7 +2029,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'clanwrencommandos',
     limited: 1,
-    cost: { value: 7 },
+    cost: { value: 8 },
     sides: [
       {
         ability:
@@ -2069,7 +2069,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 8 },
     restrictions: [
       { factions: ['Galactic Republic'] },
       { baseSizes: ['Medium', 'Large', 'Huge'] },
@@ -2098,7 +2098,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 8 },
     restrictions: [
       { factions: ['Galactic Empire'] },
       { baseSizes: ['Medium', 'Large', 'Huge'] },
@@ -2127,7 +2127,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 8 },
     restrictions: [
       { factions: ['Scum and Villainy'] },
       { baseSizes: ['Medium', 'Large', 'Huge'] },
@@ -2156,7 +2156,7 @@ const t: UpgradeBase[] = [
         ffg: -1,
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 8 },
     restrictions: [
       { factions: ['Separatist Alliance'] },
       { baseSizes: ['Medium', 'Large', 'Huge'] },
@@ -2168,7 +2168,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'ahsokatano-crew',
     limited: 1,
-    cost: { value: 9 },
+    cost: { value: 10 },
     sides: [
       {
         ability:
@@ -2241,7 +2241,7 @@ const t: UpgradeBase[] = [
   {
     xws: 'primeministeralmec',
     limited: 1,
-    cost: { value: 6 },
+    cost: { value: 7 },
     sides: [
       {
         ability:

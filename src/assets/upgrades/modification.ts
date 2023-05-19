@@ -54,7 +54,7 @@ const t: UpgradeBase[] = [
         ffg: 294,
       },
     ],
-    cost: { value: 10 },
+    cost: { value: 8 },
     restrictions: [{ baseSizes: ['Small'] }],
     standard: true,
     epic: true,
@@ -228,7 +228,7 @@ const t: UpgradeBase[] = [
     restrictions: [{ chassis: ['belbullab22starfighter'] }],
     standard: true,
     epic: true,
-    cost: { value: 0 },
+    cost: { value: 2 },
     extended: true,
   },
   {
@@ -382,7 +382,7 @@ const t: UpgradeBase[] = [
       },
       { action: { type: 'Calculate' } },
     ],
-    cost: { value: 0 },
+    cost: { value: 2 },
     extended: true,
   },
   {
@@ -413,7 +413,7 @@ const t: UpgradeBase[] = [
     xws: 'mandalorianoptics',
     standard: true,
     epic: true,
-    cost: { value: 5 },
+    cost: { value: 3 },
     sides: [
       {
         ability:
@@ -433,7 +433,7 @@ const t: UpgradeBase[] = [
     xws: 'beskarreinforcedplating',
     standard: true,
     epic: true,
-    cost: { value: 6 },
+    cost: { value: 3 },
     sides: [
       {
         ability:
@@ -490,7 +490,7 @@ const t: UpgradeBase[] = [
       },
     ],
     restrictions: [{ chassis: ['gauntletfighter'] }],
-    cost: { value: 1 },
+    cost: { value: 5 },
     standard: true,
     extended: true,
     epic: true,

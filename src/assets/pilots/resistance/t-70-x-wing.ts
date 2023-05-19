@@ -341,7 +341,7 @@ const t: ShipType = {
       xws: 'temminwexley',
       ability:
         'After you fully execute a speed 2-4 maneuver, you may perform a [Boost] action.',
-      cost: 5,
+      cost: 4,
       slots: [
         'Talent',
         'Tech',
@@ -365,7 +365,7 @@ const t: ShipType = {
       xws: 'temminwexley-swz68',
       name: 'Temmin Wexley',
       caption: 'Black Two',
-      cost: 6,
+      cost: 5,
       loadout: 17,
       initiative: 4,
       limited: 1,
