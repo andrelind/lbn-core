@@ -313,7 +313,7 @@ const t: ShipType = {
       name: 'Hol Okand',
       initiative: 4,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'holokand-battleofyavin',
       ability:
         'During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 [Charge] on any upgrade.',
