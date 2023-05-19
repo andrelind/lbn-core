@@ -164,7 +164,7 @@ const t: ShipType = {
     {
       name: 'Lapin',
       caption: 'Stickler for Details',
-      initiative: 2,
+      initiative: 3,
       limited: 1,
       cost: 3,
       loadout: 7,

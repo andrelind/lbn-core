@@ -78,7 +78,7 @@ const t: UpgradeBase[] = [
           'https://infinitearenas.com/xw2/images/artwork/upgrades/jammingbeam.png',
       },
     ],
-    cost: { value: 0 },
+    cost: { value: 1 },
     standard: true,
     epic: true,
     extended: true,
