@@ -38,7 +38,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_ShadowCaster.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_ShadowCaster.png',
   pilots: [
     {
       name: 'Asajj Ventress',
@@ -64,10 +64,9 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Bounty Hunter', 'Dark Side'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_219.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/asajjventress.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/asajjventress.png',
     },
     {
       name: 'Ketsu Onyo',
@@ -85,10 +84,9 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_218.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ketsuonyo.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ketsuonyo.png',
     },
     {
       name: 'Sabine Wren',
@@ -107,9 +105,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Bounty Hunter', 'Mandalorian'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_220.png',
+        'https://infinitearenas.com/xw2/images/pilots/sabinewren-lancerclasspursuitcraft.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-lancerclasspursuitcraft.png',
     },
     {
       name: 'Shadowport Hunter',
@@ -127,9 +125,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_221.png',
+        'https://infinitearenas.com/xw2/images/pilots/shadowporthunter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shadowporthunter.png',
     },
   ],
 };

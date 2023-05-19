@@ -19,6 +19,10 @@ const t: UpgradeBase[] = [
             'At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result.',
         },
         ffg: 392,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bombletgenerator.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/bombletgenerator.png',
       },
     ],
     cost: { value: 2 },
@@ -44,6 +48,9 @@ const t: UpgradeBase[] = [
             'After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 [Hit] damage and gains 3 ion tokens.',
         },
         ffg: 393,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/connernets.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/connernets.png',
       },
     ],
     cost: { value: 5 },
@@ -69,6 +76,9 @@ const t: UpgradeBase[] = [
             'At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 [Critical Hit] damage.',
         },
         ffg: 394,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/protonbombs.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/protonbombs.png',
       },
     ],
     cost: { value: 5 },
@@ -94,6 +104,10 @@ const t: UpgradeBase[] = [
             'After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] damage plus 1 [Hit]/[Critical Hit] damage for each matching result.',
         },
         ffg: 395,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/proximitymines.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/proximitymines.png',
       },
     ],
     cost: { value: 10 },
@@ -119,6 +133,10 @@ const t: UpgradeBase[] = [
             'At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship and remote at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle.',
         },
         ffg: 396,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/seismiccharges.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/seismiccharges.png',
       },
     ],
     cost: { value: 3 },
@@ -144,6 +162,10 @@ const t: UpgradeBase[] = [
             'While a friendly ship locks an object or jams an enemy ship, it may measure range from you. After an enemy ship overlaps you, that ship rolls 1 attack die. On a [Focus] result, you suffer 1 [Hit] damage. System Phase: At your initiative, you may relocate useing a (2 [Bank Left]), (2 [Straight]), or (2 [Bank Right]) template.',
         },
         ffg: 541,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/drk1probedroids.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/drk1probedroids.png',
       },
     ],
     cost: { value: 5 },
@@ -170,6 +192,10 @@ const t: UpgradeBase[] = [
             'At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each [Focus]/[Hit] result.',
         },
         ffg: 591,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/electroprotonbomb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/electroprotonbomb.png',
       },
     ],
     standard: true,
@@ -196,6 +222,10 @@ const t: UpgradeBase[] = [
           effect:
             'A Cluster Mine set consists of 3 individual Cluster Mine devices. When a Cluster Mine set is placed, the center Cluster Mine is placed as normal, then two additional cluster mines are placed in the recesses as shown. After a ship overlaps or moves through any individual Cluster Mine, it detonates. Other Cluster Mines in the set that were not overlapped or moved through do not detonate. When each of these devices detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Critical Hit] damage for each matching result.',
         },
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/clustermines.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/clustermines.png',
       },
     ],
     standard: true,
@@ -221,6 +251,9 @@ const t: UpgradeBase[] = [
           effect:
             'At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 [Hit] damage.',
         },
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ionbombs.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ionbombs.png',
       },
     ],
     standard: true,
@@ -245,6 +278,10 @@ const t: UpgradeBase[] = [
           effect:
             'At the end of the Activation Phase, this device detonates.  When this device detonates, each ship and remote at range 0–1 is dealt 1 facedown damage card. Then, each ship at range 0–1 must expose 1 damage card unless it chooses to gain 1 strain token.',
         },
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/concussionbombs.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/concussionbombs.png',
       },
     ],
     cost: { value: 4 },
@@ -271,6 +308,10 @@ const t: UpgradeBase[] = [
         },
         charges: { value: 4, recovers: 0 },
         ffg: 864,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/thermaldetonators.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/thermaldetonators.png',
       },
     ],
     cost: { value: 5 },
@@ -290,6 +331,9 @@ const t: UpgradeBase[] = [
         slots: ['Device'],
         charges: { value: 1, recovers: 0 },
         ffg: 864,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/blazerbomb.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/blazerbomb.png',
       },
     ],
     cost: { value: 5 },

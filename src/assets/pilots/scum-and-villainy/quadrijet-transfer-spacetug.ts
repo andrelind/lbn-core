@@ -42,7 +42,7 @@ const t: ShipType = {
       'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Quadjumper.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Quadjumper.png',
   pilots: [
     {
       name: 'Constable Zuvio',
@@ -59,10 +59,9 @@ const t: ShipType = {
       epic: true,
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_161.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/constablezuvio.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/constablezuvio.png',
     },
     {
       name: 'Jakku Gunrunner',
@@ -78,10 +77,9 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_164.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jakkugunrunner.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jakkugunrunner.png',
     },
     {
       name: 'Sarco Plank',
@@ -99,10 +97,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_162.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sarcoplank.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sarcoplank.png',
     },
     {
       name: 'Unkar Plutt',
@@ -119,10 +116,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_163.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/unkarplutt.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/unkarplutt.png',
     },
   ],
 };

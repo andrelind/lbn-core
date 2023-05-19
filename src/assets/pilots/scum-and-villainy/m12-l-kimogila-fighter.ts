@@ -41,7 +41,8 @@ const t: ShipType = {
     text:
       'While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens.',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Kimogila.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Kimogila.png',
   pilots: [
     {
       name: 'Cartel Executioner',
@@ -58,9 +59,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_209.png',
+        'https://infinitearenas.com/xw2/images/pilots/cartelexecutioner.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cartelexecutioner.png',
     },
     {
       name: 'Dalan Oberos',
@@ -86,10 +87,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_208.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dalanoberos.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dalanoberos.png',
     },
     {
       name: 'Torani Kulda',
@@ -114,10 +114,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_207.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/toranikulda.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/toranikulda.png',
     },
   ],
 };

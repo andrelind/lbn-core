@@ -60,10 +60,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 3,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jediknight.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jediknight.png',
     },
     {
       name: 'Obi-Wan Kenobi',
@@ -90,10 +89,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/obiwankenobi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi.png',
     },
     {
       name: 'Plo Koon',
@@ -118,10 +116,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/plokoon.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/plokoon.png',
     },
     {
       name: 'Saesee Tiin',
@@ -140,10 +137,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/saeseetiin.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/saeseetiin.png',
     },
     {
       name: 'Mace Windu',
@@ -167,10 +163,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/macewindu.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/macewindu.png',
     },
     {
       name: 'Anakin Skywalker',
@@ -196,10 +191,9 @@ const t: ShipType = {
       ffg: 507,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/anakinskywalker.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker.png',
     },
     {
       name: 'Ahsoka Tano',
@@ -218,10 +212,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ahsokatano.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano.png',
     },
     {
       name: 'Barriss Offee',
@@ -240,10 +233,9 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       keywords: ['Jedi', 'Light Side'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/barrissoffee.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/barrissoffee.png',
     },
     {
       name: 'Luminara Unduli',
@@ -262,10 +254,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/luminaraunduli.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/luminaraunduli.png',
     },
     {
       name: 'Adi Gallia',
@@ -300,7 +291,8 @@ const t: ShipType = {
     },
   ],
   ffg: 61,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Delta-7.png',
 };
 
 export default t;

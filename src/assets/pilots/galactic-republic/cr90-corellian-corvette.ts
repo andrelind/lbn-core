@@ -65,11 +65,14 @@ const t: ShipType = {
       epic: true,
       ffg: 705,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a04b07c3b0b3dbe1bfac935ca3a9f0d4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/republicjudiciary.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/republicjudiciary.png',
     },
   ],
   ffg: 78,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_CR90.png',
 };
 
 export default t;

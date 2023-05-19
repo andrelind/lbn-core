@@ -51,11 +51,14 @@ const t: ShipType = {
       epic: true,
       ffg: 709,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/4a49f20575c252f47a70d3c4da909301.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/echobaseevacuees.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/echobaseevacuees.png',
     },
   ],
   ffg: 80,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_GR-75.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_GR-75.png',
 };
 
 export default t;

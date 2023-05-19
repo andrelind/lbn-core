@@ -35,7 +35,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEFighter.png',
   pilots: [
     {
       name: '“Howlrunner”',
@@ -53,10 +53,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_81.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/howlrunner.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/howlrunner.png',
     },
     {
       name: '“Mauler” Mithel',
@@ -74,10 +73,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_80.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/maulermithel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/maulermithel.png',
     },
     {
       name: '“Night Beast”',
@@ -95,10 +93,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_88.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/nightbeast.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nightbeast.png',
     },
     {
       name: '“Scourge” Skutu',
@@ -116,10 +113,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 3,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_82.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/scourgeskutu.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/scourgeskutu.png',
     },
     {
       name: '“Wampa”',
@@ -138,10 +134,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_89.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wampa.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/wampa.png',
     },
     {
       name: 'Academy Pilot',
@@ -158,10 +152,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 0,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_92.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/academypilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/academypilot.png',
     },
     {
       name: 'Black Squadron Ace',
@@ -179,9 +172,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_90.png',
+        'https://infinitearenas.com/xw2/images/pilots/blacksquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png',
     },
     {
       name: 'Del Meeko',
@@ -199,10 +192,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_85.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/delmeeko.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/delmeeko.png',
     },
     {
       name: 'Gideon Hask',
@@ -220,10 +212,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_84.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/gideonhask.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gideonhask.png',
     },
     {
       name: 'Iden Versio',
@@ -242,10 +233,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_83.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/idenversio.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png',
     },
     {
       name: 'Obsidian Squadron Pilot',
@@ -262,9 +252,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_91.png',
+        'https://infinitearenas.com/xw2/images/pilots/obsidiansquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/obsidiansquadronpilot.png',
     },
     {
       name: 'Seyn Marana',
@@ -282,10 +272,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_86.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/seynmarana.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/seynmarana.png',
     },
     {
       name: 'Valen Rudor',
@@ -303,10 +292,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_87.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/valenrudor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',
     },
     {
       name: 'ISB Jingoist',
@@ -348,67 +336,6 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png',
     },
     {
-      name: '“Mauler” Mithel',
-      initiative: 5,
-      limited: 1,
-      xws: 'maulermithel-battleofyavin',
-      ability:
-        'While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.',
-      slots: [],
-      keywords: ['TIE'],
-      cost: 3,
-      standard: true,
-      epic: true,
-      extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Predator',
-          ability:
-            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
-    },
-    {
-      name: '“Wampa”',
-      initiative: 1,
-      limited: 1,
-      xws: 'wampa-battleofyavin',
-      ability:
-        'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die.\n\nAfter defending, lose 1 [Charge].',
-      slots: [],
-      charges: { value: 1, recovers: 1 },
-      keywords: ['TIE'],
-      cost: 3,
-      standard: true,
-      epic: true,
-      extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Elusive',
-          ability:
-            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
-          slots: ['Talent'],
-          charges: { value: 1, recovers: 0 },
-        },
-        {
-          title: 'Vengeful ',
-          ability:
-            'After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.',
-          slots: ['Talent'],
-        },
-      ],
-    },
-    {
       name: 'Backstabber',
       initiative: 5,
       limited: 1,
@@ -445,6 +372,10 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/backstabber-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/backstabber.png',
     },
     {
       name: 'Dark Curse',
@@ -474,6 +405,78 @@ const t: ShipType = {
           charges: { value: 2, recovers: 0 },
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/darkcurse-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darkcurse.png',
+    },
+    {
+      name: '“Mauler” Mithel',
+      initiative: 5,
+      limited: 1,
+      xws: 'maulermithel-battleofyavin',
+      ability:
+        'While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.',
+      slots: [],
+      keywords: ['TIE'],
+      cost: 3,
+      standard: true,
+      epic: true,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Predator',
+          ability:
+            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Afterburners',
+          ability:
+            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
+          slots: ['Modification'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/maulermithel-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/maulermithel.png',
+    },
+    {
+      name: '“Wampa”',
+      initiative: 1,
+      limited: 1,
+      xws: 'wampa-battleofyavin',
+      ability:
+        'While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die.\n\nAfter defending, lose 1 [Charge].',
+      slots: [],
+      charges: { value: 1, recovers: 1 },
+      keywords: ['TIE'],
+      cost: 3,
+      standard: true,
+      epic: true,
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Elusive',
+          ability:
+            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
+          slots: ['Talent'],
+          charges: { value: 1, recovers: 0 },
+        },
+        {
+          title: 'Vengeful ',
+          ability:
+            'After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.',
+          slots: ['Talent'],
+        },
+      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/wampa-battleofyavin.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/wampa.png',
     },
     {
       name: 'Magna Tolvan',
@@ -491,6 +494,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['TIE'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/magnatolvan.png',
     },
     {
       name: 'Yrica Quell',
@@ -508,6 +513,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['TIE'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/yricaquell.png',
     },
   ],
 };

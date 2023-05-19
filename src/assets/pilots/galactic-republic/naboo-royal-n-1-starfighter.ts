@@ -60,9 +60,9 @@ const t: ShipType = {
       keywords: ['Light Side'],
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/21e28ea4e8784dce5a554a33888d8be0.png',
+        'https://infinitearenas.com/xw2/images/pilots/anakinskywalker-nabooroyaln1starfighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d9180cc98a1a4384bb2a0e11efbf1311.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-nabooroyaln1starfighter.png',
     },
     {
       name: 'Ric Olié',
@@ -79,10 +79,9 @@ const t: ShipType = {
       ffg: 557,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ricolie.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ricolie.png',
     },
     {
       name: 'Padmé Amidala',
@@ -99,10 +98,9 @@ const t: ShipType = {
       ffg: 559,
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/padmeamidala.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/padmeamidala.png',
     },
     {
       name: 'Dineé Ellberger',
@@ -119,10 +117,9 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/06e0863851b95dba4874b211e05661cc.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dineeellberger.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dineeellberger.png',
     },
     {
       name: 'Bravo Flight Officer',
@@ -139,9 +136,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/274db1f70ed4da939b9440837a30c39a.png',
+        'https://infinitearenas.com/xw2/images/pilots/bravoflightofficer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/4e1a2195431b026de73c90f8ce5f7c20.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bravoflightofficer.png',
     },
     {
       name: 'Naboo Handmaiden',
@@ -159,10 +156,9 @@ const t: ShipType = {
       caption: 'Regal Ruse',
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/naboohandmaiden.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/naboohandmaiden.png',
     },
     {
       name: 'Gavyn Sykes',
@@ -190,7 +186,7 @@ const t: ShipType = {
   ],
   ffg: 66,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Royal_Naboo_N-1_Starfighter.png',
 };
 
 export default t;

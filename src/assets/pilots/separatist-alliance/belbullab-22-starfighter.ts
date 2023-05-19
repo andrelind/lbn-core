@@ -61,10 +61,9 @@ const t: ShipType = {
       ffg: 492,
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/generalgrievous.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/generalgrievous.png',
     },
     {
       name: 'Wat Tambor',
@@ -81,10 +80,9 @@ const t: ShipType = {
       ffg: 493,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wattambor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wattambor.png',
     },
     {
       name: 'Feethan Ottraw Autopilot',
@@ -116,9 +114,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/538c4833605af80b226da9e5f800e6ef.png',
+        'https://infinitearenas.com/xw2/images/pilots/feethanottrawautopilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/feethanottrawautopilot.png',
     },
     {
       name: 'Captain Sear',
@@ -135,10 +133,9 @@ const t: ShipType = {
       ffg: 494,
       loadout: 17,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainsear.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainsear.png',
     },
     {
       name: 'Skakoan Ace',
@@ -154,15 +151,14 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/skakoanace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/skakoanace.png',
     },
   ],
   ffg: 58,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Belbullab-22.png',
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Belbullab-22.png',
 };
 
 export default t;

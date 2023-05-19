@@ -66,11 +66,14 @@ const t: ShipType = {
       epic: true,
       ffg: 714,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/25a3457e2b32c661210524ff8b1fc785.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/separatistprivateers.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/separatistprivateers.png',
     },
   ],
   ffg: 82,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_C-ROC.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_C-ROC.png',
 };
 
 export default t;

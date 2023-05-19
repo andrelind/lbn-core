@@ -44,7 +44,7 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Jumpmaster.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Jumpmaster.png',
   pilots: [
     {
       name: 'Contracted Scout',
@@ -60,10 +60,9 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_217.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/contractedscout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/contractedscout.png',
     },
     {
       name: 'Dengar',
@@ -91,10 +90,9 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_214.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dengar.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dengar.png',
     },
     {
       name: 'Manaroo',
@@ -121,10 +119,9 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 15,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_215.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/manaroo.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/manaroo.png',
     },
     {
       name: 'Tel Trevura',
@@ -151,10 +148,9 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_216.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/teltrevura.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/teltrevura.png',
     },
     {
       name: 'Nom Lumb',
@@ -180,10 +176,9 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/nomlumb.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb.png',
     },
   ],
 };

@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Barrel Roll' },
     { difficulty: 'Red', type: 'Reload' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Y-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Y-wing.png',
   pilots: [
     {
       name: '“Dutch” Vander',
@@ -62,10 +63,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_14.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dutchvander.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_14.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander.png',
     },
     {
       name: 'Evaan Verlaine',
@@ -92,10 +92,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_16.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/evaanverlaine.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/evaanverlaine.png',
     },
     {
       name: 'Gold Squadron Veteran',
@@ -113,9 +112,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_17.png',
+        'https://infinitearenas.com/xw2/images/pilots/goldsquadronveteran.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_17.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/goldsquadronveteran.png',
     },
     {
       name: 'Gray Squadron Bomber',
@@ -133,9 +132,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_18.png',
+        'https://infinitearenas.com/xw2/images/pilots/graysquadronbomber.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_18.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/graysquadronbomber.png',
     },
     {
       name: 'Horton Salm',
@@ -161,10 +160,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_15.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/hortonsalm.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_15.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hortonsalm.png',
     },
     {
       name: 'Norra Wexley',
@@ -190,9 +188,9 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_13.png',
+        'https://infinitearenas.com/xw2/images/pilots/norrawexley-btla4ywing.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/norrawexley-btla4ywing.png',
     },
     {
       name: 'Dex Tiree',
@@ -225,10 +223,6 @@ const t: ShipType = {
             maxrange: 2,
             ordnance: false,
           },
-          // actions: [{ type: 'Rotate Arc', difficulty: 'White' }],
-          // grants: [
-          //   { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
-          // ],
         },
         {
           title: 'Adv. Proton Torpedoes',
@@ -251,61 +245,10 @@ const t: ShipType = {
           slots: ['Astromech'],
         },
       ],
-    },
-    {
-      name: 'Hol Okand',
-      initiative: 4,
-      limited: 1,
-      cost: 4,
-      xws: 'holokand-battleofyavin',
-      ability:
-        'During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 [Charge] on any upgrade.',
-      shipAbility: {
-        name: 'Hope',
-        text:
-          'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
-      },
-      slots: [],
-      standard: true,
-      epic: true,
-      keywords: ['Y-wing'],
-      extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Dorsal Turret',
-          ability: 'Attack',
-          slots: ['Turret'],
-          attack: {
-            arc: 'Single Turret Arc',
-            value: 2,
-            minrange: 1,
-            maxrange: 2,
-            ordnance: false,
-          },
-        },
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Precise Astromech ',
-          ability:
-            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dextiree-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dextiree-battleofyavin.png',
     },
     {
       name: '“Dutch” Vander',
@@ -361,6 +304,69 @@ const t: ShipType = {
           slots: ['Astromech'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander.png',
+    },
+    {
+      name: 'Hol Okand',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'holokand-battleofyavin',
+      ability:
+        'During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 [Charge] on any upgrade.',
+      shipAbility: {
+        name: 'Hope',
+        text:
+          'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
+      },
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['Y-wing'],
+      extended: true,
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Dorsal Turret',
+          ability: 'Attack',
+          slots: ['Turret'],
+          attack: {
+            arc: 'Single Turret Arc',
+            value: 2,
+            minrange: 1,
+            maxrange: 2,
+            ordnance: false,
+          },
+        },
+        {
+          title: 'Adv. Proton Torpedoes',
+          ability:
+            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
+          slots: ['Torpedo'],
+          charges: { value: 1, recovers: 0 },
+          attack: {
+            arc: 'Front Arc',
+            value: 5,
+            minrange: 1,
+            maxrange: 1,
+            ordnance: true,
+          },
+        },
+        {
+          title: 'Precise Astromech ',
+          ability:
+            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/holokand-battleofyavin.png',
     },
     {
       name: '“Pops” Krail',
@@ -416,6 +422,10 @@ const t: ShipType = {
           slots: ['Astromech'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/popskrail-battleofyavin.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/popskrail-battleofyavin.png',
     },
     {
       name: '“Pops” Krail',
@@ -441,6 +451,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['Y-wing'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/popskrail.png',
     },
   ],
 };

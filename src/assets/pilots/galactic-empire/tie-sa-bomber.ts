@@ -45,7 +45,7 @@ const t: ShipType = {
       'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEBomber.png',
   pilots: [
     {
       name: '“Deathfire”',
@@ -70,10 +70,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_110.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/deathfire.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png',
     },
     {
       name: 'Captain Jonus',
@@ -100,10 +99,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_108.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainjonus.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
     },
     {
       name: 'Gamma Squadron Ace',
@@ -121,9 +119,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_111.png',
+        'https://infinitearenas.com/xw2/images/pilots/gammasquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png',
     },
     {
       name: 'Major Rhymer',
@@ -149,10 +147,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_109.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/majorrhymer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png',
     },
     {
       name: 'Scimitar Squadron Pilot',
@@ -170,9 +167,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_112.png',
+        'https://infinitearenas.com/xw2/images/pilots/scimitarsquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png',
     },
     {
       name: 'Tomax Bren',
@@ -199,10 +196,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_107.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/tomaxbren.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
     },
   ],
 };

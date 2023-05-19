@@ -45,7 +45,7 @@ const t: ShipType = {
       'After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEDefender.png',
   pilots: [
     {
       name: 'Colonel Vessery',
@@ -63,10 +63,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_123.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/colonelvessery.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png',
     },
     {
       name: 'Countess Ryad',
@@ -91,10 +90,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_124.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/countessryad.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/countessryad.png',
     },
     {
       name: 'Delta Squadron Pilot',
@@ -112,9 +110,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_126.png',
+        'https://infinitearenas.com/xw2/images/pilots/deltasquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png',
     },
     {
       name: 'Onyx Squadron Ace',
@@ -131,10 +129,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_125.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/onyxsquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png',
     },
     {
       name: 'Rexler Brath',
@@ -159,10 +156,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_122.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rexlerbrath.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rexlerbrath.png',
     },
     {
       xws: 'vultskerris',
@@ -188,7 +184,8 @@ const t: ShipType = {
       loadout: 13,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vultskerris.png',
     },
     {
       xws: 'darthvader-tieddefender',
@@ -208,7 +205,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader-tieddefender.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png',
     },
     {
       xws: 'captaindobbs',
@@ -227,7 +226,8 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
     },
   ],
 };

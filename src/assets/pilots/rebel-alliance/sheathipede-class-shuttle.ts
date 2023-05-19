@@ -41,7 +41,7 @@ const t: ShipType = {
       'While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Sheathipede.png',
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Sheathipede.png',
   pilots: [
     {
       name: '“Zeb” Orrelios',
@@ -60,9 +60,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_40.png',
+        'https://infinitearenas.com/xw2/images/pilots/zeborrelios-sheathipedeclassshuttle.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-sheathipedeclassshuttle.png',
     },
     {
       name: 'AP-5',
@@ -84,10 +84,8 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       keywords: ['Droid', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_41.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ap5.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ap5.png',
     },
     {
       name: 'Ezra Bridger',
@@ -107,9 +105,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Light Side', 'Spectre'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_39.png',
+        'https://infinitearenas.com/xw2/images/pilots/ezrabridger-sheathipedeclassshuttle.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-sheathipedeclassshuttle.png',
     },
     {
       name: 'Fenn Rau',
@@ -128,9 +126,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Mandalorian', 'Spectre'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png',
+        'https://infinitearenas.com/xw2/images/pilots/fennrau-sheathipedeclassshuttle.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-sheathipedeclassshuttle.png',
     },
   ],
 };

@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Scurrg.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Scurrg.png',
   pilots: [
     {
       name: 'Captain Nym',
@@ -62,10 +63,9 @@ const t: ShipType = {
       epic: true,
       loadout: 17,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_204.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainnym.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainnym.png',
     },
     {
       name: 'Lok Revenant',
@@ -81,10 +81,9 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_206.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lokrevenant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lokrevenant.png',
     },
     {
       name: 'Sol Sixxa',
@@ -109,10 +108,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_205.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/solsixxa.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/solsixxa.png',
     },
   ],
 };

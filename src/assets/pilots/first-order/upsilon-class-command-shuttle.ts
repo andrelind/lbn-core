@@ -42,7 +42,7 @@ const t: ShipType = {
     text: 'While you perform a [Cannon] attack, roll 1 additional die.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_UpsilonShuttle.png',
+    'https://infinitearenas.com/xw2/images/shipicons/first-order/I_UpsilonShuttle.png',
   pilots: [
     {
       name: 'Lieutenant Dormitz',
@@ -70,9 +70,9 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/e4acd80da2c39e25d4f999cb7c314fe5.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantdormitz.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/4505cb1930309673fe5592dbc112d733.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantdormitz.png',
     },
     {
       name: 'Major Stridan',
@@ -98,10 +98,9 @@ const t: ShipType = {
       epic: true,
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/8420beca035dedf1596c7c99255fb2e7.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/majorstridan.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/862f9dcc1ce9809f9a394d8f0b05f268.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/majorstridan.png',
     },
     {
       name: 'Petty Officer Thanisson',
@@ -130,9 +129,9 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/3a2232a5238d8bf5e7538fe1d6003dbc.png',
+        'https://infinitearenas.com/xw2/images/pilots/pettyofficerthanisson.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/24a40f6ec1875bfae9e7531b02252993.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/pettyofficerthanisson.png',
     },
     {
       name: 'Starkiller Base Pilot',
@@ -157,9 +156,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/41f6d936f14a058ed1c5e6ac12de37c2.png',
+        'https://infinitearenas.com/xw2/images/pilots/starkillerbasepilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1ea0266ea42691778e8ecff6a5b50e45.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/starkillerbasepilot.png',
     },
     {
       name: 'Lieutenant Tavson',
@@ -186,9 +185,9 @@ const t: ShipType = {
       loadout: 17,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/20fbf3ed79c50d2082cdb44caac26064.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenanttavson.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/151154b50732a6dd42b411fc312137b9.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenanttavson.png',
     },
     {
       name: 'Captain Cardinal',
@@ -216,10 +215,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/be29a69f75726ad48f607eecca671e01.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captaincardinal.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a88822cc408323e561efd9e2acb83f2a.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captaincardinal.png',
     },
   ],
 };

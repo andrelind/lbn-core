@@ -41,7 +41,8 @@ const t: ShipType = {
     name: 'Advanced Droid Brain',
     text: 'After you perform a [Calculate] action, gain 1 calculate token.',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_IG-2000.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_IG-2000.png',
   pilots: [
     {
       name: 'IG-88A',
@@ -68,10 +69,8 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_197.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_197.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig88a.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig88a.png',
     },
     {
       name: 'IG-88B',
@@ -98,10 +97,8 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_198.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_198.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig88b.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig88b.png',
     },
     {
       name: 'IG-88C',
@@ -128,10 +125,8 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_199.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_199.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig88c.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig88c.png',
     },
     {
       name: 'IG-88D',
@@ -158,10 +153,8 @@ const t: ShipType = {
       loadout: 13,
       extended: true,
       keywords: ['Bounty Hunter', 'Droid'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_200.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_200.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ig88d.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/ig88d.png',
     },
   ],
 };

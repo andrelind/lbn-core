@@ -37,7 +37,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Jam' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_MistHunter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_MistHunter.png',
   pilots: [
     {
       name: '4-LOM',
@@ -60,10 +60,8 @@ const t: ShipType = {
       keywords: ['Bounty Hunter', 'Droid'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_201.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/4lom.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/4lom.png',
     },
     {
       name: 'Gand Findsman',
@@ -80,10 +78,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_203.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/gandfindsman.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gandfindsman.png',
     },
     {
       name: 'Zuckuss',
@@ -101,10 +98,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_202.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zuckuss.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zuckuss.png',
     },
   ],
 };

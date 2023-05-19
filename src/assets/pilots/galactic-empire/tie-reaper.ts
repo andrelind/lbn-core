@@ -42,7 +42,7 @@ const t: ShipType = {
       'Before you reveal your dial, if you are not stressed, you may boost.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEReaper.png',
   pilots: [
     {
       name: '“Vizier”',
@@ -60,10 +60,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_115.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vizier.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_115.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vizier.png',
     },
     {
       name: 'Captain Feroph',
@@ -81,10 +80,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_114.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainferoph.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainferoph.png',
     },
     {
       name: 'Major Vermeil',
@@ -102,10 +100,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 16,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_113.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/majorvermeil.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_113.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/majorvermeil.png',
     },
     {
       name: 'Scarif Base Pilot',
@@ -122,10 +119,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_116.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/scarifbasepilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/scarifbasepilot.png',
     },
   ],
 };

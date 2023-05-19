@@ -189,6 +189,7 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/redfuryzealot.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

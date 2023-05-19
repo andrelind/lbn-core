@@ -50,7 +50,7 @@ const t: ShipType = {
       "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result.",
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FangFighter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_FangFighter.png',
   pilots: [
     {
       name: 'Fenn Rau',

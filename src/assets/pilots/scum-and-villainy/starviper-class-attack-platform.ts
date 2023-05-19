@@ -50,7 +50,7 @@ const t: ShipType = {
       'While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_StarViper.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_StarViper.png',
   pilots: [
     {
       name: 'Black Sun Assassin',
@@ -67,9 +67,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_181.png',
+        'https://infinitearenas.com/xw2/images/pilots/blacksunassassin.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksunassassin.png',
     },
     {
       name: 'Black Sun Enforcer',
@@ -86,9 +86,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_182.png',
+        'https://infinitearenas.com/xw2/images/pilots/blacksunenforcer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksunenforcer.png',
     },
     {
       name: 'Dalan Oberos',
@@ -107,9 +107,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Bounty Hunter'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_179.png',
+        'https://infinitearenas.com/xw2/images/pilots/dalanoberos-starviperclassattackplatform.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dalanoberos-starviperclassattackplatform.png',
     },
     {
       name: 'Guri',
@@ -141,10 +141,8 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_178.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/guri.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/guri.png',
     },
     {
       name: 'Prince Xizor',
@@ -161,10 +159,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_180.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/princexizor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/princexizor.png',
     },
   ],
 };

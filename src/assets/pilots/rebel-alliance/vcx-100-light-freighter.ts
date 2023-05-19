@@ -41,7 +41,8 @@ const t: ShipType = {
     text:
       "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value.",
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Ghost.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Ghost.png',
   pilots: [
     {
       name: '“Chopper”',
@@ -73,10 +74,9 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       keywords: ['Droid', 'Freighter', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_75.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/chopper.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/chopper.png',
     },
     {
       name: 'Hera Syndulla',
@@ -105,9 +105,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter', 'Spectre'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_73.png',
+        'https://infinitearenas.com/xw2/images/pilots/herasyndulla-vcx100lightfreighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-vcx100lightfreighter.png',
     },
     {
       name: 'Kanan Jarrus',
@@ -136,10 +136,9 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Freighter', 'Jedi', 'Light Side', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_74.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kananjarrus.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus.png',
     },
     {
       name: 'Lothal Rebel',
@@ -156,10 +155,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_76.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lothalrebel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lothalrebel.png',
     },
     {
       name: 'Alexsandr Kallus',
@@ -187,10 +185,9 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Freighter', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/f78c33b746f35f6848708327178dec80.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/alexsandrkallus.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/af4c16c8955bddf75d5eb7723c7a5f2d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/alexsandrkallus.png',
     },
   ],
 };

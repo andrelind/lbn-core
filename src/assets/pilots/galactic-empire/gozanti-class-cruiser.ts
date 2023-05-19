@@ -61,11 +61,14 @@ const t: ShipType = {
       epic: true,
       ffg: 711,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/205015c2eb127931dbdca3e841ca8668.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimgarrison.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/outerrimgarrison.png',
     },
   ],
   ffg: 81,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Gozanti.png',
 };
 
 export default t;

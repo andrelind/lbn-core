@@ -224,6 +224,7 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/warthog-clonez95headhunter.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

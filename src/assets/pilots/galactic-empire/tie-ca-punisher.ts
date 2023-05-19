@@ -41,7 +41,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reload' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPunisher.png',
   pilots: [
     {
       name: '“Deathrain”',
@@ -67,10 +67,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_140.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/deathrain.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png',
     },
     {
       name: '“Redline”',
@@ -97,10 +96,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 25,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_139.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/redline.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/redline.png',
     },
     {
       name: 'Cutlass Squadron Pilot',
@@ -125,9 +123,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_141.png',
+        'https://infinitearenas.com/xw2/images/pilots/cutlasssquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png',
     },
   ],
 };

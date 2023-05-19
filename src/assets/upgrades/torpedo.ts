@@ -20,6 +20,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 262,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/advprotontorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/advprotontorpedoes.png',
       },
     ],
     cost: { value: 9 },
@@ -46,6 +50,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 263,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/iontorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/iontorpedoes.png',
       },
     ],
     cost: { value: 4 },
@@ -72,6 +80,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 264,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/protontorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/protontorpedoes.png',
       },
     ],
     cost: { value: 12 },
@@ -98,6 +110,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 579,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/plasmatorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/plasmatorpedoes.png',
       },
     ],
     cost: { value: 5 },
@@ -117,6 +133,10 @@ const t: UpgradeBase[] = [
           'During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the ([Bank Left] 3], ([Straight] 4], and ([Bank Right] 3] templates. Each device must use a separate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.',
         slots: ['Torpedo'],
         ffg: 941,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/trackingtorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/trackingtorpedoes.png',
       },
     ],
     standard: false,
@@ -142,6 +162,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/homingtorpedoes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/homingtorpedoes.png',
       },
     ],
     cost: { value: 5 },

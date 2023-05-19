@@ -15,6 +15,7 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 737,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ability:
@@ -23,6 +24,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 736,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     cost: { value: 5 },
@@ -40,6 +42,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 740,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ability:
@@ -48,6 +51,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 741,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     cost: { value: 1 },
@@ -65,6 +69,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 742,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ability:
@@ -76,6 +81,7 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 743,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     cost: { value: 9 },
@@ -93,6 +99,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 738,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ability:
@@ -104,6 +111,7 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 739,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     cost: { value: 5 },
@@ -121,6 +129,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: ['Hardpoint'],
         ffg: 744,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ability:
@@ -132,6 +141,7 @@ const t: UpgradeBase[] = [
           { action: { type: 'Rotate Arc', difficulty: 'White' }, value: 1 },
         ],
         ffg: 745,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     cost: { value: 10 },
@@ -150,6 +160,7 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. Bonus Attack Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].',
         slots: ['Hardpoint'],
         ffg: 933,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ffg: 934,
@@ -157,6 +168,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: [],
         ability: 'Offline Action: Spend 1 [Energy] to repair this card.',
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     standard: false,
@@ -175,6 +187,7 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.',
         slots: ['Hardpoint', 'Cargo'],
         ffg: 935,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ffg: 936,
@@ -182,6 +195,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: [],
         ability: 'Offline Action: Spend 1 [Energy] to repair this card.',
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     standard: false,
@@ -200,6 +214,7 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white (2 [Straight]), (1 [Bank Left]), or (1 [Bank Right]) maneuver.',
         slots: ['Hardpoint', 'Cargo'],
         ffg: 937,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ffg: 938,
@@ -207,6 +222,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: [],
         ability: 'Offline Action: Spend 1 [Energy] to repair this card.',
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     standard: false,
@@ -225,6 +241,7 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Critical Hit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Critical Hit] result.',
         slots: ['Hardpoint', 'Cargo'],
         ffg: 939,
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
       {
         ffg: 940,
@@ -232,6 +249,7 @@ const t: UpgradeBase[] = [
         type: 'Hardpoint',
         slots: [],
         ability: 'Offline Action: Spend 1 [Energy] to repair this card.',
+        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/',
       },
     ],
     standard: false,

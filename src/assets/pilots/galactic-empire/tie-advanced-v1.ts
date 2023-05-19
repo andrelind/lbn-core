@@ -49,7 +49,7 @@ const t: ShipType = {
     },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvancedPrototype.png',
   pilots: [
     {
       name: 'Baron of the Empire',
@@ -67,9 +67,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_101.png',
+        'https://infinitearenas.com/xw2/images/pilots/baronoftheempire.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/baronoftheempire.png',
     },
     {
       name: 'Grand Inquisitor',
@@ -88,10 +88,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_99.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/grandinquisitor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/grandinquisitor.png',
     },
     {
       name: 'Inquisitor',
@@ -109,10 +108,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_102.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/inquisitor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/inquisitor.png',
     },
     {
       name: 'Seventh Sister',
@@ -131,10 +129,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_100.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/seventhsister.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/seventhsister.png',
     },
     {
       name: 'Fifth Brother',
@@ -153,10 +150,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/fifthbrother.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/fifthbrother.png',
     },
   ],
 };

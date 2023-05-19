@@ -59,10 +59,9 @@ const t: ShipType = {
         'Setup: After placing forces, choose any number of your equipped [Illicit] upgrades and equip them to friendly TIE/fo or TIE/sf fighters. Each ship can be assigned only 1 [Illicit] this way. End of Game: Return all [Illicit] upgrades to their original ships.',
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/5526136f7923921bcaac3c5ee0af9b75.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/agentterex.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ee4ceab2fd34a3ccd68c74652f21b782.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/agentterex.png',
     },
     {
       xws: 'commandermalarus-xiclasslightshuttle',
@@ -88,9 +87,9 @@ const t: ShipType = {
         'While a friendly ship at range 0-2 performs a primary attack, before the Modify Dice step, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.',
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/9ab5691b7e1e7761cff3c6bd71b4257e.png',
+        'https://infinitearenas.com/xw2/images/pilots/commandermalarus-xiclasslightshuttle.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/9fc217ecda8e05095b2e4d5957a474ba.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/commandermalarus-xiclasslightshuttle.png',
     },
     {
       xws: 'firstordercourier',
@@ -107,9 +106,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/6f8c0773c75e4985a6d863256b726069.png',
+        'https://infinitearenas.com/xw2/images/pilots/firstordercourier.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/85aadb1aa3100fe7e92296ca0465f58b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/firstordercourier.png',
     },
     {
       xws: 'gideonhask-xiclasslightshuttle',
@@ -135,9 +134,9 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/21d545f09d9d98f9713b80d5551c4e0b.png',
+        'https://infinitearenas.com/xw2/images/pilots/gideonhask-xiclasslightshuttle.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gideonhask-xiclasslightshuttle.png',
     },
     {
       name: 'Agent Tierny',
@@ -169,7 +168,7 @@ const t: ShipType = {
   ],
   ffg: 73,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png',
+    'https://infinitearenas.com/xw2/images/shipicons/first-order/I_Xi-class_Shuttle.png',
 };
 
 export default t;

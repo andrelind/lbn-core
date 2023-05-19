@@ -280,7 +280,8 @@ const t: ShipType = {
     },
   ],
   ffg: 61,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Delta-7.png',
 };
 
 export default t;

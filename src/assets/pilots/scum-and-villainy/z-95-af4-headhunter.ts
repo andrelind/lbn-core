@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Z-95.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Z-95.png',
   pilots: [
     {
       name: 'Binayre Pirate',
@@ -51,10 +52,9 @@ const t: ShipType = {
       epic: true,
       loadout: 2,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_173.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/binayrepirate.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/binayrepirate.png',
     },
     {
       name: 'Black Sun Soldier',
@@ -70,10 +70,9 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_172.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/blacksunsoldier.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksunsoldier.png',
     },
     {
       name: 'Kaa’to Leeachos',
@@ -91,10 +90,9 @@ const t: ShipType = {
       loadout: 11,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_170.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kaatoleeachos.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kaatoleeachos.png',
     },
     {
       name: 'N’dru Suhlak',
@@ -111,10 +109,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_169.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ndrusuhlak.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ndrusuhlak.png',
     },
     {
       name: 'Nashtah Pup',
@@ -131,10 +128,9 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_171.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/nashtahpup.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nashtahpup.png',
     },
     {
       name: 'Bossk',
@@ -153,9 +149,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Bounty Hunter'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/13a94a5ed78d4629017a439fbf0906ea.png',
+        'https://infinitearenas.com/xw2/images/pilots/bossk-z95af4headhunter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/48cf03ca0e16baf2f506829f20517b83.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bossk-z95af4headhunter.png',
     },
   ],
 };

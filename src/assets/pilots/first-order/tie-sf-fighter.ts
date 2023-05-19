@@ -61,7 +61,8 @@ const t: ShipType = {
     text:
       'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc].',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEsf.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIEsf.png',
   pilots: [
     {
       name: '“Quickdraw”',
@@ -80,10 +81,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/quickdraw.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/quickdraw.png',
     },
     {
       name: '“Backdraft”',
@@ -101,10 +101,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/backdraft.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/backdraft.png',
     },
     {
       name: 'Omega Squadron Expert',
@@ -122,9 +121,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png',
+        'https://infinitearenas.com/xw2/images/pilots/omegasquadronexpert.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/omegasquadronexpert.png',
     },
     {
       name: 'Zeta Squadron Survivor',
@@ -142,9 +141,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png',
+        'https://infinitearenas.com/xw2/images/pilots/zetasquadronsurvivor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zetasquadronsurvivor.png',
     },
     {
       name: 'Lieutenant LeHuse',
@@ -171,9 +170,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantlehuse.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlehuse.png',
     },
     {
       name: 'Captain Phasma',
@@ -199,10 +198,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/7c0bc32446e17991aff226d0fcab7b19.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainphasma.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainphasma.png',
     },
   ],
 };

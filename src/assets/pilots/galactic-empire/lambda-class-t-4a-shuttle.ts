@@ -33,7 +33,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Coordinate' },
     { difficulty: 'Red', type: 'Jam' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Lambda.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Lambda.png',
   pilots: [
     {
       name: 'Captain Kagi',
@@ -50,10 +51,9 @@ const t: ShipType = {
       epic: true,
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_142.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainkagi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainkagi.png',
     },
     {
       name: 'Colonel Jendon',
@@ -71,10 +71,9 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_143.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/coloneljendon.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon.png',
     },
     {
       name: 'Lieutenant Sai',
@@ -91,10 +90,9 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_144.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lieutenantsai.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantsai.png',
     },
     {
       name: 'Omicron Group Pilot',
@@ -111,9 +109,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_145.png',
+        'https://infinitearenas.com/xw2/images/pilots/omicrongrouppilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/omicrongrouppilot.png',
     },
   ],
 };

@@ -140,6 +140,7 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

@@ -39,7 +39,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Boost' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FIrespray.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FIrespray.png',
   pilots: [
     {
       name: 'Boba Fett',
@@ -67,10 +67,9 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_149.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/bobafett.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bobafett.png',
     },
     {
       name: 'Bounty Hunter',
@@ -87,10 +86,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_154.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/bountyhunter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bountyhunter.png',
     },
     {
       name: 'Emon Azzameen',
@@ -116,10 +114,9 @@ const t: ShipType = {
       epic: true,
       loadout: 17,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_150.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/emonazzameen.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/emonazzameen.png',
     },
     {
       name: 'Kath Scarlet',
@@ -145,10 +142,9 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_151.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kathscarlet.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kathscarlet.png',
     },
     {
       name: 'Koshka Frost',
@@ -175,10 +171,9 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_152.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/koshkafrost.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/koshkafrost.png',
     },
     {
       name: 'Krassis Trelix',
@@ -205,10 +200,9 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_153.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/krassistrelix.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/krassistrelix.png',
     },
     {
       name: 'Hondo Ohnaka',
@@ -235,6 +229,8 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hondoohnaka.png',
     },
   ],
 };

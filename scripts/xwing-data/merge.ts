@@ -6,7 +6,7 @@ import assets from '../../src/assets';
 import { Faction, Restrictions, Size, SlotKey } from '../../src/types';
 import { asyncForEach, getFaction, getName } from '../ffg/utils';
 import { XWDPilot, XWDShip, XWDUpgrade } from './data2-types';
-import { slotFromKey } from '../../src/helpers/convert';
+// import { slotFromKey } from '../../src/helpers/convert';
 
 const baseUrl =
   'https://raw.githubusercontent.com/guidokessels/xwing-data2/master';
@@ -175,63 +175,66 @@ const processUpgrade = (key: SlotKey, data: XWDUpgrade) => {
     assets.upgrades[key].push(upgrade);
   } else if (upgrade) {
     upgrade.sides = rest.sides.map((s, i) => ({
-      ...s,
-      title: s.title,
-      ability: s.ability,
-      text: s.text,
-      force: s.force ? { ...upgrade!.sides[i]?.force, ...s.force } : undefined,
-      grants: s.grants
-        ? s.grants.map((g) => {
-            if (g.type === 'action') {
-              return {
-                action: g.value,
-                value: 1,
-              };
-            } else if (g.type === 'slot') {
-              return {
-                slot: slotFromKey(g.value),
-                value: g.amount || 1,
-              };
-            } else if (g.type === 'stat') {
-              if (g.arc) {
-                return {
-                  stat: g.value,
-                  value: g.amount || 1,
-                  arc: g.arc,
-                };
-              }
-              return {
-                stat: g.value,
-                value: g.amount || 1,
-              };
-            } else if (g.type === 'arc') {
-              return {
-                arc: g.value,
-                value: 1,
-              };
-            } else if (g.type === 'force') {
-              return {
-                side: g.value[0],
-                value: g.amount || 1,
-              };
-            }
-            return g;
-          })
-        : undefined,
+      ...upgrade!.sides[i],
+      artwork: s.artwork,
+      image: s.image,
+      // ...s,
+      // title: s.title,
+      // ability: s.ability,
+      // text: s.text,
+      // force: s.force ? { ...upgrade!.sides[i]?.force, ...s.force } : undefined,
+      // grants: s.grants
+      //   ? s.grants.map((g) => {
+      //       if (g.type === 'action') {
+      //         return {
+      //           action: g.value,
+      //           value: 1,
+      //         };
+      //       } else if (g.type === 'slot') {
+      //         return {
+      //           slot: slotFromKey(g.value),
+      //           value: g.amount || 1,
+      //         };
+      //       } else if (g.type === 'stat') {
+      //         if (g.arc) {
+      //           return {
+      //             stat: g.value,
+      //             value: g.amount || 1,
+      //             arc: g.arc,
+      //           };
+      //         }
+      //         return {
+      //           stat: g.value,
+      //           value: g.amount || 1,
+      //         };
+      //       } else if (g.type === 'arc') {
+      //         return {
+      //           arc: g.value,
+      //           value: 1,
+      //         };
+      //       } else if (g.type === 'force') {
+      //         return {
+      //           side: g.value[0],
+      //           value: g.amount || 1,
+      //         };
+      //       }
+      //       return g;
+      //     })
+      //   : undefined,
     }));
-    upgrade.cost = rest.cost || { value: 0 };
-    upgrade.restrictions = rest.restrictions?.map((r) => {
-      const { action, factions, equipped } = r;
-      const res: Restrictions = { action, factions, equipped };
+    // upgrade.cost = rest.cost || { value: 0 };
+    // upgrade.restrictions = rest.restrictions?.map((r) => {
+    //   const { action, factions, equipped } = r;
+    //   const res: Restrictions = { action, factions, equipped };
 
-      if (r.sizes) {
-        res.baseSizes = r.sizes as Size[];
-      }
-      if (r.ships) {
-        res.chassis = r.ships;
-      }
-      return res;
-    });
+    //   if (r.sizes) {
+    //     res.baseSizes = r.sizes as Size[];
+    //   }
+    //   if (r.ships) {
+    //     res.chassis = r.ships;
+    //   }
+    //   return res;
+    // });
   }
 };
 

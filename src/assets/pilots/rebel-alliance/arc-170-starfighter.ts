@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Arc-170.png',
   pilots: [
     {
       name: 'Garven Dreis',
@@ -61,10 +62,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_66.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/garvendreis.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis.png',
     },
     {
       name: 'Ibtisam',
@@ -89,10 +89,9 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_68.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ibtisam.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ibtisam.png',
     },
     {
       name: 'Norra Wexley',
@@ -117,10 +116,9 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_65.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/norrawexley.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/norrawexley.png',
     },
     {
       name: 'Shara Bey',
@@ -146,10 +144,9 @@ const t: ShipType = {
       epic: true,
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_67.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sharabey.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey.png',
     },
   ],
 };

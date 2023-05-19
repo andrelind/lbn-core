@@ -32,7 +32,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
     { difficulty: 'White', type: 'Reload' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_K-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_K-wing.png',
   pilots: [
     {
       name: 'Esege Tuketu',
@@ -57,10 +58,9 @@ const t: ShipType = {
       epic: true,
       loadout: 16,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_63.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/esegetuketu.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/esegetuketu.png',
     },
     {
       name: 'Miranda Doni',
@@ -85,10 +85,9 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_62.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/mirandadoni.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/mirandadoni.png',
     },
     {
       name: 'Warden Squadron Pilot',
@@ -105,9 +104,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_64.png',
+        'https://infinitearenas.com/xw2/images/pilots/wardensquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wardensquadronpilot.png',
     },
   ],
 };

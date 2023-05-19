@@ -43,7 +43,7 @@ const t: ShipType = {
       'After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPhantom.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPhantom.png',
   pilots: [
     {
       name: '“Echo”',
@@ -61,10 +61,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_132.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/echo.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/echo.png',
     },
     {
       name: '“Whisper”',
@@ -81,10 +79,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_131.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/whisper.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/whisper.png',
     },
     {
       name: 'Imdaar Test Pilot',
@@ -101,10 +98,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_134.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/imdaartestpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/imdaartestpilot.png',
     },
     {
       name: 'Sigma Squadron Ace',
@@ -122,9 +118,9 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_133.png',
+        'https://infinitearenas.com/xw2/images/pilots/sigmasquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sigmasquadronace.png',
     },
   ],
 };

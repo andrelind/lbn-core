@@ -67,11 +67,14 @@ const t: ShipType = {
       epic: true,
       ffg: 713,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/17ae9e44f24e0a38ba81f4523857c4f0.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/syndicatesmugglers.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/syndicatesmugglers.png',
     },
   ],
   ffg: 82,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_C-ROC.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_C-ROC.png',
 };
 
 export default t;

@@ -54,7 +54,8 @@ const t: ShipType = {
     text:
       'You can acquire locks beyond range 3. You cannot acquire locks at range 1.',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_E-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_E-wing.png',
   pilots: [
     {
       name: 'Corran Horn',
@@ -79,10 +80,9 @@ const t: ShipType = {
       epic: true,
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_50.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/corranhorn.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/corranhorn.png',
     },
     {
       name: 'Gavin Darklighter',
@@ -107,9 +107,9 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_51.png',
+        'https://infinitearenas.com/xw2/images/pilots/gavindarklighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gavindarklighter.png',
     },
     {
       name: 'Knave Squadron Escort',
@@ -126,9 +126,9 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_53.png',
+        'https://infinitearenas.com/xw2/images/pilots/knavesquadronescort.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/knavesquadronescort.png',
     },
     {
       name: 'Rogue Squadron Escort',
@@ -145,9 +145,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_52.png',
+        'https://infinitearenas.com/xw2/images/pilots/roguesquadronescort.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/roguesquadronescort.png',
     },
   ],
 };

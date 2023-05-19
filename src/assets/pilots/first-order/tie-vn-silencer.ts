@@ -43,7 +43,7 @@ const t: ShipType = {
       'After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIESilencer.png',
+    'https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIESilencer.png',
   pilots: [
     {
       name: '“Blackout”',
@@ -61,10 +61,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/c5659b210e13b4e11fdd5f1396f2847c.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/blackout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/20308b5887fb20d6b8ecdb3ede0bede3.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blackout.png',
     },
     {
       name: 'Kylo Ren',
@@ -84,10 +83,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'TIE'],
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kyloren.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png',
     },
     {
       name: 'First Order Test Pilot',
@@ -105,9 +103,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/568abbcd68bb174173da4e7ee92051e3.png',
+        'https://infinitearenas.com/xw2/images/pilots/firstordertestpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/86349c032fc169cb2000d3db7c9fbef4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/firstordertestpilot.png',
     },
     {
       name: '“Recoil”',
@@ -125,10 +123,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/ab11858b2b9ac5c8bbfb2dc21023ba34.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/recoil.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c4590088696ecc687f5c0f004d1d97ab.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/recoil.png',
     },
     {
       name: '“Avenger”',
@@ -146,10 +143,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/d90d3057ead18b5df5f6de55a199a4cd.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/avenger.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3778411ec66e33951231314e909b981d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/avenger.png',
     },
     {
       name: 'Sienar-Jaemus Engineer',
@@ -167,9 +163,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/8f7c4680fbc001169baf6538ab259e9b.png',
+        'https://infinitearenas.com/xw2/images/pilots/sienarjaemusengineer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemusengineer.png',
     },
     {
       name: '“Rush”',
@@ -186,10 +182,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/886d715885da65bdf10ad7c68e4d0a93.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3b748daed26df2870694ab9dc679c5ee.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rush.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/rush.png',
     },
   ],
 };

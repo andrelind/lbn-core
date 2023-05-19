@@ -69,10 +69,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/49791d2bcd4e67bc66e97c83f17dad24.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dgs047.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1cd30a5d258ff70472e785c816139d1f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dgs047.png',
     },
     {
       xws: 'baktoiddrone',
@@ -89,10 +88,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/3af13c610ba1544ae93383b2c8b10f90.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/baktoiddrone.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8117e7b2349219b237157bfeda3028d0.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/baktoiddrone.png',
     },
     {
       xws: 'geonosianprototype',
@@ -119,9 +117,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/1352254ba28a6191adfdea1273cedb8d.png',
+        'https://infinitearenas.com/xw2/images/pilots/geonosianprototype.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3a95eb82b3cf0420376c75f649d436ee.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/geonosianprototype.png',
     },
     {
       xws: 'dgs286',
@@ -147,10 +145,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/b0d0b99b3b18b330f2c37221fb2696f9.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dgs286.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/20ce8cad5b251ad3ea16d849297e82db.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dgs286.png',
     },
     {
       xws: 'onderonoppressor',
@@ -169,9 +166,9 @@ const t: ShipType = {
       loadout: 15,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/41b07fdfd2fc8af5d662796905266c6a.png',
+        'https://infinitearenas.com/xw2/images/pilots/onderonoppressor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ba5a6c72eb21bd7bd58c9f7072dd0fdd.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/onderonoppressor.png',
     },
     {
       name: 'Separatist Predator',
@@ -189,14 +186,14 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png',
+        'https://infinitearenas.com/xw2/images/pilots/separatistpredator.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/separatistpredator.png',
     },
   ],
   ffg: 75,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png',
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_HMP_Droid_Gunship.png',
 };
 
 export default t;

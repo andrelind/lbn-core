@@ -13,6 +13,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
         ffg: 292,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ablativeplating.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/ablativeplating.png',
       },
     ],
     cost: { value: 4 },
@@ -32,6 +36,10 @@ const t: UpgradeBase[] = [
           'After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.',
         slots: ['Modification'],
         ffg: 293,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/advancedslam.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/advancedslam.png',
       },
     ],
     cost: { value: 3 },
@@ -52,6 +60,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
         ffg: 294,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/afterburners.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/afterburners.png',
       },
     ],
     cost: { value: 8 },
@@ -71,6 +83,10 @@ const t: UpgradeBase[] = [
           'During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.',
         slots: ['Modification'],
         ffg: 295,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/electronicbaffle.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/electronicbaffle.png',
       },
     ],
     cost: { value: 2 },
@@ -91,6 +107,10 @@ const t: UpgradeBase[] = [
         actions: [{ type: 'Boost', difficulty: 'White' }],
         grants: [{ action: { type: 'Boost', difficulty: 'White' }, value: 1 }],
         ffg: 296,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/engineupgrade.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/engineupgrade.png',
       },
     ],
     cost: { value: 3 },
@@ -111,6 +131,9 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         grants: [{ stat: 'hull', value: 1 }],
         ffg: 297,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/hullupgrade.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/hullupgrade.png',
       },
     ],
     cost: { value: 6 },
@@ -129,6 +152,10 @@ const t: UpgradeBase[] = [
           'While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.',
         slots: ['Modification'],
         ffg: 298,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/munitionsfailsafe.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/munitionsfailsafe.png',
       },
     ],
     cost: { value: 1 },
@@ -148,6 +175,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         grants: [{ stat: 'shields', value: 1 }],
         ffg: 299,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/shieldupgrade.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/shieldupgrade.png',
       },
     ],
     cost: { value: 8 },
@@ -166,6 +197,10 @@ const t: UpgradeBase[] = [
           'Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.',
         slots: ['Modification'],
         ffg: 300,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/staticdischargevanes.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/staticdischargevanes.png',
       },
     ],
     cost: { value: 5 },
@@ -185,6 +220,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 1, recovers: 0 },
         ffg: 301,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/stealthdevice.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/stealthdevice.png',
       },
     ],
     cost: { value: 8 },
@@ -203,6 +242,10 @@ const t: UpgradeBase[] = [
           "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
         slots: ['Modification'],
         ffg: 302,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tacticalscrambler.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/tacticalscrambler.png',
       },
     ],
     cost: { value: 2 },
@@ -223,6 +266,10 @@ const t: UpgradeBase[] = [
         charges: { value: 2, recovers: 0 },
         slots: ['Modification'],
         ffg: 534,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/imperviumplating.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/imperviumplating.png',
       },
     ],
     restrictions: [{ chassis: ['belbullab22starfighter'] }],
@@ -242,6 +289,10 @@ const t: UpgradeBase[] = [
           'After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.',
         slots: ['Modification'],
         ffg: 554,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/synchronizedconsole.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/synchronizedconsole.png',
       },
     ],
     restrictions: [
@@ -265,6 +316,10 @@ const t: UpgradeBase[] = [
         charges: { value: 1, recovers: 0 },
         slots: ['Modification'],
         ffg: 550,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/sparepartscanisters.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/sparepartscanisters.png',
       },
     ],
     standard: true,
@@ -284,6 +339,10 @@ const t: UpgradeBase[] = [
           'After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.',
         slots: ['Modification'],
         ffg: 592,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/delayedfuses.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/delayedfuses.png',
       },
     ],
     standard: true,
@@ -306,6 +365,10 @@ const t: UpgradeBase[] = [
           { action: { type: 'Reinforce', difficulty: 'White' }, value: 1 },
         ],
         ffg: 593,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/angleddeflectors.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/angleddeflectors.png',
       },
     ],
     standard: true,
@@ -329,6 +392,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         type: 'Modification',
         grants: [{ action: { type: 'Lock', difficulty: 'White' }, value: 1 }],
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/targetingcomputer.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/targetingcomputer.png',
       },
     ],
     standard: true,
@@ -348,6 +415,10 @@ const t: UpgradeBase[] = [
         type: 'Modification',
         slots: ['Modification'],
         ffg: 721,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/overdrivethruster.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/overdrivethruster.png',
       },
     ],
     standard: true,
@@ -368,6 +439,10 @@ const t: UpgradeBase[] = [
         type: 'Modification',
         slots: ['Modification'],
         ffg: 866,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/independentcalculations.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/independentcalculations.png',
       },
     ],
     standarized: true,
@@ -399,6 +474,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
         ffg: 867,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/precisionionengines.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/precisionionengines.png',
       },
     ],
     cost: { value: 2 },
@@ -423,6 +502,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/mandalorianoptics.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png',
       },
     ],
     extended: true,
@@ -443,6 +526,10 @@ const t: UpgradeBase[] = [
         slots: ['Modification'],
         charges: { value: 2, recovers: 0 },
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png',
       },
     ],
     extended: true,
@@ -464,6 +551,10 @@ const t: UpgradeBase[] = [
         type: 'Modification',
         slots: ['Modification'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/burnoutthrusters.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png',
       },
     ],
     extended: true,
@@ -487,6 +578,9 @@ const t: UpgradeBase[] = [
         ],
         slots: ['Modification'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/dropseatbay.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/dropseatbay.png',
       },
     ],
     restrictions: [{ chassis: ['gauntletfighter'] }],
@@ -494,6 +588,78 @@ const t: UpgradeBase[] = [
     standard: true,
     extended: true,
     epic: true,
+  },
+  {
+    limited: 0,
+    xws: 'unstablesublightengines-battleofyavin',
+    sides: [
+      {
+        ability:
+          'After you are destroyed, you must execute a [1 [Straight]] maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.',
+        title: 'Unstable Sublight Engines',
+        type: 'Modification',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'sensorjammer-battleofyavin',
+    sides: [
+      {
+        ability:
+          "While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's [Hit] results to a [Focus] result.",
+        title: 'Sensor Jammer',
+        type: 'Modification',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'contingencyprotocol-siegeofcoruscant',
+    sides: [
+      {
+        ability:
+          'After this ship is destroyed, another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
+        title: 'Contingency Protocol',
+        type: 'Modification',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'evasionsequence7-siegeofcoruscant',
+    sides: [
+      {
+        ability:
+          'While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.',
+        title: 'Contingency Protocol',
+        type: 'Modification',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
   },
 ];
 

@@ -186,8 +186,10 @@ const t: ShipType = {
       standard: true,
       extended: true,
       epic: true,
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/durge.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

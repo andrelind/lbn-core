@@ -38,7 +38,7 @@ const t: ShipType = {
       'While you are docked, your carrier ship has your pilot ability in addition to its own.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_EscapeShuttle.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_EscapeShuttle.png',
   pilots: [
     {
       name: 'Autopilot Drone',
@@ -65,10 +65,9 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_229.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/autopilotdrone.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/autopilotdrone.png',
     },
     {
       name: 'L3-37',
@@ -92,9 +91,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_228.png',
+        'https://infinitearenas.com/xw2/images/pilots/l337-escapecraft.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/l337-escapecraft.png',
     },
     {
       name: 'Lando Calrissian',
@@ -112,9 +111,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_226.png',
+        'https://infinitearenas.com/xw2/images/pilots/landocalrissian-escapecraft.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-escapecraft.png',
     },
     {
       name: 'Outer Rim Pioneer',
@@ -131,10 +130,9 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_227.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/outerrimpioneer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimpioneer.png',
     },
   ],
 };

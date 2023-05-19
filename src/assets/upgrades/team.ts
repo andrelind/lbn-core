@@ -22,6 +22,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 746,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bombardmentspecialists.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/bombardmentspecialists.png',
       },
     ],
     cost: { value: 6 },
@@ -57,6 +61,9 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 747,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/commsteam.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/commsteam.png',
       },
     ],
     cost: { value: 7 },
@@ -84,6 +91,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 750,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/damagecontrolteam.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/damagecontrolteam.png',
       },
     ],
     cost: { value: 3 },
@@ -111,6 +122,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 749,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/gunneryspecialists.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/gunneryspecialists.png',
       },
     ],
     cost: { value: 5 },
@@ -131,6 +146,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
         ffg: 748,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/igrmdroids.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/igrmdroids.png',
       },
     ],
     cost: { value: 2 },
@@ -158,6 +176,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 751,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ordnanceteam.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/ordnanceteam.png',
       },
     ],
     cost: { value: 2 },
@@ -185,6 +207,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 752,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/sensorexperts.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/sensorexperts.png',
       },
     ],
     cost: { value: 6 },
@@ -203,6 +229,9 @@ const t: UpgradeBase[] = [
           'While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.',
         slots: ['Team'],
         ffg: 942,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/droidcrew.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/droidcrew.png',
       },
     ],
     standard: false,
@@ -221,6 +250,10 @@ const t: UpgradeBase[] = [
           'During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 [Energy]. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.',
         slots: ['Team'],
         ffg: 944,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tractortechnicians.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/tractortechnicians.png',
       },
     ],
     standard: false,
@@ -238,6 +271,9 @@ const t: UpgradeBase[] = [
           'While you perform an attack against a standard ship, you may spend 1 [Hit] result. If you do, the defender gains 1 deplete token.',
         slots: ['Team', 'Gunner'],
         ffg: 943,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/corsaircrew.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/corsaircrew.png',
       },
     ],
     standard: false,

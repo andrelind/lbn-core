@@ -42,7 +42,8 @@ const t: ShipType = {
     name: 'Vectored Thrusters',
     text: 'After you perform an action, you may perform a red [Boost] action.',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_A-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_A-wing.png',
   pilots: [
     {
       name: 'Arvel Crynyd',
@@ -60,10 +61,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_20.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/arvelcrynyd.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png',
     },
     {
       name: 'Green Squadron Pilot',
@@ -81,9 +81,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_21.png',
+        'https://infinitearenas.com/xw2/images/pilots/greensquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/greensquadronpilot.png',
     },
     {
       name: 'Jake Farrell',
@@ -101,10 +101,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_19.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jakefarrell.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png',
     },
     {
       name: 'Phoenix Squadron Pilot',
@@ -122,9 +121,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_22.png',
+        'https://infinitearenas.com/xw2/images/pilots/phoenixsquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/phoenixsquadronpilot.png',
     },
     {
       xws: 'wedgeantilles-rz1awing',
@@ -143,7 +142,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-rz1awing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/wedgeantilles-rz1awing.png',
     },
     {
       xws: 'sabinewren-rz1awing',
@@ -162,7 +163,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['A-wing', 'Mandalorian'],
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-rz1awing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/sabinewren-rz1awing.png',
     },
     {
       xws: 'herasyndulla-rz1awing',
@@ -188,7 +191,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['A-wing', 'Spectre'],
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-rz1awing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/herasyndulla-rz1awing.png',
     },
     {
       xws: 'ahsokatano-rz1awing',
@@ -215,7 +220,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['A-wing', 'Light Side'],
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano-rz1awing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/ahsokatano-rz1awing.png',
     },
     {
       xws: 'sharabey-rz1awing',
@@ -234,7 +241,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/sharabey-rz1awing.png',
     },
     {
       xws: 'derekklivian',
@@ -253,7 +262,8 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/derekklivian.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/derekklivian.png',
     },
     {
       name: 'Keo Venzee',
@@ -277,6 +287,8 @@ const t: ShipType = {
       keywords: ['A-wing'],
       image: 'https://infinitearenas.com/xw2/images/pilots/keovenzee.png',
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/keovenzee.png',
     },
     {
       name: 'Tycho Celchu',
@@ -299,6 +311,8 @@ const t: ShipType = {
       keywords: ['A-wing'],
       image: 'https://infinitearenas.com/xw2/images/pilots/tychocelchu.png',
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu.png',
     },
   ],
 };

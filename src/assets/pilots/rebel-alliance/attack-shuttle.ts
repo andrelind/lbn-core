@@ -46,7 +46,7 @@ const t: ShipType = {
       'While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_AttackShuttle.png',
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_AttackShuttle.png',
   pilots: [
     {
       name: '“Zeb” Orrelios',
@@ -64,10 +64,9 @@ const t: ShipType = {
       keywords: ['Spectre'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_37.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zeborrelios.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios.png',
     },
     {
       name: 'Ezra Bridger',
@@ -86,10 +85,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       keywords: ['Light Side', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_36.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ezrabridger.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger.png',
     },
     {
       name: 'Hera Syndulla',
@@ -107,10 +105,9 @@ const t: ShipType = {
       keywords: ['Spectre'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_34.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/herasyndulla.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla.png',
     },
     {
       name: 'Sabine Wren',
@@ -128,10 +125,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       keywords: ['Mandalorian', 'Spectre'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_35.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sabinewren.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren.png',
     },
   ],
 };

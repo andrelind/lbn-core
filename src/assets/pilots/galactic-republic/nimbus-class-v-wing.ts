@@ -68,10 +68,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       keywords: ['TIE'],
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/bf/0e/bf0e3b50-3f36-4940-953b-f0a2d9f2b9b9/swz80_ship_tarkin.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wilhufftarkin.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/02fb0df2a559b8bc66fd475442dbe8df.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wilhufftarkin.png',
     },
     {
       xws: 'oddball-nimbusclassvwing',
@@ -96,9 +95,9 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/8e/70/8e70bbf1-d0ca-4367-9e3a-4ad0186af71f/swz80_ship_odd-ball.png',
+        'https://infinitearenas.com/xw2/images/pilots/oddball-nimbusclassvwing.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/03ff8a220e58ba5c122bd82292447182.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/oddball-nimbusclassvwing.png',
     },
     {
       name: '“Contrail”',
@@ -116,10 +115,9 @@ const t: ShipType = {
       keywords: ['Clone', 'TIE'],
       loadout: 11,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/contrail.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/contrail.png',
     },
     {
       name: '“Klick”',
@@ -137,10 +135,8 @@ const t: ShipType = {
       keywords: ['Clone', 'TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/klick.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/klick.png',
     },
     {
       name: 'Shadow Squadron Escort',
@@ -158,9 +154,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/c0/b0/c0b03f12-cff6-43af-99df-6ddf61fd471a/swz80_ship_shadow-escort.png',
+        'https://infinitearenas.com/xw2/images/pilots/shadowsquadronescort.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a9dd9a8a65facfae13018bb0d1aad602.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shadowsquadronescort.png',
     },
     {
       name: 'Loyalist Volunteer',
@@ -178,64 +174,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['TIE'],
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/a1/27/a127938a-aecc-48eb-ba09-622781e84084/swz80_ship_volunteer.png',
+        'https://infinitearenas.com/xw2/images/pilots/loyalistvolunteer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/963d472b274bb777fdc9be15527e28f1.jpg',
-    },
-    {
-      name: '“Contrail”',
-      xws: 'contrail-siegeofcoruscant',
-      initiative: 5,
-      limited: 1,
-      caption: 'Siege of Coruscant',
-      standard: true,
-      ability:
-        "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
-      slots: [],
-      cost: 4,
-      epic: true,
-      ffg: 789,
-      keywords: ['Clone', 'TIE'],
-      loadout: 0,
-      extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/b0/bc/b0bcccdb-fd02-4ab1-847b-66bae01e7ddc/swz80_ship_contrail.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg',
-      shipAbility: {
-        name: 'Born for This',
-        text:
-          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
-      },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ion Limiter Override',
-          ability:
-            'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Precise Astromech',
-          ability:
-            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Ion Bombs',
-          slots: ['Device'],
-          ability:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the (1 [Straight]) template.',
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Alpha-3B "Besh"',
-          ability:
-            'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
-          slots: ['Configuration'],
-        },
-      ],
+        'https://infinitearenas.com/xw2/images/artwork/pilots/loyalistvolunteer.png',
     },
     {
       name: '“Klick”',
@@ -254,9 +195,8 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/d6/ba/d6baed95-5960-4615-9949-faf5a5c0d96f/swz80_ship_klick.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg',
+        'https://infinitearenas.com/xw2/images/quickbuilds/klick-siegeofcoruscant.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/klick.png',
       shipAbility: {
         name: 'Born for This',
         text:
@@ -292,10 +232,65 @@ const t: ShipType = {
         },
       ],
     },
+    {
+      name: '“Contrail”',
+      xws: 'contrail-siegeofcoruscant',
+      initiative: 5,
+      limited: 1,
+      caption: 'Siege of Coruscant',
+      standard: true,
+      ability:
+        "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
+      slots: [],
+      cost: 4,
+      epic: true,
+      ffg: 789,
+      keywords: ['Clone', 'TIE'],
+      loadout: 0,
+      extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/contrail-siegeofcoruscant.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/contrail.png',
+      shipAbility: {
+        name: 'Born for This',
+        text:
+          'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
+      },
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Ion Limiter Override',
+          ability:
+            'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
+          slots: ['Talent'],
+        },
+        {
+          title: 'Precise Astromech',
+          ability:
+            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
+          slots: ['Astromech'],
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Ion Bombs',
+          slots: ['Device'],
+          ability:
+            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the (1 [Straight]) template.',
+          charges: { value: 2, recovers: 0 },
+        },
+        {
+          title: 'Alpha-3B "Besh"',
+          ability:
+            'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
+          slots: ['Configuration'],
+        },
+      ],
+    },
   ],
   ffg: 71,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Nimbus-class_V-wing.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Nimbus-class_V-wing.png',
 };
 
 export default t;

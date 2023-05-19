@@ -315,6 +315,7 @@ const t: ShipType = {
       epic: true,
     },
   ],
+  icon: '???',
 };
 
 export default t;

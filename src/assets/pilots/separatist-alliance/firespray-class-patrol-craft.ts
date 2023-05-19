@@ -38,7 +38,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Boost' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FIrespray.png',
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_FIrespray.png',
   pilots: [
     {
       name: 'Jango Fett',
@@ -66,10 +66,9 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/d4/f0/d4f09efe-f07f-45ad-a82f-8fdc29ec8f75/swz82_a1_jango-fett.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jangofett.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b6d21423ce39d0a57330782ac9f37e24.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jangofett.png',
     },
     {
       xws: 'zamwesell',
@@ -97,10 +96,9 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/08/f3/08f343b7-9d01-4e1f-91d8-e6eca0eb4fe0/swz82_a1_zam-wessel.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zamwesell.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/99cf31dd1b9dc66bb0bd9522aacea4ce.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zamwesell.png',
     },
     {
       xws: 'bobafett-separatistalliance',
@@ -127,9 +125,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Bounty Hunter'],
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/17/5d/175d51c6-6a7a-4f59-b8c1-44417a746187/swz82_a1_boba-fett.png',
+        'https://infinitearenas.com/xw2/images/pilots/bobafett-separatistalliance.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3b76c2f168aa5b6644c9d270200a3ef1.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bobafett-separatistalliance.png',
     },
     {
       name: 'Separatist Racketeer',
@@ -146,9 +144,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/16/8c/168ca8f4-0015-44a3-9a7c-099caff70881/swz82_a1_separatist-racketeer.png',
+        'https://infinitearenas.com/xw2/images/pilots/separatistracketeer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/fd061204d3235827f2457d5be76cc18b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/separatistracketeer.png',
     },
     {
       name: 'Aurra Sing',

@@ -35,7 +35,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_TIEFighter.png',
   pilots: [
     {
       name: '“Zeb” Orrelios',
@@ -54,9 +54,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_49.png',
+        'https://infinitearenas.com/xw2/images/pilots/zeborrelios-tielnfighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-tielnfighter.png',
     },
     {
       name: 'Captain Rex',
@@ -75,10 +75,9 @@ const t: ShipType = {
       keywords: ['Clone', 'TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_48.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainrex.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainrex.png',
     },
     {
       name: 'Ezra Bridger',
@@ -98,9 +97,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Light Side', 'Spectre', 'TIE'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_46.png',
+        'https://infinitearenas.com/xw2/images/pilots/ezrabridger-tielnfighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-tielnfighter.png',
     },
     {
       name: 'Sabine Wren',
@@ -119,9 +118,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Mandalorian', 'TIE', 'Spectre'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_47.png',
+        'https://infinitearenas.com/xw2/images/pilots/sabinewren-tielnfighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-tielnfighter.png',
     },
   ],
 };

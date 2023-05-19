@@ -66,11 +66,14 @@ const t: ShipType = {
       epic: true,
       ffg: 706,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c029d78ab010ebb2d5a9405924efbf5a.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/alderaanianguard.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/alderaanianguard.png',
     },
   ],
   ffg: 78,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_CR90.png',
 };
 
 export default t;

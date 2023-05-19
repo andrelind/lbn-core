@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Barrel Roll' },
     { difficulty: 'Red', type: 'Reload' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Y-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png',
   pilots: [
     {
       name: 'Crymorah Goon',
@@ -52,10 +53,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_168.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/crymorahgoon.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/crymorahgoon.png',
     },
     {
       name: 'Drea Renthal',
@@ -82,10 +82,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_166.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/drearenthal.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/drearenthal.png',
     },
     {
       name: 'Hired Gun',
@@ -102,10 +101,9 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_167.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/hiredgun.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hiredgun.png',
     },
     {
       name: 'Kavil',
@@ -132,10 +130,8 @@ const t: ShipType = {
       keywords: ['Y-wing'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_165.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kavil.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/kavil.png',
     },
     {
       xws: 'leemakai',
@@ -162,7 +158,8 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/leemakai.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/leemakai.png',
     },
     {
       xws: 'arlizhadrassian',
@@ -189,7 +186,8 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/arlizhadrassian.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/arlizhadrassian.png',
     },
     {
       xws: 'amaxinewarrior',
@@ -207,7 +205,8 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/amaxinewarrior.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/amaxinewarrior.png',
     },
     {
       xws: 'padric',
@@ -235,7 +234,8 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/padric.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/padric.png',
     },
     {
       xws: 'jinatasecurityofficer',
@@ -253,7 +253,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jinatasecurityofficer.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/jinatasecurityofficer.png',
     },
   ],
 };

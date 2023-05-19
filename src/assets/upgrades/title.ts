@@ -16,6 +16,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Reload', difficulty: 'White' }, value: 1 },
         ],
         ffg: 371,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/andrasta.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/andrasta.png',
       },
     ],
     cost: { value: 0 },
@@ -41,6 +44,9 @@ const t: UpgradeBase[] = [
         actions: [{ type: 'SLAM', difficulty: 'White' }],
         ffg: 484,
         grants: [{ action: { type: 'SLAM', difficulty: 'White' }, value: 1 }],
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/blackone.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/blackone.png',
       },
     ],
     cost: { value: 0 },
@@ -60,6 +66,9 @@ const t: UpgradeBase[] = [
           'After you partially execute a maneuver, you may perform 1 white action, treating that action as red.',
         slots: ['Title'],
         ffg: 349,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/dauntless.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/dauntless.png',
       },
     ],
     cost: { value: 0 },
@@ -82,6 +91,9 @@ const t: UpgradeBase[] = [
           'You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.',
         slots: ['Title'],
         ffg: 326,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ghost.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ghost.png',
       },
     ],
     cost: { value: 0 },
@@ -108,6 +120,9 @@ const t: UpgradeBase[] = [
           { slot: 'Crew', value: -1 },
         ],
         ffg: 372,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/havoc.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/havoc.png',
       },
     ],
     cost: { value: 0 },
@@ -129,6 +144,9 @@ const t: UpgradeBase[] = [
         ability: '1 Z-95-AF4 headhunter can dock with you.',
         slots: ['Title'],
         ffg: 373,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/houndstooth.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/houndstooth.png',
       },
     ],
     cost: { value: 0 },
@@ -151,6 +169,9 @@ const t: UpgradeBase[] = [
           'You have the pilot ability of each other friendly ship with the IG-2000 upgrade.',
         slots: ['Title'],
         ffg: 374,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ig2000.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ig2000.png',
       },
     ],
     cost: { value: 0 },
@@ -173,6 +194,10 @@ const t: UpgradeBase[] = [
           '1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.',
         slots: ['Title'],
         ffg: 390,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/landosmillenniumfalcon.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/landosmillenniumfalcon.png',
       },
     ],
     cost: { value: 0 },
@@ -196,6 +221,9 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         grants: [{ slot: 'Gunner', value: 1 }],
         ffg: 375,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/marauder.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/marauder.png',
       },
     ],
     cost: { value: 0 },
@@ -220,6 +248,10 @@ const t: UpgradeBase[] = [
         actions: [{ type: 'Evade', difficulty: 'White' }],
         grants: [{ action: { type: 'Evade', difficulty: 'White' }, value: 1 }],
         ffg: 327,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/millenniumfalcon.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/millenniumfalcon.png',
       },
     ],
     cost: { value: 0 },
@@ -246,6 +278,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Barrel Roll', difficulty: 'White' }, value: 1 },
         ],
         ffg: 376,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/misthunter.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/misthunter.png',
       },
     ],
     cost: { value: 0 },
@@ -269,6 +304,9 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         grants: [{ stat: 'attack', value: 3, arc: 'Front Arc' }],
         ffg: 328,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/moldycrow.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/moldycrow.png',
       },
     ],
     cost: { value: 0 },
@@ -291,6 +329,9 @@ const t: UpgradeBase[] = [
           'While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.',
         slots: ['Title'],
         ffg: 329,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/outrider.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/outrider.png',
       },
     ],
     cost: { value: 0 },
@@ -312,6 +353,9 @@ const t: UpgradeBase[] = [
         ability: 'You can dock at range 0-1.',
         slots: ['Title'],
         ffg: 330,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/phantom.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/phantom.png',
       },
     ],
     cost: { value: 0 },
@@ -338,6 +382,10 @@ const t: UpgradeBase[] = [
           { slot: 'Astromech', value: 1 },
         ],
         ffg: 377,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/punishingone.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/punishingone.png',
       },
     ],
     cost: { value: 0 },
@@ -360,6 +408,9 @@ const t: UpgradeBase[] = [
           'After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.',
         slots: ['Title'],
         ffg: 391,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/st321.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/st321.png',
       },
     ],
     cost: { value: 0 },
@@ -382,6 +433,10 @@ const t: UpgradeBase[] = [
           'After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.',
         slots: ['Title'],
         ffg: 378,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/shadowcaster.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/shadowcaster.png',
       },
     ],
     cost: { value: 0 },
@@ -405,6 +460,9 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         grants: [{ slot: 'Torpedo', value: 1 }],
         ffg: 379,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/slavei.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/slavei.png',
       },
     ],
     cost: { value: 0 },
@@ -432,6 +490,9 @@ const t: UpgradeBase[] = [
           { stat: 'shields', value: 1 },
         ],
         ffg: 380,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/virago.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/virago.png',
       },
     ],
     cost: { value: 0 },
@@ -451,6 +512,10 @@ const t: UpgradeBase[] = [
           "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
         slots: ['Title'],
         ffg: 485,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/reysmillenniumfalcon.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/reysmillenniumfalcon.png',
       },
     ],
     cost: { value: 0 },
@@ -474,6 +539,9 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         grants: [{ stat: 'hull', value: 2 }],
         ffg: 533,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/soullessone.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/soullessone.png',
       },
     ],
     restrictions: [
@@ -500,6 +568,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
         ],
         ffg: 542,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/scimitar.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/scimitar.png',
       },
     ],
     restrictions: [
@@ -527,6 +598,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 769,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/assailer.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/assailer.png',
       },
     ],
     standard: false,
@@ -553,6 +627,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 773,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bloodcrow.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/bloodcrow.png',
       },
     ],
     standard: false,
@@ -574,6 +651,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 766,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/brighthope.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/brighthope.png',
       },
     ],
     standard: false,
@@ -615,6 +695,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 761,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/dodonnaspride.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/dodonnaspride.png',
       },
     ],
     standard: false,
@@ -641,6 +725,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 771,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/impetuous.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/impetuous.png',
       },
     ],
     standard: false,
@@ -663,6 +750,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 772,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/instigator.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/instigator.png',
       },
     ],
     standard: false,
@@ -687,6 +777,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
         ffg: 770,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/corvus.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/corvus.png',
       },
     ],
     standard: false,
@@ -714,6 +807,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 779,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/insatiableworrt.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/insatiableworrt.png',
       },
     ],
     standard: false,
@@ -736,6 +833,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 763,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/liberator.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/liberator.png',
       },
     ],
     standard: false,
@@ -761,6 +861,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 767,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/luminous.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/luminous.png',
       },
     ],
     standard: false,
@@ -787,6 +890,9 @@ const t: UpgradeBase[] = [
           { slot: 'Cargo', value: 1 },
         ],
         ffg: 778,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/merchantone.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/merchantone.png',
       },
     ],
     standard: false,
@@ -812,6 +918,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 777,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/brokenhorn.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/brokenhorn.png',
       },
     ],
     standard: false,
@@ -838,6 +947,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 768,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/quantumstorm.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/quantumstorm.png',
       },
     ],
     standard: false,
@@ -860,6 +973,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 775,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/suppressor.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/suppressor.png',
       },
     ],
     standard: false,
@@ -881,6 +997,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 762,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/jainaslight.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/jainaslight.png',
       },
     ],
     standard: false,
@@ -906,6 +1025,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 764,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tantiveiv.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/tantiveiv.png',
       },
     ],
     standard: false,
@@ -932,6 +1054,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 765,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/thunderstrike.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/thunderstrike.png',
       },
     ],
     standard: false,
@@ -957,6 +1083,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 776,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/vector.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/vector.png',
       },
     ],
     standard: false,
@@ -978,6 +1107,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 774,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/requiem.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/requiem.png',
       },
     ],
     standard: false,
@@ -999,6 +1131,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 655,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/kazsfireball.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/kazsfireball.png',
       },
     ],
     standard: true,
@@ -1022,6 +1158,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: 869,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/slavei-swz82.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/slavei-swz82.png',
       },
     ],
     restrictions: [
@@ -1042,6 +1182,10 @@ const t: UpgradeBase[] = [
         slots: ['Title'],
         grants: [{ slot: 'Gunner', value: 1 }],
         ffg: 923,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/b6bladewingprototype.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype.png',
       },
     ],
     standard: true,
@@ -1064,6 +1208,9 @@ const t: UpgradeBase[] = [
           'While you perform a Drill Beak attack at attack range 1, if the defender is tractored, treat it as being at range 0 instead.',
         slots: ['Title'],
         ffg: 946,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/grappler.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/grappler.png',
       },
     ],
     standard: false,
@@ -1082,6 +1229,10 @@ const t: UpgradeBase[] = [
           'Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].',
         slots: ['Title'],
         ffg: 945,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/nautolansrevenge.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/nautolansrevenge.png',
       },
     ],
     standard: false,
@@ -1100,6 +1251,10 @@ const t: UpgradeBase[] = [
           'After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.',
         slots: ['Title'],
         ffg: 947,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/neimoidiangrasp.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/neimoidiangrasp.png',
       },
     ],
     standard: false,
@@ -1121,6 +1276,9 @@ const t: UpgradeBase[] = [
           'After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.',
         slots: ['Title'],
         ffg: 948,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/trident.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/trident.png',
       },
     ],
     standard: false,
@@ -1144,6 +1302,10 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title', 'Modification'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/nightbrother.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/nightbrother.png',
       },
     ],
     standarized: true,
@@ -1169,6 +1331,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title', 'Modification'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/gauntlet.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/gauntlet.png',
       },
     ],
     standarized: true,
@@ -1202,6 +1367,9 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/razorcrest.png',
       },
     ],
     standarized: true,
@@ -1225,6 +1393,9 @@ const t: UpgradeBase[] = [
           { action: { type: 'Cloak', difficulty: 'Red' }, value: 1 },
         ],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/xanadublood.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/xanadublood.png',
       },
     ],
     cost: { value: 0 },

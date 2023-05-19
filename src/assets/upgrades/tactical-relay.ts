@@ -15,6 +15,9 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/kraken.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/kraken.png',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -34,6 +37,9 @@ const t: UpgradeBase[] = [
           'While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.',
         slots: ['Tactical Relay'],
         ffg: 530,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tv94.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/tv94.png',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -53,6 +59,9 @@ const t: UpgradeBase[] = [
           'While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.',
         slots: ['Tactical Relay'],
         ffg: 537,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/k2b4.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/k2b4.png',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -72,6 +81,9 @@ const t: UpgradeBase[] = [
           'After a friendly ship at range 0-3 with [Calculate] on its action bar is destroyed, each friendly ship at range 0-3 with [Calculate] in its action bar gains 1 calculate token.',
         slots: ['Tactical Relay'],
         ffg: 590,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ta175.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ta175.png',
       },
     ],
     restrictions: [{ factions: ['Separatist Alliance'] }],
@@ -96,6 +108,9 @@ const t: UpgradeBase[] = [
         grants: [
           { action: { type: 'Calculate', difficulty: 'White' }, value: 1 },
         ],
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/kalani.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/kalani.png',
       },
     ],
     standard: true,

@@ -38,7 +38,7 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Coordinate' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Decimator.png',
   pilots: [
     {
       name: 'Captain Oicunn',
@@ -65,10 +65,9 @@ const t: ShipType = {
       epic: true,
       loadout: 19,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_146.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainoicunn.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainoicunn.png',
     },
     {
       name: 'Patrol Leader',
@@ -84,10 +83,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_148.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/patrolleader.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png',
     },
     {
       name: 'Rear Admiral Chiraneau',
@@ -115,9 +113,9 @@ const t: ShipType = {
       loadout: 26,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_147.png',
+        'https://infinitearenas.com/xw2/images/pilots/rearadmiralchiraneau.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rearadmiralchiraneau.png',
     },
     {
       name: 'Morna Kee',
@@ -145,10 +143,9 @@ const t: ShipType = {
       ffg: 634,
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/5a913f54447ec375ccc1403769438f81.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/mornakee.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/mornakee.png',
     },
   ],
 };

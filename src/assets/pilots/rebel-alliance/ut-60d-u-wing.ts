@@ -32,7 +32,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Coordinate' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_U-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_U-wing.png',
   pilots: [
     {
       name: 'Benthic Two Tubes',
@@ -58,10 +59,9 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 16,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_58.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/benthictwotubes.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/benthictwotubes.png',
     },
     {
       name: 'Blue Squadron Scout',
@@ -78,9 +78,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_60.png',
+        'https://infinitearenas.com/xw2/images/pilots/bluesquadronscout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronscout.png',
     },
     {
       name: 'Bodhi Rook',
@@ -97,10 +97,9 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_54.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/bodhirook.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bodhirook.png',
     },
     {
       name: 'Cassian Andor',
@@ -117,10 +116,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_56.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/cassianandor.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cassianandor.png',
     },
     {
       name: 'Heff Tobber',
@@ -144,10 +142,9 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_59.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/hefftobber.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hefftobber.png',
     },
     {
       name: 'Magva Yarro',
@@ -173,10 +170,9 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_57.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/magvayarro.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/magvayarro.png',
     },
     {
       name: 'Partisan Renegade',
@@ -194,9 +190,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_61.png',
+        'https://infinitearenas.com/xw2/images/pilots/partisanrenegade.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/partisanrenegade.png',
     },
     {
       name: 'Saw Gerrera',
@@ -222,10 +218,9 @@ const t: ShipType = {
       keywords: ['Partisan'],
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_55.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sawgerrera.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sawgerrera.png',
     },
     {
       name: 'K-2SO',
@@ -247,10 +242,8 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/c65da3d5378ec32bd024325dbd80b3d6.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/k2so.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/k2so.png',
     },
   ],
 };

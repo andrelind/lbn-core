@@ -57,10 +57,8 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/bb8.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/bb8.png',
     },
     {
       name: 'Rose Tico',
@@ -77,10 +75,9 @@ const t: ShipType = {
       ffg: 574,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/1dbf7b355d60f5b3f278522eb702f99f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rosetico.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rosetico.png',
     },
     {
       name: 'Vi Moradi',
@@ -98,10 +95,9 @@ const t: ShipType = {
       ffg: 576,
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/14139a2d20ff13b01bd5810371a89064.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vimoradi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vimoradi.png',
     },
     {
       name: 'Finn',
@@ -118,15 +114,13 @@ const t: ShipType = {
       caption: 'Big Deal',
       loadout: 15,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/311d88e51a039b79e9a422ab3c475288.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/finn.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/finn.png',
     },
   ],
   ffg: 65,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png',
+    'https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport_Cockpit_Pod.png',
 };
 
 export default t;

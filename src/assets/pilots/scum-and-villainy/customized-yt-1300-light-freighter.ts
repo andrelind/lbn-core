@@ -38,7 +38,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_CustomizedYT-1300.png',
   pilots: [
     {
       name: 'Freighter Captain',
@@ -56,9 +56,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_225.png',
+        'https://infinitearenas.com/xw2/images/pilots/freightercaptain.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/freightercaptain.png',
     },
     {
       name: 'Han Solo',
@@ -85,10 +85,9 @@ const t: ShipType = {
       loadout: 20,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_222.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/hansolo.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo.png',
     },
     {
       name: 'L3-37',
@@ -120,10 +119,8 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       keywords: ['Droid', 'Freighter', 'YT-1300'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_224.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/l337.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/l337.png',
     },
     {
       name: 'Lando Calrissian',
@@ -150,10 +147,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_223.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/landocalrissian.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian.png',
     },
   ],
 };

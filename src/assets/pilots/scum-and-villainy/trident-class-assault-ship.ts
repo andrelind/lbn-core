@@ -45,10 +45,12 @@ const t: ShipType = {
       text:
         'The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/738e8fdd6aaf28620b67efda2e8f63f7.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lawlesspirates.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lawlesspirates.png',
     },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Trident.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Trident.png',
 };
 
 export default t;

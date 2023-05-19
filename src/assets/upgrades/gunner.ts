@@ -12,6 +12,9 @@ const t: UpgradeBase[] = [
           'During the End Phase, you may rotate your [Single Turret Arc] indicator.',
         slots: ['Gunner'],
         ffg: 388,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/agilegunner.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/agilegunner.png',
       },
     ],
     cost: { value: 1 },
@@ -30,6 +33,9 @@ const t: UpgradeBase[] = [
           'While you perform an attack, you may change 1 [Hit] result to a [Critical Hit] result for each stress token the defender has.',
         slots: ['Gunner'],
         ffg: 365,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bt1.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/bt1.png',
       },
     ],
     cost: { value: 2 },
@@ -51,6 +57,9 @@ const t: UpgradeBase[] = [
           'After you perform a primary attack, if you are focused, you may perform a bonus [Single Turret Arc] attack against a ship you have not already attacked this round.',
         slots: ['Gunner'],
         ffg: 319,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bistan.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/bistan.png',
       },
     ],
     cost: { value: 8 },
@@ -70,6 +79,9 @@ const t: UpgradeBase[] = [
           'After you perform a primary attack that misses, if you are not stressed, you must receive 1 stress token to perform a bonus primary attack against the same target.',
         slots: ['Gunner'],
         ffg: 364,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bossk.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/bossk.png',
       },
     ],
     cost: { value: 6 },
@@ -90,6 +102,9 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         charges: { value: 1, recovers: 1 },
         ffg: 366,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/dengar.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/dengar.png',
       },
     ],
     cost: { value: 6 },
@@ -110,6 +125,9 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         ffg: 320,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ezrabridger.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ezrabridger.png',
       },
     ],
     cost: { value: 9 },
@@ -130,6 +148,10 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['dark'] },
         ffg: 348,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/fifthbrother.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/fifthbrother.png',
       },
     ],
     cost: { value: 12 },
@@ -150,6 +172,9 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         charges: { value: 1, recovers: 1 },
         ffg: 367,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/greedo.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/greedo.png',
       },
     ],
     cost: { value: 1 },
@@ -169,6 +194,9 @@ const t: UpgradeBase[] = [
           'During the Engagement Phase, at initiative 7, you may perform a [Single Turret Arc] attack. You cannot attack from that [Single Turret Arc] again this round.',
         slots: ['Gunner'],
         ffg: 321,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/hansolo.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/hansolo.png',
       },
     ],
     cost: { value: 10 },
@@ -187,6 +215,10 @@ const t: UpgradeBase[] = [
         ability: 'Before you engage, you may perform a red [Focus] action.',
         slots: ['Gunner'],
         ffg: 389,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/hansolo-gunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/hansolo-gunner.png',
       },
     ],
     cost: { value: 9 },
@@ -206,6 +238,10 @@ const t: UpgradeBase[] = [
           'While you perform a [Single Turret Arc] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.',
         slots: ['Gunner'],
         ffg: 278,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/hotshotgunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/hotshotgunner.png',
       },
     ],
     cost: { value: 6 },
@@ -225,6 +261,10 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         ffg: 322,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/lukeskywalker.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/lukeskywalker.png',
       },
     ],
     cost: { value: 12 },
@@ -244,6 +284,10 @@ const t: UpgradeBase[] = [
           'If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.',
         slots: ['Gunner'],
         ffg: 279,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/skilledbombardier.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/skilledbombardier.png',
       },
     ],
     cost: { value: 2 },
@@ -262,6 +306,10 @@ const t: UpgradeBase[] = [
           'While you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. After you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.',
         slots: ['Gunner'],
         ffg: 470,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/specialforcesgunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/specialforcesgunner.png',
       },
     ],
     cost: { value: 0 },
@@ -284,6 +332,10 @@ const t: UpgradeBase[] = [
           'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
         slots: ['Gunner'],
         ffg: 280,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/veterantailgunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/veterantailgunner.png',
       },
     ],
     cost: { value: 5 },
@@ -303,6 +355,10 @@ const t: UpgradeBase[] = [
           'After you perform a primary attack, you may perform a bonus [Single Turret Arc] attack using a [Single Turret Arc] you did not already attack from this round.',
         slots: ['Gunner'],
         ffg: 281,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/veteranturretgunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/veteranturretgunner.png',
       },
     ],
     cost: { value: 3 },
@@ -322,6 +378,9 @@ const t: UpgradeBase[] = [
           'While you defend or perform a primary attack, if the enemy ship is in your [Front Arc], you may add 1 blank result to your roll (this die can be rerolled or otherwise modified).',
         slots: ['Gunner'],
         ffg: 476,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/finn.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/finn.png',
       },
     ],
     cost: { value: 9 },
@@ -341,6 +400,9 @@ const t: UpgradeBase[] = [
           'After you perform a primary attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.',
         slots: ['Gunner'],
         ffg: 477,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/paigetico.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/paigetico.png',
       },
     ],
     cost: { value: 6 },
@@ -361,6 +423,9 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         ffg: 478,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/rey-gunner.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/rey-gunner.png',
       },
     ],
     restrictions: [{ factions: ['Resistance'] }],
@@ -381,6 +446,9 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         force: { value: 1, recovers: 1, side: ['light'] },
         type: 'Gunner',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ahsokatano.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ahsokatano.png',
       },
     ],
     cost: { value: 12 },
@@ -401,6 +469,10 @@ const t: UpgradeBase[] = [
           'While another friendly ship performs a primary attack, if the defender is in your firing arc, you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die, to a maximum of 4. During the System Phase, you may gain 1 disarm token to recover 1 [Charge].',
         charges: { value: 1, recovers: 0 },
         ffg: 553,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/seventhfleetgunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/seventhfleetgunner.png',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -420,6 +492,10 @@ const t: UpgradeBase[] = [
         ability:
           'After you perform an attack that missed, if 1 or more [Hit]/[Critical Hit] results were neutralized, the defender gains 1 strain token.',
         ffg: 552,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/clonecommandercody.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/clonecommandercody.png',
       },
     ],
     restrictions: [{ factions: ['Galactic Republic'] }],
@@ -440,6 +516,10 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: 857,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/bobafett-gunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/bobafett-gunner.png',
       },
     ],
     standard: true,
@@ -459,6 +539,10 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         ability:
           'While you perform an attack, you may spend 1 [Focus] result. If you do, each friendly ship that has the defender in its [Bullseye Arc] may gain 1 strain to perform a [Focus] action.',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/clonecaptainrex.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/clonecaptainrex.png',
       },
     ],
     standard: true,
@@ -478,6 +562,10 @@ const t: UpgradeBase[] = [
         slots: ['Gunner'],
         ability:
           'While you perform an attack, you may spend 1 [Focus] result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 [Hit] damage.',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/suppressivegunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/suppressivegunner.png',
       },
     ],
     standard: true,
@@ -497,6 +585,10 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: 859,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/weaponssystemsofficer.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/weaponssystemsofficer.png',
       },
     ],
     cost: { value: 5 },
@@ -514,6 +606,10 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: 921,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/sabinewren-gunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/sabinewren-gunner.png',
       },
     ],
     standard: true,
@@ -532,6 +628,9 @@ const t: UpgradeBase[] = [
           'At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens.',
         slots: ['Gunner'],
         ffg: 940,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/dt798.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/dt798.png',
       },
     ],
     cost: { value: 3 },
@@ -561,6 +660,10 @@ const t: UpgradeBase[] = [
         ],
         slots: ['Gunner'],
         ffg: 937,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/firstorderordnancetech.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/firstorderordnancetech.png',
       },
     ],
     cost: { value: 3 },
@@ -581,6 +684,9 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/migsmayfeld.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/migsmayfeld.png',
       },
     ],
     standard: true,
@@ -601,6 +707,9 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tibersaxon.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/tibersaxon.png',
       },
     ],
     standard: true,
@@ -620,6 +729,10 @@ const t: UpgradeBase[] = [
         type: 'Gunner',
         slots: ['Gunner'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ursawren-gunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/ursawren-gunner.png',
       },
     ],
     standard: true,
@@ -638,6 +751,10 @@ const t: UpgradeBase[] = [
           'While you perform the [Lock] action, you can only choose an object in your [Front Arc] or [Rear Arc]. While you perform a primary attack, if the defender is in your [Front Arc] or [Rear Arc], you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.',
         slots: ['Gunner'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/garsaxon-gunner.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/garsaxon-gunner.png',
       },
     ],
     cost: { value: 6 },

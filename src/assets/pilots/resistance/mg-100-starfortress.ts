@@ -36,7 +36,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reload' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_StarFortress.png',
+    'https://infinitearenas.com/xw2/images/shipicons/resistance/I_StarFortress.png',
   pilots: [
     {
       name: 'Cobalt Squadron Bomber',
@@ -61,9 +61,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/6b6a3bb8049699e2d66fe09531e8bc00.png',
+        'https://infinitearenas.com/xw2/images/pilots/cobaltsquadronbomber.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/514351d5c41a8341ea5da5673269d917.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cobaltsquadronbomber.png',
     },
     {
       name: 'Cat',
@@ -90,10 +90,8 @@ const t: ShipType = {
       epic: true,
       loadout: 17,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/b386dc25736682ebc785b15551de903b.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d927ccf08a9444340378449fe71e9f70.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/cat.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/cat.png',
     },
     {
       name: 'Vennie',
@@ -119,10 +117,9 @@ const t: ShipType = {
       epic: true,
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/0d494986a24e6c55efae066a43161b0d.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vennie.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/511b878f719e9fa59a50cdf980d10ead.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vennie.png',
     },
     {
       name: 'Ben Teene',
@@ -150,10 +147,9 @@ const t: ShipType = {
       epic: true,
       loadout: 19,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/c9189c7e510b4d734d4d78c4f595010f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/benteene.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/74ca7444aec38cb0034b67b04f6aaa76.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/benteene.png',
     },
     {
       name: 'Edon Kappehl',
@@ -180,10 +176,9 @@ const t: ShipType = {
       epic: true,
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/f58fe0b57dc4a9c878627f0fea9cf1ef.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/edonkappehl.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/bbac51ca4ba44f26d90a53b6c5db5e2c.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/edonkappehl.png',
     },
     {
       name: 'Finch Dallow',
@@ -210,10 +205,9 @@ const t: ShipType = {
       epic: true,
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/43d9a0555f719a4cbe1ffe905fd38c46.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/finchdallow.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/dafd2937accc362f766ca0da3308ccbc.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/finchdallow.png',
     },
     {
       name: 'Paige Tico',
@@ -240,10 +234,9 @@ const t: ShipType = {
       ffg: 640,
       loadout: 23,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/fab73e7af97d9d6169f0f504b60d34c2.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/paigetico.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2bd70a86ef09e15aa93b165a56f32834.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/paigetico.png',
     },
   ],
 };

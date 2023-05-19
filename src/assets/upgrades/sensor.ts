@@ -12,9 +12,9 @@ const t: UpgradeBase[] = [
           'After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.',
         slots: ['Sensor'],
         image:
-          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_23.png',
+          'https://infinitearenas.com/xw2/images/upgrades/advancedsensors.png',
         artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/advancedsensors.png',
         ffg: 252,
       },
     ],
@@ -35,9 +35,9 @@ const t: UpgradeBase[] = [
         slots: ['Sensor'],
         charges: { value: 2, recovers: 0 },
         image:
-          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_24.png',
+          'https://infinitearenas.com/xw2/images/upgrades/collisiondetector.png',
         artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/collisiondetector.png',
         ffg: 253,
       },
     ],
@@ -57,9 +57,9 @@ const t: UpgradeBase[] = [
           'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
         slots: ['Sensor'],
         image:
-          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_25.png',
+          'https://infinitearenas.com/xw2/images/upgrades/firecontrolsystem.png',
         artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/firecontrolsystem.png',
         ffg: 254,
       },
     ],
@@ -79,9 +79,9 @@ const t: UpgradeBase[] = [
           'During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.',
         slots: ['Sensor'],
         image:
-          'https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_26.png',
+          'https://infinitearenas.com/xw2/images/upgrades/trajectorysimulator.png',
         artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/trajectorysimulator.png',
         ffg: 255,
       },
     ],
@@ -103,9 +103,9 @@ const t: UpgradeBase[] = [
         charges: { value: 1, recovers: 1 },
         ffg: 577,
         artwork:
-          'https://squadbuilder.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/passivesensors.png',
         image:
-          'https://squadbuilder.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png',
+          'https://infinitearenas.com/xw2/images/upgrades/passivesensors.png',
       },
     ],
     cost: { value: 5 },

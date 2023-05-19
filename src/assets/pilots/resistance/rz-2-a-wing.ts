@@ -44,7 +44,7 @@ const t: ShipType = {
       'You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png',
+    'https://infinitearenas.com/xw2/images/shipicons/resistance/I_RZ-2_A-wing.png',
   pilots: [
     {
       name: 'L’ulo L’ampar',
@@ -62,10 +62,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lulolampar.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lulolampar.png',
     },
     {
       name: 'Tallissan Lintra',
@@ -84,10 +83,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/72cb6c4e50b0ad24af0bb84ce0aa53f0.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/tallissanlintra.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tallissanlintra.png',
     },
     {
       name: 'Zari Bangel',
@@ -113,10 +111,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zaribangel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zaribangel.png',
     },
     {
       name: 'Greer Sonnel',
@@ -134,10 +131,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/greersonnel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/greersonnel.png',
     },
     {
       name: 'Green Squadron Expert',
@@ -155,9 +151,9 @@ const t: ShipType = {
       loadout: 2,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png',
+        'https://infinitearenas.com/xw2/images/pilots/greensquadronexpert.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/greensquadronexpert.png',
     },
     {
       name: 'Blue Squadron Recruit',
@@ -175,9 +171,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png',
+        'https://infinitearenas.com/xw2/images/pilots/bluesquadronrecruit.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronrecruit.png',
     },
     {
       name: 'Zizi Tlo',
@@ -196,10 +192,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zizitlo.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zizitlo.png',
     },
     {
       name: 'Ronith Blario',
@@ -217,10 +212,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ronithblario.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ronithblario.png',
     },
     {
       xws: 'merlcobben',
@@ -238,10 +232,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 4,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/18/3e/183ed99b-c562-4db5-9377-daf4661dfac9/swz68_merl-cobben.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/merlcobben.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/merlcobben.png',
     },
     {
       xws: 'suralindajavos',
@@ -259,10 +252,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 10,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/e1/64/e1644adc-8d8a-4408-90a1-621e0dd4b0c6/swz68_suralinda-javos.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/suralindajavos.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/suralindajavos.png',
     },
     {
       xws: 'wrobietyce',
@@ -280,10 +272,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 4,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/d3/66/d3669149-00da-4abf-9e08-9655e10db166/swz68_wrobie-tyce.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wrobietyce.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wrobietyce.png',
     },
     {
       name: 'Seftin Vanik',
@@ -301,10 +292,9 @@ const t: ShipType = {
       keywords: ['A-wing'],
       loadout: 12,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/73/ef/73ef0cdc-deb6-451d-a76c-0b3d9ef147ec/swz68_seftin-vanik.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/seftinvanik.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/seftinvanik.png',
     },
   ],
 };

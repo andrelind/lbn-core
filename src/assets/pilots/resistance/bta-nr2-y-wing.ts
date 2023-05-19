@@ -337,6 +337,7 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/kijimispicerunner.png',
     },
   ],
+  icon: '???',
 };
 
 export default t;

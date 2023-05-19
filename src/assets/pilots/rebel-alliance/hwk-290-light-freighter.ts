@@ -44,7 +44,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
     { difficulty: 'Red', type: 'Jam' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_HWK-290.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_HWK-290.png',
   pilots: [
     {
       name: 'Jan Ors',
@@ -70,10 +71,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_42.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/janors.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/janors.png',
     },
     {
       name: 'Kyle Katarn',
@@ -91,10 +91,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_43.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kylekatarn.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kylekatarn.png',
     },
     {
       name: 'Rebel Scout',
@@ -111,10 +110,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 6,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_45.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rebelscout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rebelscout.png',
     },
     {
       name: 'Roark Garnet',
@@ -139,10 +137,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_44.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/roarkgarnet.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/roarkgarnet.png',
     },
   ],
 };

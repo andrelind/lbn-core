@@ -301,6 +301,7 @@ export type UpgradeBase = {
   epic: boolean;
   standarized?: boolean;
   keywords?: string[];
+  standardLoadoutOnly?: boolean;
 };
 
 export type Upgrade = UpgradeBase & {
@@ -329,7 +330,7 @@ export type UpgradeCost =
   | UpgradeCostInitiative;
 
 export type UpgradeSide = {
-  ffg: number;
+  ffg?: number;
   title: string;
   type: Slot;
   ability?: string;

@@ -34,7 +34,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reinforce' },
     { difficulty: 'White', type: 'Lock' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_YV-666.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png',
   pilots: [
     {
       name: 'Bossk',
@@ -62,10 +63,8 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_210.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/bossk.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/bossk.png',
     },
     {
       name: 'Latts Razzi',
@@ -93,10 +92,9 @@ const t: ShipType = {
       loadout: 22,
       extended: true,
       keywords: ['Bounty Hunter', 'Freighter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_212.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lattsrazzi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lattsrazzi.png',
     },
     {
       name: 'Moralo Eval',
@@ -124,10 +122,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 20,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_211.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/moraloeval.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/moraloeval.png',
     },
     {
       name: 'Trandoshan Slaver',
@@ -145,9 +142,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_213.png',
+        'https://infinitearenas.com/xw2/images/pilots/trandoshanslaver.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/trandoshanslaver.png',
     },
     {
       name: 'Doctor Aphra',
@@ -177,6 +174,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/doctoraphra.png',
     },
   ],
 };

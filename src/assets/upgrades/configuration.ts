@@ -23,6 +23,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 486,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/integratedsfoils.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/integratedsfoils.png',
       },
       {
         title: 'Integrated S-foils (Open)',
@@ -30,6 +34,10 @@ const t: UpgradeBase[] = [
         ability: 'Before you activate, you may flip this card.',
         slots: ['Configuration'],
         ffg: 487,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/integratedsfoils-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/integratedsfoils-sideb.png',
       },
     ],
     cost: { value: 0 },
@@ -53,6 +61,10 @@ const t: UpgradeBase[] = [
           { slot: 'Missile', value: 1 },
         ],
         ffg: 350,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/os1arsenalloadout.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/os1arsenalloadout.png',
       },
     ],
     cost: { value: 0 },
@@ -72,6 +84,9 @@ const t: UpgradeBase[] = [
           'While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.',
         slots: ['Configuration'],
         ffg: 332,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/pivotwing.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/pivotwing.png',
       },
       {
         title: 'Pivot Wing (Open)',
@@ -79,6 +94,10 @@ const t: UpgradeBase[] = [
         ability: 'Before you activate, you may flip this card.',
         slots: ['Configuration'],
         ffg: 331,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/pivotwing-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/pivotwing-sideb.png',
       },
     ],
     cost: { value: 0 },
@@ -117,6 +136,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 334,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/servomotorsfoils.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/servomotorsfoils.png',
       },
       {
         title: 'Servomotor S-foils (Open)',
@@ -124,6 +147,10 @@ const t: UpgradeBase[] = [
         ability: 'Before you activate, you may flip this card.',
         slots: ['Configuration'],
         ffg: 333,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/servomotorsfoils-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/servomotorsfoils-sideb.png',
       },
     ],
     cost: { value: 0 },
@@ -144,6 +171,10 @@ const t: UpgradeBase[] = [
         slots: ['Configuration'],
         grants: [{ slot: 'Cannon', value: 1 }],
         ffg: 351,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/xg1assaultconfiguration.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/xg1assaultconfiguration.png',
       },
     ],
     cost: { value: 0 },
@@ -163,6 +194,10 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.',
         slots: ['Configuration'],
         ffg: 555,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/grapplingstruts.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/grapplingstruts.png',
       },
       {
         title: 'Grappling Struts (Open)',
@@ -171,6 +206,10 @@ const t: UpgradeBase[] = [
           'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a (2 [Straight]) and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.',
         slots: ['Configuration'],
         ffg: 535,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/grapplingstruts-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/grapplingstruts-sideb.png',
       },
     ],
     restrictions: [{ chassis: ['vultureclassdroidfighter'] }],
@@ -195,6 +234,9 @@ const t: UpgradeBase[] = [
         ffg: 548,
         text:
           "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability.",
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/delta7b.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/delta7b.png',
       },
     ],
     cost: { value: 0 },
@@ -214,6 +256,10 @@ const t: UpgradeBase[] = [
         ability:
           'While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.',
         ffg: 549,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/calibratedlasertargeting.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/calibratedlasertargeting.png',
       },
     ],
     cost: { value: 0 },
@@ -233,6 +279,10 @@ const t: UpgradeBase[] = [
           'Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.',
         slots: ['Configuration'],
         ffg: 594,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/landingstruts.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/landingstruts.png',
       },
       {
         title: 'Landing Struts (Open)',
@@ -241,6 +291,10 @@ const t: UpgradeBase[] = [
           'You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a (2 [Straight]) and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.',
         slots: ['Configuration'],
         ffg: 595,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/landingstruts-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/landingstruts-sideb.png',
       },
     ],
     restrictions: [{ chassis: ['hyenaclassdroidbomber'] }],
@@ -268,6 +322,10 @@ const t: UpgradeBase[] = [
           { stat: 'energy', value: 1 },
         ],
         ffg: 780,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/corsairrefit.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/corsairrefit.png',
       },
     ],
     standard: false,
@@ -297,6 +355,10 @@ const t: UpgradeBase[] = [
           { action: { type: 'Reload', difficulty: 'Red' }, value: 1 },
         ],
         ffg: 646,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/stabilizedsfoils.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/stabilizedsfoils.png',
       },
       {
         ability:
@@ -315,6 +377,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 645,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/stabilizedsfoils-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/stabilizedsfoils-sideb.png',
       },
     ],
     standard: true,
@@ -336,6 +402,9 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: 870,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/alpha3bbesh.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/alpha3bbesh.png',
       },
     ],
     standard: true,
@@ -366,6 +435,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 873,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/interceptbooster.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/interceptbooster.png',
       },
       {
         text:
@@ -374,6 +447,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: 872,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/interceptbooster-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/interceptbooster-sideb.png',
       },
     ],
     standard: true,
@@ -404,6 +481,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 722,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/maneuverassistmgk300.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/maneuverassistmgk300.png',
       },
     ],
     standard: true,
@@ -434,6 +515,10 @@ const t: UpgradeBase[] = [
           },
         ],
         ffg: 723,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/targetassistmgk300.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/targetassistmgk300.png',
       },
     ],
     standard: true,
@@ -451,6 +536,10 @@ const t: UpgradeBase[] = [
         slots: ['Configuration'],
         ability:
           'Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight]) maneuvers. After you fully execute a maneuver, you may flip this card.',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/repulsorliftstabilizers.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/repulsorliftstabilizers.png',
       },
       {
         ffg: 691,
@@ -459,6 +548,10 @@ const t: UpgradeBase[] = [
         slots: ['Configuration'],
         ability:
           'After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card.',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/repulsorliftstabilizers-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/repulsorliftstabilizers-sideb.png',
       },
     ],
     cost: { value: 0 },
@@ -482,6 +575,9 @@ const t: UpgradeBase[] = [
         slots: ['Configuration'],
         charges: { value: 2, recovers: 1 },
         ffg: 871,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/alpha3eesk.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/alpha3eesk.png',
       },
     ],
     cost: { value: 0 },
@@ -500,6 +596,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: 924,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/sensitivecontrols.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/sensitivecontrols.png',
       },
     ],
     standarized: true,
@@ -520,6 +620,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: 925,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/tiedefenderelite.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/tiedefenderelite.png',
       },
     ],
     standarized: true,
@@ -551,6 +655,10 @@ const t: UpgradeBase[] = [
         },
         grants: [{ arc: 'Single Turret Arc', value: 1 }],
         ffg: 926,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/vectoredcannonsrz1.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/vectoredcannonsrz1.png',
       },
     ],
     standarized: true,
@@ -577,13 +685,16 @@ const t: UpgradeBase[] = [
           { slot: 'Missile', value: 1 },
         ],
         ffg: 929,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/wartimeloadout.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/wartimeloadout.png',
       },
     ],
     cost: { value: 2 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
     standard: true,
     epic: true,
-    // standarized: true,
     extended: true,
   },
   {
@@ -624,6 +735,10 @@ const t: UpgradeBase[] = [
           { action: { type: 'Jam', difficulty: 'White' }, value: 1 },
         ],
         ffg: 933,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/enhancedjammingsuite.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/enhancedjammingsuite.png',
       },
     ],
     cost: { value: 0 },
@@ -644,6 +759,9 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/swivelwing.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/swivelwing.png',
       },
       {
         ability:
@@ -652,6 +770,10 @@ const t: UpgradeBase[] = [
         type: 'Configuration',
         slots: ['Configuration'],
         ffg: -1,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/swivelwing-sideb.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/swivelwing-sideb.png',
       },
     ],
     standarized: true,
@@ -659,6 +781,43 @@ const t: UpgradeBase[] = [
     standard: true,
     extended: true,
     epic: true,
+  },
+  {
+    limited: 1,
+    xws: 'l337sprogramming-battleofyavin',
+    sides: [
+      {
+        title: "L3-37's Programming",
+        type: 'Configuration',
+        ability:
+          'If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.',
+        slots: ['Configuration'],
+      },
+    ],
+    standardLoadoutOnly: true,
+    standard: true,
+    extended: true,
+    epic: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'strutlockoverride-siegeofcoruscant',
+    sides: [
+      {
+        title: 'strutlockoverride-siegeofcoruscant',
+        type: 'Configuration',
+        ability:
+          'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
+        charges: { value: 2, recovers: 0 },
+        slots: ['Configuration'],
+      },
+    ],
+    standardLoadoutOnly: true,
+    standard: true,
+    extended: true,
+    epic: true,
+    cost: { value: 0 },
   },
 ];
 

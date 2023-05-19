@@ -20,6 +20,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 265,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/barragerockets.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/barragerockets.png',
       },
     ],
     cost: { value: 6 },
@@ -46,6 +50,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 266,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/clustermissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/clustermissiles.png',
       },
     ],
     cost: { value: 4 },
@@ -72,6 +80,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 267,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/concussionmissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/concussionmissiles.png',
       },
     ],
     cost: { value: 5 },
@@ -98,6 +110,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 268,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/homingmissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/homingmissiles.png',
       },
     ],
     cost: { value: 5 },
@@ -124,6 +140,9 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 269,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/ionmissiles.png',
+        image: 'https://infinitearenas.com/xw2/images/upgrades/ionmissiles.png',
       },
     ],
     cost: { value: 4 },
@@ -149,6 +168,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 270,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/protonrockets.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/protonrockets.png',
       },
     ],
     cost: { value: 8 },
@@ -175,6 +198,10 @@ const t: UpgradeBase[] = [
         },
         slots: ['Missile'],
         ffg: 532,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/energyshellcharges.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/energyshellcharges.png',
       },
     ],
     restrictions: [
@@ -204,6 +231,10 @@ const t: UpgradeBase[] = [
             'After an enemy ship moves through or overlaps you, relocate to its front or rear guides (you are at range 0 of this ship). You cannot overlap an object this way. If you cannot be placed at either set of guides, you and that ship each suffer 1 [Hit] damage. Engagement Phase: At your initiative, each enemy ship at range 0 suffers 1 [Critical Hit] damage.',
         },
         ffg: 543,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/discordmissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/discordmissiles.png',
       },
     ],
     cost: { value: 2 },
@@ -231,6 +262,10 @@ const t: UpgradeBase[] = [
           ordnance: true,
         },
         ffg: 580,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/diamondboronmissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/diamondboronmissiles.png',
       },
     ],
     standard: true,
@@ -257,6 +292,10 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         slots: ['Missile'],
         ffg: 651,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/magpulsewarheads.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/magpulsewarheads.png',
       },
     ],
     standard: true,
@@ -285,6 +324,10 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         slots: ['Missile', 'Missile'],
         ffg: 673,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/multimissilepods.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/multimissilepods.png',
       },
     ],
     cost: { value: 4 },
@@ -311,6 +354,10 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         slots: ['Missile'],
         ffg: 851,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/xx23sthreadtracers.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/xx23sthreadtracers.png',
       },
     ],
     cost: { value: 4 },
@@ -335,6 +382,10 @@ const t: UpgradeBase[] = [
         type: 'Missile',
         slots: ['Missile', 'Device'],
         ffg: 932,
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/electrochaffmissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/electrochaffmissiles.png',
       },
     ],
     cost: { value: 9 },

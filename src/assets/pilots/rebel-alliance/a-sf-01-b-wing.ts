@@ -40,7 +40,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_B-wing.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_B-wing.png',
   pilots: [
     {
       name: 'Blade Squadron Veteran',
@@ -58,9 +59,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_25.png',
+        'https://infinitearenas.com/xw2/images/pilots/bladesquadronveteran.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bladesquadronveteran.png',
     },
     {
       name: 'Blue Squadron Pilot',
@@ -78,9 +79,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_26.png',
+        'https://infinitearenas.com/xw2/images/pilots/bluesquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronpilot.png',
     },
     {
       name: 'Braylen Stramm',
@@ -107,10 +108,9 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_23.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/braylenstramm.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm.png',
     },
     {
       name: 'Ten Numb',
@@ -137,10 +137,9 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_24.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/tennumb.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tennumb.png',
     },
     {
       name: 'Gina Moonsong',
@@ -167,10 +166,9 @@ const t: ShipType = {
       keywords: ['B-wing'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/ginamoonsong.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong.png',
     },
     {
       xws: 'herasyndulla-asf01bwing',
@@ -200,7 +198,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['B-wing', 'Spectre'],
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-asf01bwing.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/herasyndulla-asf01bwing.png',
     },
     {
       xws: 'netrempollard',
@@ -228,7 +228,8 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
     },
   ],
 };

@@ -44,7 +44,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Rotate Arc' },
     { difficulty: 'Red', type: 'Jam' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_HWK-290.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_HWK-290.png',
   pilots: [
     {
       name: 'Dace Bonearm',
@@ -71,10 +72,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_174.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dacebonearm.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dacebonearm.png',
     },
     {
       name: 'Palob Godalhi',
@@ -100,10 +100,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_175.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/palobgodalhi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/palobgodalhi.png',
     },
     {
       name: 'Spice Runner',
@@ -120,10 +119,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_177.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/spicerunner.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/spicerunner.png',
     },
     {
       name: 'Torkil Mux',
@@ -141,10 +139,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_176.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/torkilmux.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/torkilmux.png',
     },
     {
       xws: 'gamutkey',
@@ -170,7 +167,8 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gamutkey.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/gamutkey.png',
     },
     {
       xws: 'kananjarrus-hwk290lightfreighter',
@@ -197,7 +195,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus-hwk290lightfreighter.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/kananjarrus-hwk290lightfreighter.png',
     },
     {
       xws: 'tapusk',
@@ -223,7 +223,8 @@ const t: ShipType = {
       keywords: ['Freighter'],
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tapusk.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/tapusk.png',
     },
   ],
 };

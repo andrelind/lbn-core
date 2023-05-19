@@ -55,11 +55,14 @@ const t: ShipType = {
       epic: true,
       ffg: 708,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b9a9671d88e370fd473ec5d87491ad65.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/firstordercollaborators.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/firstordercollaborators.png',
     },
   ],
   ffg: 79,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Raider.png',
 };
 
 export default t;

@@ -47,7 +47,7 @@ const t: ShipType = {
       'While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png',
   pilots: [
     {
       name: 'Darth Vader',
@@ -75,10 +75,9 @@ const t: ShipType = {
       loadout: 21,
       extended: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_93.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/darthvader.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png',
     },
     {
       name: 'Maarek Stele',
@@ -96,10 +95,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_94.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/maarekstele.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png',
     },
     {
       name: 'Storm Squadron Ace',
@@ -117,9 +115,9 @@ const t: ShipType = {
       loadout: 2,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_97.png',
+        'https://infinitearenas.com/xw2/images/pilots/stormsquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png',
     },
     {
       name: 'Tempest Squadron Pilot',
@@ -137,9 +135,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_98.png',
+        'https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png',
     },
     {
       name: 'Ved Foslo',
@@ -157,10 +155,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_95.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vedfoslo.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png',
     },
     {
       name: 'Zertik Strom',
@@ -178,10 +175,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_96.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zertikstrom.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png',
     },
     {
       name: 'Darth Vader',
@@ -251,6 +247,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['TIE'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/junoeclipse.png',
     },
   ],
 };

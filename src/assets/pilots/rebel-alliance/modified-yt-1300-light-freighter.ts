@@ -37,7 +37,8 @@ const t: ShipType = {
     { difficulty: 'Red', type: 'Boost' },
     { difficulty: 'White', type: 'Rotate Arc' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png',
   pilots: [
     {
       name: 'Chewbacca',
@@ -66,10 +67,9 @@ const t: ShipType = {
       loadout: 18,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_71.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/chewbacca.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca.png',
     },
     {
       name: 'Han Solo',
@@ -98,9 +98,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_69.png',
+        'https://infinitearenas.com/xw2/images/pilots/hansolo-modifiedyt1300lightfreighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-modifiedyt1300lightfreighter.png',
     },
     {
       name: 'Lando Calrissian',
@@ -129,9 +129,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_70.png',
+        'https://infinitearenas.com/xw2/images/pilots/landocalrissian-modifiedyt1300lightfreighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-modifiedyt1300lightfreighter.png',
     },
     {
       name: 'Outer Rim Smuggler',
@@ -149,9 +149,9 @@ const t: ShipType = {
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_72.png',
+        'https://infinitearenas.com/xw2/images/pilots/outerrimsmuggler.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimsmuggler.png',
     },
     {
       name: 'Leia Organa',
@@ -179,10 +179,9 @@ const t: ShipType = {
       loadout: 24,
       extended: true,
       keywords: ['Freighter', 'YT-1300', 'Light Side'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/leiaorgana.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/leiaorgana.png',
     },
     {
       name: 'Han Solo',
@@ -235,7 +234,8 @@ const t: ShipType = {
       ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png',
-      artwork: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png',
     },
   ],
 };

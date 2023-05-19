@@ -42,7 +42,8 @@ const t: ShipType = {
     text:
       'While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.',
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_YT-2400.png',
   pilots: [
     {
       name: '“Leebo”',
@@ -73,10 +74,8 @@ const t: ShipType = {
       loadout: 16,
       extended: true,
       keywords: ['Droid', 'Freighter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_78.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/leebo.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png',
     },
     {
       name: 'Dash Rendar',
@@ -101,10 +100,9 @@ const t: ShipType = {
       keywords: ['Freighter'],
       loadout: 22,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_77.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dashrendar.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png',
     },
     {
       name: 'Wild Space Fringer',
@@ -122,9 +120,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_79.png',
+        'https://infinitearenas.com/xw2/images/pilots/wildspacefringer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wildspacefringer.png',
     },
   ],
 };

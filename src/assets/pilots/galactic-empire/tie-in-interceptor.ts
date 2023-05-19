@@ -42,7 +42,7 @@ const t: ShipType = {
       'After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEInterceptor.png',
   pilots: [
     {
       name: 'Alpha Squadron Pilot',
@@ -60,9 +60,9 @@ const t: ShipType = {
       loadout: 2,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_106.png',
+        'https://infinitearenas.com/xw2/images/pilots/alphasquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/alphasquadronpilot.png',
     },
     {
       name: 'Saber Squadron Ace',
@@ -80,9 +80,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_105.png',
+        'https://infinitearenas.com/xw2/images/pilots/sabersquadronace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sabersquadronace.png',
     },
     {
       name: 'Soontir Fel',
@@ -100,10 +100,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_103.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/soontirfel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel.png',
     },
     {
       name: 'Turr Phennir',
@@ -121,10 +120,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_104.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/turrphennir.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/turrphennir.png',
     },
     {
       xws: 'cienaree',
@@ -143,7 +141,7 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png',
     },
     {
       xws: 'gideonhask-tieininterceptor',
@@ -162,7 +160,7 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png',
     },
     {
       xws: 'vultskerris-tieininterceptor',
@@ -181,7 +179,9 @@ const t: ShipType = {
       ffg: 890,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris-tieininterceptor.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/vultskerris-tieininterceptor.png',
     },
     {
       xws: 'commandantgoran',
@@ -200,7 +200,8 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/commandantgoran.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/commandantgoran.png',
     },
     {
       xws: 'lieutenantlorrir',
@@ -219,7 +220,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlorrir.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantlorrir.png',
     },
     {
       xws: 'nashwindrider',
@@ -239,7 +242,8 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nashwindrider.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/nashwindrider.png',
     },
     {
       name: 'Iden Versio',
@@ -467,6 +471,8 @@ const t: ShipType = {
       keywords: ['TIE'],
       image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
     },
   ],
 };

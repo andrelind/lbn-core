@@ -40,7 +40,7 @@ const t: ShipType = {
       'Before you reveal your dial, if you are not stressed, you <strong>must</strong> boost.',
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEStriker.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEStriker.png',
   pilots: [
     {
       name: '“Countdown”',
@@ -58,10 +58,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_118.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/countdown.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/countdown.png',
     },
     {
       name: '“Duchess”',
@@ -79,10 +78,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_117.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/duchess.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/duchess.png',
     },
     {
       name: '“Pure Sabacc”',
@@ -100,10 +98,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_119.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/puresabacc.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/puresabacc.png',
     },
     {
       name: 'Black Squadron Scout',
@@ -121,9 +118,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_120.png',
+        'https://infinitearenas.com/xw2/images/pilots/blacksquadronscout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronscout.png',
     },
     {
       name: 'Planetary Sentinel',
@@ -141,9 +138,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_121.png',
+        'https://infinitearenas.com/xw2/images/pilots/planetarysentinel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png',
     },
     {
       name: '“Vagabond”',
@@ -161,10 +158,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/vagabond.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/vagabond.png',
     },
   ],
 };

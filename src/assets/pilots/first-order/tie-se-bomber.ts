@@ -51,7 +51,6 @@ const t: ShipType = {
     name: 'Pursuit Thrusters',
     text: 'During the System Phase, you may perform a [Boost] action',
   },
-
   pilots: [
     {
       name: '“Breach”',
@@ -251,6 +250,7 @@ const t: ShipType = {
       epic: true,
     },
   ],
+  icon: '???',
 };
 
 export default t;

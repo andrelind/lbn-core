@@ -35,7 +35,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reload' },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_AlphaStarwing.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_AlphaStarwing.png',
   pilots: [
     {
       name: 'Lieutenant Karsabi',
@@ -53,9 +53,9 @@ const t: ShipType = {
       loadout: 14,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_136.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantkarsabi.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkarsabi.png',
     },
     {
       name: 'Major Vynder',
@@ -72,10 +72,9 @@ const t: ShipType = {
       epic: true,
       loadout: 16,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_135.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/majorvynder.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/majorvynder.png',
     },
     {
       name: 'Nu Squadron Pilot',
@@ -91,10 +90,9 @@ const t: ShipType = {
       epic: true,
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_138.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/nusquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nusquadronpilot.png',
     },
     {
       name: 'Rho Squadron Pilot',
@@ -111,9 +109,9 @@ const t: ShipType = {
       loadout: 9,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_137.png',
+        'https://infinitearenas.com/xw2/images/pilots/rhosquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rhosquadronpilot.png',
     },
   ],
 };

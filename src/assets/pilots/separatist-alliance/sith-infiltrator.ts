@@ -66,10 +66,9 @@ const t: ShipType = {
       loadout: 19,
       extended: true,
       keywords: ['Dark Side', 'Sith'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/darthmaul.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png',
     },
     {
       name: 'Count Dooku',
@@ -98,10 +97,9 @@ const t: ShipType = {
       loadout: 24,
       extended: true,
       keywords: ['Dark Side', 'Sith'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/countdooku.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png',
     },
     {
       name: 'Dark Courier',
@@ -117,10 +115,9 @@ const t: ShipType = {
       ffg: 506,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/darkcourier.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png',
     },
     {
       name: '0-66',
@@ -143,10 +140,8 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/066.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/066.png',
     },
     {
       name: 'Count Dooku',
@@ -188,11 +183,15 @@ const t: ShipType = {
           slots: ['Title'],
         },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png',
     },
   ],
   ffg: 60,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_SithInfiltrator.png',
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png',
 };
 
 export default t;

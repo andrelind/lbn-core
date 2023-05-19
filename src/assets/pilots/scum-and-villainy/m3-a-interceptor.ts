@@ -41,7 +41,8 @@ const t: ShipType = {
     text: 'You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade.',
     slotOptions: ['Cannon', 'Torpedo', 'Missile'],
   },
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Scyk.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Scyk.png',
   pilots: [
     {
       name: 'Cartel Spacer',
@@ -57,10 +58,9 @@ const t: ShipType = {
       epic: true,
       loadout: 4,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_190.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/cartelspacer.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cartelspacer.png',
     },
     {
       name: 'Genesis Red',
@@ -77,10 +77,9 @@ const t: ShipType = {
       epic: true,
       loadout: 14,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_184.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/genesisred.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/genesisred.png',
     },
     {
       name: 'Inaldra',
@@ -97,10 +96,9 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_187.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/inaldra.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/inaldra.png',
     },
     {
       name: 'Laetin A’shera',
@@ -117,10 +115,9 @@ const t: ShipType = {
       epic: true,
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_185.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/laetinashera.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/laetinashera.png',
     },
     {
       name: 'Quinn Jast',
@@ -138,10 +135,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_186.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/quinnjast.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/quinnjast.png',
     },
     {
       name: 'Serissu',
@@ -158,10 +154,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_183.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/serissu.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/serissu.png',
     },
     {
       name: 'Sunny Bounder',
@@ -178,10 +173,9 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_188.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sunnybounder.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sunnybounder.png',
     },
     {
       name: 'Tansarii Point Veteran',
@@ -198,9 +192,9 @@ const t: ShipType = {
       loadout: 3,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_189.png',
+        'https://infinitearenas.com/xw2/images/pilots/tansariipointveteran.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tansariipointveteran.png',
     },
     {
       name: 'G4R-G0R V/M',
@@ -224,10 +218,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/g4rgorvm.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/g4rgorvm.png',
     },
   ],
 };

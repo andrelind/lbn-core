@@ -68,9 +68,9 @@ const t: ShipType = {
       keywords: ['Dark Side', 'Jedi', 'Light Side'],
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/ef/ca/efcac3d6-868a-4e99-a872-3f2265e4983e/swz79_anakin-skywalker.png',
+        'https://infinitearenas.com/xw2/images/pilots/anakinskywalker-eta2actis.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png',
     },
     {
       xws: 'obiwankenobi-eta2actis',
@@ -97,9 +97,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/2d/36/2d3610e5-ebc0-4448-8fb3-4b6dcc5f391a/swz79_obi-wan_kenobi.png',
+        'https://infinitearenas.com/xw2/images/pilots/obiwankenobi-eta2actis.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png',
     },
     {
       xws: 'aaylasecura',
@@ -125,10 +125,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 15,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/c2/e2/c2e2ee1f-1bdd-4ff7-ad95-c442af9b510a/swz79_aayla-secura.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/aaylasecura.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/a2171b5544ebfd56e22775efa9b73fc4.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/aaylasecura.png',
     },
     {
       name: 'Shaak Ti',
@@ -154,10 +153,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 10,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/fa/6a/fa6afe10-be85-46ee-93e6-0637b3ce34b0/swz79_shaak-ti.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/shaakti.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png',
     },
     {
       name: 'Jedi General',
@@ -175,10 +173,9 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 4,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/b4/8d/b48d787d-96db-4955-9a58-5c8aa3ab9035/swz79_jedi-general.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jedigeneral.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/b6b83d1e5f47b832018274f35339492a.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/jedigeneral.png',
     },
     {
       name: 'Yoda',
@@ -203,10 +200,8 @@ const t: ShipType = {
       keywords: ['Jedi', 'Light Side'],
       loadout: 12,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/5b/fb/5bfbf23b-29c5-47c9-a6ba-1a2a7ddba319/swz79_yoda.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/yoda.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/yoda.png',
     },
     {
       xws: 'anakinskywalker-siegeofcoruscant',
@@ -315,7 +310,7 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png',
       artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/shaakti-eta2actis.png',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -380,7 +375,7 @@ const t: ShipType = {
   ],
   ffg: 76,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Eta-2_Actis.png',
 };
 
 export default t;

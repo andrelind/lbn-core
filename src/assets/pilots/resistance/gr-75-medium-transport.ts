@@ -52,11 +52,14 @@ const t: ShipType = {
       ability:
         'In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/5c7cf19b2300729a88d9d58ca60ef3df.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/newrepublicvolunteers.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/newrepublicvolunteers.png',
     },
   ],
   ffg: 80,
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_GR-75.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/resistance/I_GR-75.png',
 };
 
 export default t;

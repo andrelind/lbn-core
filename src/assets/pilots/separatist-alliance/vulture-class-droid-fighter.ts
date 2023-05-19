@@ -60,9 +60,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/4d8ed38f907fb4869611add738abda11.png',
+        'https://infinitearenas.com/xw2/images/pilots/tradefederationdrone.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/df075613c4c3dbe7803df6bfa5082262.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tradefederationdrone.png',
     },
     {
       name: 'Precise Hunter',
@@ -80,10 +80,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/44cd712b4db9f34091cff73a4fda4303.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/precisehunter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/fab82de87d230b77a5e4b2360ea9af93.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/precisehunter.png',
     },
     {
       name: 'Haor Chall Prototype',
@@ -102,9 +101,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/91421be1f3bbbefd005c1b2682f0bc44.png',
+        'https://infinitearenas.com/xw2/images/pilots/haorchallprototype.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/18cdc19a9627a38d0ec2783ccd5cb183.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png',
     },
     {
       name: 'DFS-081',
@@ -122,10 +121,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dfs081.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png',
     },
     {
       name: 'Separatist Drone',
@@ -142,10 +140,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 3,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/64e75b9a1024ac0c909634e62e165b2e.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/separatistdrone.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/df638358903b64e7b246b3a56fa68af7.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/separatistdrone.png',
     },
     {
       name: 'DFS-311',
@@ -163,10 +160,9 @@ const t: ShipType = {
       keywords: ['Droid'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/741f05dbe0f7e56fc9918b86bdb0e3fb.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/dfs311.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/5fb72145f183eeddd8d37ce1a4d114f7.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png',
     },
     {
       name: 'DFS-081',
@@ -184,9 +180,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -227,9 +223,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/808de8db6d43921b4e3124f01d5d4947.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2d797107c628ebd2ab8e526fcbb6076d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -270,9 +266,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/91421be1f3bbbefd005c1b2682f0bc44.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/18cdc19a9627a38d0ec2783ccd5cb183.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -366,7 +362,7 @@ const t: ShipType = {
   ],
   ffg: 59,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_VultureDroid.png',
+    'https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_VultureDroid.png',
 };
 
 export default t;

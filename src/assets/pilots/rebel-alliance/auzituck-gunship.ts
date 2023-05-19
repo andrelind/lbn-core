@@ -34,7 +34,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Reinforce' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Auzituck.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Auzituck.png',
   pilots: [
     {
       name: 'Kashyyyk Defender',
@@ -51,9 +52,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_33.png',
+        'https://infinitearenas.com/xw2/images/pilots/kashyyykdefender.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kashyyykdefender.png',
     },
     {
       name: 'Lowhhrick',
@@ -70,10 +71,9 @@ const t: ShipType = {
       epic: true,
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_32.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lowhhrick.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lowhhrick.png',
     },
     {
       name: 'Wullffwarro',
@@ -90,10 +90,9 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_31.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wullffwarro.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wullffwarro.png',
     },
   ],
 };

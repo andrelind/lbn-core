@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'Red', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Z-95.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Z-95.png',
   pilots: [
     {
       name: 'Airen Cracken',
@@ -52,10 +53,9 @@ const t: ShipType = {
       epic: true,
       loadout: 11,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_27.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/airencracken.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/airencracken.png',
     },
     {
       name: 'Bandit Squadron Pilot',
@@ -72,9 +72,9 @@ const t: ShipType = {
       loadout: 5,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_30.png',
+        'https://infinitearenas.com/xw2/images/pilots/banditsquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/banditsquadronpilot.png',
     },
     {
       name: 'Lieutenant Blount',
@@ -92,9 +92,9 @@ const t: ShipType = {
       loadout: 11,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_28.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantblount.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantblount.png',
     },
     {
       name: 'Tala Squadron Pilot',
@@ -111,9 +111,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_29.png',
+        'https://infinitearenas.com/xw2/images/pilots/talasquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/talasquadronpilot.png',
     },
   ],
 };

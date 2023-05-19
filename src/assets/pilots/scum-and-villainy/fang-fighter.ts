@@ -50,7 +50,7 @@ const t: ShipType = {
       "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result.",
   },
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_FangFighter.png',
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FangFighter.png',
   pilots: [
     {
       name: 'Fenn Rau',
@@ -68,10 +68,9 @@ const t: ShipType = {
       epic: true,
       keywords: ['Mandalorian'],
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_155.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/fennrau.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau.png',
     },
     {
       name: 'Joy Rekkoff',
@@ -89,10 +88,9 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 7,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_157.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/joyrekkoff.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/joyrekkoff.png',
     },
     {
       name: 'Kad Solus',
@@ -109,10 +107,9 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_158.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kadsolus.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kadsolus.png',
     },
     {
       name: 'Old Teroch',
@@ -130,10 +127,9 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_156.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/oldteroch.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/oldteroch.png',
     },
     {
       name: 'Skull Squadron Pilot',
@@ -151,9 +147,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_159.png',
+        'https://infinitearenas.com/xw2/images/pilots/skullsquadronpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/skullsquadronpilot.png',
     },
     {
       name: 'Zealous Recruit',
@@ -170,10 +166,9 @@ const t: ShipType = {
       keywords: ['Mandalorian'],
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_160.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/zealousrecruit.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/zealousrecruit.png',
     },
     {
       name: 'Mandalorian Royal Guard',
@@ -217,6 +212,8 @@ const t: ShipType = {
       extended: true,
       keywords: ['Mandalorian'],
       epic: true,
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/torphun.png',
     },
   ],
 };

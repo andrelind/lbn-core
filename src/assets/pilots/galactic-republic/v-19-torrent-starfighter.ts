@@ -56,10 +56,9 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/kickback.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kickback.png',
     },
     {
       name: '“Odd Ball”',
@@ -77,10 +76,9 @@ const t: ShipType = {
       ffg: 516,
       keywords: ['Clone'],
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/9ecf7600f20da9a9eff5d3e244934ccb.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/oddball.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/2a20c8f88cf55b75df4909f74b0221a2.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/oddball.png',
     },
     {
       name: '“Swoop”',
@@ -98,10 +96,8 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/8ae255235c0c1d3892344fb43fcab773.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/c8c96604a64fce6b953a8b4dc4ff86e6.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/swoop.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/swoop.png',
     },
     {
       name: '“Axe”',
@@ -119,10 +115,8 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/axe.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/axe.png',
     },
     {
       name: '“Tucker”',
@@ -140,10 +134,9 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/a457cc2ab3038736cb37541ad94b9b34.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/tucker.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/0b24c3261656d83b685ac59e6dfb1817.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tucker.png',
     },
     {
       name: 'Blue Squadron Protector',
@@ -161,9 +154,9 @@ const t: ShipType = {
       loadout: 4,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/77b2dfdca20865d8d667c41539a7356e.png',
+        'https://infinitearenas.com/xw2/images/pilots/bluesquadronprotector.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/74667d2878cb823d14035e91c8773816.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronprotector.png',
     },
     {
       name: 'Gold Squadron Trooper',
@@ -181,9 +174,9 @@ const t: ShipType = {
       loadout: 6,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/ed881318b45485a197e514b2d13e178c.png',
+        'https://infinitearenas.com/xw2/images/pilots/goldsquadrontrooper.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/goldsquadrontrooper.png',
     },
     {
       name: '“Kickback”',
@@ -201,9 +194,9 @@ const t: ShipType = {
       loadout: 0,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/kickback-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/kickback.png',
       shipAbility: {
         name: 'Born for This',
         text:
@@ -254,9 +247,8 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg',
+        'https://infinitearenas.com/xw2/images/quickbuilds/axe-siegeofcoruscant.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/axe.png',
       shipAbility: {
         name: 'Born for This',
         text:
@@ -314,7 +306,7 @@ const t: ShipType = {
   ],
   ffg: 62,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_V-19Torrent.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_V-19Torrent.png',
 };
 
 export default t;

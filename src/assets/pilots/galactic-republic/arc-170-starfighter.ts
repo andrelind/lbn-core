@@ -60,10 +60,9 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 18,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/sinker.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sinker.png',
     },
     {
       name: '“Jag”',
@@ -89,10 +88,8 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/jag.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/jag.png',
     },
     {
       name: '“Odd Ball”',
@@ -120,9 +117,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
+        'https://infinitearenas.com/xw2/images/pilots/oddball-arc170starfighter.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/oddball-arc170starfighter.png',
     },
     {
       name: '“Wolffe”',
@@ -148,10 +145,9 @@ const t: ShipType = {
       keywords: ['Clone'],
       loadout: 9,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/wolffe.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png',
     },
     {
       name: '104th Battalion Pilot',
@@ -169,9 +165,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png',
+        'https://infinitearenas.com/xw2/images/pilots/104thbattalionpilot.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/104thbattalionpilot.png',
     },
     {
       name: 'Squad Seven Veteran',
@@ -189,50 +185,9 @@ const t: ShipType = {
       loadout: 10,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/0e0fb59b2806b41214275255986965f2.png',
+        'https://infinitearenas.com/xw2/images/pilots/squadsevenveteran.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg',
-    },
-    {
-      name: '“Wolffe”',
-      xws: 'wolffe-siegeofcoruscant',
-      cost: 4,
-      slots: [],
-      caption: 'Siege of Coruscant',
-      initiative: 4,
-      limited: 1,
-      charges: { value: 1, recovers: 0 },
-      ability:
-        'While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.',
-      standard: true,
-      epic: true,
-      keywords: ['Clone'],
-      extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Wolfpack',
-          ability:
-            'While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice.',
-          slots: ['Crew'],
-        },
-        {
-          title: 'Veteran Tail Gunner',
-          ability:
-            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
-          slots: ['Gunner'],
-        },
-        {
-          ability:
-            'While you barrel roll or boost, you can move through and overlap obstacles.',
-          title: 'Q7 Astromech',
-          slots: ['Astromech'],
-        },
-      ],
+        'https://infinitearenas.com/xw2/images/artwork/pilots/squadsevenveteran.png',
     },
     {
       name: '“Odd Ball”',
@@ -250,9 +205,9 @@ const t: ShipType = {
       keywords: ['Clone'],
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png',
+        'https://infinitearenas.com/xw2/images/quickbuilds/oddball-siegeofcoruscant.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/oddball-arc170starfighter.png',
       stats: [
         { arc: 'Front Arc', type: 'attack', value: 3 },
         { arc: 'Rear Arc', type: 'attack', value: 2 },
@@ -284,6 +239,47 @@ const t: ShipType = {
       ],
     },
     {
+      name: '“Wolffe”',
+      xws: 'wolffe-siegeofcoruscant',
+      cost: 4,
+      slots: [],
+      caption: 'Siege of Coruscant',
+      initiative: 4,
+      limited: 1,
+      charges: { value: 1, recovers: 0 },
+      ability:
+        'While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.',
+      standard: true,
+      epic: true,
+      keywords: ['Clone'],
+      extended: true,
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/wolffe-siegeofcoruscant.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png',
+      standardLoadout: true,
+      upgrades: [
+        {
+          title: 'Wolfpack',
+          ability:
+            'While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice.',
+          slots: ['Crew'],
+        },
+        {
+          title: 'Veteran Tail Gunner',
+          ability:
+            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
+          slots: ['Gunner'],
+        },
+        {
+          ability:
+            'While you barrel roll or boost, you can move through and overlap obstacles.',
+          title: 'Q7 Astromech',
+          slots: ['Astromech'],
+        },
+      ],
+    },
+    {
       name: '“Jag”',
       xws: 'jag-siegeofcoruscant',
       cost: 4,
@@ -298,9 +294,8 @@ const t: ShipType = {
       keywords: ['Clone'],
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg',
+        'https://infinitearenas.com/xw2/images/quickbuilds/jag-siegeofcoruscant.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/jag.png',
       standardLoadout: true,
       upgrades: [
         {
@@ -325,7 +320,8 @@ const t: ShipType = {
       ],
     },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Arc-170.png',
 };
 
 export default t;

@@ -35,7 +35,8 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Lock' },
     { difficulty: 'White', type: 'Barrel Roll' },
   ],
-  icon: 'https://squadbuilder.fantasyflightgames.com/ship_types/I_Kihraxz.png',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Kihraxz.png',
   pilots: [
     {
       name: 'Black Sun Ace',
@@ -51,10 +52,9 @@ const t: ShipType = {
       epic: true,
       loadout: 3,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_195.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/blacksunace.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/blacksunace.png',
     },
     {
       name: 'Captain Jostero',
@@ -71,10 +71,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_194.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/captainjostero.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjostero.png',
     },
     {
       name: 'Cartel Marauder',
@@ -90,10 +89,9 @@ const t: ShipType = {
       epic: true,
       loadout: 5,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_196.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/cartelmarauder.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/cartelmarauder.png',
     },
     {
       name: 'Graz',
@@ -118,10 +116,8 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 8,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_192.png',
-      artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg',
+      image: 'https://infinitearenas.com/xw2/images/pilots/graz.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/graz.png',
     },
     {
       name: 'Talonbane Cobra',
@@ -145,10 +141,9 @@ const t: ShipType = {
       epic: true,
       loadout: 12,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_191.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/talonbanecobra.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/talonbanecobra.png',
     },
     {
       name: 'Viktor Hel',
@@ -173,10 +168,9 @@ const t: ShipType = {
       keywords: ['Bounty Hunter'],
       loadout: 10,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_193.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/viktorhel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/viktorhel.png',
     },
   ],
 };

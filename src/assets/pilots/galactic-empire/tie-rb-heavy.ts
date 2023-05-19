@@ -63,9 +63,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/43/2d/432db246-0a8d-42de-9711-a893c825b9b3/swz67_carida-cadet.png',
+        'https://infinitearenas.com/xw2/images/pilots/caridaacademycadet.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/caridaacademycadet.png',
     },
     {
       xws: 'onyxsquadronsentry',
@@ -83,9 +83,9 @@ const t: ShipType = {
       loadout: 7,
       extended: true,
       image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/3d/7c/3d7ca1c1-9e57-4085-a9a6-e82a3d92c6df/swz67_onyx-sentry.png',
+        'https://infinitearenas.com/xw2/images/pilots/onyxsquadronsentry.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronsentry.png',
     },
     {
       xws: 'rampage',
@@ -110,10 +110,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 10,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/rampage.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/rampage.png',
     },
     {
       name: 'Lyttan Dree',
@@ -138,10 +137,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 14,
       extended: true,
-      image:
-        'https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/lyttandree.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lyttandree.png',
     },
     {
       name: 'Flight Leader Ubbel',
@@ -172,14 +170,14 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/pilots/flightleaderubbel.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/flightleaderubbel.png',
       keywords: ['TIE'],
       epic: true,
     },
   ],
   ffg: 72,
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIE_Brute.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIE_Brute.png',
 };
 
 export default t;

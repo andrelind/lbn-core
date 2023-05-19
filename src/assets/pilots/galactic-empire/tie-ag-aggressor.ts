@@ -39,7 +39,7 @@ const t: ShipType = {
     },
   ],
   icon:
-    'https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png',
+    'https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAggressor.png',
   pilots: [
     {
       name: '“Double Edge”',
@@ -64,10 +64,9 @@ const t: ShipType = {
       keywords: ['TIE'],
       loadout: 13,
       extended: true,
-      image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_128.png',
+      image: 'https://infinitearenas.com/xw2/images/pilots/doubleedge.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/doubleedge.png',
     },
     {
       name: 'Lieutenant Kestal',
@@ -94,9 +93,9 @@ const t: ShipType = {
       loadout: 19,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_127.png',
+        'https://infinitearenas.com/xw2/images/pilots/lieutenantkestal.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkestal.png',
     },
     {
       name: 'Onyx Squadron Scout',
@@ -114,9 +113,9 @@ const t: ShipType = {
       loadout: 12,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_129.png',
+        'https://infinitearenas.com/xw2/images/pilots/onyxsquadronscout.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronscout.png',
     },
     {
       name: 'Sienar Specialist',
@@ -134,9 +133,9 @@ const t: ShipType = {
       loadout: 8,
       extended: true,
       image:
-        'https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_130.png',
+        'https://infinitearenas.com/xw2/images/pilots/sienarspecialist.png',
       artwork:
-        'https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg',
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sienarspecialist.png',
     },
   ],
 };
