@@ -473,7 +473,7 @@ const t: ShipType = {
       caption: 'Battle of Yavin',
       initiative: 5,
       limited: 1,
-      cost: 6,
+      cost: 5,
       standardLoadout: true,
       xws: 'lukeskywalker-battleofyavin',
       ability:

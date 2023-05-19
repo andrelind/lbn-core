@@ -62,7 +62,7 @@ const t: ShipType = {
       xws: 'fennrau',
       ability:
         'While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.',
-      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
       ffg: 155,
       standard: true,
       epic: true,
@@ -81,7 +81,7 @@ const t: ShipType = {
       xws: 'joyrekkoff',
       ability:
         'While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.',
-      slots: ['Talent', 'Missile', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Missile', 'Torpedo', 'Modification', 'Modification'],
       ffg: 157,
       standard: true,
       epic: true,
@@ -177,7 +177,7 @@ const t: ShipType = {
       xws: 'mandalorianroyalguard',
       ability:
         'While a friendly non-small ship defends, if you are in the attack arc, you may gain 1 deplete and 1 strain token. If you do, the defender may change 1 result to an [Evade] result.',
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification', 'Modification'],
       ffg: 159,
       keywords: ['Mandalorian'],
       cost: 4,

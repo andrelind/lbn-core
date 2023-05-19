@@ -69,8 +69,8 @@ const t: ShipType = {
     {
       xws: 'previzsla',
       name: 'Pre Vizsla',
-      cost: 7,
-      loadout: 18,
+      cost: 6,
+      loadout: 14,
       initiative: 3,
       limited: 1,
       ability:

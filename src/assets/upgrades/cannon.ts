@@ -24,7 +24,7 @@ const t: UpgradeBase[] = [
           'https://infinitearenas.com/xw2/images/artwork/upgrades/heavylasercannon.png',
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 5 },
     standard: true,
     epic: true,
     extended: true,
@@ -168,11 +168,14 @@ const t: UpgradeBase[] = [
     standard: true,
     extended: true,
     epic: true,
+    restrictions: [
+      { chassis: ['t70xwing', 't65xwing'], factions: ['Resistance'] },
+    ],
   },
   {
     xws: 'syncedlasercannons',
     limited: 0,
-    cost: { value: 8 },
+    cost: { value: 6 },
     sides: [
       {
         title: 'Synced Laser Cannons',

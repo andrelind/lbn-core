@@ -147,11 +147,11 @@ const t: ShipType = {
       force: { value: 3, recovers: 1, side: ['light'] },
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 5,
       slots: ['Force Power', 'Force Power', 'Astromech', 'Modification'],
       ffg: 512,
       keywords: ['Jedi', 'Light Side'],
-      loadout: 8,
+      loadout: 7,
       extended: true,
       image:
         'https://infinitearenas.com/xw2/images/pilots/macewindu-delta7baethersprite.png',

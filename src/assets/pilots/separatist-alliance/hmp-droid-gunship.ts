@@ -131,8 +131,8 @@ const t: ShipType = {
       ability:
         'Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you.',
       slots: [
-        'Torpedo',
-        'Torpedo',
+        'Missile',
+        'Missile',
         'Tactical Relay',
         'Crew',
         'Device',
@@ -158,7 +158,14 @@ const t: ShipType = {
       limited: 2,
       ability:
         'After you barrel roll or sideslip, if you are stressed, gain 1 calculate token.',
-      slots: ['Missile', 'Crew', 'Device', 'Modification', 'Configuration'],
+      slots: [
+        'Missile',
+        'Missile',
+        'Crew',
+        'Device',
+        'Modification',
+        'Configuration',
+      ],
       standard: true,
       epic: true,
       ffg: 665,
