@@ -99,7 +99,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 12,
+      loadout: 5,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/backdraft.png',
       artwork:
@@ -118,7 +118,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      loadout: 10,
+      loadout: 3,
       extended: true,
       image:
         'https://infinitearenas.com/xw2/images/pilots/omegasquadronexpert.png',
@@ -196,7 +196,7 @@ const t: ShipType = {
       ability:
         'While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.',
       keywords: ['TIE'],
-      loadout: 14,
+      loadout: 6,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/captainphasma.png',
       artwork:
