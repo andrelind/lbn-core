@@ -122,7 +122,7 @@ const t: ShipType = {
         'Device',
         'Modification',
       ],
-      cost: 43,
+      cost: 3,
       ffg: 600,
       caption: 'Bucket of Bolts',
       keywords: ['Droid', 'Y-wing'],
