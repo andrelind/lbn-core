@@ -41,8 +41,8 @@ const t: ShipType = {
       caption: "Vizsla's Lieutenant",
       ability:
         'Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.',
-      cost: 7,
-      loadout: 20,
+      cost: 6,
+      loadout: 12,
       initiative: 4,
       limited: 1,
       standard: true,
@@ -51,8 +51,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Crew',
-        'Missile',
-        'Missile',
         'Gunner',
         'Device',
         'Illicit',
@@ -82,7 +80,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Crew',
-        'Missile',
         'Gunner',
         'Device',
         'Illicit',

@@ -52,7 +52,7 @@ const t: ShipType = {
       caption: 'Unflinching Diehard',
       initiative: 2,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'deathfire',
       ability:
         'After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.',
@@ -79,7 +79,7 @@ const t: ShipType = {
       caption: 'Disciplined Instructor',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'captainjonus',
       ability:
         'While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.',
@@ -128,7 +128,7 @@ const t: ShipType = {
       caption: 'Scimitar Leader',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 3,
       xws: 'majorrhymer',
       ability:
         'While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.',
@@ -176,7 +176,7 @@ const t: ShipType = {
       caption: 'Brash Maverick',
       initiative: 5,
       limited: 1,
-      cost: 4,
+      cost: 3,
       xws: 'tomaxbren',
       ability:
         'After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.',

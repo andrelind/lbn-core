@@ -116,7 +116,6 @@ const t: ShipType = {
         'Sensor',
         'Turret',
         'Torpedo',
-        'Gunner',
         'Crew',
         'Device',
         'Device',
@@ -172,8 +171,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Turret',
-        'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
         'Modification',
@@ -200,8 +197,6 @@ const t: ShipType = {
       slots: [
         'Talent',
         'Turret',
-        'Torpedo',
-        'Gunner',
         'Astromech',
         'Device',
         'Modification',
@@ -210,7 +205,7 @@ const t: ShipType = {
       ffg: 599,
       caption: 'Shadow Three',
       keywords: ['Clone', 'Y-wing'],
-      loadout: 9,
+      loadout: 10,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/broadside.png',
       artwork:

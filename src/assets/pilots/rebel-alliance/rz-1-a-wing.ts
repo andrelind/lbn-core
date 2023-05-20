@@ -155,7 +155,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
-      slots: ['Talent', 'Torpedo', 'Modification', 'Configuration'],
+      slots: ['Talent', 'Modification', 'Modification', 'Configuration'],
       standard: true,
       epic: true,
       ffg: 885,

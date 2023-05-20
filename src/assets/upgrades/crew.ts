@@ -2931,7 +2931,7 @@ const t: UpgradeBase[] = [
           'https://infinitearenas.com/xw2/images/artwork/upgrades/fennrau.png',
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 7 },
     restrictions: [{ factions: ['Scum and Villainy', 'Rebel Alliance'] }],
     standard: true,
     extended: true,
