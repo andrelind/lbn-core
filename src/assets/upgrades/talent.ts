@@ -19,7 +19,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 1 },
     restrictions: [{ action: { type: 'Focus' } }],
-    standard: true,
+    standard: false,
     epic: true,
     extended: true,
   },

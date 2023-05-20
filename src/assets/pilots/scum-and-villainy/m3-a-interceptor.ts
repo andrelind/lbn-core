@@ -171,7 +171,7 @@ const t: ShipType = {
       ffg: 188,
       standard: true,
       epic: true,
-      loadout: 5,
+      loadout: 8,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/sunnybounder.png',
       artwork:

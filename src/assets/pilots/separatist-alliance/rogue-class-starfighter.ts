@@ -173,7 +173,7 @@ const t: ShipType = {
       initiative: 4,
       limited: 2,
       cost: 4,
-      loadout: 18,
+      loadout: 10,
       xws: 'magnaguardprotector',
       slots: ['Cannon', 'Cannon', 'Missile', 'Modification'],
       ability:
