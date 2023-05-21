@@ -93,6 +93,7 @@ const t: ShipType = {
       ability:
         'After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.',
       keywords: ['Clone'],
+      loadout: 20,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/hound.png',
       artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/hound.png',
