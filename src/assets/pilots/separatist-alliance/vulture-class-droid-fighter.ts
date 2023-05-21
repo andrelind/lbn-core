@@ -329,7 +329,7 @@ const t: ShipType = {
     {
       name: 'Kelrodo-Ai Holdout',
       xws: 'kelrodoaiholdout',
-      initiative: 2,
+      initiative: 1,
       limited: 3,
       caption: 'Separatist Stalwart',
       shipAbility: {

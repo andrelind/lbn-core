@@ -105,7 +105,7 @@ const t: UpgradeBase[] = [
           'https://infinitearenas.com/xw2/images/artwork/upgrades/tractorbeam.png',
       },
     ],
-    cost: { value: 4 },
+    cost: { value: 6 },
     standard: true,
     epic: true,
     extended: true,

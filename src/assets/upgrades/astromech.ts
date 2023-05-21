@@ -271,7 +271,7 @@ const t: UpgradeBase[] = [
         charges: { value: 2, recovers: 0 },
       },
     ],
-    cost: { value: 7 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     epic: true,
@@ -293,7 +293,7 @@ const t: UpgradeBase[] = [
         charges: { value: 2, recovers: 0 },
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 4 },
     restrictions: [{ factions: ['Resistance'] }],
     standard: true,
     epic: true,
@@ -557,16 +557,17 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'While you barrel roll or boost, you can move through and overlap obstacles.',
+        'While you barrel roll or boost, you can move through and overlap obstacles.',
         title: 'Q7 Astromech',
         type: 'Astromech',
         slots: ['Astromech'],
         artwork:
-          'https://infinitearenas.com/xw2/images/artwork/upgrades/q7astromech.png',
+        'https://infinitearenas.com/xw2/images/artwork/upgrades/q7astromech.png',
         image: 'https://infinitearenas.com/xw2/images/upgrades/q7astromech.png',
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 1 },
+    restrictions: [{ factions: ['Galactic Republic'] }],
     extended: true,
   },
   {
@@ -587,7 +588,7 @@ const t: UpgradeBase[] = [
         image: 'https://infinitearenas.com/xw2/images/upgrades/r7a7.png',
       },
     ],
-    cost: { value: 3 },
+    cost: { value: 5 },
     restrictions: [{ factions: ['Galactic Republic'] }],
     extended: true,
   },

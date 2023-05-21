@@ -251,7 +251,7 @@ const t: ShipType = {
       xws: 'obiwankenobi-siegeofcoruscant',
       name: 'Obi-Wan Kenobi',
       cost: 4,
-      loadout: 15,
+      loadout: 0,
       limited: 1,
       initiative: 5,
       caption: 'Siege of Coruscant',

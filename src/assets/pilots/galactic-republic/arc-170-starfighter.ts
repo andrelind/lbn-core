@@ -55,10 +55,10 @@ const t: ShipType = {
       ],
       standard: true,
       epic: true,
-      cost: 6,
+      cost: 5,
       ffg: 526,
       keywords: ['Clone'],
-      loadout: 18,
+      loadout: 15,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/sinker.png',
       artwork:

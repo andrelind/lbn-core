@@ -289,7 +289,7 @@ export const t: Source[] = [
         reapersquadronscout: 2,
       },
       upgrades: {
-        advancedprotontorpedoes: 2,
+        advprotontorpedoes: 2,
         angleddeflectors: 2,
         enduring: 2,
         firecontrolsystem: 2,
