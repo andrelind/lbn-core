@@ -693,6 +693,7 @@ const t: UpgradeBase[] = [
     ],
     cost: { value: 2 },
     restrictions: [{ chassis: ['btanr2ywing'] }],
+    standarized: true,
     standard: true,
     epic: true,
     extended: true,

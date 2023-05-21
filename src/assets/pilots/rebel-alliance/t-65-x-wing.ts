@@ -625,7 +625,6 @@ const t: ShipType = {
         'Talent',
         'Missile',
         'Astromech',
-        'Modification',
         'Configuration',
       ],
       image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
