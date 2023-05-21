@@ -75,7 +75,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       cost: 4,
-      slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
+      slots: ['Talent', 'Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 557,
       loadout: 12,
       extended: true,
