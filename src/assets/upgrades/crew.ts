@@ -410,7 +410,7 @@ const t: UpgradeBase[] = [
           'https://infinitearenas.com/xw2/images/upgrades/deathtroopers.png',
       },
     ],
-    cost: { value: 6 },
+    cost: { value: 4 },
     restrictions: [{ factions: ['Galactic Empire'] }],
     standard: true,
     epic: true,
