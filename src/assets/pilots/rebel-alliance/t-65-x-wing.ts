@@ -600,7 +600,7 @@ const t: ShipType = {
       xws: 'corranhorn-t65xwing',
       ability:
         'After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.',
-      slots: ['Talent', 'Torpedo', 'Astromech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Astromech', 'Configuration'],
       image:
         'https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png',
       artwork:
