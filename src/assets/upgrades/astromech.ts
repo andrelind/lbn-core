@@ -557,12 +557,12 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-        'While you barrel roll or boost, you can move through and overlap obstacles.',
+          'While you barrel roll or boost, you can move through and overlap obstacles.',
         title: 'Q7 Astromech',
         type: 'Astromech',
         slots: ['Astromech'],
         artwork:
-        'https://infinitearenas.com/xw2/images/artwork/upgrades/q7astromech.png',
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/q7astromech.png',
         image: 'https://infinitearenas.com/xw2/images/upgrades/q7astromech.png',
       },
     ],
@@ -637,7 +637,6 @@ const t: UpgradeBase[] = [
   {
     limited: 1,
     xws: 'l4er5',
-    standard: true,
     sides: [
       {
         ability:
@@ -664,6 +663,7 @@ const t: UpgradeBase[] = [
     restrictions: [
       { action: { type: 'Rotate Arc' }, factions: ['Resistance'] },
     ],
+    standard: true,
     epic: true,
     extended: true,
   },

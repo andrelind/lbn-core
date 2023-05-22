@@ -120,7 +120,7 @@ const t: ShipType = {
       xws: 'oldteroch',
       ability:
         'At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [Front Arc], it removes all of its green tokens.',
-      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
       ffg: 156,
       standard: true,
       epic: true,

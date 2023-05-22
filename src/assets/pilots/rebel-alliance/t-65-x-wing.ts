@@ -264,7 +264,7 @@ const t: ShipType = {
       xws: 'thanekyrell',
       ability:
         "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
-      slots: ['Talent', 'Torpedo', 'Astromech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Astromech', 'Configuration'],
       ffg: 3,
       standard: true,
       epic: true,
@@ -621,12 +621,7 @@ const t: ShipType = {
       ability:
         'After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.',
       charges: { value: 1, recovers: 1 },
-      slots: [
-        'Talent',
-        'Missile',
-        'Astromech',
-        'Configuration',
-      ],
+      slots: ['Talent', 'Missile', 'Astromech', 'Configuration'],
       image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png',
