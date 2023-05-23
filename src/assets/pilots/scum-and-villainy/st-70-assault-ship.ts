@@ -52,10 +52,7 @@ const t: ShipType = {
         'While you defend or perform an attack, if you are in the [Front Arc] at range 1-2 of 2 or more enemy ship, you may change 1 of you blank results to a [Focus] result.',
       slots: [
         'Talent',
-        'Talent',
         'Crew',
-        'Crew',
-        'Cannon',
         'Gunner',
         'Illicit',
         'Illicit',
@@ -87,8 +84,6 @@ const t: ShipType = {
       ],
       slots: [
         'Crew',
-        'Crew',
-        'Cannon',
         'Gunner',
         'Illicit',
         'Illicit',
@@ -112,7 +107,14 @@ const t: ShipType = {
       loadout: 14,
       ability:
         'While you perform an attack at attack range 1-2, you may spend 1 non-recurring [Charge] from 1 of your equipped [Illicit] upgrades to change 1 [Focus] result to a [Crit] result.',
-      slots: ['Talent', 'Crew', 'Gunner', 'Illicit', 'Illicit', 'Modification'],
+      slots: [
+        'Talent',
+        'Crew',
+        'Gunner',
+        'Illicit',
+        'Illicit',
+        'Modification'
+      ],
       standard: true,
       epic: true,
       extended: true,
