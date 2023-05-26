@@ -169,7 +169,8 @@ const t: UpgradeBase[] = [
     extended: true,
     epic: true,
     restrictions: [
-      { chassis: ['t70xwing', 't65xwing'], factions: ['Resistance'] },
+      { chassis: ['t70xwing', 't65xwing'] },
+      { factions: ['Resistance'] },
     ],
   },
   {
