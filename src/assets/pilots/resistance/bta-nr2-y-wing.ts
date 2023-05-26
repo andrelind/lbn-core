@@ -139,7 +139,6 @@ const t: ShipType = {
       standard: true,
       cost: 3,
       slots: [
-        'Talent',
         'Tech',
         'Turret',
         'Astromech',
@@ -168,7 +167,6 @@ const t: ShipType = {
       standard: true,
       cost: 3,
       slots: [
-        'Talent',
         'Tech',
         'Turret',
         'Missile',
