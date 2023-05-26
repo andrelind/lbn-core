@@ -156,7 +156,6 @@ const t: ShipType = {
         'Force Power',
         'Force Power',
         'Astromech',
-        'Configuration',
         'Modification',
       ],
       ffg: 512,
