@@ -80,7 +80,7 @@ const t: ShipType = {
       xws: 'bodicavenj',
       ability:
         'After another friendly ship defends, if you are not depleted, you may perform a bonus primary attack against the attacker. If you do, after performing that attack, gain 1 deplete token.',
-      slots: ['Talent', 'Talent', 'Torpedo', 'Modification'],
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
       keywords: ['Mandalorian'],
       cost: 4,
       epic: true,
@@ -99,7 +99,7 @@ const t: ShipType = {
       xws: 'dirkullodin',
       ability:
         'After you fully execute a red maneuver or perform a red action, you may acquire a lock on an enemy ship in your [Front Arc] at range 1.',
-      slots: ['Torpedo', 'Modification'],
+      slots: ['Torpedo', 'Modification', 'Modification'],
       keywords: ['Mandalorian'],
       cost: 4,
       epic: true,
