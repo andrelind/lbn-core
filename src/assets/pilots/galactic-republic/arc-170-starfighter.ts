@@ -199,7 +199,7 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       ability:
-        'After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.',
+        'After you fully execute a red maneuver or perform a red action, you may choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.',
       standard: true,
       epic: true,
       keywords: ['Clone'],
