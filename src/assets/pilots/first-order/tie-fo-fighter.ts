@@ -49,13 +49,7 @@ const t: ShipType = {
       xws: 'midnight',
       ability:
         "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.",
-      slots: [
-        'Talent',
-        'Talent',
-        'Tech',
-        'Modification',
-        'Modification',
-      ],
+      slots: ['Talent', 'Talent', 'Tech', 'Modification', 'Modification'],
       ffg: 397,
       standard: true,
       epic: true,

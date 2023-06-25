@@ -349,29 +349,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Crack Shot',
-          ability:
-            'While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.',
-          slots: ['Talent'],
-          charges: { value: 1, recovers: 0 },
-        },
-        {
-          ability:
-            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
-          title: 'Disciplined',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['crackshot', 'disciplined', 'afterburners'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/backstabber-battleofyavin.png',
       artwork:
@@ -389,22 +367,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ruthless',
-          ability:
-            'While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          ability:
-            "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
-          title: 'Precision Ion Engines',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['ruthless', 'precisionionengines'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/darkcurse-battleofyavin.png',
       artwork:
@@ -423,22 +386,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Predator',
-          ability:
-            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['predator', 'afterburners'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/maulermithel-battleofyavin.png',
       artwork:
@@ -458,22 +406,7 @@ const t: ShipType = {
       standard: true,
       epic: true,
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Elusive',
-          ability:
-            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
-          slots: ['Talent'],
-          charges: { value: 1, recovers: 0 },
-        },
-        {
-          title: 'Vengeful ',
-          ability:
-            'After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.',
-          slots: ['Talent'],
-        },
-      ],
+      standardLoadout: ['elusive', 'vengeful-battleofyavin'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/wampa-battleofyavin.png',
       artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/wampa.png',
@@ -515,6 +448,55 @@ const t: ShipType = {
       epic: true,
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/yricaquell.png',
+    },
+    {
+      name: 'Iden Versio',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      standardLoadout: ['disciplined', 'elusive'],
+      slots: [],
+      xws: 'idenversio-swz105',
+      image: '',
+      charges: { value: 1, recovers: 0 },
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: '“Night Beast”',
+      initiative: 2,
+      limited: 1,
+      cost: 3,
+      xws: 'nightbeast-swz105',
+      image: '',
+      standardLoadout: ['disciplined', 'predator'],
+      slots: [],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/nightbeast.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: 'Valen Rudor',
+      initiative: 3,
+      limited: 1,
+      cost: 3,
+      xws: 'valenrudor-swz105',
+      slots: [],
+      image: '',
+      standardLoadout: ['disciplined', 'precisionionengines'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
     },
   ],
 };

@@ -103,28 +103,10 @@ export type Pilot = {
   keywords?: string[];
   image?: string;
   artwork?: string;
-  standardLoadout?: boolean;
-  upgrades?: StandardUpgrade[];
+  standardLoadout?: string[];
+  upgrades?: UpgradeBase[];
   stats?: Stat[];
   predictedCost?: number;
-};
-
-export type StandardUpgrade = {
-  title: string;
-  slots: Slot[];
-  ability: string;
-  limited?: number;
-  charges?: {
-    value: number;
-    recovers: number;
-  };
-  attack?: {
-    arc: string;
-    value: number;
-    minrange: number;
-    maxrange: number;
-    ordnance: boolean;
-  };
 };
 
 export type Restrictions = {

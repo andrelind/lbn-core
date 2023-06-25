@@ -183,28 +183,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Discord Missiles',
-          ability:
-            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
-          charges: { value: 1, recovers: 0 },
-          slots: ['Missile'],
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'discordmissiles',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
     },
     {
@@ -226,28 +208,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Discord Missiles',
-          ability:
-            "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the (3 [Bank Left]), (3 [Straight]), or (3 [Bank Right]) template. This card's [Charge] cannot be recovered.",
-          charges: { value: 1, recovers: 0 },
-          slots: ['Missile'],
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'discordmissiles',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
     },
     {
@@ -269,35 +233,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ion Missiles',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          slots: ['Missile'],
-          charges: { value: 3, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 3,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'ionmissiles',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
     },
     {

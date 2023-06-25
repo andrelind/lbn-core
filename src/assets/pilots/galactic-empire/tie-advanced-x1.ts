@@ -193,28 +193,7 @@ const t: ShipType = {
       epic: true,
       extended: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Marksmanship',
-          ability:
-            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Hate',
-          ability:
-            'After you suffer 1 or more damage, recover that many [Force].',
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['marksmanship', 'hate', 'afterburners'],
       stats: [
         { arc: 'Front Arc', type: 'attack', value: 2 },
         { type: 'agility', value: 3 },
@@ -249,6 +228,45 @@ const t: ShipType = {
       epic: true,
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/junoeclipse.png',
+    },
+    {
+      name: 'Darth Vader',
+      initiative: 6,
+      limited: 1,
+      cost: 6,
+      xws: 'darthvader-swz105',
+      image: '',
+      force: { value: 3, recovers: 1, side: ['dark'] },
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 2 },
+        { type: 'agility', value: 3 },
+        { type: 'hull', value: 3 },
+        { type: 'shields', value: 3 },
+      ],
+      standardLoadout: ['hate', 'ionmissiles', 'afterburners'],
+      slots: [],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png',
+      standard: true,
+      extended: true,
+      keywords: ['Dark Side', 'Sith', 'TIE'],
+      epic: true,
+    },
+    {
+      name: 'Maarek Stele',
+      initiative: 5,
+      limited: 1,
+      cost: 5,
+      standardLoadout: ['elusive', 'outmaneuver', 'afterburners'],
+      xws: 'maarekstele-swz105',
+      image: '',
+      slots: [],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
     },
   ],
 };

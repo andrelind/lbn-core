@@ -207,35 +207,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/dbs32c-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.',
-          title: 'Plasma Torpedoes',
-          slots: ['Torpedo'],
-          charges: { value: 2, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 3,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'plasmatorpedoes',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
     },
     {
@@ -255,35 +230,10 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/dbs404-siegeofcoruscant.png',
       slots: [],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'advprotontorpedoes',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png',
@@ -309,35 +259,10 @@ const t: ShipType = {
       slots: [],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/baktoidprototype-siegeofcoruscant.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Homing Missiles',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.',
-          slots: ['Missile'],
-          charges: { value: 2, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 4,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          title: 'Strut-Lock Override',
-          ability:
-            'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'homingmissiles',
+        'contingencyprotocol-siegeofcoruscant',
+        'strutlockoverride-siegeofcoruscant',
       ],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png',

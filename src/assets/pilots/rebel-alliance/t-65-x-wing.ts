@@ -308,7 +308,6 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       cost: 5,
-      standardLoadout: true,
       xws: 'biggsdarklighter-battleofyavin',
       ability:
         "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
@@ -317,42 +316,11 @@ const t: ShipType = {
         text:
           'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
       },
-      upgrades: [
-        {
-          title: 'Attack Speed',
-          slots: ['Talent'],
-          ability:
-            'After you fully execute a (3 [Straight]) or [4 [Straight]) maneuver, you may perform a boost using the (1 [Straight]) template. (This is not an action).',
-        },
-        {
-          title: 'Selfless',
-          slots: ['Talent'],
-          ability:
-            'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.',
-          limited: 1,
-        },
-        {
-          title: 'Proton Torpedoes',
-          slots: ['Torpedo'],
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          charges: { value: 2, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 4,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R2-F2',
-          slots: ['Astromech'],
-          ability:
-            'After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.',
-          charges: { value: 2, recovers: 0 },
-          limited: 1,
-        },
+      standardLoadout: [
+        'attackspeed-battleofyavin',
+        'selfless',
+        'protontorpedoes',
+        'r2f2-battleofyavin',
       ],
       slots: [],
       image:
@@ -370,7 +338,6 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       cost: 4,
-      standardLoadout: true,
       xws: 'garvendreis-battleofyavin',
       ability:
         'After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.',
@@ -379,30 +346,7 @@ const t: ShipType = {
         text:
           'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
       },
-      upgrades: [
-        {
-          title: 'Adv. Proton Torpedoes',
-          slots: ['Torpedo'],
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R5-K6',
-          slots: ['Astromech'],
-          ability:
-            'Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.',
-          charges: { value: 2, recovers: 0 },
-          limited: 1,
-        },
-      ],
+      standardLoadout: ['advprotontorpedoes', 'r5k6-battleofyavin'],
       slots: [],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/garvendreis-battleofyavin.png',
@@ -419,7 +363,6 @@ const t: ShipType = {
       initiative: 4,
       limited: 1,
       cost: 4,
-      standardLoadout: true,
       xws: 'jekporkins-battleofyavin',
       ability:
         'After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.',
@@ -428,35 +371,10 @@ const t: ShipType = {
         text:
           'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
       },
-      upgrades: [
-        {
-          title: 'Adv. Proton Torpedoes',
-          slots: ['Torpedo'],
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R5-K6',
-          slots: ['Astromech'],
-          ability:
-            'Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.',
-          charges: { value: 2, recovers: 0 },
-          limited: 1,
-        },
-        {
-          title: 'Unstable Sublight Engines',
-          slots: ['Modification'],
-          ability:
-            'After you are destroyed, you must execute a (1 [Straight]) maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.',
-        },
+      standardLoadout: [
+        'advprotontorpedoes',
+        'r5d8-battleofyavin',
+        'unstablesublightengines-battleofyavin',
       ],
       slots: [],
       image:
@@ -474,7 +392,6 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       cost: 5,
-      standardLoadout: true,
       xws: 'lukeskywalker-battleofyavin',
       ability:
         'After you are declared as the defender during an attack, you may recover 1 [Force].',
@@ -483,41 +400,11 @@ const t: ShipType = {
         text:
           'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
       },
-      upgrades: [
-        {
-          title: 'Attack Speed',
-          slots: ['Talent'],
-          ability:
-            'After you fully execute a (3 [Straight]) or (4 [Straight]) maneuver, you may perform a boost using the (1 [Straight]) template. (This is not an action).',
-        },
-        {
-          title: 'Instinctive Aim',
-          slots: ['Force Power'],
-          ability:
-            'While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.',
-        },
-        {
-          title: 'Proton Torpedoes',
-          slots: ['Torpedo'],
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          charges: { value: 2, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 4,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R2-D2',
-          slots: ['Astromech'],
-          ability:
-            'After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.',
-          charges: { value: 2, recovers: 0 },
-          limited: 1,
-        },
+      standardLoadout: [
+        'attackspeed-battleofyavin',
+        'instictiveaim',
+        'protontorpedoes',
+        'r2d2-battleofyavin',
       ],
       slots: [],
       image:
@@ -535,7 +422,6 @@ const t: ShipType = {
       initiative: 5,
       limited: 1,
       cost: 5,
-      standardLoadout: true,
       xws: 'wedgeantilles-battleofyavin',
       ability:
         "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
@@ -544,41 +430,11 @@ const t: ShipType = {
         text:
           'After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action.',
       },
-      upgrades: [
-        {
-          title: 'Attack Speed',
-          slots: ['Talent'],
-          ability:
-            'After you fully execute a (3 [Straight]) or [4 [Straight]) maneuver, you may perform a boost using the (1 [Straight]) template. (This is not an action).',
-        },
-        {
-          title: 'Marksmanship',
-          slots: ['Talent'],
-          ability:
-            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
-        },
-        {
-          title: 'Proton Torpedoes',
-          slots: ['Torpedo'],
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          charges: { value: 2, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 4,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R2-A3',
-          slots: ['Astromech'],
-          ability:
-            'After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.',
-          charges: { value: 2, recovers: 0 },
-          limited: 1,
-        },
+      standardLoadout: [
+        'attackspeed-battleofyavin',
+        'marksmanship',
+        'protontorpedoes',
+        'r2a3-battleofyavin',
       ],
       slots: [],
       image:
@@ -625,6 +481,37 @@ const t: ShipType = {
       image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png',
+      standard: true,
+      extended: true,
+      keywords: ['X-wing'],
+      epic: true,
+    },
+    {
+      name: 'Luke Skywalker',
+      initiative: 5,
+      limited: 1,
+      cost: 6,
+      xws: 'lukeskywalker-swz106',
+      force: { value: 2, recovers: 1, side: ['light'] },
+      standardLoadout: ['instictiveaim', 'protontorpedoes', 'r2d2'],
+      slots: [],
+      image: '',
+      artwork: '',
+      standard: true,
+      extended: true,
+      keywords: ['X-wing'],
+      epic: true,
+    },
+    {
+      name: 'Jek Porkins',
+      initiative: 4,
+      limited: 1,
+      cost: 5,
+      xws: 'jekporkins-swz106',
+      standardLoadout: ['predate', 'protontorpedoes', 'r5d8-battleofyavin'],
+      slots: [],
+      image: '',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['X-wing'],

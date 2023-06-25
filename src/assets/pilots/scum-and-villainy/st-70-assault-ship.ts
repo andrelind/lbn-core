@@ -82,14 +82,7 @@ const t: ShipType = {
         { difficulty: 'White', type: 'Lock' },
         { difficulty: 'Red', type: 'Barrel Roll' },
       ],
-      slots: [
-        'Crew',
-        'Gunner',
-        'Illicit',
-        'Illicit',
-        'Modification',
-        'Title',
-      ],
+      slots: ['Crew', 'Gunner', 'Illicit', 'Illicit', 'Modification', 'Title'],
       standard: true,
       epic: true,
       extended: true,
@@ -107,14 +100,7 @@ const t: ShipType = {
       loadout: 14,
       ability:
         'While you perform an attack at attack range 1-2, you may spend 1 non-recurring [Charge] from 1 of your equipped [Illicit] upgrades to change 1 [Focus] result to a [Crit] result.',
-      slots: [
-        'Talent',
-        'Crew',
-        'Gunner',
-        'Illicit',
-        'Illicit',
-        'Modification'
-      ],
+      slots: ['Talent', 'Crew', 'Gunner', 'Illicit', 'Illicit', 'Modification'],
       standard: true,
       epic: true,
       extended: true,

@@ -207,29 +207,7 @@ const t: ShipType = {
         { type: 'agility', value: 2 },
         { type: 'hull', value: 6 },
       ],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Diamond-Boron Missiles',
-          slots: ['Missile', 'Missile'],
-          ability:
-            "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
-          charges: { value: 3, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 3,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Munitions Failsafe',
-          ability:
-            'While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.',
-          slots: ['Modification'],
-        },
-      ],
+      standardLoadout: ['diamondboronmissiles', 'munitionsfailsafe'],
     },
     {
       name: '“Axe”',
@@ -259,29 +237,7 @@ const t: ShipType = {
         { type: 'agility', value: 2 },
         { type: 'hull', value: 6 },
       ],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Deadeye Shot',
-          slots: ['Talent'],
-          ability:
-            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may spend 1 [Hit] result or change 1 [Critical Hit] result to a [Hit] result. If you do, the defender exposes 1 of its damage cards.',
-        },
-        {
-          title: 'Barrage Rockets',
-          ability:
-            'Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.',
-          slots: ['Missile', 'Missile'],
-          charges: { value: 5, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 3,
-            minrange: 2,
-            maxrange: 3,
-            ordnance: true,
-          },
-        },
-      ],
+      standardLoadout: ['deadeyeshot', 'barragerockets'],
     },
     {
       name: '“Slammer”',

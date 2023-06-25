@@ -162,27 +162,7 @@ const t: ShipType = {
       epic: true,
       loadout: 0,
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Malice',
-          ability:
-            'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Roiling Anger',
-          ability:
-            "At the start of the Engagement Phase, if you are in an enemy ship's [Front Arc], you may gain 1 strain to recover 1 [Force].",
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Scimitar',
-          ability:
-            'Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.',
-          slots: ['Title'],
-        },
-      ],
+      standardLoadout: ['malice', 'roilinganger-siegeofcoruscant', 'scimitar'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png',
       artwork:

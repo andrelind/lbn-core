@@ -215,28 +215,7 @@ const t: ShipType = {
         { type: 'hull', value: 6 },
         { type: 'shields', value: 4 },
       ],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Selfless',
-          ability:
-            'While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Veteran Tail Gunner',
-          ability:
-            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
-          slots: ['Gunner'],
-        },
-        {
-          title: 'R4-P Astromech',
-          ability:
-            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['selfless', 'veterantailgunner', 'r4pastromech'],
     },
     {
       name: '“Wolffe”',
@@ -257,26 +236,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/wolffe-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Wolfpack',
-          ability:
-            'While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice.',
-          slots: ['Crew'],
-        },
-        {
-          title: 'Veteran Tail Gunner',
-          ability:
-            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
-          slots: ['Gunner'],
-        },
-        {
-          ability:
-            'While you barrel roll or boost, you can move through and overlap obstacles.',
-          title: 'Q7 Astromech',
-          slots: ['Astromech'],
-        },
+      standardLoadout: [
+        'wolfpack-siegeofcoruscant',
+        'veterantailgunner',
+        'q7astromech',
       ],
     },
     {
@@ -296,27 +259,10 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/jag-siegeofcoruscant.png',
       artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/jag.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Veteran Tail Gunner',
-          ability:
-            'After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.',
-          slots: ['Gunner'],
-        },
-        {
-          title: 'R4-P Astromech',
-          ability:
-            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Synchronized Console',
-          ability:
-            'After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.',
-          slots: ['Modification'],
-        },
+      standardLoadout: [
+        'veterantailgunner',
+        'r4pastromech',
+        'synchronizedconsole',
       ],
     },
   ],

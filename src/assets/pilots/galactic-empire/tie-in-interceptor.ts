@@ -261,21 +261,7 @@ const t: ShipType = {
       cost: 5,
       charges: { value: 2, recovers: 1 },
       slots: [],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Predator',
-          ability:
-            'While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Fanatic',
-          ability:
-            'While you perform a primary attack, if you are damaged, you may change 1 [Focus] result to a [Hit] result.',
-          slots: ['Talent'],
-        },
-      ],
+      standardLoadout: ['predator', 'fanatic-battleofyavin'],
       ability:
         'Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.',
       keywords: ['TIE'],
@@ -304,21 +290,7 @@ const t: ShipType = {
         text:
           'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
       },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Disciplined',
-          ability:
-            'After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Primed Thrusters',
-          ability:
-            'While you have 2 or fewer stress tokens, you can perform [Barrel Roll] and [Boost] actions even while stressed.',
-          slots: ['Tech'],
-        },
-      ],
+      standardLoadout: ['disciplined', 'primedthrusters'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/sigma4-battleofyavin.png',
       artwork:
@@ -343,22 +315,7 @@ const t: ShipType = {
         text:
           'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
       },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Sensor Jammer ',
-          ability:
-            "While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's results to a  result.",
-          slots: ['Sensor'],
-        },
-        {
-          title: 'Elusive',
-          ability:
-            'While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].',
-          slots: ['Talent'],
-          charges: { value: 1, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['sensorjammer-battleofyavin', 'elusive'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/sigma5-battleofyavin.png',
       artwork:
@@ -383,22 +340,7 @@ const t: ShipType = {
         text:
           'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
       },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Daredevil',
-          ability:
-            'While you perform a white [Boost] action, you may treat it as red to use the (1 [Turn Left]) or (1 [Turn Right]) template instead.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-      ],
+      standardLoadout: ['daredevil', 'afterburners'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/sigma6-battleofyavin.png',
       artwork:
@@ -423,21 +365,7 @@ const t: ShipType = {
         text:
           'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
       },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Marksmanship',
-          ability:
-            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Fire-Control System',
-          ability:
-            'While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.',
-          slots: ['Sensor'],
-        },
-      ],
+      standardLoadout: ['marksmanship', 'firecontrolsystem'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png',
       artwork:

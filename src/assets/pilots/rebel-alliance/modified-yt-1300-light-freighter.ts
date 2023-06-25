@@ -203,34 +203,11 @@ const t: ShipType = {
           'While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice',
       },
       charges: { value: 4, recovers: 0 },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Chewbacca',
-          limited: 1,
-          slots: ['Crew'],
-          ability:
-            'After you perform an [Evade] action, you may gain 1 focus token.',
-        },
-        {
-          title: 'Rigged Cargo Chute',
-          ability:
-            'Action: Spend 1 [Charge]. Drop 1 loose cargo using the (1 [Straight]) template.',
-          slots: ['Illicit'],
-          charges: { value: 1, recovers: 0 },
-        },
-        {
-          title: 'Millennium Falcon',
-          ability:
-            'While you defend, if you are evading, you may reroll 1 defense die.',
-          slots: ['Title'],
-        },
-        {
-          title: "L3-37's Programming",
-          ability:
-            'If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.',
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'chewbacca-battleofyavin',
+        'riggedcargochute',
+        'millenniumfalcon',
+        'l337sprogramming-battleofyavin',
       ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png',

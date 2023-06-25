@@ -219,27 +219,10 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/dis347-siegeofcoruscant.png',
       slots: [],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Marksmanship',
-          ability:
-            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
+      standardLoadout: [
+        'marksmanship',
+        'afterburners',
+        'contingencyprotocol-siegeofcoruscant',
       ],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png',
@@ -265,27 +248,10 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/dist81-siegeofcoruscant.png',
       slots: [],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Outmaneuver',
-          ability:
-            "While you perform a [Front Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
-          slots: ['Talent'],
-        },
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
+      standardLoadout: [
+        'outmaneuver',
+        'afterburners',
+        'contingencyprotocol-siegeofcoruscant',
       ],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png',
@@ -311,27 +277,10 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/phlacarphoccprototype-siegeofcoruscant.png',
       slots: [],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Afterburners',
-          ability:
-            'After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Contingency Protocol',
-          ability:
-            'After this ship is destroyed another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.',
-          slots: ['Modification'],
-        },
-        {
-          ability:
-            'While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.',
-          title: 'Contingency Protocol',
-          slots: ['Modification'],
-        },
+      standardLoadout: [
+        'afterburners',
+        'contingencyprotocol-siegeofcoruscant',
+        'evasionsequence7-siegeofcoruscant',
       ],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png',

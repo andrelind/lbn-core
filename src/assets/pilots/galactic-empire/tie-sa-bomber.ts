@@ -200,6 +200,38 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
     },
+    {
+      name: 'Captain Jonus',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'captainjonus-swz105',
+      image: '',
+      standardLoadout: ['feedbackping', 'plasmatorpedoes', 'protonbombs'],
+      slots: [],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: 'Tomax Bren',
+      initiative: 5,
+      limited: 1,
+      cost: 5,
+      xws: 'tomaxbren-swz105',
+      image: '',
+      standardLoadout: ['elusive', 'barragerockets', 'proximitymines'],
+      slots: [],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
   ],
 };
 

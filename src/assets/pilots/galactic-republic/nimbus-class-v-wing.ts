@@ -208,29 +208,7 @@ const t: ShipType = {
         { type: 'hull', value: 2 },
         { type: 'shields', value: 3 },
       ],
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'R3 Astromech',
-          ability:
-            'You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [Lock] action, you may acquire a lock.',
-          slots: ['Astromech'],
-        },
-        {
-          ability:
-            "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
-          title: 'Precision Ion Engines',
-          slots: ['Modification'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          ability:
-            'While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.',
-          title: 'Alpha-3E "Esk"',
-          slots: ['Configuration'],
-          charges: { value: 2, recovers: 1 },
-        },
-      ],
+      standardLoadout: ['r3astromech', 'precisionionengines', 'alpha3eesk'],
     },
     {
       name: '“Contrail”',
@@ -257,34 +235,11 @@ const t: ShipType = {
         text:
           'While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.',
       },
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ion Limiter Override',
-          ability:
-            'After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Precise Astromech',
-          ability:
-            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Ion Bombs',
-          slots: ['Device'],
-          ability:
-            'Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the (1 [Straight]) template.',
-          charges: { value: 2, recovers: 0 },
-        },
-        {
-          title: 'Alpha-3B "Besh"',
-          ability:
-            'While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.',
-          slots: ['Configuration'],
-        },
+      standardLoadout: [
+        'ionlimiteroverride',
+        'preciseastromech-battleofyavin',
+        'ionbombs',
+        'alpha3bbesh',
       ],
     },
   ],

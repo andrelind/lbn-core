@@ -210,41 +210,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Dorsal Turret',
-          ability: 'Attack',
-          slots: ['Turret'],
-          attack: {
-            arc: 'Single Turret Arc',
-            value: 2,
-            minrange: 1,
-            maxrange: 2,
-            ordnance: false,
-          },
-        },
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R4 Astromech',
-          ability:
-            'Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).',
-          slots: ['Astromech'],
-        },
-      ],
+      standardLoadout: ['dorsalturret', 'advprotontorpedoes', 'r4astromech'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/dextiree-battleofyavin.png',
       artwork:
@@ -268,41 +234,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ion Cannon Turret',
-          ability:
-            'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          slots: ['Turret'],
-          attack: {
-            arc: 'Single Turret Arc',
-            value: 3,
-            minrange: 1,
-            maxrange: 2,
-            ordnance: false,
-          },
-        },
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Targeting Astromech',
-          ability:
-            'After you perform a [Lock] action, you may perform a red [Rotate Arc] action.',
-          slots: ['Astromech'],
-        },
+      standardLoadout: [
+        'ioncannonturret',
+        'advprotontorpedoes',
+        'targetingastromech',
       ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-battleofyavin.png',
@@ -327,41 +262,10 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Dorsal Turret',
-          ability: 'Attack',
-          slots: ['Turret'],
-          attack: {
-            arc: 'Single Turret Arc',
-            value: 2,
-            minrange: 1,
-            maxrange: 2,
-            ordnance: false,
-          },
-        },
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'Precise Astromech ',
-          ability:
-            'After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
+      standardLoadout: [
+        'dorsalturret',
+        'advprotontorpedoes',
+        'preciseastromech',
       ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png',
@@ -386,42 +290,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['Y-wing'],
       extended: true,
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Ion Cannon Turret',
-          ability:
-            'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.',
-          slots: ['Turret'],
-          attack: {
-            arc: 'Single Turret Arc',
-            value: 3,
-            minrange: 1,
-            maxrange: 2,
-            ordnance: false,
-          },
-        },
-        {
-          title: 'Adv. Proton Torpedoes',
-          ability:
-            'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Torpedo'],
-          charges: { value: 1, recovers: 0 },
-          attack: {
-            arc: 'Front Arc',
-            value: 5,
-            minrange: 1,
-            maxrange: 1,
-            ordnance: true,
-          },
-        },
-        {
-          title: 'R4 Astromech',
-          ability:
-            'Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).',
-          slots: ['Astromech'],
-        },
-      ],
+      standardLoadout: ['ioncannonturret', 'advprotontorpedoes', 'r4astromech'],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/popskrail-battleofyavin.png',
       artwork:
@@ -453,6 +322,36 @@ const t: ShipType = {
       epic: true,
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/popskrail.png',
+    },
+    {
+      name: '“Dutch” Vander',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'dutchvander-swz106',
+      standardLoadout: ['ioncannonturret', 'protonbombs'],
+      slots: [],
+      image: '',
+      artwork: '',
+      standard: true,
+      extended: true,
+      keywords: ['Y-wing'],
+      epic: true,
+    },
+    {
+      name: 'Horton Salm',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'hortonsalm-swz106',
+      standardLoadout: ['ioncannonturret', 'proximitymines'],
+      slots: [],
+      image: '',
+      artwork: '',
+      standard: true,
+      extended: true,
+      keywords: ['Y-wing'],
+      epic: true,
     },
   ],
 };

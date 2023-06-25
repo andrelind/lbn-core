@@ -2308,27 +2308,6 @@ const t: UpgradeBase[] = [
     extended: true,
   },
   {
-    xws: 'fennrau-crew',
-    limited: 1,
-    cost: { value: 7 },
-    sides: [
-      {
-        ability:
-          'Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
-        title: 'Fenn Rau',
-        type: 'Crew',
-        slots: ['Crew'],
-        ffg: -1,
-        image: 'https://infinitearenas.com/xw2/images/upgrades/fennrau.png',
-        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/fennrau.png',
-      },
-    ],
-    standard: true,
-    epic: true,
-    restrictions: [{ factions: ['Rebel Alliance', 'Scum and Villainy'] }],
-    extended: true,
-  },
-  {
     xws: 'ursawren',
     limited: 1,
     cost: { value: 6 },
@@ -2630,8 +2609,10 @@ const t: UpgradeBase[] = [
         type: 'Crew',
         slots: ['Crew'],
         ffg: -1,
-        artwork: 'https://infinitearenas.com/xw2/images/artwork/upgrades/primeministeralmec.png',
-        image: 'https://infinitearenas.com/xw2/images/upgrades/primeministeralmec.png',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/primeministeralmec.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/primeministeralmec.png',
       },
       {
         ability:
@@ -2916,7 +2897,6 @@ const t: UpgradeBase[] = [
     extended: true,
     epic: true,
   },
- 
   {
     limited: 1,
     xws: 'chewbacca-battleofyavin',
@@ -2952,6 +2932,27 @@ const t: UpgradeBase[] = [
     extended: true,
     epic: true,
     cost: { value: 0 },
+  },
+  {
+    limited: 1,
+    xws: 'fennrau',
+    sides: [
+      {
+        ability:
+          'Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
+        title: 'Fenn Rau',
+        type: 'Crew',
+        slots: ['Crew'],
+        image: 'https://infinitearenas.com/xw2/images/upgrades/fennrau.png',
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/fennrau.png',
+      },
+    ],
+    cost: { value: 7 },
+    restrictions: [{ factions: ['Scum and Villainy', 'Rebel Alliance'] }],
+    standard: true,
+    extended: true,
+    epic: true,
   },
 ];
 

@@ -223,28 +223,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/anakinskywalker-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          ability:
-            'While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].',
-          title: 'Malice',
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Ancillary Ion Weapons',
-          ability:
-            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
-          charges: { value: 2, recovers: 1 },
-          slots: ['Cannon'],
-        },
-        {
-          ability:
-            'After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.',
-          title: 'R2-D2',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
+      standardLoadout: [
+        'malice',
+        'ancillaryionweapons-siegeofcoruscant',
+        'r2d2-republic',
       ],
     },
     {
@@ -267,28 +249,10 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/obiwankenobi-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          ability:
-            'At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].',
-          title: 'Patience',
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Ancillary Ion Weapons',
-          ability:
-            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
-          charges: { value: 2, recovers: 1 },
-          slots: ['Cannon'],
-        },
-        {
-          title: 'R4-P17',
-          ability:
-            'When you would be dealt a damage card, if you are not defending, you may spend 1 [Charge] and gain 1 strain to discard it instead.',
-          charges: { value: 2, recovers: 0 },
-          slots: ['Astromech'],
-        },
+      standardLoadout: [
+        'patience',
+        'ancillaryionweapons-siegeofcoruscant',
+        'r4p17-siegeofcoruscant',
       ],
     },
     {
@@ -311,34 +275,11 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png',
-      standardLoadout: true,
-      upgrades: [
-        {
-          title: 'Marksmanship',
-          ability:
-            'While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.',
-          slots: ['Talent'],
-        },
-        {
-          title: 'Brilliant Evasion',
-          ability:
-            "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
-          slots: ['Force Power'],
-        },
-        {
-          title: 'Ancillary Ion Weapons',
-          ability:
-            'While you perform a primary [Front Arc] attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results deal ion tokens instead of damage.',
-          charges: { value: 2, recovers: 1 },
-          slots: ['Cannon'],
-        },
-        {
-          title: 'R4-P Astromech',
-          ability:
-            'Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
-          slots: ['Astromech'],
-          charges: { value: 2, recovers: 0 },
-        },
+      standardLoadout: [
+        'marksmanship',
+        'brilliantevasion',
+        'ancillaryionweapons-siegeofcoruscant',
+        'r4pastromech',
       ],
     },
     {
