@@ -956,7 +956,7 @@ const t: UpgradeBase[] = [
         title: 'Attack Speed',
         type: 'Talent',
         ability:
-          'After you fully execute a [3 [Straight]] or [4 [Straight]] maneuver, you may perform a boost using the [1 [Straight]] template. (This is not an action).',
+          'After you fully execute a (3 [Straight]) or (4 [Straight]) maneuver, you may perform a boost using the (1 [Straight]) template. (This is not an action).',
         slots: ['Talent'],
       },
     ],

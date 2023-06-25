@@ -283,7 +283,7 @@ const t: ShipType = {
       force: { value: 1, recovers: 0, side: ['light'] },
       slots: ['Talent', 'Missile', 'Configuration'],
       ability:
-        'If you have no active [Force], after you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].',
+        'If you have no active [Force], after you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].',
       keywords: ['A-wing'],
       image: 'https://infinitearenas.com/xw2/images/pilots/keovenzee.png',
       epic: true,

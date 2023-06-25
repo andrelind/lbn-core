@@ -81,7 +81,7 @@ const t: UpgradeBase[] = [
         title: 'Pivot Wing (Closed)',
         type: 'Configuration',
         ability:
-          'While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.',
+          'While you defend, roll 1 fewer defense die. After you execute a (0 [Stationary]) maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.',
         slots: ['Configuration'],
         ffg: 332,
         artwork:

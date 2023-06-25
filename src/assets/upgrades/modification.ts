@@ -595,7 +595,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'After you are destroyed, you must execute a [1 [Straight]] maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.',
+          'After you are destroyed, you must execute a (1 [Straight]) maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.',
         title: 'Unstable Sublight Engines',
         type: 'Modification',
         slots: ['Modification'],

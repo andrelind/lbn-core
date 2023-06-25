@@ -192,7 +192,7 @@ const t: ShipType = {
       loadout: 3,
       xws: 'slider',
       ability:
-        'When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you may spend 2 [Charge] to execute it as a sideslip.',
+        'When you reveal a (2 [Bank Left]) or (2 [Bank Right]) maneuver, you may spend 2 [Charge] to execute it as a sideslip.',
       charges: { value: 2, recovers: 1 },
       slots: ['Talent', 'Talent', 'Sensor', 'Modification', 'Modification'],
       standard: true,

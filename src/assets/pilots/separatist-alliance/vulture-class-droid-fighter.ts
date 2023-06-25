@@ -274,7 +274,7 @@ const t: ShipType = {
       shipAbility: {
         name: 'Modified for Organics',
         text:
-          'This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers.',
+          'This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank ([Bank Left] or [Bank Right]) maneuvers. Increase the difficulty of your speed 3 turn ([Turn Left] or [Turn Right]) maneuvers.',
       },
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
