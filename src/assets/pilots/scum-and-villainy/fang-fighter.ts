@@ -100,7 +100,7 @@ const t: ShipType = {
       cost: 4,
       xws: 'kadsolus',
       ability: 'After you fully execute a red maneuver, gain 2 focus tokens.',
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Missile', 'Modification', 'Modification'],
       ffg: 158,
       standard: true,
       epic: true,
