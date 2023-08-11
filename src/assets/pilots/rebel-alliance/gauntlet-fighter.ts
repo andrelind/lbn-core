@@ -55,6 +55,7 @@ const t: ShipType = {
         'Modification',
         'Configuration',
         'Title',
+        'Illicit',
       ],
       caption: 'Spectre-3',
       keywords: ['Droid', 'Spectre'],
