@@ -194,6 +194,7 @@ const t: ShipType = {
     },
     {
       name: 'Dex Tiree',
+      caption: 'Battle of Yavin',
       initiative: 2,
       limited: 1,
       cost: 4,
@@ -218,6 +219,7 @@ const t: ShipType = {
     },
     {
       name: '“Dutch” Vander',
+      caption: 'Battle of Yavin',
       initiative: 4,
       limited: 1,
       cost: 4,
@@ -246,6 +248,7 @@ const t: ShipType = {
     },
     {
       name: 'Hol Okand',
+      caption: 'Battle of Yavin',
       initiative: 4,
       limited: 1,
       cost: 3,
@@ -274,6 +277,7 @@ const t: ShipType = {
     },
     {
       name: '“Pops” Krail',
+      caption: 'Battle of Yavin',
       initiative: 4,
       limited: 1,
       cost: 4,
