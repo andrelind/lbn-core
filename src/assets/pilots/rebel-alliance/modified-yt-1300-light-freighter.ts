@@ -188,7 +188,7 @@ const t: ShipType = {
       xws: 'hansolo-battleofyavin',
       initiative: 6,
       limited: 1,
-      caption: 'There Is Another',
+      caption: 'Battle of Yavin',
       standard: true,
       epic: true,
       slots: [],
