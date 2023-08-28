@@ -360,7 +360,7 @@ export const t: Source[] = [
   {
     ffg: -1,
     xws: 'hotshotsandacesiireinforcementpack',
-    name: 'Hotshots and Aces || Reinforcements Pack',
+    name: 'Hotshots and Aces II Reinforcements Pack',
     wave: 10,
     released: true,
     contents: {
