@@ -1002,6 +1002,78 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'swiftapproach',
+    sides: [
+      {
+        title: 'Swift Approach',
+        type: 'Talent',
+        ability:
+          'During the System Phase, after you drop or launch a device, you may perform a white [Barrel Roll] or [Boost] action, even while stressed.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'truegrit',
+    sides: [
+      {
+        title: 'True Grit',
+        type: 'Talent',
+        ability:
+          'At the end of the Activation Phase, if you are not strained, you may gain 1 strain token to remove 1 non-lock red or orange token.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'efficientprocessing',
+    sides: [
+      {
+        title: 'Efficient Processing',
+        type: 'Talent',
+        ability:
+          'After you perform a [Calculate] action, gain 1 calculate token.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'mercenary',
+    sides: [
+      {
+        title: 'Mercenary',
+        type: 'Talent',
+        ability:
+          'After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

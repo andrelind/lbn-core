@@ -392,6 +392,36 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    limited: 0,
+    xws: 'seekermissiles',
+    sides: [
+      {
+        ability:
+          'Attack ([Lock]): Spend 1 [Charge]. During the Modify Attack Dice step, you may spend up to 2 additional [Charge]. Change one [Focus] result to a [Hit] result for each [Charge] spent in this way.',
+        charges: { value: 4, recovers: 0 },
+        attack: {
+          arc: 'Front Arc',
+          maxrange: 3,
+          minrange: 2,
+          ordnance: true,
+          value: 2,
+        },
+        title: 'Seeker Missiles',
+        type: 'Missile',
+        slots: ['Missile'],
+        artwork:
+          'https://infinitearenas.com/xw2/images/artwork/upgrades/seekermissiles.png',
+        image:
+          'https://infinitearenas.com/xw2/images/upgrades/seekermissiles.png',
+      },
+    ],
+    cost: { value: 3 },
+    standard: true,
+    epic: true,
+    extended: true,
+    standardLoadoutOnly: true,
+  },
 ];
 
 export default t;

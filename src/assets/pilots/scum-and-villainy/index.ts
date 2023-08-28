@@ -22,7 +22,8 @@ import z95af4headhunter from './z-95-af4-headhunter';
 import tridentclassassaultship from './trident-class-assault-ship';
 import gauntletfighter from './gauntlet-fighter';
 import st70assaultship from './st-70-assault-ship';
-import rogueclassstarfighter from './rogue-class-starfighter'
+import rogueclassstarfighter from './rogue-class-starfighter';
+import yt2400lightfreighter from './yt-2400-light-freighter';
 
 const ships: { [s: string]: ShipType } = {
   aggressorassaultfighter,
@@ -48,7 +49,8 @@ const ships: { [s: string]: ShipType } = {
   yv666lightfreighter,
   z95af4headhunter,
   tridentclassassaultship,
-  rogueclassstarfighter
+  rogueclassstarfighter,
+  yt2400lightfreighter,
 };
 
 export default ships;

@@ -201,36 +201,102 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
     },
     {
+      name: '“Deathfire”',
+      caption: 'Obstinate Bombardier',
+      initiative: 2,
+      limited: 1,
+      cost: 3,
+      xws: 'deathfire-swz105',
+      ability:
+        'After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 [Charge] to drop or launch a bomb using the 3 [Straight] template.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      slots: [],
+      charges: { value: 2, recovers: 1 },
+      standard: true,
+      epic: true,
+      extended: true,
+      keywords: ['TIE'],
+      standardLoadout: ['swiftapproach', 'connernet', 'protonbomb'],
+      image: 'https://infinitearenas.com/xw2/images/pilots/deathfire.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png',
+    },
+    {
       name: 'Captain Jonus',
+      caption: 'Top Cover',
+      initiative: 4,
+      limited: 1,
+      cost: 5,
+      xws: 'captainjonus-swz105',
+      ability:
+        'While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      slots: [],
+      standard: true,
+      epic: true,
+      extended: true,
+      keywords: ['TIE'],
+      standardLoadout: ['feedbackping', 'plasmatorpedoes', 'protonbombs'],
+      image: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
+    },
+    {
+      name: 'Major Rhymer',
+      caption: 'Precision Destruction',
       initiative: 4,
       limited: 1,
       cost: 4,
-      xws: 'captainjonus-swz105',
-      image: '',
-      standardLoadout: ['feedbackping', 'plasmatorpedoes', 'protonbombs'],
+      xws: 'majorrhymer-swz105',
+      ability:
+        'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       slots: [],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
       standard: true,
+      epic: true,
       extended: true,
       keywords: ['TIE'],
-      epic: true,
+      standardLoadout: ['elusive', 'barragerockets', 'proximitymines'],
+      image: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png',
     },
     {
       name: 'Tomax Bren',
+      caption: 'Scimitar Veteran',
       initiative: 5,
       limited: 1,
-      cost: 5,
+      cost: 3,
       xws: 'tomaxbren-swz105',
-      image: '',
-      standardLoadout: ['elusive', 'barragerockets', 'proximitymines'],
+      charges: { value: 2, recovers: 1 },
+      ability:
+        'After you perform a [Barrel Roll] action, you may spend 2 [Charge]. If you do, gain a focus token.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       slots: [],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
       standard: true,
+      epic: true,
       extended: true,
       keywords: ['TIE'],
-      epic: true,
+      standardLoadout: ['truegrit', 'plasmatorpedoes', 'ionbombs'],
+      image: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
     },
   ],
 };
