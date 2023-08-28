@@ -181,6 +181,7 @@ const t: ShipType = {
     },
     {
       name: 'Darth Vader',
+      caption: 'Battle of Yavin',
       initiative: 6,
       limited: 1,
       cost: 6,
