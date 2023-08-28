@@ -358,10 +358,10 @@ export const t: Source[] = [
     },
   },
   {
-    ffg: -1,
+    ffg: 97,
     xws: 'hotshotsandacesiireinforcementpack',
     name: 'Hotshots and Aces II Reinforcements Pack',
-    wave: 10,
+    wave: 13,
     released: true,
     contents: {
       ships: {},
@@ -381,7 +381,7 @@ export const t: Source[] = [
         wesjanson: 1,
         tychocelchu: 1,
         keovenzee: 1,
-        'popskrail-battleofyavin': 1,
+        popskrail: 1,
         flightleaderubbel: 1,
         junoeclipse: 1,
         secondsister: 1,
