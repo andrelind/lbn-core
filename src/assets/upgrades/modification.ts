@@ -661,6 +661,25 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'automatedloaders-swz98',
+    sides: [
+      {
+        title: 'Automated Loaders',
+        charges: { value: 1, recovers: 0 },
+        type: 'Modification',
+        ability:
+          'After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

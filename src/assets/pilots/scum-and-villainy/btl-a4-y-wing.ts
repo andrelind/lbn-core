@@ -142,14 +142,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
-      slots: [
-        'Tech',
-        'Turret',
-        'Torpedo',
-        'Missile',
-        'Astromech',
-        'Device',
-      ],
+      slots: ['Tech', 'Turret', 'Torpedo', 'Missile', 'Astromech', 'Device'],
       standard: true,
       epic: true,
       keywords: ['Y-wing'],

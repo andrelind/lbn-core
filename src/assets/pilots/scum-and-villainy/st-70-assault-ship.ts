@@ -128,7 +128,8 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png',
     },
   ],
-  icon: '???',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_ST-70.png',
 };
 
 export default t;

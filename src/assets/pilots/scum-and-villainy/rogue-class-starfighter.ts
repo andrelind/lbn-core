@@ -189,7 +189,8 @@ const t: ShipType = {
       artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/durge.png',
     },
   ],
-  icon: '???',
+  icon:
+    'https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Rogue.png',
 };
 
 export default t;
