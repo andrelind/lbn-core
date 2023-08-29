@@ -205,7 +205,7 @@ const t: ShipType = {
       caption: 'Obstinate Bombardier',
       initiative: 2,
       limited: 1,
-      cost: 100,
+      cost: 3,
       xws: 'deathfire-swz98',
       charges: { value: 2, recovers: 1 },
       image:
@@ -224,7 +224,7 @@ const t: ShipType = {
       caption: 'Top Cover',
       initiative: 4,
       limited: 1,
-      cost: 100,
+      cost: 5,
       xws: 'captainjonus-swz98',
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz98.png',
@@ -242,7 +242,7 @@ const t: ShipType = {
       caption: 'Scimitar Veteran',
       initiative: 5,
       limited: 1,
-      cost: 100,
+      cost: 3,
       xws: 'tomaxbren-swz98',
       charges: { value: 2, recovers: 1 },
       image:
@@ -261,7 +261,7 @@ const t: ShipType = {
       caption: 'Precision Destruction',
       initiative: 4,
       limited: 1,
-      cost: 100,
+      cost: 4,
       xws: 'majorrhymer-swz98',
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/majorrhymer-swz98.png',
