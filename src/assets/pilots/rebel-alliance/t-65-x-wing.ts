@@ -495,7 +495,8 @@ const t: ShipType = {
       force: { value: 2, recovers: 1, side: ['light'] },
       standardLoadout: ['instictiveaim', 'protontorpedoes', 'r2d2'],
       slots: [],
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-swz106.png',
       artwork: '',
       standard: true,
       extended: true,
@@ -510,7 +511,8 @@ const t: ShipType = {
       xws: 'jekporkins-swz106',
       standardLoadout: ['predate', 'protontorpedoes', 'r5d8-battleofyavin'],
       slots: [],
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-swz106.png',
       artwork: '',
       standard: true,
       extended: true,

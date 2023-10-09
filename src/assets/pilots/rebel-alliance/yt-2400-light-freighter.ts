@@ -126,32 +126,6 @@ const t: ShipType = {
     },
     {
       name: '"Leebo"',
-      caption: "He Thinks He's Funny",
-      initiative: 3,
-      limited: 1,
-      cost: 6,
-      xws: 'leebo-swz103-sl-rebelalliance',
-      ability:
-        'At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3.',
-      shipAbility: {
-        name: 'Sensor Blackout',
-        text:
-          'While you perform a primary attack at range 0-1, you roll 1 fewer attack die.\n\nWhile you defend at range 1, you roll 1 fewer defense die.',
-      },
-      slots: [],
-      standard: true,
-      extended: true,
-      epic: true,
-      standardLoadout: ['efficientprocessing', 'seekermissiles', 'outrider'],
-      stats: [
-        { arc: 'Double Turret Arc', type: 'attack', value: 3 },
-        { type: 'agility', value: 2 },
-        { type: 'hull', value: 6 },
-        { type: 'shields', value: 4 },
-      ],
-    },
-    {
-      name: '"Leebo"',
       caption: 'Wisdom of Ages',
       initiative: 3,
       limited: 1,
@@ -182,32 +156,9 @@ const t: ShipType = {
         { type: 'hull', value: 6 },
         { type: 'shields', value: 4 },
       ],
-    },
-    {
-      name: 'Dash Rendar',
-      caption: 'In it for Himself',
-      initiative: 5,
-      limited: 1,
-      cost: 7,
-      xws: 'dashrendar-swz103-sl-rebelalliance',
-      ability:
-        'After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.',
-      shipAbility: {
-        name: 'Sensor Blackout',
-        text:
-          'While you perform a primary attack at range 0-1, you roll 1 fewer attack die.\n\nWhile you defend at range 1, you roll 1 fewer defense die.',
-      },
-      slots: [],
-      standard: true,
-      extended: true,
-      epic: true,
-      standardLoadout: ['mercenary', 'seekermissiles', 'leebo', 'outrider'],
-      stats: [
-        { arc: 'Double Turret Arc', type: 'attack', value: 3 },
-        { type: 'agility', value: 2 },
-        { type: 'hull', value: 6 },
-        { type: 'shields', value: 4 },
-      ],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/leebo-wisdomofages.png',
+      artwork: '',
     },
     {
       name: 'Dash Rendar',
@@ -242,6 +193,68 @@ const t: ShipType = {
         { type: 'hull', value: 6 },
         { type: 'shields', value: 4 },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png',
+      artwork: '',
+    },
+    {
+      name: '"Leebo"',
+      caption: "He Thinks He's Funny",
+      initiative: 3,
+      limited: 1,
+      cost: 6,
+      xws: 'leebo-swz103-sl-rebelalliance',
+      ability:
+        'At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3.',
+      shipAbility: {
+        name: 'Sensor Blackout',
+        text:
+          'While you perform a primary attack at range 0-1, you roll 1 fewer attack die.\n\nWhile you defend at range 1, you roll 1 fewer defense die.',
+      },
+      slots: [],
+      standard: true,
+      extended: true,
+      epic: true,
+      standardLoadout: ['efficientprocessing', 'seekermissiles', 'outrider'],
+      stats: [
+        { arc: 'Double Turret Arc', type: 'attack', value: 3 },
+        { type: 'agility', value: 2 },
+        { type: 'hull', value: 6 },
+        { type: 'shields', value: 4 },
+      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-rebelalliance.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png',
+    },
+    {
+      name: 'Dash Rendar',
+      caption: 'In it for Himself',
+      initiative: 5,
+      limited: 1,
+      cost: 7,
+      xws: 'dashrendar-swz103-sl-rebelalliance',
+      ability:
+        'After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.',
+      shipAbility: {
+        name: 'Sensor Blackout',
+        text:
+          'While you perform a primary attack at range 0-1, you roll 1 fewer attack die.\n\nWhile you defend at range 1, you roll 1 fewer defense die.',
+      },
+      slots: [],
+      standard: true,
+      extended: true,
+      epic: true,
+      standardLoadout: ['mercenary', 'seekermissiles', 'leebo', 'outrider'],
+      stats: [
+        { arc: 'Double Turret Arc', type: 'attack', value: 3 },
+        { type: 'agility', value: 2 },
+        { type: 'hull', value: 6 },
+        { type: 'shields', value: 4 },
+      ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-rebelalliance.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png',
     },
   ],
 };

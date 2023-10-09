@@ -181,6 +181,7 @@ const t: ShipType = {
     },
     {
       name: 'Darth Vader',
+      caption: 'Battle of Yavin',
       initiative: 6,
       limited: 1,
       cost: 6,
@@ -230,36 +231,14 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/junoeclipse.png',
     },
     {
-      name: 'Darth Vader',
-      initiative: 6,
-      limited: 1,
-      cost: 6,
-      xws: 'darthvader-swz105',
-      image: '',
-      force: { value: 3, recovers: 1, side: ['dark'] },
-      stats: [
-        { arc: 'Front Arc', type: 'attack', value: 2 },
-        { type: 'agility', value: 3 },
-        { type: 'hull', value: 3 },
-        { type: 'shields', value: 3 },
-      ],
-      standardLoadout: ['hate', 'ionmissiles', 'afterburners'],
-      slots: [],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png',
-      standard: true,
-      extended: true,
-      keywords: ['Dark Side', 'Sith', 'TIE'],
-      epic: true,
-    },
-    {
       name: 'Maarek Stele',
       initiative: 5,
       limited: 1,
       cost: 5,
       standardLoadout: ['elusive', 'outmaneuver', 'afterburners'],
       xws: 'maarekstele-swz105',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/maarekstele-swz105.png',
       slots: [],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png',

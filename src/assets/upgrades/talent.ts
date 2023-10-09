@@ -1092,6 +1092,42 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'efficientprocessing-swz103',
+    sides: [
+      {
+        title: 'Efficient Processing',
+        type: 'Talent',
+        ability:
+          'After you perform a [Calculate] action, gain one calculate token.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'mercenary-swz103',
+    sides: [
+      {
+        title: 'Mercenary',
+        type: 'Talent',
+        ability:
+          'After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

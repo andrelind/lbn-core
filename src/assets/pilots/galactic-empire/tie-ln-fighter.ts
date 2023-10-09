@@ -457,7 +457,8 @@ const t: ShipType = {
       standardLoadout: ['disciplined', 'elusive'],
       slots: [],
       xws: 'idenversio-swz105',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/idenversio-swz105.png',
       charges: { value: 1, recovers: 0 },
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png',
@@ -472,7 +473,8 @@ const t: ShipType = {
       limited: 1,
       cost: 3,
       xws: 'nightbeast-swz105',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/nightbeast-swz105.png',
       standardLoadout: ['disciplined', 'predator'],
       slots: [],
       artwork:
@@ -489,7 +491,8 @@ const t: ShipType = {
       cost: 3,
       xws: 'valenrudor-swz105',
       slots: [],
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
       standardLoadout: ['disciplined', 'precisionionengines'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',

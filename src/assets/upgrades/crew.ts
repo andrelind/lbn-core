@@ -2972,6 +2972,24 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 1,
+    xws: 'leebo-swz103',
+    standardLoadoutOnly: true,
+    sides: [
+      {
+        title: '“Leebo”',
+        type: 'Crew',
+        slots: ['Crew'],
+        ability:
+          'After you repair a damage card, you may perform an action from your action bar.',
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

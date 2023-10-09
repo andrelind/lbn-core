@@ -70,8 +70,10 @@ const t: ShipType = {
         { type: 'hull', value: 6 },
         { type: 'shields', value: 4 },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-scumandvillainy.png',
+      artwork: 'https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png',
     },
-
     {
       name: 'Dash Rendar',
       caption: 'In it for Himself',
@@ -97,6 +99,10 @@ const t: ShipType = {
         { type: 'hull', value: 6 },
         { type: 'shields', value: 4 },
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-scumandvillainy.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png',
     },
   ],
 };

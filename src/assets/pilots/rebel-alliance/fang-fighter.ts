@@ -57,20 +57,18 @@ const t: ShipType = {
       caption: 'Mandalorian Protector',
       initiative: 6,
       limited: 1,
-      xws: 'fennrau-rebel-fang',
-      ability:
-        'Before a friendly ship at range 1-2 engages, if there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
-      slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
-      standard: true,
-      keywords: ['Mandalorian'],
       cost: 5,
-      epic: true,
       loadout: 10,
-      extended: true,
+      xws: 'fennrau-fangfighter',
       image:
         'https://infinitearenas.com/xw2/images/pilots/fennrau-rebel-fang.png',
+      slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-rebel-fang.png',
+      standard: true,
+      extended: true,
+      epic: true,
+      keywords: ['Mandalorian'],
     },
     {
       name: 'Bodica Venj',

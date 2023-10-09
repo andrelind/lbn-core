@@ -243,8 +243,7 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz98.png',
       standardLoadout: ['topcover-swz98', 'barragerockets', 'protonbombs'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['TIE'],
@@ -269,8 +268,7 @@ const t: ShipType = {
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz98.png',
       standardLoadout: ['truegrit-swz98', 'plasmatorpedoes', 'ionbombs'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['TIE'],

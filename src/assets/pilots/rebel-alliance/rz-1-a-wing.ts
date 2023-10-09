@@ -320,7 +320,8 @@ const t: ShipType = {
       limited: 1,
       cost: 4,
       xws: 'arvelcrynyd-swz106',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-swz106.png',
       standardLoadout: ['predator', 'afterburners'],
       slots: [],
       artwork:
@@ -336,7 +337,8 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'jakefarrell-swz106',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/jakefarrell-swz106.png',
       standardLoadout: ['elusive', 'outmaneuver', 'ionmissiles'],
       slots: [],
       artwork:
@@ -359,7 +361,8 @@ const t: ShipType = {
       keywords: ['A-wing'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png',
       epic: true,
     },
   ],

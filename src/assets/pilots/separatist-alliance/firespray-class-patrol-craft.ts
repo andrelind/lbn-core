@@ -101,13 +101,18 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/zamwesell.png',
     },
     {
-      xws: 'bobafett-separatistalliance',
-      ffg: 802,
       name: 'Boba Fett',
-      cost: 7,
-      limited: 1,
+      xws: 'bobafett-firesprayclasspatrolcraft',
       initiative: 3,
-      caption: 'Survivor',
+      limited: 1,
+      standard: true,
+      extended: true,
+      cost: 7,
+      loadout: 16,
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/bobafett-separatistalliance.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/bobafett-separatistalliance.png',
       slots: [
         'Cannon',
         'Missile',
@@ -117,17 +122,8 @@ const t: ShipType = {
         'Modification',
         'Title',
       ],
-      standard: true,
-      epic: true,
-      ability:
-        'While you defend, if there are no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result.',
-      loadout: 16,
-      extended: true,
       keywords: ['Bounty Hunter'],
-      image:
-        'https://infinitearenas.com/xw2/images/pilots/bobafett-separatistalliance.png',
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/bobafett-separatistalliance.png',
+      epic: true,
     },
     {
       name: 'Separatist Racketeer',
