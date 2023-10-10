@@ -356,6 +356,8 @@ const t: ShipType = {
       standard: true,
       extended: true,
       cost: 4,
+      ability:
+        'While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.',
       standardLoadout: ['hopeful', 'concussionmissiles'],
       slots: [],
       keywords: ['A-wing'],
