@@ -33,7 +33,7 @@ const t: UpgradeBase[] = [
         title: 'Contraband Cybernetics',
         type: 'Illicit',
         ability:
-          'Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed.',
+          "Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed. This card's [Charge] cannot be recovered.",
         slots: ['Illicit'],
         charges: { value: 1, recovers: 0 },
         ffg: 287,
