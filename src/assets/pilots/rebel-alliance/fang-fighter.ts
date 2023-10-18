@@ -55,11 +55,13 @@ const t: ShipType = {
     {
       name: 'Fenn Rau',
       caption: 'Mandalorian Protector',
+      xws: 'fennrau-fangfighter',
       initiative: 6,
       limited: 1,
       cost: 5,
       loadout: 10,
-      xws: 'fennrau-fangfighter',
+      ability:
+        'Before a friendly ship at range 1-2 engages, if there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
       image:
         'https://infinitearenas.com/xw2/images/pilots/fennrau-rebel-fang.png',
       slots: ['Talent', 'Talent', 'Torpedo', 'Modification', 'Modification'],
