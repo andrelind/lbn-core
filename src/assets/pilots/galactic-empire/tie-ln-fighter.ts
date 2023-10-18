@@ -337,6 +337,7 @@ const t: ShipType = {
     },
     {
       name: 'Backstabber',
+      caption: 'Battle of Yavin',
       initiative: 5,
       limited: 1,
       xws: 'backstabber-battleofyavin',
@@ -357,6 +358,7 @@ const t: ShipType = {
     },
     {
       name: 'Dark Curse',
+      caption: 'Battle of Yavin',
       initiative: 6,
       limited: 1,
       xws: 'darkcurse-battleofyavin',
@@ -375,6 +377,7 @@ const t: ShipType = {
     },
     {
       name: '“Mauler” Mithel',
+      caption: 'Battle of Yavin',
       initiative: 5,
       limited: 1,
       xws: 'maulermithel-battleofyavin',
@@ -394,6 +397,7 @@ const t: ShipType = {
     },
     {
       name: '“Wampa”',
+      caption: 'Battle of Yavin',
       initiative: 1,
       limited: 1,
       xws: 'wampa-battleofyavin',
