@@ -274,6 +274,7 @@ const t: ShipType = {
     {
       xws: 'sigma4-battleofyavin',
       name: 'Sigma 4',
+      caption: 'Battle of Yavin',
       cost: 4,
       initiative: 4,
       limited: 1,
@@ -299,6 +300,7 @@ const t: ShipType = {
     {
       xws: 'sigma5-battleofyavin',
       name: 'Sigma 5',
+      caption: 'Battle of Yavin',
       cost: 4,
       initiative: 4,
       limited: 1,
@@ -324,6 +326,7 @@ const t: ShipType = {
     {
       xws: 'sigma6-battleofyavin',
       name: 'Sigma 6',
+      caption: 'Battle of Yavin',
       cost: 4,
       initiative: 4,
       limited: 1,
@@ -349,6 +352,7 @@ const t: ShipType = {
     {
       xws: 'sigma7-battleofyavin',
       name: 'Sigma 7',
+      caption: 'Battle of Yavin',
       cost: 4,
       initiative: 4,
       limited: 1,
