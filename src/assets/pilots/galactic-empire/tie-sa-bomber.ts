@@ -205,8 +205,15 @@ const t: ShipType = {
       caption: 'Obstinate Bombardier',
       initiative: 2,
       limited: 1,
-      cost: 100,
+      cost: 3,
       xws: 'deathfire-swz98',
+      ability:
+        'After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 [Charge] to drop or launch a bomb using the 3 [Straight] template.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       charges: { value: 2, recovers: 1 },
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/deathfire-swz98.png',
@@ -224,13 +231,19 @@ const t: ShipType = {
       caption: 'Top Cover',
       initiative: 4,
       limited: 1,
-      cost: 100,
+      cost: 5,
       xws: 'captainjonus-swz98',
+      ability:
+        'While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz98.png',
       standardLoadout: ['topcover-swz98', 'barragerockets', 'protonbombs'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['TIE'],
@@ -242,14 +255,20 @@ const t: ShipType = {
       caption: 'Scimitar Veteran',
       initiative: 5,
       limited: 1,
-      cost: 100,
+      cost: 3,
       xws: 'tomaxbren-swz98',
+      ability:
+        'After you perform a [Barrel Roll] action, you may spend 2 [Charge]. If you do, gain a focus token.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       charges: { value: 2, recovers: 1 },
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz98.png',
       standardLoadout: ['truegrit-swz98', 'plasmatorpedoes', 'ionbombs'],
-      artwork:
-        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
+      artwork: '',
       standard: true,
       extended: true,
       keywords: ['TIE'],
@@ -261,8 +280,15 @@ const t: ShipType = {
       caption: 'Precision Destruction',
       initiative: 4,
       limited: 1,
-      cost: 100,
+      cost: 4,
       xws: 'majorrhymer-swz98',
+      ability:
+        'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/majorrhymer-swz98.png',
       standardLoadout: [

@@ -320,7 +320,8 @@ const t: ShipType = {
       limited: 1,
       cost: 4,
       xws: 'arvelcrynyd-swz106',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-swz106.png',
       standardLoadout: ['predator', 'afterburners'],
       slots: [],
       artwork:
@@ -336,7 +337,8 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'jakefarrell-swz106',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/jakefarrell-swz106.png',
       standardLoadout: ['elusive', 'outmaneuver', 'ionmissiles'],
       slots: [],
       artwork:
@@ -354,12 +356,15 @@ const t: ShipType = {
       standard: true,
       extended: true,
       cost: 4,
+      ability:
+        'While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.',
       standardLoadout: ['hopeful', 'concussionmissiles'],
       slots: [],
       keywords: ['A-wing'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png',
       epic: true,
     },
   ],

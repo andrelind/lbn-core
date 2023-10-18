@@ -232,11 +232,11 @@ const t: ShipType = {
     },
     {
       name: 'Darth Vader',
+      caption: 'Black Leader',
       initiative: 6,
       limited: 1,
       cost: 6,
       xws: 'darthvader-swz105',
-      image: '',
       force: { value: 3, recovers: 1, side: ['dark'] },
       stats: [
         { arc: 'Front Arc', type: 'attack', value: 2 },
@@ -244,10 +244,12 @@ const t: ShipType = {
         { type: 'hull', value: 3 },
         { type: 'shields', value: 3 },
       ],
-      standardLoadout: ['hate', 'ionmissiles', 'afterburners'],
       slots: [],
+      standardLoadout: ['hate', 'ionmissiles', 'afterburners'],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/darthvader-swz105.png',
       standard: true,
       extended: true,
       keywords: ['Dark Side', 'Sith', 'TIE'],
@@ -260,7 +262,8 @@ const t: ShipType = {
       cost: 5,
       standardLoadout: ['elusive', 'outmaneuver', 'afterburners'],
       xws: 'maarekstele-swz105',
-      image: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/maarekstele-swz105.png',
       slots: [],
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png',

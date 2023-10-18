@@ -335,8 +335,10 @@ const t: ShipType = {
       xws: 'dutchvander-swz106',
       standardLoadout: ['ioncannonturret', 'protonbombs'],
       slots: [],
-      image: '',
-      artwork: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-swz106.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander-swz106.png',
       standard: true,
       extended: true,
       keywords: ['Y-wing'],
@@ -350,8 +352,10 @@ const t: ShipType = {
       xws: 'hortonsalm-swz106',
       standardLoadout: ['ioncannonturret', 'proximitymines'],
       slots: [],
-      image: '',
-      artwork: '',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/hortonsalm-swz106.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/hortonsalm-swz106.png',
       standard: true,
       extended: true,
       keywords: ['Y-wing'],

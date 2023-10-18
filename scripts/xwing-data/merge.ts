@@ -8,8 +8,7 @@ import { asyncForEach, getFaction, getName } from '../ffg/utils';
 import { XWDPilot, XWDShip, XWDUpgrade } from './data2-types';
 // import { slotFromKey } from '../../src/helpers/convert';
 
-const baseUrl =
-  'https://raw.githubusercontent.com/guidokessels/xwing-data2/master';
+const baseUrl = 'https://raw.githubusercontent.com/danrs/xwing-data2/master';
 
 const get = async (url: string) => {
   const result = await fetch(baseUrl + url, {

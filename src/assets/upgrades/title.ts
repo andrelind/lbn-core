@@ -326,7 +326,7 @@ const t: UpgradeBase[] = [
         title: 'Outrider',
         type: 'Title',
         ability:
-          'While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.',
+          "While you perform a primary attack at range 3, roll 1 additional attack die. \n\nWhile you perform an attack that is obstructed by an obstacle, you may change one of the defender's [Evade] results to a [Focus] result.",
         slots: ['Title'],
         ffg: 329,
         artwork:
