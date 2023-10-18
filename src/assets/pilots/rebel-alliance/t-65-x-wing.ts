@@ -477,7 +477,7 @@ const t: ShipType = {
       ability:
         'After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Missile', 'Astromech', 'Configuration'],
+      slots: ['Talent', 'Missile', 'Astromech', 'Modification', 'Configuration'],
       image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png',
