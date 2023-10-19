@@ -105,6 +105,8 @@ const t: ShipType = {
       xws: 'bobafett-firesprayclasspatrolcraft',
       initiative: 3,
       limited: 1,
+      ability:
+        'While you defend, if there are no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result.',
       standard: true,
       extended: true,
       cost: 7,
