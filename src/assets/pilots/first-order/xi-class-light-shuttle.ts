@@ -151,6 +151,12 @@ const t: ShipType = {
       extended: true,
       cost: 5,
       loadout: 15,
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        { difficulty: 'White', type: 'Lock' },
+        { difficulty: 'Red', type: 'Coordinate' },
+        { difficulty: 'White', type: 'Jam' },
+      ],
       slots: [
         'Talent',
         'Talent',
