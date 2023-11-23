@@ -433,6 +433,34 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'yt2400lightfreighterexpansionpack',
+    name: 'YT-2400 Light Freighter Expansion Pack',
+    wave: 10,
+    released: true,
+    contents: {
+      ships: { yt2400lightfreighter: 1 },
+      pilots: {
+        'leebo-swz103-rebelalliance': 1,
+        'dashrendar-swz103-rebelalliance': 1,
+        'leebo-swz103-sl-rebelalliance': 1,
+        'dashrendar-swz103-sl-rebelalliance': 1,
+        'leebo-swz103-sl-scumandvillainy': 1,
+        'dashrendar-swz103-sl-scumandvillainy': 1,
+      },
+      upgrades: {
+        lonewolf: 1,
+        riggedcargochute: 1,
+        hotshotgunner: 1,
+        veteranturretgunner: 1,
+        protonrockets: 1,
+        heavylasercannon: 1,
+        landocalrissian: 1,
+        outrider: 1,
+      },
+    },
+  },
 ];
 
 export default t;

@@ -417,6 +417,41 @@ export const t: Source[] = [
       },
     },
   },
+  {
+    ffg: -1,
+    xws: 'tiesabomberexpansionpack',
+    name: 'TIE/sa Bomber Expansion Pack',
+    wave: 10,
+    released: true,
+    contents: {
+      ships: { tiesabomber: 2 },
+      pilots: {
+        deathfire: 1,
+        majorrhymer: 1,
+        captainjonus: 1,
+        tomaxbren: 1,
+        'deathfire-swz98': 1,
+        'majorrhymer-swz98': 1,
+        'captainjonus-swz98': 1,
+        'tomaxbren-swz98': 1,
+        gammasquadronace: 2,
+        scimitarsquadronpilot: 2,
+      },
+      upgrades: {
+        advancedprotontorpedoes: 2,
+        protonbombs: 2,
+        connernets: 1,
+        ionbombs: 1,
+        seismiccharges: 1,
+        clustermissiles: 1,
+        ionmissiles: 1,
+        saturationsalvo: 1,
+        disciplined: 2,
+        feedbackping: 2,
+        skilledbombardier: 1,
+      },
+    },
+  },
 ];
 
 export default t;
