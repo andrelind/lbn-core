@@ -158,7 +158,8 @@ const t: ShipType = {
       ],
       image:
         'https://infinitearenas.com/xw2/images/pilots/leebo-wisdomofages.png',
-      artwork: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/upgrades/outrider.jpg',
     },
     {
       name: 'Dash Rendar',
@@ -195,7 +196,8 @@ const t: ShipType = {
       ],
       image:
         'https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png',
-      artwork: '',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/upgrades/outrider.jpg',
     },
     {
       name: '"Leebo"',
