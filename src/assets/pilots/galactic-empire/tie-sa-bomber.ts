@@ -201,6 +201,56 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
     },
     {
+      name: 'Captain Jonus',
+      caption: 'Disciplined Instructor',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'captainjonus-swz105',
+      ability:
+        'While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz105.png',
+      slots: [],
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      standardLoadout: ['feedbackping', 'plasmatorpedoes', 'protonbombs'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: 'Tomax Bren',
+      caption: 'Brash Maverick',
+      initiative: 5,
+      limited: 1,
+      cost: 5,
+      xws: 'tomaxbren-swz105',
+      ability:
+        'After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz105.png',
+      slots: [],
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      standardLoadout: ['elusive', 'barragerockets', 'proximitymines'],
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
       name: '“Deathfire”',
       caption: 'Obstinate Bombardier',
       initiative: 2,

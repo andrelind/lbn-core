@@ -185,7 +185,8 @@ const t: ShipType = {
       limited: 1,
       initiative: 3,
       ability:
-        'At the start of the Engagement Phase, you may spend 1 calculate token to perform a [Coordinate] action. You cannot coordinate ships that do not have the Networked Calculations ship ability.',
+        'After you perform a [Calculate] action, you may spend 1 [Charge] to perform a [Jam] action.',
+      charges: { value: 2, recovers: 0 },
       shipActions: [
         { difficulty: 'White', type: 'Calculate' },
         { difficulty: 'White', type: 'Lock' },
