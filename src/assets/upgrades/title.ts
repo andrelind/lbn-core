@@ -1372,7 +1372,6 @@ const t: UpgradeBase[] = [
         image: 'https://infinitearenas.com/xw2/images/upgrades/razorcrest.png',
       },
     ],
-    standarized: true,
     standard: true,
     epic: true,
     restrictions: [{ chassis: ['st70assaultship'] }],
