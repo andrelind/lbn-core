@@ -299,13 +299,14 @@ const t: ShipType = {
       ability:
         "While another friendly ship defends, if the attacker is in its [Bullseye Arc], you may spend 1 [Force] to change 1 of the defender's blank results to a [Focus] result.",
       cost: 4,
-      loadout: 8,
+      loadout: 11,
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/kitfisto.png',
       image: 'https://infinitearenas.com/xw2/images/pilots/kitfisto.png',
       slots: [
         'Force Power',
         'Force Power',
+        'Cannon',
         'Talent',
         'Astromech',
         'Modification',
