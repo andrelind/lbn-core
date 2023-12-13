@@ -104,7 +104,7 @@ export type Pilot = {
   image?: string;
   artwork?: string;
   standardLoadout?: string[];
-  upgrades?: UpgradeBase[];
+  upgrades?: Upgrade[];
   stats?: Stat[];
   predictedCost?: number;
 };

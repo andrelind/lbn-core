@@ -268,7 +268,7 @@ const t: ShipType = {
       standardLoadout: [
         'dorsalturret',
         'advprotontorpedoes',
-        'preciseastromech',
+        'preciseastromech-battleofyavin',
       ],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png',

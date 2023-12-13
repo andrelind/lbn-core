@@ -393,6 +393,7 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'lukeskywalker-battleofyavin',
+      force: { value: 2, recovers: 1, side: ['light'] },
       ability:
         'After you are declared as the defender during an attack, you may recover 1 [Force].',
       shipAbility: {
@@ -477,7 +478,13 @@ const t: ShipType = {
       ability:
         'After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.',
       charges: { value: 1, recovers: 1 },
-      slots: ['Talent', 'Missile', 'Astromech', 'Modification', 'Configuration'],
+      slots: [
+        'Talent',
+        'Missile',
+        'Astromech',
+        'Modification',
+        'Configuration',
+      ],
       image: 'https://infinitearenas.com/xw2/images/pilots/wesjanson.png',
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png',
@@ -488,6 +495,7 @@ const t: ShipType = {
     },
     {
       name: 'Luke Skywalker',
+      caption: 'Red Five',
       initiative: 5,
       limited: 1,
       cost: 6,
@@ -505,11 +513,12 @@ const t: ShipType = {
     },
     {
       name: 'Jek Porkins',
+      caption: 'Red Six',
       initiative: 4,
       limited: 1,
       cost: 5,
       xws: 'jekporkins-swz106',
-      standardLoadout: ['predate', 'protontorpedoes', 'r5d8-battleofyavin'],
+      standardLoadout: ['predator', 'protontorpedoes', 'r5d8-battleofyavin'],
       slots: [],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-swz106.png',
