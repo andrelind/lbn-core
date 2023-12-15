@@ -1374,8 +1374,8 @@ const t: UpgradeBase[] = [
     ],
     standard: true,
     epic: true,
-    restrictions: [{ chassis: ['st70assaultship'] }],
     extended: true,
+    restrictions: [{ chassis: ['st70assaultship'] }],
   },
   {
     limited: 1,

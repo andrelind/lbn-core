@@ -959,7 +959,18 @@ const t: UpgradeBase[] = [
         image: 'https://infinitearenas.com/xw2/images/upgrades/maul.png',
       },
     ],
-    cost: { value: 12 },
+    cost: {
+      variable: 'faction',
+      values: {
+        'Rebel Alliance': 12,
+        'Scum and Villainy': 10,
+        'First Order': 10,
+        'Galactic Empire': 10,
+        'Separatist Alliance': 10,
+        Resistance: 10,
+        'Galactic Republic': 10,
+      },
+    },
     restrictions: [
       { factions: ['Scum and Villainy'], character: ['Ezra Bridger'] },
     ],

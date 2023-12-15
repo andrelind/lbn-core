@@ -292,6 +292,10 @@ export type Upgrade = UpgradeBase & {
 };
 
 export type UpgradeCostValue = { value: number };
+export type UpgradeCostFaction = {
+  variable: 'faction';
+  values: { [f in Faction]: number };
+};
 export type UpgradeCostAgility = {
   variable: 'agility';
   values: { [s: number]: number };
@@ -309,7 +313,8 @@ export type UpgradeCost =
   | UpgradeCostValue
   | UpgradeCostAgility
   | UpgradeCostSize
-  | UpgradeCostInitiative;
+  | UpgradeCostInitiative
+  | UpgradeCostFaction;
 
 export type UpgradeSide = {
   ffg?: number;
