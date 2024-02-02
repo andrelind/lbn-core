@@ -680,6 +680,24 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'chaffparticles-battleoverendor',
+    sides: [
+      {
+        title: 'Chaff Particles',
+        type: 'Modification',
+        ability:
+          'While defending, you may spend 1 [Focus] result at the end of the Neutralize Results step to remove 1 red or orange token.',
+        slots: ['Modification'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

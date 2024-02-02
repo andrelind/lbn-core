@@ -1128,6 +1128,43 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'itsatrap',
+    sides: [
+      {
+        title: "It's a Trap!",
+        type: 'Talent',
+        ability:
+          'While defending, if there are more other friendly ships then enemy ships at range 0-1, you may reroll 1 of your blank results.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'aceinthehole',
+    sides: [
+      {
+        title: 'Ace In The Hole',
+        type: 'Talent',
+        ability:
+          'At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 jam token to perform a [Barrel Roll] action.',
+        slots: ['Talent'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

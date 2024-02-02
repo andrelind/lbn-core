@@ -1403,6 +1403,28 @@ const t: UpgradeBase[] = [
     extended: true,
     epic: true,
   },
+  {
+    limited: 0,
+    xws: 'millenniumfalcon-battleoverendor',
+    sides: [
+      {
+        ability:
+          'While attacking or defending, if you have a non-lock red or orange token, you may reroll 1 die.        ',
+        title: 'Millennium Falcon',
+        type: 'Title',
+        slots: ['Title'],
+        ffg: -1,
+        // artwork:
+        //   'https://infinitearenas.com/xw2/images/artwork/upgrades/xanadublood.png',
+        // image: 'https://infinitearenas.com/xw2/images/upgrades/xanadublood.png',
+      },
+    ],
+    cost: { value: 0 },
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+  },
 ];
 
 export default t;

@@ -214,6 +214,38 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png',
     },
+    {
+      name: 'Lando Calrissian',
+      xws: 'landocalrissian-battleoverendor',
+      initiative: 5,
+      limited: 1,
+      caption: 'Battle over Endor',
+      standard: true,
+      epic: true,
+      slots: [],
+      ability:
+        'At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative from 1 to 6. You activate at that initiative this phase.',
+      cost: 7,
+      charges: { value: 2, recovers: 0 },
+      extended: true,
+      keywords: ['Freighter', 'YT-1300', 'Light Side'],
+      shipAbility: {
+        name: 'High Stakes',
+        text:
+          'After you perform a red action, you may roll an attack die. On a / result, remove 1 stress.',
+      },
+      standardLoadout: [
+        'itsatrap',
+        'aceinthehole',
+        'niennumb',
+        'airencracken-gunner',
+        '',
+      ],
+      // image:
+      //   'https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png',
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png',
+    },
   ],
 };
 

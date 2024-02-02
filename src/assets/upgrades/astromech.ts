@@ -819,6 +819,25 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 1,
+    xws: 'r2a3-battleoverendor',
+    sides: [
+      {
+        ability:
+          'When you would be dealt a damage card, if you are not defending, you may spend 1 [Charge] and gain 1 strain to discard it instead.',
+        title: 'R2-A3',
+        type: 'Astromech',
+        slots: ['Astromech'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

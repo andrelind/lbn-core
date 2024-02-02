@@ -438,7 +438,7 @@ export const t: Source[] = [
         scimitarsquadronpilot: 2,
       },
       upgrades: {
-        advancedprotontorpedoes: 2,
+        advprotontorpedoes: 2,
         protonbombs: 2,
         connernets: 1,
         ionbombs: 1,

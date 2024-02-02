@@ -231,6 +231,63 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
       image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
     },
+    {
+      xws: 'adonfox',
+      name: 'Adon Fox',
+      caption: 'Battle over Endor',
+      cost: 5,
+      initiative: 3,
+      limited: 1,
+      // ability:
+      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['B-wing'],
+      standardLoadout: ['itsatrap'],
+      extended: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
+      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+    },
+    {
+      xws: 'braylenstramm-battleoverendor',
+      name: 'Braylen Stramm',
+      caption: 'Battle over Endor',
+      cost: 4,
+      initiative: 3,
+      limited: 1,
+      // ability:
+      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['B-wing'],
+      standardLoadout: ['itsatrap'],
+      extended: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
+      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+    },
+    {
+      xws: 'ginamoonsong-battleoverendor',
+      name: 'Gina Moonsong',
+      caption: 'Battle over Endor',
+      cost: 5,
+      initiative: 3,
+      limited: 1,
+      // ability:
+      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      slots: [],
+      standard: true,
+      epic: true,
+      keywords: ['B-wing'],
+      standardLoadout: ['itsatrap'],
+      extended: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
+      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+    },
   ],
 };
 
