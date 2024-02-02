@@ -352,6 +352,7 @@ export type SquadronXWS = {
   tags?: string[];
   format: Format;
   wins?: number;
+  ties?: number;
   losses?: number;
   version?: string;
   createdDatestamp?: number;

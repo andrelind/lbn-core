@@ -806,7 +806,7 @@ const t: UpgradeBase[] = [
     xws: 'strutlockoverride-siegeofcoruscant',
     sides: [
       {
-        title: 'strutlockoverride-siegeofcoruscant',
+        title: 'Strut-Lock Override',
         type: 'Configuration',
         ability:
           'At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.',

@@ -279,7 +279,7 @@ const t: ShipType = {
       standard: true,
       extended: true,
       cost: 3,
-      loadout: 8,
+      loadout: 7,
       force: { value: 1, recovers: 0, side: ['light'] },
       slots: ['Talent', 'Missile', 'Configuration'],
       ability:

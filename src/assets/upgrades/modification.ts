@@ -650,7 +650,7 @@ const t: UpgradeBase[] = [
       {
         ability:
           'While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.',
-        title: 'Contingency Protocol',
+        title: 'Evasion Sequence',
         type: 'Modification',
         slots: ['Modification'],
       },

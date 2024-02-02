@@ -94,7 +94,7 @@ const t: ShipType = {
       ffg: 69,
       standard: true,
       epic: true,
-      loadout: 20,
+      loadout: 15,
       extended: true,
       keywords: ['Freighter', 'YT-1300'],
       image:

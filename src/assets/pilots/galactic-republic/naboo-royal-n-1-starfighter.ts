@@ -96,7 +96,7 @@ const t: ShipType = {
       cost: 4,
       slots: ['Talent', 'Sensor', 'Torpedo', 'Astromech'],
       ffg: 559,
-      loadout: 18,
+      loadout: 16,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/padmeamidala.png',
       artwork:

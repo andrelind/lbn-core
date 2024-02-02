@@ -59,7 +59,7 @@ const t: ShipType = {
       initiative: 6,
       limited: 1,
       cost: 5,
-      loadout: 10,
+      loadout: 9,
       ability:
         'Before a friendly ship at range 1-2 engages, if there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.',
       image:
@@ -85,7 +85,7 @@ const t: ShipType = {
       cost: 4,
       epic: true,
       standard: true,
-      loadout: 9,
+      loadout: 7,
       extended: true,
       image: 'https://infinitearenas.com/xw2/images/pilots/bodicavenj.png',
       artwork:
