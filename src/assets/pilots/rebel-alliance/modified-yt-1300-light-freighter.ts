@@ -236,7 +236,7 @@ const t: ShipType = {
       },
       standardLoadout: [
         'itsatrap',
-        'aceinthehole',
+        'aceinthehole-battleoverendor',
         'niennumb',
         'airencracken-gunner',
         '',

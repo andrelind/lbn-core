@@ -406,6 +406,88 @@ const t: ShipType = {
       artwork:
         'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
     },
+    {
+      name: 'Maus Monare',
+      caption: 'Battle over Endor',
+      xws: 'mausmonare-battleoverendor',
+      initiative: 3,
+      limited: 1,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      cost: 5,
+      slots: [],
+      standardLoadout: ['noescape-battleoverendor'],
+      standard: true,
+      extended: true,
+      ability: 'After you perform an [Evade] action, gain a calculate token.',
+      keywords: ['TIE'],
+      // image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
+      epic: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
+    },
+    {
+      name: 'Sapphire 2',
+      caption: 'Battle over Endor',
+      xws: 'sappphire2-battleoverendor',
+      initiative: 1,
+      limited: 1,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      cost: 4,
+      slots: [],
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'reckless-battleoverendor',
+        'targetingmatrix-battleoverendor',
+        'primedthrusters',
+      ],
+      standard: true,
+      extended: true,
+      ability:
+        'While you defend, if you are focused, roll 1 additional defense die.',
+      keywords: ['TIE'],
+      // image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
+      epic: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
+    },
+    {
+      name: 'Soontir Fel',
+      caption: 'Battle over Endor',
+      xws: 'soontirfel-battleoverendor',
+      initiative: 6,
+      limited: 1,
+      shipAbility: {
+        name: 'Sensitive Controls',
+        text:
+          'During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.',
+      },
+      cost: 5,
+      slots: [],
+      standardLoadout: [
+        'apexpredator-battleoverendor',
+        'noescape-battleoverendor',
+        'blanksignature-battleoverendor',
+        'feedbackemitter-battleoverendor',
+      ],
+      standard: true,
+      extended: true,
+      ability:
+        'After you perform an attack, you may spend 1 [Charge] and gain 1 deplete token to boost or barrel roll.',
+      charges: { value: 2, recovers: 0 },
+      keywords: ['TIE'],
+      // image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
+      epic: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
+    },
   ],
 };
 

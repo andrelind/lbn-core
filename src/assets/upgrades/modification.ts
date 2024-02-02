@@ -698,6 +698,44 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'computerassistedhandling-battleoverendor',
+    sides: [
+      {
+        title: 'Computer-Assisted Handling',
+        type: 'Modification',
+        ability:
+          'After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] or [Barrel Roll] action.',
+        slots: ['Modification'],
+        charges: { value: 1, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'targetingmatrix-battleoverendor',
+    sides: [
+      {
+        title: 'Targeting Matrix',
+        type: 'Modification',
+        ability:
+          'While attacking, you may spend 1 [Focus] result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.',
+        slots: ['Modification'],
+        charges: { value: 1, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

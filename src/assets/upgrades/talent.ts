@@ -1148,13 +1148,70 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 0,
-    xws: 'aceinthehole',
+    xws: 'aceinthehole-battleoverendor',
     sides: [
       {
         title: 'Ace In The Hole',
         type: 'Talent',
         ability:
           'At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 jam token to perform a [Barrel Roll] action.',
+        slots: ['Talent'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'noescape-battleoverendor',
+    sides: [
+      {
+        title: 'No Escape',
+        type: 'Talent',
+        ability:
+          'While you perform a primary attack, if there are more friendly ships then other enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results.',
+        slots: ['Talent'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'reckless-battleoverendor',
+    sides: [
+      {
+        title: 'Reckless',
+        type: 'Talent',
+        ability:
+          'While you perform a red [Boost] or red [Barrel Roll] action, you may use the 1 [Turn Left] or 1 [Turn Right] template instead. If you do, roll an attack die. On a [Hit]/[Critical Hit] result, gain a stress token.',
+        slots: ['Talent'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'apexpredator-battleoverendor',
+    sides: [
+      {
+        title: 'Apex Predator',
+        type: 'Talent',
+        ability:
+          "While you perform a primary attack, if the defender's initative is lower than yours, you may reroll 1 attack die.",
         slots: ['Talent'],
         charges: { value: 2, recovers: 0 },
       },

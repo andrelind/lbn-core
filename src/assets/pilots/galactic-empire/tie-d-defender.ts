@@ -229,6 +229,90 @@ const t: ShipType = {
         'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
       image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
     },
+    {
+      xws: 'captainyorr-battleoverendor',
+      name: 'Captain Yorr',
+      caption: 'Battle over Endor',
+      cost: 6,
+      initiative: 4,
+      limited: 1,
+      ability:
+        'After you perform a primary attack that hits, you may spend 1 [Charge] to perform a bonus [Cannon] attack',
+      slots: [],
+      charges: { value: 2, recovers: 0 },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        {
+          difficulty: 'White',
+          type: 'Evade',
+          linked: { difficulty: 'Red', type: 'Barrel Roll' },
+        },
+        { difficulty: 'White', type: 'Lock' },
+        { difficulty: 'White', type: 'Barrel Roll' },
+        { difficulty: 'White', type: 'Boost' },
+      ],
+      shipAbility: {
+        name: 'Chiss Engineering',
+        text:
+          'After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus.',
+      },
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'predator',
+        'ioncannon',
+        'computerassistedhandling-battleoverendor',
+      ],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      // ffg: 888,
+      extended: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
+      // image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
+    },
+    {
+      xws: 'coloneljendon-battleoverendor',
+      name: 'Colonel Jendon',
+      caption: 'Battle over Endor',
+      cost: 7,
+      initiative: 6,
+      limited: 1,
+      ability:
+        'While you defend, if you are not shielded, you may change 1 of your blank results to a [Focus] result.',
+      slots: [],
+      charges: { value: 2, recovers: 0 },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        {
+          difficulty: 'White',
+          type: 'Evade',
+          linked: { difficulty: 'Red', type: 'Barrel Roll' },
+        },
+        { difficulty: 'White', type: 'Lock' },
+        { difficulty: 'White', type: 'Barrel Roll' },
+        { difficulty: 'White', type: 'Boost' },
+      ],
+      shipAbility: {
+        name: 'Chiss Engineering',
+        text:
+          'After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus.',
+      },
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'predator',
+        'ioncannon',
+        'computerassistedhandling-battleoverendor',
+      ],
+      standard: true,
+      epic: true,
+      keywords: ['TIE'],
+      // ffg: 888,
+      extended: true,
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
+      // image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
+    },
   ],
 };
 

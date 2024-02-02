@@ -113,6 +113,30 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    limited: 0,
+    xws: 'blanksignature-battleoverendor',
+    sides: [
+      {
+        ability:
+          'While defending, if you are not locked by the attacker, you may spend 1 [Focus] to change 1 result to an [Evade] result.',
+        title: 'Blank Signature',
+        type: 'Sensor',
+        slots: ['Sensor'],
+        charges: { value: 1, recovers: 1 },
+
+        // artwork:
+        //   'https://infinitearenas.com/xw2/images/artwork/upgrades/passivesensors.png',
+        // image:
+        //   'https://infinitearenas.com/xw2/images/upgrades/passivesensors.png',
+      },
+    ],
+    cost: { value: 0 },
+    standard: true,
+    epic: true,
+    extended: true,
+    standardLoadoutOnly: true,
+  },
 ];
 
 export default t;

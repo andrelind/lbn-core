@@ -354,6 +354,48 @@ const t: ShipType = {
       epic: true,
       slots: [],
     },
+    {
+      name: 'Scimitar 1',
+      caption: 'Battle over Endor',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'scimitar1-battleoverendor',
+      // ability:
+      //   'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      standardLoadout: ['noescape-battleoverendor'],
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+      slots: [],
+    },
+    {
+      name: 'Scimitar 3',
+      caption: 'Battle over Endor',
+      initiative: 4,
+      limited: 1,
+      cost: 4,
+      xws: 'scimitar3-battleoverendor',
+      // ability:
+      //   'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      shipAbility: {
+        name: 'Nimble Bomber',
+        text:
+          'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
+      },
+      standardLoadout: ['noescape-battleoverendor'],
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+      slots: [],
+    },
   ],
 };
 

@@ -505,6 +505,60 @@ const t: ShipType = {
       keywords: ['TIE'],
       epic: true,
     },
+    {
+      name: 'Lieutenant Hebsly',
+      caption: 'Battle over Endor',
+      xws: 'lieutenanthebsly-battleoverendor',
+      initiative: 3,
+      limited: 1,
+      cost: 3,
+      slots: [],
+      standardLoadout: ['noescape-battleoverendor'],
+      // image:
+      //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: 'Scythe 6',
+      caption: 'Battle over Endor',
+      xws: 'scythe6-battleoverendor',
+      initiative: 3,
+      limited: 1,
+      cost: 3,
+      slots: [],
+      standardLoadout: ['noescape-battleoverendor'],
+      // image:
+      //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
+    {
+      name: 'Major Miranda',
+      caption: 'Battle over Endor',
+      xws: 'majormiranda-battleoverendor',
+      initiative: 3,
+      limited: 1,
+      cost: 4,
+      slots: [],
+      standardLoadout: ['noescape-battleoverendor'],
+      // image:
+      //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
+      // artwork:
+      //   'https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png',
+      standard: true,
+      extended: true,
+      keywords: ['TIE'],
+      epic: true,
+    },
   ],
 };
 

@@ -355,6 +355,25 @@ const t: UpgradeBase[] = [
     epic: true,
     extended: true,
   },
+  {
+    xws: 'feedbackemitter-battleoverendor',
+    limited: 0,
+    sides: [
+      {
+        ability:
+          "After an object acquires a lock on you, you may spend 1 [Charge] to jam that object, ignoring range restrictions. This upgrade's [Charge] may not be recovered.",
+        title: 'Feedback Emitter',
+        charges: { value: 1, recovers: 0 },
+        type: 'Illicit',
+        slots: ['Illicit'],
+      },
+    ],
+    cost: { value: 0 },
+    standard: true,
+    epic: true,
+    extended: true,
+    standardLoadoutOnly: true,
+  },
 ];
 
 export default t;
