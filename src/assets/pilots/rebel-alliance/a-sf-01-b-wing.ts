@@ -236,15 +236,19 @@ const t: ShipType = {
       name: 'Adon Fox',
       caption: 'Battle over Endor',
       cost: 5,
-      initiative: 3,
+      initiative: 1,
       limited: 1,
-      // ability:
-      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      ability: 'While you defend, if you are stressed, roll 1 additional die.',
       slots: [],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      standardLoadout: ['itsatrap'],
+      standardLoadout: [
+        'itsatrap',
+        'partinggift-battleoverendor',
+        'protonbombs',
+        'protonrockets',
+      ],
       extended: true,
       // artwork:
       //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
@@ -255,15 +259,20 @@ const t: ShipType = {
       name: 'Braylen Stramm',
       caption: 'Battle over Endor',
       cost: 4,
-      initiative: 3,
+      initiative: 4,
       limited: 1,
-      // ability:
-      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      ability:
+        'At the start of the Engagement Phase, if a friendly <strong>Gina Moonsong</strong> ship at range 0-2 is stressed, you may gain a focus token.',
       slots: [],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      standardLoadout: ['itsatrap'],
+      standardLoadout: [
+        'itsatrap',
+        'protonbombs',
+        'homingmissiles',
+        'delayedfuses',
+      ],
       extended: true,
       // artwork:
       //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
@@ -274,15 +283,15 @@ const t: ShipType = {
       name: 'Gina Moonsong',
       caption: 'Battle over Endor',
       cost: 5,
-      initiative: 3,
+      initiative: 5,
       limited: 1,
-      // ability:
-      //   'After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.',
+      ability:
+        'At the start of the Engagement Phase, if a friendly <strong>Braylen Stramm</strong> ship at range 0-2 is stressed, you may acquire a lock.',
       slots: [],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      standardLoadout: ['itsatrap'],
+      standardLoadout: ['itsatrap', 'juke', 'ionbombs', 'protontorpedoes'],
       extended: true,
       // artwork:
       //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',

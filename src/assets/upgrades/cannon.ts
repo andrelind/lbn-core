@@ -249,6 +249,26 @@ const t: UpgradeBase[] = [
     epic: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'precisiontunedcannons-battleoverendor',
+    sides: [
+      {
+        ability:
+          '<strong>Attack:</strong> If the defender is in your [Bullseye Arc], add 1 [Focus] result.',
+        title: 'Precision-Tuned Cannons',
+
+        type: 'Cannon',
+        slots: ['Cannon'],
+        charges: { value: 2, recovers: 1 },
+      },
+    ],
+    standardLoadoutOnly: true,
+    standard: true,
+    extended: true,
+    epic: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

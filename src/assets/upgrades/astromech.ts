@@ -820,7 +820,7 @@ const t: UpgradeBase[] = [
     cost: { value: 0 },
   },
   {
-    limited: 1,
+    limited: 0,
     xws: 'r2a3-battleoverendor',
     sides: [
       {
@@ -830,6 +830,44 @@ const t: UpgradeBase[] = [
         type: 'Astromech',
         slots: ['Astromech'],
         charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'stabilizingastromech-battleoverendor',
+    sides: [
+      {
+        ability:
+          'After you fully execute a maneuver, you may spend 1 [Charge] to perform a white action, even while stressed.',
+        title: 'Stabilizing Astromech',
+        type: 'Astromech',
+        slots: ['Astromech'],
+        charges: { value: 1, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'modifiedr4punit-battleoverendor',
+    sides: [
+      {
+        ability:
+          'efore you execute a red maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.',
+        title: 'Modified R4-P Unit',
+        type: 'Astromech',
+        slots: ['Astromech'],
+        charges: { value: 1, recovers: 0 },
       },
     ],
     standard: true,

@@ -535,8 +535,15 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'kenidyidele-battleoverendor',
-      standardLoadout: ['itsatrap'],
+      standardLoadout: [
+        'itsatrap',
+        'modifiedr4punit-battleoverendor',
+        'ionmissiles',
+        'chaffparticles-battleoverendor',
+      ],
       slots: [],
+      ability:
+        'After you spend a green token, you may choose a friendly ship at range 1–3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.',
       shipAbility: {
         name: 'Locked S-Foils',
         text: 'After you perform a [Boost] action, gain a deplete token.',
@@ -552,6 +559,7 @@ const t: ShipType = {
     {
       name: 'Wedge Antilles',
       caption: 'Battle over Endor',
+      ability: 'After you perform an attack that hits, gain 1 focus token.',
       initiative: 6,
       limited: 1,
       cost: 5,
@@ -578,11 +586,17 @@ const t: ShipType = {
     {
       name: 'Yendor',
       caption: 'Battle over Endor',
+      ability:
+        'While you perform a primary attack, you may gain a strain token to reroll one of your blank results.',
       initiative: 5,
       limited: 1,
       cost: 5,
-      xws: 'yenndor-battleoverendor',
-      standardLoadout: ['itsatrap'],
+      xws: 'yendor-battleoverendor',
+      standardLoadout: [
+        'itsatrap',
+        'plasmatorpedoes',
+        'stabilizingastromech-battleoverendor',
+      ],
       slots: [],
       shipAbility: {
         name: 'Locked S-Foils',

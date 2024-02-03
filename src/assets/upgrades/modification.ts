@@ -736,6 +736,25 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'targetassistalgorithm-battleoverendor',
+    sides: [
+      {
+        title: 'Target-Assist Algorithm',
+        type: 'Modification',
+        ability:
+          'Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Art], gain a calculate token.',
+        slots: ['Modification'],
+        charges: { value: 1, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

@@ -378,7 +378,12 @@ const t: ShipType = {
       cost: 3,
       ability:
         'While defending, you may gain 1 strain token to change up to 2 of your blank results to [Focus] results.',
-      standardLoadout: ['itsatrap'],
+      standardLoadout: [
+        'itsatrap',
+        'precisiontunedcannons-battleoverendor',
+        'chaffparticles-battleoverendor',
+        'targetassistalgorithm-battleoverendor',
+      ],
       shipAbility: {
         name: 'Vectored Cannons',
         text:
@@ -401,9 +406,13 @@ const t: ShipType = {
       standard: true,
       extended: true,
       cost: 4,
-      // ability:
-      // 'While defending, you may gain 1 strain token to change up to 2 of your blank results to [Focus] results.',
-      standardLoadout: ['itsatrap'],
+      ability:
+        'While defending, you may gain a strain token to change 1 [Focus] result to an [Evade] result.',
+      standardLoadout: [
+        'itsatrap',
+        'heroicsacrifice-battleoverendor',
+        'protonrockets',
+      ],
       shipAbility: {
         name: 'Vectored Cannons',
         text:
@@ -428,7 +437,12 @@ const t: ShipType = {
       cost: 4,
       ability:
         'While you are disarmed, you can still perform [Missile] attacks. When you perform a [Missile] attack while disarmed, roll a maximum of 4 dice.',
-      standardLoadout: ['itsatrap', 'juke', 'protonrockets', 'chaffparticles'],
+      standardLoadout: [
+        'itsatrap',
+        'juke',
+        'protonrockets',
+        'chaffparticles-battleoverendor',
+      ],
       shipActions: [
         {
           difficulty: 'White',

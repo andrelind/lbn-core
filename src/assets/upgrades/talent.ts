@@ -1222,6 +1222,42 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'heroicsacrifice-battleoverendor',
+    sides: [
+      {
+        title: 'Heroic Sacrifice',
+        type: 'Talent',
+        ability:
+          'After you perform a [Slam] action, roll 5 attack dice. Each large ship, huge ship, and scenario feature at range 0 suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result, bypassing shields.Then this ship is destroyed.\n\nYou can perform [Slam] actions, even while stressed.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'partinggift-battleoverendor',
+    sides: [
+      {
+        title: 'Parting Gift',
+        type: 'Talent',
+        ability:
+          'When you are destroyed, before you are removed, you may spend 1 [Charge] on an equipped [Device] upgrade to drop or launch a bomb using a speed 1 straight or bank template.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;
