@@ -727,7 +727,6 @@ const t: UpgradeBase[] = [
         ability:
           'While attacking, you may spend 1 [Focus] result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.',
         slots: ['Modification'],
-        charges: { value: 1, recovers: 0 },
       },
     ],
     standard: true,
@@ -746,7 +745,44 @@ const t: UpgradeBase[] = [
         ability:
           'Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Art], gain a calculate token.',
         slots: ['Modification'],
-        charges: { value: 1, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'ionmaneuveringjet-battleoverendor',
+    sides: [
+      {
+        title: 'Ion Maneuvering Jet',
+        type: 'Modification',
+        ability:
+          'After you fully execute a Koiogran Turn [Koiogran Turn] maneuver, you may spend 1 [Charge] to perform an action, even while stressed.',
+        slots: ['Modification'],
+        charges: { value: 2, recovers: 0 },
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'fuelinjectionoverride-battleoverendor',
+    sides: [
+      {
+        title: 'Fuel Injection Override',
+        type: 'Modification',
+        ability:
+          'While you perform a [Boost] or [Barrel Roll] action, you may spend 1 [Charge] to use a template of 1 speed higher.',
+        slots: ['Modification'],
+        charges: { value: 2, recovers: 0 },
       },
     ],
     standard: true,

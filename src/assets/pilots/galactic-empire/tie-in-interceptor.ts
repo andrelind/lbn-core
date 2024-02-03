@@ -419,7 +419,11 @@ const t: ShipType = {
       },
       cost: 5,
       slots: [],
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'outmaneuver',
+        'fuelinjectionoverride-battleoverendor',
+      ],
       standard: true,
       extended: true,
       ability: 'After you perform an [Evade] action, gain a calculate token.',

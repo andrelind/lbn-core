@@ -361,14 +361,20 @@ const t: ShipType = {
       limited: 1,
       cost: 4,
       xws: 'scimitar1-battleoverendor',
-      // ability:
-      //   'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      ability:
+        'After a friendly ship at range 0–3 performs an attack, you may spend 1 [Charge] to acquire a lock on the defender.',
+      charges: { value: 2, recovers: 0 },
       shipAbility: {
         name: 'Nimble Bomber',
         text:
           'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
       },
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'marksmanship',
+        'ionbombs',
+        'protontorpedoes',
+      ],
       standard: true,
       extended: true,
       keywords: ['TIE'],
@@ -382,14 +388,20 @@ const t: ShipType = {
       limited: 1,
       cost: 4,
       xws: 'scimitar3-battleoverendor',
-      // ability:
-      //   'While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.',
+      ability:
+        'After you drop a bomb, you may spend 1 [Charge] to perform a [Boost] action.',
+      charges: { value: 2, recovers: 0 },
       shipAbility: {
         name: 'Nimble Bomber',
         text:
           'If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.',
       },
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'partinggift-battleoverendor',
+        'protontorpedoes',
+        'protonbombs',
+      ],
       standard: true,
       extended: true,
       keywords: ['TIE'],

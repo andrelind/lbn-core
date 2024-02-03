@@ -1258,6 +1258,24 @@ const t: UpgradeBase[] = [
     standardLoadoutOnly: true,
     cost: { value: 0 },
   },
+  {
+    limited: 0,
+    xws: 'collected-battleoverendor',
+    sides: [
+      {
+        title: 'Collected',
+        type: 'Talent',
+        ability:
+          'After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
 ];
 
 export default t;

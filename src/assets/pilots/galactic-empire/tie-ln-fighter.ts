@@ -512,8 +512,29 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       cost: 3,
+      ability:
+        'After you defend, you may perform a red [Boost] action, even while stressed',
       slots: [],
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: [
+        'collected-battleoverendor',
+        'elusive',
+        'noescape-battleoverendor',
+      ],
+      shipAbility: {
+        name: 'Formed Up',
+        text:
+          'At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token.',
+      },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        { difficulty: 'White', type: 'Evade' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Evade' },
+        },
+        { difficulty: 'Red', type: 'Boost' },
+      ],
       // image:
       //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
       // artwork:
@@ -530,8 +551,29 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       cost: 3,
+      ability:
+        'While you perform an attack at attack range 1-2, roll 1 additional attack die.',
       slots: [],
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: [
+        'noescape-battleoverendor',
+        'predator',
+        'ionmaneuveringjet-battleoverendor',
+        'targetingmatrix-battleoverendor',
+      ],
+      shipAbility: {
+        name: 'Formed Up',
+        text:
+          'At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token.',
+      },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        { difficulty: 'White', type: 'Evade' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Evade' },
+        },
+      ],
       // image:
       //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
       // artwork:
@@ -548,8 +590,25 @@ const t: ShipType = {
       initiative: 3,
       limited: 1,
       cost: 4,
+      ability:
+        'During the End Phase, you may choose up to 2 friendly small ships at range 0–2. You and the chosen ships may perform a red [Barrel Roll] or red [Boost] action.',
       slots: [],
-      standardLoadout: ['noescape-battleoverendor'],
+      standardLoadout: ['ruthless', 'swarmtactics', 'noescape-battleoverendor'],
+      shipAbility: {
+        name: 'Formed Up',
+        text:
+          'At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token.',
+      },
+      shipActions: [
+        { difficulty: 'White', type: 'Focus' },
+        { difficulty: 'White', type: 'Evade' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Evade' },
+        },
+        { difficulty: 'Red', type: 'Coordinate' },
+      ],
       // image:
       //   'https://infinitearenas.com/xw2/images/quickbuilds/valenrudor-swz105.png',
       // artwork:
