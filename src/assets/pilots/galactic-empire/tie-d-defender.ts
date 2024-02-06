@@ -300,8 +300,8 @@ const t: ShipType = {
       },
       standardLoadout: [
         'noescape-battleoverendor',
-        'predator',
-        'ioncannon',
+        'pushthelimit-battleoverendor',
+        'protoncannons',
         'computerassistedhandling-battleoverendor',
       ],
       standard: true,
