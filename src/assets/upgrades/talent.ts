@@ -1130,24 +1130,6 @@ const t: UpgradeBase[] = [
   },
   {
     limited: 0,
-    xws: 'itsatrap',
-    sides: [
-      {
-        title: "It's a Trap!",
-        type: 'Talent',
-        ability:
-          'While defending, if there are more other friendly ships then enemy ships at range 0-1, you may reroll 1 of your blank results.',
-        slots: ['Talent'],
-      },
-    ],
-    standard: true,
-    extended: true,
-    epic: true,
-    standardLoadoutOnly: true,
-    cost: { value: 0 },
-  },
-  {
-    limited: 0,
     xws: 'aceinthehole-battleoverendor',
     sides: [
       {
@@ -1267,6 +1249,42 @@ const t: UpgradeBase[] = [
         type: 'Talent',
         ability:
           'After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'pushthelimit-battleoverendor',
+    sides: [
+      {
+        title: 'Push The Limit',
+        type: 'Talent',
+        ability:
+          'After you fully execute a red maneuver or perform a red action, if you are not strained, you may gain 1 strain token to remove 1 stress token.',
+        slots: ['Talent'],
+      },
+    ],
+    standard: true,
+    extended: true,
+    epic: true,
+    standardLoadoutOnly: true,
+    cost: { value: 0 },
+  },
+  {
+    limited: 0,
+    xws: 'itsatrap-battleoverendor',
+    sides: [
+      {
+        title: "It's a Trap!",
+        type: 'Talent',
+        ability:
+          'While defending, if there are more other friendly ships than enemy ships at range 0-1, you may reroll 1 of your blank results.',
         slots: ['Talent'],
       },
     ],

@@ -379,7 +379,7 @@ const t: ShipType = {
       ability:
         'While defending, you may gain 1 strain token to change up to 2 of your blank results to [Focus] results.',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'precisiontunedcannons-battleoverendor',
         'chaffparticles-battleoverendor',
         'targetassistalgorithm-battleoverendor',
@@ -409,7 +409,7 @@ const t: ShipType = {
       ability:
         'While defending, you may gain a strain token to change 1 [Focus] result to an [Evade] result.',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'heroicsacrifice-battleoverendor',
         'protonrockets',
       ],
@@ -438,7 +438,7 @@ const t: ShipType = {
       ability:
         'While you are disarmed, you can still perform [Missile] attacks. When you perform a [Missile] attack while disarmed, roll a maximum of 4 dice.',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'juke',
         'protonrockets',
         'chaffparticles-battleoverendor',
@@ -465,11 +465,11 @@ const t: ShipType = {
       },
       slots: [],
       keywords: ['A-wing'],
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png',
-      // image:
-      //   'https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png',
       epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/tychocelchu-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu-battleoverendor.png',
     },
   ],
 };

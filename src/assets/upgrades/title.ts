@@ -1414,9 +1414,6 @@ const t: UpgradeBase[] = [
         type: 'Title',
         slots: ['Title'],
         ffg: -1,
-        // artwork:
-        //   'https://infinitearenas.com/xw2/images/artwork/upgrades/xanadublood.png',
-        // image: 'https://infinitearenas.com/xw2/images/upgrades/xanadublood.png',
       },
     ],
     cost: { value: 0 },

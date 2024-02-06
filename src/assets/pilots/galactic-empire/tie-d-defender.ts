@@ -265,11 +265,11 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      // ffg: 888,
       extended: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
-      // image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/captainyorr-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/captainyorr-battleoverendor.png',
     },
     {
       xws: 'coloneljendon-battleoverendor',
@@ -307,11 +307,11 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['TIE'],
-      // ffg: 888,
       extended: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png',
-      // image: 'https://infinitearenas.com/xw2/images/pilots/captaindobbs.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/coloneljendon-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon-battleoverendor.png',
     },
   ],
 };

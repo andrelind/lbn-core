@@ -235,16 +235,16 @@ const t: ShipType = {
           'After you perform a red action, you may roll an attack die. On a / result, remove 1 stress.',
       },
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'aceinthehole-battleoverendor',
         'niennumb',
         'airencracken-gunner',
         '',
       ],
-      // image:
-      //   'https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png',
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/landocalrissian-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-battleoverendor.png',
     },
   ],
 };

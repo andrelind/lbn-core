@@ -162,14 +162,7 @@ const t: ShipType = {
       limited: 1,
       ability:
         'While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.',
-      slots: [
-        'Tech',
-        'Turret',
-        'Torpedo',
-        'Missile',
-        'Astromech',
-        'Device',
-      ],
+      slots: ['Tech', 'Turret', 'Torpedo', 'Missile', 'Astromech', 'Device'],
       standard: true,
       epic: true,
       keywords: ['Y-wing'],

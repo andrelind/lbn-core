@@ -536,7 +536,7 @@ const t: ShipType = {
       cost: 5,
       xws: 'kenidyidele-battleoverendor',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'modifiedr4punit-battleoverendor',
         'ionmissiles',
         'chaffparticles-battleoverendor',
@@ -565,7 +565,7 @@ const t: ShipType = {
       cost: 5,
       xws: 'wedgeantilles-battleoverendor',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'predator',
         'advprotontorpedoes',
         'r2a3-battleoverendor',
@@ -575,13 +575,14 @@ const t: ShipType = {
         name: 'Locked S-Foils',
         text: 'After you perform a [Boost] action, gain a deplete token.',
       },
-      // image:
-      //   'https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-swz106.png',
-      // artwork: '',
       standard: true,
       extended: true,
       keywords: ['X-wing'],
       epic: true,
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-battleoverendor.png',
     },
     {
       name: 'Yendor',
@@ -593,7 +594,7 @@ const t: ShipType = {
       cost: 5,
       xws: 'yendor-battleoverendor',
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'plasmatorpedoes',
         'stabilizingastromech-battleoverendor',
       ],

@@ -244,7 +244,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing'],
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'partinggift-battleoverendor',
         'protonbombs',
         'protonrockets',
@@ -268,7 +268,7 @@ const t: ShipType = {
       epic: true,
       keywords: ['B-wing'],
       standardLoadout: [
-        'itsatrap',
+        'itsatrap-battleoverendor',
         'protonbombs',
         'homingmissiles',
         'delayedfuses',
@@ -291,7 +291,12 @@ const t: ShipType = {
       standard: true,
       epic: true,
       keywords: ['B-wing'],
-      standardLoadout: ['itsatrap', 'juke', 'ionbombs', 'protontorpedoes'],
+      standardLoadout: [
+        'itsatrap-battleoverendor',
+        'juke',
+        'ionbombs',
+        'protontorpedoes',
+      ],
       extended: true,
       // artwork:
       //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',

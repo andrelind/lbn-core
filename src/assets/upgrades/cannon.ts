@@ -257,7 +257,6 @@ const t: UpgradeBase[] = [
         ability:
           '<strong>Attack:</strong> If the defender is in your [Bullseye Arc], add 1 [Focus] result.',
         title: 'Precision-Tuned Cannons',
-
         type: 'Cannon',
         slots: ['Cannon'],
         charges: { value: 2, recovers: 1 },

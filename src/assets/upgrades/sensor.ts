@@ -124,11 +124,6 @@ const t: UpgradeBase[] = [
         type: 'Sensor',
         slots: ['Sensor'],
         charges: { value: 1, recovers: 1 },
-
-        // artwork:
-        //   'https://infinitearenas.com/xw2/images/artwork/upgrades/passivesensors.png',
-        // image:
-        //   'https://infinitearenas.com/xw2/images/upgrades/passivesensors.png',
       },
     ],
     cost: { value: 0 },

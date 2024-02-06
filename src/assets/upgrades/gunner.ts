@@ -766,9 +766,10 @@ const t: UpgradeBase[] = [
     extended: true,
     epic: true,
   },
+
   {
-    limited: 0,
-    xws: 'airencracken-gunner',
+    limited: 1,
+    xws: 'airencracken-battleoverendor',
     sides: [
       {
         title: 'Airen Cracken',
@@ -776,22 +777,13 @@ const t: UpgradeBase[] = [
         ability:
           'After defending, if the attack hit, you may gain 1 deplete token to perform a bonus primary attack targeting the attacker.',
         slots: ['Gunner'],
-        ffg: -1,
-        // artwork:
-        //   'https://infinitearenas.com/xw2/images/artwork/upgrades/garsaxon-gunner.png',
-        // image:
-        //   'https://infinitearenas.com/xw2/images/upgrades/garsaxon-gunner.png',
       },
     ],
-    cost: { value: 6 },
-    // restrictions: [
-    //   { baseSizes: ['Large', 'Huge'] },
-    //   { factions: ['Scum and Villainy'] },
-    // ],
     standard: true,
     extended: true,
     epic: true,
     standardLoadoutOnly: true,
+    cost: { value: 0 },
   },
 ];
 

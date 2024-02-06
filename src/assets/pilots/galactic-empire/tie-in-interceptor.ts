@@ -452,15 +452,16 @@ const t: ShipType = {
         'targetingmatrix-battleoverendor',
         'primedthrusters',
       ],
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/sapphire2-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/sapphire2-battleoverendor.png',
       standard: true,
       extended: true,
       ability:
         'While you defend, if you are focused, roll 1 additional defense die.',
       keywords: ['TIE'],
-      // image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
       epic: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
     },
     {
       name: 'Soontir Fel',
@@ -487,10 +488,11 @@ const t: ShipType = {
         'After you perform an attack, you may spend 1 [Charge] and gain 1 deplete token to boost or barrel roll.',
       charges: { value: 2, recovers: 0 },
       keywords: ['TIE'],
-      // image: 'https://infinitearenas.com/xw2/images/pilots/secondsister.png',
       epic: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/soontirfel-battleoverendor.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel-battleoverendor.png',
     },
   ],
 };
