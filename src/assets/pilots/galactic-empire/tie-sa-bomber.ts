@@ -357,7 +357,7 @@ const t: ShipType = {
     {
       name: 'Scimitar 1',
       caption: 'Battle over Endor',
-      initiative: 4,
+      initiative: 3,
       limited: 1,
       cost: 4,
       xws: 'scimitar1-battleoverendor',

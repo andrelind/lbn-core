@@ -584,10 +584,10 @@ const t: ShipType = {
       epic: true,
     },
     {
-      name: 'Major Miranda',
+      name: 'Major Mianda',
       caption: 'Battle over Endor',
-      xws: 'majormiranda-battleoverendor',
-      initiative: 3,
+      xws: 'majormianda-battleoverendor',
+      initiative: 5,
       limited: 1,
       cost: 4,
       ability:
