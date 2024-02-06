@@ -548,7 +548,7 @@ const t: ShipType = {
       name: 'Scythe 6',
       caption: 'Battle over Endor',
       xws: 'scythe6-battleoverendor',
-      initiative: 3,
+      initiative: 2,
       limited: 1,
       cost: 3,
       ability:
