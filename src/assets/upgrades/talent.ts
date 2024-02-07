@@ -1157,7 +1157,6 @@ const t: UpgradeBase[] = [
         ability:
           'While you perform a primary attack, if there are more friendly ships then other enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results.',
         slots: ['Talent'],
-        charges: { value: 2, recovers: 0 },
       },
     ],
     standard: true,
