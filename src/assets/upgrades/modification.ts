@@ -743,7 +743,7 @@ const t: UpgradeBase[] = [
         title: 'Target-Assist Algorithm',
         type: 'Modification',
         ability:
-          'Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Art], gain a calculate token.',
+          'Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Arc], gain a calculate token.',
         slots: ['Modification'],
       },
     ],
