@@ -240,6 +240,25 @@ const t: ShipType = {
       limited: 1,
       ability: 'While you defend, if you are stressed, roll 1 additional die.',
       slots: [],
+      shipAbility: {
+        name: 'Gyro-Cockpit',
+        text:
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+      },
+      shipActions: [
+        {
+          difficulty: 'White',
+          linked: { difficulty: 'Red', type: 'Barrel Roll' },
+          type: 'Focus',
+        },
+        { difficulty: 'White', type: 'Lock' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Lock' },
+        },
+        { difficulty: 'Red', type: 'Reload' },
+      ],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
@@ -264,6 +283,25 @@ const t: ShipType = {
       ability:
         'At the start of the Engagement Phase, if a friendly <strong>Gina Moonsong</strong> ship at range 0-2 is stressed, you may gain a focus token.',
       slots: [],
+      shipAbility: {
+        name: 'Gyro-Cockpit',
+        text:
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+      },
+      shipActions: [
+        {
+          difficulty: 'White',
+          linked: { difficulty: 'Red', type: 'Barrel Roll' },
+          type: 'Focus',
+        },
+        { difficulty: 'White', type: 'Lock' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Lock' },
+        },
+        { difficulty: 'Red', type: 'Reload' },
+      ],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
@@ -288,6 +326,25 @@ const t: ShipType = {
       ability:
         'At the start of the Engagement Phase, if a friendly <strong>Braylen Stramm</strong> ship at range 0-2 is stressed, you may acquire a lock.',
       slots: [],
+      shipAbility: {
+        name: 'Gyro-Cockpit',
+        text:
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+      },
+      shipActions: [
+        {
+          difficulty: 'White',
+          linked: { difficulty: 'Red', type: 'Barrel Roll' },
+          type: 'Focus',
+        },
+        { difficulty: 'White', type: 'Lock' },
+        {
+          difficulty: 'White',
+          type: 'Barrel Roll',
+          linked: { difficulty: 'Red', type: 'Lock' },
+        },
+        { difficulty: 'Red', type: 'Reload' },
+      ],
       standard: true,
       epic: true,
       keywords: ['B-wing'],
