@@ -243,8 +243,9 @@ const t: ShipType = {
       shipAbility: {
         name: 'Gyro-Cockpit',
         text:
-          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
+      charges: { value: 2, recovers: 0 },
       shipActions: [
         {
           difficulty: 'White',
@@ -286,8 +287,15 @@ const t: ShipType = {
       shipAbility: {
         name: 'Gyro-Cockpit',
         text:
-          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
+      charges: { value: 2, recovers: 0 },
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 3 },
+        { type: 'agility', value: 1 },
+        { type: 'hull', value: 4 },
+        { type: 'shields', value: 5 },
+      ],
       shipActions: [
         {
           difficulty: 'White',
@@ -329,8 +337,15 @@ const t: ShipType = {
       shipAbility: {
         name: 'Gyro-Cockpit',
         text:
-          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a devicem, you may spend a [Charge] to set the template with its middle line aligned with the hasmark on your ship's left or right side instead of your rear guides",
+          "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
+      charges: { value: 2, recovers: 0 },
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 3 },
+        { type: 'agility', value: 1 },
+        { type: 'hull', value: 4 },
+        { type: 'shields', value: 5 },
+      ],
       shipActions: [
         {
           difficulty: 'White',

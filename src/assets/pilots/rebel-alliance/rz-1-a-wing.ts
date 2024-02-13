@@ -391,10 +391,10 @@ const t: ShipType = {
       },
       slots: [],
       keywords: ['A-wing'],
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png',
-      // image:
-      //   'https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/gemmersojan-battleoverendor.png',
+      image:
+        'https://infinitearenas.com/xw2/images/quickbuilds/gemmersojan-battleoverendor.png',
       epic: true,
     },
     {
@@ -442,6 +442,12 @@ const t: ShipType = {
         'juke',
         'protonrockets',
         'chaffparticles-battleoverendor',
+      ],
+      stats: [
+        { arc: 'Front Arc', type: 'attack', value: 2 },
+        { type: 'agility', value: 3 },
+        { type: 'hull', value: 2 },
+        { type: 'shields', value: 3 },
       ],
       shipActions: [
         {
