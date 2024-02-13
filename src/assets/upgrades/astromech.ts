@@ -825,11 +825,11 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'When you would be dealt a damage card, if you are not defending, you may spend 1 [Charge] and gain 1 strain to discard it instead.',
+          'After you perform an action, you may spend 1 [Charge] to acquire a lock.',
         title: 'R2-A3',
         type: 'Astromech',
         slots: ['Astromech'],
-        charges: { value: 2, recovers: 0 },
+        charges: { value: 1, recovers: 0 },
       },
     ],
     standard: true,
