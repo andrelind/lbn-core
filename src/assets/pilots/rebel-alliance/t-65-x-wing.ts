@@ -533,7 +533,7 @@ const t: ShipType = {
       caption: 'Battle over Endor',
       initiative: 4,
       limited: 1,
-      cost: 5,
+      cost: 4,
       xws: 'kenidyidele-battleoverendor',
       standardLoadout: [
         'itsatrap-battleoverendor',

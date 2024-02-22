@@ -245,7 +245,7 @@ const t: ShipType = {
         text:
           "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
-      charges: { value: 2, recovers: 0 },
+      charges: { value: 2, recovers: 1 },
       shipActions: [
         {
           difficulty: 'White',
@@ -270,9 +270,10 @@ const t: ShipType = {
         'protonrockets',
       ],
       extended: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
-      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/adonfox-battleoverendor.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/adonfox-battleoverendor.png',
     },
     {
       xws: 'braylenstramm-battleoverendor',
@@ -289,7 +290,7 @@ const t: ShipType = {
         text:
           "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
-      charges: { value: 2, recovers: 0 },
+      charges: { value: 2, recovers: 1 },
       stats: [
         { arc: 'Front Arc', type: 'attack', value: 3 },
         { type: 'agility', value: 1 },
@@ -320,9 +321,10 @@ const t: ShipType = {
         'delayedfuses',
       ],
       extended: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
-      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm-battleoverendor.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/braylenstramm-battleoverendor.png',
     },
     {
       xws: 'ginamoonsong-battleoverendor',
@@ -339,7 +341,7 @@ const t: ShipType = {
         text:
           "After you gain a stress token, you may spend 2 [Charge] to gain an evade token.\n\nWhen you drop a device, you may spend a [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides",
       },
-      charges: { value: 2, recovers: 0 },
+      charges: { value: 2, recovers: 1 },
       stats: [
         { arc: 'Front Arc', type: 'attack', value: 3 },
         { type: 'agility', value: 1 },
@@ -370,9 +372,10 @@ const t: ShipType = {
         'protontorpedoes',
       ],
       extended: true,
-      // artwork:
-      //   'https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png',
-      // image: 'https://infinitearenas.com/xw2/images/pilots/netrempollard.png',
+      artwork:
+        'https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong-battleoverendor.png',
+      image:
+        'https://infinitearenas.com/xw2/images/pilots/ginamoonsong-battleoverendor.png',
     },
   ],
 };
