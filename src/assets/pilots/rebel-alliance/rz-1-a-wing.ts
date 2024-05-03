@@ -316,10 +316,13 @@ const t: ShipType = {
     },
     {
       name: 'Arvel Crynyd',
+      caption: 'Green Leader',
       initiative: 3,
       limited: 1,
       cost: 4,
       xws: 'arvelcrynyd-swz106',
+      ability:
+        'If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.\n\nWhile you perform an attack at attack range 0, treat it as an attack at attack range 1.',
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-swz106.png',
       standardLoadout: ['predator', 'afterburners'],
@@ -332,11 +335,14 @@ const t: ShipType = {
       epic: true,
     },
     {
-      name: 'Jake Farrell',
+      name: 'Jake Farrell', 
+      caption: 'Sage Instructor', 
       initiative: 4,
       limited: 1,
       cost: 5,
       xws: 'jakefarrell-swz106',
+      ability:
+        'After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.',
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/jakefarrell-swz106.png',
       standardLoadout: ['elusive', 'outmaneuver', 'ionmissiles'],
@@ -350,6 +356,7 @@ const t: ShipType = {
     },
     {
       name: 'Shara Bey',
+      caption: 'Green Four',
       xws: 'sharabey-swz106',
       initiative: 4,
       limited: 1,
