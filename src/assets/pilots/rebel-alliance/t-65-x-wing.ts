@@ -503,7 +503,7 @@ const t: ShipType = {
       ability:
         'After you become the defender (before dice are rolled), you may recover 1 [Force].',
       force: { value: 2, recovers: 1, side: ['light'] },
-      standardLoadout: ['instictiveaim', 'protontorpedoes', 'r2d2'],
+      standardLoadout: ['instinctiveaim', 'protontorpedoes', 'r2d2'],
       slots: [],
       image:
         'https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-swz106.png',
