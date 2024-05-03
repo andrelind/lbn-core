@@ -1,6 +1,6 @@
 {
   "name": "lbn-core",
-  "version": "1.0.266",
+  "version": "1.0.267",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -38,5 +38,6 @@
   "dependencies": {
     "redux": "^4.0.5",
     "uuid": "^8.3.1"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
