@@ -151,6 +151,7 @@ const t: ShipType = {
       caption: 'Siege of Coruscant',
       initiative: 5,
       limited: 1,
+      force: { value: 3, recovers: 1, side: ['dark'] },
       ability:
         'During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.',
       standard: true,
