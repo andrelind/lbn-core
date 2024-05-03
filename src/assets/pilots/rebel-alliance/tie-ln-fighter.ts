@@ -110,7 +110,7 @@ const t: ShipType = {
       xws: 'sabinewren-tielnfighter',
       ability:
         'Before you activate, you may perform a [Barrel Roll] or [Boost] action.',
-      slots: ['Talent', 'Missile', 'Modification'],
+      slots: ['Talent', 'Modification'],
       ffg: 47,
       standard: true,
       epic: true,
