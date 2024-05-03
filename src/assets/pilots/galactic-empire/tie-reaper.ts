@@ -37,7 +37,7 @@ const t: ShipType = {
     { difficulty: 'White', type: 'Jam' },
   ],
   ability: {
-    name: 'Adaptive Ailerons',
+    name: 'Controlled Ailerons',
     text:
       'Before you reveal your dial, if you are not stressed, you may boost.',
   },

@@ -329,10 +329,13 @@ const t: ShipType = {
     },
     {
       name: '“Dutch” Vander',
+      caption: 'Gold Leader',
       initiative: 4,
       limited: 1,
       cost: 4,
       xws: 'dutchvander-swz106',
+      ability:
+        'After you perform the [Lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.',
       standardLoadout: ['ioncannonturret', 'protonbombs'],
       slots: [],
       image:
@@ -346,10 +349,13 @@ const t: ShipType = {
     },
     {
       name: 'Horton Salm',
+      caption: 'Gray Leader',
       initiative: 4,
       limited: 1,
       cost: 4,
-      xws: 'hortonsalm-swz106',
+      xws: 'hortonsalm-Leader', 
+      ability:
+        'While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.',
       standardLoadout: ['ioncannonturret', 'proximitymines'],
       slots: [],
       image:
