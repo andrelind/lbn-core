@@ -500,6 +500,8 @@ const t: ShipType = {
       limited: 1,
       cost: 6,
       xws: 'lukeskywalker-swz106',
+      ability:
+        'After you become the defender (before dice are rolled), you may recover 1 [Force].',
       force: { value: 2, recovers: 1, side: ['light'] },
       standardLoadout: ['instictiveaim', 'protontorpedoes', 'r2d2'],
       slots: [],
@@ -518,6 +520,8 @@ const t: ShipType = {
       limited: 1,
       cost: 5,
       xws: 'jekporkins-swz106',
+      ability:
+        'After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.',
       standardLoadout: ['predator', 'protontorpedoes', 'r5d8-battleofyavin'],
       slots: [],
       image:
