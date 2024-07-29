@@ -2615,7 +2615,7 @@ const t: UpgradeBase[] = [
     sides: [
       {
         ability:
-          'Setup: Equip this side faceup. \n\nAfter a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token.\n\nDuring the End Phase, iif you have 2 or more stress tokens, flip this card.',
+          'Setup: Equip this side faceup. \n\nAfter a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token.\n\nDuring the End Phase, if you have 2 or more stress tokens, flip this card.',
         title: 'Prime Minister Almec',
         type: 'Crew',
         slots: ['Crew'],
